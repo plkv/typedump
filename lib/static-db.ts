@@ -62,7 +62,9 @@ function normalizeFamily(f: Record<string, unknown>): FontFamily {
     createdAt: String(f.createdAt ?? new Date().toISOString()),
     updatedAt: String(f.updatedAt ?? new Date().toISOString()),
     designerInfo: (f.designerInfo as any) ?? undefined,
-    downloadLink: f.downloadLink != null ? String(f.downloadLink) : undefined,
+    downloadLink: f.downloadLink != null
+      ? String(f.downloadLink)
+      : variants[0]?.blobUrl ?? undefined,
     licenseInfo: (f.licenseInfo as any) ?? undefined,
   }
 }
