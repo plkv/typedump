@@ -1,23 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { fontStorageClean } from '@/lib/font-storage-clean'
+import { staticDb } from '@/lib/static-db'
 
 // GET /api/families-v2 - Get all families with family-first structure
-export async function GET(request: NextRequest) {
-  try {
-    const families = await fontStorageClean.getAllFamiliesV2()
-
-    return NextResponse.json({
-      success: true,
-      families,
-      totalFamilies: families.length
-    })
-  } catch (error) {
-    console.error('Families V2 list error:', error)
-    return NextResponse.json(
-      { error: 'Failed to load families', details: error instanceof Error ? error.message : 'Unknown error' },
-      { status: 500 }
-    )
-  }
+export async function GET(_request: NextRequest) {
+  const families = staticDb.getAllFamilies()
+  return NextResponse.json({
+    success: true,
+    families,
+    totalFamilies: families.length,
+  })
 }
 
 // POST /api/families-v2 - Create new family
