@@ -1,19 +1,19 @@
 /* V2 Catalog Design System */
 
 :root {
-  /* Primary action colors */
-  --v2-active-bg: #0a0a0a;
-  --v2-active-fg: #fcfcfc;
+  /* Primary action colors — reference gray tokens, no hardcoded hex */
+  --v2-active-bg: var(--gray-cont-prim);
+  --v2-active-fg: var(--gray-surface-prim);
   --v2-inactive-bg: var(--gray-surface-sec);
   --v2-inactive-fg: var(--gray-cont-prim);
 
   /* Card colors */
-  --v2-card-bg: white;
+  --v2-card-bg: var(--gray-surface-prim);
   --v2-card-border: var(--gray-brd-prim);
 
   /* Shimmer animation */
-  --v2-shimmer-base: #f0f0f0;
-  --v2-shimmer-highlight: #e0e0e0;
+  --v2-shimmer-base: var(--gray-fill-sec);
+  --v2-shimmer-highlight: var(--gray-fill-prim);
 
   /* Backdrop */
   --v2-backdrop: rgba(0, 0, 0, 0.5);
@@ -22,11 +22,6 @@
 /* Dark theme support */
 @media (prefers-color-scheme: dark) {
   :root {
-    --v2-active-bg: #fcfcfc;
-    --v2-active-fg: #0a0a0a;
-    --v2-card-bg: #1a1a1a;
-    --v2-shimmer-base: #2a2a2a;
-    --v2-shimmer-highlight: #3a3a3a;
     --v2-backdrop: rgba(0, 0, 0, 0.7);
   }
 }
@@ -34,7 +29,7 @@
 /* Reusable component styles */
 .v2-button {
   padding: 13px 12px;
-  border-radius: 12px;
+  border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
   font-family: "Inter Variable", sans-serif;
@@ -57,7 +52,7 @@
 
 .v2-badge {
   border: 1px solid var(--v2-card-border);
-  border-radius: 12px;
+  border-radius: var(--radius-component);
   padding: 10px 12px;
   height: 40px;
   font-family: "Inter Variable", sans-serif;
@@ -68,12 +63,12 @@
 
 .v2-card {
   background-color: var(--v2-card-bg);
-  border-radius: 16px;
+  border-radius: var(--radius-card);
   transition: all 0.2s;
 }
 
 .v2-dropdown {
-  border-radius: 12px;
+  border-radius: var(--radius-component);
   background-color: var(--v2-inactive-bg);
   overflow: hidden;
   height: 40px;
@@ -82,7 +77,7 @@
 
 .v2-approach-button {
   padding: 12px 8px;
-  border-radius: 12px;
+  border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
   font-family: "Inter Variable", sans-serif;
@@ -149,7 +144,7 @@
   flex-direction: column;
   height: 100%;
   background-color: var(--v2-card-bg);
-  border-radius: 16px;
+  border-radius: var(--radius-card);
 }
 
 .v2-backdrop {

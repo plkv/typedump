@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Space_Grotesk, Space_Mono } from "next/font/google"
+import { Inter } from "next/font/google"
 import "./globals.css"
 
 const inter = Inter({
@@ -9,29 +9,17 @@ const inter = Inter({
   display: "swap",
 })
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-space-grotesk",
-  display: "swap",
-})
-
-const spaceMono = Space_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-space-mono",
-  display: "swap",
-})
 
 export const metadata: Metadata = {
   title: "typedump | Free font collection – typography for designers",
   description: "Curated collection of 150+ professional free fonts including variable fonts, display fonts, and text fonts. Perfect for web design, branding, and creative projects. Browse by category, language support, and style. All fonts verified with proper licensing.",
   keywords: "free fonts, variable fonts, typography, font collection, web fonts, display fonts, design fonts, font download, professional fonts, curated fonts, open source fonts",
   generator: 'v0.app',
-  metadataBase: new URL('https://baseline-fonts.vercel.app'),
+  metadataBase: new URL('https://typedump.vercel.app'),
   openGraph: {
     title: "typedump | Free font collection – typography for designers",
     description: "150+ curated professional free fonts for designers. Variable fonts, display fonts, multilingual support. Perfect for web design and branding.",
-    url: "https://baseline-fonts.vercel.app",
+    url: "https://typedump.vercel.app",
     siteName: "typedump",
     images: [
       {
@@ -67,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${spaceMono.variable}`}>
+    <html lang="en" className={inter.variable}>
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FL0K563LQ7"></script>
         <script dangerouslySetInnerHTML={{__html:`
@@ -84,9 +72,6 @@ export default function RootLayout({
           fetch('/api/tags/vocab?type=category&collection=Display').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Display=d.list||[]});
           fetch('/api/tags/vocab?type=category&collection=Weirdo').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Weirdo=d.list||[]});
         })();`}} />
-        <link rel="preconnect" href="https://blob.vercel-storage.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="//blob.vercel-storage.com" />
-        <link rel="dns-prefetch" href="//vercel-storage.com" />
         <link rel="stylesheet" href="/api/font-css" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"

@@ -7,7 +7,7 @@ import { ControlledTextPreview } from "@/components/ui/font/ControlledTextPrevie
 import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
 import { familyToSlug } from "@/lib/font-slug"
-import "./v2.css"
+import "./v2/v2.css"
 
 // Font interface for our API data
 interface FontData {

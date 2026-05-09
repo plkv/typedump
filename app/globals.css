@@ -29,6 +29,8 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.625rem;
+  --radius-component: 0.75rem;   /* 12px — buttons, badges, dropdowns */
+  --radius-card: 1rem;           /* 16px — cards, panels */
   --sidebar: oklch(1 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -242,7 +244,7 @@
     justify-content: center;
     align-items: center;
     height: 26px;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     font-family: "Inter Variable", sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -271,7 +273,7 @@
     justify-content: center;
     align-items: center;
     height: 32px;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     font-family: "Inter Variable", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -299,7 +301,7 @@
     display: flex;
     padding: 6px;
     align-items: center;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     font-family: "Inter Variable", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -328,7 +330,7 @@
     display: flex;
     padding: 6px;
     align-items: center;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     background-color: transparent;
     border: none;
     color: var(--gray-cont-prim);
@@ -350,7 +352,7 @@
     padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     font-family: "Inter Variable", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -362,28 +364,13 @@
     cursor: pointer;
   }
 
-  @media (prefers-color-scheme: light) {
-    .download-btn {
-      color: #fcfcfc;
-      background-color: #0a0a0a;
-    }
-
-    .download-btn:hover {
-      background-color: rgba(10, 10, 10, 0.8);
-      color: #fcfcfc;
-    }
+  .download-btn {
+    color: var(--gray-surface-prim);
+    background-color: var(--gray-cont-prim);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .download-btn {
-      color: #0a0a0a;
-      background-color: #fcfcfc;
-    }
-
-    .download-btn:hover {
-      background-color: rgba(252, 252, 252, 0.8);
-      color: #0a0a0a;
-    }
+  .download-btn:hover {
+    background-color: var(--gray-cont-sec);
   }
 
   /* Updated dropdown styling */
@@ -414,7 +401,7 @@
   .dropdown-wrap {
     display: inline-flex;
     align-items: center;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     background-color: var(--gray-surface-sec);
     overflow: hidden;
   }
@@ -456,7 +443,7 @@
     padding: 2px;
     align-items: center;
     align-self: stretch;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     background-color: var(--gray-surface-sec);
   }
 
@@ -469,7 +456,7 @@
     align-items: center;
     gap: 8px;
     flex: 1 0 0;
-    border-radius: 6px;
+    border-radius: var(--radius-sm);
     font-family: "Inter Variable", sans-serif;
     font-size: 12px;
     font-style: normal;
