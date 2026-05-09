@@ -1767,12 +1767,16 @@ export default function FontLibrary() {
                     <div className="flex justify-between items-start gap-4 mb-4">
                       <div className="flex-1">
                         <div className="flex items-center mb-2 flex-row flex-wrap gap-2">
+                          <span className="v2-badge flex items-center" style={{ color: 'inherit' }}>
+                            {font.name}
+                          </span>
                           <a
                             href={`/font/${familyToSlug(font.name)}`}
-                            className="v2-badge flex items-center"
-                            style={{ textDecoration: 'none', color: 'inherit' }}
+                            className="v2-button v2-button-active flex items-center"
+                            style={{ textDecoration: 'none', gap: 4, padding: '6px 10px', fontSize: 13, height: 'auto' }}
+                            onClick={e => e.stopPropagation()}
                           >
-                            <span>{font.name}</span>
+                            Detail ↗
                           </a>
                           {font._availableStyles && font._availableStyles.length > 1 && (
                             <div className="relative v2-dropdown">
