@@ -6,6 +6,7 @@ import { Slider } from "@/components/ui/slider"
 import { ControlledTextPreview } from "@/components/ui/font/ControlledTextPreview"
 import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
+import { familyToSlug } from "@/lib/font-slug"
 import "./v2.css"
 
 // Font interface for our API data
@@ -1768,9 +1769,14 @@ export default function FontLibrary() {
                     <div className="flex justify-between items-start gap-4 mb-4">
                       <div className="flex-1">
                         <div className="flex items-center mb-2 flex-row flex-wrap gap-2">
-                          <div className="v2-badge flex items-center">
-                            <span>{font.name}</span>
-                          </div>
+                          <a
+                            href={`/font/${familyToSlug(font.name)}`}
+                            className="v2-button v2-button-active flex items-center"
+                            style={{ textDecoration: 'none', gap: 6 }}
+                            onClick={e => e.stopPropagation()}
+                          >
+                            {font.name} ↗
+                          </a>
                           {font._availableStyles && font._availableStyles.length > 1 && (
                             <div className="relative v2-dropdown">
                               <select
