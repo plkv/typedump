@@ -188,7 +188,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:46.091Z",
-      "updatedAt": "2025-09-13T23:58:46.143Z"
+      "updatedAt": "2025-09-13T23:58:46.143Z",
+      "downloadLink": "https://github.com/googlefonts/boldonse"
     },
     {
       "name": "DatDot",
@@ -1745,7 +1746,7 @@
       "foundry": "Schibsted ASA",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/schibsted/schibsted-grotesk",
       "id": "family_schibsted_grotesk_1757807925434",
       "variants": [
         {
@@ -2888,7 +2889,7 @@
       "foundry": "GitHub",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/github/mona-sans",
       "id": "family_mona_sans_1757807924916",
       "variants": [
         {
@@ -3082,7 +3083,7 @@
       "foundry": "Unknown",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/RandomMaerks/Overused-Grotesk",
       "id": "family_overused_grotesk_1757807924864",
       "variants": [
         {
@@ -3338,7 +3339,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.760Z",
-      "updatedAt": "2025-09-13T23:58:44.809Z"
+      "updatedAt": "2025-09-13T23:58:44.809Z",
+      "downloadLink": "https://github.com/vegaprotocol/alpha-lyrae"
     },
     {
       "name": "Havana",
@@ -3377,7 +3379,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.708Z",
-      "updatedAt": "2025-09-13T23:58:44.756Z"
+      "updatedAt": "2025-09-13T23:58:44.756Z",
+      "downloadLink": "https://www.framer.com/updates/font-drop-5"
     },
     {
       "name": "Jakob",
@@ -3426,7 +3429,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.654Z",
-      "updatedAt": "2025-09-13T23:58:44.705Z"
+      "updatedAt": "2025-09-13T23:58:44.705Z",
+      "downloadLink": "https://www.framer.com/updates/font-drop-5"
     },
     {
       "name": "Antique Série",
@@ -3516,7 +3520,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.538Z",
-      "updatedAt": "2025-09-13T23:58:44.599Z"
+      "updatedAt": "2025-09-13T23:58:44.599Z",
+      "downloadLink": "https://skrr-type.com/thestralneue"
     },
     {
       "name": "Nouvelle Grotesquerie",
@@ -3622,7 +3627,7 @@
       "foundry": "atipo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://www.atipofoundry.com/fonts/n27",
       "id": "family_n27_1757807924334",
       "variants": [
         {
@@ -3690,7 +3695,7 @@
       "foundry": "Indian Type Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://www.fontshare.com/fonts/general-sans",
       "id": "family_general_sans_1757807924272",
       "variants": [
         {
@@ -3934,7 +3939,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.229Z",
-      "updatedAt": "2025-09-13T23:58:44.268Z"
+      "updatedAt": "2025-09-13T23:58:44.268Z",
+      "downloadLink": "https://github.com/LCTipografi/LCT-Iptex"
     },
     {
       "name": "PicNic",
@@ -3971,7 +3977,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.177Z",
-      "updatedAt": "2025-09-13T23:58:44.225Z"
+      "updatedAt": "2025-09-13T23:58:44.225Z",
+      "downloadLink": "https://velvetyne.fr/fonts/picnic/"
     },
     {
       "name": "Sprat",
@@ -4127,7 +4134,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.122Z",
-      "updatedAt": "2025-09-13T23:58:44.173Z"
+      "updatedAt": "2025-09-13T23:58:44.173Z",
+      "downloadLink": "https://www.collletttivo.it/typefaces/sprat"
     },
     {
       "name": "Insolente",
@@ -4206,7 +4214,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.019Z",
-      "updatedAt": "2025-09-13T23:58:44.068Z"
+      "updatedAt": "2025-09-13T23:58:44.068Z",
+      "downloadLink": "https://github.com/thaiscy/crozet_te"
     },
     {
       "name": "DINdong",
@@ -4253,7 +4262,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.967Z",
-      "updatedAt": "2025-09-13T23:58:44.015Z"
+      "updatedAt": "2025-09-13T23:58:44.015Z",
+      "downloadLink": "https://uncut.wtf/sans-serif/dindong/"
     },
     {
       "name": "Roberte",
@@ -4300,7 +4310,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.916Z",
-      "updatedAt": "2025-09-13T23:58:43.963Z"
+      "updatedAt": "2025-09-13T23:58:43.963Z",
+      "downloadLink": "https://uncut.wtf/display/roberte/"
     },
     {
       "name": "Nudles",
@@ -4420,7 +4431,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.823Z",
-      "updatedAt": "2025-09-13T23:58:43.913Z"
+      "updatedAt": "2025-09-13T23:58:43.913Z",
+      "downloadLink": "https://typotheque.genderfluid.space/fr/fontes/nudles"
     },
     {
       "name": "Commissioner",
@@ -4443,7 +4455,7 @@
       "foundry": "Kostas Bartsokas",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/kosbarts/Commissioner",
       "id": "family_commissioner_1757807923687",
       "variants": [
         {
@@ -5593,7 +5605,7 @@
       "foundry": "Uncut Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/kaspernordkvist/uncut_sans",
       "id": "family_uncut_sans_1757807923638",
       "variants": [
         {
@@ -5779,7 +5791,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.575Z",
-      "updatedAt": "2025-09-13T23:58:43.634Z"
+      "updatedAt": "2025-09-13T23:58:43.634Z",
+      "downloadLink": "https://www.rieslingtype.com/"
     },
     {
       "name": "Block",
@@ -5916,7 +5929,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.416Z",
-      "updatedAt": "2025-09-13T23:58:43.473Z"
+      "updatedAt": "2025-09-13T23:58:43.473Z",
+      "downloadLink": "https://ggbot.itch.io/elevatia-font"
     },
     {
       "name": "Frankinity",
@@ -6015,7 +6029,7 @@
       "foundry": "Colophon Foundry & Benjamin Critton",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/googlefonts/spacemono",
       "id": "family_space_mono_1757807923237",
       "variants": [
         {
@@ -6208,7 +6222,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.185Z",
-      "updatedAt": "2025-09-13T23:58:43.233Z"
+      "updatedAt": "2025-09-13T23:58:43.233Z",
+      "downloadLink": "https://www.fontshare.com/fonts/comico"
     },
     {
       "name": "Pencerio Hairline",
@@ -6251,7 +6266,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.131Z",
-      "updatedAt": "2025-09-13T23:58:43.181Z"
+      "updatedAt": "2025-09-13T23:58:43.181Z",
+      "downloadLink": "https://www.fontshare.com/fonts/pencerio"
     },
     {
       "name": "Sharpie Variable",
@@ -6331,7 +6347,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.079Z",
-      "updatedAt": "2025-09-13T23:58:43.128Z"
+      "updatedAt": "2025-09-13T23:58:43.128Z",
+      "downloadLink": "https://www.fontshare.com/fonts/sharpie"
     },
     {
       "name": "America XIX",
@@ -6650,7 +6667,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.817Z",
-      "updatedAt": "2025-09-13T23:58:42.863Z"
+      "updatedAt": "2025-09-13T23:58:42.863Z",
+      "downloadLink": "https://github.com/LCTipografi/LCT-Mogi"
     },
     {
       "name": "Biceps Grotesk",
@@ -6687,7 +6705,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.760Z",
-      "updatedAt": "2025-09-13T23:58:42.808Z"
+      "updatedAt": "2025-09-13T23:58:42.808Z",
+      "downloadLink": "https://biceps.togetherwithyou.co/"
     },
     {
       "name": "BDO Grotesk",
@@ -6707,7 +6726,7 @@
       "foundry": "Lokal Container",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/LCTipografi/BDO-Grotesk",
       "id": "family_bdo_grotesk_1757807922712",
       "variants": [
         {
@@ -6967,7 +6986,7 @@
       "foundry": "Dicotype",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/Dicotype/Funnel",
       "id": "family_funnel_sans_1757807922601",
       "variants": [
         {
@@ -7164,7 +7183,7 @@
       "foundry": "Raphaël Bastide",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/StudioTriple/Terminal-Grotesque",
       "id": "family_terminal_grotesque_1757807922536",
       "variants": [
         {
@@ -7241,7 +7260,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.488Z",
-      "updatedAt": "2025-09-13T23:58:42.532Z"
+      "updatedAt": "2025-09-13T23:58:42.532Z",
+      "downloadLink": "https://gitlab.com/velvetyne/compagnon"
     },
     {
       "name": "Anthony",
@@ -7285,7 +7305,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.441Z",
-      "updatedAt": "2025-09-13T23:58:42.485Z"
+      "updatedAt": "2025-09-13T23:58:42.485Z",
+      "downloadLink": "https://gitlab.com/velvetyne/anthony"
     },
     {
       "name": "Hubot Sans",
@@ -7443,7 +7464,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.381Z",
-      "updatedAt": "2025-09-13T23:58:42.437Z"
+      "updatedAt": "2025-09-13T23:58:42.437Z",
+      "downloadLink": "https://github.com/github/hubot-sans"
     },
     {
       "name": "Sligoil Micro",
@@ -7559,7 +7581,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.332Z",
-      "updatedAt": "2025-09-13T23:58:42.377Z"
+      "updatedAt": "2025-09-13T23:58:42.377Z",
+      "downloadLink": "https://velvetyne.fr/fonts/sligoil/"
     },
     {
       "name": "Pilowlava",
@@ -7577,7 +7600,7 @@
       "foundry": "Anton Moglia, Jérémy Landes, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://gitlab.com/velvetyne/pilowlava3D",
       "id": "family_pilowlava_1757807922275",
       "variants": [
         {
@@ -7721,7 +7744,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.204Z",
-      "updatedAt": "2025-09-13T23:58:42.271Z"
+      "updatedAt": "2025-09-13T23:58:42.271Z",
+      "downloadLink": "https://github.com/raoulaudouin/outward"
     },
     {
       "name": "Jost",
@@ -8006,7 +8030,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.015Z",
-      "updatedAt": "2025-09-13T23:58:42.200Z"
+      "updatedAt": "2025-09-13T23:58:42.200Z",
+      "downloadLink": "https://github.com/indestructible-type/Jost"
     },
     {
       "name": "Basteleur",
@@ -8069,7 +8094,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.953Z",
-      "updatedAt": "2025-09-13T23:58:42.012Z"
+      "updatedAt": "2025-09-13T23:58:42.012Z",
+      "downloadLink": "https://gitlab.com/velvetyne/basteleur"
     },
     {
       "name": "LT Crewmate",
@@ -8491,7 +8517,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.678Z",
-      "updatedAt": "2025-09-13T23:58:41.723Z"
+      "updatedAt": "2025-09-13T23:58:41.723Z",
+      "downloadLink": "https://rajputrajesh-448.gumroad.com/l/thundertypeface9"
     },
     {
       "name": "Libertinus Sans",
@@ -8571,7 +8598,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.611Z",
-      "updatedAt": "2025-09-13T23:58:41.674Z"
+      "updatedAt": "2025-09-13T23:58:41.674Z",
+      "downloadLink": "https://github.com/alerque/libertinus"
     },
     {
       "name": "Cossette Titre",
@@ -8633,7 +8661,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.543Z",
-      "updatedAt": "2025-09-13T23:58:41.599Z"
+      "updatedAt": "2025-09-13T23:58:41.599Z",
+      "downloadLink": "https://fonts.google.com/specimen/Cossette+Titre"
     },
     {
       "name": "Cossette Texte",
@@ -8719,7 +8748,7 @@
       "foundry": "Unknown",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://github.com/kosbarts/Oi",
       "id": "family_oi_1757807921421",
       "variants": [
         {
@@ -8765,7 +8794,7 @@
       "foundry": "Astigmatic (AOETI)",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "https://fonts.google.com/specimen/Ultra",
       "id": "family_ultra_1757807921366",
       "variants": [
         {
@@ -8833,7 +8862,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.309Z",
-      "updatedAt": "2025-09-13T23:58:41.362Z"
+      "updatedAt": "2025-09-13T23:58:41.362Z",
+      "downloadLink": "https://anrt-type.fr/"
     },
     {
       "name": "Baskervville",
@@ -8973,7 +9003,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.243Z",
-      "updatedAt": "2025-09-13T23:58:41.305Z"
+      "updatedAt": "2025-09-13T23:58:41.305Z",
+      "downloadLink": "https://github.com/anrt-type/ANRT-Baskervville"
     },
     {
       "name": "enjoy please 3",
@@ -16707,7 +16738,8 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:36.836Z",
-      "updatedAt": "2025-09-13T23:58:36.885Z"
+      "updatedAt": "2025-09-13T23:58:36.885Z",
+      "downloadLink": "https://uncut.wtf/display/granturismo/"
     },
     {
       "name": "Format",
