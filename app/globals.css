@@ -116,6 +116,37 @@
   }
 }
 
+/* Force dark tokens regardless of system preference — used by catalog bottom bar */
+.force-dark {
+  /* Gray tokens */
+  --gray-cont-prim: #fcfcfc;
+  --gray-cont-sec: rgba(252, 252, 252, 0.64);
+  --gray-cont-tert: rgba(252, 252, 252, 0.4);
+  --gray-cont-quart: rgba(252, 252, 252, 0.24);
+  --gray-accent-prim: #fcfcfc;
+  --gray-accent-sec: #f2f2f2;
+  --gray-fill-prim: rgba(252, 252, 252, 0.04);
+  --gray-fill-sec: rgba(252, 252, 252, 0.08);
+  --gray-brd-prim: rgba(252, 252, 252, 0.08);
+  --gray-surface-prim: #0a0a0a;
+  --gray-surface-sec: #1f1f1f;
+  /* v2 catalog tokens */
+  --v2-active-bg: #fcfcfc;
+  --v2-active-fg: #0a0a0a;
+  --v2-inactive-bg: rgba(255, 255, 255, 0.06);
+  --v2-inactive-fg: #fcfcfc;
+  --v2-card-bg: #1c1c1e;
+  --v2-card-border: rgba(252, 252, 252, 0.08);
+  --v2-shimmer-base: rgba(252, 252, 252, 0.06);
+  --v2-shimmer-highlight: rgba(252, 252, 252, 0.12);
+  /* shadcn slider tokens */
+  --muted: rgba(255, 255, 255, 0.06);
+  --primary: #fcfcfc;
+  --background: #1c1c1e;
+  --border: rgba(255, 255, 255, 0.08);
+  --ring: rgba(255, 255, 255, 0.2);
+}
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);

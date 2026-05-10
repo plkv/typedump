@@ -26,6 +26,19 @@
   }
 }
 
+/* Button hover in dark context */
+.force-dark .v2-button-inactive:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+
+/* Frosted glass panels (navbar + bottom bar) — always dark */
+.v2-frosted {
+  background-color: rgba(28, 28, 30, 0.82) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
 /* Reusable component styles */
 .v2-button {
   padding: 13px 12px;

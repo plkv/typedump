@@ -1,7 +1,7 @@
 'use client'
 
 interface NavbarProps {
-  theme: { fg: string; bg: string }
+  theme?: { fg: string; bg: string }
 }
 
 export function Navbar({ theme }: NavbarProps) {
@@ -15,7 +15,7 @@ export function Navbar({ theme }: NavbarProps) {
       maxWidth: '440px',
       zIndex: 50,
     }}>
-      <header className="p-4 flex-shrink-0 v2-card" style={{ color: theme.fg }}>
+      <header className="p-4 flex-shrink-0 v2-card v2-frosted">
         <div className="flex items-center gap-4">
           <a
             href="/"
@@ -26,7 +26,7 @@ export function Navbar({ theme }: NavbarProps) {
               fontWeight: 900,
               lineHeight: '100%',
               textTransform: 'lowercase',
-              color: theme.fg,
+              color: 'rgba(255, 255, 255, 0.92)',
               textDecoration: 'none',
             }}
           >

@@ -1193,7 +1193,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
 
           Collections are duplicated: A shows in calm state, B scrolls with filters when open.
         */}
-        <div className="v2-card" style={{ color: getCurrentTheme().fg, overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
+        <div className="v2-card v2-frosted force-dark" style={{ overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
 
           {/* Header — appears above when open */}
           <div style={{
