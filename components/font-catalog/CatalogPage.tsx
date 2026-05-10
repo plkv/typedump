@@ -8,6 +8,7 @@ import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
 // catalog.css is imported globally in layout.tsx
 
+
 // Font interface for our API data
 interface FontData {
   id: number
@@ -46,8 +47,6 @@ interface FontData {
 }
 
 const textPresets = ["Names", "Key Glyphs", "Basic", "Paragraph", "Brands"]
-// Languages will be dynamically generated from current collection
-const weights = [100, 200, 300, 400, 500, 600, 700, 800, 900]
 
 const getPresetContent = (preset: string, fontName: string) => {
   switch (preset) {
@@ -82,7 +81,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   // UI State
   const [sidebarOpen, setSidebarOpen] = useState(false) // matches SSR; set correctly in useEffect below
   const [isMobile, setIsMobile] = useState(false)
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   const selectRefs = useRef<Record<number, HTMLSelectElement | null>>({})
   
   // Font Data State — initialFonts comes from server component, no fetch needed
@@ -96,13 +95,14 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedStyles, setSelectedStyles] = useState<string[]>([])
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([])
-  const [selectedWeights, setSelectedWeights] = useState<number[]>([])
-  const [isItalic, setIsItalic] = useState(false)
+  const [previewWeight, setPreviewWeight] = useState(400)
+  const [selectedFeatures, setSelectedFeatures] = useState<string[]>([])
   const [fontWeightSelections, setFontWeightSelections] = useState<Record<number, { weight: number; italic: boolean; cssFamily?: string; styleName?: string }>>(
     {},
   )
-  const [textSize, setTextSize] = useState([56])
+  const [textSize, setTextSize] = useState([80])
   const [lineHeight, setLineHeight] = useState([120])
+  const [textAlign, setTextAlign] = useState<'left' | 'center' | 'right'>('center')
 
   // Color Theme State
   const [currentColorTheme, setCurrentColorTheme] = useState(0) // 0 = default B&W theme
@@ -120,7 +120,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     { name: 'Maroon', bg: '#8B2635', fg: '#FFFFFF' }, // Maroon background, light foreground
     { name: 'Green', bg: '#22C55E', fg: '#FFFFFF' } // Green background, light foreground
   ]
-  const [viewMode, setViewMode] = useState<"grid" | "list">("list")
+
   const [sortBy, setSortBy] = useState("Date")
   const randomSeedRef = useRef<number>((Date.now() % 100000) / 100000)
 
@@ -132,15 +132,6 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   }
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc") // New = desc, Old = asc
   const [expandedCards, setExpandedCards] = useState<Set<number>>(new Set())
-
-  // Color theme functions
-  const cycleColorTheme = () => {
-    setCurrentColorTheme((prev) => (prev + 1) % colorThemes.length)
-  }
-
-  const resetToBlackAndWhite = () => {
-    setCurrentColorTheme(0)
-  }
 
   const getCurrentTheme = () => colorThemes[currentColorTheme]
   
@@ -161,7 +152,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({})
   const [focusedFontId, setFocusedFontId] = useState<number | null>(null)
 
-  const [editingElementRef, setEditingElementRef] = useState<HTMLDivElement | null>(null)
+
   const [textCursorPosition, setTextCursorPosition] = useState<Record<number, number>>({})
 
   // Load fonts — only runs as fallback when server didn't provide initialFonts
@@ -321,6 +312,37 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     }
   }, [])
 
+  // Helper function to filter out junk OT feature titles (weight instance names, filenames, URLs)
+  const isRealAlternateTitle = (title: string): boolean => {
+    if (!title || title.length < 2) return false
+    if (title.trimEnd().endsWith(':')) return false  // "Name:" garbage
+    if (/https?:\/\/|www\./.test(title)) return false
+    if (/\d+\.\d+[;.]/.test(title) || /;\s*[A-Z]/.test(title)) return false  // version strings
+    if (/^[A-Z][A-Za-z]+-[A-Z]/.test(title)) return false  // filename: "HostGrotesk-Regular"
+    if (/^ss\d+$/i.test(title)) return false  // tag echoed as title
+    if (/^\d+(pt|px|em)$/i.test(title)) return false  // size instances
+    const weightOnly = /^(thin|extralight|extra\s?light|light|regular|medium|semibold|semi\s?bold|demibold|demi\s?bold|bold|extrabold|extra\s?bold|black|book|ultra)([\s-](italic|oblique))?$/i
+    if (weightOnly.test(title.trim())) return false
+    const axisOnly = /^(weight|italic|roman|oblique|width|slant|optical\s?size|optical|informality|bounce|spacing|element\s?shape|element\s?grid|upright)$/i
+    if (axisOnly.test(title.trim())) return false
+    // "FontName Weight" or "Font Name Weight [Italic]" — ends with weight + optional italic suffix
+    const endsWithWeight = /\s(thin|extralight|extra\s?light|light|regular|medium|semibold|semi\s?bold|bold|extrabold|extra\s?bold|black|book)([\s-](italic|oblique|ital))?\s*$/i
+    if (endsWithWeight.test(title)) return false
+    // "ital" abbreviation as full title or suffix
+    if (/^ital$/i.test(title.trim()) || /\sital$/i.test(title.trim())) return false
+    // CamelCase font instance names: "MonoThin", "FontNameBold", etc.
+    if (/^[A-Z][A-Za-z]*(Thin|ExtraLight|Light|Regular|Medium|SemiBold|DemiBold|Bold|ExtraBold|Black|Book)$/.test(title.trim())) return false
+    return true
+  }
+
+  const cleanAlternateTitle = (tag: string, title: string): string => {
+    const cleaned = title.replace(/^name\s*:\s*/i, '').trim()
+    if (isRealAlternateTitle(cleaned)) return cleaned
+    if (tag === 'salt') return 'Alternates'
+    const m = tag.match(/^ss(\d+)$/i)
+    return m ? `Set ${parseInt(m[1])}` : tag.toUpperCase()
+  }
+
   // Helper function to get stylistic alternates from font's OpenType features
   const getStyleAlternates = (fontId: number) => {
     const font = fonts.find((f) => f.id === fontId)
@@ -330,17 +352,19 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     const pushTags = (ff: any) => {
       const list = (ff && (ff as any).openTypeFeatureTags) as Array<{ tag: string; title: string }> | undefined
       if (Array.isArray(list)) list.forEach(({ tag, title }) => {
-        if (/^ss\d\d$|^salt$/i.test(tag) && !tagMap.has(tag)) {
-          tagMap.set(tag, title)
+        if (/^ss\d\d$|^salt$/i.test(tag) && !tagMap.has(tag) && isRealAlternateTitle(title)) {
+          tagMap.set(tag, cleanAlternateTitle(tag, title))
         }
       })
     }
     pushTags(font)
     font._familyFonts?.forEach(pushTags)
     if (tagMap.size > 0) {
+      const seenTitles = new Set<string>()
       return Array.from(tagMap.entries())
         .map(([tag, title]) => ({ tag, title }))
         .sort((a, b) => a.tag.localeCompare(b.tag))
+        .filter(({ title }) => seenTitles.has(title) ? false : (seenTitles.add(title), true))
     }
 
     // Fallback: parse from strings heuristically
@@ -445,6 +469,16 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     return Array.from(allFeatures.entries()).map(([tag, title]) => ({ tag, title })).sort((a, b) => a.tag.localeCompare(b.tag))
   }
 
+  const getFontFeatures = (font: FontData): string[] => {
+    const features: string[] = []
+    if (font.type === 'Variable') features.push('Variable')
+    const axes = (font._familyFonts || []).flatMap((ff: any) => ff.variableAxes || [])
+    if (axes.some((a: any) => (a.tag || a.axis) === 'wdth')) features.push('Variable width')
+    const otTags = (font._familyFonts || []).flatMap((ff: any) => (ff.openTypeFeatureTags || []).map((t: any) => t?.tag || t))
+    if (otTags.some((t: string) => /^ss\d+$/i.test(t) || t === 'salt')) features.push('Alternates')
+    return features
+  }
+
   const getVariableAxes = (fontId: number) => {
     const font = fonts.find((f) => f.id === fontId)
     if (!font?._familyFonts) return []
@@ -467,7 +501,9 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
             defaultValue = min < 0 ? 0 : min
           }
 
-          allAxes.set(axis.axis, { tag: axis.axis, name: axis.name, min, max, default: defaultValue })
+          const tag = axis.tag || axis.axis
+          if (!tag) return
+          allAxes.set(tag, { tag, name: axis.name, min, max, default: defaultValue })
         })
       }
     })
@@ -485,9 +521,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     setSelectedStyles((prev) => (prev.includes(style) ? prev.filter((s) => s !== style) : [...prev, style]))
   }
 
-  const toggleWeight = (weight: number) => {
-    setSelectedWeights((prev) => (prev.includes(weight) ? prev.filter((w) => w !== weight) : [...prev, weight]))
-  }
+
 
   const updateFontSelection = (fontId: number, weight: number, italic: boolean, cssFamily?: string) => {
     setFontWeightSelections((prev) => ({
@@ -515,39 +549,42 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   // Pure filter predicate — no sorting, used by both getFilteredFonts and filterAvailability
   const fontPassesFilters = (
     font: FontData,
-    cols: string[], cats: string[], stags: string[], langs: string[], wts: number[], itl: boolean
+    cols: string[], cats: string[], stags: string[], langs: string[], feats: string[], wt: number | null
   ): boolean => {
     if (cols.length > 0 && !cols.includes(font.collection || 'Text')) return false
     if (cats.length > 0 && !cats.every(c => (font.categories || []).includes(c))) return false
     if (stags.length > 0 && !stags.every(s => (font.styleTags || []).includes(s))) return false
     if (langs.length > 0 && !langs.some(l => (font.languages || []).includes(l))) return false
-    if (wts.length > 0 && !wts.some(w => font.availableWeights.includes(w))) return false
-    if (itl && !font.hasItalic) return false
+    if (feats.length > 0) {
+      const fontFeats = getFontFeatures(font)
+      if (!feats.every(f => fontFeats.includes(f))) return false
+    }
+    if (wt !== null && !font.availableWeights.includes(wt)) return false
     return true
   }
 
   // Which filter options still yield results — drives disabled state in sidebar
   const filterAvailability = useMemo(() => {
     const c = selectedCollections, ca = selectedCategories, st = selectedStyles
-    const la = selectedLanguages, wt = selectedWeights, it = isItalic
+    const la = selectedLanguages, fe = selectedFeatures, wt = previewWeight
 
     // For OR-groups: check against fonts passing all OTHER groups
-    const forCols  = fonts.filter(f => fontPassesFilters(f, [],  ca, st, la, wt, it))
-    const forLangs = fonts.filter(f => fontPassesFilters(f, c, ca, st, [], wt, it))
-    const forWts   = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, [], false))
+    const forCols  = fonts.filter(f => fontPassesFilters(f, [],  ca, st, la, fe, wt))
+    const forLangs = fonts.filter(f => fontPassesFilters(f, c, ca, st, [], fe, wt))
+    const forWt    = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, null))
 
     // For AND-groups: check against current full result
-    const current  = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, wt, it))
+    const current  = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, wt))
 
     return {
       collections: new Set(forCols.map(f => f.collection || 'Text')),
       categories:  new Set(current.flatMap(f => f.categories || [])),
       styles:      new Set(current.flatMap(f => f.styleTags || [])),
       languages:   new Set(forLangs.flatMap(f => f.languages || [])),
-      weights:     new Set(forWts.flatMap(f => f.availableWeights)),
-      italic:      forWts.some(f => f.hasItalic),
+      features:    new Set(current.flatMap(f => getFontFeatures(f))),
+      weights:     new Set(forWt.flatMap(f => f.availableWeights)),
     }
-  }, [fonts, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedWeights, isItalic])
+  }, [fonts, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedFeatures, previewWeight])
 
   const getFilteredFonts = () => {
     const filtered = fonts.filter((font) => {
@@ -585,28 +622,18 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       
       // Filter by selected languages
       if (selectedLanguages.length > 0) {
-        const hasMatchingLanguage = selectedLanguages.some(lang => 
+        const hasMatchingLanguage = selectedLanguages.some(lang =>
           font.languages && font.languages.includes(lang)
         )
         if (!hasMatchingLanguage) return false
       }
-      
-      // Filter by weights and italic (existing logic)
-      if (selectedWeights.length === 0 && !isItalic) return true
 
-      if (selectedWeights.length === 0 && isItalic) {
-        return font.hasItalic
+      if (selectedFeatures.length > 0) {
+        const fontFeats = getFontFeatures(font)
+        if (!selectedFeatures.every(f => fontFeats.includes(f))) return false
       }
 
-      if (selectedWeights.length > 0) {
-        const hasSelectedWeight = selectedWeights.some((weight) => font.availableWeights.includes(weight))
-
-        if (isItalic) {
-          return hasSelectedWeight && font.hasItalic
-        }
-
-        return hasSelectedWeight
-      }
+      if (!font.availableWeights.includes(previewWeight)) return false
 
       return true
     })
@@ -646,12 +673,13 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     setSelectedCategories([])
     setSelectedStyles([])
     setSelectedLanguages([])
-    setSelectedWeights([])
-    setIsItalic(false)
+    setPreviewWeight(400)
+    setSelectedFeatures([])
     setSortBy("Date") // Reset sort to default (New)
     setFontWeightSelections({})
-    setTextSize([56])
+    setTextSize([80])
     setLineHeight([120])
+    setTextAlign('center')
     setExpandedCards(new Set())
     setFontOTFeatures({})
     setFontVariableAxes({})
@@ -670,7 +698,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       const el = inputRefs.current[focusedFontId]
       if (el) {
         try {
-          el.focus()
+          el.focus({ preventScroll: true })
           const pos = Math.min(textCursorPosition[focusedFontId] || 0, el.value.length)
           el.setSelectionRange(pos, pos)
         } catch {}
@@ -684,7 +712,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       const el = inputRefs.current[focusedFontId]
       if (el) {
         try {
-          el.focus()
+          el.focus({ preventScroll: true })
           const pos = Math.min(textCursorPosition[focusedFontId] || 0, el.value.length)
           el.setSelectionRange(pos, pos)
         } catch {}
@@ -702,16 +730,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       }
     })
     const arr = Array.from(allTags)
-    // Sort by unified vocab order (no collection-specific filtering)
-    return arr.sort((a,b)=>{
-      const order = (window as any).__appearanceOrder__ as string[] | undefined
-      if (order && order.length) {
-        const ia = order.findIndex(x=>x.toLowerCase()===a.toLowerCase())
-        const ib = order.findIndex(x=>x.toLowerCase()===b.toLowerCase())
-        return (ia===-1? 1e6:ia) - (ib===-1? 1e6:ib)
-      }
-      return a.localeCompare(b)
-    })
+    return arr.sort((a, b) => a.localeCompare(b))
   }
 
   // Get dynamic categories based on fonts actually present in selected collections (or all if none selected)
@@ -727,15 +746,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     })
 
     const arr = Array.from(actualCategories)
-    return arr.sort((a,b)=>{
-      const order = (window as any).__categoryOrder__ as string[] | undefined
-      if (order && order.length) {
-        const ia = order.findIndex(x=>x.toLowerCase()===a.toLowerCase())
-        const ib = order.findIndex(x=>x.toLowerCase()===b.toLowerCase())
-        return (ia===-1? 1e6:ia) - (ib===-1? 1e6:ib)
-      }
-      return a.localeCompare(b)
-    })
+    return arr.sort((a, b) => a.localeCompare(b))
   }
 
   const getCollectionLanguages = () => {
@@ -954,26 +965,9 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       },
     }))
     
-    // Sync weight axis changes with dropdown selection
-    if (axis === "wght") {
-      setFontWeightSelections((prev) => ({
-        ...prev,
-        [fontId]: {
-          ...(prev[fontId] || { weight: 400, italic: false }),
-          weight: Math.round(value), // Round to nearest integer for weight
-        },
-      }))
-    }
     // Sync italic axis to preview italic flag
     if (axis === 'ital') {
       const isItal = Number(value) >= 1
-      setFontWeightSelections((prev) => ({
-        ...prev,
-        [fontId]: { ...(prev[fontId] || { weight: 400, italic: false }), italic: isItal },
-      }))
-    }
-    if (axis === 'slnt') {
-      const isItal = Math.abs(Number(value)) > 0.01
       setFontWeightSelections((prev) => ({
         ...prev,
         [fontId]: { ...(prev[fontId] || { weight: 400, italic: false }), italic: isItal },
@@ -988,62 +982,35 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     const otFeatures = fontOTFeatures[fontId] || {}
     const isFamilyVariable = (font?.type === 'Variable') || !!(font?.variableAxes && font.variableAxes.length)
 
-    // Base axes: ensure variable fonts always carry an explicit wght so browser doesn't use font's internal default
     const axesOut: Record<string, number> = { ...stateAxes }
-    if (isFamilyVariable && axesOut.wght == null) {
-      axesOut.wght = selectedWeights.length > 0 ? selectedWeights[0] : (fontSelection.weight || 400)
+    if (isFamilyVariable && axesOut.wght === undefined) {
+      axesOut.wght = previewWeight
     }
 
-    // Resolve weight/italic with sidebar filters taking precedence when set
-    const weight = selectedWeights.length > 0
-      ? selectedWeights[0]
-      : (axesOut.wght || fontSelection.weight || 400)
-    // If variable italic axes present, derive italic from axes when meaningful
-    let italic = isItalic || fontSelection.italic || false
+    const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (previewWeight || fontSelection.weight || 400)
+    let italic = fontSelection.italic || false
     if (isFamilyVariable) {
       const italVal = Number(stateAxes['ital'])
-      const slntVal = Number(stateAxes['slnt'])
       if (isFinite(italVal)) italic = italic || italVal >= 1
-      if (isFinite(slntVal)) italic = italic || Math.abs(slntVal) > 0.01
     }
 
     const result = { weight, italic, variableAxes: axesOut, otFeatures }
     return result
   }
 
+
   // Load fonts only if not provided by server (fallback)
   useEffect(() => {
     if (initialFonts.length === 0) loadFonts()
   }, [loadFonts, initialFonts.length])
 
-  // useLayoutEffect fires before paint — no sidebar flash on desktop
   useLayoutEffect(() => {
-    const isDesktop = window.innerWidth >= 768
-    setIsMobile(!isDesktop)
-    setSidebarOpen(isDesktop)
+    setIsMobile(window.innerWidth < 768)
     const handleResize = () => setIsMobile(window.innerWidth < 768)
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Load unified appearance order vocabulary on mount
-  useEffect(() => {
-    const loadAppearanceOrder = async () => {
-      try {
-        const response = await fetch('/api/tags/vocab?type=appearance')
-        if (response.ok) {
-          const data = await response.json()
-          if (data.success && Array.isArray(data.vocabulary)) {
-            // Store unified appearance order globally (no collection key)
-            (window as any).__appearanceOrder__ = data.vocabulary
-          }
-        }
-      } catch (error) {
-        console.warn('Failed to load appearance order vocabulary:', error)
-      }
-    }
-    loadAppearanceOrder()
-  }, [])
 
   // Track font loading for individual fonts
   useEffect(() => {
@@ -1092,370 +1059,43 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   // Removed special font readiness and reporting; render normally
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden" style={{ backgroundColor: 'var(--gray-surface-sec)', color: getCurrentTheme().fg }}>
+    <div className="h-screen overflow-hidden" style={{ backgroundColor: 'var(--gray-surface-sec)', color: getCurrentTheme().fg }}>
       {/* Fallback character styles */}
       <style dangerouslySetInnerHTML={{ __html: `
         .fallback-char{opacity:.4!important;color:var(--gray-cont-tert)!important;}
       ` }} />
 
-      <Navbar
-        sidebarOpen={sidebarOpen}
-        onSidebarToggle={() => setSidebarOpen(true)}
-        isMobile={isMobile}
-        theme={getCurrentTheme()}
-      />
+      <Navbar theme={getCurrentTheme()} />
 
-      {/* Контейнер для сайдбара и каталога */}
-      <div className="flex-1 flex overflow-hidden">
-      {/* Mobile overlay — only when JS confirms mobile+open */}
-      {sidebarOpen && isMobile && (
-        <div
-          className="fixed inset-0 bg-black/40 z-40"
-          onClick={() => setSidebarOpen(false)}
-        />
-      )}
-
-      {/*
-        Sidebar wrapper: always in DOM so SSR includes it.
-        CSS controls initial visibility:
-          – desktop (≥768px): visible via media query, no JS flash
-          – mobile: hidden by default, shown when sidebarOpen=true via JS class
-      */}
-      <div
-        className={`catalog-sidebar-wrap${sidebarOpen ? ' catalog-sidebar-open' : ''}`}
-        style={{ height: '100%' }}
+      {/* Main font list */}
+      <main
+        className="h-full overflow-y-auto"
+        style={{ paddingTop: '80px', paddingBottom: '140px' }}
       >
-        <div
-          className={`${isMobile ? 'fixed z-50' : 'relative'} left-0 top-0 bottom-0 h-full`}
-          style={{
-            paddingLeft: isMobile ? '0' : '16px',
-            paddingBottom: isMobile ? '0' : '16px',
-            height: '100%'
-          }}
-        >
-          <aside
-            className="w-[280px] flex-shrink-0 flex flex-col h-full v2-card"
-            style={{
-              color: getCurrentTheme().fg
-            }}
-          >
-            <div
-              className={`sticky top-0 z-10 flex items-center ${isMobile ? 'p-2' : 'p-4'} flex-shrink-0`}
-              style={{
-                backgroundColor: 'var(--v2-card-bg)',
-                borderBottom: "1px solid var(--gray-brd-prim)",
-                color: getCurrentTheme().fg,
-                borderTopLeftRadius: isMobile ? '0' : '16px',
-                borderTopRightRadius: isMobile ? '0' : '16px',
-                gap: '12px'
-              }}
-            >
-            <button onClick={() => setSidebarOpen(false)} className="icon-btn">
-              <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: "20px" }}>
-                side_navigation
-              </span>
-            </button>
-            <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
-            <button onClick={resetFilters} className="icon-btn">
-              <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: "20px" }}>
-                refresh
-              </span>
-            </button>
-          </div>
-
-          <div className="flex-1 overflow-y-auto scrollbar-hide">
-            <div className={`${isMobile ? 'p-2' : 'p-4'} space-y-8`}>
-
-              <div>
-                <div className="flex gap-2">
-                  {(["Text", "Display", "Weirdo"] as const).map((mode) => (
-                    <button
-                      key={mode}
-                      disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
-                      onClick={() => {
-                        setSelectedCollections(prev =>
-                          prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
-                        )
-                        setTimeout(() => {
-                          const mainElement = document.querySelector('main')
-                          if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
-                        }, 100)
-                      }}
-                      className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
-                    >
-                      <span
-                        className="segmented-control-ag"
-                        style={{
-                          textAlign: "center",
-                          fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
-                          fontFamily: getStablePreviewFontForCollection(mode),
-                          fontSize: "24px",
-                          fontStyle: "normal",
-                          fontWeight: 500,
-                          lineHeight: "24px",
-                        }}
-                      >
-                        Ag
-                      </span>
-                      <span>{mode}</span>
-                    </button>
-                  ))}
-                </div>
+        <h1 className="sr-only">Free Font Collection - Professional Typography for Designers</h1>
+        <div className="px-2 pb-2 space-y-2">
+          {isLoadingFonts ? (
+            Array.from({ length: 8 }).map((_, i) => (
+              <div key={`skeleton-${i}`} className="v2-card" style={{ padding: '24px', minHeight: '200px' }}>
+                <div className="v2-shimmer" style={{ height: '40px', width: '200px', borderRadius: '8px', marginBottom: '16px' }} />
+                <div className="v2-shimmer" style={{ height: '80px', width: '100%', borderRadius: '8px' }} />
               </div>
-
-              <div>
-                <h3 className="text-sidebar-title mb-3">Text presets</h3>
-                <div className="flex flex-wrap gap-2">
-                  {textPresets.map((preset) => (
-                    <button
-                      key={preset}
-                      onClick={() => {
-                        setSelectedPreset(preset)
-                        if (preset === "Paragraph") setTextSize([20]); else setTextSize([56])
-                        if (preset === "Names") setCustomText(""); else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
-                      }}
-                      className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
-                    >
-                      {preset}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Hidden for now - will work on color themes later
-              <div>
-                <h3 className="text-sidebar-title mb-3">Color themes</h3>
-                <div className="flex gap-2">
-                  <button
-                    onClick={cycleColorTheme}
-                    className="btn-sm"
-                    style={{
-                      backgroundColor: getCurrentTheme().bg !== 'var(--gray-surface-prim)' ? getCurrentTheme().bg : undefined,
-                      color: getCurrentTheme().fg !== 'var(--gray-cont-prim)' ? getCurrentTheme().fg : undefined,
-                      border: getCurrentTheme().bg !== 'var(--gray-surface-prim)' ? `1px solid ${getCurrentTheme().fg}` : undefined
-                    }}
-                  >
-                    Add color
-                  </button>
-                  <button
-                    onClick={resetToBlackAndWhite}
-                    className={`btn-sm ${currentColorTheme === 0 ? 'active' : ''}`}
-                  >
-                    B&W
-                  </button>
-                </div>
-              </div>
-              */}
-
-              <div>
-                <div className="flex items-center gap-3">
-                  <h3 className="text-sidebar-title flex-shrink-0">Text size</h3>
-                  <Slider
-                    value={textSize}
-                    onValueChange={setTextSize}
-                    max={120}
-                    min={12}
-                    step={1}
-                    className="flex-1"
-                  />
-                  <span className="text-sidebar-title flex-shrink-0" style={{ color: "var(--gray-cont-tert)" }}>
-                    {textSize[0]}px
-                  </span>
-                </div>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3">
-                  <h3 className="text-sidebar-title flex-shrink-0">Line height</h3>
-                  <Slider
-                    value={lineHeight}
-                    onValueChange={setLineHeight}
-                    max={160}
-                    min={90}
-                    step={10}
-                    className="flex-1"
-                  />
-                  <span className="text-sidebar-title flex-shrink-0" style={{ color: "var(--gray-cont-tert)" }}>
-                    {lineHeight[0]}%
-                  </span>
-                </div>
-              </div>
-
-              {/* Сортировка */}
-              <div>
-                <h3 className="text-sidebar-title mb-3">Sort by</h3>
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => handleSort("Date")}
-                    className={`v2-button ${sortBy === "Date" ? 'v2-button-active' : 'v2-button-inactive'}`}
-                  >
-                    {sortBy === "Date" && sortDirection === "desc" ? "New" :
-                     sortBy === "Date" && sortDirection === "asc" ? "Old" : "New"}
-                  </button>
-                  <button
-                    onClick={() => handleSort("Alphabetical")}
-                    className={`v2-button ${sortBy === "Alphabetical" ? 'v2-button-active' : 'v2-button-inactive'}`}
-                  >
-                    {sortBy === "Alphabetical" && sortDirection === "asc" ? "A–Z" :
-                     sortBy === "Alphabetical" && sortDirection === "desc" ? "Z–A" : "A–Z"}
-                  </button>
-                  <button
-                    onClick={() => handleSort("Random")}
-                    className={`v2-button ${sortBy === "Random" ? 'v2-button-active' : 'v2-button-inactive'}`}
-                  >
-                    Random
-                  </button>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-sidebar-title mb-3">Font categories</h3>
-                <div className="flex flex-wrap gap-2">
-                  {getCollectionCategories().map((category) => {
-                    const isActive = selectedCategories.includes(category)
-                    const isAvail = isActive || filterAvailability.categories.has(category)
-                    return (
-                      <button
-                        key={category}
-                        disabled={!isAvail}
-                        onClick={() => toggleCategory(category)}
-                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                      >
-                        {category}
-                      </button>
-                    )
-                  })}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-sidebar-title mb-3">Appearance</h3>
-                <div className="flex flex-wrap gap-2">
-                  {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => {
-                    const isActive = selectedStyles.includes(style)
-                    const isAvail = isActive || filterAvailability.styles.has(style)
-                    return (
-                      <button
-                        key={style}
-                        disabled={!isAvail}
-                        onClick={() => toggleStyle(style)}
-                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                      >
-                        {style}
-                      </button>
-                    )
-                  }) : (
-                    <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
-                      No style tags available
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-sidebar-title mb-3">Language support</h3>
-                <div className="flex flex-wrap gap-2">
-                  {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => {
-                    const isActive = selectedLanguages.includes(language)
-                    const isAvail = isActive || filterAvailability.languages.has(language)
-                    return (
-                      <button
-                        key={language}
-                        disabled={!isAvail}
-                        onClick={() => setSelectedLanguages(prev =>
-                          prev.includes(language) ? prev.filter(l => l !== language) : [...prev, language]
-                        )}
-                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                      >
-                        {language}
-                      </button>
-                    )
-                  }) : (
-                    <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>No languages available{selectedCollections.length > 0 ? ` in ${selectedCollections.join(', ')} collection${selectedCollections.length > 1 ? 's' : ''}` : ''}</span>
-                  )}
-                </div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center mb-3">
-                  <h3 className="text-sidebar-title">Style</h3>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {weights.map((weight) => {
-                    const isActive = selectedWeights.includes(weight)
-                    const isAvail = isActive || filterAvailability.weights.has(weight)
-                    return (
-                      <button
-                        key={weight}
-                        disabled={!isAvail}
-                        onClick={() => toggleWeight(weight)}
-                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                      >
-                        {weight}
-                      </button>
-                    )
-                  })}
-                  <button
-                    disabled={!isItalic && !filterAvailability.italic}
-                    onClick={() => setIsItalic(!isItalic)}
-                    className={`v2-button ${isItalic ? 'v2-button-active' : 'v2-button-inactive'}${!isItalic && !filterAvailability.italic ? ' v2-filter-disabled' : ''}`}
-                  >
-                    Italic
-                  </button>
-                </div>
+            ))
+          ) : fonts.length === 0 ? (
+            <div className="p-6 text-center">
+              <div style={{ color: "var(--gray-cont-tert)" }}>
+                Temporary maintenance in progress. Font catalog will be restored shortly.
               </div>
             </div>
-          </div>
-        </aside>
-        </div>
-      </div>
-
-      <main className="flex-1 overflow-y-auto pb-16" style={{ backgroundColor: 'transparent' }}>
-          {/* SEO H1 - visually hidden but accessible to search engines */}
-          <h1 className="sr-only">Free Font Collection - Professional Typography for Designers</h1>
-          <div className={`min-h-[100vh] ${isMobile ? 'p-2 space-y-2' : 'px-4 pb-4 space-y-4'}`}>
-            {isLoadingFonts ? (
-              // Show skeleton cards during loading to prevent layout shift
-              Array.from({ length: 8 }).map((_, i) => (
-                <div
-                  key={`skeleton-${i}`}
-                  className="v2-card"
-                  style={{
-                    padding: '24px',
-                    minHeight: '200px'
-                  }}
-                >
-                  <div className="v2-shimmer" style={{
-                    height: '40px',
-                    width: '200px',
-                    borderRadius: '8px',
-                    marginBottom: '16px'
-                  }} />
-                  <div className="v2-shimmer" style={{
-                    height: '80px',
-                    width: '100%',
-                    borderRadius: '8px'
-                  }} />
-                </div>
-              ))
-            ) : fonts.length === 0 ? (
-              <div className="p-6 text-center">
-                <div style={{ color: "var(--gray-cont-tert)" }}>
-                  Temporary maintenance in progress. Font catalog will be restored shortly.
-                </div>
-              </div>
-            ) : (
-              getFilteredFonts().map((font) => {
+          ) : (
+            getFilteredFonts().map((font) => {
               const fontSelection = fontWeightSelections[font.id] || (() => {
-                // Use structured style data for default selection
                 if (font._availableStyles && font._availableStyles.length > 0) {
-                  // Prefer Regular style first, then first non-italic, then first available
-                  const regularStyle = font._availableStyles.find(style => 
-                    style.styleName === 'Regular' || (style.weight === 400 && !style.isItalic)
-                  )
-                  const nonItalicStyle = font._availableStyles.find(style => !style.isItalic)
-                  const defaultStyle = regularStyle || nonItalicStyle || font._availableStyles[0]
-                  
+                  const byWeight = font._availableStyles.find(s => s.weight === previewWeight && !s.isItalic)
+                    ?? font._availableStyles.find(s => s.weight === previewWeight)
+                  const regular = font._availableStyles.find(s => s.styleName === 'Regular' || (s.weight === 400 && !s.isItalic))
+                  const nonItalic = font._availableStyles.find(s => !s.isItalic)
+                  const defaultStyle = byWeight || regular || nonItalic || font._availableStyles[0]
                   return {
                     weight: defaultStyle.weight,
                     italic: defaultStyle.isItalic,
@@ -1463,7 +1103,6 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                     styleName: defaultStyle.styleName,
                   }
                 }
-                // Fallback for compatibility
                 return { weight: 400, italic: false }
               })()
               const effectiveStyle = getEffectiveStyle(font.id)
@@ -1485,6 +1124,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   effectiveStyle={effectiveStyle}
                   textSize={textSize[0]}
                   lineHeight={lineHeight[0]}
+                  textAlign={textAlign}
                   onSelectRef={el => { selectRefs.current[font.id] = el }}
                   onInputRef={el => { inputRefs.current[font.id] = el }}
                   onStyleChange={(weight, italic, cssFamily) => {
@@ -1508,30 +1148,316 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                 />
               )
             })
-            )}
-            
-            {/* Footer at end of catalog (styled like About) */}
-            <footer 
-              style={{ 
-                display: "flex",
-                padding: "24px",
-                flexDirection: "column",
-                alignItems: "flex-start",
-                alignSelf: "stretch",
-                borderTop: "1px solid var(--gray-brd-prim)" 
-              }}
-            >
-              <div className="flex justify-between items-center w-full">
-                <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
-                  © typedump, 2025–Future
-                </span>
-                <span className="text-sm" style={{ color: "var(--gray-cont-tert)", textAlign: "right" }}>
-                  Made by <a href="https://magicxlogic.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Magic x Logic</a>
-                </span>
+          )}
+
+          <footer style={{ display: "flex", padding: "24px", flexDirection: "column", alignItems: "flex-start", alignSelf: "stretch", borderTop: "1px solid var(--gray-brd-prim)" }}>
+            <div className="flex justify-between items-center w-full">
+              <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>© typedump, 2025–Future</span>
+              <span className="text-sm" style={{ color: "var(--gray-cont-tert)", textAlign: "right" }}>
+                Made by <a href="https://magicxlogic.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Magic x Logic</a>
+              </span>
+            </div>
+          </footer>
+        </div>
+      </main>
+
+      {/* Backdrop */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 z-40"
+          style={{ backgroundColor: 'rgba(0,0,0,0.35)' }}
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      {/* Bottom bar — expands upward */}
+      <div
+        style={{
+          position: 'fixed',
+          bottom: '16px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: 'calc(100% - 32px)',
+          maxWidth: '440px',
+          zIndex: 50,
+        }}
+      >
+        {/*
+          BOTTOM BAR STRUCTURE — DO NOT REORDER
+          Card is position:fixed bottom:16px → grows upward → DOM order = visual top→bottom
+
+          1. Header        (grid 0fr→1fr)  visible when OPEN   — count + reset + close
+          2. Collections-A (grid 1fr→0fr)  visible when CLOSED — collapses on open
+          3. Filter body   (grid 0fr→1fr)  visible when OPEN   — collections-B is first item inside scroll
+          4. Trigger       (grid 1fr→0fr)  visible when CLOSED — "More filters" button
+
+          Collections are duplicated: A shows in calm state, B scrolls with filters when open.
+        */}
+        <div className="v2-card" style={{ color: getCurrentTheme().fg, overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
+
+          {/* Header — appears above when open */}
+          <div style={{
+            display: 'grid',
+            gridTemplateRows: sidebarOpen ? '1fr' : '0fr',
+            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+          }}>
+            <div style={{ overflow: 'hidden' }}>
+              <div className="flex items-center p-4" style={{ gap: '12px' }}>
+                <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
+                <button onClick={resetFilters} className="icon-btn">
+                  <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
+                </button>
+                <button onClick={() => setSidebarOpen(false)} className="icon-btn">
+                  <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>close</span>
+                </button>
               </div>
-            </footer>
+            </div>
           </div>
-        </main>
+
+          {/* Collections — visible in closed state, collapses when open */}
+          <div style={{
+            display: 'grid',
+            gridTemplateRows: sidebarOpen ? '0fr' : '1fr',
+            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+          }}>
+            <div style={{ overflow: 'hidden' }}>
+              <div className="flex gap-2 px-4 pt-4 pb-1">
+                {(["Text", "Display", "Weirdo"] as const).map((mode) => (
+                  <button
+                    key={mode}
+                    disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
+                    onClick={() => {
+                      setSelectedCollections(prev =>
+                        prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
+                      )
+                      setTimeout(() => {
+                        const mainElement = document.querySelector('main')
+                        if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
+                      }, 100)
+                    }}
+                    className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
+                  >
+                    <span style={{
+                      fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
+                      fontFamily: getStablePreviewFontForCollection(mode),
+                      fontSize: "24px", fontWeight: 500, lineHeight: "24px",
+                    }}>Ag</span>
+                    <span>{mode}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Filter body — appears when open, collections first inside scroll */}
+          <div style={{
+            display: 'grid',
+            gridTemplateRows: sidebarOpen ? '1fr' : '0fr',
+            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+          }}>
+            <div style={{ overflow: 'hidden' }}>
+              <div className="overflow-y-auto scrollbar-hide" style={{ maxHeight: 'calc(100vh - 150px)' }}>
+                <div className="px-4 py-4 space-y-8">
+
+                  <div className="flex gap-2">
+                    {(["Text", "Display", "Weirdo"] as const).map((mode) => (
+                      <button
+                        key={mode}
+                        disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
+                        onClick={() => {
+                          setSelectedCollections(prev =>
+                            prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
+                          )
+                          setTimeout(() => {
+                            const mainElement = document.querySelector('main')
+                            if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
+                          }, 100)
+                        }}
+                        className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
+                      >
+                        <span style={{
+                          fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
+                          fontFamily: getStablePreviewFontForCollection(mode),
+                          fontSize: "24px", fontWeight: 500, lineHeight: "24px",
+                        }}>Ag</span>
+                        <span>{mode}</span>
+                      </button>
+                    ))}
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Text size</h3>
+                      <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} className="flex-1" />
+                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Line height</h3>
+                      <Slider value={lineHeight} onValueChange={setLineHeight} max={160} min={90} step={10} className="flex-1" />
+                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{lineHeight[0]}%</span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Weight</h3>
+                      <Slider value={[previewWeight]} onValueChange={([v]) => setPreviewWeight(v)} min={100} max={900} step={100} className="flex-1" />
+                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{previewWeight}</span>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2">
+                    {(['left', 'center', 'right'] as const).map((a) => (
+                      <button
+                        key={a}
+                        onClick={() => setTextAlign(a)}
+                        className={`v2-button flex-1 ${textAlign === a ? 'v2-button-active' : 'v2-button-inactive'}`}
+                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                      >
+                        <span className="material-symbols-outlined" style={{ fontSize: '18px', fontWeight: 400 }}>
+                          {a === 'left' ? 'format_align_left' : a === 'center' ? 'format_align_center' : 'format_align_right'}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Text presets</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {textPresets.map((preset) => (
+                        <button
+                          key={preset}
+                          onClick={() => {
+                            setSelectedPreset(preset)
+                            if (preset === "Paragraph") setTextSize([20]); else setTextSize([80])
+                            if (preset === "Names") setCustomText(""); else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
+                          }}
+                          className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
+                        >{preset}</button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Sort by</h3>
+                    <div className="flex gap-2">
+                      <button onClick={() => handleSort("Date")} className={`v2-button ${sortBy === "Date" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+                        {sortBy === "Date" && sortDirection === "desc" ? "New" : "Old"}
+                      </button>
+                      <button onClick={() => handleSort("Alphabetical")} className={`v2-button ${sortBy === "Alphabetical" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+                        {sortBy === "Alphabetical" && sortDirection === "asc" ? "A–Z" : "Z–A"}
+                      </button>
+                      <button onClick={() => handleSort("Random")} className={`v2-button ${sortBy === "Random" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+                        Random
+                      </button>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Font categories</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {getCollectionCategories().map((category) => {
+                        const isActive = selectedCategories.includes(category)
+                        const isAvail = isActive || filterAvailability.categories.has(category)
+                        return (
+                          <button key={category} disabled={!isAvail} onClick={() => toggleCategory(category)}
+                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                          >{category}</button>
+                        )
+                      })}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Appearance</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => {
+                        const isActive = selectedStyles.includes(style)
+                        const isAvail = isActive || filterAvailability.styles.has(style)
+                        return (
+                          <button key={style} disabled={!isAvail} onClick={() => toggleStyle(style)}
+                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                          >{style}</button>
+                        )
+                      }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>No style tags available</span>}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Language support</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => {
+                        const isActive = selectedLanguages.includes(language)
+                        const isAvail = isActive || filterAvailability.languages.has(language)
+                        return (
+                          <button key={language} disabled={!isAvail}
+                            onClick={() => setSelectedLanguages(prev =>
+                              prev.includes(language) ? prev.filter(l => l !== language) : [...prev, language]
+                            )}
+                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                          >{language}</button>
+                        )
+                      }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
+                        No languages available{selectedCollections.length > 0 ? ` in ${selectedCollections.join(', ')}` : ''}
+                      </span>}
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sidebar-title mb-3">Features</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {(['Variable', 'Variable width', 'Alternates'] as const).map(feature => {
+                        const isActive = selectedFeatures.includes(feature)
+                        const isAvail = isActive || filterAvailability.features.has(feature)
+                        return (
+                          <button key={feature} disabled={!isAvail}
+                            onClick={() => setSelectedFeatures(prev =>
+                              prev.includes(feature) ? prev.filter(f => f !== feature) : [...prev, feature]
+                            )}
+                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                          >{feature}</button>
+                        )
+                      })}
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Trigger row — collapses when open */}
+          <div style={{
+            display: 'grid',
+            gridTemplateRows: sidebarOpen ? '0fr' : '1fr',
+            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+          }}>
+            <div style={{ overflow: 'hidden' }}>
+              <div className="flex items-center gap-2 px-4 pt-1 pb-4">
+                <button
+                  onClick={() => setSidebarOpen(true)}
+                  className="v2-button v2-button-inactive flex items-center gap-2 flex-1"
+                  style={{ cursor: 'pointer', justifyContent: 'center' }}
+                >
+                  <span>More filters</span>
+                  {(() => {
+                    const count = selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)
+                    return count > 0 ? <span className="v2-badge" style={{ padding: '2px 8px', fontSize: '12px' }}>{count}</span> : null
+                  })()}
+                </button>
+                {(selectedCollections.length + selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)) > 0 && (
+                  <button onClick={resetFilters} className="icon-btn" title="Reset all filters">
+                    <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 
     </div>

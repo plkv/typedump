@@ -67,6 +67,18 @@
   line-height: 20px;
 }
 
+.v2-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: var(--radius-component);
+  border: 1px solid var(--gray-brd-prim);
+  font-family: "Inter Variable", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--gray-cont-sec);
+}
+
 .v2-card {
   background-color: var(--v2-card-bg);
   border-radius: var(--radius-card);

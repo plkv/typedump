@@ -58,6 +58,7 @@ export interface FontCardProps {
   effectiveStyle: EffectiveStyle
   textSize: number
   lineHeight: number
+  textAlign: 'left' | 'center' | 'right'
   // Callbacks
   onSelectRef: (el: HTMLSelectElement | null) => void
   onInputRef: (el: HTMLInputElement | null) => void
@@ -75,7 +76,7 @@ export function FontCard({
   font, isMobile, fontSelection, isLoaded, isAnimated, isExpanded,
   previewContent, cursorPosition, otFeatures, variableAxesState,
   styleAlternates, variableAxesDef, effectiveStyle,
-  textSize, lineHeight,
+  textSize, lineHeight, textAlign,
   onSelectRef, onInputRef, onStyleChange, onTextChange, onFocus, onToggleExpand,
   onToggleOTFeature, onVariableAxisChange,
 }: FontCardProps) {
@@ -90,7 +91,7 @@ export function FontCard({
 
   return (
     <div className="transition-colors v2-card">
-      <div className={isMobile ? 'p-2' : 'p-6'}>
+      <div className="p-4">
 
         {/* ── Header row ── */}
         <div className="flex justify-between items-start gap-4 mb-4">
@@ -153,30 +154,6 @@ export function FontCard({
                 </div>
               )}
 
-              {/* Type badge */}
-              {font.type !== 'Static' && (
-                <div className="hidden md:flex items-center v2-badge">
-                  <span>{font.type}</span>
-                </div>
-              )}
-
-              {/* Styles count */}
-              {(() => {
-                const count = font._availableStyles?.length || font.styles || 1
-                return count > 1 ? (
-                  <div className="hidden md:flex items-center v2-badge">
-                    <span>{count} styles</span>
-                  </div>
-                ) : null
-              })()}
-
-              {/* Alternates count */}
-              {styleAlternates.length > 0 && (
-                <div className="hidden md:flex items-center v2-badge">
-                  <span>{styleAlternates.length} alternate{styleAlternates.length !== 1 ? 's' : ''}</span>
-                </div>
-              )}
-
               {/* Author */}
               <span className="text-author truncate max-w-[200px]" title={`by ${font.author}`}>
                 by {font.author}
@@ -199,11 +176,11 @@ export function FontCard({
         </div>
 
         {/* ── Preview ── */}
-        <div className="relative py-6">
+        <div className="relative" style={{ paddingTop: '16px', paddingBottom: '16px' }}>
           {!isLoaded && (
             <div
               className="v2-shimmer absolute inset-0 rounded"
-              style={{ height: `${textSize * (lineHeight / 100)}px`, minHeight: '40px', zIndex: 1, pointerEvents: 'none' }}
+              style={{ height: `${textSize * (lineHeight / 100) + textSize * 0.4}px`, minHeight: '40px', zIndex: 1, pointerEvents: 'none' }}
             />
           )}
           <ControlledTextPreview
@@ -217,6 +194,8 @@ export function FontCard({
             style={{
               fontSize: `${textSize}px`,
               lineHeight: `${lineHeight}%`,
+              paddingTop: `${textSize * 0.2}px`,
+              paddingBottom: `${textSize * 0.2}px`,
               fontFamily: fontSelection.cssFamily
                 ? `"${fontSelection.cssFamily}", system-ui, sans-serif`
                 : font.fontFamily,
@@ -224,12 +203,26 @@ export function FontCard({
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
               color: 'var(--gray-cont-prim)',
               opacity: isLoaded ? 1 : 0,
+              textAlign,
               fontFeatureSettings: getFontFeatureSettings(effectiveStyle.otFeatures),
               fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes),
             }}
             multiline
           />
         </div>
+
+        {/* ── Tags row: categories + style tags ── */}
+        {(() => {
+          const tags = [font.collection, ...(font.categories || []), ...(font.styleTags || [])]
+          if (!tags.length) return null
+          return (
+            <div className="flex flex-wrap gap-1.5 mt-2">
+              {tags.map(tag => (
+                <span key={tag} className="v2-tag">{tag}</span>
+              ))}
+            </div>
+          )
+        })()}
 
         {/* ── Expanded: OT features + variable axes ── */}
         {isExpanded && (styleAlternates.length > 0 || variableAxesDef.length > 0) && (
@@ -265,6 +258,10 @@ export function FontCard({
                     const val = variableAxesState[axis.tag] ??
                       (axis.tag === 'wght' ? effectiveStyle.weight : axis.default)
                     const clamped = Math.max(axis.min, Math.min(axis.max, val))
+                    // For wght, reset to the font's initial selection weight — not the embedded axis default,
+                    // which is often wrong (parser sets it to min/max from a single variant file).
+                    const resetTarget = axis.tag === 'wght' ? fontSelection.weight : axis.default
+                    const isChanged = Math.abs(clamped - resetTarget) > 0.5
                     return (
                       <div key={axis.tag} className="mb-3 last:mb-0">
                         <div className="flex items-center gap-2">
@@ -273,7 +270,6 @@ export function FontCard({
                             value={[clamped]}
                             onValueChange={([v]) => {
                               let next = v
-                              if (axis.tag === 'slnt' && Math.abs(next - axis.default) < 0.5) next = axis.default
                               if (axis.tag === 'ital') next = next < 0.1 ? 0 : next > 0.9 ? 1 : next
                               onVariableAxisChange(axis.tag, next)
                             }}
@@ -282,9 +278,21 @@ export function FontCard({
                             step={axis.tag === 'wght' ? 1 : axis.tag === 'slnt' ? 0.1 : 0.5}
                             className="flex-1"
                           />
-                          <span className="text-sidebar-title flex-shrink-0 w-12 text-right" style={{ color: 'var(--gray-cont-tert)' }}>
+                          <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: 'var(--gray-cont-tert)' }}>
                             {Math.round(clamped * 10) / 10}
                           </span>
+                          <button
+                            onClick={() => onVariableAxisChange(axis.tag, resetTarget)}
+                            title="Reset to default"
+                            style={{
+                              opacity: isChanged ? 1 : 0.2,
+                              color: 'var(--gray-cont-tert)',
+                              lineHeight: 1,
+                              flexShrink: 0,
+                            }}
+                          >
+                            <span className="material-symbols-outlined" style={{ fontSize: '16px', fontWeight: 400 }}>replay</span>
+                          </button>
                         </div>
                       </div>
                     )
