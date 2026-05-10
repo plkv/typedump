@@ -237,7 +237,7 @@
   /* Sidebar titles */
   .text-sidebar-title {
     font-family: "Inter Variable", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
@@ -277,7 +277,7 @@
     height: 26px;
     border-radius: var(--radius-md);
     font-family: "Inter Variable", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
@@ -489,7 +489,7 @@
     flex: 1 0 0;
     border-radius: var(--radius-sm);
     font-family: "Inter Variable", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;

@@ -1161,13 +1161,10 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
         </div>
       </main>
 
-      {/* Backdrop */}
+
+      {/* Invisible click-outside handler */}
       {sidebarOpen && (
-        <div
-          className="fixed inset-0 z-40"
-          style={{ backgroundColor: 'rgba(0,0,0,0.35)' }}
-          onClick={() => setSidebarOpen(false)}
-        />
+        <div className="fixed inset-0 z-40" onClick={() => setSidebarOpen(false)} />
       )}
 
       {/* Bottom bar — expands upward */}
@@ -1204,10 +1201,10 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
             <div style={{ overflow: 'hidden' }}>
               <div className="flex items-center p-4" style={{ gap: '12px' }}>
                 <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
-                <button onClick={resetFilters} className="icon-btn">
+                <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
                 </button>
-                <button onClick={() => setSidebarOpen(false)} className="icon-btn">
+                <button onClick={() => setSidebarOpen(false)} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>close</span>
                 </button>
               </div>
@@ -1442,14 +1439,13 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   className="v2-button v2-button-inactive flex items-center gap-2 flex-1"
                   style={{ cursor: 'pointer', justifyContent: 'center' }}
                 >
-                  <span>More filters</span>
                   {(() => {
                     const count = selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)
-                    return count > 0 ? <span className="v2-badge" style={{ padding: '2px 8px', fontSize: '12px' }}>{count}</span> : null
+                    return count > 0 ? <>More filters · {count}</> : <>More filters</>
                   })()}
                 </button>
                 {(selectedCollections.length + selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)) > 0 && (
-                  <button onClick={resetFilters} className="icon-btn" title="Reset all filters">
+                  <button onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
                   </button>
                 )}
