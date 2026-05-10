@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useCallback, useRef } from "react"
+import { useState, useEffect, useLayoutEffect, useCallback, useRef } from "react"
 import { Slider } from "@/components/ui/slider"
 import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
@@ -80,13 +80,7 @@ const getPresetContent = (preset: string, fontName: string) => {
 
 export default function CatalogPage({ initialFonts }: { initialFonts: FontData[] }) {
   // UI State
-  const [sidebarOpen, setSidebarOpen] = useState(() => {
-    // On mobile, start with sidebar closed
-    if (typeof window !== 'undefined') {
-      return window.innerWidth >= 768
-    }
-    return false // Default to closed on SSR
-  })
+  const [sidebarOpen, setSidebarOpen] = useState(false) // matches SSR; set correctly in useEffect below
   const [isMobile, setIsMobile] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const selectRefs = useRef<Record<number, HTMLSelectElement | null>>({})
@@ -170,282 +164,110 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const [editingElementRef, setEditingElementRef] = useState<HTMLDivElement | null>(null)
   const [textCursorPosition, setTextCursorPosition] = useState<Record<number, number>>({})
 
-  // Load fonts from our API
+  // Load fonts — only runs as fallback when server didn't provide initialFonts
   const loadFonts = useCallback(async () => {
     try {
       setIsLoadingFonts(true)
-      // Prefer normalized families endpoint; fallback to legacy list
-      let handled = false
-      try {
-        const respFamilies = await fetch('/api/families')
-        if (respFamilies.ok) {
-          const fd = await respFamilies.json()
-          if (fd.success && Array.isArray(fd.families)) {
-            // Font CSS is already served by /api/font-css loaded in layout.tsx
-            const catalogFonts: FontData[] = fd.families.map((family: any, index: number) => {
-              const familyFonts = family.variants || []
-              const representativeFont =
-                familyFonts.find((v: any) => v.isDefaultStyle) ||
-                familyFonts.find((v: any) => !v.isItalic) ||
-                familyFonts[0]
-              if (!representativeFont) return null
+      const response = await fetch('/api/fonts-clean/list')
+      if (!response.ok) {
+        console.error('Fallback font list fetch failed:', response.status)
+        return
+      }
+      const data = await response.json()
+      if (!data.success || !data.fonts) {
+        console.error('No font data in fallback response')
+        return
+      }
 
-              const isVariable = Boolean(family.isVariable) || familyFonts.some((v: any) => v.isVariable)
-              let availableWeights: number[] = []
-              let availableStylesWithWeights: any[] = []
+      // Group flat font list by family name
+      const fontsByFamily = new Map<string, any[]>()
+      for (const font of data.fonts) {
+        const key = font.family || font.name
+        if (!fontsByFamily.has(key)) fontsByFamily.set(key, [])
+        fontsByFamily.get(key)!.push(font)
+      }
 
-              if (isVariable) {
-                const weightAxes = familyFonts
-                  .filter((v: any) => v.variableAxes?.some((a: any) => a.axis === 'wght'))
-                  .map((v: any) => v.variableAxes?.find((a: any) => a.axis === 'wght'))
-                  .filter(Boolean)
-                if (weightAxes.length > 0) {
-                  const minWeight = Math.min(...weightAxes.map((axis: any) => axis.min))
-                  const maxWeight = Math.max(...weightAxes.map((axis: any) => axis.max))
-                  availableWeights = [100,200,300,400,500,600,700,800,900].filter(w => w >= minWeight && w <= maxWeight)
-                } else {
-                  // If axis data missing, expose full common range
-                  availableWeights = [100,200,300,400,500,600,700,800,900]
-                }
-                availableStylesWithWeights = availableWeights.map((weight) => ({
-                  weight,
-                  styleName: getStyleNameFromWeight(weight, false),
-                  isItalic: false,
-                }))
-                const hasItalic = familyFonts.some((v: any) => v.isItalic) ||
-                  familyFonts.some((v: any) => Array.isArray(v.variableAxes) && v.variableAxes.some((a: any) => a.axis === 'ital' || a.axis === 'slnt'))
-                if (hasItalic) {
-                  availableStylesWithWeights = [
-                    ...availableStylesWithWeights,
-                    ...availableWeights.map((weight) => ({
-                      weight,
-                      styleName: getStyleNameFromWeight(weight, true),
-                      isItalic: true,
-                    })),
-                  ]
-                }
-                // Dedupe by weight+italic
-                const seen = new Set<string>()
-                availableStylesWithWeights = availableStylesWithWeights.filter((s:any)=>{
-                  const k = `${s.weight}|${s.isItalic?1:0}`
-                  if (seen.has(k)) return false
-                  seen.add(k)
-                  return true
-                })
-              } else {
-                // Static family: expose each variant distinctly using per-variant CSS alias to avoid weight/style collisions
-                const familyAlias = `${canonicalFamilyName(family.name)}-${shortHash(canonicalFamilyName(family.name)).slice(0,6)}`
-                availableStylesWithWeights = familyFonts.map((v: any) => ({
-                  weight: v.weight || 400,
-                  styleName: v.styleName || 'Regular',
-                  isItalic: Boolean(v.isItalic),
-                  cssFamily: `${familyAlias}__v_${shortHash(v.id || v.filename).slice(0,6)}`,
-                })).sort((a: any, b: any) => {
-                  if (a.weight !== b.weight) return a.weight - b.weight
-                  return a.isItalic ? 1 : -1
-                })
-                availableWeights = [...new Set(availableStylesWithWeights.map((s: any) => s.weight))].sort((a: number, b: number) => a - b)
-              }
+      const catalogFonts: FontData[] = Array.from(fontsByFamily.entries()).map(([familyName, familyFonts], index) => {
+        const rep =
+          familyFonts.find((f: any) => f.isDefaultStyle) ||
+          familyFonts.find((f: any) => !f.style?.toLowerCase().includes('italic') && !f.style?.toLowerCase().includes('oblique')) ||
+          familyFonts[0]
+        if (!rep) return null
 
-              const hasItalic = familyFonts.some((v: any) => v.isItalic)
-              const finalType = isVariable ? 'Variable' : 'Static'
+        const isVariable = familyFonts.some((f: any) => f.isVariable)
+        const hasItalic = familyFonts.some((f: any) =>
+          f.style?.toLowerCase().includes('italic') || f.style?.toLowerCase().includes('oblique')
+        )
+        const familyAlias = `${canonicalFamilyName(familyName)}-${shortHash(canonicalFamilyName(familyName)).slice(0, 6)}`
 
-              return {
-                id: index + 1,
-                name: family.name,
-                family: family.name,
-                style: `${familyFonts.length} style${familyFonts.length !== 1 ? 's' : ''}`,
-                category: Array.isArray(family.category) ? (family.category[0] || 'Sans') : (family.category || 'Sans'),
-                styles: availableStylesWithWeights.length || familyFonts.length,
-                type: finalType,
-                author: family.foundry || 'Unknown',
-                fontFamily: `"${canonicalFamilyName(family.name)}-${shortHash(canonicalFamilyName(family.name)).slice(0,6)}", system-ui, sans-serif`,
-                availableWeights,
-                hasItalic,
-                filename: representativeFont.originalFilename || representativeFont.filename,
-                url: representativeFont.blobUrl,
-                downloadLink: family.downloadLink,
-                variableAxes: representativeFont.variableAxes,
-                openTypeFeatures: representativeFont.openTypeFeatures,
-                _familyFonts: familyFonts.map((v: any) => ({
-                  weight: v.weight,
-                  style: v.styleName,
-                  isItalic: v.isItalic,
-                  blobUrl: v.blobUrl,
-                  url: v.blobUrl,
-                  cssFamily: `${canonicalFamilyName(family.name)}-${shortHash(canonicalFamilyName(family.name)).slice(0,6)}__v_${shortHash(v.id || v.filename).slice(0,6)}`,
-                  downloadLink: v.downloadLink,
-                  variableAxes: v.variableAxes,
-                  openTypeFeatures: v.openTypeFeatures,
-                  openTypeFeatureTags: (v as any).openTypeFeatureTags,
-                  uploadedAt: v.uploadedAt || v.createdAt || null,
-                })),
-                _availableStyles: availableStylesWithWeights,
-                collection: family.collection || 'Text',
-                styleTags: family.styleTags || [],
-                languages: Array.isArray(family.languages) ? family.languages : ['Latin'],
-                categories: Array.isArray(family.category) ? family.category : [family.category || 'Sans'],
-              } as FontData
-            }).filter(Boolean)
+        let availableWeights: number[]
+        let availableStyles: FontData['_availableStyles'] = []
 
-            setFonts(catalogFonts as FontData[])
-            handled = true
+        if (isVariable) {
+          const weightAxes = familyFonts
+            .flatMap((f: any) => f.variableAxes || [])
+            .filter((a: any) => a.axis === 'wght')
+          if (weightAxes.length > 0) {
+            const min = Math.min(...weightAxes.map((a: any) => a.min))
+            const max = Math.max(...weightAxes.map((a: any) => a.max))
+            availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900].filter(w => w >= min && w <= max)
+          } else {
+            availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900]
           }
-        }
-      } catch (e) {
-        console.warn('Families endpoint failed, falling back:', e)
-      }
-
-      if (!handled) {
-        const response = await fetch('/api/fonts-clean/list')
-        if (response.ok) {
-          const data = await response.json()
-          if (data.success && data.fonts) {
-          // Group fonts by family name to avoid duplicates
-          const fontsByFamily = new Map<string, any[]>()
-          data.fonts.forEach((font: any) => {
-            const familyName = font.family || font.name
-            if (!fontsByFamily.has(familyName)) {
-              fontsByFamily.set(familyName, [])
-            }
-            fontsByFamily.get(familyName)!.push(font)
+          availableStyles = availableWeights.map(weight => ({ weight, styleName: getStyleNameFromWeight(weight, false), isItalic: false }))
+          if (hasItalic) {
+            availableStyles = [
+              ...availableStyles,
+              ...availableWeights.map(weight => ({ weight, styleName: getStyleNameFromWeight(weight, true), isItalic: true })),
+            ]
+          }
+          const seen = new Set<string>()
+          availableStyles = availableStyles.filter(s => {
+            const k = `${s.weight}|${s.isItalic ? 1 : 0}`
+            return seen.has(k) ? false : (seen.add(k), true)
           })
-
-          // Transform grouped families to catalog UI format
-            const catalogFonts: FontData[] = Array.from(fontsByFamily.entries()).map(([familyName, familyFonts], index) => {
-            try {
-            // Choose the best representative font: 
-            // 1. Font marked as default style
-            // 2. Non-italic font (regular/normal)
-            // 3. First font as fallback
-            const representativeFont = familyFonts?.find((f: any) => f.isDefaultStyle) ||
-              familyFonts?.find((f: any) => !f.style?.toLowerCase().includes('italic') && !f.style?.toLowerCase().includes('oblique')) ||
-              familyFonts?.[0]
-            
-            if (!representativeFont) {
-              console.warn(`No representative font found for family: ${familyName}`)
-              return null
-            }
-            
-            // Analyze available weight+style combinations
-            const regularFonts = familyFonts.filter(f => !f.style?.toLowerCase().includes('italic'))
-            const italicFonts = familyFonts.filter(f => f.style?.toLowerCase().includes('italic'))
-            const hasItalic = italicFonts.length > 0
-            const isVariable = familyFonts.some(f => f.isVariable)
-            
-            // Calculate available weights and styles for both variable and static fonts
-            let availableWeights
-            let availableStylesWithWeights = []
-            
-              if (isVariable) {
-                // For variable fonts, use weight axis range or common weight stops
-                const weightAxes = familyFonts
-                  .filter((f: any) => f.variableAxes?.some((axis: any) => axis.axis === 'wght'))
-                  .map((f: any) => f.variableAxes?.find((axis: any) => axis.axis === 'wght'))
-                  .filter(Boolean)
-                
-                if (weightAxes.length > 0) {
-                  // Use weight range from variable axis
-                  const minWeight = Math.min(...weightAxes.map(axis => axis.min))
-                  const maxWeight = Math.max(...weightAxes.map(axis => axis.max))
-                  // Common weight stops within the range
-                  availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900]
-                    .filter(w => w >= minWeight && w <= maxWeight)
-                } else {
-                // Fallback for variable fonts without clear weight axis
-                availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900]
-                }
-              
-              // For variable fonts, generate style names from weights
-              availableStylesWithWeights = availableWeights.map(weight => ({
-                weight,
-                styleName: getStyleNameFromWeight(weight, false),
-                isItalic: false
-              }))
-              
-              // Add italic variants if any font in family has italic capability
-              if (hasItalic) {
-                const italicStyles = availableWeights.map(weight => ({
-                  weight,
-                  styleName: getStyleNameFromWeight(weight, true),
-                  isItalic: true
-                }))
-                availableStylesWithWeights = [...availableStylesWithWeights, ...italicStyles]
-              }
-              // Dedupe by weight+italic
-              const seen = new Set<string>()
-              availableStylesWithWeights = availableStylesWithWeights.filter((s:any)=>{
-                const k = `${s.weight}|${s.isItalic?1:0}`
-                if (seen.has(k)) return false
-                seen.add(k)
-                return true
-              })
-            } else {
-              // Static family: expose each variant distinctly using per-variant CSS alias to avoid collisions
-              const familyAlias = `${canonicalFamilyName(familyName)}-${shortHash(canonicalFamilyName(familyName)).slice(0,6)}`
-              const allFontStyles = familyFonts.map(font => ({
-                weight: font.weight || 400,
-                styleName: font.style || 'Regular',
-                isItalic: font.style?.toLowerCase().includes('italic') || font.style?.toLowerCase().includes('oblique') || false,
-                cssFamily: `${familyAlias}__v_${shortHash(font.id || font.filename).slice(0,6)}`,
-                font: font
-              }))
-              // Sort by weight, then regular before italic
-              availableStylesWithWeights = allFontStyles.sort((a, b) => {
-                if (a.weight !== b.weight) return a.weight - b.weight
-                return a.isItalic ? 1 : -1
-              })
-              availableWeights = [...new Set(allFontStyles.map(style => style.weight))].sort((a, b) => a - b)
-            }
-            
-            const finalType = isVariable ? "Variable" : "Static"
-            
-              return {
-              id: index + 1,
-              name: familyName,
-              family: familyName,
-              style: `${familyFonts.length} style${familyFonts.length !== 1 ? 's' : ''}`,
-              category: Array.isArray(representativeFont.category) 
-                ? representativeFont.category[0] || "Sans" // Use first category for UI compatibility
-                : (representativeFont.category || "Sans"),
-              styles: familyFonts.length,
-              type: finalType,
-              author: representativeFont.foundry || "Unknown",
-              fontFamily: `"${canonicalFamilyName(familyName)}-${shortHash(canonicalFamilyName(familyName)).slice(0,6)}", system-ui, sans-serif`,
-              availableWeights: availableWeights,
-              hasItalic: hasItalic,
-              filename: representativeFont.filename,
-              url: representativeFont.url || representativeFont.blobUrl,
-              downloadLink: representativeFont.downloadLink,
-              variableAxes: representativeFont.variableAxes,
-              openTypeFeatures: representativeFont.openTypeFeatures,
-              // Store family fonts data for style selection
-              _familyFonts: familyFonts.map((f:any)=>({
-                ...f,
-                openTypeFeatureTags: (f as any).openTypeFeatureTags || (f as any).openTypeFeatureTagsParsed || undefined
-              })),
-              // Store structured style data for proper style selection
-              _availableStyles: availableStylesWithWeights,
-              // Add collection and style tags for filtering
-              collection: representativeFont.collection || 'Text',
-              styleTags: representativeFont.styleTags || [],
-              languages: Array.isArray(representativeFont.languages) ? representativeFont.languages : ['Latin'],
-              categories: Array.isArray(representativeFont.category) ? representativeFont.category : [representativeFont.category || "Sans"]
-            }
-            } catch (error) {
-              console.error(`Error processing family ${familyName}:`, error)
-              return null
-            }
-          }).filter(Boolean) as FontData[] // Remove null entries
-          setFonts(catalogFonts)
-          loadFontCSS(catalogFonts)
         } else {
-          console.error('No font data in API response')
+          availableStyles = familyFonts.map((f: any) => ({
+            weight: f.weight || 400,
+            styleName: f.style || 'Regular',
+            isItalic: f.style?.toLowerCase().includes('italic') || f.style?.toLowerCase().includes('oblique') || false,
+            cssFamily: `${familyAlias}__v_${shortHash(f.id || f.filename).slice(0, 6)}`,
+          })).sort((a: any, b: any) => a.weight !== b.weight ? a.weight - b.weight : (a.isItalic ? 1 : -1))
+          availableWeights = [...new Set(availableStyles.map((s: any) => s.weight))].sort((a: number, b: number) => a - b)
         }
-      } else {
-        console.error('API response not ok:', response.status, response.statusText)
-      }
-      }
+
+        const cat = Array.isArray(rep.category) ? (rep.category[0] || 'Sans') : (rep.category || 'Sans')
+        return {
+          id: index + 1,
+          name: familyName,
+          family: familyName,
+          style: `${familyFonts.length} style${familyFonts.length !== 1 ? 's' : ''}`,
+          category: cat,
+          styles: availableStyles.length || familyFonts.length,
+          type: isVariable ? 'Variable' : 'Static',
+          author: rep.foundry || 'Unknown',
+          fontFamily: `"${familyAlias}", system-ui, sans-serif`,
+          availableWeights,
+          hasItalic,
+          filename: rep.filename,
+          url: rep.url || rep.blobUrl,
+          downloadLink: rep.downloadLink,
+          variableAxes: rep.variableAxes,
+          openTypeFeatures: rep.openTypeFeatures,
+          _familyFonts: familyFonts.map((f: any) => ({
+            ...f,
+            openTypeFeatureTags: f.openTypeFeatureTags || f.openTypeFeatureTagsParsed || undefined,
+          })),
+          _availableStyles: availableStyles,
+          collection: rep.collection || 'Text',
+          styleTags: rep.styleTags || [],
+          languages: Array.isArray(rep.languages) ? rep.languages : ['Latin'],
+          categories: Array.isArray(rep.category) ? rep.category : [cat],
+        } as FontData
+      }).filter(Boolean) as FontData[]
+
+      setFonts(catalogFonts)
+      loadFontCSS(catalogFonts)
     } catch (error) {
       console.error('Failed to load fonts:', error)
     } finally {
@@ -1157,14 +979,14 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     if (initialFonts.length === 0) loadFonts()
   }, [loadFonts, initialFonts.length])
 
-  // Detect mobile screen size
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-    checkMobile()
-    window.addEventListener('resize', checkMobile)
-    return () => window.removeEventListener('resize', checkMobile)
+  // useLayoutEffect fires before paint — no sidebar flash on desktop
+  useLayoutEffect(() => {
+    const isDesktop = window.innerWidth >= 768
+    setIsMobile(!isDesktop)
+    setSidebarOpen(isDesktop)
+    const handleResize = () => setIsMobile(window.innerWidth < 768)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
   }, [])
 
   // Load unified appearance order vocabulary on mount
@@ -1202,20 +1024,12 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
           return
         }
 
-        // Wait for fonts to be ready, then check if this specific font is loaded
-        await document.fonts.ready
-
-        // Check if font is actually loaded
+        // Load this specific font only — don't block on document.fonts.ready (waits for all 150+)
         const fontSpec = `16px "${cssFamily}"`
-        const isLoaded = document.fonts.check(fontSpec)
-
-        if (isLoaded) {
-          setLoadedFonts(prev => new Set(prev).add(font.id))
-        } else {
-          // Try to load the font
+        if (!document.fonts.check(fontSpec)) {
           await document.fonts.load(fontSpec)
-          setLoadedFonts(prev => new Set(prev).add(font.id))
         }
+        setLoadedFonts(prev => new Set(prev).add(font.id))
       } catch (error) {
         // On error, mark as loaded anyway to remove shimmer
         setLoadedFonts(prev => new Set(prev).add(font.id))
@@ -1256,7 +1070,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
 
       {/* Контейнер для сайдбара и каталога */}
       <div className="flex-1 flex overflow-hidden">
-      {/* Mobile overlay */}
+      {/* Mobile overlay — only when JS confirms mobile+open */}
       {sidebarOpen && isMobile && (
         <div
           className="fixed inset-0 bg-black/40 z-40"
@@ -1264,9 +1078,18 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
         />
       )}
 
-      {sidebarOpen && (
+      {/*
+        Sidebar wrapper: always in DOM so SSR includes it.
+        CSS controls initial visibility:
+          – desktop (≥768px): visible via media query, no JS flash
+          – mobile: hidden by default, shown when sidebarOpen=true via JS class
+      */}
+      <div
+        className={`catalog-sidebar-wrap${sidebarOpen ? ' catalog-sidebar-open' : ''}`}
+        style={{ height: '100%' }}
+      >
         <div
-          className={`${isMobile ? 'fixed z-50' : 'md:relative'} left-0 md:left-auto top-0 md:top-auto bottom-0 md:bottom-auto md:h-full`}
+          className={`${isMobile ? 'fixed z-50' : 'relative'} left-0 top-0 bottom-0 h-full`}
           style={{
             paddingLeft: isMobile ? '0' : '16px',
             paddingBottom: isMobile ? '0' : '16px',
@@ -1534,7 +1357,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
           </div>
         </aside>
         </div>
-      )}
+      </div>
 
       <main className="flex-1 overflow-y-auto pb-16" style={{ backgroundColor: 'transparent' }}>
           {/* SEO H1 - visually hidden but accessible to search engines */}

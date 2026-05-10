@@ -122,6 +122,24 @@
   animation: fadeIn 0.3s ease-in;
 }
 
+/* Sidebar wrapper — always in DOM, visibility via CSS (no JS flash) */
+.catalog-sidebar-wrap {
+  display: none; /* hidden on mobile by default */
+  flex-shrink: 0;
+}
+
+/* Desktop: show immediately — CSS beats JS timing */
+@media (min-width: 768px) {
+  .catalog-sidebar-wrap {
+    display: block;
+  }
+}
+
+/* Mobile: show only when JS adds .catalog-sidebar-open */
+.catalog-sidebar-open {
+  display: block !important;
+}
+
 /* Mobile sidebar */
 .v2-sidebar-container {
   padding-left: 16px;
