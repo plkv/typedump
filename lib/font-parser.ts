@@ -37,6 +37,28 @@ export interface FontMetadata {
   // Family management
   defaultStyle?: boolean // Is this the default style for the family?
   styleName?: string // Custom style name override
+  // Enhanced metadata from OpenType
+  version?: string
+  copyright?: string
+  license?: string
+  glyphCount?: number
+  embeddingPermissions?: string
+  fontMetrics?: object
+  panoseClassification?: string
+  creationDate?: string
+  modificationDate?: string
+  designerInfo?: object
+  description?: string
+  collection?: string
+  familyId?: string
+  isDefaultStyle?: boolean
+  italicStyle?: boolean
+  styleTags?: string[]
+  relatedStyles?: string[]
+  originalFilename?: string
+  storage?: string
+  warning?: string
+  note?: string
 }
 
 export async function parseFontFile(buffer: ArrayBuffer, originalName: string, fileSize: number): Promise<FontMetadata> {

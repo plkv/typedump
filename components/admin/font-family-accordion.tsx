@@ -569,7 +569,7 @@ export default function FontFamilyAccordion({
                                     type="text"
                                     value={(fontEdits.variableAxes?.[index]?.name) ?? axis.name}
                                     onChange={(e) => {
-                                      const newAxes = [...(fontEdits.variableAxes || font.variableAxes)]
+                                      const newAxes = [...(fontEdits.variableAxes || font.variableAxes || [])]
                                       newAxes[index] = { ...newAxes[index], name: e.target.value }
                                       setFontEdits(prev => ({ ...prev, variableAxes: newAxes }))
                                     }}
@@ -604,7 +604,7 @@ export default function FontFamilyAccordion({
                                     type="number"
                                     value={(fontEdits.variableAxes?.[index]?.default) ?? axis.default}
                                     onChange={(e) => {
-                                      const newAxes = [...(fontEdits.variableAxes || font.variableAxes)]
+                                      const newAxes = [...(fontEdits.variableAxes || font.variableAxes || [])]
                                       newAxes[index] = { ...newAxes[index], default: Number(e.target.value) }
                                       setFontEdits(prev => ({ ...prev, variableAxes: newAxes }))
                                     }}

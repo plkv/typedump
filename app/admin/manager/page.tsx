@@ -188,8 +188,8 @@ export default function AdminManager() {
 
       const app = await loadOne('appearance')
       const cat = await loadOne('category')
-      const appList = (app.length ? app : Array.from(defaultsAppearance)).sort((a,b)=>a.localeCompare(b))
-      const catList = (cat.length ? cat : Array.from(defaultsCategory)).sort((a,b)=>a.localeCompare(b))
+      const appList = (app.length ? app : Array.from(defaultsAppearance)).sort((a: string, b: string)=>a.localeCompare(b))
+      const catList = (cat.length ? cat : Array.from(defaultsCategory)).sort((a: string, b: string)=>a.localeCompare(b))
       setAppearanceVocab({
         Text: appList,
         Display: appList,

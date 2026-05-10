@@ -214,8 +214,6 @@ export const useFontStore = create<FontStore>((set, get) => ({
   // Filter actions
   setSelectedCollection: (collection) => {
     set(state => ({
-      filters: { ...state.filters, selectedCollection: collection },
-      // Reset filters when changing collection
       filters: {
         ...initialFilterState,
         selectedCollection: collection
@@ -427,7 +425,7 @@ export const useFontStore = create<FontStore>((set, get) => ({
           openTypeFeatures: defaultVariant.openTypeFeatures
         }
       })
-      .filter((font): font is ComputedFontData => font !== null)
+      .filter((font): font is NonNullable<typeof font> => font !== null) as ComputedFontData[]
     
     // Apply filters
     return computedFonts.filter(font => {

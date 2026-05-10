@@ -32,6 +32,7 @@ export interface FontVariant {
   // File metadata
   uploadedAt: string
   originalFilename: string
+  checksum?: string
   
   // Parsing metadata
   parsedAt?: string

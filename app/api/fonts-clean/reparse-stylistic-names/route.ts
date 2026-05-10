@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
           (f.includes('ss') && !f.includes('Stylistic Set'))) // Custom names don't contain "Stylistic Set"
         
         let hasUpdates = false
-        const changes = []
+        const changes: any[] = []
         
         // Check for new/different stylistic features
         newFeatures.forEach(newFeature => {

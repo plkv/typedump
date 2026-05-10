@@ -114,7 +114,7 @@ export class VercelFontStorage {
     // Production fallback: Memory-only storage (no persistence)
     const enhancedMetadata = {
       ...fontMetadata,
-      url: null, // No file URL available
+      url: undefined,
       uploadedAt: new Date().toISOString(),
       storage: 'memory-only',
       note: 'Font stored in memory only. Enable Vercel KV+Blob for persistence.'
@@ -134,7 +134,7 @@ export class VercelFontStorage {
     if (hasVercelStorage && kv) {
       try {
         // Production: Get fonts from Vercel KV
-        const fonts = await kv.get<FontMetadata[]>(KV_FONTS_KEY)
+        const fonts = await kv.get(KV_FONTS_KEY) as FontMetadata[] | null
         return fonts || []
       } catch (error) {
         console.error('KV retrieval error:', error)

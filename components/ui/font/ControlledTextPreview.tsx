@@ -27,6 +27,7 @@ export const ControlledTextPreview = forwardRef<
   value,
   cursorPosition,
   onChange,
+  onCursorChange,
   onClick,
   onFocus,
   onBlur,

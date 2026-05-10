@@ -12,6 +12,8 @@ import { FontVariant } from './models/FontVariant'
 export interface FontMetadata {
   id: string
   filename: string
+  originalFilename?: string
+  checksum?: string
   family: string
   style: string
   weight: number
@@ -51,7 +53,6 @@ export interface FontMetadata {
     default: number
   }>
   openTypeFeatures: string[]
-  openTypeFeatureTags?: Array<{ tag: string; title: string }>
   openTypeFeatureTags?: Array<{ tag: string; title: string }>
   version?: string
   copyright?: string
@@ -156,13 +157,13 @@ class FontStorageClean {
           license: parsedData.license,
           glyphCount: parsedData.glyphCount,
           embeddingPermissions: parsedData.embeddingPermissions,
-          fontMetrics: parsedData.fontMetrics,
+          fontMetrics: parsedData.fontMetrics as any,
           panoseClassification: parsedData.panoseClassification,
           creationDate: parsedData.creationDate,
           modificationDate: parsedData.modificationDate,
           designerInfo: parsedData.designerInfo,
           description: parsedData.description,
-          collection: parsedData.collection || 'Text',
+          collection: (parsedData.collection || 'Text') as 'Text' | 'Display' | 'Weirdo',
           familyId: parsedData.familyId,
           isDefaultStyle: parsedData.isDefaultStyle,
           italicStyle: parsedData.italicStyle,
@@ -184,7 +185,7 @@ class FontStorageClean {
     }
 
     // Create full metadata
-    const fullMetadata: FontMetadata = {
+    const fullMetadata = {
       id,
       filename: file.name,
       fileSize: file.size,
@@ -197,11 +198,11 @@ class FontStorageClean {
       downloadLink: undefined,
       ...extractedMetadata,
       // Override family name and ID if provided (for adding to existing families)
-      ...(overrideFamilyName && { 
+      ...(overrideFamilyName && {
         family: overrideFamilyName,
-        familyId: familyIdOverride 
+        familyId: familyIdOverride
       })
-    }
+    } as FontMetadata
     
     // Store metadata in KV
     await kv.set(id, fullMetadata)
@@ -715,7 +716,7 @@ class FontStorageClean {
       for (const font of fonts) {
         const variant: Omit<FontVariant, 'id' | 'familyId'> = {
           filename: font.filename,
-          originalFilename: font.originalFilename,
+          originalFilename: font.originalFilename || font.filename,
           blobUrl: font.blobUrl,
           weight: font.weight,
           styleName: font.style || 'Regular',
@@ -727,6 +728,8 @@ class FontStorageClean {
           isDefaultStyle: (font as any).isDefaultStyle || false,
           uploadedAt: font.uploadedAt,
           fileSize: font.fileSize,
+          format: font.format || 'unknown',
+          published: true,
           checksum: font.checksum
         }
 

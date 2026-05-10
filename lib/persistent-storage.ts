@@ -174,7 +174,7 @@ export class PersistentStorageManager {
     
     const enhancedMetadata: FontMetadata = {
       ...fontMetadata,
-      url: null, // No URL available
+      url: undefined,
       path: `/fonts/${fontMetadata.filename}`,
       uploadedAt: new Date().toISOString(),
       published: fontMetadata.published ?? true,
@@ -194,7 +194,7 @@ export class PersistentStorageManager {
 
     if (hasVercelKV && kv) {
       try {
-        const fonts = await kv.get<FontMetadata[]>(KV_FONTS_KEY)
+        const fonts = await kv.get(KV_FONTS_KEY) as FontMetadata[] | null
         if (fonts) {
           this.memoryCache = fonts
           return fonts
@@ -211,7 +211,7 @@ export class PersistentStorageManager {
   private async loadFonts(): Promise<void> {
     if (hasVercelKV && kv) {
       try {
-        const fonts = await kv.get<FontMetadata[]>(KV_FONTS_KEY)
+        const fonts = await kv.get(KV_FONTS_KEY) as FontMetadata[] | null
         if (fonts) {
           this.memoryCache = fonts
           return
