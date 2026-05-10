@@ -6,7 +6,7 @@ import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
-import "./v2/v2.css"
+import "./catalog.css"
 
 // Font interface for our API data
 interface FontData {
