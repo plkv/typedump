@@ -10,11 +10,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean",
-        "Vietnamese"
+        "Cyrillic"
       ],
       "category": [
         "Sans"
@@ -143,9 +139,7 @@
         "Fatface"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -199,7 +193,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew"
+        "Cyrillic"
       ],
       "category": [
         "Pixel"
@@ -274,11 +268,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean",
-        "Vietnamese"
+        "Cyrillic"
       ],
       "category": [
         "Mono"
@@ -398,10 +388,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -648,8 +635,7 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Mono"
@@ -1085,9 +1071,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -1734,11 +1717,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
-        "Vietnamese"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -1944,9 +1923,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -2361,8 +2337,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -2556,10 +2531,7 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean",
-        "Vietnamese"
+        "Greek"
       ],
       "category": [
         "Pixel"
@@ -2773,8 +2745,8 @@
       ],
       "languages": [
         "Latin",
-        "Greek",
-        "Hebrew"
+        "Cyrillic",
+        "Greek"
       ],
       "category": [
         "Serif"
@@ -2881,7 +2853,8 @@
         "Neutral"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -3075,7 +3048,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic"
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -3276,8 +3249,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Pixel",
@@ -3347,8 +3319,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Script"
@@ -3390,8 +3361,7 @@
         "Fatface"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -3440,8 +3410,7 @@
         "Fatface"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -3617,8 +3586,7 @@
         "Cut"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans",
@@ -3686,8 +3654,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -3873,8 +3840,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Mono"
@@ -4270,9 +4236,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean",
-        "Vietnamese"
+        "Latin"
       ],
       "category": [
         "Script"
@@ -4318,8 +4282,7 @@
       "collection": "Weirdo",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Script"
@@ -4446,8 +4409,7 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -5595,9 +5557,7 @@
         "Curly"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -5760,8 +5720,9 @@
       ],
       "languages": [
         "Latin",
+        "Cyrillic",
         "Greek",
-        "Hebrew"
+        "Vietnamese"
       ],
       "category": [
         "Sans Based"
@@ -5802,8 +5763,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans Based"
@@ -5843,8 +5803,7 @@
         "Geometry"
       ],
       "languages": [
-        "Latin",
-        "Hebrew"
+        "Latin"
       ],
       "category": [
         "Decorative"
@@ -5938,7 +5897,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Hebrew"
+        "Cyrillic"
       ],
       "category": [
         "Serif Based"
@@ -5976,8 +5935,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Pixel"
@@ -6019,9 +5977,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Mono"
@@ -6356,8 +6312,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Serif Based"
@@ -6394,8 +6349,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Pixel"
@@ -6486,8 +6440,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Pixel"
@@ -6582,9 +6535,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -6716,9 +6666,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -6820,8 +6768,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -6976,9 +6922,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -7174,8 +7118,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -7316,9 +7259,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -7475,7 +7416,7 @@
       ],
       "languages": [
         "Latin",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Mono"
@@ -7590,8 +7531,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Decorative",
@@ -7677,8 +7617,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans Based"
@@ -7755,10 +7694,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans"
@@ -8105,9 +8041,7 @@
         "Rounded"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -8361,10 +8295,7 @@
         "Fatface"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -8532,7 +8463,7 @@
         "Cyrillic",
         "Greek",
         "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Semi Serif"
@@ -8608,8 +8539,7 @@
         "Narrow"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans Based"
@@ -8671,8 +8601,7 @@
         "Narrow"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -8737,9 +8666,6 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew",
-        "Chinese",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -8784,9 +8710,7 @@
         "Contrast"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif Based"
@@ -8872,9 +8796,7 @@
         "Vintage"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif"
@@ -9136,9 +9058,7 @@
         "Contrast"
       ],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif",
@@ -9214,8 +9134,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans"
@@ -9275,8 +9194,9 @@
         "Latin",
         "Cyrillic",
         "Greek",
+        "Arabic",
         "Hebrew",
-        "Arabic"
+        "Vietnamese"
       ],
       "category": [
         "Pixel"
@@ -9494,10 +9414,7 @@
         "Extended"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif Based"
@@ -9545,7 +9462,9 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew"
+        "Chinese",
+        "Japanese",
+        "Vietnamese"
       ],
       "category": [
         "Sans Based"
@@ -9704,11 +9623,7 @@
       "collection": "Text",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
-        "Vietnamese"
+        "Latin"
       ],
       "category": [
         "Mono"
@@ -9927,9 +9842,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -9987,9 +9899,7 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Serif"
@@ -10275,9 +10185,7 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Serif Based"
@@ -10576,9 +10484,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Serif"
@@ -11009,8 +10915,7 @@
         "Contrast"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif Based"
@@ -11098,8 +11003,7 @@
         "Geometry"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Pixel"
@@ -11276,9 +11180,7 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Hebrew",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans Based"
@@ -11660,9 +11562,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Sans Based",
@@ -11710,9 +11610,6 @@
       ],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -11872,8 +11769,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -12261,7 +12157,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew"
+        "Cyrillic"
       ],
       "category": [
         "Sans",
@@ -12345,8 +12241,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Pixel",
@@ -12386,9 +12281,7 @@
       "collection": "Text",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif"
@@ -12490,9 +12383,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -12547,7 +12438,7 @@
       ],
       "languages": [
         "Latin",
-        "Korean"
+        "Cyrillic"
       ],
       "category": [
         "Sans Based"
@@ -12643,10 +12534,7 @@
         "Cut"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -13446,8 +13334,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -13583,10 +13470,7 @@
         "Vintage"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Semi Serif"
@@ -14036,9 +13920,7 @@
         "Narrow"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Serif Based"
@@ -14410,7 +14292,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew"
+        "Cyrillic"
       ],
       "category": [
         "Serif Based"
@@ -15052,8 +14934,8 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Greek",
-        "Hebrew"
+        "Cyrillic",
+        "Greek"
       ],
       "category": [
         "Serif"
@@ -15165,9 +15047,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Script"
@@ -15211,10 +15091,7 @@
       "collection": "Text",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Japanese",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -15422,9 +15299,7 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Sans Based"
@@ -15514,8 +15389,7 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Cyrillic",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Serif Based"
@@ -15667,8 +15541,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Script"
@@ -15945,7 +15818,6 @@
       "styleTags": [],
       "languages": [
         "Latin",
-        "Cyrillic",
         "Vietnamese"
       ],
       "category": [
@@ -16017,8 +15889,7 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew",
-        "Korean"
+        "Vietnamese"
       ],
       "category": [
         "Script"
@@ -16129,9 +16000,6 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Hebrew",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -16469,8 +16337,6 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Hebrew",
-        "Korean",
         "Vietnamese"
       ],
       "category": [
@@ -16589,7 +16455,7 @@
       ],
       "languages": [
         "Latin",
-        "Hebrew"
+        "Cyrillic"
       ],
       "category": [
         "Serif Based"
@@ -16746,10 +16612,7 @@
       "collection": "Display",
       "styleTags": [],
       "languages": [
-        "Latin",
-        "Cyrillic",
-        "Greek",
-        "Korean"
+        "Latin"
       ],
       "category": [
         "Semi Serif"
