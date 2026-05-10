@@ -1,12 +1,11 @@
 "use client"
 
 import { useState, useEffect, useCallback, useRef } from "react"
-import { usePathname } from "next/navigation"
 import { Slider } from "@/components/ui/slider"
-import { ControlledTextPreview } from "@/components/ui/font/ControlledTextPreview"
 import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
-import { familyToSlug } from "@/lib/font-slug"
+import { Navbar } from "@/components/font-catalog/Navbar"
+import { FontCard } from "@/components/font-catalog/FontCard"
 import "./v2/v2.css"
 
 // Font interface for our API data
@@ -79,7 +78,6 @@ const getPresetContent = (preset: string, fontName: string) => {
 }
 
 export default function FontLibrary() {
-  const pathname = usePathname()
   // UI State
   const [sidebarOpen, setSidebarOpen] = useState(() => {
     // On mobile, start with sidebar closed
@@ -834,47 +832,6 @@ export default function FontLibrary() {
     return getPresetContent(selectedPreset, fontName)
   }
 
-  // Small wrapper to use ControlledTextPreview with safe focus/cursor handling
-  const ControlledPreviewInput = ({
-    value,
-    cursorPosition,
-    onChangeText,
-    className,
-    style,
-    onToggleExpand,
-    fontId,
-  }: {
-    value: string
-    cursorPosition: number
-    onChangeText: (v: string, pos: number) => void
-    className?: string
-    style?: React.CSSProperties
-    onToggleExpand?: () => void
-    fontId: number
-  }) => {
-    const localRef = useRef<HTMLInputElement | null>(null)
-    useEffect(() => { inputRefs.current[fontId] = localRef.current }, [fontId])
-    return (
-      <ControlledTextPreview
-        ref={localRef as any}
-        value={value}
-        cursorPosition={cursorPosition}
-        onChange={(v, pos) => onChangeText(v, pos)}
-        onCursorChange={(pos) => onChangeText(value, pos)}
-        onFocus={() => {
-          setFocusedFontId(fontId)
-          // Expand card on focus if not already expanded
-          if (!expandedCards.has(fontId)) {
-            toggleCardExpansion(fontId)
-          }
-        }}
-        className={className}
-        style={style}
-        multiline={true}
-      />
-    )
-  }
-
   // Restore focus to the currently edited preview input after state updates
   useEffect(() => {
     if (focusedFontId != null) {
@@ -1227,22 +1184,6 @@ export default function FontLibrary() {
     return result
   }
 
-  const getFontFeatureSettings = (otFeatures: Record<string, boolean>) => {
-    const activeFeatures = Object.entries(otFeatures)
-      .filter(([_, active]) => active)
-      .map(([feature, _]) => `"${feature}" 1`)
-
-    if (activeFeatures.length === 0) return undefined
-    return activeFeatures.join(", ")
-  }
-
-  const getFontVariationSettings = (variableAxes: Record<string, number>) => {
-    const axisSettings = Object.entries(variableAxes).map(([axis, value]) => `"${axis}" ${value}`)
-
-    if (axisSettings.length === 0) return undefined
-    return axisSettings.join(", ")
-  }
-
   // Load fonts on mount
   useEffect(() => {
     loadFonts()
@@ -1339,87 +1280,12 @@ export default function FontLibrary() {
         .fallback-char{opacity:.4!important;color:var(--gray-cont-tert)!important;}
       ` }} />
 
-      {/* Navbar - над всем контентом */}
-      <div style={{ padding: '16px' }}>
-        <header
-          className="p-4 flex-shrink-0 v2-card"
-          style={{
-            color: getCurrentTheme().fg,
-            zIndex: 20
-          }}
-        >
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              {!sidebarOpen && (
-                <button onClick={() => setSidebarOpen(true)} className="icon-btn">
-                  <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: "20px" }}>
-                    side_navigation
-                  </span>
-                </button>
-              )}
-              <div
-                className="cursor-pointer hover:opacity-80 transition-opacity"
-                style={{
-                  fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
-                  fontFamily: "Inter Variable",
-                  fontSize: "22px",
-                  fontStyle: "normal",
-                  fontWeight: 900,
-                  lineHeight: "100%",
-                  textTransform: "lowercase",
-                  color: getCurrentTheme().fg
-                }}
-                onClick={() => window.location.href = '/'}
-              >
-                typedump<sup style={{ fontWeight: 400, fontSize: "12px" }}> β</sup>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              {isMobile ? (
-                <div className="relative">
-                  <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="icon-btn">
-                    <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: "20px" }}>
-                      {mobileMenuOpen ? 'close' : 'menu'}
-                    </span>
-                  </button>
-                  {mobileMenuOpen && (
-                    <div
-                      className="absolute right-0 top-full mt-2 flex flex-col gap-1 p-2 rounded-lg shadow-lg"
-                      style={{ backgroundColor: getCurrentTheme().bg, border: "1px solid var(--gray-brd-prim)", minWidth: "120px" }}
-                    >
-                      <a href="/" className={`menu-tab ${pathname === "/" ? "active" : ""}`} onClick={() => setMobileMenuOpen(false)}>Library</a>
-                      <a href="/about" className={`menu-tab ${pathname === "/about" ? "active" : ""}`} onClick={() => setMobileMenuOpen(false)}>About</a>
-                      <a
-                        href="mailto:make@logictomagic.com"
-                        className="menu-tab"
-                        onClick={() => setMobileMenuOpen(false)}
-                      >
-                        Feedback
-                      </a>
-                    </div>
-                  )}
-                </div>
-              ) : (
-                <>
-                  <nav className="flex flex-row gap-2">
-                    <a href="/" className={`menu-tab ${pathname === "/" ? "active" : ""}`}>Library</a>
-                    <a href="/about" className={`menu-tab ${pathname === "/about" ? "active" : ""}`}>About</a>
-                  </nav>
-                  <a
-                    href="mailto:make@logictomagic.com"
-                    className="icon-btn"
-                    title="Send feedback"
-                  >
-                    <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: "20px" }}>
-                      flag_2
-                    </span>
-                  </a>
-                </>
-              )}
-            </div>
-          </div>
-        </header>
-      </div>
+      <Navbar
+        sidebarOpen={sidebarOpen}
+        onSidebarToggle={() => setSidebarOpen(true)}
+        isMobile={isMobile}
+        theme={getCurrentTheme()}
+      />
 
       {/* Контейнер для сайдбара и каталога */}
       <div className="flex-1 flex overflow-hidden">
@@ -1761,266 +1627,44 @@ export default function FontLibrary() {
               })()
               const effectiveStyle = getEffectiveStyle(font.id)
               return (
-                <div
+                <FontCard
                   key={font.id}
-                  className="transition-colors v2-card"
-                >
-                  <div className={isMobile ? 'p-2' : 'p-6'}>
-                    <div className="flex justify-between items-start gap-4 mb-4">
-                      <div className="flex-1">
-                        <div className="flex items-center mb-2 flex-row flex-wrap gap-2">
-                          <a
-                            href={`/font/${familyToSlug(font.name)}`}
-                            className="v2-badge flex items-center"
-                            style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-                            onClick={e => e.stopPropagation()}
-                          >
-                            {font.name}
-                          </a>
-                          {font._availableStyles && font._availableStyles.length > 1 && (
-                            <div className="relative v2-dropdown">
-                              <select
-                                ref={(el) => { selectRefs.current[font.id] = el }}
-                                value={`${fontSelection.weight}|${fontSelection.italic}|${fontSelection.cssFamily || ''}`}
-                                onChange={(e) => {
-                                  const [weight, italic, cssFamily] = e.target.value.split("|")
-                                  updateFontSelection(font.id, Number.parseInt(weight), italic === "true", cssFamily)
-                                  setFontVariableAxes(prev => ({ ...prev, [font.id]: { ...prev[font.id], wght: Number.parseInt(weight) } }))
-                                }}
-                                className="appearance-none cursor-pointer"
-                                style={{
-                                  padding: '10px 36px 10px 12px',
-                                  backgroundColor: 'transparent',
-                                  border: 'none',
-                                  outline: 'none',
-                                  fontFamily: '"Inter Variable", sans-serif',
-                                  fontSize: '14px',
-                                  fontWeight: 500,
-                                  lineHeight: '20px',
-                                  color: 'var(--gray-cont-prim)',
-                                  height: '40px'
-                                }}
-                              >
-                                {font._availableStyles?.map((style, index) => (
-                                  <option key={`${style.weight}-${style.isItalic}-${index}`} value={`${style.weight}|${style.isItalic}|${(style as any).cssFamily || ''}`}>
-                                    {style.styleName}
-                                  </option>
-                                ))}
-                              </select>
-                              <span
-                                className="material-symbols-outlined absolute right-0 top-1/2"
-                                style={{
-                                  fontWeight: 400,
-                                  fontSize: '20px',
-                                  pointerEvents: 'none',
-                                  transform: 'translateY(-50%)',
-                                  padding: '8px',
-                                  color: 'var(--gray-cont-tert)'
-                                }}
-                              >
-                                expand_more
-                              </span>
-                            </div>
-                          )}
-
-                          {/* Type badge (Variable only, hide Static) */}
-                          {font.type !== "Static" && (
-                            <div className="hidden md:flex items-center v2-badge">
-                              <span>{font.type}</span>
-                            </div>
-                          )}
-
-                          {/* Styles count */}
-                          {(() => {
-                            const count = (font._availableStyles?.length || font.styles || 1)
-                            return count > 1 ? (
-                              <div className="hidden md:flex items-center v2-badge">
-                                <span>{count} styles</span>
-                              </div>
-                            ) : null
-                          })()}
-
-                          {/* Alternates count */}
-                          {getStyleAlternates(font.id).length > 0 && (
-                            <div className="hidden md:flex items-center v2-badge">
-                              <span>
-                                {getStyleAlternates(font.id).length} alternate{getStyleAlternates(font.id).length !== 1 ? 's' : ''}
-                              </span>
-                            </div>
-                          )}
-
-                          {/* Author */}
-                          <span
-                            className="text-author truncate max-w-[200px]"
-                            title={`by ${font.author}`}
-                          >
-                            by {font.author}
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-2">
-                      {(() => {
-                        // Check if any font in the family has a download link set in admin (not the blob URL)
-                        const adminDownloadLink = font.downloadLink || font._familyFonts?.find(f => f.downloadLink && f.downloadLink.trim() !== '')?.downloadLink
-                        const hasAdminDownloadLink = Boolean(adminDownloadLink)
-                        
-                        if (hasAdminDownloadLink) {
-                          return (
-                            <button
-                              className="v2-badge v2-button-active"
-                              onClick={() => window.open(adminDownloadLink, '_blank')}
-                              style={{ cursor: 'pointer' }}
-                            >
-                              Get font
-                            </button>
-                          )
-                        }
-                        return null // Hide button if no admin download link is set
-                      })()}
-                      </div>
-                    </div>
-
-                    <div className="relative py-6">
-                      {/* Shimmer placeholder while font is loading */}
-                      {!loadedFonts.has(font.id) && (
-                        <div
-                          className="v2-shimmer absolute inset-0 rounded"
-                          style={{
-                            height: `${textSize[0] * (lineHeight[0] / 100)}px`,
-                            minHeight: '40px',
-                            zIndex: 1,
-                            pointerEvents: 'none'
-                          }}
-                        />
-                      )}
-
-                      <ControlledPreviewInput
-                      value={getPreviewContent(font.name)}
-                      onChangeText={(val, pos) => {
-                        // Only set global customText when user actually changes text
-                        // Avoid setting it on focus/cursor events that pass the same value
-                        setTextCursorPosition(prev => ({ ...prev, [font.id]: pos }))
-                        if (val !== customText) {
-                          // If preset is in effect (customText empty) and val equals preset content, skip
-                          const presetValue = getPresetContent(selectedPreset, font.name)
-                          const isPreset = customText.trim() === '' && val === presetValue
-                          if (!isPreset) setCustomText(val)
-                        }
-                      }}
-                      cursorPosition={textCursorPosition[font.id] || 0}
-                      className={`whitespace-pre-line break-words cursor-text focus:outline-none w-full bg-transparent border-0 ${!animatedFonts.has(font.id) && loadedFonts.has(font.id) ? 'v2-font-fade-in' : ''}`}
-                      style={{
-                        fontSize: `${textSize[0]}px`,
-                        lineHeight: `${lineHeight[0]}%`,
-                        fontFamily: (fontWeightSelections[font.id]?.cssFamily ? `"${fontWeightSelections[font.id]?.cssFamily}", system-ui, sans-serif` : font.fontFamily),
-                        fontWeight: effectiveStyle.weight,
-                        fontStyle: effectiveStyle.italic ? "italic" : "normal",
-                        color: "var(--gray-cont-prim)",
-                        opacity: loadedFonts.has(font.id) ? 1 : 0,
-                        fontFeatureSettings: getFontFeatureSettings(effectiveStyle.otFeatures || {}),
-                        fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes || {}),
-                      }}
-                      onToggleExpand={() => toggleCardExpansion(font.id)}
-                      fontId={font.id}
-                      />
-
-                      {/* No bullet overlay while loading */}
-                    </div>
-
-                    {expandedCards.has(font.id) && (getStyleAlternates(font.id).length > 0 || getVariableAxes(font.id).length > 0) && (
-                      <div className="mt-6 space-y-4 pt-4" style={{ borderTop: "1px solid var(--gray-brd-prim)" }}>
-                        {/* Style Alternates */}
-                        {getStyleAlternates(font.id).length > 0 && (
-                          <div>
-                            <div className="text-sidebar-title mb-2" style={{ color: "var(--gray-cont-tert)" }}>
-                              Stylistic Alternates
-                            </div>
-                            <div className="flex flex-wrap gap-2">
-                              {getStyleAlternates(font.id).map((feature) => (
-                                <button
-                                  key={feature.tag}
-                                  onClick={() => toggleOTFeature(font.id, feature.tag)}
-                                  className={`btn-sm ${fontOTFeatures[font.id]?.[feature.tag] ? "active" : ""}`}
-                                  title={feature.title}
-                                >
-                                  {feature.title}
-                                </button>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-
-                        {/* Variable Font Axes */}
-                        {getVariableAxes(font.id).length > 0 && (
-                          <div>
-                            <div className="text-sidebar-title mb-2" style={{ color: "var(--gray-cont-tert)" }}>
-                              Variable Axes
-                            </div>
-                            <div className="w-full max-w-[280px]">
-                              {getVariableAxes(font.id).map((axis) => {
-                                // Get current value from state, or fall back to initial value
-                                const getCurrentValue = () => {
-                                  // Priority 1: Value from state (user has interacted with slider)
-                                  const stateValue = fontVariableAxes[font.id]?.[axis.tag]
-                                  if (stateValue !== undefined) {
-                                    return stateValue
-                                  }
-
-                                  // Priority 2: For wght axis, use effectiveStyle.weight if available
-                                  if (axis.tag === "wght" && effectiveStyle.weight) {
-                                    // Clamp weight to axis bounds
-                                    return Math.max(axis.min, Math.min(axis.max, effectiveStyle.weight))
-                                  }
-
-                                  // Priority 3: Default value from font
-                                  return axis.default
-                                }
-
-                                const currentValue = getCurrentValue()
-
-                                return (
-                                  <div key={axis.tag} className="mb-3 last:mb-0">
-                                    <div className="flex items-center gap-2">
-                                      <span className="text-sidebar-title flex-shrink-0 w-16">{axis.name}</span>
-                                      <Slider
-                                        value={[currentValue]}
-                                        onValueChange={(value) => {
-                                          let v = value[0]
-                                          if (axis.tag === 'slnt') {
-                                            // Snap to default when close (within 0.5 degrees)
-                                            if (Math.abs(v - axis.default) < 0.5) {
-                                              v = axis.default
-                                            }
-                                          }
-                                          if (axis.tag === 'ital') {
-                                            // snap near 0 or 1 for stability
-                                            if (v < 0.1) v = 0
-                                            else if (v > 0.9) v = 1
-                                          }
-                                          updateVariableAxis(font.id, axis.tag, v)
-                                        }}
-                                        min={axis.min}
-                                        max={axis.max}
-                                        step={axis.tag === "wght" ? 1 : (axis.tag === "slnt" ? 0.1 : 0.5)}
-                                        className="flex-1"
-                                      />
-                                      <span
-                                        className="text-sidebar-title flex-shrink-0 w-12 text-right"
-                                        style={{ color: "var(--gray-cont-tert)" }}
-                                      >
-                                        {Math.round(currentValue * 10) / 10}
-                                      </span>
-                                    </div>
-                                  </div>
-                                )
-                              })}
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </div>
+                  font={font as any}
+                  isMobile={isMobile}
+                  fontSelection={fontSelection}
+                  isLoaded={loadedFonts.has(font.id)}
+                  isAnimated={animatedFonts.has(font.id)}
+                  isExpanded={expandedCards.has(font.id)}
+                  previewContent={getPreviewContent(font.name)}
+                  cursorPosition={textCursorPosition[font.id] || 0}
+                  otFeatures={fontOTFeatures[font.id] || {}}
+                  variableAxesState={fontVariableAxes[font.id] || {}}
+                  styleAlternates={getStyleAlternates(font.id)}
+                  variableAxesDef={getVariableAxes(font.id)}
+                  effectiveStyle={effectiveStyle}
+                  textSize={textSize[0]}
+                  lineHeight={lineHeight[0]}
+                  onSelectRef={el => { selectRefs.current[font.id] = el }}
+                  onInputRef={el => { inputRefs.current[font.id] = el }}
+                  onStyleChange={(weight, italic, cssFamily) => {
+                    updateFontSelection(font.id, weight, italic, cssFamily)
+                    setFontVariableAxes(prev => ({ ...prev, [font.id]: { ...prev[font.id], wght: weight } }))
+                  }}
+                  onTextChange={(text, pos) => {
+                    setTextCursorPosition(prev => ({ ...prev, [font.id]: pos }))
+                    if (text !== customText) {
+                      const presetVal = getPresetContent(selectedPreset, font.name)
+                      if (!(customText.trim() === '' && text === presetVal)) setCustomText(text)
+                    }
+                  }}
+                  onFocus={() => {
+                    setFocusedFontId(font.id)
+                    if (!expandedCards.has(font.id)) toggleCardExpansion(font.id)
+                  }}
+                  onToggleExpand={() => toggleCardExpansion(font.id)}
+                  onToggleOTFeature={tag => toggleOTFeature(font.id, tag)}
+                  onVariableAxisChange={(tag, val) => updateVariableAxis(font.id, tag, val)}
+                />
               )
             })
             )}
