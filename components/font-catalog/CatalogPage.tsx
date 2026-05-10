@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useLayoutEffect, useCallback, useRef } from "react"
+import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from "react"
 import { Slider } from "@/components/ui/slider"
 import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
@@ -511,6 +511,43 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       setSortDirection(sortType === "Date" ? "desc" : sortType === "Alphabetical" ? "asc" : "desc") // Date: desc, Alpha: asc, Random: desc
     }
   }
+
+  // Pure filter predicate — no sorting, used by both getFilteredFonts and filterAvailability
+  const fontPassesFilters = (
+    font: FontData,
+    cols: string[], cats: string[], stags: string[], langs: string[], wts: number[], itl: boolean
+  ): boolean => {
+    if (cols.length > 0 && !cols.includes(font.collection || 'Text')) return false
+    if (cats.length > 0 && !cats.every(c => (font.categories || []).includes(c))) return false
+    if (stags.length > 0 && !stags.every(s => (font.styleTags || []).includes(s))) return false
+    if (langs.length > 0 && !langs.some(l => (font.languages || []).includes(l))) return false
+    if (wts.length > 0 && !wts.some(w => font.availableWeights.includes(w))) return false
+    if (itl && !font.hasItalic) return false
+    return true
+  }
+
+  // Which filter options still yield results — drives disabled state in sidebar
+  const filterAvailability = useMemo(() => {
+    const c = selectedCollections, ca = selectedCategories, st = selectedStyles
+    const la = selectedLanguages, wt = selectedWeights, it = isItalic
+
+    // For OR-groups: check against fonts passing all OTHER groups
+    const forCols  = fonts.filter(f => fontPassesFilters(f, [],  ca, st, la, wt, it))
+    const forLangs = fonts.filter(f => fontPassesFilters(f, c, ca, st, [], wt, it))
+    const forWts   = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, [], false))
+
+    // For AND-groups: check against current full result
+    const current  = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, wt, it))
+
+    return {
+      collections: new Set(forCols.map(f => f.collection || 'Text')),
+      categories:  new Set(current.flatMap(f => f.categories || [])),
+      styles:      new Set(current.flatMap(f => f.styleTags || [])),
+      languages:   new Set(forLangs.flatMap(f => f.languages || [])),
+      weights:     new Set(forWts.flatMap(f => f.availableWeights)),
+      italic:      forWts.some(f => f.hasItalic),
+    }
+  }, [fonts, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedWeights, isItalic])
 
   const getFilteredFonts = () => {
     const filtered = fonts.filter((font) => {
@@ -1134,22 +1171,17 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   {(["Text", "Display", "Weirdo"] as const).map((mode) => (
                     <button
                       key={mode}
+                      disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
                       onClick={() => {
-                        // Toggle collection filter
                         setSelectedCollections(prev =>
-                          prev.includes(mode)
-                            ? prev.filter(c => c !== mode)
-                            : [...prev, mode]
+                          prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
                         )
-                        // Scroll to top of the list when changing filters
                         setTimeout(() => {
                           const mainElement = document.querySelector('main')
-                          if (mainElement) {
-                            mainElement.scrollTo({ top: 0, behavior: 'smooth' })
-                          }
+                          if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
                         }, 100)
                       }}
-                      className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}`}
+                      className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
                     >
                       <span
                         className="segmented-control-ag"
@@ -1279,30 +1311,40 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
               <div>
                 <h3 className="text-sidebar-title mb-3">Font categories</h3>
                 <div className="flex flex-wrap gap-2">
-                  {getCollectionCategories().map((category) => (
-                    <button
-                      key={category}
-                      onClick={() => toggleCategory(category)}
-                      className={`v2-button ${selectedCategories.includes(category) ? 'v2-button-active' : 'v2-button-inactive'}`}
-                    >
-                      {category}
-                    </button>
-                  ))}
+                  {getCollectionCategories().map((category) => {
+                    const isActive = selectedCategories.includes(category)
+                    const isAvail = isActive || filterAvailability.categories.has(category)
+                    return (
+                      <button
+                        key={category}
+                        disabled={!isAvail}
+                        onClick={() => toggleCategory(category)}
+                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                      >
+                        {category}
+                      </button>
+                    )
+                  })}
                 </div>
               </div>
 
               <div>
                 <h3 className="text-sidebar-title mb-3">Appearance</h3>
                 <div className="flex flex-wrap gap-2">
-                  {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => (
-                    <button
-                      key={style}
-                      onClick={() => toggleStyle(style)}
-                      className={`v2-button ${selectedStyles.includes(style) ? 'v2-button-active' : 'v2-button-inactive'}`}
-                    >
-                      {style}
-                    </button>
-                  )) : (
+                  {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => {
+                    const isActive = selectedStyles.includes(style)
+                    const isAvail = isActive || filterAvailability.styles.has(style)
+                    return (
+                      <button
+                        key={style}
+                        disabled={!isAvail}
+                        onClick={() => toggleStyle(style)}
+                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                      >
+                        {style}
+                      </button>
+                    )
+                  }) : (
                     <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
                       No style tags available
                     </span>
@@ -1313,19 +1355,22 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
               <div>
                 <h3 className="text-sidebar-title mb-3">Language support</h3>
                 <div className="flex flex-wrap gap-2">
-                  {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => (
-                    <button
-                      key={language}
-                      onClick={() =>
-                        setSelectedLanguages((prev) =>
-                          prev.includes(language) ? prev.filter((l) => l !== language) : [...prev, language],
-                        )
-                      }
-                      className={`v2-button ${selectedLanguages.includes(language) ? 'v2-button-active' : 'v2-button-inactive'}`}
-                    >
-                      {language}
-                    </button>
-                  )) : (
+                  {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => {
+                    const isActive = selectedLanguages.includes(language)
+                    const isAvail = isActive || filterAvailability.languages.has(language)
+                    return (
+                      <button
+                        key={language}
+                        disabled={!isAvail}
+                        onClick={() => setSelectedLanguages(prev =>
+                          prev.includes(language) ? prev.filter(l => l !== language) : [...prev, language]
+                        )}
+                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                      >
+                        {language}
+                      </button>
+                    )
+                  }) : (
                     <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>No languages available{selectedCollections.length > 0 ? ` in ${selectedCollections.join(', ')} collection${selectedCollections.length > 1 ? 's' : ''}` : ''}</span>
                   )}
                 </div>
@@ -1336,18 +1381,24 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   <h3 className="text-sidebar-title">Style</h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {weights.map((weight) => (
-                    <button
-                      key={weight}
-                      onClick={() => toggleWeight(weight)}
-                      className={`v2-button ${selectedWeights.includes(weight) ? 'v2-button-active' : 'v2-button-inactive'}`}
-                    >
-                      {weight}
-                    </button>
-                  ))}
+                  {weights.map((weight) => {
+                    const isActive = selectedWeights.includes(weight)
+                    const isAvail = isActive || filterAvailability.weights.has(weight)
+                    return (
+                      <button
+                        key={weight}
+                        disabled={!isAvail}
+                        onClick={() => toggleWeight(weight)}
+                        className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                      >
+                        {weight}
+                      </button>
+                    )
+                  })}
                   <button
+                    disabled={!isItalic && !filterAvailability.italic}
                     onClick={() => setIsItalic(!isItalic)}
-                    className={`v2-button ${isItalic ? 'v2-button-active' : 'v2-button-inactive'}`}
+                    className={`v2-button ${isItalic ? 'v2-button-active' : 'v2-button-inactive'}${!isItalic && !filterAvailability.italic ? ' v2-filter-disabled' : ''}`}
                   >
                     Italic
                   </button>
