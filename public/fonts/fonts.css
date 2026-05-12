@@ -156,8 +156,6 @@
 @font-face{font-family:"RT-Obligat-9d0c29__v_57c680";src:url("/fonts/RT Obligat FREE.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Block-e1e4c8";src:url("/fonts/Block-font.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Block-e1e4c8__v_ef6bad";src:url("/fonts/Block-font.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Bolgarus-01b9ca";src:url("/fonts/Bolgarus.otf");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Bolgarus-01b9ca__v_7c58a1";src:url("/fonts/Bolgarus.otf");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Elevatia-a16a60";src:url("/fonts/ElevatiaItalic FREE.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
 @font-face{font-family:"Elevatia-a16a60__v_a98385";src:url("/fonts/ElevatiaItalic FREE.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
 @font-face{font-family:"Elevatia-a16a60";src:url("/fonts/Elevatia FREE.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -386,10 +384,6 @@
 @font-face{font-family:"Azabache-9582c9__v_37d46f";src:url("/fonts/Azabache-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cy-Grotesk-Grand-Dark-9730dc";src:url("/fonts/CyGrotesk-GrandDark.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cy-Grotesk-Grand-Dark-9730dc__v_c3b292";src:url("/fonts/CyGrotesk-GrandDark.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Ranade-4ddaf3";src:url("/fonts/Ranade-VariableItalic.woff2") format("woff2");font-weight:100 700;font-style:italic;font-display:swap;}
-@font-face{font-family:"Ranade-4ddaf3__v_67894b";src:url("/fonts/Ranade-VariableItalic.woff2") format("woff2");font-weight:100 700;font-style:italic;font-display:swap;}
-@font-face{font-family:"Ranade-4ddaf3";src:url("/fonts/Ranade-Variable.woff2") format("woff2");font-weight:100 700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Ranade-4ddaf3__v_665d62";src:url("/fonts/Ranade-Variable.woff2") format("woff2");font-weight:100 700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cabinet-Grotesk-3666d1";src:url("/fonts/CabinetGrotesk-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cabinet-Grotesk-3666d1__v_9c91d8";src:url("/fonts/CabinetGrotesk-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Carattere-8a910a";src:url("/fonts/Carattere-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -608,3 +602,21 @@
 @font-face{font-family:"Format-520d0d__v_1b7f0f";src:url("/fonts/Format-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
 @font-face{font-family:"Format-520d0d";src:url("/fonts/Format-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Format-520d0d__v_c5dce3";src:url("/fonts/Format-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"BBH-Bogle-a33d95";src:url("/fonts/BBHBogle-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"BBH-Bogle-a33d95__v_d02df0";src:url("/fonts/BBHBogle-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Google-Sans-Flex-4227e7";src:url("/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Google-Sans-Flex-4227e7__v_651e5e";src:url("/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Momo-Trust-Display-3628e1";src:url("/fonts/MomoTrustDisplay-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Momo-Trust-Display-3628e1__v_c64e77";src:url("/fonts/MomoTrustDisplay-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Momo-Trust-Sans-39a90f";src:url("/fonts/MomoTrustSans-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Momo-Trust-Sans-39a90f__v_73a441";src:url("/fonts/MomoTrustSans-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"SN-Pro-10384d";src:url("/fonts/SNPro-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"SN-Pro-10384d__v_54a92c";src:url("/fonts/SNPro-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"SN-Pro-10384d";src:url("/fonts/SNPro-Italic-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"SN-Pro-10384d__v_d83ad2";src:url("/fonts/SNPro-Italic-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Headline-967b06";src:url("/fonts/StackSansHeadline-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Headline-967b06__v_c0c9f5";src:url("/fonts/StackSansHeadline-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Notch-6d394f";src:url("/fonts/StackSansNotch-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Notch-6d394f__v_79ddfe";src:url("/fonts/StackSansNotch-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Text-579dae";src:url("/fonts/StackSansText-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Stack-Sans-Text-579dae__v_f8bdfc";src:url("/fonts/StackSansText-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
