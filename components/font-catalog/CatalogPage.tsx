@@ -673,6 +673,20 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     })
   }
 
+  const hasActiveFilters =
+    selectedCollections.length > 0 ||
+    selectedCategories.length > 0 ||
+    selectedStyles.length > 0 ||
+    selectedLanguages.length > 0 ||
+    selectedFeatures.length > 0 ||
+    previewWeight !== 400 ||
+    sortBy !== 'Date' ||
+    textSize[0] !== 80 ||
+    lineHeight[0] !== 120 ||
+    textAlign !== 'center' ||
+    selectedPreset !== 'Names' ||
+    customText !== ''
+
   const resetFilters = () => {
     setCustomText("")
     setSelectedPreset("Names")
@@ -1309,9 +1323,11 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
               <div className="flex items-center p-4" style={{ gap: '12px' }}>
                 <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
                 <div className="flex gap-2">
-                  <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <IconReset size={20} />
-                  </button>
+                  {hasActiveFilters && (
+                    <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                      <IconReset size={20} />
+                    </button>
+                  )}
                   <button onClick={() => setSidebarOpen(false)} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <IconXMark size={20} />
                   </button>
@@ -1547,7 +1563,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                     return count > 0 ? <>More filters · {count}</> : <>More filters</>
                   })()}
                 </button>
-                {(selectedCollections.length + selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)) > 0 && (
+                {hasActiveFilters && (
                   <button onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <IconReset size={20} />
                   </button>
