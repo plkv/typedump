@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description: "Curated collection of 150+ professional free fonts including variable fonts, display fonts, and text fonts. Perfect for web design, branding, and creative projects. Browse by category, language support, and style. All fonts verified with proper licensing.",
   keywords: "free fonts, variable fonts, typography, font collection, web fonts, display fonts, design fonts, font download, professional fonts, curated fonts, open source fonts",
   metadataBase: new URL('https://typedump.vercel.app'),
+  verification: { google: 'UGauCsR9zcDBwNPf55d-aQuVtlyrfUnKb3h_ytciu-o' },
   openGraph: {
     title: "typedump | Free font collection – typography for designers",
     description: "150+ curated professional free fonts for designers. Variable fonts, display fonts, multilingual support. Perfect for web design and branding.",

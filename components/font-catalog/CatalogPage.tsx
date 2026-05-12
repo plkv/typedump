@@ -1336,10 +1336,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                       setSelectedCollections(prev =>
                         prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
                       )
-                      setTimeout(() => {
-                        const mainElement = document.querySelector('main')
-                        if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
-                      }, 100)
+                      setTimeout(scrollToCatalog, 100)
                     }}
                     className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
                   >
@@ -1374,10 +1371,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                           setSelectedCollections(prev =>
                             prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
                           )
-                          setTimeout(() => {
-                            const mainElement = document.querySelector('main')
-                            if (mainElement) mainElement.scrollTo({ top: 0, behavior: 'smooth' })
-                          }, 100)
+                          setTimeout(scrollToCatalog, 100)
                         }}
                         className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
                       >

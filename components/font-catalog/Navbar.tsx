@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import { familyToSlug } from '@/lib/font-slug'
 import { IconSearch, IconXMark, IconChevronLeft } from '@/components/icons'
 
@@ -22,6 +23,14 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
+  const pathname = usePathname()
+
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === '/') {
+      e.preventDefault()
+      document.querySelector('main')?.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
 
   // When back is present, back island (54px) + gap (6px) = 60px offset from left
   const leftOffset = back ? 60 : 0
@@ -98,6 +107,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
         >
           <a
             href="/"
+            onClick={handleLogoClick}
             tabIndex={searchOpen ? -1 : 0}
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
