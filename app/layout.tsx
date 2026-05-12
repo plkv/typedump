@@ -57,7 +57,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FL0K563LQ7"></script>
+        <style dangerouslySetInnerHTML={{ __html:
+          `@keyframes v2NavSlideTop{from{transform:translateX(-50%) translateY(-20px)}to{transform:translateX(-50%)}}` +
+          `@keyframes v2NavSlideTopBtn{from{transform:translateY(-20px)}to{transform:none}}` +
+          `@keyframes v2NavSlideBottom{from{transform:translateX(-50%) translateY(20px)}to{transform:translateX(-50%)}}` +
+          `@keyframes v2FadeIn{from{opacity:0}to{opacity:1}}` +
+          `@keyframes v2TextReveal{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}`
+        }} />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FL0K563LQ7"></script>
         <script dangerouslySetInnerHTML={{__html:`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -72,7 +79,7 @@ export default function RootLayout({
           fetch('/api/tags/vocab?type=category&collection=Display').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Display=d.list||[]});
           fetch('/api/tags/vocab?type=category&collection=Weirdo').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Weirdo=d.list||[]});
         })();`}} />
-        <link rel="stylesheet" href="/api/font-css" />
+        <link rel="stylesheet" href="/fonts/fonts.css" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
           rel="stylesheet"

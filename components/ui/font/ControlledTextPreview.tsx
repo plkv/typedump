@@ -117,7 +117,7 @@ export const ControlledTextPreview = forwardRef<
         el.style.resize = 'none'
         el.style.height = `${el.scrollHeight}px`
       } catch {}
-    }, [value])
+    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings])
     return (
       <textarea
         ref={setRefs}

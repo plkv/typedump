@@ -4,7 +4,7 @@
  */
 
 // Font organization types
-export type FontCollection = 'Text' | 'Display' | 'Weirdo'
+export type FontCollection = 'Text' | 'Display' | 'Brutal'
 
 // Core font data model - simplified and consistent
 export interface Font {
@@ -58,7 +58,7 @@ export interface VariableAxis {
 export type FontCategory = 
   | 'Sans' | 'Serif' | 'Slab' | 'Mono'           // Text
   | 'Script' | 'Handwritten' | 'Display'         // Display  
-  | 'Decorative' | 'Experimental' | 'Symbol'     // Weirdo
+  | 'Decorative' | 'Experimental' | 'Symbol'     // Brutal
 
 // Family grouping (derived from fonts, not stored separately)
 export interface FontFamily {

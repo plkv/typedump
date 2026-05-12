@@ -2,14 +2,14 @@ import { NextRequest, NextResponse } from 'next/server'
 import { fontStorageClean } from '@/lib/font-storage-clean'
 import { toTitleCase } from '@/lib/category-utils'
 
-type Coll = 'Text'|'Display'|'Weirdo'
+type Coll = 'Text'|'Display'|'Brutal'
 
 export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url)
     const type = (searchParams.get('type') as any) || 'appearance'
     const fonts = await fontStorageClean.getAllFonts()
-    const usage: Record<Coll, Set<string>> = { Text: new Set(), Display: new Set(), Weirdo: new Set() }
+    const usage: Record<Coll, Set<string>> = { Text: new Set(), Display: new Set(), Brutal: new Set() }
     for (const f of fonts as any[]) {
       const coll: Coll = (f.collection as Coll) || 'Text'
       if (type === 'category') {
@@ -27,7 +27,7 @@ export async function GET(req: NextRequest) {
       usage: {
         Text: Array.from(usage.Text).sort((a,b)=>a.localeCompare(b)),
         Display: Array.from(usage.Display).sort((a,b)=>a.localeCompare(b)),
-        Weirdo: Array.from(usage.Weirdo).sort((a,b)=>a.localeCompare(b)),
+        Brutal: Array.from(usage.Brutal).sort((a,b)=>a.localeCompare(b)),
       }
     }
     return NextResponse.json(out)

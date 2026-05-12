@@ -1,0 +1,722 @@
+{
+  "Geist": {
+    "description": "Geist is a clean, modern sans-serif typeface created by Vercel in collaboration with Basement Studio, designed specifically for code and user interfaces. Drawing inspiration from Swiss type traditions, it balances technical precision with contemporary readability, making it equally at home in dashboards, documentation, and developer tools.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt" },
+    "publishedAt": "2023-01-01"
+  },
+  "Boldonse": {
+    "description": "Boldonse is a bold, condensed display sans-serif from Universitype, built around eye-catching inktrap details that add depth and character to its heavy letterforms. Designed for headlines, posters, and branding that demand immediate impact, it wears its personality on its sleeve with a playful yet authoritative presence.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/googlefonts/boldonse" },
+    "publishedAt": "2024-01-01"
+  },
+  "DatDot": {
+    "description": "DatDot is a dot-matrix style pixel typeface by GGBotNet, evoking the nostalgic look of early computer terminal printouts and receipt printers. Available in three weights, it brings a lo-fi, retro-digital aesthetic that works well in game UI, techy branding, and any project that wants to reference computational history.",
+    "licenseInfo": { "type": "OFL", "url": "https://ggbot.itch.io/datdot-font" },
+    "publishedAt": "2021-01-01"
+  },
+  "Geist Mono": {
+    "description": "Geist Mono is the monospaced companion to Geist, created by Vercel and Basement Studio for code editors, terminals, and developer-facing interfaces. It shares the same clean Swiss-inspired aesthetic as its proportional sibling, optimized for fixed-width contexts with strong legibility at small sizes.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt" },
+    "publishedAt": "2023-01-01"
+  },
+  "Host Grotesk": {
+    "description": "Host Grotesk is a uniwidth sans-serif designed by Doğukan Karapınar at Element Type, built on the foundations of Jonny Pinhorn's beloved Poppins. Its key innovation is uniform letter width across all weights, ensuring layouts remain stable when font weight changes — making it ideal for responsive UI and design systems.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/Element-Type/HostGrotesk" },
+    "publishedAt": "2022-01-01"
+  },
+  "JetBrains Mono": {
+    "description": "JetBrains Mono is a free, open-source monospaced typeface designed specifically for developers by the creators of JetBrains IDEs. Its letterforms are crafted for reduced eye strain in long coding sessions, with increased letter height, wider characters, and a large x-height that make code structure immediately legible.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt" },
+    "publishedAt": "2019-01-01"
+  },
+  "Open Sauce Sans": {
+    "description": "Open Sauce Sans is a compact grotesque superfamily developed by Alfredo Marco Pradil as the in-house typeface for Creative Sauce, then released open source. It excels in digital UI and print contexts through its generous clarity at small sizes, with ink-trap detailing in its Sans variant and rounded corners in the Two variant.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/marcologous/Open-Sauce-Fonts/blob/master/Open%20Sauce%20Sans%20OFL.txt" },
+    "publishedAt": "2020-01-01"
+  },
+  "Plus Jakarta Sans": {
+    "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/tokotype/PlusJakartaSans" },
+    "publishedAt": "2020-01-01"
+  },
+  "Switzer": {
+    "description": "Switzer is a neo-grotesque Latin typeface originally released as Volkart at the Indian Type Foundry in 2015, then renamed and moved to Fontshare in 2021. Classic and timeless in character, it combines legibility with lively details and a slightly rough texture that keeps it from feeling sterile.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/switzer" },
+    "publishedAt": "2015-01-01"
+  },
+  "Supreme": {
+    "description": "Supreme is a refined sans-serif typeface designed by Ilya Naumoff and Jérémie Hornus, originally released as Screen Sans at the Indian Type Foundry in 2016. Its clean, contemporary letterforms lean tech-forward while remaining readable across a wide range of sizes, making it effective for digital products and branding.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/supreme" },
+    "publishedAt": "2016-01-01"
+  },
+  "Schibsted Grotesk": {
+    "description": "Schibsted Grotesk is a digital-first sans-serif developed by Bakken & Bæck for Schibsted, the Scandinavian media company. Taking cues from Schibsted's print heritage and digital identity, it's calibrated for UI and editorial use across a range of weights, covering the extensive Underware Latin Plus character set.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/schibsted/schibsted-grotesk" },
+    "publishedAt": "2022-01-01"
+  },
+  "Space Grotesk": {
+    "description": "Space Grotesk is a proportional sans-serif designed by Florian Karsten in 2018 as a derivative of Colophon Foundry's fixed-width Space Mono. It translates the monospaced family's techno-grotesque character into a proportional workhorse, retaining Space Mono's inktrap details and idiosyncratic geometry while gaining everyday versatility.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/floriankarsten/space-grotesk" },
+    "publishedAt": "2018-01-01"
+  },
+  "Ronzino": {
+    "description": "Ronzino is Collletttivo's own brand typeface — an anonymous neo-grotesque inspired by Arial, built to improve on that workhorse's shortcomings while retaining its information-dense, neutral feel. Available in three weights with obliques, it embodies the cooperative's belief that even utilitarian type deserves craftsmanship.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.collletttivo.it/licensing" },
+    "publishedAt": "2023-01-01"
+  },
+  "Outfit": {
+    "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Outfit" },
+    "publishedAt": "2021-01-01"
+  },
+  "Satoshi": {
+    "description": "Satoshi is a Swiss-style modernist sans from the Indian Type Foundry's Fontshare platform, characterized by elegant rounded shapes playing against sharp angular details. Its double-storied 'a' and 'g' with single-storey alternates give it typographic richness that works in branding, editorial, and poster design.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/satoshi" },
+    "publishedAt": "2021-01-01"
+  },
+  "Departure Mono": {
+    "description": "Departure Mono is a monospaced pixel font by Helena Zhang, inspired by the visual language of early command-line interfaces, late-1990s tiny pixel fonts, and sci-fi screen graphics from film and television. It delivers a lo-fi, techy vibe perfect for creative coding projects, terminal emulators, and retro-digital aesthetics.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/rektdeckard/departure-mono" },
+    "publishedAt": "2023-01-01"
+  },
+  "Zodiak": {
+    "description": "Zodiak is a high-contrast display serif from the Indian Type Foundry's Fontshare platform, originally released as Claire in 2020 before being renamed. Its dramatic thick-thin transitions and bracketed slab-like serifs give it a luxurious editorial presence ideal for magazine headlines, fashion branding, and sophisticated display work.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/zodiak" },
+    "publishedAt": "2020-01-01"
+  },
+  "New Century Schoolbook (C095)": {
+    "description": "New Century Schoolbook is a URW digitization of Morris Fuller Benton's landmark 1919 design for the American Type Foundry, created specifically for improved legibility in schoolbooks and print media. Its generous x-height, open counters, and strong stroke contrast have made it a durable workhorse for editorial and academic typesetting.",
+    "licenseInfo": { "type": "OFL", "url": "https://fontesk.com/century-schoolbook-typeface/" },
+    "publishedAt": "2000-01-01"
+  },
+  "Mona Sans": {
+    "description": "Mona Sans is a variable sans-serif designed by GitHub in collaboration with Degarism, inspired by industrial-era grotesques. Released in November 2022, it spans weight, width, and slant axes and includes an optical size axis, making it a powerful, flexible system typeface suited to product, web, and print contexts.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/github/mona-sans" },
+    "publishedAt": "2022-11-01"
+  },
+  "Overused Grotesk": {
+    "description": "Overused Grotesk is an open-source variable sans-serif by RandomMaerks that began as a parody of the ubiquitous Swiss grotesque tradition — imitating Helvetica's most recognizable features — and evolved into a genuine multilingual workhorse. It wears its cynical origins lightly, delivering a familiar neutrality with an honest self-awareness.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/RandomMaerks/Overused-Grotesk" },
+    "publishedAt": "2022-01-01"
+  },
+  "FA-1": {
+    "description": "FA-1 is a wide, monospace-flavored display typeface by Tokyo-based designer Sora Sagano, evoking the look of data terminals and early computer fonts with square, structured letterforms. It occupies an unusual space between monospaced utility and display expressiveness, suited to sci-fi branding, coding aesthetics, and futuristic UI.",
+    "licenseInfo": { "type": "OFL", "url": "https://usemodify.com/authors/sora-sagano/" },
+    "publishedAt": "2020-01-01"
+  },
+  "Alpha Lyrae": {
+    "description": "Alpha Lyrae is a sans-serif typeface designed by Fontfabric for the Vega Protocol blockchain platform, featuring clean grotesque letterforms as its base with five optional stylistic sets of pixelated alternates. Its built-in 'glitch' behavior — automatically swapping every fourth character for a pixelated version via OpenType — makes it uniquely expressive for tech and crypto branding.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/vegaprotocol/alpha-lyrae" },
+    "publishedAt": "2021-01-01"
+  },
+  "Havana": {
+    "description": "Havana is a monolinear script inspired by the neon signs of pre-1989 Warsaw, designed by Joanna Angulska as part of the Warsaw Types collective project. Several characters are drawn directly from a real café sign of the same name, giving the typeface an intimate connection to the city's lost signage culture.",
+    "licenseInfo": { "type": "OFL", "url": "https://fontlibrary.org/en/font/havana" },
+    "publishedAt": "2016-01-01"
+  },
+  "Jakob": {
+    "description": "Jakob is a bold condensed grotesque by Alan Madić, inspired by Erbar-Grotesk schmalhalbfett and a 1970s interpretation by Morel, as well as Futura Bold Condensed. Its industrial 1920s character makes it ideal for signage, labelling, and bold typographic statements where space is tight but impact is essential.",
+    "licenseInfo": { "type": "OFL", "url": "https://fontlibrary.org/en/font/jakob" },
+    "publishedAt": "2021-01-01"
+  },
+  "Antique Série": {
+    "description": "Antique Série is a condensed, high-contrast fatface sans-serif born from the X Cicéro type design workshop at ESAD Valence, France. Digitized from the school's collection of historical wood type, it brings the energy of nineteenth-century display typography into contemporary design practice.",
+    "licenseInfo": { "type": "OFL", "url": "https://xcicero.esad-gv.net/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Thestral Neue": {
+    "description": "Thestral Neue is a revival serif rooted in a type specimen from the historic Jacoby & Fils printing house in Grenoble, developed by students at the X Cicéro workshop at ESAD Valence. Its strong, angular serifs and robust structure pay tribute to late-19th and early-20th century newspaper and book typography.",
+    "licenseInfo": { "type": "OFL", "url": "https://xcicero.esad-gv.net/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Nouvelle Grotesquerie": {
+    "description": "Nouvelle Grotesquerie is a bold, wide display sans-serif designed by Guillaume Lelong at ESAD Valence's X Cicéro workshop, inspired by the wood type of Georges Morel — France's last wood type manufacturer. Its large, assertive letterforms bridge the gap between vintage wood type energy and contemporary display typography.",
+    "licenseInfo": { "type": "OFL", "url": "https://xcicero.esad-gv.net/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Excessive Extra Condensed": {
+    "description": "Excessive Extra Condensed is a narrow sans-serif display typeface produced through the X Cicéro letterpress and type design workshop at ESAD Valence, France. Its extreme condensed proportions and historical wood-type origins make it a striking choice for dense headline settings and poster typography.",
+    "licenseInfo": { "type": "OFL", "url": "https://xcicero.esad-gv.net/" },
+    "publishedAt": "2021-01-01"
+  },
+  "N27": {
+    "description": "N27 is a contemporary geometric grotesque from the Spanish type studio atipo, blending a forward-looking aesthetic with a neutral, information-driven tone. Its 12-weight range and subtle inktrap details position it as a versatile typeface for branding, editorial, and digital interfaces that want a sophisticated tech edge.",
+    "licenseInfo": { "type": "Free for personal use", "url": "https://www.atipofoundry.com/fonts/n27" },
+    "publishedAt": "2022-01-01"
+  },
+  "General Sans": {
+    "description": "General Sans is a rationalist sans-serif designed by Frode Helland for the Indian Type Foundry, drawing aesthetic inspiration from 1950s French typography. Its clean, orderly letterforms carry an understated spright that makes it a reliable choice for editorial design, digital products, and corporate identity.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/general-sans" },
+    "publishedAt": "2021-01-01"
+  },
+  "LCT Iptex": {
+    "description": "LCT Iptex is a futuristic monospace typeface from Lokal Container Tipografi, inspired by the modular design principles of Wim Crouwel. Its geometric precision and clean, high-tech letterforms suit coding environments, UI design, and branding that seeks a forward-thinking, structured aesthetic.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/LCTipografi/LCT-Iptex" },
+    "publishedAt": "2021-01-01"
+  },
+  "PicNic": {
+    "description": "PicNic is an organic script typeface by Mariel Nils, published by Velvetyne, with letterforms inspired by natural elements — water drops, tree shadows, and an ant's wandering path. It features a rich cloud of contextual ligatures and inclusive substitutions, making each setting feel alive and spontaneous.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/picnic/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Sprat": {
+    "description": "Sprat is a variable display serif by Ethan Nakache, featuring long sharp serifs and high stroke contrast inspired by Eric Gill's alphabet. Available across three widths (condensed, regular, extended) and six weights from thin to black, it shines in headlines, posters, and logotypes where typographic drama is welcome.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/EthanNakache/Sprat-type" },
+    "publishedAt": "2020-01-01"
+  },
+  "Insolente": {
+    "description": "Insolente is a realistic human script typeface by Fanny Coulez and Julien Saurin, designed to feel as if handwritten personally. The family includes regular and alternate cuts with extensive ligature and ornament support, ideal for invitations, certificates, and any design that calls for warmth and personal touch.",
+    "licenseInfo": { "type": "Proprietary", "url": "https://www.fontspring.com/fonts/sc-type/insolente" },
+    "publishedAt": "2015-01-01"
+  },
+  "Crozet": {
+    "description": "Crozet (also known as Crozet·te) is an experimental typeface inspired by cross-stitch embroidery, designed by Thaïs Cuny. Its pixel-like, grid-based construction gives text the texture of handmade needlework, bridging craft tradition with digital type design in an unusually tactile way.",
+    "licenseInfo": { "type": "OFL", "url": "https://uncut.wtf/display/crozet/" },
+    "publishedAt": "2023-01-01"
+  },
+  "DINdong": {
+    "description": "DINdong is a reworking of DIN 1451 Breitschrift after Peter Wiegel's digitization, created by Clara Sambot with inclusive and non-binary glyph features. It retains the functional, industrial character of the classic German standards typeface while expanding its cultural scope for contemporary use.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://uncut.wtf/sans-serif/dindong/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Roberte": {
+    "description": "Roberte is an italic-only stroke typeface by Eugénie Bidaut, drawn freely from the italic letter forms of Robert Granjon without any upright companion. Its calligraphic origins give it fluid, expressive energy — it exists entirely as a cursive, making it unusual and striking in display contexts.",
+    "licenseInfo": { "type": "OFL", "url": "https://gitlab.com/Eugenie-B/roberte" },
+    "publishedAt": "2020-01-01"
+  },
+  "Nudles": {
+    "description": "Nudles is a playful open-source script typeface by Anne-Dauphine Borione (Daytona Mess), a Paris-based type designer known for experimental display work. Its quirky, looping letterforms bring a hand-made warmth to headlines, posters, and editorial layouts that want something genuinely idiosyncratic.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/authors/anne-dauphine-borione/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Commissioner": {
+    "description": "Commissioner is a low-contrast humanist sans-serif designed by Kostas Bartsokas with three 'voices' built into a single variable font: a clean grotesque, a semi-glyphic flared style, and a wedge-serif variation. The continuous axes allow designers to dial in exactly the right personality for headings, body text, or UI.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/kosbarts/Commissioner" },
+    "publishedAt": "2020-01-01"
+  },
+  "Uncut Sans": {
+    "description": "Uncut Sans is a slightly quirky, deliberately ahistorical sans-serif by Kasper Nordkvist, designed without reference to any particular era of typography. Created originally for the UNCUT.wtf free font catalogue, it embodies a kind of neutral peculiarity — familiar enough to use anywhere, distinctive enough to be noticed.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/kaspernordkvist/uncut_sans" },
+    "publishedAt": "2022-01-01"
+  },
+  "RT Obligat": {
+    "description": "RT Obligat is a condensed linear typeface from Hamburg's Riesling Type foundry, carrying a new-farmer vibe with an industrial-retro touch reminiscent of potato-bag labelling and utilitarian print. Its narrow, no-nonsense letterforms make it a strong choice for packaging, brand identities with a regional or craft character.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.rieslingtype.com/" },
+    "publishedAt": "2019-01-01"
+  },
+  "Block": {
+    "description": "Block is a bold geometric display sans by Alexey Atapin, constructed with sharp, modular precision and a futuristic sensibility. Its heavy, squared letterforms are built for maximum visual weight in headlines, game graphics, and branding that wants to project strength and technological confidence.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://fontesk.com/designer/alexey-atapin/" },
+    "publishedAt": "2020-01-01"
+  },
+  "Bolgarus": {
+    "description": "Bolgarus is a decorative geometric typeface steeped in cultural symbolism, born from the designer's research into their people's history and religion. Its ambiguous letterforms can be read in multiple ways depending on context, making it a highly expressive typeface for projects that want to blend futurism with heritage.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://fontesk.com/bolgarus-font/" },
+    "publishedAt": "2020-01-01"
+  },
+  "Elevatia": {
+    "description": "Elevatia is a clean, elegant sans-serif by GGBotNet released in 2024, with graceful letterforms that balance fancy and casual sensibilities. Available in Regular and Italic, it suits branding, greeting cards, fashion, and digital projects where a refined but approachable tone is needed.",
+    "licenseInfo": { "type": "OFL", "url": "https://ggbot.itch.io/elevatia-font" },
+    "publishedAt": "2024-01-01"
+  },
+  "Frankinity": {
+    "description": "Frankinity is a modern serif typeface crafted by Diana N, combining contemporary elegance with classical charm through carefully handcrafted letterforms. Its clean construction and refined character make it a go-to for branding, editorial design, and packaging where sophisticated personality matters.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://befonts.com/frankinity-font.html" },
+    "publishedAt": "2022-01-01"
+  },
+  "P95-CYR": {
+    "description": "P95-CYR is a condensed pixel typeface with Cyrillic support, constructed on a modular grid with high contrast between thick and thin elements. Its narrow, tightly-packed letterforms and sharp aesthetic make it well-suited to game graphics, edgy posters, and digital art that references retro-computational culture.",
+    "licenseInfo": { "type": "OFL", "url": "https://fontesk.com/p95-cyr-font/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Space Mono": {
+    "description": "Space Mono is a fixed-width typeface designed by Colophon Foundry for Google Design, commissioned for the 2016 refresh of Google Fonts. Its letterforms fuse geometric construction with grotesque details and a hint of 1960s headline aesthetics, making it expressive and distinctive for editorial, creative coding, and tech branding.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/googlefonts/spacemono" },
+    "publishedAt": "2016-01-01"
+  },
+  "Comico": {
+    "description": "Comico is a casual handwritten script from the Indian Type Foundry's Fontshare platform, with informal, rounded letterforms that feel friendly and approachable. Its relaxed energy makes it a natural fit for casual branding, social media graphics, and any project that wants a warm, human touch.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/comico" },
+    "publishedAt": "2021-01-01"
+  },
+  "Pencerio Hairline": {
+    "description": "Pencerio Hairline is a monolinear reinterpretation of Spencerian calligraphy designed by Manushi Parikh at the Indian Type Foundry. Unlike traditional Spencerian scripts with their thick-thin pen pressure, Pencerio uses uniform hairline strokes throughout, projecting formal elegance with a distinctly contemporary, digital sensibility.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/pencerio" },
+    "publishedAt": "2021-01-01"
+  },
+  "Sharpie Variable": {
+    "description": "Sharpie Variable is an informal sign-painting script designed by Théo Guillard at the Indian Type Foundry, with angular, disconnected letterforms that read as if painted quickly with a flat brush. Its variable weight axis ramps up stroke contrast dramatically from light to black, offering a wide range of expressiveness.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/sharpie" },
+    "publishedAt": "2022-01-01"
+  },
+  "America XIX": {
+    "description": "America XIX is a serif display typeface designed by Roman Gornitsky, drawing on the expressive lettering traditions of 19th-century American printing. Its Cyrillic coverage alongside Latin makes it a distinctive choice for editorial and branding projects that need historical gravitas with a broad script range.",
+    "licenseInfo": { "type": "Free for personal use", "url": "https://online-fonts.com/fonts/america-xix" },
+    "publishedAt": "2020-01-01"
+  },
+  "ARK-ES Dense": {
+    "description": "ARK-ES Dense is the densely-set variant of Eddie Stuart's ARK-ES gridface — a quirky, experimental all-caps pixel typeface built on a strict geometric grid. Released in 2020, it comes in multiple weights and suits game graphics, retro-digital design, and any creative project that wants constructivist letterform energy.",
+    "licenseInfo": { "type": "OFL", "url": "https://usemodify.com/fonts/ark-typeface/" },
+    "publishedAt": "2020-01-01"
+  },
+  "ARK-ES Solid": {
+    "description": "ARK-ES Solid is the solid-fill companion to ARK-ES Dense in Eddie Stuart's experimental gridface family. Its modular, all-caps construction in four weights (Light through Bold) gives it a bold, structural personality ideal for game UI, posters, and futuristic brand identities.",
+    "licenseInfo": { "type": "OFL", "url": "https://usemodify.com/fonts/ark-typeface/" },
+    "publishedAt": "2020-01-01"
+  },
+  "LCT Mogi A": {
+    "description": "LCT Mogi A is a super-fat variable display typeface by Deni Anggara at Lokal Container Tipografi, featuring wide, bouncy letterforms with a friendly yet impactful personality. Its width axis lets designers shift from compact to expansive, making it highly adaptable for headlines, posters, and bold digital interfaces.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/LCTipografi/LCT-Mogi" },
+    "publishedAt": "2022-01-01"
+  },
+  "Biceps Grotesk": {
+    "description": "Biceps Grotesk is a modular display typeface by Together With You, where every letter is constructed using only squares and triangles on an 810×810px grid. Inspired by the geometry of dumbbells, it balances strict modularity with surprisingly organic, abstract results — a free font built for expressive headline work.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://biceps.togetherwithyou.co/" },
+    "publishedAt": "2024-01-01"
+  },
+  "BDO Grotesk": {
+    "description": "BDO Grotesk is an open-source neo-grotesque from Lokal Container Tipografi, drawing on the rational aesthetics of 1950s–60s European graphic design systems. Its minimalist forms and seven-weight range deliver functional versatility with a quiet mid-century modernist sensibility.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/LCTipografi/BDO-Grotesk" },
+    "publishedAt": "2022-01-01"
+  },
+  "BD Lifeless Grotesk": {
+    "description": "BD Lifeless Grotesk is a neutral, unadorned grotesque by Harry Dinh, intentionally crafted for clarity and universal appeal without stylistic pretension. Its 9 weights from Thin to Black, with Vietnamese language support, make it a quietly dependable tool for corporate communications, websites, and print projects.",
+    "licenseInfo": { "type": "CC BY", "url": "https://fontesk.com/bd-lifeless-grotesk-typeface/" },
+    "publishedAt": "2023-01-01"
+  },
+  "Funnel Sans": {
+    "description": "Funnel Sans is a contemporary neo-grotesque typeface designed by Kristian Möller for Stockholm brand agency NORD ID, maintained by Dicotype. Its functional yet personal character, balancing square and circular letterforms, pairs with the more eccentric Funnel Display in a 15-style family suited to modern product and web design.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/Dicotype/Funnel" },
+    "publishedAt": "2023-01-01"
+  },
+  "Terminal Grotesque": {
+    "description": "Terminal Grotesque is an open-source pixel-grotesque hybrid designed by Raphaël Bastide starting in 2010, sitting between pixel font and organic title face. Influenced by Futura and Radim Pesko's grotesque drawings, it began as a follow-up to a pixel icon font and grew into something punk, technical, and alive.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/terminal-grotesque/" },
+    "publishedAt": "2011-01-01"
+  },
+  "Compagnon Bold": {
+    "description": "Compagnon Bold is the cursive weight of the Compagnon typeface family by Chloé Lozano at Velvetyne, a five-style exploration inspired by typewriter database specimens across different eras. Bold's cursive style gives the family's typewriter-meets-transitional heritage an expressive, distinctive voice.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/compagnon/" },
+    "publishedAt": "2019-01-01"
+  },
+  "Anthony": {
+    "description": "Anthony is a geometric sans-serif typeface by Sun Young Oh, published by Velvetyne, inspired by the steel sculptures of British artist Anthony Caro. Its letterforms reference the way Caro's steel beams lean and balance against each other, giving the font a structural, sculptural quality with an abstract modernist spirit.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/anthony/" },
+    "publishedAt": "2020-01-01"
+  },
+  "Hubot Sans": {
+    "description": "Hubot Sans is GitHub's technical companion typeface to Mona Sans, designed with Degarism with more geometric, idiosyncratic accents to convey a robotic, mechanical character. Released in November 2022 as a variable font, it's well-suited for headers, pull-quotes, and contexts where Mona Sans needs a distinctive counterpart.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/github/hubot-sans" },
+    "publishedAt": "2022-11-01"
+  },
+  "Sligoil Micro": {
+    "description": "Sligoil Micro is a playful monospace typeface designed by Ariel Martín Pérez for the interface of a game called Unknown Number, published by Velvetyne. Inspired by British Isles sign culture, vintage Space Cadet keyboards, and the work of Matthew Carter, it carries large ink traps and optional cursive letter alternates.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/sligoil/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Pilowlava": {
+    "description": "Pilowlava is an expressive decorative typeface by Anton Moglia and Jérémy Landes, released by Velvetyne in 2019 for Cercle Magazine. Its flowing, viscous letterforms — referencing cooled pillow lavas formed by underwater volcanic flows — balance graffiti-influenced dynamics with compass-drawn geometry in a uniquely tactile way.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/pilowlava/" },
+    "publishedAt": "2019-01-01"
+  },
+  "Jost": {
+    "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/indestructible-type/Jost" },
+    "publishedAt": "2019-01-01"
+  },
+  "Basteleur": {
+    "description": "Basteleur is an eccentric display serif by Keussel, published by Velvetyne, designed with the Tarot de Marseille as its guiding spirit. Its letterforms blend the soft roundness of Cooper Black with the mysticism of medieval woodcut type, producing a uniquely whimsical face available in Moonlight (light) and Black weights.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/basteleur/" },
+    "publishedAt": "2021-04-01"
+  },
+  "LT Crewmate": {
+    "description": "LT Crewmate is a rounded fatface typeface by LyonsType, originally inspired by the iconic crewmate character shapes from the online game Among Us. Its compact, playful proportions and open-source availability make it a fun choice for gaming projects, casual branding, and any design that benefits from friendly boldness.",
+    "licenseInfo": { "type": "OFL", "url": "https://lyonstype4.wixsite.com/lyonstype-beta/fonts" },
+    "publishedAt": "2022-01-01"
+  },
+  "LT Museum": {
+    "description": "LT Museum is a flare serif by LyonsType, inspired by the classic Allied Irish Bank (AIB) logotype with refined proportions and extended Latin coverage. Its clean serifs evoke a sense of institutional heritage and quiet vintage charm, available in multiple weights including a distinctive Inline variant.",
+    "licenseInfo": { "type": "OFL", "url": "https://lyonstype4.wixsite.com/lyonstype-beta/fonts" },
+    "publishedAt": "2021-01-01"
+  },
+  "IntraNet": {
+    "description": "IntraNet is a Y2K-inspired decorative typeface by João Serafim that combines pixelated structure with soft, dynamic curves. Its aesthetic channels the early 2000s internet era — when the digital future felt tangible and strange — making it a compelling choice for nostalgic or retro-futuristic creative projects.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://serafimjg.gumroad.com/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Thunder": {
+    "description": "Thunder is a condensed variable typeface by Rajesh Rajput, available in 36 styles across Low Contrast and High Contrast variants, with 18 weights each including italics. Its powerful narrow proportions make it a go-to choice for branding, posters, magazines, and headlines that need typographic authority in a tight space.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.behance.net/gallery/124582465/THUNDER-Free-Typeface-Variable-36-Styles" },
+    "publishedAt": "2021-01-01"
+  },
+  "Libertinus Sans": {
+    "description": "Libertinus Sans is part of the Libertinus font family, forked from the Linux Biolinum open fonts project and maintained by Caleb Maclennan. It offers a clean humanist sans-serif companion to the Libertinus Serif family, covering Latin, Cyrillic, and Greek for academic publishing and open-source document preparation.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/alerque/libertinus" },
+    "publishedAt": "2012-01-01"
+  },
+  "Cossette Titre": {
+    "description": "Cossette Titre is a condensed grotesque display typeface created by Cossette Communication, featuring a classic grotesque structure with a distinctive subtle inverted contrast. Designed to work as a tight-packed headline companion to Cossette Texte, it maximizes brand impact in constrained spaces.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Cossette+Titre" },
+    "publishedAt": "2022-01-01"
+  },
+  "Cossette Texte": {
+    "description": "Cossette Texte is the wider, text-optimized member of the Cossette font pair designed by Cossette Communication, built for readability in longer passages. Its slightly expanded proportions and matching grotesque structure pair naturally with Cossette Titre, offering a coherent typographic system for brand and editorial use.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Cossette+Texte" },
+    "publishedAt": "2022-01-01"
+  },
+  "Oi": {
+    "description": "Oi is an ultra-fat display serif with its roots in grotesque slab serif traditions — most specifically the style that emerged from Caslon's Ionic. Its absurdly thick strokes, curling terminals, and high ornamental contrast make it one of the most theatrical typefaces on Google Fonts, built purely for maximum visual drama.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Oi" },
+    "publishedAt": "2013-01-01"
+  },
+  "Ultra": {
+    "description": "Ultra is a heavy fatface serif from Astigmatic (AOETI), pushing slab serif conventions to their dramatic extreme with exaggerated contrast, thick strokes, and curling serifs. Best deployed large — as a display headline, poster type, or logotype — where its old-fashioned exuberance can make the most impact.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Ultra" },
+    "publishedAt": "2011-01-01"
+  },
+  "Chaumont Script": {
+    "description": "Chaumont Script is a digital typeface based on the handwriting of Chantal Jacquet, a sign painter working in Chaumont, France, in the 1980s. Transcribed by Alexandre Bassi at ANRT Nancy, it contains 2500 glyphs with complex OpenType features that reproduce the fluid rhythm of the original cursive sign painting.",
+    "licenseInfo": { "type": "OFL", "url": "https://anrt-nancy.fr/en/fonts/chaumont-script" },
+    "publishedAt": "2021-01-01"
+  },
+  "Baskervville": {
+    "description": "Baskervville is a revival of a transitional typeface by Jacob, the French punchcutter who distributed it from 1815 as 'Baskerwille' — bridging Baskerville's classical forms with Didot's emerging modernity. Developed by a workshop at ANRT in 2017–18, it's a rare document of French typographic history, now available as an open-source webfont.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/anrt-type/ANRT-Baskervville" },
+    "publishedAt": "2018-01-01"
+  },
+  "enjoy please 3": {
+    "description": "enjoy please 3 is a minimal, quirky geometric sans-serif with a mellow, laid-back personality, designed by mozkito leee. Its simple, open construction sits in a space between playful and functional, suited to casual branding, digital interfaces, and any project that wants a lightness of spirit in its type.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.cdnfonts.com/enjoy-please-3.font" },
+    "publishedAt": "2020-01-01"
+  },
+  "Fat Porn Font XXL": {
+    "description": "Fat Porn Font XXL is a bold, modular display typeface by Nastia Piven, born as a personal project influenced by a trip to Berlin. Its heavy, square letterforms carry a mix of black humor, irreverence, and aesthetic confidence — designed primarily for merch, posters, and creative projects that embrace an unapologetic visual voice.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://fontsinuse.com/type_designers/6742/nastia-piven" },
+    "publishedAt": "2021-01-01"
+  },
+  "Format 1452": {
+    "description": "Format 1452 is a geometric DIN-like modular typeface by Frank Adebiaye (with contribution by Anton Moglia), published by Velvetyne. Built from modules without optical corrections, its strict geometric construction gives it an honest, structural quality that suits technical, editorial, and activist design contexts.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/format-1452/" },
+    "publishedAt": "2010-01-01"
+  },
+  "Director": {
+    "description": "Director is a typeface revival developed by May Jolivet and Justine Herbel at ESAB for the Reviving Ange Degheest project, based on a design originally made for the Hermes-Paillard typewriter company in 1958. Its marked stroke contrast, soft serifs, and mono-like construction reference the mechanical prestige of the Hermes 3000 era.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/degheest/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Gap Sans": {
+    "description": "Gap Sans is a display sans-serif forked from the Sani Trixie Sans typeface by GrandChaos9000, redesigned by Alexandre Liziard and Etienne Ozeray for interstices.io. Its expressive, irregular letterforms give it a raw, hand-constructed energy that distinguishes it in editorial and poster contexts.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/Interstices-/GapSans" },
+    "publishedAt": "2019-01-01"
+  },
+  "Handjet": {
+    "description": "Handjet is a remarkable element-based variable font by Rosetta Type Foundry, where every glyph is built from copies of a single interchangeable element that can morph between 23 shapes. It supports Arabic, Armenian, Cyrillic, Greek, Hebrew, Korean, and Latin, and was extended and open-sourced with Google's support in 2019.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/rosettatype/handjet" },
+    "publishedAt": "2019-01-01"
+  },
+  "Bagel Fat One": {
+    "description": "Bagel Fat One is a plump, rounded display typeface by Kyungwon Kim at JAMO, inspired by the soft, pillowy shapes of bread, pastries, and sweets. Its generous curves and lovable weight give it an irresistibly cute personality suited to food branding, children's media, and any project that benefits from roundness and warmth.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Bagel+Fat+One" },
+    "publishedAt": "2022-01-01"
+  },
+  "Boxing": {
+    "description": "Boxing is a wide, extended serif display typeface from the Indian Type Foundry's Fontshare platform, drawing on the bold proportions and rounded details of slab and western serif traditions. Its expansive letterforms are built for impactful headlines, packaging, and any design that needs a robust, full-bodied typographic presence.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/boxing" },
+    "publishedAt": "2021-01-01"
+  },
+  "Dela Gothic One": {
+    "description": "Dela Gothic One is a heavy, ultra-wide single-weight display sans by artakana, offering support for both Japanese (JIS 3 Kanji) and Latin scripts. Its flat, stable Gothic construction delivers imposing visual weight ideal for posters, packaging, and display settings that need to make an immediate statement.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Dela+Gothic+One" },
+    "publishedAt": "2021-01-01"
+  },
+  "Chillax": {
+    "description": "Chillax is a Bauhaus-inspired geometric sans by Manushi Parikh at the Indian Type Foundry, with lowercase letterforms directly derived from Herbert Bayer's 1926 Universal alphabet. Its 1920s modernist geometry feels simultaneously historical and fresh, ideal for editorial design, contemporary branding, and tech-adjacent aesthetics.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/chillax" },
+    "publishedAt": "2022-01-01"
+  },
+  "Azeret Mono": {
+    "description": "Azeret Mono is a monospace typeface designed by Martin Vácha at Displaay, emerging from an exploration of OCR fonts, past and futuristic operating systems, and 1990s computing interfaces. Its clean, mono-linear structure and slightly retro-futurist character make it versatile for coding environments, UI design, and tech aesthetics.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Azeret+Mono" },
+    "publishedAt": "2021-01-01"
+  },
+  "Néo-castel": {
+    "description": "Néo-castel is an expressive display typeface by Max Lillo, blending pixel and script influences within a vintage-inflected aesthetic. Its hybrid character — somewhere between historical calligraphy and digital grid construction — makes it a distinctive choice for titles, album artwork, and projects that bridge analog and digital sensibilities.",
+    "licenseInfo": { "type": "OFL", "url": "https://maxlilllo.gumroad.com/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Freeman": {
+    "description": "Freeman is a display sans-serif by Rodrigo Fuenzalida, Aoife Mooney, and Vernon Adams, reimagining traditional Gothic sans forms with open counters, sloped terminals, and a bold, single-weight character optimized for large-size use. Its humanist touches give Gothic directness a more contemporary and inviting feel.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Freeman" },
+    "publishedAt": "2023-01-01"
+  },
+  "Cormorant": {
+    "description": "Cormorant is a free, extravagant display serif by Christian Thalmann (Catharsis Fonts), inspired by the Garamond legacy and optimized for large sizes at high resolution. Its scandalously small counters, razor-sharp serifs, and flamboyantly tall accents push Garamond's essence to its most dramatic possible expression.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/CatharsisFonts/Cormorant" },
+    "publishedAt": "2015-01-01"
+  },
+  "Cormorant Unicase": {
+    "description": "Cormorant Unicase is a variant of Christian Thalmann's Cormorant family that mixes small-cap uppercase forms with selected lowercase letterforms, creating a distinctive futuristic and unified aesthetic. It draws on the same Garamond-inspired high contrast and delicate refinement as the main family, in a uniquely eyecatching presentation.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/CatharsisFonts/Cormorant" },
+    "publishedAt": "2015-01-01"
+  },
+  "Tanklager Kompakt": {
+    "description": "Tanklager Kompakt is a narrow display sans by Ariel Martín Pérez, inspired by a hand-painted sign discovered on the side of an oil storage tank in Visp, Switzerland. A DIN-grotesque hybrid where uppercase and lowercase structures sometimes diverge, it comes in two cuts with variable support for flexible headline use.",
+    "licenseInfo": { "type": "OFL", "url": "https://uncut.wtf/sans-serif/tanklager/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Nyght Serif": {
+    "description": "Nyght Serif is a contemporary serif by Maksym Kobuzan with a spicy character, combining smooth and sharp curves, blade-like serifs, and spurs inspired by a study of William Caslon's typefaces. Its light and dark weights with italics provide strong typographic contrast, with coverage for Ukrainian Cyrillic alongside Latin.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.tunera.xyz/fonts/nyght-serif/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Piscolabis": {
+    "description": "Piscolabis is a bold, condensed display sans by Ariel Martín Pérez, based on hand-painted signs found across Europe and named after the Spanish word for a tapas bar. It shares its x-height with the Picaflor typeface but developed its own personality around high ascenders and a character that's strong but never overwhelming.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.tunera.xyz/fonts/piscolabis/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Isenheim": {
+    "description": "Isenheim is a high-contrast serif with medieval influences designed by Benoît 'Sans Terre' Ferran, originally inspired by type found in a vintage monograph on Matthias Grünewald's Isenheim Altarpiece. Its long sharp serifs, round curves, and extensive alternate and ligature set — including MUFI rarities — give it extraordinary typographic depth.",
+    "licenseInfo": { "type": "OFL", "url": "https://gitlab.com/benoitsansterre/isenheim/" },
+    "publishedAt": "2020-01-01"
+  },
+  "Canarina": {
+    "description": "Canarina is a pixel-inspired typeface by Ariel Martín Pérez at Tunera Type Foundry, inspired by the graphic arts of the Canary Islands, particularly the work of Eduardo Millares Sall and César Manrique. Named after the Canarina canariensis vine, it embeds the visual history of the islands in its geometric letterforms.",
+    "licenseInfo": { "type": "OFL", "url": "https://codeberg.org/ArielMartinPerez/Canarina" },
+    "publishedAt": "2021-01-01"
+  },
+  "Kobata": {
+    "description": "Kobata is an experimental modular typeface by Ariel Martín Pérez at Tunera Type Foundry, built on a strict rule: only rectangles and circles, with rectangles unable to touch side-by-side. The result has a visual interference pattern — like a digital glitch — where circles appear as raindrops on a surface, functional yet genuinely strange.",
+    "licenseInfo": { "type": "OFL", "url": "https://gitlab.com/arielmartinperez/kobata" },
+    "publishedAt": "2021-01-01"
+  },
+  "Azabache": {
+    "description": "Azabache is a script typeface by Ariel Martín Pérez at Tunera Type Foundry, born from a research project exploring ways of designing digital letters without tracing complex vector paths. Its experimental construction method gives it an unusual visual texture that sits apart from conventional script typography.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.tunera.xyz/fonts/azabache/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Cy Grotesk Grand Dark": {
+    "description": "Cy Grotesk Grand Dark is a display variant of Maksym Kobuzan's Cy Grotesk family — a typeface that fuses the clear rationalism of mid-20th-century European neo-grotesks with the expressive energy of 19th-century grotesques. Its sharp angled spurs, wedge incisions, and smooth curves create an eccentric rhythm with strong visual personality.",
+    "licenseInfo": { "type": "Free for personal use", "url": "https://houseofmockups.com/products/cy-grotesk-grand-dark-free-display-font-download" },
+    "publishedAt": "2022-01-01"
+  },
+  "Ranade": {
+    "description": "Ranade is a neo-grotesque sans by Easha Ranade at the Indian Type Foundry, distinguished by sharp contrast in its diagonal strokes even at the lightest weights. Its tall x-height and 10-style compact design across five weights make it effective for branding and corporate applications that want precision with personality.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/ranade" },
+    "publishedAt": "2021-01-01"
+  },
+  "Cabinet Grotesk": {
+    "description": "Cabinet Grotesk is a contemporary sans-serif from the Indian Type Foundry's Fontshare platform, featuring subtle stroke contrast that sets it apart from conventional grotesques. Begun by Shiva Nallaperumal and finalized by the ITF team, its eight weights with double-storey default letterforms offer typographic sophistication for editorial and UI work.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.fontshare.com/fonts/cabinet-grotesk" },
+    "publishedAt": "2021-01-01"
+  },
+  "Carattere": {
+    "description": "Carattere is an elegant italic script typeface designed by Robert E. Leuschke, crafted to convey sophistication and formal refinement through its flowing, upright-connected letterforms. Its combination of script warmth and Latin-range language support makes it a reliable choice for invitations, certificates, and luxury branding.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Carattere" },
+    "publishedAt": "2021-01-01"
+  },
+  "Jaro": {
+    "description": "Jaro is an optical-size variable font revival of Jaroslav Benda's linocut lettering, designed by Agyei Archer, Celine Hurka, and Mirko Velimirović. Its OPSZ axis automatically adjusts spacing, weight, and form for optimal legibility across scales — from large display headlines to small, fine text — making it unusually adaptive.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/agyeiarcher/Jaro" },
+    "publishedAt": "2023-01-01"
+  },
+  "Instrument Sans": {
+    "description": "Instrument Sans is a variable neo-grotesque designed by Rodrigo Fuenzalida with direction from Jordan Egstad for the Instrument brand. Balancing precision with subtle playfulness, it draws on enduring neo-grotesque traditions while incorporating contemporary characteristics — available in multiple widths, weights, and italics.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/Instrument/instrument-sans" },
+    "publishedAt": "2022-01-01"
+  },
+  "Milkman": {
+    "description": "Milkman is a hybrid display typeface created by merging Giulia Boggio's elegant sans Fabio XM with Martin Desinde's blackletter Blocus (Velvetyne). The unexpected combination of grotesque capitals and blackletter-inflected details produces a sharp, editorial aesthetic suited to typographic artworks, posters, and vintage-inspired design.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.behance.net/gallery/129254433/Milkman-Free-Combination-Display-Font" },
+    "publishedAt": "2022-01-01"
+  },
+  "Projekt Blackbird": {
+    "description": "Projekt Blackbird is a clean condensed grotesque typeface designed by Leonit Gashi as a custom font for Blackbird Marketing, a Kosovo-based creative agency. Its single-weight elegance and narrow proportions make it a focused, contemporary tool for brand identities, editorial headings, and clean digital interfaces.",
+    "licenseInfo": { "type": "OFL", "url": "https://uncut.wtf/sans-serif/project-blackbird/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Saint": {
+    "description": "Saint is a dramatic decorative display typeface by Liza Dushnota, blending Gothic, ribbon, and wild plant motifs into a striking multi-style system. Drawing inspiration from punk aesthetics and Gothic letterforms, its 135-glyph character delivers maximum personality for editorial titles, posters, and expressive visual identities.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://uncut.wtf/display/saint/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Kulturë": {
+    "description": "Kulturë is a geometric grotesque typeface by Leonit Gashi, founder of the mini type foundry Kulturë Type based in Pristina, Kosovo. It embodies the foundry's signature approach — 'not too serious' fonts with strong geometric construction — delivering a versatile sans for branding and digital work with a quietly confident personality.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://uncut.wtf/display/kulture-type/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Phosphène Font": {
+    "description": "Phosphène is an experimental display typeface by Jeanne Saliou, combining pixel and script qualities in an unusual hybrid form. Its visual language draws from perceptual phenomena — phosphenes are the shapes you see when you press on your closed eyes — giving the font an ethereal, almost hallucinatory quality for avant-garde typography.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://uncut.wtf/display/phosphene/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Hedvig Letters Serif": {
+    "description": "Hedvig Letters Serif is part of the Hedvig typeface family created by Kanon Foundry for the Swedish insurance brand Hedvig. Designed in two optical sizes (Big and Small), it embraces small imperfections from drawing letters without optical corrections, reflecting Hedvig's brand philosophy of facing life without worry.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/KanonFoundry/HedvigLetters" },
+    "publishedAt": "2022-01-01"
+  },
+  "Hedvig Letters Sans": {
+    "description": "Hedvig Letters Sans is the sans-serif member of the Hedvig family by Kanon Foundry, sharing the same underlying skeleton as the optical-size serif cuts. Designed for the Swedish insurance company Hedvig alongside its serif companions, it provides a harmonious, imperfection-embracing voice suited to product and brand design.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/KanonFoundry/HedvigLetters" },
+    "publishedAt": "2022-01-01"
+  },
+  "Galgo Condensed": {
+    "description": "Galgo Condensed is a geometric variable sans-serif by Giulia Boggio, originally released in a single condensed weight in 2021 and expanded to include additional weights and a variable version. Its neutral, structured letterforms in a narrow format make it a practical and modern headline and display companion.",
+    "licenseInfo": { "type": "OFL", "url": "https://usemodify.com/fonts/galgo-condensed/" },
+    "publishedAt": "2021-01-01"
+  },
+  "TASA Explorer": {
+    "description": "TASA Explorer is a geometric sans-serif designed by Weizhong Zhang at Local Remote, originally created for the rebranding of the Taiwan Space Agency. Inspired by Futura — the first font sent to space in 1969 — its vertically cut terminals, sharp corners, and subtle stroke contrast project adventure and institutional precision.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/localremotetw/TASA-Typeface-Collection" },
+    "publishedAt": "2022-01-01"
+  },
+  "Amiamie": {
+    "description": "Amiamie is a sans-serif typeface by Mirat-Masson building on Sora Sagano's open-source Aileron (itself inspired by Helvetica's legacy) and augmenting it with non-binary glyph alternatives. A love letter to inclusivity through typography, it extends the neo-grotesque tradition with glyphs designed to be more gender-neutral.",
+    "licenseInfo": { "type": "OFL", "url": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface" },
+    "publishedAt": "2022-01-01"
+  },
+  "Amiamie Round": {
+    "description": "Amiamie Round is the rounded companion to Amiamie, sharing its inclusive non-binary glyph set and neo-grotesque Helvetica heritage while adding softened terminals throughout. The added warmth of rounded corners gives it an approachable, friendly character suited to contexts where Amiamie's sharper version feels too austere.",
+    "licenseInfo": { "type": "OFL", "url": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface" },
+    "publishedAt": "2022-01-01"
+  },
+  "Aspekta": {
+    "description": "Aspekta is a clean, contemporary neo-grotesque sans-serif by Ivo Dolenc, available in an exceptionally broad range of 20 weights. Built with a neutral, modern sensibility and multilingual support, it's a reliable system typeface for branding, UI, and print that wants versatility without visual noise.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/ivodolenc/aspekta" },
+    "publishedAt": "2022-01-01"
+  },
+  "Cooper": {
+    "description": "Cooper is a historically accurate revival of the Cooper typeface series by indestructible type*, meticulously researched from the original designs released by Barnhart Brothers & Spindler in the 1920s. Its organic Art Nouveau curves, inward-bowing stems, and rounded serifs give it a warmth rare in display typography, still legible at text sizes.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/indestructible-type/Cooper/" },
+    "publishedAt": "2019-01-01"
+  },
+  "Reglo": {
+    "description": "Reglo Bold is a compact, heavy geometric sans designed by Sébastien Sanfilippo in 2009 for the identity of Radio Panik with Open Source Publishing. Built to withstand typographic mistreatment, its single bold weight carries a sturdy, no-nonsense character ideal for signage, headline use, and activist or cultural design.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/sebsan/Reglo" },
+    "publishedAt": "2009-01-01"
+  },
+  "Ortica Linear": {
+    "description": "Ortica Linear is part of Benedetta Bovani's calligraphic serif family published through Collletttivo in 2019, available in two contrasting weights. The linear weight features smooth curves and classical proportions, while the bold is constructed entirely from straight segments — a duality inspired by Czech designer Vojtech Preissig's Preissig Antiqua.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.collletttivo.it/typefaces/ortica" },
+    "publishedAt": "2019-01-01"
+  },
+  "Aujournuit": {
+    "description": "Aujournuit is a calligraphic display serif by Collletttivo, inspired by a 1956 magazine title and evolved into a variable font with an extreme width axis — from very condensed to very wide. Its organic shapes, runny ink references, and dramatic proportional flexibility make it a standout choice for editorial and poster typography.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.collletttivo.it/typefaces/aujournuit" },
+    "publishedAt": "2022-01-01"
+  },
+  "Micro Grotesk": {
+    "description": "Micro Grotesk is a classic-flavored sans-serif packaged as a 256-UPM variable font, engineered by Eli Heuer for minimum file size without sacrificing character. Its compact technical footprint paired with solid grotesque letterforms makes it an interesting choice for performance-conscious web typography and UI work.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/eliheuer/micro-grotesk" },
+    "publishedAt": "2020-01-01"
+  },
+  "Apfel Grotesk": {
+    "description": "Apfel Grotezk is an airy, rounded geometric sans by Luigi Gorlero at Collletttivo, drawing inspiration from neo-grotesque and geometric typeface traditions. Released in 2019, its easy curves and friendly open proportions strike a balance between neutral utility and warm, welcoming design — accessible in three styles including the ink-saving Brukt.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/collletttivo/apfel-grotezk" },
+    "publishedAt": "2019-01-01"
+  },
+  "Apfel Grotezk Brukt": {
+    "description": "Apfel Grotezk Brukt is the eco-conscious variant of Luigi Gorlero's Apfel Grotezk family, featuring punch-out details designed to reduce the amount of ink used in printing. Its distinctive visual texture — light catching through the carved letterforms — makes it as interesting as it is sustainable.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/collletttivo/apfel-grotezk" },
+    "publishedAt": "2023-01-01"
+  },
+  "Sinistre": {
+    "description": "Sinistre is a display serif by Collletttivo that fuses Uncial minuscule, Roman proportions, and subtle Fraktur influences into soft letterforms with sharp terminations. Drawing inspiration from the Book of Kells, Celtic calligraphy, Gaelic stone carvings, and Elzevir types, it delivers medieval gravitas in a contemporary open-source package.",
+    "licenseInfo": { "type": "OFL", "url": "https://www.collletttivo.it/typefaces/sinistre" },
+    "publishedAt": "2020-01-01"
+  },
+  "Standard": {
+    "description": "Standard is a clean, understated sans-serif by Bryce Wilner, conceived as a translation and modification of Berthold's Akzidenz-Grotesk (historically sold under the name 'Standard'). Released under OFL, it covers all Latin-script languages and comes in four styles — Book, Bold, and matching italics — prioritizing honest utility over personality.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/brycewilner/Standard" },
+    "publishedAt": "2017-01-01"
+  },
+  "Redaction": {
+    "description": "Redaction is a serif typeface commissioned by Titus Kaphar and Reginald Dwayne Betts for their exhibition at MoMA PS1, designed by MCKL. Inspired by US legal typography — Times New Roman, Century Schoolbook — it comes in grades from subtly analog to nearly illegible, referencing the degradation documents suffer within the criminal justice system.",
+    "licenseInfo": { "type": "OFL", "url": "https://mckltype.com/redaction" },
+    "publishedAt": "2020-01-01"
+  },
+  "Times Newer Roman": {
+    "description": "Times Newer Roman is a typeface by art collective MSCHF, released in 2018, based on the URW Nimbus Roman No. 9 L with characters widened by 5–10% without changing their vertical heights. Originally designed to help students meet page length requirements, it has taken on a life of its own as a commentary on typographic compliance.",
+    "licenseInfo": { "type": "OFL", "url": "https://timesnewerroman.com/" },
+    "publishedAt": "2018-01-01"
+  },
+  "Louise": {
+    "description": "Louise is a revival of italic letterforms inspired by the Italian scripts of Louis Barbedor, designed by Luna Delabre and Camille Depalle at EESAB for the Reviving Ange Degheest project. Its accentuated monolinear strokes evoke the visual logic of neon signs, bridging historical calligraphy and contemporary illuminated signage.",
+    "licenseInfo": { "type": "OFL", "url": "https://velvetyne.fr/fonts/degheest/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Knack": {
+    "description": "Knack is a contemporary sans-serif by KnackStudio, built for clean, flexible use across UI, branding, and editorial contexts. Its balanced proportions and honest construction occupy the growing space of independent foundry grotesques — typefaces designed with a considered neutrality that still has something to say.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://fontesk.com/designer/knack/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Crédible": {
+    "description": "Crédible is a script typeface from the JLFC collective, with flowing letterforms that carry a formal, script-inspired energy. Its open-source availability and OFL licensing align with the French independent type scene's commitment to making quality typography freely accessible for cultural and creative projects.",
+    "licenseInfo": { "type": "OFL", "url": "https://fontesk.com/credible-font/" },
+    "publishedAt": "2022-01-01"
+  },
+  "Oswald": {
+    "description": "Oswald is a reworking of the classic Alternate Gothic sans-serif style, designed by Vernon Adams and published through Google Fonts. Its condensed proportions, strong weight range, and clean construction make it one of the web's most-used display typefaces — sturdy, impactful, and highly readable at headline scale.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Oswald" },
+    "publishedAt": "2012-01-01"
+  },
+  "Montagu Slab": {
+    "description": "Montagu Slab is a variable slab-serif display typeface designed by Florian Karsten, drawing on 19th-century classic designs. Its optical size axis shifts the typeface from a tighter, high-contrast display variant to a more open, legible text version — offering unusually broad typographic range in a single variable font file.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/floriankarsten/montagu-slab" },
+    "publishedAt": "2022-01-01"
+  },
+  "Vampiro One": {
+    "description": "Vampiro One is a low-contrast monoline script by Riccardo De Franceschi and Eben Sorkin at Sorkin Type, rooted in the 20th-century Italian tradition of monolinear scripts. Designed for display at medium to large sizes, it carries a retro glamour suited to vintage branding, posters, and atmospheric editorial contexts.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Vampiro+One" },
+    "publishedAt": "2012-01-01"
+  },
+  "Tillana": {
+    "description": "Tillana is a bilingual Devanagari and Latin typeface by the Indian Type Foundry, first published as open source in 2014. One of the few 'true cursive' designs for Devanagari script, its letterforms are slanted at 10 degrees with visible stroke contrast, as if fluidly handwritten — making it expressive for both Hindi and Latin settings.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/itfoundry/tillana" },
+    "publishedAt": "2014-01-01"
+  },
+  "Ranga": {
+    "description": "Ranga is a display handwriting typeface from TipTopTyp with Indian typographic influences, designed by a Berlin-based sign painter whose character palette expanded to include South Asian forms. Its informal energy and bilingual character make it a distinctive choice for cultural projects, invitations, and expressive display work.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Ranga" },
+    "publishedAt": "2014-01-01"
+  },
+  "Astloch": {
+    "description": "Astloch is a set of monolinear display faces designed by Dan Rhatigan in 2011, built on the distinctive mix of sharp angles and florid curves found in Fraktur lettering. Available in two cuts — delicate and sturdy — it brings a contemporary design sensibility to blackletter traditions without the historical weight.",
+    "licenseInfo": { "type": "OFL", "url": "https://fonts.google.com/specimen/Astloch" },
+    "publishedAt": "2011-01-01"
+  },
+  "Srisakdi": {
+    "description": "Srisakdi is a Thai and Latin script typeface by Cadson Demak, based on early Ratanakosin-style Thai controlled handwriting using Western ink and paper. Revised for Google Fonts in 2018, it preserves the loop shapes and cultural calligraphic character of traditional Thai letterforms while improving screen legibility.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/cadsondemak/Srisakdi" },
+    "publishedAt": "2016-01-01"
+  },
+  "Playpen Sans": {
+    "description": "Playpen Sans is an open-source handwriting simulation typeface from TypeTogether, developed after more than two years of research into Latin-script handwriting education. Its secret is seven versions of each character with a built-in randomizer — no character repeats in close proximity — producing spontaneous, genuinely organic-feeling text.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/TypeTogether/Playpen-Sans" },
+    "publishedAt": "2023-01-01"
+  },
+  "Shantell Sans": {
+    "description": "Shantell Sans is a marker-style variable font by ArrowType (Stephen Nixon), conceived with artist Shantell Martin and drawn from her handwriting and creative philosophy. Its five variable axes — weight, italic, informality, bounce, and spacing — make it uniquely expressive for creative projects, educational contexts, and animated type.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/arrowtype/shantell-sans" },
+    "publishedAt": "2022-01-01"
+  },
+  "TikTok Sans": {
+    "description": "TikTok Sans is a geometric variable sans-serif commissioned by TikTok from Grilli Type in 2023, then expanded with Type Network and Contrast Foundry into a fully open-source release. Supporting 460+ languages across Latin, Greek, and Cyrillic with weight, width, slant, and optical size axes, it was engineered for legibility on fast-scrolling mobile screens.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/tiktok/TikTokSans" },
+    "publishedAt": "2023-01-01"
+  },
+  "Sober": {
+    "description": "Sober is a robust slab-serif display typeface by Rajesh Rajput, designed for headlines, titles, and logos that need to make a structural visual impact. Available in nine weights with Latin and Cyrillic support, its narrow proportions and strong slab construction give it a compressed, authoritative presence.",
+    "licenseInfo": { "type": "Free for commercial use", "url": "https://www.behance.net/gallery/190934601/Sober-Typeface-Latin-Cyrillic-Variable" },
+    "publishedAt": "2023-01-01"
+  },
+  "Granturismo": {
+    "description": "Granturismo is a dynamic variable display family by Nathan Laurent, inspired by the excitement of speed and sound with variable reverse contrast that shifts its personality across weights. Its seven cuts — including variable — give designers a bold, striking voice for posters, headlines, and album artwork demanding impact.",
+    "licenseInfo": { "type": "OFL", "url": "https://uncut.wtf/display/granturismo/" },
+    "publishedAt": "2021-01-01"
+  },
+  "Format": {
+    "description": "Format is a geometrical variable sans-serif by Nathan Laurent, born in Brussels in June 2020 and developed as an open-source exploration of geometric type construction with square proportions. Its variable structure and clean letterforms make it a versatile foundation for branding, editorial, and digital display work.",
+    "licenseInfo": { "type": "OFL", "url": "https://github.com/NathanLaurent/Format" },
+    "publishedAt": "2020-06-01"
+  }
+}

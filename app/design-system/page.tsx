@@ -1,15 +1,72 @@
+'use client'
+
+import React, { useState } from 'react'
 import Link from 'next/link'
 
-// ─── helpers ────────────────────────────────────────────────────────────────
+// ── token data ────────────────────────────────────────────────────────────────
+
+type TokenGroup = { group: string; tokens: { name: string; light: string; dark: string }[] }
+
+const GRAY_TOKENS: TokenGroup[] = [
+  { group: 'Content', tokens: [
+    { name: '--gray-cont-prim',  light: '#0a0a0a',             dark: '#fcfcfc' },
+    { name: '--gray-cont-sec',   light: 'rgba(10,10,10,0.64)', dark: 'rgba(252,252,252,0.64)' },
+    { name: '--gray-cont-tert',  light: 'rgba(10,10,10,0.4)',  dark: 'rgba(252,252,252,0.4)' },
+    { name: '--gray-cont-quart', light: 'rgba(10,10,10,0.24)', dark: 'rgba(252,252,252,0.24)' },
+  ]},
+  { group: 'Accent', tokens: [
+    { name: '--gray-accent-prim', light: '#0a0a0a', dark: '#fcfcfc' },
+    { name: '--gray-accent-sec',  light: '#1f1f1f', dark: '#f2f2f2' },
+  ]},
+  { group: 'Fill', tokens: [
+    { name: '--gray-fill-prim', light: 'rgba(26,26,26,0.04)', dark: 'rgba(252,252,252,0.04)' },
+    { name: '--gray-fill-sec',  light: 'rgba(26,26,26,0.08)', dark: 'rgba(252,252,252,0.08)' },
+  ]},
+  { group: 'Border', tokens: [
+    { name: '--gray-brd-prim', light: 'rgba(26,26,26,0.08)', dark: 'rgba(252,252,252,0.08)' },
+  ]},
+  { group: 'Surface', tokens: [
+    { name: '--gray-surface-prim', light: '#fcfcfc', dark: '#0a0a0a' },
+    { name: '--gray-surface-sec',  light: '#f2f2f2', dark: '#1f1f1f' },
+  ]},
+]
+
+const MISC_TOKENS: TokenGroup[] = [
+  { group: 'Misc', tokens: [
+    { name: '--misc-cont-inverse', light: '#f7f7f7',               dark: '#0a0a0a' },
+    { name: '--misc-cont-sec',     light: 'rgba(247,247,247,0.64)', dark: 'rgba(10,10,10,0.64)' },
+    { name: '--misc-cont-tert',    light: 'rgba(247,247,247,0.24)', dark: 'rgba(10,10,10,0.24)' },
+  ]},
+]
+
+const SHADCN_TOKENS: TokenGroup[] = [
+  { group: 'Base', tokens: [
+    { name: '--background', light: '#ffffff', dark: '#0a0a0a' },
+    { name: '--foreground', light: '#0f0f0f', dark: '#fafafa' },
+  ]},
+  { group: 'Primary', tokens: [
+    { name: '--primary',            light: '#171717', dark: '#fafafa' },
+    { name: '--primary-foreground', light: '#fafafa', dark: '#171717' },
+  ]},
+  { group: 'Secondary / Muted', tokens: [
+    { name: '--secondary',            light: '#f5f5f5', dark: '#2d2d2d' },
+    { name: '--secondary-foreground', light: '#171717', dark: '#fafafa' },
+    { name: '--muted',                light: '#f5f5f5', dark: '#2d2d2d' },
+    { name: '--muted-foreground',     light: '#737373', dark: '#a3a3a3' },
+  ]},
+  { group: 'Borders / Ring', tokens: [
+    { name: '--border', light: '#e5e5e5', dark: '#2d2d2d' },
+    { name: '--input',  light: '#e5e5e5', dark: '#2d2d2d' },
+    { name: '--ring',   light: '#a3a3a3', dark: '#525252' },
+  ]},
+]
+
+// ── helpers ───────────────────────────────────────────────────────────────────
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section style={{ marginBottom: 64 }}>
-      <h2 style={{
-        fontSize: 11, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase',
-        color: 'var(--gray-cont-tert)', marginBottom: 24, paddingBottom: 12,
-        borderBottom: '1px solid var(--gray-brd-prim)',
-      }}>
+      <h2 style={{ fontSize: 11, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--gray-cont-tert)', marginBottom: 24, paddingBottom: 12, borderBottom: '1px solid var(--gray-brd-prim)' }}>
         {title}
       </h2>
       {children}
@@ -18,61 +75,400 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 }
 
 function Label({ children }: { children: React.ReactNode }) {
-  return (
-    <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginTop: 8, fontFamily: 'var(--font-space-mono)' }}>
-      {children}
-    </div>
-  )
+  return <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginTop: 6, fontFamily: 'var(--font-space-mono)' }}>{children}</div>
 }
 
-function Row({ children }: { children: React.ReactNode }) {
-  return <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16, alignItems: 'flex-start' }}>{children}</div>
+function Mono({ children }: { children: React.ReactNode }) {
+  return <code style={{ fontSize: 11, fontFamily: 'var(--font-space-mono)', background: 'var(--gray-fill-sec)', padding: '2px 6px', borderRadius: 4, color: 'var(--gray-cont-prim)' }}>{children}</code>
 }
 
-function HardcodeTag({ children }: { children: React.ReactNode }) {
+function ColorCell({ value, bg }: { value: string; bg: 'light' | 'dark' }) {
   return (
-    <code style={{
-      display: 'inline-block', fontSize: 11, padding: '2px 6px', borderRadius: 4,
-      backgroundColor: 'rgba(255,80,80,0.12)', color: '#ff5050',
-      fontFamily: 'var(--font-space-mono)',
-    }}>
-      {children}
-    </code>
-  )
-}
-
-// ─── color swatch ────────────────────────────────────────────────────────────
-
-function Swatch({ varName, note }: { varName: string; note?: string }) {
-  return (
-    <div style={{ width: 120 }}>
-      <div style={{
-        width: '100%', height: 48, borderRadius: 10,
-        backgroundColor: `var(${varName})`,
-        border: '1px solid var(--gray-brd-prim)',
-      }} />
-      <Label>{varName}{note && <><br /><span style={{ color: 'var(--gray-cont-quart)' }}>{note}</span></>}</Label>
-    </div>
-  )
-}
-
-// ─── component demo ──────────────────────────────────────────────────────────
-
-function ComponentDemo({ name, source, children }: { name: string; source: string; children: React.ReactNode }) {
-  return (
-    <div style={{ marginBottom: 32 }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: 12, marginBottom: 12 }}>
-        <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--gray-cont-prim)' }}>{name}</span>
-        <code style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)' }}>{source}</code>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+      <div style={{ width: 22, height: 22, borderRadius: 5, flexShrink: 0, position: 'relative', outline: '1px solid rgba(0,0,0,0.08)', outlineOffset: '-1px', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'8\' height=\'8\'%3E%3Crect width=\'4\' height=\'4\' fill=\'%23bbb\'/%3E%3Crect x=\'4\' y=\'4\' width=\'4\' height=\'4\' fill=\'%23bbb\'/%3E%3C/svg%3E")', backgroundSize: '8px 8px' }} />
+        <div style={{ position: 'absolute', inset: 0, backgroundColor: value }} />
       </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center' }}>
-        {children}
+      <code style={{ fontSize: 11, fontFamily: 'var(--font-space-mono)', color: bg === 'dark' ? 'rgba(252,252,252,0.55)' : 'rgba(10,10,10,0.45)' }}>
+        {value}
+      </code>
+    </div>
+  )
+}
+
+function TokenTable({ groups }: { groups: TokenGroup[] }) {
+  const col = (bg: 'light' | 'dark'): React.CSSProperties => ({
+    backgroundColor: bg === 'light' ? '#f0f0f0' : '#181818', flex: 1,
+  })
+  return (
+    <div style={{ borderRadius: 12, overflow: 'hidden', border: '1px solid var(--gray-brd-prim)' }}>
+      <div style={{ display: 'flex', borderBottom: '1px solid var(--gray-brd-prim)' }}>
+        <div style={{ width: 216, padding: '7px 14px', flexShrink: 0, fontSize: 10, fontWeight: 700, color: 'var(--gray-cont-tert)', letterSpacing: '0.07em', textTransform: 'uppercase' }}>Token</div>
+        <div style={{ ...col('light'), padding: '7px 14px', fontSize: 10, fontWeight: 700, color: 'rgba(10,10,10,0.35)', letterSpacing: '0.07em', textTransform: 'uppercase' }}>☀ Light</div>
+        <div style={{ ...col('dark'), padding: '7px 14px', fontSize: 10, fontWeight: 700, color: 'rgba(252,252,252,0.35)', letterSpacing: '0.07em', textTransform: 'uppercase', borderLeft: '1px solid rgba(0,0,0,0.25)' }}>☾ Dark</div>
+      </div>
+      {groups.map((g, gi) => (
+        <div key={g.group}>
+          <div style={{ display: 'flex', borderBottom: '1px solid var(--gray-brd-prim)', backgroundColor: 'var(--gray-fill-prim)' }}>
+            <div style={{ width: 216, padding: '5px 14px', flexShrink: 0, fontSize: 10, fontWeight: 700, color: 'var(--gray-cont-tert)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>{g.group}</div>
+            <div style={{ flex: 2 }} />
+          </div>
+          {g.tokens.map((t, ti) => {
+            const last = gi === groups.length - 1 && ti === g.tokens.length - 1
+            return (
+              <div key={t.name} style={{ display: 'flex', borderBottom: last ? 'none' : '1px solid var(--gray-brd-prim)' }}>
+                <div style={{ width: 216, padding: '9px 14px', flexShrink: 0 }}>
+                  <code style={{ fontSize: 11, fontFamily: 'var(--font-space-mono)', color: 'var(--gray-cont-prim)' }}>{t.name}</code>
+                </div>
+                <div style={{ ...col('light'), padding: '9px 14px', display: 'flex', alignItems: 'center' }}>
+                  <ColorCell value={t.light} bg="light" />
+                </div>
+                <div style={{ ...col('dark'), padding: '9px 14px', display: 'flex', alignItems: 'center', borderLeft: '1px solid rgba(0,0,0,0.25)' }}>
+                  <ColorCell value={t.dark} bg="dark" />
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ── playground ────────────────────────────────────────────────────────────────
+
+type CtrlRadio  = { type: 'radio';  label: string; options: string[]; value: string;  onChange: (v: string) => void }
+type CtrlText   = { type: 'text';   label: string; value: string;  onChange: (v: string) => void }
+type CtrlToggle = { type: 'toggle'; label: string; value: boolean; onChange: (v: boolean) => void }
+type Ctrl = CtrlRadio | CtrlText | CtrlToggle
+
+const ctrlBase: React.CSSProperties = {
+  fontFamily: '"Inter Variable", sans-serif', cursor: 'pointer', transition: 'all 0.15s',
+}
+
+function ControlPanel({ controls }: { controls: Ctrl[] }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+      {controls.map((c, i) => {
+        const lbl = <div style={{ fontSize: 10, color: 'var(--gray-cont-tert)', marginBottom: 5, textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 700 }}>{c.label}</div>
+        if (c.type === 'radio') return (
+          <div key={i}>
+            {lbl}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>
+              {c.options.map(opt => (
+                <button key={opt} onClick={() => c.onChange(opt)} style={{ ...ctrlBase, padding: '4px 10px', borderRadius: 6, border: '1px solid var(--gray-brd-prim)', background: c.value === opt ? 'var(--gray-cont-prim)' : 'transparent', color: c.value === opt ? 'var(--gray-surface-prim)' : 'var(--gray-cont-prim)', fontSize: 12, fontWeight: 500 }}>
+                  {opt}
+                </button>
+              ))}
+            </div>
+          </div>
+        )
+        if (c.type === 'text') return (
+          <div key={i}>
+            {lbl}
+            <input value={c.value} onChange={e => c.onChange(e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 8, border: '1px solid var(--gray-brd-prim)', background: 'var(--gray-fill-prim)', color: 'var(--gray-cont-prim)', fontSize: 12, fontFamily: '"Inter Variable", sans-serif', outline: 'none', boxSizing: 'border-box' }} />
+          </div>
+        )
+        if (c.type === 'toggle') return (
+          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <button role="switch" aria-checked={c.value} onClick={() => c.onChange(!c.value)} style={{ width: 30, height: 17, borderRadius: 9, border: 'none', cursor: 'pointer', background: c.value ? 'var(--gray-cont-prim)' : 'var(--gray-brd-prim)', position: 'relative', transition: 'all 0.2s', flexShrink: 0, padding: 0 }}>
+              <div style={{ position: 'absolute', top: 2, left: c.value ? 14 : 2, width: 13, height: 13, borderRadius: '50%', background: c.value ? 'var(--gray-surface-prim)' : 'var(--gray-cont-prim)', transition: 'left 0.2s' }} />
+            </button>
+            <span style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Inter Variable", sans-serif' }}>{c.label}</span>
+          </div>
+        )
+        return null
+      })}
+    </div>
+  )
+}
+
+function Playground({ name, cls, preview, controls, code }: {
+  name: string; cls: string; preview: React.ReactNode; controls: React.ReactNode; code: string
+}) {
+  const [copied, setCopied] = useState(false)
+  const copy = () => { navigator.clipboard.writeText(code); setCopied(true); setTimeout(() => setCopied(false), 1600) }
+  return (
+    <div style={{ borderRadius: 'var(--radius-card)', border: '1px solid var(--gray-brd-prim)', overflow: 'hidden', marginBottom: 20 }}>
+      <div style={{ padding: '10px 16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', alignItems: 'center', gap: 10 }}>
+        <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-cont-prim)', fontFamily: '"Inter Variable", sans-serif' }}>{name}</span>
+        <Mono>{cls}</Mono>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 200px' }}>
+        <div style={{ padding: '32px 24px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--gray-fill-prim)', borderRight: '1px solid var(--gray-brd-prim)', minHeight: 100 }}>
+          {preview}
+        </div>
+        <div style={{ padding: 14 }}>
+          {controls}
+        </div>
+      </div>
+      <div style={{ borderTop: '1px solid var(--gray-brd-prim)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '8px 14px', background: 'var(--gray-surface-sec)' }}>
+        <code style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)', flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', paddingRight: 12 }}>
+          {code}
+        </code>
+        <button onClick={copy} style={{ ...ctrlBase, padding: '4px 10px', borderRadius: 6, border: '1px solid var(--gray-brd-prim)', background: copied ? 'var(--gray-cont-prim)' : 'transparent', color: copied ? 'var(--gray-surface-prim)' : 'var(--gray-cont-tert)', fontSize: 11, flexShrink: 0 }}>
+          {copied ? 'Copied!' : 'Copy'}
+        </button>
       </div>
     </div>
   )
 }
 
-// ─── page ────────────────────────────────────────────────────────────────────
+// ── component playgrounds ─────────────────────────────────────────────────────
+
+function V2ButtonPlayground() {
+  const [variant, setVariant] = useState('active')
+  const [label, setLabel]     = useState('Get font')
+  const [icon, setIcon]       = useState('')
+  const cls = `v2-button v2-button-${variant}`
+  const code = icon
+    ? `<button class="${cls}" style="width:40px;padding:0">\n  <span class="material-symbols-outlined">${icon}</span>\n</button>`
+    : `<button class="${cls}">${label}</button>`
+  return (
+    <Playground name="Button" cls=".v2-button" code={code}
+      preview={
+        icon
+          ? <button className={cls} style={{ width: 40, padding: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <span className="material-symbols-outlined" style={{ fontSize: 20 }}>{icon}</span>
+            </button>
+          : <button className={cls}>{label}</button>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio',  label: 'Variant', options: ['active', 'inactive'], value: variant, onChange: setVariant },
+          { type: 'text',   label: 'Label',   value: label,   onChange: setLabel },
+          { type: 'text',   label: 'Icon (overrides label)', value: icon, onChange: setIcon },
+        ]} />
+      }
+    />
+  )
+}
+
+function V2BadgePlayground() {
+  const [label, setLabel] = useState('Humanist')
+  const code = `<div class="v2-badge">${label}</div>`
+  return (
+    <Playground name="Badge" cls=".v2-badge" code={code}
+      preview={<div className="v2-badge">{label}</div>}
+      controls={<ControlPanel controls={[{ type: 'text', label: 'Label', value: label, onChange: setLabel }]} />}
+    />
+  )
+}
+
+function V2TagPlayground() {
+  const [label, setLabel] = useState('Variable')
+  const code = `<div class="v2-tag">${label}</div>`
+  return (
+    <Playground name="Tag" cls=".v2-tag" code={code}
+      preview={<div className="v2-tag">{label}</div>}
+      controls={<ControlPanel controls={[{ type: 'text', label: 'Label', value: label, onChange: setLabel }]} />}
+    />
+  )
+}
+
+function V2ApproachPlayground() {
+  const [active, setActive] = useState(0)
+  const options = ['Text', 'Display', 'Brutal']
+  const code = `<div style="display:flex;gap:8px">\n${options.map((o, i) => `  <button class="v2-approach-button v2-button-${i === active ? 'active' : 'inactive'}">${o}</button>`).join('\n')}\n</div>`
+  return (
+    <Playground name="Approach Button" cls=".v2-approach-button" code={code}
+      preview={
+        <div style={{ display: 'flex', gap: 8 }}>
+          {options.map((o, i) => (
+            <button key={o} className={`v2-approach-button v2-button-${i === active ? 'active' : 'inactive'}`} style={{ minWidth: 72 }} onClick={() => setActive(i)}>
+              <span style={{ fontSize: 18, fontWeight: 700 }}>Ag</span>
+              <span>{o}</span>
+            </button>
+          ))}
+        </div>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'Active', options: options, value: options[active], onChange: v => setActive(options.indexOf(v)) },
+        ]} />
+      }
+    />
+  )
+}
+
+function V2CardPlayground() {
+  const [padding, setPadding] = useState('16')
+  const code = `<div class="v2-card" style="padding:${padding}px">...</div>`
+  return (
+    <Playground name="Card" cls=".v2-card" code={code}
+      preview={
+        <div className="v2-card" style={{ padding: Number(padding), width: 180, border: '1px solid var(--gray-brd-prim)' }}>
+          <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-prim)', fontFamily: '"Inter Variable", sans-serif', marginBottom: 4 }}>Card title</div>
+          <div style={{ fontSize: 12, color: 'var(--gray-cont-tert)', fontFamily: '"Inter Variable", sans-serif' }}>Some content inside the card.</div>
+        </div>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'Padding', options: ['8', '12', '16', '20', '24'], value: padding, onChange: setPadding },
+        ]} />
+      }
+    />
+  )
+}
+
+function V2DropdownPlayground() {
+  const [style, setStyle] = useState('v2-dropdown')
+  const options = ['Regular', 'Bold', 'Light', 'Italic']
+  const code = `<div class="${style}">\n  <select>…</select>\n</div>`
+  return (
+    <Playground name="Dropdown" cls=".v2-dropdown" code={code}
+      preview={
+        <div className={style} style={{ display: 'flex', alignItems: 'center' }}>
+          <select style={{ padding: '10px 36px 10px 12px', border: 'none', background: 'transparent', fontSize: 14, fontWeight: 500, fontFamily: '"Inter Variable", sans-serif', color: 'var(--gray-cont-prim)', cursor: 'pointer' }}>
+            {options.map(o => <option key={o}>{o}</option>)}
+          </select>
+        </div>
+      }
+      controls={<ControlPanel controls={[]} />}
+    />
+  )
+}
+
+function V2ShimmerPlayground() {
+  const [width, setWidth]   = useState('200')
+  const [height, setHeight] = useState('20')
+  const code = `<div class="v2-shimmer" style="width:${width}px;height:${height}px;border-radius:6px" />`
+  return (
+    <Playground name="Shimmer" cls=".v2-shimmer" code={code}
+      preview={<div className="v2-shimmer" style={{ width: Number(width), height: Number(height), borderRadius: 6 }} />}
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'Width',  options: ['120','160','200','240'], value: width,  onChange: setWidth },
+          { type: 'radio', label: 'Height', options: ['12','16','20','24'],    value: height, onChange: setHeight },
+        ]} />
+      }
+    />
+  )
+}
+
+function BtnPlayground({ size }: { size: 'sm' | 'md' }) {
+  const [state, setState] = useState('default')
+  const [label, setLabel] = useState('Filter')
+  const cls = `btn-${size}${state === 'active' ? ' active' : ''}`
+  const code = `<button class="${cls}">${label}</button>`
+  return (
+    <Playground name={`Button ${size.toUpperCase()}`} cls={`.btn-${size}`} code={code}
+      preview={<button className={cls}>{label}</button>}
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'State', options: ['default', 'active'], value: state, onChange: setState },
+          { type: 'text',  label: 'Label', value: label, onChange: setLabel },
+        ]} />
+      }
+    />
+  )
+}
+
+function MenuTabPlayground() {
+  const [active, setActive] = useState(0)
+  const tabs = ['Library', 'About', 'Submit']
+  const code = tabs.map((t, i) => `<a class="menu-tab${i === active ? ' active' : ''}">${t}</a>`).join('\n')
+  return (
+    <Playground name="Menu Tab" cls=".menu-tab" code={code}
+      preview={
+        <div style={{ display: 'flex', gap: 4 }}>
+          {tabs.map((t, i) => (
+            // eslint-disable-next-line jsx-a11y/anchor-is-valid
+            <a key={t} href="#" className={`menu-tab${i === active ? ' active' : ''}`} onClick={e => { e.preventDefault(); setActive(i) }}>{t}</a>
+          ))}
+        </div>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'Active tab', options: tabs, value: tabs[active], onChange: v => setActive(tabs.indexOf(v)) },
+        ]} />
+      }
+    />
+  )
+}
+
+function IconBtnPlayground() {
+  const [state, setState] = useState('default')
+  const [icon, setIcon]   = useState('tune')
+  const cls = `icon-btn${state === 'active' ? ' active' : ''}`
+  const code = `<button class="${cls}">\n  <span class="material-symbols-outlined">${icon}</span>\n</button>`
+  return (
+    <Playground name="Icon Button" cls=".icon-btn" code={code}
+      preview={
+        <button className={cls}>
+          <span className="material-symbols-outlined" style={{ fontSize: 20 }}>{icon}</span>
+        </button>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'State', options: ['default', 'active'], value: state, onChange: setState },
+          { type: 'radio', label: 'Icon',  options: ['tune', 'search', 'close', 'filter_list', 'arrow_back'], value: icon, onChange: setIcon },
+        ]} />
+      }
+    />
+  )
+}
+
+function DownloadBtnPlayground() {
+  const [label, setLabel] = useState('Get font')
+  const code = `<button class="download-btn">${label}</button>`
+  return (
+    <Playground name="Download Button" cls=".download-btn" code={code}
+      preview={<button className="download-btn">{label}</button>}
+      controls={<ControlPanel controls={[{ type: 'text', label: 'Label', value: label, onChange: setLabel }]} />}
+    />
+  )
+}
+
+function DropdownWrapPlayground() {
+  const [disabled, setDisabled] = useState(false)
+  const options = ['Sans-serif', 'Serif', 'Monospace', 'Display']
+  const code = `<div class="dropdown-wrap"${disabled ? ' data-disabled="true"' : ''}>\n  <select class="dropdown-select">…</select>\n  <span class="dropdown-icon material-symbols-outlined">expand_more</span>\n</div>`
+  return (
+    <Playground name="Dropdown Wrap" cls=".dropdown-wrap" code={code}
+      preview={
+        <div className="dropdown-wrap" data-disabled={disabled ? 'true' : undefined}>
+          <select className="dropdown-select" disabled={disabled}>
+            {options.map(o => <option key={o}>{o}</option>)}
+          </select>
+          <span className="dropdown-icon material-symbols-outlined" style={{ fontSize: 16 }}>expand_more</span>
+        </div>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'toggle', label: 'Disabled', value: disabled, onChange: setDisabled },
+        ]} />
+      }
+    />
+  )
+}
+
+function SegmentedControlPlayground() {
+  const [active, setActive] = useState(0)
+  const options = ['Ag Text', 'Ag Display', 'Ag Brutal']
+  const code = `<div class="segmented-control">\n${options.map((o, i) => `  <button class="segmented-control-button${i === active ? ' active' : ''}">${o}</button>`).join('\n')}\n</div>`
+  return (
+    <Playground name="Segmented Control" cls=".segmented-control" code={code}
+      preview={
+        <div className="segmented-control" style={{ width: 240 }}>
+          {options.map((o, i) => (
+            <button key={o} className={`segmented-control-button${i === active ? ' active' : ''}`} onClick={() => setActive(i)}>
+              <span style={{ fontSize: 18, fontWeight: 700 }}>Ag</span>
+              <span>{o.replace('Ag ', '')}</span>
+            </button>
+          ))}
+        </div>
+      }
+      controls={
+        <ControlPanel controls={[
+          { type: 'radio', label: 'Active', options: ['Text', 'Display', 'Brutal'], value: options[active].replace('Ag ', ''), onChange: v => setActive(options.findIndex(o => o.includes(v))) },
+        ]} />
+      }
+    />
+  )
+}
+
+// ── page ──────────────────────────────────────────────────────────────────────
 
 export default function DesignSystemPage() {
   return (
@@ -82,194 +478,105 @@ export default function DesignSystemPage() {
         {/* Header */}
         <div style={{ marginBottom: 56 }}>
           <Link href="/" style={{ fontSize: 13, color: 'var(--gray-cont-tert)', textDecoration: 'none' }}>← Library</Link>
-          <h1 style={{ fontSize: 32, fontWeight: 600, marginTop: 16, color: 'var(--gray-cont-prim)' }}>
+          <h1 style={{ fontSize: 32, fontWeight: 600, marginTop: 16, color: 'var(--gray-cont-prim)', fontFamily: '"Inter Variable", sans-serif' }}>
             Design System
           </h1>
-          <p style={{ fontSize: 14, color: 'var(--gray-cont-sec)', marginTop: 8 }}>
-            Foundation tokens, components, and hardcoded values audit — <code style={{ fontFamily: 'var(--font-space-mono)', fontSize: 12 }}>globals.css</code> + <code style={{ fontFamily: 'var(--font-space-mono)', fontSize: 12 }}>v2/v2.css</code>
+          <p style={{ fontSize: 14, color: 'var(--gray-cont-sec)', marginTop: 8, fontFamily: '"Inter Variable", sans-serif' }}>
+            Foundation tokens and interactive component playground
           </p>
         </div>
 
         {/* ── FOUNDATION ──────────────────────────────────────────────────── */}
 
-        <Section title="Colors — gray tokens (globals.css)">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 20 }}>
-            Light: base <HardcodeTag>#0a0a0a</HardcodeTag> / Dark: base <HardcodeTag>#fcfcfc</HardcodeTag>. Theme via <code style={{ fontSize: 11, fontFamily: 'var(--font-space-mono)' }}>prefers-color-scheme</code>, no manual toggle.
+        <Section title="Colors — gray tokens">
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Inter Variable", sans-serif' }}>
+            Theme via <Mono>prefers-color-scheme</Mono>. Light base <Mono>#0a0a0a</Mono> · Dark base <Mono>#fcfcfc</Mono>
           </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-            <div>
-              <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginBottom: 12 }}>Content</div>
-              <Row>
-                <Swatch varName="--gray-cont-prim" />
-                <Swatch varName="--gray-cont-sec" note="64% opacity" />
-                <Swatch varName="--gray-cont-tert" note="40% opacity" />
-                <Swatch varName="--gray-cont-quart" note="24% opacity" />
-              </Row>
-            </div>
-            <div>
-              <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginBottom: 12 }}>Accent</div>
-              <Row>
-                <Swatch varName="--gray-accent-prim" />
-                <Swatch varName="--gray-accent-sec" />
-              </Row>
-            </div>
-            <div>
-              <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginBottom: 12 }}>Fill</div>
-              <Row>
-                <Swatch varName="--gray-fill-prim" note="4% opacity" />
-                <Swatch varName="--gray-fill-sec" note="8% opacity" />
-              </Row>
-            </div>
-            <div>
-              <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginBottom: 12 }}>Borders</div>
-              <Row>
-                <Swatch varName="--gray-brd-prim" note="8% opacity" />
-              </Row>
-            </div>
-            <div>
-              <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', marginBottom: 12 }}>Surfaces</div>
-              <Row>
-                <Swatch varName="--gray-surface-prim" />
-                <Swatch varName="--gray-surface-sec" />
-              </Row>
-            </div>
-          </div>
+          <TokenTable groups={GRAY_TOKENS} />
         </Section>
 
         <Section title="Colors — misc tokens">
-          <Row>
-            <Swatch varName="--misc-cont-inverse" note="inverse of surface" />
-            <Swatch varName="--misc-cont-sec" />
-            <Swatch varName="--misc-cont-tert" />
-          </Row>
+          <TokenTable groups={MISC_TOKENS} />
         </Section>
 
-        <Section title="Colors — v2 component tokens (v2/v2.css)">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 20 }}>
-            Hardcoded hex inside the token — <HardcodeTag>--v2-active-bg: #0a0a0a</HardcodeTag> / dark: <HardcodeTag>#fcfcfc</HardcodeTag>. Used by v2-button-active and download-btn.
+        <Section title="Colors — shadcn tokens">
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Inter Variable", sans-serif' }}>
+            Used by shadcn components (Slider etc). <Mono>oklch</Mono> values approximated to hex for display.
           </p>
-          <Row>
-            <Swatch varName="--v2-active-bg" />
-            <Swatch varName="--v2-active-fg" />
-            <Swatch varName="--v2-inactive-bg" />
-            <Swatch varName="--v2-inactive-fg" />
-            <Swatch varName="--v2-card-bg" />
-            <Swatch varName="--v2-card-border" />
-            <Swatch varName="--v2-shimmer-base" />
-            <Swatch varName="--v2-shimmer-highlight" />
-          </Row>
+          <TokenTable groups={SHADCN_TOKENS} />
         </Section>
 
-        <Section title="Colors — shadcn/radix tokens (globals.css)">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 20 }}>
-            Used by admin pages and shadcn components only. Main catalog UI does not reference these.
-          </p>
-          <Row>
-            <Swatch varName="--background" />
-            <Swatch varName="--foreground" />
-            <Swatch varName="--primary" />
-            <Swatch varName="--primary-foreground" />
-            <Swatch varName="--secondary" />
-            <Swatch varName="--secondary-foreground" />
-            <Swatch varName="--muted" />
-            <Swatch varName="--muted-foreground" />
-            <Swatch varName="--border" />
-            <Swatch varName="--input" />
-            <Swatch varName="--ring" />
-          </Row>
-        </Section>
-
-        <Section title="Typography — interface fonts">
+        <Section title="Typography">
           <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
-            <div>
-              <div style={{ fontSize: 32, fontFamily: 'var(--font-inter)', fontWeight: 500, color: 'var(--gray-cont-prim)' }}>
-                Inter Variable
+            {[
+              { name: 'Inter Variable', family: 'var(--font-inter)', note: '--font-inter · main UI font', weights: [400, 500, 600, 700, 900] },
+              { name: 'Space Grotesk',  family: 'var(--font-space-grotesk)', note: '--font-space-grotesk · used in: unknown', weights: [400, 500, 700] },
+              { name: 'Space Mono',     family: 'var(--font-space-mono)',    note: '--font-space-mono · code labels', weights: [400, 700] },
+            ].map(f => (
+              <div key={f.name} style={{ borderRadius: 12, border: '1px solid var(--gray-brd-prim)', overflow: 'hidden' }}>
+                <div style={{ padding: '20px 20px 16px', borderBottom: '1px solid var(--gray-brd-prim)' }}>
+                  <div style={{ fontSize: 36, fontFamily: f.family, fontWeight: 500, color: 'var(--gray-cont-prim)', lineHeight: 1.1 }}>{f.name}</div>
+                  <Label>{f.note}</Label>
+                </div>
+                <div style={{ padding: '12px 20px', display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {f.weights.map(w => (
+                    <div key={w} style={{ display: 'flex', alignItems: 'baseline', gap: 16 }}>
+                      <code style={{ fontSize: 10, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)', width: 32, flexShrink: 0 }}>{w}</code>
+                      <span style={{ fontFamily: f.family, fontWeight: w, fontSize: 15, color: 'var(--gray-cont-prim)', lineHeight: 1.4 }}>
+                        The quick brown fox jumps over the lazy dog
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <Label>--font-inter · loaded via next/font/google · main UI font</Label>
-              <div style={{ marginTop: 12, display: 'flex', flexWrap: 'wrap', gap: 16 }}>
-                {[300, 400, 500, 600, 700].map(w => (
-                  <span key={w} style={{ fontFamily: 'var(--font-inter)', fontWeight: w, fontSize: 14, color: 'var(--gray-cont-prim)' }}>
-                    {w} The quick brown fox
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <div style={{ fontSize: 32, fontFamily: 'var(--font-space-grotesk)', fontWeight: 500, color: 'var(--gray-cont-prim)' }}>
-                Space Grotesk
-              </div>
-              <Label>--font-space-grotesk · alias: --font-serif in Tailwind theme · used in: unknown</Label>
-            </div>
-            <div>
-              <div style={{ fontSize: 28, fontFamily: 'var(--font-space-mono)', fontWeight: 400, color: 'var(--gray-cont-prim)' }}>
-                Space Mono
-              </div>
-              <Label>--font-space-mono · alias: --font-mono in Tailwind theme · used for: code labels</Label>
-            </div>
+            ))}
           </div>
-        </Section>
 
-        <Section title="Typography — utility classes (globals.css)">
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            <div>
-              <div className="text-sidebar-title">Sidebar title · .text-sidebar-title</div>
-              <Label>.text-sidebar-title — Inter Variable 12/14 500, cv06+cv11+ss03</Label>
-            </div>
-            <div>
-              <div className="text-font-name">Font name · .text-font-name</div>
-              <Label>.text-font-name — Inter Variable 14/20 500</Label>
-            </div>
-            <div>
-              <div className="text-menu">Menu item · .text-menu</div>
-              <Label>.text-menu — same spec as .text-font-name</Label>
-            </div>
-            <div>
-              <div className="text-author">by Some Author · .text-author</div>
-              <Label>.text-author — Inter Variable 14/20 500, color: --gray-cont-tert</Label>
-            </div>
+          <div style={{ marginTop: 24, borderRadius: 12, border: '1px solid var(--gray-brd-prim)', overflow: 'hidden' }}>
+            <div style={{ padding: '10px 16px', borderBottom: '1px solid var(--gray-brd-prim)', fontSize: 10, fontWeight: 700, color: 'var(--gray-cont-tert)', letterSpacing: '0.07em', textTransform: 'uppercase' }}>Utility classes</div>
+            {[
+              { cls: '.text-sidebar-title', sample: 'Sidebar title', spec: 'Inter Variable 14px/14px 500, ss03+cv06+cv11' },
+              { cls: '.text-font-name',     sample: 'Font name',     spec: 'Inter Variable 14px/20px 500, ss03+cv06+cv11' },
+              { cls: '.text-menu',          sample: 'Menu item',     spec: 'Inter Variable 14px/20px 500 (same as .text-font-name)' },
+              { cls: '.text-author',        sample: 'by Some Author', spec: 'Inter Variable 14px/20px 500 · color: --gray-cont-tert' },
+            ].map(({ cls, sample, spec }, i, arr) => (
+              <div key={cls} style={{ display: 'flex', alignItems: 'center', gap: 16, padding: '10px 16px', borderBottom: i < arr.length - 1 ? '1px solid var(--gray-brd-prim)' : 'none' }}>
+                <Mono>{cls}</Mono>
+                <div className={cls.slice(1)} style={{ flex: 1 }}>{sample}</div>
+                <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)', flexShrink: 0, display: 'none' }}>{spec}</div>
+                <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Inter Variable", sans-serif', textAlign: 'right' }}>{spec}</div>
+              </div>
+            ))}
           </div>
         </Section>
 
         <Section title="Radius">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 20 }}>
-            Token <code style={{ fontFamily: 'var(--font-space-mono)', fontSize: 11 }}>--radius: 0.625rem (10px)</code> from shadcn. Components use <HardcodeTag>border-radius: 12px</HardcodeTag> (badges, buttons) and <HardcodeTag>border-radius: 16px</HardcodeTag> (cards) hardcoded in v2.css — not referencing the token.
-          </p>
-          <Row>
+          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
             {[
-              { r: 'calc(var(--radius) - 4px)', label: '--radius-sm · 6px' },
-              { r: 'calc(var(--radius) - 2px)', label: '--radius-md · 8px' },
-              { r: 'var(--radius)', label: '--radius-lg · 10px' },
-              { r: 'calc(var(--radius) + 4px)', label: '--radius-xl · 14px' },
-              { r: '12px', label: 'hardcoded 12px (badge/btn)', hard: true },
-              { r: '16px', label: 'hardcoded 16px (card)', hard: true },
-            ].map(({ r, label, hard }) => (
-              <div key={label}>
-                <div style={{
-                  width: 80, height: 48,
-                  borderRadius: r,
-                  backgroundColor: hard ? 'rgba(255,80,80,0.1)' : 'var(--gray-fill-sec)',
-                  border: `1px solid ${hard ? 'rgba(255,80,80,0.3)' : 'var(--gray-brd-prim)'}`,
-                }} />
-                <Label>{label}</Label>
+              { token: '--radius-component', value: '14px', use: 'buttons, badges, dropdowns', r: 14 },
+              { token: '--radius-card',      value: '24px', use: 'cards, panels, bottom bar',  r: 24 },
+            ].map(({ token, value, use, r }) => (
+              <div key={token} style={{ borderRadius: 12, border: '1px solid var(--gray-brd-prim)', padding: '16px 20px', display: 'flex', gap: 16, alignItems: 'center' }}>
+                <div style={{ width: 64, height: 40, borderRadius: r, background: 'var(--gray-fill-sec)', border: '1px solid var(--gray-brd-prim)', flexShrink: 0 }} />
+                <div>
+                  <Mono>{token}</Mono>
+                  <div style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Inter Variable", sans-serif', marginTop: 4 }}>{value}</div>
+                  <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Inter Variable", sans-serif', marginTop: 2 }}>{use}</div>
+                </div>
               </div>
             ))}
-          </Row>
+          </div>
         </Section>
 
         <Section title="Spacing">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-sec)' }}>
-            No spacing tokens defined. All spacing is <HardcodeTag>hardcoded inline</HardcodeTag> — px values in inline styles (page.tsx, FontDetail.tsx) and in v2.css class definitions (padding: 13px 12px, etc.).
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-sec)', marginBottom: 16, fontFamily: '"Inter Variable", sans-serif' }}>
+            No spacing tokens — all values hardcoded inline. Base unit: 4px.
           </p>
-          <div style={{ marginTop: 16, display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-            {[4, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48].map(s => (
-              <div key={s} style={{ textAlign: 'center' }}>
-                <div style={{
-                  width: s, height: s,
-                  backgroundColor: 'var(--gray-fill-sec)',
-                  border: '1px solid var(--gray-brd-prim)',
-                  borderRadius: 2,
-                }} />
-                <div style={{ fontSize: 10, color: 'var(--gray-cont-tert)', marginTop: 4 }}>{s}</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: 12 }}>
+            {[4, 8, 12, 16, 20, 24, 32, 40, 48, 64].map(s => (
+              <div key={s} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+                <div style={{ width: s, height: s, background: 'var(--gray-fill-sec)', border: '1px solid var(--gray-brd-prim)', borderRadius: 3 }} />
+                <div style={{ fontSize: 10, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)' }}>{s}</div>
               </div>
             ))}
           </div>
@@ -277,192 +584,24 @@ export default function DesignSystemPage() {
 
         {/* ── COMPONENTS ──────────────────────────────────────────────────── */}
 
-        <Section title="Components — v2 catalog (v2/v2.css)">
-
-          <ComponentDemo name="Badge" source=".v2-badge">
-            <div className="v2-badge">Label</div>
-            <div className="v2-badge">4 styles</div>
-            <div className="v2-badge">Variable</div>
-          </ComponentDemo>
-
-          <ComponentDemo name="Button — active" source=".v2-button .v2-button-active">
-            <button className="v2-button v2-button-active">Get font</button>
-            <button className="v2-button v2-button-active">Download</button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Button — inactive" source=".v2-button .v2-button-inactive">
-            <button className="v2-button v2-button-inactive">Inactive</button>
-            <button className="v2-button v2-button-inactive">Cancel</button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Approach button" source=".v2-approach-button">
-            <button className="v2-approach-button v2-button-inactive" style={{ minWidth: 80 }}>
-              <span>Ag</span>
-              <span>Text</span>
-            </button>
-            <button className="v2-approach-button v2-button-active" style={{ minWidth: 80 }}>
-              <span>Ag</span>
-              <span>Display</span>
-            </button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Card" source=".v2-card">
-            <div className="v2-card" style={{ padding: 20, width: 200 }}>
-              <div style={{ fontSize: 13, color: 'var(--gray-cont-prim)' }}>Card content</div>
-            </div>
-          </ComponentDemo>
-
-          <ComponentDemo name="Dropdown" source=".v2-dropdown">
-            <div className="v2-dropdown" style={{ display: 'flex', alignItems: 'center' }}>
-              <select style={{ padding: '10px 36px 10px 12px', border: 'none', background: 'transparent', fontSize: 14, fontWeight: 500 }}>
-                <option>Regular</option>
-                <option>Bold</option>
-              </select>
-            </div>
-          </ComponentDemo>
-
-          <ComponentDemo name="Shimmer" source=".v2-shimmer">
-            <div className="v2-shimmer" style={{ width: 200, height: 24, borderRadius: 6 }} />
-            <div className="v2-shimmer" style={{ width: 120, height: 24, borderRadius: 6 }} />
-          </ComponentDemo>
-
+        <Section title="Components — v2 (catalog.css)">
+          <V2ButtonPlayground />
+          <V2BadgePlayground />
+          <V2TagPlayground />
+          <V2ApproachPlayground />
+          <V2CardPlayground />
+          <V2DropdownPlayground />
+          <V2ShimmerPlayground />
         </Section>
 
         <Section title="Components — utility (globals.css)">
-
-          <ComponentDemo name="Button sm" source=".btn-sm">
-            <button className="btn-sm">Default</button>
-            <button className="btn-sm active">Active</button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Button md" source=".btn-md">
-            <button className="btn-md">Default</button>
-            <button className="btn-md active">Active</button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Menu tab" source=".menu-tab">
-            <a href="#" className="menu-tab">Library</a>
-            <a href="#" className="menu-tab active">About</a>
-          </ComponentDemo>
-
-          <ComponentDemo name="Icon button" source=".icon-btn">
-            <button className="icon-btn">
-              <span className="material-symbols-outlined" style={{ fontSize: 20 }}>tune</span>
-            </button>
-            <button className="icon-btn active">
-              <span className="material-symbols-outlined" style={{ fontSize: 20 }}>close</span>
-            </button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Download button" source=".download-btn">
-            <button className="download-btn">Get font</button>
-          </ComponentDemo>
-
-          <ComponentDemo name="Dropdown wrap" source=".dropdown-wrap + .dropdown-select">
-            <div className="dropdown-wrap">
-              <select className="dropdown-select">
-                <option>Sans-serif</option>
-                <option>Serif</option>
-              </select>
-              <span className="dropdown-icon material-symbols-outlined" style={{ fontSize: 16 }}>expand_more</span>
-            </div>
-          </ComponentDemo>
-
-          <ComponentDemo name="Segmented control" source=".segmented-control + .segmented-control-button">
-            <div className="segmented-control" style={{ width: 240 }}>
-              <button className="segmented-control-button active">
-                <span>Ag</span>
-                <span>Text</span>
-              </button>
-              <button className="segmented-control-button">
-                <span>Ag</span>
-                <span>Display</span>
-              </button>
-              <button className="segmented-control-button">
-                <span>Ag</span>
-                <span>Weirdo</span>
-              </button>
-            </div>
-          </ComponentDemo>
-
-        </Section>
-
-        <Section title="Components — ds-* utilities (globals.css)">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 20 }}>
-            Semantic aliases over gray tokens. Usage in codebase: sparse — mostly defined, not actively used.
-          </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            {[
-              ['ds-bg-surface', 'background: --gray-surface-prim'],
-              ['ds-bg-surface-2', 'background: --gray-surface-sec'],
-              ['ds-bg-fill-1', 'background: --gray-fill-prim'],
-              ['ds-bg-fill-2', 'background: --gray-fill-sec'],
-              ['ds-text-prim', 'color: --gray-cont-prim'],
-              ['ds-text-sec', 'color: --gray-cont-sec'],
-              ['ds-text-tert', 'color: --gray-cont-tert'],
-              ['ds-text-quart', 'color: --gray-cont-quart'],
-              ['ds-text-inverse', 'color: --misc-cont-inverse'],
-              ['ds-border', 'border-color: --gray-brd-prim'],
-            ].map(([cls, note]) => (
-              <div key={cls} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                <code style={{ fontSize: 11, fontFamily: 'var(--font-space-mono)', width: 160, color: 'var(--gray-cont-prim)' }}>.{cls}</code>
-                <div style={{ fontSize: 12, color: 'var(--gray-cont-tert)' }}>→ {note}</div>
-              </div>
-            ))}
-          </div>
-        </Section>
-
-        {/* ── HARDCODED AUDIT ─────────────────────────────────────────────── */}
-
-        <Section title="Hardcoded values audit">
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {[
-              {
-                loc: 'v2/v2.css: --v2-active-bg, --v2-active-fg',
-                issue: 'Hardcoded hex #0a0a0a / #fcfcfc inside token definition instead of referencing --gray-surface-prim / --gray-cont-prim',
-                values: ['#0a0a0a', '#fcfcfc'],
-              },
-              {
-                loc: 'globals.css: .download-btn (light/dark @media)',
-                issue: 'Hardcoded #fcfcfc, #0a0a0a for contrast — intentional, but duplicates the invert pattern already in --v2-active-*',
-                values: ['#0a0a0a', '#fcfcfc', 'rgba(10,10,10,0.8)', 'rgba(252,252,252,0.8)'],
-              },
-              {
-                loc: 'v2/v2.css: .v2-badge, .v2-button, .v2-card',
-                issue: 'border-radius hardcoded to 12px and 16px, not referencing --radius token',
-                values: ['border-radius: 12px', 'border-radius: 16px'],
-              },
-              {
-                loc: 'app/page.tsx, app/v2/page.tsx: inline styles',
-                issue: 'All spacing, most colors via var() tokens (fine), but padding/gap/margin values are hardcoded numbers (px) throughout',
-                values: ['padding: 48px 24px', 'gap: 12', 'marginBottom: 16', '…'],
-              },
-              {
-                loc: 'app/font/[slug]/FontDetail.tsx: inline styles',
-                issue: 'New detail page uses only inline styles — no classes at all. All spacing and colors hardcoded as string literals',
-                values: ['padding: 48px 24px 40px', 'fontSize: 13', 'fontSize: clamp(48px, 8vw, 120px)'],
-              },
-              {
-                loc: 'layout.tsx: metadataBase URL',
-                issue: 'Old Vercel URL still hardcoded',
-                values: ['https://baseline-fonts.vercel.app'],
-              },
-            ].map(({ loc, issue, values }) => (
-              <div key={loc} style={{
-                padding: 16, borderRadius: 10,
-                backgroundColor: 'rgba(255,80,80,0.06)',
-                border: '1px solid rgba(255,80,80,0.15)',
-              }}>
-                <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--gray-cont-prim)', marginBottom: 4, fontFamily: 'var(--font-space-mono)' }}>
-                  {loc}
-                </div>
-                <div style={{ fontSize: 12, color: 'var(--gray-cont-sec)', marginBottom: 8 }}>{issue}</div>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                  {values.map(v => <HardcodeTag key={v}>{v}</HardcodeTag>)}
-                </div>
-              </div>
-            ))}
-          </div>
+          <BtnPlayground size="sm" />
+          <BtnPlayground size="md" />
+          <MenuTabPlayground />
+          <IconBtnPlayground />
+          <DownloadBtnPlayground />
+          <DropdownWrapPlayground />
+          <SegmentedControlPlayground />
         </Section>
 
       </div>

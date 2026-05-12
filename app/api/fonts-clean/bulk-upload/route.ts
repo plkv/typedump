@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
     const formData = await req.formData()
     const files = formData.getAll('files') as File[]
     const familyOverride = (formData.get('family') as string) || undefined
-    const collectionSel = ((formData.get('collection') as string) || 'Text') as 'Text'|'Display'|'Weirdo'
+    const collectionSel = ((formData.get('collection') as string) || 'Text') as 'Text'|'Display'|'Brutal'
     const { normalizeCategoryList } = await import('@/lib/category-utils')
     if (!files || files.length === 0) {
       return NextResponse.json({ success: false, error: 'No files uploaded' }, { status: 400 })

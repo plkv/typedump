@@ -5,6 +5,7 @@ import { Slider } from '@/components/ui/slider'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { familyToSlug } from '@/lib/font-slug'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
+import { IconReset, IconChevronDown } from '@/components/icons'
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -27,7 +28,7 @@ export interface FontData {
   openTypeFeatures?: string[]
   _familyFonts?: any[]
   _availableStyles?: Array<{ weight: number; styleName: string; isItalic: boolean; font?: any }>
-  collection: 'Text' | 'Display' | 'Weirdo'
+  collection: 'Text' | 'Display' | 'Brutal'
   styleTags: string[]
   categories: string[]
   languages?: string[]
@@ -89,8 +90,14 @@ export function FontCard({
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
 
+  const handleBlur = (e: React.FocusEvent<HTMLDivElement>) => {
+    if (isExpanded && !e.currentTarget.contains(e.relatedTarget as Node)) {
+      onToggleExpand()
+    }
+  }
+
   return (
-    <div className="transition-colors v2-card">
+    <div className="transition-colors v2-card" onBlur={handleBlur} data-card-id={font.id}>
       <div className="p-4">
 
         {/* ── Header row ── */}
@@ -101,7 +108,7 @@ export function FontCard({
               {/* Font name → detail page */}
               <a
                 href={`/font/${familyToSlug(font.name)}`}
-                className="v2-badge flex items-center"
+                className="v2-button v2-button-inactive flex items-center"
                 style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
                 onClick={e => e.stopPropagation()}
               >
@@ -120,16 +127,16 @@ export function FontCard({
                     }}
                     className="appearance-none cursor-pointer"
                     style={{
-                      padding: '10px 36px 10px 12px',
+                      height: '100%',
+                      width: '100%',
+                      padding: '0 36px 0 12px',
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
                       fontFamily: '"Inter Variable", sans-serif',
                       fontSize: '14px',
                       fontWeight: 500,
-                      lineHeight: '20px',
                       color: 'var(--gray-cont-prim)',
-                      height: '40px',
                     }}
                   >
                     {font._availableStyles.map((style, i) => (
@@ -141,16 +148,14 @@ export function FontCard({
                       </option>
                     ))}
                   </select>
-                  <span
-                    className="material-symbols-outlined absolute right-0 top-1/2"
+                  <IconChevronDown
+                    size={20}
                     style={{
-                      fontWeight: 400, fontSize: '20px', pointerEvents: 'none',
-                      transform: 'translateY(-50%)', padding: '8px',
+                      position: 'absolute', right: '8px', top: '50%',
+                      transform: 'translateY(-50%)', pointerEvents: 'none',
                       color: 'var(--gray-cont-tert)',
                     }}
-                  >
-                    expand_more
-                  </span>
+                  />
                 </div>
               )}
 
@@ -166,7 +171,10 @@ export function FontCard({
             <div className="flex items-center gap-2">
               <button
                 className="v2-badge v2-button-active"
-                onClick={() => window.open(downloadLink, '_blank')}
+                onClick={() => {
+                  ;(window as any).gtag?.('event', 'get_font', { font_name: font.name })
+                  window.open(downloadLink, '_blank')
+                }}
                 style={{ cursor: 'pointer' }}
               >
                 Get font
@@ -177,12 +185,6 @@ export function FontCard({
 
         {/* ── Preview ── */}
         <div className="relative" style={{ paddingTop: '16px', paddingBottom: '16px' }}>
-          {!isLoaded && (
-            <div
-              className="v2-shimmer absolute inset-0 rounded"
-              style={{ height: `${textSize * (lineHeight / 100) + textSize * 0.4}px`, minHeight: '40px', zIndex: 1, pointerEvents: 'none' }}
-            />
-          )}
           <ControlledTextPreview
             ref={inputRef as any}
             value={previewContent}
@@ -190,7 +192,7 @@ export function FontCard({
             onChange={(v, pos) => onTextChange(v, pos)}
             onCursorChange={pos => onTextChange(previewContent, pos)}
             onFocus={onFocus}
-            className={`whitespace-pre-line break-words cursor-text focus:outline-none w-full bg-transparent border-0 ${!isAnimated && isLoaded ? 'v2-font-fade-in' : ''}`}
+            className="whitespace-pre-line break-words cursor-text focus:outline-none w-full bg-transparent border-0"
             style={{
               fontSize: `${textSize}px`,
               lineHeight: `${lineHeight}%`,
@@ -202,7 +204,8 @@ export function FontCard({
               fontWeight: effectiveStyle.weight,
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
               color: 'var(--gray-cont-prim)',
-              opacity: isLoaded ? 1 : 0,
+              opacity: isLoaded ? undefined : 0,
+              animation: isLoaded ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
               textAlign,
               fontFeatureSettings: getFontFeatureSettings(effectiveStyle.otFeatures),
               fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes),
@@ -224,79 +227,69 @@ export function FontCard({
           )
         })()}
 
-        {/* ── Expanded: OT features + variable axes ── */}
+        {/* ── Expanded: variable axes + OT features ── */}
         {isExpanded && (styleAlternates.length > 0 || variableAxesDef.length > 0) && (
-          <div className="mt-6 space-y-4 pt-4" style={{ borderTop: '1px solid var(--gray-brd-prim)' }}>
-
-            {styleAlternates.length > 0 && (
-              <div>
-                <div className="text-sidebar-title mb-2" style={{ color: 'var(--gray-cont-tert)' }}>
-                  Stylistic Alternates
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {styleAlternates.map(f => (
-                    <button
-                      key={f.tag}
-                      onClick={() => onToggleOTFeature(f.tag)}
-                      className={`btn-sm ${otFeatures[f.tag] ? 'active' : ''}`}
-                      title={f.title}
-                    >
-                      {f.title}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
+          <div className="mt-6" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
 
             {variableAxesDef.length > 0 && (
               <div>
-                <div className="text-sidebar-title mb-2" style={{ color: 'var(--gray-cont-tert)' }}>
-                  Variable Axes
-                </div>
-                <div className="w-full max-w-[280px]">
+                <div className="text-author" style={{ marginBottom: 8 }}>Variable Axes</div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                   {variableAxesDef.map(axis => {
                     const val = variableAxesState[axis.tag] ??
                       (axis.tag === 'wght' ? effectiveStyle.weight : axis.default)
                     const clamped = Math.max(axis.min, Math.min(axis.max, val))
-                    // For wght, reset to the font's initial selection weight — not the embedded axis default,
-                    // which is often wrong (parser sets it to min/max from a single variant file).
                     const resetTarget = axis.tag === 'wght' ? fontSelection.weight : axis.default
                     const isChanged = Math.abs(clamped - resetTarget) > 0.5
                     return (
-                      <div key={axis.tag} className="mb-3 last:mb-0">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sidebar-title flex-shrink-0 w-16">{axis.name}</span>
-                          <Slider
-                            value={[clamped]}
-                            onValueChange={([v]) => {
-                              let next = v
-                              if (axis.tag === 'ital') next = next < 0.1 ? 0 : next > 0.9 ? 1 : next
-                              onVariableAxisChange(axis.tag, next)
-                            }}
-                            min={axis.min}
-                            max={axis.max}
-                            step={axis.tag === 'wght' ? 1 : axis.tag === 'slnt' ? 0.1 : 0.5}
-                            className="flex-1"
-                          />
-                          <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: 'var(--gray-cont-tert)' }}>
-                            {Math.round(clamped * 10) / 10}
-                          </span>
-                          <button
-                            onClick={() => onVariableAxisChange(axis.tag, resetTarget)}
-                            title="Reset to default"
-                            style={{
-                              opacity: isChanged ? 1 : 0.2,
-                              color: 'var(--gray-cont-tert)',
-                              lineHeight: 1,
-                              flexShrink: 0,
-                            }}
-                          >
-                            <span className="material-symbols-outlined" style={{ fontSize: '16px', fontWeight: 400 }}>replay</span>
-                          </button>
+                      <div key={axis.tag}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+                          <span style={{ color: 'var(--gray-cont-prim)', fontSize: 14, fontWeight: 500 }}>{axis.name}</span>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                            <span style={{ color: 'var(--gray-cont-prim)', fontSize: 14, fontWeight: 500 }}>
+                              {Math.round(clamped)}
+                            </span>
+                            <button
+                              onClick={() => onVariableAxisChange(axis.tag, resetTarget)}
+                              style={{ opacity: isChanged ? 1 : 0.2, color: 'var(--gray-cont-prim)', lineHeight: 1 }}
+                            >
+                              <IconReset size={20} />
+                            </button>
+                          </div>
                         </div>
+                        <Slider
+                          value={[clamped]}
+                          onValueChange={([v]) => {
+                            let next = v
+                            if (axis.tag === 'ital') next = next < 0.1 ? 0 : next > 0.9 ? 1 : next
+                            onVariableAxisChange(axis.tag, next)
+                          }}
+                          onReset={() => onVariableAxisChange(axis.tag, resetTarget)}
+                          min={axis.min}
+                          max={axis.max}
+                          step={axis.tag === 'wght' ? 1 : axis.tag === 'slnt' ? 0.1 : 0.5}
+                        />
                       </div>
                     )
                   })}
+                </div>
+              </div>
+            )}
+
+            {styleAlternates.length > 0 && (
+              <div>
+                <div className="text-author" style={{ marginBottom: 8 }}>Stylistic Alternates</div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {styleAlternates.map(f => (
+                    <button
+                      key={f.tag}
+                      onClick={() => onToggleOTFeature(f.tag)}
+                      className={`v2-button ${otFeatures[f.tag] ? 'v2-button-active' : 'v2-button-inactive'}`}
+                      style={{ height: 32, padding: '0 12px', fontSize: 13 }}
+                    >
+                      {f.title}
+                    </button>
+                  ))}
                 </div>
               </div>
             )}

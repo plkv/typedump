@@ -57,7 +57,7 @@ async function exportProductionData() {
       collections: {
         Text: fonts.filter(f => f.collection === 'Text').length,
         Display: fonts.filter(f => f.collection === 'Display').length,
-        Weirdo: fonts.filter(f => f.collection === 'Weirdo').length,
+        Brutal: fonts.filter(f => f.collection === 'Brutal').length,
       },
       adminCustomizations: {
         withDownloadLinks: fonts.filter(f => f.downloadLink && f.downloadLink.trim()).length,
@@ -101,7 +101,7 @@ async function exportProductionData() {
     console.log('\n📊 PRODUCTION DATA ANALYSIS:')
     console.log(`Total Fonts: ${analysis.totalFonts}`)
     console.log(`Unique Families: ${analysis.uniqueFamilies}`)
-    console.log(`Collections: Text=${analysis.collections.Text}, Display=${analysis.collections.Display}, Weirdo=${analysis.collections.Weirdo}`)
+    console.log(`Collections: Text=${analysis.collections.Text}, Display=${analysis.collections.Display}, Brutal=${analysis.collections.Brutal}`)
     console.log(`Admin Customizations: ${analysis.adminCustomizations.withEditedMetadata} fonts`)
     console.log(`Variable Fonts: ${analysis.variableFonts}`)
     console.log(`Family Distribution: ${familyAnalysis.singleStyleFamilies} single + ${familyAnalysis.multiStyleFamilies} multi-style`)

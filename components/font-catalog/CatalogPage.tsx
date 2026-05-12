@@ -6,6 +6,7 @@ import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
+import { IconXMark, IconReset } from "@/components/icons"
 // catalog.css is imported globally in layout.tsx
 
 
@@ -40,7 +41,7 @@ interface FontData {
     isItalic: boolean
     font?: any // Reference to original font for static fonts
   }> // Structured style data for style selection
-  collection: 'Text' | 'Display' | 'Weirdo'
+  collection: 'Text' | 'Display' | 'Brutal'
   styleTags: string[]
   categories: string[]
   languages?: string[]
@@ -80,6 +81,7 @@ const getPresetContent = (preset: string, fontName: string) => {
 export default function CatalogPage({ initialFonts }: { initialFonts: FontData[] }) {
   // UI State
   const [sidebarOpen, setSidebarOpen] = useState(false) // matches SSR; set correctly in useEffect below
+  const [catalogVisible, setCatalogVisible] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
 
   const selectRefs = useRef<Record<number, HTMLSelectElement | null>>({})
@@ -136,8 +138,8 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const getCurrentTheme = () => colorThemes[currentColorTheme]
   
   // Stable preview font per collection (don't change during session)
-  const previewFontsRef = useRef<Record<'Text'|'Display'|'Weirdo', string>>({ Text: '', Display: '', Weirdo: '' })
-  const getStablePreviewFontForCollection = (collection: "Text" | "Display" | "Weirdo") => {
+  const previewFontsRef = useRef<Record<'Text'|'Display'|'Brutal', string>>({ Text: '', Display: '', Brutal: '' })
+  const getStablePreviewFontForCollection = (collection: "Text" | "Display" | "Brutal") => {
     if (!previewFontsRef.current[collection]) {
       const candidates = fonts.filter(f => f.collection === collection)
       if (candidates.length) {
@@ -150,6 +152,9 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({})
+  const heroRef = useRef<HTMLDivElement>(null)
+  const mainRef = useRef<HTMLElement>(null)
+  const catalogCardsRef = useRef<HTMLDivElement>(null)
   const [focusedFontId, setFocusedFontId] = useState<number | null>(null)
 
 
@@ -272,39 +277,41 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     const existingStyles = document.querySelectorAll('style[data-font-css]')
     existingStyles.forEach(style => style.remove())
 
+    const isVariable = (font: FontData) => font.type === 'Variable' || !!(font.variableAxes && font.variableAxes.length)
+
     // Generate CSS for each font - handle multiple files per family
     const fontCSS = fonts.map(font => {
-      if (font._familyFonts && font._familyFonts.length > 1) {
-        // For families with multiple files, create @font-face for each file
+      if (font._familyFonts && font._familyFonts.length > 0 && !isVariable(font)) {
+        // Static multi-file family: each file gets its own unique @font-face alias.
+        // Using font-weight: 100 900 prevents browser synthesis across aliases.
         return font._familyFonts.map((fontFile: any) => {
-          const isItalic = (fontFile.style || '').toLowerCase().includes('italic') || (fontFile.style || '').toLowerCase().includes('oblique')
-          const fontWeight = fontFile.weight || 400
-          
-          return `
-            @font-face {
-              font-family: "${font.family}";
-              src: url("${fontFile.url || fontFile.blobUrl || `/fonts/${fontFile.filename}`}");
-              font-weight: ${fontWeight};
-              font-style: ${isItalic ? 'italic' : 'normal'};
-              font-display: swap;
-            }`
-        }).join('\n')
+          const alias = fontFile.cssFamily
+          if (!alias) return ''
+          const isItalic = fontFile.isItalic ||
+            (fontFile.style || '').toLowerCase().includes('italic') ||
+            (fontFile.style || '').toLowerCase().includes('oblique')
+          const src = fontFile.url || fontFile.blobUrl || `/fonts/${fontFile.filename}`
+          return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${isItalic ? 'italic' : 'normal'};font-display:swap;}`
+        }).filter(Boolean).join('\n')
+      } else if (isVariable(font)) {
+        // Variable font: register under the shared family alias with actual weight range
+        const src = font.url || `/fonts/${font.filename}`
+        const wMin = font.availableWeights?.[0] ?? 100
+        const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
+        const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
+        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:swap;}`
       } else {
-        // Single font file
-        const isItalic = (font.style || '').toLowerCase().includes('italic') || (font.style || '').toLowerCase().includes('oblique')
-        return `
-          @font-face {
-            font-family: "${font.family}";
-            src: url("${font.url || `/fonts/${font.filename}`}");
-            font-weight: ${font.availableWeights?.[0] || 400};
-            font-style: ${isItalic ? 'italic' : 'normal'};
-            font-display: swap;
-          }`
+        // Single static file
+        const src = font.url || `/fonts/${font.filename}`
+        const alias = font._familyFonts?.[0]?.cssFamily ||
+          font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
+        const isItalic = (font.style || '').toLowerCase().includes('italic')
+        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${isItalic ? 'italic' : 'normal'};font-display:swap;}`
       }
     }).join('\n')
 
     // Inject CSS
-    if (fontCSS) {
+    if (fontCSS.trim()) {
       const styleElement = document.createElement('style')
       styleElement.setAttribute('data-font-css', 'true')
       styleElement.textContent = fontCSS
@@ -692,6 +699,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     return getPresetContent(selectedPreset, fontName)
   }
 
+
   // Restore focus to the currently edited preview input after state updates
   useEffect(() => {
     if (focusedFontId != null) {
@@ -705,6 +713,22 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       }
     }
   }, [customText, textCursorPosition, focusedFontId])
+
+  // Close expanded cards on click outside
+  useEffect(() => {
+    if (expandedCards.size === 0) return
+    const handleMouseDown = (e: MouseEvent) => {
+      const target = e.target as Node
+      let inside = false
+      expandedCards.forEach(id => {
+        const el = document.querySelector(`[data-card-id="${id}"]`)
+        if (el?.contains(target)) inside = true
+      })
+      if (!inside) setExpandedCards(new Set())
+    }
+    document.addEventListener('mousedown', handleMouseDown)
+    return () => document.removeEventListener('mousedown', handleMouseDown)
+  }, [expandedCards])
 
   // Keep focus across expand/collapse toggles and when focusing new input
   useEffect(() => {
@@ -987,7 +1011,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       axesOut.wght = previewWeight
     }
 
-    const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (previewWeight || fontSelection.weight || 400)
+    const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (fontSelection.weight || previewWeight || 400)
     let italic = fontSelection.italic || false
     if (isFamilyVariable) {
       const italVal = Number(stateAxes['ital'])
@@ -1002,7 +1026,9 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   // Load fonts only if not provided by server (fallback)
   useEffect(() => {
     if (initialFonts.length === 0) loadFonts()
-  }, [loadFonts, initialFonts.length])
+    else loadFontCSS(initialFonts)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   useLayoutEffect(() => {
     setIsMobile(window.innerWidth < 768)
@@ -1056,6 +1082,37 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     })
   }, [loadedFonts, animatedFonts])
 
+  // Scroll-driven hero fade + scale
+  // Scroll-driven hero fade + save position
+  useEffect(() => {
+    const main = mainRef.current
+    const hero = heroRef.current
+    if (!main || !hero) return
+    // Restore scroll position from sessionStorage
+    const saved = sessionStorage.getItem('catalog-scroll')
+    if (saved) main.scrollTop = parseInt(saved, 10)
+    const onScroll = () => {
+      sessionStorage.setItem('catalog-scroll', String(main.scrollTop))
+      const heroHeight = hero.offsetHeight
+      const progress = Math.min(main.scrollTop / (heroHeight * 0.35), 1)
+      hero.style.opacity = String(1 - progress)
+      hero.style.transform = `scale(${1 - progress * 0.05})`
+      setCatalogVisible(main.scrollTop > heroHeight * 0.15)
+    }
+    main.addEventListener('scroll', onScroll, { passive: true })
+    return () => main.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const scrollToCatalog = useCallback(() => {
+    const main = mainRef.current
+    const cards = catalogCardsRef.current
+    if (!main || !cards) return
+    const mainRect = main.getBoundingClientRect()
+    const cardsRect = cards.getBoundingClientRect()
+    const target = main.scrollTop + (cardsRect.top - mainRect.top) - 86
+    main.scrollTo({ top: target, behavior: 'smooth' })
+  }, [])
+
   // Removed special font readiness and reporting; render normally
 
   return (
@@ -1065,15 +1122,43 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
         .fallback-char{opacity:.4!important;color:var(--gray-cont-tert)!important;}
       ` }} />
 
-      <Navbar theme={getCurrentTheme()} />
+      <Navbar fonts={fonts.map(f => ({ name: f.name, author: f.author }))} />
 
       {/* Main font list */}
       <main
+        ref={mainRef}
         className="h-full overflow-y-auto"
         style={{ paddingTop: '80px', paddingBottom: '140px' }}
       >
         <h1 className="sr-only">Free Font Collection - Professional Typography for Designers</h1>
-        <div className="px-2 pb-2 space-y-2">
+
+        {/* Hero section */}
+        <div ref={heroRef} className="catalog-hero px-2">
+          <div className="catalog-hero-content">
+            <p className="catalog-hero-text">
+              <span className="hero-line" style={{ animationDelay: '0.05s' }}><span style={{ color: 'var(--gray-cont-tert)' }}>TypeDump</span> is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. </span><span className="hero-line" style={{ animationDelay: '0.35s' }}>Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. </span><span className="hero-line" style={{ animationDelay: '0.65s' }}>Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free.</span>
+            </p>
+            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: '0.95s' }}>
+              <a
+                href="https://www.npmjs.com/package/typedump"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="v2-button v2-button-inactive"
+                style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none' }}
+              >
+                Install MCP
+              </a>
+              <button
+                className="v2-button v2-button-active"
+                onClick={scrollToCatalog}
+              >
+                Browse catalog
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div ref={catalogCardsRef} className="px-2 space-y-2" style={{ animation: 'v2FadeIn 0.5s ease-out forwards', position: 'relative', zIndex: 2 }}>
           {isLoadingFonts ? (
             Array.from({ length: 8 }).map((_, i) => (
               <div key={`skeleton-${i}`} className="v2-card" style={{ padding: '24px', minHeight: '200px' }}>
@@ -1088,7 +1173,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
               </div>
             </div>
           ) : (
-            getFilteredFonts().map((font) => {
+            getFilteredFonts().map((font, idx) => {
               const fontSelection = fontWeightSelections[font.id] || (() => {
                 if (font._availableStyles && font._availableStyles.length > 0) {
                   const byWeight = font._availableStyles.find(s => s.weight === previewWeight && !s.isItalic)
@@ -1106,7 +1191,9 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                 return { weight: 400, italic: false }
               })()
               const effectiveStyle = getEffectiveStyle(font.id)
+              const staggerDelay = `${Math.min(idx * 0.05, 0.5)}s`
               return (
+                <div key={font.id} className="v2-card-reveal" style={{ animationDelay: staggerDelay }}>
                 <FontCard
                   key={font.id}
                   font={font as any}
@@ -1146,34 +1233,54 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   onToggleOTFeature={tag => toggleOTFeature(font.id, tag)}
                   onVariableAxisChange={(tag, val) => updateVariableAxis(font.id, tag, val)}
                 />
+                </div>
               )
             })
           )}
-
-          <footer style={{ display: "flex", padding: "24px", flexDirection: "column", alignItems: "flex-start", alignSelf: "stretch", borderTop: "1px solid var(--gray-brd-prim)" }}>
-            <div className="flex justify-between items-center w-full">
-              <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>© typedump, 2025–Future</span>
-              <span className="text-sm" style={{ color: "var(--gray-cont-tert)", textAlign: "right" }}>
-                Made by <a href="https://magicxlogic.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Magic x Logic</a>
-              </span>
-            </div>
-          </footer>
         </div>
+
+        {/* Footer */}
+        <footer style={{ marginTop: 80, padding: '0 24px 24px', display: 'flex', flexDirection: 'column', gap: 2 }}>
+          <span style={{
+            fontFamily: '"Inter Variable", sans-serif',
+            fontSize: 13,
+            fontWeight: 400,
+            color: 'var(--gray-cont-tert)',
+          }}>
+            © 2026 TypeDump
+          </span>
+          <span style={{
+            fontFamily: '"Inter Variable", sans-serif',
+            fontSize: 13,
+            fontWeight: 400,
+            color: 'var(--gray-cont-tert)',
+          }}>
+            Built and curated by{' '}
+            <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>
+          </span>
+        </footer>
       </main>
 
 
       {/* Invisible click-outside handler */}
-      {sidebarOpen && (
-        <div className="fixed inset-0 z-40" onClick={() => setSidebarOpen(false)} />
-      )}
+      <div
+        onClick={() => setSidebarOpen(false)}
+        style={{
+          position: 'fixed', inset: 0, zIndex: 40,
+          background: 'var(--v2-dim)',
+          opacity: sidebarOpen ? 1 : 0,
+          pointerEvents: sidebarOpen ? 'auto' : 'none',
+          transition: 'opacity 0.3s',
+        }}
+      />
 
       {/* Bottom bar — expands upward */}
       <div
+        className={catalogVisible ? 'v2-nav-enter-bottom' : 'v2-nav-pre-bottom'}
         style={{
           position: 'fixed',
           bottom: '16px',
           left: '50%',
-          transform: 'translateX(-50%)',
           width: 'calc(100% - 32px)',
           maxWidth: '440px',
           zIndex: 50,
@@ -1190,7 +1297,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
 
           Collections are duplicated: A shows in calm state, B scrolls with filters when open.
         */}
-        <div className="v2-card v2-frosted force-dark" style={{ overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
+        <div className="v2-card v2-overlay" style={{ overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
 
           {/* Header — appears above when open */}
           <div style={{
@@ -1201,12 +1308,14 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
             <div style={{ overflow: 'hidden' }}>
               <div className="flex items-center p-4" style={{ gap: '12px' }}>
                 <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
-                <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                  <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
-                </button>
-                <button onClick={() => setSidebarOpen(false)} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                  <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>close</span>
-                </button>
+                <div className="flex gap-2">
+                  <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <IconReset size={20} />
+                  </button>
+                  <button onClick={() => setSidebarOpen(false)} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <IconXMark size={20} />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -1219,7 +1328,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
           }}>
             <div style={{ overflow: 'hidden' }}>
               <div className="flex gap-2 px-4 pt-4 pb-1">
-                {(["Text", "Display", "Weirdo"] as const).map((mode) => (
+                {(["Text", "Display", "Brutal"] as const).map((mode) => (
                   <button
                     key={mode}
                     disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
@@ -1254,10 +1363,10 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
           }}>
             <div style={{ overflow: 'hidden' }}>
               <div className="overflow-y-auto scrollbar-hide" style={{ maxHeight: 'calc(100vh - 150px)' }}>
-                <div className="px-4 py-4 space-y-8">
+                <div className="px-4 py-4 space-y-8" style={{ paddingBottom: '40px' }}>
 
                   <div className="flex gap-2">
-                    {(["Text", "Display", "Weirdo"] as const).map((mode) => (
+                    {(["Text", "Display", "Brutal"] as const).map((mode) => (
                       <button
                         key={mode}
                         disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
@@ -1283,27 +1392,27 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                   </div>
 
                   <div>
-                    <div className="flex items-center gap-3">
-                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Text size</h3>
-                      <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} className="flex-1" />
-                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sidebar-title">Text size</h3>
+                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
                     </div>
+                    <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} onReset={() => setTextSize([80])} />
                   </div>
 
                   <div>
-                    <div className="flex items-center gap-3">
-                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Line height</h3>
-                      <Slider value={lineHeight} onValueChange={setLineHeight} max={160} min={90} step={10} className="flex-1" />
-                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{lineHeight[0]}%</span>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sidebar-title">Line height</h3>
+                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{lineHeight[0]}%</span>
                     </div>
+                    <Slider value={lineHeight} onValueChange={setLineHeight} max={160} min={90} step={10} onReset={() => setLineHeight([120])} />
                   </div>
 
                   <div>
-                    <div className="flex items-center gap-3">
-                      <h3 className="text-sidebar-title flex-shrink-0 w-20">Weight</h3>
-                      <Slider value={[previewWeight]} onValueChange={([v]) => setPreviewWeight(v)} min={100} max={900} step={100} className="flex-1" />
-                      <span className="text-sidebar-title flex-shrink-0 w-8 text-right" style={{ color: "var(--gray-cont-tert)" }}>{previewWeight}</span>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-sidebar-title">Weight</h3>
+                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{previewWeight}</span>
                     </div>
+                    <Slider value={[previewWeight]} onValueChange={([v]) => setPreviewWeight(v)} min={100} max={900} step={100} onReset={() => setPreviewWeight(400)} />
                   </div>
 
                   <div className="flex gap-2">
@@ -1446,7 +1555,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
                 </button>
                 {(selectedCollections.length + selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)) > 0 && (
                   <button onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <span className="material-symbols-outlined" style={{ fontWeight: 400, fontSize: '20px' }}>refresh</span>
+                    <IconReset size={20} />
                   </button>
                 )}
               </div>

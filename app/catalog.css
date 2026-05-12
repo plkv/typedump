@@ -4,7 +4,7 @@
   /* Primary action colors — reference gray tokens, no hardcoded hex */
   --v2-active-bg: var(--gray-cont-prim);
   --v2-active-fg: var(--gray-surface-prim);
-  --v2-inactive-bg: var(--gray-surface-sec);
+  --v2-inactive-bg: rgba(0, 0, 0, 0.06);
   --v2-inactive-fg: var(--gray-cont-prim);
 
   /* Card colors */
@@ -17,19 +17,32 @@
 
   /* Backdrop */
   --v2-backdrop: rgba(0, 0, 0, 0.5);
+  --v2-dim: rgba(0, 0, 0, 0.30);
+
+  /* Overlay surface — navbar + bottom sheet */
+  --v2-overlay-bg: rgba(240, 240, 240, 0.64);
+  --v2-overlay-border: rgba(0, 0, 0, 0.04);
+  --v2-overlay-btn-bg: rgba(0, 0, 0, 0.06);
+  --v2-overlay-btn-hover: rgba(0, 0, 0, 0.07);
+
+  /* Regular button hover */
+  --v2-inactive-hover-bg: rgba(0, 0, 0, 0.12);
 }
 
 /* Dark theme support */
 @media (prefers-color-scheme: dark) {
   :root {
     --v2-backdrop: rgba(0, 0, 0, 0.7);
+    --v2-inactive-bg: rgba(255, 255, 255, 0.08);
+    --v2-inactive-hover-bg: rgba(255, 255, 255, 0.16);
+    --v2-overlay-bg: rgba(41, 41, 41, 0.80);
+    --v2-overlay-btn-bg: rgba(255, 255, 255, 0.10);
+    --v2-overlay-btn-hover: rgba(255, 255, 255, 0.16);
+    --v2-overlay-border: rgba(255, 255, 255, 0.08);
   }
 }
 
-/* Button hover in dark context */
-.force-dark .v2-button-inactive:hover {
-  background-color: rgba(255, 255, 255, 0.10);
-}
+
 
 /* Frosted glass panels (navbar + bottom bar) — always dark */
 .v2-frosted {
@@ -37,6 +50,32 @@
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/* Overlay surface — navbar + bottom sheet */
+.v2-overlay {
+  background-color: var(--v2-overlay-bg) !important;
+  border: 1px solid var(--v2-overlay-border) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.v2-overlay .v2-button-inactive,
+.v2-overlay .v2-dropdown {
+  background-color: var(--v2-overlay-btn-bg);
+}
+
+.v2-overlay .v2-button-inactive:hover,
+.v2-overlay .v2-dropdown:hover {
+  background-color: var(--v2-overlay-btn-hover);
+}
+
+.v2-dropdown:hover {
+  background-color: var(--v2-inactive-hover-bg);
+}
+
+.v2-button-inactive:hover {
+  background-color: var(--v2-inactive-hover-bg);
 }
 
 /* Reusable component styles */
@@ -106,6 +145,7 @@
   width: fit-content;
 }
 
+
 .v2-approach-button {
   padding: 12px 8px;
   border-radius: var(--radius-component);
@@ -151,6 +191,110 @@
 
 .v2-font-fade-in {
   animation: fadeIn 0.3s ease-in;
+}
+
+/* Nav entry animations */
+.v2-nav-pre-top,
+.v2-nav-enter-top {
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.v2-nav-pre-bottom,
+.v2-nav-enter-bottom {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+.v2-nav-pre-top    { transform: translateX(-50%) translateY(calc(-100% - 16px)); }
+.v2-nav-pre-bottom { transform: translateX(-50%) translateY(20px);  opacity: 0; pointer-events: none; }
+.v2-nav-enter-top    { transform: translateX(-50%); }
+.v2-nav-enter-bottom { transform: translateX(-50%); opacity: 1; pointer-events: auto; }
+
+/* Card staggered reveal */
+@keyframes cardFadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.v2-card-reveal {
+  opacity: 0;
+  animation: cardFadeUp 0.4s ease forwards;
+}
+
+
+/* ── Navbar islands ──────────────────────────────── */
+.navbar-container {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  height: 54px;
+  z-index: 50;
+  width: calc(100% - 32px);
+  max-width: 440px;
+}
+
+/* Back island: fixed 54px at left edge */
+.navbar-back-island {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* Logo island: left-anchored, left+width controlled via React */
+.navbar-logo-island {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* Search island: right-anchored, right+width controlled via React */
+.navbar-search-island {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* Close island: right edge, width controlled via React */
+.navbar-close-island {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width: 559px) {
+  .navbar-search-island,
+  .navbar-close-island {
+    display: none;
+  }
+}
+
+/* Remove focus ring on mouse click, keep for keyboard nav */
+.navbar-back-island:focus:not(:focus-visible),
+.navbar-logo-island:focus:not(:focus-visible),
+.navbar-close-island:focus:not(:focus-visible),
+.navbar-search-island:focus:not(:focus-visible) {
+  outline: none;
+  background-color: var(--v2-overlay-bg) !important;
+}
+
+/* Island hover states */
+.navbar-back-island {
+  transition: background-color 0.2s;
+}
+
+.navbar-back-island:hover,
+.navbar-logo-island:hover,
+.navbar-close-island:hover,
+.navbar-search-island-btn:hover {
+  background-color: var(--v2-overlay-btn-hover) !important;
+}
+
+/* Search result items */
+.v2-search-result {
+  transition: background-color 0.15s;
+}
+
+.v2-search-result:hover {
+  background-color: var(--v2-overlay-btn-bg);
 }
 
 /* Sidebar wrapper — always in DOM, visibility via CSS (no JS flash) */
@@ -207,4 +351,133 @@
   .v2-backdrop {
     display: none;
   }
+}
+
+.font-detail-info-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 599px) {
+  .font-detail-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Font detail — info table: remove last row border */
+.info-table > div:last-child {
+  border-bottom: none !important;
+}
+
+/* Font detail — controls row */
+.font-detail-controls {
+  padding: 16px;
+  border-bottom: 1px solid var(--gray-brd-prim);
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.font-detail-slider {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.font-detail-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font-detail-align-group {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.font-detail-align-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+@media (max-width: 599px) {
+  .font-detail-controls {
+    flex-wrap: wrap;
+  }
+
+  .font-detail-slider {
+    flex: 0 0 100%;
+  }
+
+  .font-detail-align-row {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+
+  .font-detail-align-row .font-detail-align-group {
+    flex: 1;
+  }
+
+  .font-detail-align-group > button {
+    flex: 1;
+    width: auto !important;
+  }
+}
+
+/* ─── Catalog Hero ─────────────────────────────────────────────────────────── */
+
+.catalog-hero {
+  height: 100vh;
+  margin-top: -80px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  will-change: opacity, transform;
+  transform-origin: center center;
+}
+
+.catalog-hero-content {
+  margin-top: -80px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.catalog-hero-text {
+  font-family: "Inter Variable", sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--gray-cont-prim);
+  font-feature-settings: "cv11" on;
+}
+
+.catalog-hero-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Hero fade-in */
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-line {
+  opacity: 0;
+  animation: heroFadeUp 0.5s ease forwards;
+}
+
+.hero-buttons-reveal {
+  opacity: 0;
+  animation: heroFadeUp 0.4s ease forwards;
 }

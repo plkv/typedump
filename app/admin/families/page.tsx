@@ -182,7 +182,7 @@ export default function FamilyAdmin() {
                           >
                             <option value="Text">Text</option>
                             <option value="Display">Display</option>
-                            <option value="Weirdo">Weirdo</option>
+                            <option value="Brutal">Brutal</option>
                           </select>
                         ) : (
                           <span className="px-2 py-1 rounded text-sm" style={{ background: 'var(--gray-surface-tert)' }}>

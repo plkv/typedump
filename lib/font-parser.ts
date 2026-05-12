@@ -133,7 +133,7 @@ export async function parseFontFile(buffer: ArrayBuffer, originalName: string, f
     // Enhanced category detection with collection-specific categories
     const familyLower = family.toLowerCase()
     let category = 'Sans' // Default for Text collection
-    let detectedCollection: 'Text' | 'Display' | 'Weirdo' = 'Text'
+    let detectedCollection: 'Text' | 'Display' | 'Brutal' = 'Text'
     
     // Detect collection and category together
     if (familyLower.includes('display') || familyLower.includes('decorative') || 
@@ -153,7 +153,7 @@ export async function parseFontFile(buffer: ArrayBuffer, originalName: string, f
       }
     } else if (familyLower.includes('pixel') || familyLower.includes('bitmap') ||
                familyLower.includes('experimental') || familyLower.includes('symbol')) {
-      detectedCollection = 'Weirdo'
+      detectedCollection = 'Brutal'
       if (familyLower.includes('pixel') || familyLower.includes('bitmap')) {
         category = 'Bitmap'
       } else if (familyLower.includes('symbol')) {
@@ -182,61 +182,14 @@ export async function parseFontFile(buffer: ArrayBuffer, originalName: string, f
     const featureList = font.tables?.gsub?.features || []
     const supportedFeatures = new Set<string>()
     
-    // Extract custom stylistic set names from the name table
+    // Extract stylistic set names only from GSUB FeatureParams (UINameID → name table lookup)
+    // Name IDs 256+ are NOT reliably ss names — in variable fonts they hold fvar instance names.
     const customStylisticNames: { [key: string]: string } = {}
-    // Also try reading GSUB FeatureParams UINameID for ss01–ss20
     try {
       const ssNames = extractStylisticSetNamesFromGSUB(buffer)
       Object.assign(customStylisticNames, ssNames)
     } catch (e) {
       console.warn('GSUB FeatureParams parse failed (non-fatal):', e)
-    }
-    if (font.names) {
-      // Stylistic set names are typically stored in name IDs 256+ (ss01 = 256, ss02 = 257, etc.)
-      // Some fonts also use different ranges, so we'll check various approaches
-      
-      // Method 1: Check name IDs 256+ for stylistic sets (Adobe/standard approach)
-      for (let i = 256; i <= 275; i++) {
-        const nameRecord = font.names[i] || font.names[`${i}`]
-        if (nameRecord) {
-          const nameValue = typeof nameRecord === 'string' ? nameRecord : nameRecord.en || nameRecord[Object.keys(nameRecord)[0]]
-          if (nameValue && nameValue.trim()) {
-            const ssIndex = i - 256 + 1
-            if (ssIndex <= 20) { // ss01 to ss20
-              const ssTag = `ss${ssIndex.toString().padStart(2, '0')}`
-              customStylisticNames[ssTag] = nameValue.trim()
-              console.log(`🎨 Found custom stylistic set name: ${ssTag} = "${nameValue.trim()}"`)
-            }
-          }
-        }
-      }
-      
-      // Method 2: Also check for other common name ID ranges used by different font foundries
-      const alternativeRanges = [
-        { start: 256, prefix: 'ss' },  // Standard range
-        { start: 300, prefix: 'ss' },  // Some foundries use this
-        { start: 400, prefix: 'ss' }   // Alternative range
-      ]
-      
-      alternativeRanges.forEach(({ start, prefix }) => {
-        for (let i = start; i < start + 20; i++) {
-          const nameRecord = font.names[i] || font.names[`${i}`]
-          if (nameRecord) {
-            const nameValue = typeof nameRecord === 'string' ? nameRecord : nameRecord.en || nameRecord[Object.keys(nameRecord)[0]]
-            if (nameValue && nameValue.trim() && !nameValue.includes('Stylistic Set')) {
-              // Only use if it's not a generic name and we haven't found it yet
-              const ssIndex = (i - start) + 1
-              if (ssIndex <= 20) {
-                const ssTag = `${prefix}${ssIndex.toString().padStart(2, '0')}`
-                if (!customStylisticNames[ssTag]) {
-                  customStylisticNames[ssTag] = nameValue.trim()
-                  console.log(`🎨 Found alternative stylistic set name: ${ssTag} = "${nameValue.trim()}"`)
-                }
-              }
-            }
-          }
-        }
-      })
     }
     
     // Map OpenType feature tags to readable names (comprehensive list)
@@ -963,15 +916,20 @@ function extractStylisticSetNamesFromGSUB(buffer: ArrayBuffer): Record<string, s
   for (let i = 0; i < featureCount; i++) {
     const tag = tagAt(p)
     const featOff = dv.getUint16(p + 4)
-    const ftBase = gsubOff + featOff
-    const featureParams = dv.getUint16(ftBase)
-    if (/^ss\d\d$/.test(tag) && featureParams) {
-      const params = ftBase + featureParams
-      const version = dv.getUint16(params)
-      const uiNameID = dv.getUint16(params + 2)
-      if (uiNameID) {
-        const label = readName(uiNameID)
-        if (label) res[tag] = label
+    // featOff is relative to FeatureList (flOff), not GSUB start
+    const ftBase = flOff + featOff
+    const lookupCount = dv.getUint16(ftBase + 2)
+    // Skip features with no actual substitution lookups
+    if (lookupCount === 0) { p += 6; continue }
+    if (/^ss\d\d$/.test(tag)) {
+      const featureParams = dv.getUint16(ftBase)
+      if (featureParams) {
+        const params = ftBase + featureParams
+        const uiNameID = dv.getUint16(params + 2)
+        if (uiNameID) {
+          const label = readName(uiNameID)
+          if (label) res[tag] = label
+        }
       }
     }
     p += 6

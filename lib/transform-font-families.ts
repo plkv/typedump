@@ -70,14 +70,70 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
         return true
       })
     } else {
-      availableStyles = variants
+      type RawStyle = { weight: number; styleName: string; isItalic: boolean; cssFamily: string; _filename: string }
+
+      const rawStyles: RawStyle[] = variants
         .map(v => ({
           weight: v.weight || 400,
           styleName: v.styleName || 'Regular',
           isItalic: v.isItalic,
-          cssFamily: `${alias}__v_${shortHash(v.id).slice(0, 6)}`,
+          cssFamily: `${alias}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0, 6)}`,
+          _filename: (v.originalFilename || v.filename || '').replace(/\.[^.]+$/, ''),
         }))
         .sort((a, b) => a.weight !== b.weight ? a.weight - b.weight : (a.isItalic ? 1 : -1))
+
+      // Check for any styleName collision
+      const nameCounts = new Map<string, number>()
+      for (const s of rawStyles) nameCounts.set(s.styleName, (nameCounts.get(s.styleName) || 0) + 1)
+      const hasCollision = Array.from(nameCounts.values()).some(c => c > 1)
+
+      if (hasCollision) {
+        // Extract style names from filenames using LCP + LCS stripping across ALL variants
+        const filenames = rawStyles.map(s => s._filename)
+
+        function lcp(strs: string[]): string {
+          if (!strs.length) return ''
+          let p = strs[0]
+          for (const s of strs.slice(1)) while (!s.startsWith(p)) p = p.slice(0, -1)
+          return p
+        }
+        function lcs(strs: string[]): string {
+          const rev = strs.map(s => [...s].reverse().join(''))
+          return [...lcp(rev)].reverse().join('')
+        }
+
+        const prefixLen = lcp(filenames).length
+        const suffixLen = lcs(filenames).length
+
+        for (const s of rawStyles) {
+          const core = s._filename
+            .slice(prefixLen, suffixLen ? -suffixLen : undefined)
+            .replace(/^[-_\s]+/, '').replace(/[-_\s]+$/, '')
+          if (core) {
+            s.styleName = core
+              .replace(/([a-z])([A-Z])/g, '$1 $2')
+              .replace(/[-_]/g, ' ')
+              .replace(/\b\w/g, c => c.toUpperCase())
+              .trim()
+          } else {
+            s.styleName = styleNameFromWeight(s.weight, s.isItalic)
+          }
+        }
+
+        // If filename extraction still leaves collisions, fall back to weight-based names
+        const nameCounts2 = new Map<string, number>()
+        for (const s of rawStyles) nameCounts2.set(s.styleName, (nameCounts2.get(s.styleName) || 0) + 1)
+        if (Array.from(nameCounts2.values()).some(c => c > 1)) {
+          for (const s of rawStyles) s.styleName = styleNameFromWeight(s.weight, s.isItalic)
+        }
+      }
+
+      // Final dedupe by styleName, keeping first occurrence (already sorted by weight asc)
+      const seenNames = new Set<string>()
+      availableStyles = rawStyles
+        .filter(s => seenNames.has(s.styleName) ? false : (seenNames.add(s.styleName), true))
+        .map(({ _filename: _f, ...rest }) => rest)
+
       availableWeights = [...new Set(availableStyles.map(s => s.weight))].sort((a, b) => a - b)
     }
 
@@ -107,7 +163,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
         isItalic: v.isItalic,
         blobUrl: v.blobUrl,
         url: v.blobUrl,
-        cssFamily: `${alias}__v_${shortHash(v.id).slice(0, 6)}`,
+        cssFamily: `${alias}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0, 6)}`,
         downloadLink: (v as any).downloadLink,
         variableAxes: v.variableAxes,
         openTypeFeatures: v.openTypeFeatures,

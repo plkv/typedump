@@ -1,375 +1,157 @@
-# Claude Code Memory File - typedump Font Catalog
+# typedump — Claude Working Memory
 
-## Project Overview
-- **Project Name**: typedump Font Catalog
-- **Repository**: https://github.com/plkv/baseline-fonts.git  
-- **Current Version**: 0.087 (main branch - production ready)
-- **Status**: ✅ Production stable with all critical UI issues fixed
-- **Live URL**: https://baseline-fonts.vercel.app
+## Project
+Font catalog and collection manager. Live at https://baseline-fonts.vercel.app  
+Repo: https://github.com/plkv/baseline-fonts.git  
+Working directory: `/Users/plkv/Work Life Balance/TypeDump/baseline-fonts/`
 
-## 🎯 CORE PROJECT PRINCIPLES
-1. **Production First**: Local development is NOT priority - only Vercel deployment matters!
-2. **No Patches**: Focus on clean, simple, and effective solutions that fix root causes
-3. **Preserve Working UI**: Always avoid breaking existing functionality when making fixes
+## Preferences & Rules
 
-## Project Structure
+- **No commits without asking.** Always show the diff and wait for confirmation.
+- **No computer/browser control unless explicitly asked.**
+- **No hardcoded arrays or inline styles.** If order or values are needed, they belong in data or constants — not scattered inline.
+- **No patches — fix root causes.**
+- **Don't add error handling or abstractions beyond what the task requires.**
+- **Default to no comments** — only add when WHY is non-obvious.
+
+## Architecture
+
+### Data flow
 ```
-/Users/plkv/Desktop/claude/typedump/baseline-fonts/
-├── app/
-│   ├── page.tsx (main font catalog interface - v0.app design)
-│   ├── admin/ (admin panels for font management)
-│   └── api/
-│       ├── fonts-clean/ (clean font API endpoints)
-│       └── fonts/ (legacy font API endpoints)
-├── components/ui/ (Radix UI components)
-├── lib/
-│   ├── font-parser.ts (OpenType.js font parsing)
-│   └── font-storage-clean.ts (Vercel Blob + KV storage)
-├── package.json
-├── vercel.json (deployment + env config)
-└── CLAUDE.md (this file)
+public/fonts/fonts-data.json
+  → lib/static-db.ts          (reads JSON at build time, sync)
+  → lib/transform-font-families.ts  (maps to FontData[])
+  → app/page.tsx              (server component, passes initialFonts)
+  → components/font-catalog/CatalogPage.tsx  (client, renders everything)
 ```
 
-## Current Status: ✅ PRODUCTION STABLE
+`fonts-data.json` is the **single source of truth** locally. It has a `families` array — each family has `variants[]`.
 
-### Latest Achievement: All Critical UI Issues Fixed (v0.087)
-**Deployed**: 2025-09-09 - Fixed 9 critical UI issues reported by user
+Vercel KV + Blob are used in production for uploads and metadata persistence, but **not** for ordering, vocabulary, or filter logic. Don't introduce KV dependencies for anything that can live in code or data.
 
-1. **✅ Language support filters** - Added Latin fallback for fonts without language data
-2. **✅ Text presets rendering** - Fixed CSS variable artifacts polluting Key Glyphs/Basic presets 
-3. **✅ Appearance tags** - Added category-based fallbacks when styleTags missing
-4. **✅ Text Size slider** - Corrected range from 50-200px to 12-200px
-5. **✅ Line height slider** - Corrected range from 80-200% to 90-160%
-6. **✅ Variable axis interaction** - Fixed dropdown sync after weight axis slider changes
-7. **✅ Download button logic** - Only shows when admin sets download link (not blob URLs)
-8. **✅ Text editing cursor** - Enhanced preservation to prevent jumping to start
-9. **✅ Stylistic alternates** - Enhanced detection from multiple OpenType feature sources
+### Key files
+| File | What it does |
+|------|-------------|
+| `app/page.tsx` | Server component — reads staticDb, passes `initialFonts` |
+| `components/font-catalog/CatalogPage.tsx` | Main catalog UI — all filter state, font rendering |
+| `components/font-catalog/FontCard.tsx` | Individual font card with controls |
+| `components/font-catalog/Navbar.tsx` | Top nav |
+| `lib/static-db.ts` | Reads `public/fonts/fonts-data.json` synchronously |
+| `lib/transform-font-families.ts` | Maps family data → `FontData[]` for the catalog |
+| `lib/font-parser.ts` | OpenType.js parsing — extracts metadata, language support |
+| `lib/font-storage-clean.ts` | Vercel Blob + KV abstraction for uploads |
+| `lib/font-store.ts` | Zustand store (used in admin, not in main catalog) |
+| `app/catalog.css` | Design system CSS — `.v2-*` component classes |
 
-### Mobile Responsive (User-implemented)
-**Commit c703b5b**: Mobile responsive improvements
-- ✅ Dynamic sidebar hiding on mobile (<768px)
-- ✅ Floating overlay for mobile sidebar interaction  
-- ✅ Prevention of layout flash with proper SSR handling
-- ✅ Resize event listeners for dynamic screen changes
-
-## Version Management System
-- **Always update version on every push**
-- Update 3 locations:
-  1. `package.json` - "version" field
-  2. `vercel.json` - NEXT_PUBLIC_VERSION env var  
-  3. Git tag (optional)
-- Current version: **0.109**
-
-## Deployment Process (PRODUCTION FOCUSED)
-```bash
-# 1. Update version
-# Edit package.json and vercel.json
-
-# 2. Commit and deploy
-git add .
-git commit -m "Descriptive message with bullet points"
-git push origin main
-
-# 3. Vercel auto-deploys from GitHub
-# Monitor at https://vercel.com/dashboard
-```
-
-## API Architecture
-
-### Font Storage System
-- **Storage**: Vercel Blob (files) + Vercel KV (metadata)
-- **Parser**: OpenType.js for comprehensive font analysis
-- **API**: `/api/fonts-clean/` endpoints (primary)
-
-### Key Endpoints
-- `GET /api/fonts-clean/list` - Get all published fonts
-- `POST /api/fonts-clean/upload` - Upload new fonts with parsing
-- `PATCH /api/fonts-clean/update` - Update font metadata
-- `DELETE /api/fonts-clean/delete` - Remove fonts and files
-
-### Admin Interfaces
-- `/admin-simple` - Simple font management
-- `/admin` - Advanced font management with family merging
-
-## Technical Stack
-- **Framework**: Next.js 15.2.4 with TypeScript
-- **UI**: Radix UI + Tailwind CSS + Material Symbols
-- **Storage**: Vercel Blob + KV
-- **Parsing**: OpenType.js 
-- **Deployment**: Vercel with auto-deploy from GitHub
-
-## Font Catalog Features
-
-### Core Functionality ✅ Working
-- Beautiful v0.app-designed catalog interface
-- Dynamic font loading from Vercel storage
-- Real-time font preview with contentEditable text
-- Advanced filtering: categories, weights, languages, appearance tags
-- Text presets: Names, Key Glyphs, Basic, Paragraph, Brands
-- Collection modes: Text, Display, Weirdo
-- Variable font axis controls with sliders
-- OpenType feature toggles (stylistic alternates, ligatures, etc.)
-- Mobile responsive with floating sidebar
-- Theme switching (light/dark/color themes)
-
-### Admin Features ✅ Working  
-- Font upload with automatic metadata extraction
-- Font family management and merging
-- Style tag management and bulk operations
-- Publishing/unpublishing control
-- Download link management
-- Font editing and deletion
-
-## Known Working Integrations
-- ✅ GitHub auto-deployment to Vercel
-- ✅ Vercel Blob storage for font files
-- ✅ Vercel KV for metadata storage  
-- ✅ OpenType.js for font parsing
-- ✅ Material Symbols icons
-- ✅ Radix UI component library
-- ✅ Tailwind CSS styling system
-
-## Commit Message Format
-```
-Brief description of changes
-
-- Detailed bullet points of what changed
-- Technical improvements made
-- Version bump noted
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-```
-
-## Development Guidelines
-
-### When Adding New Features:
-1. **Check existing patterns** - Follow established code conventions
-2. **Test in production context** - Focus on Vercel deployment behavior  
-3. **Preserve working functionality** - Never break existing features
-4. **Use clean solutions** - Avoid patches, fix root causes
-5. **Update version** - Increment version number before pushing
-
-### When Debugging Issues:
-1. **Check production first** - Issues often only appear in Vercel environment
-2. **Look for data consistency** - Font metadata might be incomplete
-3. **Check API responses** - Verify data structure matches expectations
-4. **Test responsive behavior** - Ensure mobile and desktop both work
-
-## Build Guardrails (Do This Every Time)
-
-- Client vs Server split
-  - Never import server‑only code in client components. If a module needs Node APIs (Buffer, fs, crypto, etc.), mark it server‑only and do not import it from `"use client"` files.
-  - Prefer fetching prebuilt data/CSS via API routes (e.g., `/api/font-css`) instead of generating CSS in the client.
-
-- Server‑only / Client‑only markers
-  - Add `import 'server-only'` to modules that must never be bundled in the client (e.g., storage, CSS builder).
-  - Only `"use client"` components should import browser‑only utilities.
-
-- ESLint checks
-  - Disallow `Buffer` and `node:*` imports in client code.
-  - Disallow importing `buffer`, `fs`, `crypto`, etc. from any `"use client"` file.
-
-- Preview first, then main
-  - Open PRs from a feature branch; verify Vercel Preview is green before merging to `main`.
-
-## Free‑Tier Usage Strategy (Blob + KV + Project)
-
-- Blob
-  - Use direct Blob URLs in `@font-face` (no proxy or HEAD per request).
-  - Deduplicate uploads by checksum; remove orphan files; prefer WOFF2 where possible.
-
-- KV
-  - Avoid hot‑path KV reads; cache API responses with `s-maxage` and `stale-while-revalidate`.
-  - Batch writes on Admin; do not write on every tiny edit.
-
-- Auto‑pause prevention (optional)
-  - Use a scheduled ping to the production URL weekly to avoid Vercel auto‑pausing free projects (see `.github/workflows/keepalive.yml`).
-  - Or simply accept auto‑pause and unpause manually before demos.
-
-## Operational Playbook
-
-1) If deploy fails with no logs:
-   - Look for `Buffer`/Node APIs leaking into client or Edge routes; move to server‑only or remove.
-   - Ensure the project is not paused on Vercel; unpause and redeploy with “Skip build cache”.
-
-2) To keep production stable:
-   - Use feature branches + Preview deploys for UI changes.
-   - Do not modify font CSS generation on the client. Only via `/api/font-css` link tag in layout.
-
-### File Locations to Remember:
-- Main catalog: `/app/page.tsx` (1445 lines)
-- Font storage: `/lib/font-storage-clean.ts`  
-- Font parsing: `/lib/font-parser.ts`
-- Admin interfaces: `/app/admin/` directory
-- API endpoints: `/app/api/fonts-clean/`
-
-## Environment Details
-- **Working Directory**: `/Users/plkv/Desktop/claude/typedump/baseline-fonts/`
-- **Platform**: macOS (Darwin 24.5.0)
-- **Node.js**: Latest LTS with Next.js 15.2.4
-- **Deployment**: Vercel production environment
-
-## Quick Start for New Sessions
-```bash
-# Navigate to project
-cd /Users/plkv/Desktop/claude/typedump/baseline-fonts/
-
-# Check current status  
-git status
-git log --oneline -5
-
-# Verify production deployment
-# Visit: https://baseline-fonts.vercel.app
-```
-
-## 🚀 ARCHITECTURAL REFACTOR PLAN - CTO SOLUTION
-
-### Problem Analysis: Recurring Bug Pattern
-The current system suffers from **3 fundamental architectural flaws** causing recurring bugs:
-
-1. **Scattered State Management** - 20+ useState hooks with interdependent updates
-2. **Inconsistent Data Models** - Multiple schemas for same font data across API/UI/Storage  
-3. **DOM-Heavy React Patterns** - Direct DOM manipulation breaking React reconciliation
-
-### Root Cause → Bug Mapping:
-- **Cursor Reset** → Direct DOM manipulation in contentEditable
-- **Language Support Empty** → Missing fallback in scattered state
-- **Appearance Filters Broken** → Inconsistent styleTags data model
-- **Text Preset Errors** → CSS injection during DOM manipulation
-- **Missing Symbols False Positives** → Unreliable canvas measurement
-- **Stylistic Alternates Missing** → Complex parsing from multiple sources
-- **Family Connection Broken** → Flat storage without proper hierarchy
-
-### Solution: Font Management System (FMS)
-
-#### Phase 1: Foundation (Week 1)
-```bash
-# Install state management
-npm install zustand
-
-# Create unified data models
-lib/models/FontFamily.ts    # Hierarchical family model
-lib/models/FontVariant.ts   # Individual font variants
-lib/font-store.ts          # Centralized Zustand store
-```
-
-#### Phase 2: Data Architecture (Week 2)  
-```bash
-# Hierarchical data model
-lib/font-processor.ts      # Multi-stage validation pipeline
-scripts/migrate-families.ts # Convert flat data to hierarchy
-app/api/fonts-clean/families # New family-based endpoints
-```
-
-#### Phase 3: UI Refactor (Week 3)
-```bash
-# Replace useState patterns
-components/ControlledTextPreview.tsx  # Controlled inputs
-lib/symbol-detector.ts               # Unicode-aware detection
-app/page.tsx                        # Connect to FontStore
-```
-
-#### Phase 4: Testing & Deploy (Week 4)
-```bash
-# Comprehensive testing
-tests/font-store.test.ts
-tests/font-processor.test.ts
-# Performance optimization & migration validation
-```
-
-### Key Architectural Changes:
-
-#### 1. Unified State Management
-**Before**: 20+ useState hooks
-**After**: Single FontStore with computed values
-```typescript
-interface FontStore {
-  fonts: NormalizedFont[]
-  families: FontFamily[]
-  filters: FilterState
-  
-  // Computed (eliminates filter bugs)
-  filteredFonts: () => NormalizedFont[]
-  availableLanguages: () => string[]
-  availableStyleTags: () => string[]
+### Font metadata model (fonts-data.json)
+Each family has:
+```json
+{
+  "name": "Cormorant",
+  "collection": "Text",           // "Text" | "Display" | "Weirdo"
+  "category": ["Serif"],          // font type — used by Font categories filter
+  "styleTags": ["Old Style"],     // appearance — used by Appearance filter
+  "languages": ["Latin", "Cyrillic", "Vietnamese"],
+  "variants": [...]
 }
 ```
 
-#### 2. Hierarchical Data Model
-**Before**: Flat font storage with weak connections
-**After**: True parent-child hierarchy with inheritance
-```typescript
-interface FontFamily {
-  id: string
-  name: string
-  // Global settings inherited by all variants
-  collection: 'Text' | 'Display' | 'Weirdo'
-  styleTags: string[]
-  languages: string[]
-  fonts: FontVariant[]  // Children inherit these settings
-}
+`category` and `styleTags` are the two distinct tag dimensions. They are different things:
+- **category** — structural type (Sans, Serif, Script, Mono, Pixel, Decorative, etc.)
+- **styleTags** — aesthetic character (Narrow, Fatface, Vintage, Geometry, etc.)
+
+`collection` is a third dimension shown as cards in the sidebar (Text / Display / Weirdo).
+
+### Font Detail page (`/font/[slug]`)
+Key file: `app/font/[slug]/FontDetail.tsx` (client component).
+
+**Layout (top → bottom):**
+1. `Navbar`
+2. Back button (`.font-detail-back`, desktop only)
+3. Hero — font name at 180px
+4. Variant rows card (`v2-card`):
+   - Presets row (Text presets buttons)
+   - Controls row (Size/Spacing/Leading sliders + align buttons + reset)
+   - `VariantRow` × N — each row: label · weight → textarea preview → animated settings panel
+5. Info section — 2-column grid: About card (description) + Details card (table)
+
+**Text presets** — same 5 presets as `CatalogPage`:
+```ts
+['Names', 'Key Glyphs', 'Basic', 'Paragraph', 'Brands']
+```
+- Names → `family.name`
+- Key Glyphs → `'RKFJIGCQ aueoyrgsltf 0123469 ≪"(@&?;€$© ->…'`
+- Basic → full A-Z a-z 0-9 symbols string
+- Paragraph → random fashion/finance/tech paragraph
+- Brands → random luxury/tech brand list with • separators
+
+Default preset = **Names** (shows the font's own name as preview).
+
+**Variant rows:**
+- Variable fonts: synthesized weight rows from wght axis range (100/200/…/900 filtered to axis min/max)
+- Static fonts: one row per variant file
+- Row key: `"${weight}-${isItalic}"` (e.g. `"400-false"`)
+- Clicking the textarea → opens settings panel for that row (if hasSettings)
+- Clicking the label → toggles the panel (for closing)
+
+**Per-row settings panel:**
+- Background `--gray-surface-sec`, border-radius 12, animated via CSS grid `0fr→1fr`
+- Variable Axes slider per axis (incl. wght with default = row's nominal weight)
+- Stylistic Alternates buttons (tags matching `/^(ss\d\d|cv\d\d)$/`)
+- Buttons: `v2-button v2-button-inactive/active` (not `btn-sm` — same bg as panel)
+
+**fontVariationSettings computation:**
+```ts
+getFontVariationSettings({ wght: vr.weight, ...varAxes })
+// varAxes spread overrides nominal weight when user moves the slider
 ```
 
-#### 3. Controlled Input System
-**Before**: Direct DOM manipulation causing cursor jump
-**After**: Pure React with state-managed cursor position
-```typescript
-// No more DOM manipulation - cursor tracked in React state
-const [textValue, setTextValue] = useState("")
-const [cursorPosition, setCursorPosition] = useState(0)
+**Reset button** resets: fontSize=48, lineHeight=1.2, letterSpacing=0, align=left, preset=Names, previewText=family.name, rowOtFeatures={}, rowVarAxes={}, expandedRowKey=null.
+
+### Filter logic in CatalogPage
+- **Collections** — OR logic
+- **Font categories** — AND logic (font must have all selected)
+- **Appearance (styleTags)** — AND logic
+- **Languages** — OR logic
+- **Weights** — OR logic
+- **Italic** — boolean
+
+Filter availability uses faceted search: for OR-groups (collections, languages, weights) the candidate pool is all fonts matching the other groups; for AND-groups (categories, styleTags) it uses the current filtered result. Selected options are never disabled.
+
+### Sidebar filter ordering
+Both **Font categories** and **Appearance** tags are sorted **alphabetically** (`localeCompare`). No custom sort order — the list is derived dynamically from actual font data.
+
+### Language detection
+Languages are detected by checking for actual glyph presence in font files using `font.charToGlyph()` from opentype.js — not by filename or metadata. The union of all variants in a family is used. Run detection across all files when re-parsing.
+
+### CSS design system
+All component styles live in `app/catalog.css` under `.v2-*` classes. Colors use CSS custom properties from the token system (`--gray-cont-prim`, `--gray-surface-prim`, etc.) — never hardcoded hex values.
+
+Key classes:
+- `.v2-button`, `.v2-button-active`, `.v2-button-inactive`
+- `.v2-badge` — bordered pill tag
+- `.v2-card` — card background + radius
+- `.v2-filter-disabled` — opacity 0.3, pointer-events none
+- `.v2-shimmer` — loading skeleton animation
+- `.v2-sidebar`, `.catalog-sidebar-wrap`, `.catalog-sidebar-open` — sidebar layout
+
+### Sidebar visibility (CSS-first, no flash)
+The sidebar is always in the DOM. Visibility is controlled by CSS:
+- `.catalog-sidebar-wrap` — `display: none` by default
+- `@media (min-width: 768px)` — `display: block` (no JS needed on desktop)
+- `.catalog-sidebar-open` — `display: block !important` (JS adds on mobile)
+
+## Stack
+- Next.js 15.5.7 / React 19 / TypeScript
+- Radix UI + Tailwind CSS 4 + Material Symbols
+- Zustand (admin state), opentype.js (font parsing)
+- Vercel Blob + Vercel KV (production storage)
+- Local dev: `public/fonts/fonts-data.json` + font files in `public/fonts/`
+
+## Deployment
+```bash
+git add <files>
+git commit -m "message"
+git push origin main   # Vercel auto-deploys
 ```
-
-#### 4. Robust Font Processing Pipeline
-**Before**: Inconsistent metadata extraction
-**After**: Multi-stage validation with fallbacks
-```typescript
-// Standardized processing eliminates missing data
-validateFile → extractMetadata → parseFeatures → detectLanguages → validate
-```
-
-### Expected Outcomes:
-- **🎯 Zero recurring bugs** - Issues prevented by design
-- **📈 Maintainability** - Single source of truth for all data
-- **⚡ Performance** - Computed values, no redundant processing
-- **🛡️ Data Consistency** - Validation pipeline prevents corrupt entries
-- **🔄 Family Sync** - Collection changes propagate automatically
-
-### Migration Strategy:
-- **Backward Compatible** - Existing fonts work during transition
-- **Gradual Rollout** - Phase-by-phase implementation
-- **Data Preservation** - No font data loss during migration
-- **Production Focus** - Vercel deployment priority maintained
-
-### 🎯 PHASE 1 COMPLETE: Foundation Architecture (v0.088)
-**Completed**: 2025-09-09 - Core architectural foundation implemented
-
-#### ✅ Phase 1 Deliverables:
-1. **Zustand State Management** - Single source of truth replacing 20+ useState hooks
-2. **Hierarchical Data Models** - FontFamily + FontVariant with proper inheritance  
-3. **Centralized FontStore** - Computed selectors eliminate filter inconsistencies
-4. **ControlledTextPreview** - Eliminates cursor jumping with pure React state
-5. **Unicode Symbol Detector** - Accurate fallback detection vs canvas measurement
-6. **Font Processing Pipeline** - Multi-stage validation with consistent metadata
-
-#### 📁 New Architecture Files:
-```
-lib/models/
-├── FontFamily.ts          # Hierarchical family model with inheritance
-└── FontVariant.ts         # Individual font variants
-
-lib/
-├── font-store.ts          # Centralized Zustand store
-├── font-processor.ts      # Robust processing pipeline  
-└── symbol-detector.ts     # Unicode-aware symbol detection
-
-components/ui/font/
-└── ControlledTextPreview.tsx # Cursor-stable text inputs
-```
-
-#### 🔄 Next: Phase 2 - Data Migration
-Ready to convert existing flat data to hierarchical families and update API endpoints.
-
-**Last Updated**: 2025-09-09  
-**Status**: 🏗️ Phase 1 Foundation Complete - Ready for Phase 2 Data Migration
+Always ask before pushing. Don't bump version numbers unless asked.

@@ -25,7 +25,7 @@ export interface FontMetadata {
   foundry: string
   downloadLink?: string
   languages: string[]
-  collection: 'Text' | 'Display' | 'Weirdo'
+  collection: 'Text' | 'Display' | 'Brutal'
   // Additional editable metadata
   editableCreationDate?: string // User can override the extracted creation date
   editableVersion?: string // User can override the extracted version
@@ -163,7 +163,7 @@ class FontStorageClean {
           modificationDate: parsedData.modificationDate,
           designerInfo: parsedData.designerInfo,
           description: parsedData.description,
-          collection: (parsedData.collection || 'Text') as 'Text' | 'Display' | 'Weirdo',
+          collection: (parsedData.collection || 'Text') as 'Text' | 'Display' | 'Brutal',
           familyId: parsedData.familyId,
           isDefaultStyle: parsedData.isDefaultStyle,
           italicStyle: parsedData.italicStyle,

@@ -6,10 +6,10 @@
  * Before:
  * - tags:vocab:appearance:Text
  * - tags:vocab:appearance:Display
- * - tags:vocab:appearance:Weirdo
+ * - tags:vocab:appearance:Brutal
  * - tags:vocab:category:Text
  * - tags:vocab:category:Display
- * - tags:vocab:category:Weirdo
+ * - tags:vocab:category:Brutal
  *
  * After:
  * - tags:vocab:appearance (unified)
@@ -18,7 +18,7 @@
 
 import { kv } from '@vercel/kv'
 
-const COLLECTIONS = ['Text', 'Display', 'Weirdo'] as const
+const COLLECTIONS = ['Text', 'Display', 'Brutal'] as const
 const TYPES = ['appearance', 'category'] as const
 
 interface MigrationResult {

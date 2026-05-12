@@ -13,7 +13,7 @@ export interface FilterState {
   selectedStyles: string[]
   selectedLanguages: string[]
   selectedWeights: number[]
-  selectedCollection: 'Text' | 'Display' | 'Weirdo'
+  selectedCollection: 'Text' | 'Display' | 'Brutal'
 }
 
 export interface PreviewState {
@@ -58,7 +58,7 @@ export interface ComputedFontData {
   category: string
   author: string
   type: 'Variable' | 'Static'
-  collection: 'Text' | 'Display' | 'Weirdo'
+  collection: 'Text' | 'Display' | 'Brutal'
   styleTags: string[]
   categories: string[]
   languages: string[]
@@ -81,7 +81,7 @@ interface FontStore {
   updateVariant: (variantId: string, updates: Partial<FontVariant>) => void
   
   // Filter actions
-  setSelectedCollection: (collection: 'Text' | 'Display' | 'Weirdo') => void
+  setSelectedCollection: (collection: 'Text' | 'Display' | 'Brutal') => void
   toggleCategory: (category: string) => void
   toggleStyle: (style: string) => void
   toggleLanguage: (language: string) => void

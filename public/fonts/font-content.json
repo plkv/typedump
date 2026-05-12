@@ -1,0 +1,1017 @@
+[
+  {
+    "name": "ARK-ES Dense",
+    "designer": "Eddie Stuart",
+    "foundry": "Stuedio",
+    "url": "https://usemodify.com/fonts/ark-typeface/",
+    "description": "ARK-ES Dense is the compact variant of Eddie Stuart's open-source experimental gridface ARK-ES, designed at Stuedio and released in February 2020. Built on a strict grid system, the Dense weight family (Light through Bold) creates tightly packed letterforms with a mechanical, modular quality well suited to headlines, tech branding, and experimental graphic design. Both ARK-ES variants (Dense and Solid) are freely available under the Open Font License via Use & Modify and Fontesk."
+  },
+  {
+    "name": "ARK-ES Solid",
+    "designer": "Eddie Stuart",
+    "foundry": "Stuedio",
+    "url": "https://usemodify.com/fonts/ark-typeface/",
+    "description": "ARK-ES Solid is the filled variant of Eddie Stuart's ARK-ES gridface family from Stuedio, offering the same modular grid construction as its Dense sibling but with fully filled, blockier letterforms that command more visual weight. Its four weights (Light to Bold) give designers significant flexibility for display, poster, and identity work where a strong geometric presence is required. Released in 2020 under OFL, it is freely available via Use & Modify and major open-font repositories."
+  },
+  {
+    "name": "Alpha Lyrae",
+    "designer": "Fontfabric",
+    "foundry": "Fontfabric (for Vega Protocol)",
+    "url": "https://github.com/vegaprotocol/alpha-lyrae",
+    "description": "Alpha Lyrae is a custom typeface commissioned by blockchain infrastructure company Vega Protocol and designed by Fontfabric, featuring five stylistic sets that shift the letterforms from classic Helvetica-influenced neutrality to a pixelated, glitching aesthetic through ligatures and contextual alternates. Its digital stardust approach — where text can subtly transform as it renders — made it an unusually experimental choice for a financial protocol's brand system. The font is open-source on GitHub under SIL OFL."
+  },
+  {
+    "name": "America XIX",
+    "designer": "Roman Gornitsky",
+    "foundry": "Abstrkt / The Temporary State",
+    "url": "https://fontstorage.com/font/roman-gornitsky/america",
+    "description": "America XIX is a display typeface by Roman Gornitsky, the Moscow-born type designer who founded The Temporary State in 2017 — a research-focused foundry producing rigorous Cyrillic and Latin fonts. Released through the Abstrkt label, the font draws on nineteenth-century American display lettering traditions, translating woodtype poster aesthetics into a refined digital form. It supports 15 languages and is available as a free download via Fontstorage."
+  },
+  {
+    "name": "Amiamie",
+    "designer": "Mirat-Masson",
+    "foundry": "Independent",
+    "url": "https://uncut.wtf/sans-serif/amiamie/",
+    "description": "Amiamie is a fork of Sora Sagano's Aileron (2014) — itself a Helvetica-lineage open-source sans — extended and reimagined by Mirat-Masson with a significant addition: a suite of non-binary glyphs that expand the typographic vocabulary of gender-inclusive communication. Where Aileron offered clean Swiss neutrality, Amiamie layers in a social and formal dimension, making it simultaneously a functional neo-grotesque and a quiet political statement about whose forms get standardized in type. Available in ten styles under SIL OFL via UNCUT.wtf and GitLab."
+  },
+  {
+    "name": "Amiamie Round",
+    "designer": "Mirat-Masson",
+    "foundry": "Independent / self-published",
+    "url": "https://uncut.wtf/sans-serif/amiamie/",
+    "description": "Amiamie Round is a fork of Sora Sagano's Aileron (2014), itself inspired by Helvetica, augmented by Mirat-Masson with non-binary glyphs for more inclusive typographic expression. Released in 2022 under the SIL Open Font License, the family comes in 10 cuts including a softened Round variant. It suits contemporary branding, editorial design, and any project where clean Swiss-inspired neutrality meets progressive sensibility."
+  },
+  {
+    "name": "Anthony",
+    "designer": "Sun Young Oh",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=anthony",
+    "description": "Designed by Korean graphic designer Sun Young Oh, Anthony takes its forms from the metal sculptures of British artist Anthony Caro — assemblages of industrial objects that lean against and balance each other. The typeface is packed with pseudo-randomly selected alternates for most letters, so every block of text produces a unique, almost animated composition. It is a brutalist, curveless display face that thrives in art books, cultural posters, and identity work that prizes the unexpected."
+  },
+  {
+    "name": "Antique Série",
+    "designer": "Coline Houot, Romain Laurent",
+    "foundry": "X Cicéro / ÉSAD Grenoble Valence",
+    "url": "https://xcicero.esad-gv.net/page/antiqueserie/",
+    "description": "Antique Série was created by Coline Houot and Romain Laurent through the X Cicéro workshop at ÉSAD Grenoble Valence, drawing from a typeface in the collection of the Jacoby & Fils woodtype foundry. The design philosophy is one of subtraction — stripping away decorative excess to expose functional structure, a concept the designers describe as 'dé-projet'. Released in May 2023, it is freely available in OTF, WOFF, and WOFF2 formats under the SIL Open Font License."
+  },
+  {
+    "name": "Apfel Grotesk",
+    "designer": "Luigi Gorlero",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/apfel-grotezk",
+    "description": "Apfel Grotezk (note the intentional 'z' spelling) is a round, airy sans-serif by Luigi Gorlero, released through Collletttivo in November 2019. Inspired by neo-grotesque and geometric typefaces, its friendly, open forms and gentle proportions make it highly legible and approachable for both text and display use. Available in Regular and Bold weights, it has become a widely-used free font in branding, editorial design, and digital interfaces."
+  },
+  {
+    "name": "Apfel Grotezk Brukt",
+    "designer": "Luigi Gorlero",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/apfel-grotezk",
+    "description": "Apfel Grotezk Brukt ('brukt' meaning 'used' or 'worn') is a companion to Apfel Grotezk by Luigi Gorlero featuring cut-out holes in the letterforms — an eco-conscious design choice that reduces ink consumption in print applications. Despite the visual quirk, it retains the same friendly, geometric spirit of the original and is free under the OFL. It is a striking choice for sustainable print projects, posters, and typographically adventurous branding."
+  },
+  {
+    "name": "Aspekta",
+    "designer": "Ivo Dolenc",
+    "foundry": "Independent / self-published",
+    "url": "https://github.com/ivodolenc/aspekta",
+    "description": "Aspekta is a modern neo-grotesque sans-serif family by Croatian designer Ivo Dolenc, released in 2022 with 20 weights and a variable font. Inspired by clean, simple, and neutral design principles, it draws on the Swiss typographic tradition while adding subtle contemporary character. Well-suited for UI design, web typography, and branding projects that demand both versatility and visual restraint."
+  },
+  {
+    "name": "Astloch",
+    "designer": "Dan Rhatigan",
+    "foundry": "Independent / Google Fonts",
+    "url": "https://fonts.google.com/specimen/Astloch",
+    "description": "Astloch is a monolinear display typeface designed by Dan Rhatigan, drawing on the angular tradition of fraktur lettering to create two contrasting but related faces — one delicate and one sturdy. The combination of sharp angles and florid curves gives it a contemporary gothic character that avoids the historical heaviness of traditional blackletter. Available on Google Fonts under the SIL Open Font License, it suits editorial headlines, cultural branding, music packaging, and any display use seeking dramatic typographic personality."
+  },
+  {
+    "name": "Aujournuit",
+    "designer": "Teo Gaudet",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/aujournuit",
+    "description": "Aujourd'nuit is a condensed-to-wide variable display typeface designed by Teo Gaudet and released by Collletttivo in December 2024. Its name merges the French words for 'today' (aujourd'hui) and 'night' (nuit), evoking the biodynamic farming rhythms of sun and moon cycles that inspired its organic, calligraphic forms drawn from a 1956 magazine title. The font also includes all zodiac signs, making it exceptional for atmospheric editorial, cultural, and seasonal branding projects."
+  },
+  {
+    "name": "Azabache",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/azabache/",
+    "description": "Azabache emerged from a research process in which Ariel Martín Pérez sketched letterforms by hand using a trackpad in Processing, then reconstructed them from oval modules in Glyphs — a deliberately hybrid method that produced a heavily textured face with traces of handwriting fused to a sleek, digital streamlining. Its contrast axis runs counter to Western calligraphic tradition, making it a self-described 'cyborg typeface' straddling the analogue and the computational. Named after jet-black volcanic glass, it suits display work that needs both tactile richness and graphic edge; distributed by Tunera under SIL OFL."
+  },
+  {
+    "name": "Azeret Mono",
+    "designer": "Roman Gornitsky",
+    "foundry": "Displaay Type Foundry",
+    "url": "https://fonts.google.com/specimen/Azeret+Mono",
+    "description": "Azeret Mono was born from an exploration of OCR fonts, past and futuristic operating systems, and nineties interface aesthetics — the result is a monospaced typeface where circular strokes meet stems without smooth optical correction, giving it a deliberately raw, terminal-screen character. Designed by Roman Gornitsky at Displaay and released in 2021, it features a high x-height, short ascenders and descenders, and a set of alternates that let designers dial between neutral and retro-tech moods. It excels in code interfaces, UI design, and editorial contexts that call for a hint of technological grit."
+  },
+  {
+    "name": "BD Lifeless Grotesk",
+    "designer": "Harry Dinh",
+    "foundry": "Independent",
+    "url": "https://www.behance.net/gallery/147356939/BD-Lifeless-Grotesk",
+    "description": "BD Lifeless Grotesk is a clean, neutral sans-serif typeface by designer Harry Dinh (Duc-Hai Dinh), offering 9 weights from Thin to Black with extensive multilingual support including Vietnamese. Its restrained, utilitarian personality lives in the tradition of the 'invisible' grotesque — designed to get out of the way and let content speak — making it highly functional for UI design, editorial typography, and corporate branding. Free for commercial and personal use with required attribution, downloadable via its Behance project page."
+  },
+  {
+    "name": "BDO Grotesk",
+    "designer": "Deni Anggara",
+    "foundry": "Lokal Container Type",
+    "url": "https://lokalcontainer.com/BDO-Grotesk",
+    "description": "BDO Grotesk is a contemporary neo-grotesque typeface designed by Deni Anggara at Lokal Container Type, drawing on the rational, functional aesthetic of mid-century European graphic design from the 1950s–60s while channeling the creative energy of Bandung, Indonesia's celebrated city of design and innovation. Its seven styles (Light through Black) cover a broad range of typographic applications from body text to strong display use. Available as open source under SIL OFL via GitHub and the Lokal Container website."
+  },
+  {
+    "name": "Bagel Fat One",
+    "designer": "Kyungwon Kim",
+    "foundry": "JAMO",
+    "url": "https://fonts.google.com/specimen/Bagel+Fat+One",
+    "description": "Bagel Fat One is a hyper-rounded, ultra-heavy display typeface by Kyungwon Kim of South Korean foundry JAMO, designed with an aesthetic inspired by the softness and cuteness of bread, pastries, and baked goods. Supporting both Hangul (KS X 1001 and additional characters) and Latin, it is a rare bilingual display face that brings a warm, bubbly personality equally to Korean and Latin text. Released on Google Fonts under the OFL, it is widely used in food and lifestyle branding, packaging, K-culture projects, and any context that wants maximum lovable energy."
+  },
+  {
+    "name": "Baskervville",
+    "designer": "Alexis Faudot, Rémi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlæys & Rosalie Wagner (ANRT students, 2017–18)",
+    "foundry": "ANRT — Atelier national de recherche typographique",
+    "url": "https://github.com/anrt-type/ANRT-Baskervville",
+    "description": "Baskervville is a revival of a revival: a digitisation of the Baskerville interpretation distributed by the Berger-Levrault foundry from 1815, itself derived from John Baskerville's eighteenth-century models. Created by six ANRT students in 2017–18 under the direction of Thomas Huot-Marchand, the project is a scholarly exercise in typographic archaeology — reproducing historical proportions with contemporary precision. Available on Google Fonts under the OFL, it suits literary publishing, academic journals, and any setting that wants classical Baskerville warmth with open-source accessibility."
+  },
+  {
+    "name": "Basteleur",
+    "designer": "Keussel",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=basteleur",
+    "description": "Basteleur takes its name and spirit from the first card of the Tarot de Marseille — the Magician, patron of new beginnings, crafting, and playful uncertainty. The typeface blends medieval blackletter energy with the chunky rounded forms of Cooper Black, producing a two-cut libre family that is equal parts archaic and contemporary. It suits expressive branding, culture posters, record sleeves, and any project that wants typographic charm with a hint of the uncanny."
+  },
+  {
+    "name": "Biceps Grotesk",
+    "designer": "Together With You (Bengt Tibert et al.)",
+    "foundry": "Together With You",
+    "url": "https://biceps.togetherwithyou.co/",
+    "description": "Biceps Grotesk is a 100% free modular display typeface from the creative studio Together With You, where every letterform is constructed entirely from squares and triangles arranged on an 810 × 810 px grid — a system directly inspired by the silhouette of a dumbbell. The result is a bold, geometric grotesque with an abstract, almost pixel-art quality that works powerfully in large display settings, posters, and branding that calls for maximum graphic impact. Freely downloadable from the official microsite and Behance."
+  },
+  {
+    "name": "Block",
+    "designer": "Alexey Atapin",
+    "foundry": "Independent",
+    "url": "https://fontesk.com/block-font/",
+    "description": "Block is an accidental display typeface by Russian type designer Alexey Atapin, described as inspired by the metal-concrete shapes of abandoned Soviet-era industrial buildings. Its bold, architectural letterforms carry a raw, brutalist energy well suited to editorial headlines, poster design, and contemporary branding with an urban edge. The font is free for commercial use, available on Fontesk and via the designer's Gumroad page."
+  },
+  {
+    "name": "Boldonse",
+    "designer": "Ahmad Muzayyin Syarkawi",
+    "foundry": "Universitype",
+    "url": "https://fonts.google.com/specimen/Boldonse",
+    "description": "Boldonse (UT Boldonse) is a bold condensed display sans-serif with distinctive inktrap details that give it a playful, high-energy personality while maintaining structural strength. Designed by Ahmad Muzayyin of Universitype, an Indonesian foundry based in Makassar, the font is purpose-built for headlines, posters, and branding that demands attention. It became available on Google Fonts in 2025 under the SIL Open Font License."
+  },
+  {
+    "name": "Bolgarus",
+    "designer": "Unknown",
+    "foundry": "Independent",
+    "url": "https://fontesk.com/bolgarus-font/",
+    "description": "Bolgarus is a free display typeface whose creator merged futurist aesthetics with deep research into the history and religious heritage of the Bulgar people, resulting in a uniquely cultural letterform vocabulary. The font's striking forms fuse historical symbolism with a forward-looking graphic sensibility, making it suitable for branding, titles, and cultural projects that call for an unconventional typographic voice. It is free for both personal and commercial use under an open license."
+  },
+  {
+    "name": "Boxing",
+    "designer": "Indian Type Foundry",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/boxing",
+    "description": "Boxing is an extended western sans-serif from the Indian Type Foundry (ITF), distributed free via ITF's Fontshare platform. The face draws on the rugged, slab-influenced letterforms of 19th-century extended woodtype and American display advertising, translating that historical energy into a contemporary, versatile family. Like all Fontshare releases it is 100% free for personal and commercial use — making ITF-quality craftsmanship accessible to independent designers worldwide without licensing overhead."
+  },
+  {
+    "name": "Cabinet Grotesk",
+    "designer": "Shiva Nallaperumal",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/cabinet-grotesk",
+    "description": "Cabinet Grotesk is a clean, modern variable sans-serif whose base was designed by Shiva Nallaperumal, then completed and finalized at Indian Type Foundry before being released via Fontshare in 2021. It pairs geometric precision with subtle humanist warmth, delivering a typeface that is simultaneously minimal and approachable — suitable for SaaS product interfaces, editorial design, and contemporary brand identities. Available in eight weights with a variable font file, it has become one of the most-used free grotesks in digital product design."
+  },
+  {
+    "name": "Canarina",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/canarina/",
+    "description": "Canarina is an open-source serif typeface by Ariel Martín Pérez inspired by the visual culture of the Canary Islands — named after the native Canarina canariensis vine, it draws not from the islands' sparse typographic history but from the bold graphic works of Eduardo Millares Sall and César Manrique, whose sculptural shapes find their echo in the font's wide, volcanic angles. The result is a warmly original serif that blends vernacular charm with a sense of molten, island-forged geometry. Released under SIL OFL through Tunera Type Foundry."
+  },
+  {
+    "name": "Carattere",
+    "designer": "Robert E. Leuschke",
+    "foundry": "TypeSETit",
+    "url": "https://fonts.google.com/specimen/Carattere",
+    "description": "Carattere is an elegant italic script typeface by Robert E. Leuschke, a veteran lettering artist and former Hallmark Cards designer with over 250 custom typefaces to his name. It strikes a balance between formal calligraphic tradition and flowing expressiveness — structured enough for wedding stationery and luxury invitations, yet organic enough not to feel mechanical. Licensed under SIL OFL and available on Google Fonts, it is a reliable choice for any project requiring refined handwritten elegance."
+  },
+  {
+    "name": "Chaumont Script",
+    "designer": "Alexandre Bassi (after handwriting by Chantal Jacquet)",
+    "foundry": "ANRT — Atelier national de recherche typographique",
+    "url": "https://anrt-nancy.fr/media/pages/fonts/chaumont-script/7259f0f03f-1678381500/chaumont_script.zip",
+    "description": "Chaumont Script originated in 2016 when graphic designer Timothée Gouraud rediscovered the sign-painted lettering of Chantal Jacquet, a craftsperson active in Chaumont, France in the 1980s. He brought the material to ANRT Nancy, where Alexandre Bassi undertook the complex task of digitising its rhythm and cursivity into a typeface of over 1,500 glyphs with advanced OpenType features. Released in 2021 under an open-source licence, it is a dynamic brush script that bridges vernacular hand-lettering tradition and contemporary display typography."
+  },
+  {
+    "name": "Chillax",
+    "designer": "Manushi Parikh",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/chillax",
+    "description": "Chillax is a geometric variable sans-serif designed between 2019–2021 by Manushi Parikh, drawing on the Bauhaus modernism of Herbert Bayer's 1926 Universal alphabet while adding expressive uppercase forms of Parikh's own invention. Its six-weight family offers a relaxed yet structured personality — precise enough for editorial use, playful enough for branding. With over 440 glyphs per font and OpenType alternates for rounder letterforms, it sits at the intersection of 1920s geometry and contemporary digital type."
+  },
+  {
+    "name": "Comico",
+    "designer": "Frode Helland",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/comico",
+    "description": "Comico is a rounded, friendly display typeface by Norwegian type designer Frode Helland for Indian Type Foundry, evoking the hand-lettered warmth of comic books and casual signage with a considered typographic structure. Originally released via Fontstore in 2017, it is now available free for personal and commercial use through the Fontshare platform. Its playful personality makes it a strong choice for children's media, casual branding, packaging, and any project seeking approachable personality."
+  },
+  {
+    "name": "Commissioner",
+    "designer": "Kostas Bartsokas",
+    "foundry": "Independent",
+    "url": "https://fonts.google.com/specimen/Commissioner",
+    "description": "Commissioner is a variable humanist sans-serif by Greek type designer Kostas Bartsokas, offering three distinct optical styles — grotesque, flair (with terminal swellings), and loud (with wedge serifs) — across a continuous weight axis from Thin to Black with matching italics. Its multilingual support for Latin, Cyrillic, and Greek, combined with its typographic range, makes it exceptionally versatile for branding, editorial, and UI work. Released on Google Fonts under the SIL Open Font License."
+  },
+  {
+    "name": "Compagnon Bold",
+    "designer": "Juliette Duhé, Léa Pradine, Valentin Papon, Chloé Lozano, Sébastien Riollier",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=compagnon",
+    "description": "Compagnon is a five-style family born from EESAB-Rennes' typography studio, each weight drawing from a distinct era of typewriter typeface history to 'underline the evolution of typewriter characters.' The family spans Light, Roman, Italic, Medium (Sébastien Riollier), and a quirky Script (Chloé Lozano), making it a versatile libre companion for editorial, cultural, and screen work. Its typewriter DNA gives it warmth and texture without sacrificing contemporary usability."
+  },
+  {
+    "name": "Cooper",
+    "designer": "Owen Earl",
+    "foundry": "indestructible type*",
+    "url": "https://indestructibletype.com/Cooper/",
+    "description": "Cooper* is a historically accurate open-source revival by Owen Earl of the full Cooper family — originally designed by Oswald Cooper and released by Barnhart Brothers & Spindler in the early 1920s. While Cooper Black became iconic, the lighter non-black weights were largely forgotten; this revival restores them with Art Nouveau–inflected curves, inward-bowing stems, and rounded serifs. It works beautifully for book typography, warm editorial headlines, and display work that calls for organic personality."
+  },
+  {
+    "name": "Cormorant",
+    "designer": "Christian Thalmann",
+    "foundry": "Catharsis Fonts",
+    "url": "https://github.com/CatharsisFonts/Cormorant",
+    "description": "Cormorant is an open-source display serif by Christian Thalmann that distills the spirit of Claude Garamond's sixteenth-century letterforms into a dramatically modern face — featuring razor-sharp serifs, scandalously tight counters, dangerously smooth curves, and extreme stroke contrast pushed far beyond anything metal type could achieve. Released in 2015 and spanning 9 stylistic subfamilies across 5 weights (45 font files total), it is a go-to for luxury fashion, editorial mastheads, and high-end book design where maximum typographic drama is the brief."
+  },
+  {
+    "name": "Cormorant Unicase",
+    "designer": "Christian Thalmann",
+    "foundry": "Catharsis Fonts",
+    "url": "https://fonts.google.com/specimen/Cormorant+Unicase",
+    "description": "Cormorant Unicase is a distinctive variant within Christian Thalmann's Cormorant family in which capital and lowercase letters share a unified height, creating an eerily even typographic texture unlike conventional mixed-case type. It inherits all of Cormorant's extreme contrast and garalde elegance while producing a wholly original rhythm on the page. Ideal for display titles, logotypes, and branding projects that want the refinement of a classical serif with a quietly radical formal experiment."
+  },
+  {
+    "name": "Cossette Texte",
+    "designer": "Cossette (design agency)",
+    "foundry": "Cossette Communication",
+    "url": "https://fonts.google.com/specimen/Cossette+Texte",
+    "description": "Cossette Texte is the wider, reading-optimised sibling of Cossette Titre, developed by the Canadian agency Cossette and published on Google Fonts under the OFL. While sharing the family's grotesque DNA and subtle inverted contrast, Texte's expanded proportions and considered spacing make it comfortable at body and caption sizes across digital and print media. Together with Cossette Titre, it forms a coherent type system for brand identity and editorial work."
+  },
+  {
+    "name": "Cossette Titre",
+    "designer": "Cossette (design agency)",
+    "foundry": "Cossette Communication",
+    "url": "https://fonts.google.com/specimen/Cossette+Titre",
+    "description": "Cossette Titre is a condensed grotesque display typeface developed internally by the Canadian agency Cossette and released to Google Fonts under the OFL. Built on a classic grotesque structure, it introduces a subtle inverted contrast that gives headlines an unexpected freshness — simultaneously utilitarian and distinctive. Designed to pair with Cossette Texte, it is optimised for high-impact titles, advertising, and brand communications where maximum typographic presence is needed in limited space."
+  },
+  {
+    "name": "Crozet",
+    "designer": "Thaïs Cuny",
+    "foundry": "Independent / Bye Bye Binary",
+    "url": "https://github.com/thaiscy/crozet_te",
+    "description": "Crozet·te is an inclusive flowery display typeface by Thaïs Cuny, inspired by the embroidered letterforms of cross-stitch and traditional needlework craft. Designed primarily for titlings and short display text, its organic, decorative forms bridge folk craft heritage and contemporary digital typography. The font is published under the SIL Open Font License and is freely available for commercial use."
+  },
+  {
+    "name": "Crédible",
+    "designer": "JLFC",
+    "foundry": "fonderie.download",
+    "url": "https://fonderie.download/credible.html",
+    "description": "Crédible is a hand-lettered display typeface by JLFC, constructed from glyphs collected from real-world tags and graffiti found in the streets. The single-style font includes three stylistic sets and unusual ligatures, capturing the raw energy and improvised personality of urban lettering. Released under the permissive WTFPL license, it is free to use in any context and brings authentic street-art texture to posters, record covers, and countercultural graphic design."
+  },
+  {
+    "name": "Cy Grotesk Grand Dark",
+    "designer": "Maksym Kobuzan",
+    "foundry": "Kobuzan / Independent",
+    "url": "https://pixelsurplus.com/products/cy-grotesk",
+    "description": "Cy Grotesk is Maksym Kobuzan's synthesis of mid-twentieth-century European neo-grotesque clarity and the expressive tension of nineteenth-century grotesques — distinctive for its long angled spurs, large wedge incisions between bowls and stems, and tight aperture that gives it an eccentric, assertive rhythm. The Grand Dark cut pushes these traits to their display maximum: high impact, zero neutrality. With over 670 glyphs it suits bold branding, editorial titling, and any project that wants a grotesque with genuine personality rather than invisible utility."
+  },
+  {
+    "name": "DINdong",
+    "designer": "Clara Sambot",
+    "foundry": "Independent / Bye Bye Binary",
+    "url": "https://uncut.wtf/sans-serif/dindong/",
+    "description": "DINdong is a reworking of the classic DIN 1451 Breitschrift geometric sans-serif by Clara Sambot, based on Peter Wiegel's digitization of the industrial German standard typeface. The design adds inclusive and non-binary features — expanded glyph sets for writing beyond gendered language — giving a utilitarian modernist workhorse a politically engaged contemporary edge. It is free for personal and commercial projects and available via the Uncut.wtf catalogue."
+  },
+  {
+    "name": "DatDot",
+    "designer": "GGBotNet",
+    "foundry": "GGBotNet",
+    "url": "https://ggbot.itch.io/datdot-font",
+    "description": "DatDot is a dot-matrix style monospaced typeface built on a fixed 3×5-pixel grid, available in Regular, Bold, and Light. Created by GGBotNet and updated through 2024 to cover 470 glyphs and 34 languages, the font channels the aesthetic of retro terminal displays and industrial LED signage. It's an ideal choice for UI design, game interfaces, and editorial projects that want that characteristic dot-matrix texture."
+  },
+  {
+    "name": "Dela Gothic One",
+    "designer": "aratakana (Yosuke Hasegawa)",
+    "foundry": "Self-published",
+    "url": "https://fonts.google.com/specimen/Dela+Gothic+One",
+    "description": "Dela Gothic One is a single-weight ultra-heavy Gothic display typeface by aratakana (Yosuke Hasegawa), designed for maximum visual impact in poster and packaging contexts where flat, stable black letterforms are needed. The face supports Japanese (JIS 3 Kanji), Cyrillic, Greek, and Latin, making it a powerful choice for multilingual headline work that carries a consistent muscular presence across scripts. Available on Google Fonts under the OFL since 2020, it has become a go-to for bold Japanese-influenced graphic design and streetwear-adjacent branding worldwide."
+  },
+  {
+    "name": "Departure Mono",
+    "designer": "Helena Zhang",
+    "foundry": "Helena Zhang",
+    "url": "https://github.com/rektdeckard/departure-mono",
+    "description": "Departure Mono is a pixel-perfect monospaced typeface by Helena Zhang, drawing direct inspiration from the bitmap fonts and command-line interfaces of the late 1990s and early 2000s, as well as sci-fi UI aesthetics from film and television. Set at increments of 11px for pixel-perfect rendering, it captures the essence of early computing culture for use in modern digital design. Available free on GitHub and at departuremono.com under the SIL Open Font License."
+  },
+  {
+    "name": "Director",
+    "designer": "May Jolivet & Justine Herbel (reviving Ange Degheest)",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/fonts/degheest/",
+    "description": "Director was originally created by Ange Degheest for the Swiss typewriter manufacturer Hermes-Paillard in 1958, designed to reflect the company's 'prestige and authority' rather than the utilitarian aesthetic typical of typewriter type of the era. Students May Jolivet and Justine Herbel digitally revived it as part of EESAB's Reviving Ange Degheest project, restoring its elegant marked contrast and soft serifs. The revival is distributed freely by Velvetyne and bridges mid-century modernist type design with contemporary libre publishing."
+  },
+  {
+    "name": "Elevatia",
+    "designer": "GGBotNet",
+    "foundry": "GGBotNet",
+    "url": "https://ggbot.itch.io/elevatia-font",
+    "description": "Elevatia is a clean, modern sans-serif typeface released in 2024 by prolific independent designer GGBotNet, who has produced over 150 free fonts since 2019. Available in two styles and licensed under SIL OFL, it was originally published on itch.io and distributed across major font platforms including DaFont and FontSpace. Its approachable geometric forms make it suitable for UI design, branding, and any project requiring a professional yet accessible display typeface."
+  },
+  {
+    "name": "Excessive Extra Condensed",
+    "designer": "Clara Dousson",
+    "foundry": "X Cicéro / ÉSAD Grenoble Valence",
+    "url": "https://xcicero.esad-gv.net/page/excessive/index.php",
+    "description": "Excessive is an extra-condensed display typeface by Clara Dousson, produced through the X Cicéro type design workshop at ÉSAD Grenoble Valence from a character in the Jacoby & Fils woodtype collection. Its tightly compressed proportions give it a high-impact presence in poster and headline work, while the woodtype origins lend it a tactile, material quality. Released in May 2023, it is free under the SIL Open Font License."
+  },
+  {
+    "name": "FA-1",
+    "designer": "Sora Sagano",
+    "foundry": "Sora Sagano",
+    "url": "https://fontesk.com/fa-1-font/",
+    "description": "FA-1 is a retro-futuristic display typeface by Japanese designer Sora Sagano, constructed entirely from horizontal, vertical, and 45° lines — a skeleton that evokes early bitmap and grid-based lettering while rounded corners prevent it from feeling purely mechanical. The result is a bold sci-fi aesthetic that works for headers, titles, and graphic design projects with a technological or speculative theme. FA-1 is free for commercial use under the SIL Open Font License."
+  },
+  {
+    "name": "Fat Porn Font XXL",
+    "designer": "Nastia Piven",
+    "foundry": "Here East Fonts",
+    "url": "https://fontsinuse.com/type_designers/6742/nastia-piven",
+    "description": "Fat Porn Font is a personal project by Amsterdam-based Ukrainian type designer Nastia Piven of Here East Fonts, created explicitly to please friends, support merch production, and embody 'love, black humor & sarcastic attitude.' Its ultra-heavy display letterforms make it a bold vehicle for counter-cultural, queer, and irreverent creative projects. The XXL variant pushes the weight and presence even further, and the typeface has appeared in the Norwegian art and fashion publication Gummistrikk."
+  },
+  {
+    "name": "Format",
+    "designer": "Nathan Laurent",
+    "foundry": "Nathan Laurent",
+    "url": "https://github.com/NathanLaurent/Format",
+    "description": "Format is a geometric variable sans-serif typeface by Nathan Laurent, born in Brussels in June 2020 and distributed as an open-source project on GitHub. Exploring the intersection of legibility and strict geometry, it presents a clean, architectural structure that works across text and display scales. Free to use commercially, Format appeals to graphic designers and developers seeking a principled geometric sans with the flexibility of a variable weight axis."
+  },
+  {
+    "name": "Format 1452",
+    "designer": "Frank Adebiaye",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=format-1452",
+    "description": "Format 1452 is a modular geometric sans-serif by Frank Adebiaye, with additional contributions from Anton Moglia, designed as a DIN-like system built from pure modules with no optical corrections. The name alludes to 1452 — the year of Gutenberg's printing press — and the font was updated in 2019 with a subtitle referencing sanitary crises and security responses, giving it a politically charged conceptual layer. Clean, condensed, and systematic, it is effective for institutional signage, political graphics, and design work that values formal rigor."
+  },
+  {
+    "name": "Frankinity",
+    "designer": "DIANA N",
+    "foundry": "Independent",
+    "url": "https://fontstorage.com/font/diana-n/frankinity",
+    "description": "Frankinity is a serif display typeface designed by DIANA N that blends modern elegance with classical charm, offering a refined personality suited to fashion, editorial, luxury branding, and sophisticated identity work. Released as a free font for personal and commercial use, it has gained wide distribution across font platforms including CDNFonts, BeFonts, and Fontstorage. Its clean serif construction and confident proportions position it as an accessible alternative to premium editorial typefaces."
+  },
+  {
+    "name": "Freeman",
+    "designer": "Rodrigo Fuenzalida",
+    "foundry": "Independent",
+    "url": "https://fonts.google.com/specimen/Freeman",
+    "description": "Freeman is a bold sans-serif gothic display typeface that reimagines Vernon Adams's François One, developed by Rodrigo Fuenzalida and Aoife Mooney with expanded counters, slanted stem terminals for visual rhythm, and refined stems optimized for large-size digital rendering. The result is an industrial-meets-humanist face with enough personality for posters and enough restraint for web headlines. Available as a single Regular weight on Google Fonts, it supports Latin, Latin Extended, and Vietnamese scripts."
+  },
+  {
+    "name": "Funnel Sans",
+    "designer": "Kristian Möller",
+    "foundry": "Dicotype",
+    "url": "https://fonts.google.com/specimen/Funnel+Sans",
+    "description": "Funnel Sans is a functional neo-grotesque variable typeface by Kristian Möller, developed by Dicotype in collaboration with NORD ID Stockholm for the Funnel marketing and data platform, then open-sourced on Google Fonts. Shaped by the visual language of data visualization — movements and forms of data points — it pairs a sturdy, versatile Sans with a more eccentric Display sibling across 15 weights and styles. Released under SIL OFL, it is freely available on Google Fonts and the Dicotype GitHub repository."
+  },
+  {
+    "name": "Galgo Condensed",
+    "designer": "Giulia Boggio",
+    "foundry": "Independent",
+    "url": "https://uncut.wtf/display/galgo/",
+    "description": "Galgo Condensed is a narrow, neutral geometric sans-serif by Italian type and graphic designer Giulia Boggio, inspired by Rajesh Rajput's Morganite and released as a free open-source display typeface. Its tight proportions and clean geometry make it a versatile workhorse for space-constrained headlines, fashion editorial, and data-dense layouts where condensed type needs to carry weight without friction. Available in a variable font version through UNCUT.wtf under SIL OFL."
+  },
+  {
+    "name": "Gap Sans",
+    "designer": "Alexandre Liziard & Étienne Ozeray",
+    "foundry": "interstices.io",
+    "url": "https://github.com/Interstices-/GapSans",
+    "description": "Gap Sans is a fork of GrandChaos9000's Sani Trixie Sans, redesigned by Alexandre Liziard and Étienne Ozeray for the open-source type catalogue interstices.io — itself Ozeray's diploma project at ENSAD Paris. Its three variants carry a deliberately wonky, curveless grotesque character with damaged, anti-smooth edges that position it firmly in a tradition of experimental libre typography. Available under the SIL OFL, it is well suited to underground publishing, alternative editorial design, and any project that pushes back against typographic polish."
+  },
+  {
+    "name": "Geist",
+    "designer": "Andrés Briganti, Mateo Zaragoza",
+    "foundry": "Basement Studio / Vercel",
+    "url": "https://github.com/vercel/geist-font",
+    "description": "Geist is a bespoke sans-serif commissioned by Vercel and designed by Basement Studio, built around the principles of Swiss design — simplicity, minimalism, and speed. Featuring a high x-height, short descenders, and angular terminals, it was crafted to feel at home in both coding environments and polished UI work. Released in 2023 as open-source under SIL OFL, it supports 368 languages across 9 weights and includes a companion monospaced variant."
+  },
+  {
+    "name": "Geist Mono",
+    "designer": "Andrés Briganti, Mateo Zaragoza",
+    "foundry": "Basement Studio / Vercel",
+    "url": "https://github.com/vercel/geist-font",
+    "description": "Geist Mono is the monospaced companion to Geist Sans, sharing the same design DNA — Swiss-influenced minimalism, high x-height, and angular terminals — while optimised for code display and terminal environments. Developed by Basement Studio for Vercel, it ships in the same repository as Geist Sans and is distributed free under the SIL Open Font License. The typeface is designed to reduce visual fatigue during extended coding sessions while maintaining a distinctly modern personality."
+  },
+  {
+    "name": "General Sans",
+    "designer": "Frode Helland",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/general-sans",
+    "description": "General Sans is a rationalist neo-grotesque sans-serif designed by Norwegian type designer Frode Helland for Indian Type Foundry, drawing on the clean aesthetic vocabulary of 1950s French typography. Released via Fontshare as a free commercial font, it balances geometric structure with subtle humanist touches that keep it approachable across editorial, branding, and UI contexts. Its 10-style family with variable support makes it one of the most versatile free grotesques available today."
+  },
+  {
+    "name": "Granturismo",
+    "designer": "Nathan Laurent",
+    "foundry": "Nathan Laurent",
+    "url": "https://uncut.wtf/display/granturismo/",
+    "description": "Granturismo is a variable display typeface by Brussels-based designer Nathan Laurent, inspired by the aesthetics of speed, sound, and motorsport culture. The family features unique variable reverse contrast — where stroke weight relationships invert across the weight axis — making it a striking tool for loud posters, music releases, sports branding, and bold editorial headlines. Available in 7 cuts including variable and free under the SIL Open Font License via UNCUT.wtf."
+  },
+  {
+    "name": "Handjet",
+    "designer": "David Březina",
+    "foundry": "Rosetta Type Foundry",
+    "url": "https://github.com/rosettatype/handjet",
+    "description": "Handjet is an element-based variable font conceived by David Březina of Rosetta Type while teaching a type design workshop in 2018, inspired by handheld label-maker printers. Every glyph is built from a grid of identical modular elements; the font ships with 23 swappable element shapes — circles, triangles, hearts, stars — controlled by dedicated variable axes alongside the standard weight axis. Google sponsored its open-sourcing in 2019, and the font supports Arabic, Armenian, Cyrillic, Greek, Hebrew, Latin, and Korean, making it one of the most script-diverse and conceptually rich free variable fonts available."
+  },
+  {
+    "name": "Havana",
+    "designer": "Joanna Angulska",
+    "foundry": "Warsaw Types / MiastoDwa",
+    "url": "https://github.com/warszawskie-kroje/havana",
+    "description": "Havana was created by Joanna Angulska as part of Warsaw Types, a 2016 collective project in which 12 Polish designers made 12 typefaces inspired by Warsaw's pre-1989 urban lettering heritage — neon signs, hand-painted storefronts, and transitional-era graphics. Named after a café that once stood in Warsaw, the font lifts specific letterforms directly from surviving signs, preserving their distinctive warmth and idiosyncrasy. It is free under the SIL Open Font License on GitHub."
+  },
+  {
+    "name": "Hedvig Letters Sans",
+    "designer": "Alexander Örn & Tor Weibull",
+    "foundry": "Kanon Foundry",
+    "url": "https://fonts.google.com/specimen/Hedvig+Letters+Sans",
+    "description": "Hedvig Letters Sans is the workhorse companion to Hedvig Letters Serif, created by Kanon Foundry for Swedish insurtech company Hedvig in collaboration with its in-house design team, embodying the same brand philosophy of embracing human imperfections rather than optically correcting them. The sans functions as the high-frequency utility face of the Hedvig visual system, readable at small sizes and screen-optimized, while its intentional quirks — slightly non-standard stroke relationships and terminal angles — prevent it from dissolving into generic grotesque anonymity. Free on Google Fonts and GitHub under SIL OFL."
+  },
+  {
+    "name": "Hedvig Letters Serif",
+    "designer": "Alexander Örn & Tor Weibull",
+    "foundry": "Kanon Foundry",
+    "url": "https://fonts.google.com/specimen/Hedvig+Letters+Serif",
+    "description": "Hedvig Letters Serif was commissioned by Swedish insurance company Hedvig and designed by Kanon Foundry — the Malmö-based studio founded in 2019 by Alexander Örn and Tor Weibull — with a mandate to embrace imperfection rather than correct it. Rather than applying standard optical corrections that fool the eye into perceiving balance, the designers left deliberate irregularities visible: E and F have equal-length horizontals, G and f carry forward-pushed terminals that create subtle unbalance. The result is a serif that feels distinctly human, ideal for brands that communicate honesty and warmth; available on Google Fonts under SIL OFL."
+  },
+  {
+    "name": "Host Grotesk",
+    "designer": "Doğukan Karapınar",
+    "foundry": "Element Type",
+    "url": "https://github.com/Element-Type/HostGrotesk",
+    "description": "Host Grotesk is a uniwidth sans-serif designed specifically for modern user interfaces, where consistent letter spacing across all weights prevents layout shifts during dynamic typographic transitions. Designed by Doğukan Karapınar of Element Type (studios spanning Istanbul, Amiens, and Toronto) and based on the proportions of Jonny Pinhorn's Poppins, it was released in 2023. The typeface is available on Google Fonts and Adobe Fonts under an open-source license."
+  },
+  {
+    "name": "Hubot Sans",
+    "designer": "GitHub & Degarism",
+    "foundry": "GitHub",
+    "url": "https://github.com/github/hubot-sans",
+    "description": "Hubot Sans is GitHub's variable display companion to Mona Sans, created in collaboration with the type studio Degarism. Where Mona Sans is a versatile grotesque for body and UI, Hubot Sans leans into more geometric, idiosyncratic accents to project a technical and robotic character — ideal for headers, data dashboards, and pull-quotes. Released under the OFL, it ships as a fully variable font with axes for weight (100–900), width, and slant."
+  },
+  {
+    "name": "Insolente",
+    "designer": "Bye Bye Binary Collective",
+    "foundry": "Typothèque Bye Bye Binary",
+    "url": "https://typotheque.genderfluid.space/fr/fontes/insolent-e",
+    "description": "Insolente is a sharp, cutting display typeface published by the Bye Bye Binary Typothèque, a post-binary type collective based in France and Belgium. Its letterforms are drawn from calligraphy after Gothic Bastarde, giving it a medieval edge that is reframed through a queer-feminist, decolonial, intersectional lens. The font includes inclusive glyphs that allow expression outside binary language constraints, and is freely downloadable under Bye Bye Binary's Engaging Typographic Conditions of Use (CUTE)."
+  },
+  {
+    "name": "Instrument Sans",
+    "designer": "Rodrigo Fuenzalida",
+    "foundry": "Instrument (creative agency)",
+    "url": "https://fonts.google.com/specimen/Instrument+Sans",
+    "description": "Instrument Sans is a neo-grotesque variable sans-serif commissioned by Portland creative agency Instrument and designed by Chilean type designer Rodrigo Fuenzalida with direction from Jordan Egstad and the Google Fonts team. It balances typographic precision with subtle playfulness, offered in a variable font with weight and width axes plus twelve stylistic sets for alternate glyphs. Released openly on Google Fonts in 2023 and now served millions of times globally, it has become a go-to for product interfaces and digital brand identities that want a contemporary grotesque with genuine craft behind it."
+  },
+  {
+    "name": "IntraNet",
+    "designer": "João Serafim",
+    "foundry": "Self-published",
+    "url": "https://serafimjg.gumroad.com/",
+    "description": "IntraNet by Portuguese designer João Serafim channels the Y2K internet aesthetic through a display typeface that fuses pixelated construction with soft, dynamic curves — 'an aesthetic that is both digital and fluid.' Inspired by retro-futuristic interfaces and the visuals of early 2000s computer systems, it balances graphic originality with an almost glitchy charm that resonates strongly in contemporary tech branding, editorial, and digital-native creative work. It is available on a pay-what-you-like basis directly from the designer."
+  },
+  {
+    "name": "Isenheim",
+    "designer": "Benoît 'Sans Terre' Ferran",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/isenheim/",
+    "description": "Isenheim began as a revival of a typeface discovered in a mid-twentieth-century Payot Lausanne monograph on Matthias Grünewald's Isenheim Altarpiece, but under Benoît 'Sans Terre' Ferran's hand it grew into an independent serif family that feels as if the altarpiece itself slowly merged with the type. It carries strong medieval DNA — Lombardic influences, a wealth of alternates and ligatures, and MUFI rarities — while remaining fully functional as a display family for contemporary editorial and publishing projects. Source available on GitLab; distributed by Tunera under SIL OFL."
+  },
+  {
+    "name": "Jakob",
+    "designer": "Alan Madić",
+    "foundry": "X Cicéro / ÉSAD Grenoble Valence",
+    "url": "https://xcicero.esad-gv.net/page/jakob/index.php",
+    "description": "Jakob is a condensed geometric sans-serif designed by Alan Madić through the X Cicéro type workshop at ÉSAD Grenoble Valence, reviving and reinterpreting letterforms from Jakob Erbar's early 1920s Erbar-Grotesk — one of the first geometric sans-serifs, predating Futura — as interpreted in a Morel woodtype version from around 1970. The typeface sits at an intersection of industrial precision and pre-war geometric idealism, well-suited to display and headline use. It is free under SIL OFL at the X Cicéro website."
+  },
+  {
+    "name": "Jaro",
+    "designer": "Agyei Archer, Celine Hurka, Mirko Velimirović",
+    "foundry": "Independent",
+    "url": "https://fonts.google.com/specimen/Jaro",
+    "description": "Jaro is a variable display typeface by Agyei Archer, Celine Hurka, and Mirko Velimirović, conceived as a revival inspired by the linocut lettering of Czech graphic artist Jaroslav Benda (1882–1970). Its optical-size axis allows the typeface to shift between compact display and finer text settings, with heavy geometric lines and block-like forms that carry Benda's bold printmaking sensibility into the digital era. Available on Google Fonts under SIL OFL, it suits poster typography, cultural-institution branding, and display contexts calling for artisanal weight with global language support."
+  },
+  {
+    "name": "JetBrains Mono",
+    "designer": "Philipp Nurullin, Konstantin Bulenkov",
+    "foundry": "JetBrains",
+    "url": "https://github.com/JetBrains/JetBrainsMono",
+    "description": "JetBrains Mono is a free, open-source monospaced typeface created specifically for developers, with a design philosophy centred on reducing eye strain during long coding sessions. Designed by Philipp Nurullin and Konstantin Bulenkov at JetBrains, it features increased letter height, a large x-height, and carefully crafted ligatures for common code constructs. Available in 8 weights with matching italics under SIL OFL, it is also distributed through Google Fonts."
+  },
+  {
+    "name": "Jost",
+    "designer": "Owen Earl",
+    "foundry": "indestructible type*",
+    "url": "https://github.com/indestructible-type/Jost",
+    "description": "Jost is a geometric sans-serif typeface by Owen Earl of indestructible type*, originally released in 2017 under the name Renner* as an homage to Paul Renner's 1920s German modernist designs. It was renamed Jost* in honour of Heinrich Jost, the typographer instrumental in realising Renner's vision. Available in 9 weights as a fully variable font under the SIL OFL (with static cuts free and the variable version pay-what-you-can), Jost is widely used for clean, versatile branding, interfaces, and editorial work that wants Futura's spirit without the licensing overhead."
+  },
+  {
+    "name": "Knack",
+    "designer": "Ian Tuomi (i-tu) / Nerd Fonts project",
+    "foundry": "Independent / Nerd Fonts",
+    "url": "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack",
+    "description": "Knack is the Nerd Fonts–patched version of the Hack monospace typeface, developed with contributions by Ian Tuomi, augmented with over 3,600 developer-targeted glyphs from iconic sets including Font Awesome, Devicons, and Octicons. Hack itself was designed for source code readability with strong character differentiation and a crisp bitmap-influenced aesthetic. Knack is the go-to choice for developers using terminal emulators and code editors who want both legibility and a rich set of programming symbols."
+  },
+  {
+    "name": "Kobata",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/kobata/",
+    "description": "Kobata is a rigorously rule-bound experimental typeface by Ariel Martín Pérez built on just two shapes — rectangles and circles — where rectangles may only meet at corners, never sides, creating a grid-locked modular rhythm that reads simultaneously as calligraphic, embroidered, and glitch-digital. The vertical-stroke repetition produces a visual interference pattern reminiscent of a corrupted bitmap, while the circular elements land on the page like raindrops on a still pond. Available in Regular and Bold (with a variable version) under SIL OFL through Tunera."
+  },
+  {
+    "name": "Kulturë",
+    "designer": "Leonit Gashi",
+    "foundry": "Kulturë Type",
+    "url": "https://uncut.wtf/display/kulture-type/",
+    "description": "Kulturë is the namesake typeface of Leonit Gashi's mini type foundry Kulturë Type, designed by the Prishtina-based graphic and type designer behind Gin Büro. A titling sans-serif with a retrofuture block style, it draws inspiration from street signs, shop fronts, poster design, and album cover artwork — the everyday vernacular typography of city life distilled into a bold, idiosyncratic display face. Free for commercial and personal use, it is a strong choice for music releases, editorial titles, and brand identities that want an urban, slightly chaotic energy."
+  },
+  {
+    "name": "LCT Iptex",
+    "designer": "Deni Anggara",
+    "foundry": "Lokal Container Type",
+    "url": "https://github.com/LCTipografi/LCT-Iptex",
+    "description": "LCT Iptex is a futuristic monospace typeface from Indonesia's Lokal Container Type, inspired by the modular, grid-based design philosophy of Wim Crouwel and the precision of early digital interfaces. Its geometric, module-driven letterforms give it a distinctive tech-forward personality suited to coding environments, UI design, and forward-thinking brand identities. The font is open source under OFL and available through Lokal Container's GitHub and official website."
+  },
+  {
+    "name": "LCT Mogi A",
+    "designer": "Deni Anggara",
+    "foundry": "Lokal Container Type",
+    "url": "https://github.com/LCTipografi/LCT-Mogi",
+    "description": "LCT Mogi is a super-fat variable display typeface from Indonesia's Lokal Container Type, designed by Deni Anggara with round, exuberant letterforms that project warmth, playfulness, and bold confidence. Its four styles — including a variable axis — give it flexibility across posters, branding, digital interfaces, and social-media-first design where oversized type commands attention. Available free as open source under SIL OFL through the official GitHub repository and Lokal Container's website."
+  },
+  {
+    "name": "LT Crewmate",
+    "designer": "Dan Lyons",
+    "foundry": "LyonsType",
+    "url": "https://www.dafont.com/lyonstype.d8711",
+    "description": "LT Crewmate is an open-source typeface from Dan Lyons of LyonsType, inspired by the chunky wordmark lettering of the viral online game Among Us — most visibly in a distinctive letter A. Originally conceived as a wordmark font, it was expanded and released publicly so graphic designers and game-adjacent creators could bring its playful, spacefaring personality to posters, logos, and digital projects. Released under an open-source licence, it bridges gaming culture and everyday display typography."
+  },
+  {
+    "name": "LT Museum",
+    "designer": "Dan Lyons",
+    "foundry": "LyonsType",
+    "url": "https://www.dafont.com/lt-museum.font",
+    "description": "LT Museum is a nostalgic flare serif typeface by Dan Lyons of LyonsType, built on the foundations of the classic AIB face but refined and extended with broader Latin coverage. Its graceful bracketed serifs and considered proportions evoke the institutional gravitas of museum placards, heritage catalogues, and cultural publishing. Available in seven styles under the SIL OFL, it is a versatile free serif that brings historical warmth to editorial, branding, and wayfinding projects."
+  },
+  {
+    "name": "Libertinus Sans",
+    "designer": "Khaled Hosny (fork), Caleb Maclennan (maintainer); based on Linux Biolinum by Philipp H. Poll",
+    "foundry": "Libertinus Fonts project",
+    "url": "https://github.com/alerque/libertinus",
+    "description": "Libertinus Sans is the sans companion within the Libertinus font family, a meticulously corrected fork of Linux Biolinum originally created by Philipp H. Poll. Khaled Hosny began the Libertinus project in 2012 to fix extensive bugs in the Libertine family and add an OpenType math companion, handing maintenance to Caleb Maclennan in 2020. Available in Regular, Bold, Italic, and Keyboard variants under the OFL, it is a go-to humanist sans for academic documents, LaTeX typesetting, and open-source publishing that needs quality without cost."
+  },
+  {
+    "name": "Louise",
+    "designer": "Luna Delabre & Camille Depalle",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/degheest/louise.html",
+    "description": "Louise is a libre typeface designed by Luna Delabre and Camille Depalle as part of the Reviving Ange Degheest project at EESAB (École Européenne Supérieure d'Art de Bretagne), a speculative revival based on work attributed to a fictional 1972 Mecanorma release. Drawing inspiration from 17th-century calligrapher Louis Barbedor and engraver Robert Cordier, it features elegant cursive strokes and a refined historical sensibility. Available freely through Velvetyne, it suits book design, cultural institutions, and editorial projects with a French typographic heritage."
+  },
+  {
+    "name": "Micro Grotesk",
+    "designer": "Eli Heuer",
+    "foundry": "Independent / self-published",
+    "url": "https://uncut.wtf/sans-serif/micro-grotesk/",
+    "description": "Micro Grotesk is an experimental variable sans-serif by Eli Heuer, engineered as a 256-UPM typeface with the goal of achieving the smallest possible file size while retaining a clean, classic grotesque aesthetic. Released as an open-source work in progress on GitHub, it comes in 9 cuts including variable and is free for commercial use. It appeals to performance-conscious web designers and typophiles interested in the technical boundaries of type design."
+  },
+  {
+    "name": "Milkman",
+    "designer": "Giulia Boggio & Martin Desinde",
+    "foundry": "Independent / Velvetyne",
+    "url": "https://uncut.wtf/sans-serif/milkman/",
+    "description": "Milkman is an unlikely collaboration typeface born from the literal merging of two existing open-source fonts: the sans-serif Fabio XM by Giulia Boggio and the blackletter Blocus from Velvetyne, designed by Martin Desinde. The result is a hybrid display face that pairs uppercase grotesque caps with selected blackletter glyphs, producing a sharp, editorial tension that is part modernist, part underground zine. With its limited character set and SIL OFL license, it is made for typographic artworks, posters, and any visual context that wants to play the odd couple."
+  },
+  {
+    "name": "Mona Sans",
+    "designer": "Deni Anggara (Degarism Studio)",
+    "foundry": "GitHub / Degarism",
+    "url": "https://github.com/github/mona-sans",
+    "description": "Mona Sans is GitHub's bespoke brand typeface, designed in collaboration with Degarism Studio and inspired by the strong, geometric language of industrial-era grotesques. As a variable font it offers granular control over weight, width, and slant in a single file, which GitHub deploys across its products, marketing, and developer communications. Released in 2022 under SIL OFL, it is free to download from GitHub and Fontsource."
+  },
+  {
+    "name": "Montagu Slab",
+    "designer": "Florian Karsten",
+    "foundry": "Florian Karsten Typefaces / Google Fonts",
+    "url": "https://fonts.google.com/specimen/Montagu+Slab",
+    "description": "Montagu Slab is a high-contrast slab-serif display typeface by Florian Karsten, released via Google Fonts in 2022 as a variable font with both weight and optical-size axes. Inspired by 19th-century classical designs, the optical-size axis shifts the font from a low-contrast, generous text face to a tight, dramatic display variant with prominent upturned tails — all within a single font file. It supports Latin, Vietnamese, and broad European language coverage, making it ideal for contemporary editorial, cultural, and high-impact branding projects."
+  },
+  {
+    "name": "N27",
+    "designer": "Ismael González",
+    "foundry": "atipo",
+    "url": "https://www.atipofoundry.com/fonts/n27",
+    "description": "N27 is an avant-grotesque sans-serif from atipo, the independent Spanish foundry based in Gijón, designed by co-founder Ismael González. The typeface combines a forward-looking geometry with a deliberately neutral tone, making it equally at home in headlines, body copy, and branding systems — a versatility backed by 12 weights with matching italics. The Regular and Italic styles are available as free downloads from atipo's website, with the full family on a pay-what-you-want model."
+  },
+  {
+    "name": "New Century Schoolbook (C059)",
+    "designer": "Morris Fuller Benton (original); URW revival",
+    "foundry": "URW Type Foundry",
+    "url": "https://github.com/TimothyGu/Century-Schoolbook-L",
+    "description": "New Century Schoolbook, distributed by URW as C059, is a transitional serif rooted in Morris Fuller Benton's 1919 Century Schoolbook design for American Type Founders — a face crafted for maximum legibility in educational materials. URW's revival digitised and extended the family with regular, bold, italic, and bold italic weights supporting Latin, Cyrillic, and Greek scripts. The URW core fonts are distributed under open licences including SIL OFL and are widely available across font repositories."
+  },
+  {
+    "name": "Nouvelle Grotesquerie",
+    "designer": "Guillaume Lelong",
+    "foundry": "X Cicéro / ÉSAD Grenoble Valence",
+    "url": "https://xcicero.esad-gv.net/page/nouvellegrotesquerie/index.php",
+    "description": "Nouvelle Grotesquerie is a display sans-serif designed by Guillaume Lelong through the X Cicéro workshop at ÉSAD Grenoble Valence, reviving a character from the Georges Morel foundry — the last French wood type manufacturer, based in Grenoble. The font carries the confident, slightly condensed weight of early twentieth-century commercial grotesques and works best in bold display and headline contexts. It was released in May 2023 under the SIL Open Font License."
+  },
+  {
+    "name": "Nudles",
+    "designer": "Anne-Dauphine Borione",
+    "foundry": "Typothèque Bye Bye Binary",
+    "url": "https://typotheque.genderfluid.space/fr/fontes/nudles",
+    "description": "Nudles is a delicate, airy typeface created by Anne-Dauphine Borione (also known as Daytona Mess) in collaboration with Max Lillo, published through the Bye Bye Binary Typothèque. Available in Hairline, Thin, Regular, and Bold weights, its ethereal, noodle-like strokes give it a whimsical lightness that has attracted wide attention in editorial and fashion contexts. The font is released under Bye Bye Binary's open CUTE license, making it freely downloadable for aligned use."
+  },
+  {
+    "name": "Nyght Serif",
+    "designer": "Maksym Kobuzan",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/nyght-serif/",
+    "description": "Nyght Serif is a contemporary display serif by Maksym Kobuzan that began as a study of William Caslon's letterforms and evolved into something with genuine bite: blade-like serifs, spurs, and a contrast between smooth and sharp curves that earned it a Typographic Excellence Certificate at TDC69. Available in four weights with both Latin and Ukrainian Cyrillic support, it is equally at home in magazine display, cultural-institution branding, and any context demanding high-contrast elegance with a dark, contemporary edge."
+  },
+  {
+    "name": "Néo-castel",
+    "designer": "Max Lillo",
+    "foundry": "Independent",
+    "url": "https://maxlilllo.gumroad.com/l/neo-castel",
+    "description": "Néo-castel is an experimental display typeface by Paris-based designer Max Lillo that fuses the ornate intricacy of Gothic blackletter with the bright, digital energy of Y2K-era type. Deliberately left as an unfinished artifact — released with source files so others can continue or fork it — it occupies an audacious space between medieval tradition and millennial maximalism. Best used for bold headlines, poster titles, and any project that needs typographic contrast and unapologetic edge."
+  },
+  {
+    "name": "Oi",
+    "designer": "Kostas Bartsokas",
+    "foundry": "Self-published (Google Fonts)",
+    "url": "https://fonts.google.com/specimen/Oi",
+    "description": "Oi is a free-spirited ultra-fat display serif by Kostas Bartsokas, rooted in the grotesque slab tradition that emerged with Caslon's Ionic (1844) and the Clarendon of Fann Street Foundry (1845). Its swollen strokes, ink-trap counters, and almost nautical curves give it a three-dimensional, Victorian-fairground energy that demands attention. A winner of the TDC Award of Excellence in Type Design (2018), Oi is perfect for poster headlines, packaging, and any project that needs typographic swagger at large sizes."
+  },
+  {
+    "name": "Open Sauce Sans",
+    "designer": "Alfredo Marco Pradil",
+    "foundry": "Creative Sauce",
+    "url": "https://github.com/marcologous/Open-Sauce-Fonts",
+    "description": "Open Sauce Sans was developed as the internal corporate typeface for Creative Sauce before being released as a free open-source font family. Designed by Alfredo Marco Pradil, it is a compact sans-serif optimised for legibility at small sizes on screen and in print, coming in 7 weights from Light to Black with corresponding italics. The full Open Sauce family — including One and Two variants — is available on GitHub under the SIL Open Font License."
+  },
+  {
+    "name": "Ortica Linear",
+    "designer": "Benedetta Bovani",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/ortica",
+    "description": "Ortica Linear is a calligraphic serif typeface by Benedetta Bovani, first published through the Italian open-source collective Collletttivo in 2019 as Ortica Light and later expanded to three weights. The family's concept explores a spectrum of curvature — the Linear weights feature smooth, flowing curves while the Angular cuts are constructed entirely from straight segments, giving designers a flexible range of moods within one family. It suits editorial design, book covers, and branding that pairs warmth with structure."
+  },
+  {
+    "name": "Oswald",
+    "designer": "Vernon Adams",
+    "foundry": "Vernon Adams / Google Fonts",
+    "url": "https://fonts.google.com/specimen/Oswald",
+    "description": "Oswald is a condensed sans-serif designed by Vernon Adams as a web-optimized reworking of the classic Alternate Gothic style, released on Google Fonts in 2012. Its tight, vertical proportions and full range from Light to Bold make it a versatile workhorse for web headlines, news sites, and strong graphic layouts. One of the most widely used Google Fonts worldwide, Oswald achieves the industrial character of early 20th-century American grotesques with improved screen rendering."
+  },
+  {
+    "name": "Outfit",
+    "designer": "Rodrigo Fuenzalida",
+    "foundry": "fragTYPE",
+    "url": "https://fonts.google.com/specimen/Outfit",
+    "description": "Outfit is a geometric sans-serif commissioned by the company Outfit.io and designed by independent type designer Rodrigo Fuenzalida of fragTYPE. With 9 weights from Thin to Black, its clean proportions and neutral personality make it highly versatile for branding, web interfaces, and product design. It was released on Google Fonts in late 2021 under the SIL Open Font License."
+  },
+  {
+    "name": "Outward",
+    "designer": "Raoul Audouin",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=outward",
+    "description": "Outward was designed with a single radical goal: eliminate white space entirely from letterforms to achieve the maximum possible black type colour, inverting the typographer's usual pursuit of ideal grey. The family comes in three cuts — Block, Round, and Borders — each exploring different ways to densify the page. A condensed, geometric, brutalist display face with Cyrillic support, it is built for adventure documentation, experimental publishing, and any setting that demands total visual impact."
+  },
+  {
+    "name": "Overused Grotesk",
+    "designer": "RandomMaerks (Bao Nguyen)",
+    "foundry": "RandomMaerks",
+    "url": "https://github.com/RandomMaerks/Overused-Grotesk",
+    "description": "Overused Grotesk is a variable neo-grotesque sans-serif that leans into the oversaturation of Helvetica-adjacent type in contemporary design, turning ubiquity into a deliberate aesthetic statement. Developed from 2023 by Vietnamese designer Bao Nguyen (RandomMaerks), it ships in 16 cuts including a variable font, and covers a wide Latin character set. The typeface is free, open-source, and hosted on GitHub under the SIL Open Font License."
+  },
+  {
+    "name": "P95-CYR",
+    "designer": "Unknown",
+    "foundry": "Independent",
+    "url": "https://fontesk.com/p95-cyr-font/",
+    "description": "P95-CYR is a condensed, high-contrast pixel display typeface built on a strict modular grid, with tightly packed narrow letterforms that produce a sharp, aggressive visual presence. The high ratio between thick and thin strokes gives it a dynamic quality ideal for game graphics, edgy posters, digital art, and branding that needs a raw technological edge. It supports Cyrillic alongside Latin and is freely available under SIL OFL for personal and commercial use."
+  },
+  {
+    "name": "Pencerio Hairline",
+    "designer": "Manushi Parikh",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/pencerio",
+    "description": "Pencerio is a refined script typeface designed by Manushi Parikh for Indian Type Foundry, with the Hairline cut being its most delicate and striking expression — 674 glyphs rendered at near-invisible stroke weights for maximum elegance. Described as a contemporary take on formal calligraphy, it excels on calling cards, wedding invitations, certificates, and any luxury or ceremonial application. Available free via Fontshare under the ITF license for commercial and personal use."
+  },
+  {
+    "name": "Phosphène Font",
+    "designer": "Jeanne Saliou",
+    "foundry": "Independent / ANRT",
+    "url": "https://uncut.wtf/display/phosphene/",
+    "description": "Phosphène is a display typeface by Jeanne Saliou, a Breton graphic designer and typographer who studied at EESAB-Lorient and the École des Arts Décoratifs de Paris before participating in the Atelier National de Recherche Typographique (ANRT) at ENSAD Nancy. Her typographic practice explores the relationships between letterforms and their geographical and cultural origins, and Phosphène reflects that research-driven approach — a distinctive display face rooted in observation and formal experimentation. Available free for personal and commercial use via UNCUT.wtf."
+  },
+  {
+    "name": "PicNic",
+    "designer": "Mariel Nils",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/fonts/picnic/",
+    "description": "PicNic is an organic, sensory display typeface by Mariel Nils, co-released between Velvetyne Type Foundry and NoFoundry (the student-led foundry of HfG Karlsruhe). Its letterforms are inspired by the trajectory of water on oilcloth, leaf shadows on picnic blankets, and the precise path of an ant — translating the tactile experience of an outdoor gathering into type. A rich cloud of contextual ligatures, including inclusive midpoint substitutions, makes it as technically interesting as it is visually playful."
+  },
+  {
+    "name": "Pilowlava",
+    "designer": "Anton Moglia & Jérémy Landes",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=pilowlava",
+    "description": "Named after the natural phenomenon of pillow lava — rounded formations that emerge when molten rock meets water — Pilowlava balances the viscous energy of calligraphic and graffiti traditions with the controlled geometry of Swiss designer Armin Hofmann's research. The result is a display typeface that 'recalls cooled lava flows drawn with a compass,' producing an intentionally fluctuating typographic colour across Latin and Cyrillic scripts. It was a Typographica Favourite Typeface of 2019 and found further commercial life as a custom variant for a French climbing gym."
+  },
+  {
+    "name": "Piscolabis",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/piscolabis/",
+    "description": "Piscolabis is a bold, condensed display typeface by Ariel Martín Pérez inspired by hand-painted shop signs found across Europe — it began as a sans-serif spin-off of his earlier Picaflor and carries forward that font's organic, hand-crafted warmth in a tighter, more impactful form. The name refers to a light Spanish snack, hinting at the font's casual confidence: it has exactly the right amount of personality for readable, characterful headlines without tipping into novelty. Released under SIL OFL through Tunera Type Foundry."
+  },
+  {
+    "name": "Playpen Sans",
+    "designer": "Veronika Burian, Laura Meseguer & José Scaglione",
+    "foundry": "TypeTogether / Google Fonts",
+    "url": "https://fonts.google.com/specimen/Playpen+Sans",
+    "description": "Playpen Sans is a casual handwriting typeface designed by Veronika Burian, Laura Meseguer, and José Scaglione at TypeTogether, funded and released through Google Fonts in 2023. Backed by more than two years of research into handwriting education across Latin-based languages, each character features seven drawn variants with a built-in shuffler so no shape repeats in close proximity, producing spontaneous, organic text. It is ideal for children's books, greeting cards, educational materials, comics, and any informal context where the handmade feel of the writing matters as much as legibility."
+  },
+  {
+    "name": "Plus Jakarta Sans",
+    "designer": "Gumpita Rahayu",
+    "foundry": "Tokotype",
+    "url": "https://github.com/tokotype/PlusJakartaSans",
+    "description": "Plus Jakarta Sans is a clean geometric sans-serif designed by Gumpita Rahayu of Tokotype for Jakarta's 2020 'City of Collaboration' programme, celebrating the Indonesian capital's identity through contemporary type. The family offers a fresh take on classic geometric proportions with modern refinements, making it equally useful for civic signage, UI work, and editorial design. It is published on Google Fonts and GitHub under the SIL Open Font License."
+  },
+  {
+    "name": "Projekt Blackbird",
+    "designer": "Leonit Gashi",
+    "foundry": "Gin Büro / Independent",
+    "url": "https://uncut.wtf/sans-serif/project-blackbird/",
+    "description": "Projekt Blackbird is a humanist sans-serif originally created by Leonit Gashi as a custom typeface for Blackbird Marketing, a creative agency in Kosovo, and later released as a free open-source font. It blends a modern geometric structure with an organic, slightly hand-drawn warmth that keeps it approachable across headlines, web design, and poster work. Free for personal and commercial use under SIL OFL, it is a versatile everyday grotesque with quiet character from Gashi's Prishtina-based studio Gin Büro."
+  },
+  {
+    "name": "RT Obligat",
+    "designer": "Timo Durst & Max Weinland",
+    "foundry": "Riesling Type",
+    "url": "https://www.rieslingtype.com/",
+    "description": "RT Obligat is a display typeface from Riesling Type, the Hamburg-based type and graphic design studio founded by Timo Durst and Max Weinland. The foundry focuses on contemporary typefaces with strong graphic character, and RT Obligat reflects their precise, design-led approach to lettering. It is available directly through the Riesling Type website and has been featured across editorial and cultural identity projects."
+  },
+  {
+    "name": "Ranade",
+    "designer": "Easha Ranade",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/ranade",
+    "description": "Ranade is a high-contrast sans-serif by Easha Ranade originally released as Syphon by Indian Type Foundry in 2020 before being renamed and moved to Fontshare in 2021. Its key innovation is preserving thin diagonal strokes — borrowed from classical serif construction — even in the lightest weights, giving it a refined tension rarely seen in sans-serif families. Available in five weights with italics across ten styles, it features a tall x-height and is designed for branding and corporate design work that demands both visual sophistication and workhorse reliability."
+  },
+  {
+    "name": "Ranga",
+    "designer": "TipTopTyp",
+    "foundry": "TipTopTyp",
+    "url": "https://fonts.google.com/specimen/Ranga",
+    "description": "Ranga is a playful brush-script typeface by TipTopTyp, a Berlin-based type foundry, available on Google Fonts in Regular and Bold weights. Its informal, slightly inclined strokes and lively energy draw from vernacular lettering traditions, giving it a distinctive handmade character with global editorial appeal. The font supports Latin characters and is free under the SIL Open Font License, well-suited for packaging, poster design, and branding that calls for spontaneous warmth."
+  },
+  {
+    "name": "Redaction",
+    "designer": "Jeremy Mickel",
+    "foundry": "MCKL",
+    "url": "https://www.redaction.us/",
+    "description": "Redaction is a free display typeface designed by Jeremy Mickel of MCKL, originally commissioned for Titus Kaphar and Reginald Dwayne Betts' exhibition at MoMA PS1 exploring the injustices of the US cash bail system. Drawing on legal typography traditions — Times New Roman and Century Schoolbook — the family includes 21 fonts across three styles and seven grades of progressive bitmap degradation, referencing the deterioration of documents in the criminal justice system. It is a powerful tool for editorial, socially engaged design, and any project where typographic concept is inseparable from meaning."
+  },
+  {
+    "name": "Reglo",
+    "designer": "Sebastien Sanfilippo",
+    "foundry": "Open Source Publishing (OSP)",
+    "url": "https://github.com/sebsan/Reglo",
+    "description": "Reglo is a bold geometric sans-serif designed by Sebastien Sanfilippo in autumn 2009 as the identity typeface for Radio Panik, a Belgian community radio station, in collaboration with Open Source Publishing. Its tight, sturdy construction is described as 'so tough you can seriously mistreat it,' making it ideal for strong editorial headlines, posters, and identity systems that demand visual punch."
+  },
+  {
+    "name": "Roberte",
+    "designer": "Eugénie Bidaut",
+    "foundry": "Bye Bye Binary Typothèque",
+    "url": "https://uncut.wtf/display/roberte/",
+    "description": "Roberte is a stroke-based italic typeface by Eugénie Bidaut that exists exclusively as an italic — conceived as an independent, stand-alone script rather than a companion to a roman. Its flowing forms draw inspiration from the Renaissance italics of Robert Granjon, filtered through a feminist, post-binary sensibility that makes it equally at home in cultural publishing and experimental graphic design. Published by the Bye Bye Binary Typothèque under an open license and distributed via Uncut.wtf."
+  },
+  {
+    "name": "Ronzino",
+    "designer": "Luigi Gorlero, Nunzio Mazzaferro",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/ronzino",
+    "description": "Ronzino is a free display typeface by Luigi Gorlero and Nunzio Mazzaferro, released through Collletttivo — the independent Italian type collective known for carefully crafted open-source fonts. The family offers three weights (Regular, Medium, Bold) each with oblique companions, balancing a confident editorial voice with structural clarity. It is free to download directly from the Collletttivo website under the SIL Open Font License."
+  },
+  {
+    "name": "Saint",
+    "designer": "Liza Dushnota",
+    "foundry": "Independent",
+    "url": "https://uncut.wtf/display/saint/",
+    "description": "Saint is a free display typeface by Liza Dushnota that draws on Gothic architectural ornament — stained-glass windows, buttresses, pinnacles — and fuses it with the high contrast and closed aperture of transitional serifs like Baskerville, filtered through a punk, experimental sensibility. Its glyphs span three visual registers: classic Gothic, ribbon-like forms, and wild botanical motifs, giving a single font family remarkable expressive range. Best deployed in music and cultural-industry contexts, editorial covers, and anywhere that Gothic drama needs a contemporary rebellious edge."
+  },
+  {
+    "name": "Satoshi",
+    "designer": "Deni Anggara",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/satoshi",
+    "description": "Satoshi is a modernist sans-serif by Indonesian designer Deni Anggara, published through Indian Type Foundry's free Fontshare platform. It blends stamp-inspired grotesk forms with geometric character shapes — a deliberately crafted tension that gives Satoshi its sharp, contemporary edge. The font includes 10 directional-arrow glyphs, ligatures, and alternate characters, and is freely available via Fontshare."
+  },
+  {
+    "name": "Schibsted Grotesk",
+    "designer": "Henrik Kongsvoll",
+    "foundry": "Bakken & Bæck for Schibsted ASA",
+    "url": "https://github.com/schibsted/schibsted-grotesk",
+    "description": "Schibsted Grotesk is a digital-first type family created by Bakken & Bæck (led by Henrik Kongsvoll) as the bespoke brand typeface for Schibsted, the Scandinavian media group. Its design draws on the formal traditions of Schibsted's printed newspaper heritage while prioritising pixel-level legibility for contemporary screen environments. Released on GitHub and Google Fonts under the SIL Open Font License, it covers the full Underware Latin Plus character set."
+  },
+  {
+    "name": "Shantell Sans",
+    "designer": "Shantell Martin & Stephen Nixon",
+    "foundry": "Arrow Type",
+    "url": "https://fonts.google.com/specimen/Shantell+Sans",
+    "description": "Shantell Sans is a marker-style variable typeface created by visual artist Shantell Martin in collaboration with type designer Stephen Nixon of Arrow Type, available on Google Fonts since 2023. Based on Martin's felt-marker handwriting and artistic philosophy, the font features five variable axes — Weight, Italic, Informality, and Bounce — spanning styles from a friendly, readable everyday face to high-energy, expressive styles designed for animation. It is a rare example of an artist's personal mark successfully translated into a full professional type system, ideal for creative expression, animation, educational design, and brand identity."
+  },
+  {
+    "name": "Sharpie Variable",
+    "designer": "Théo Guillard",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/sharpie",
+    "description": "Sharpie is an informal marker-inspired script family designed by Théo Guillard for Indian Type Foundry, named after the iconic dual-tipped felt pen and styled to look as though its angular, non-connecting letterforms were dashed off quickly with a flat brush. The family spans five weights from Light to Black, each with strong stroke contrast and a distinctly sign-painterly energy suited to packaging, display headlines, and editorial accents. Available free for commercial use via Fontshare."
+  },
+  {
+    "name": "Sinistre",
+    "designer": "Jules Durand",
+    "foundry": "Collletttivo",
+    "url": "https://www.collletttivo.it/typefaces/sinistre",
+    "description": "Sinistre is a historical revival typeface designed by Jules Durand for Collletttivo, blending Uncial minuscule letterforms with Roman proportions and Fraktur influences. Inspired by the Insular Script of the Book of Kells and Gaelic stone carvings, it carries a rich sense of Celtic calligraphic heritage into a contemporary open-source font. It is well-suited for medieval-inspired editorial projects, book covers, cultural identity, and any work seeking authentic historical texture."
+  },
+  {
+    "name": "Sligoil Micro",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=sligoil",
+    "description": "Sligoil was commissioned by game studio Meaning Machine Games for the interface of the indie title Unknown Number, with the name belonging to a fictional evil oil company in the game. Ariel Martín Pérez drew inspiration from British design traditions — including Matthew Carter's work and Irish whiskey distillery signage — as well as vintage MIT Space Cadet keyboard legends. The Micro weight is optimised for small-screen legibility down to 10–12 px, and stylistic alternates unlock upright italic shapes for additional personality."
+  },
+  {
+    "name": "Sober",
+    "designer": "Rajesh Rajput",
+    "foundry": "Rajesh Rajput",
+    "url": "https://rajputrajesh-448.gumroad.com/l/Sober9",
+    "description": "Sober is a robust slab-serif display typeface by Indian type designer Rajesh Rajput, available in nine weights with support for Latin and Cyrillic scripts, including a variable font version. Despite the name, the design delivers bold visual impact — its structured slab serifs and confident proportions make it well-suited for headlines, titles, logos, and brand identities that need to make an impression. The variable font axis allows fine-tuning across weights for responsive typographic systems."
+  },
+  {
+    "name": "Space Grotesk",
+    "designer": "Florian Karsten",
+    "foundry": "Florian Karsten Typefaces",
+    "url": "https://github.com/floriankarsten/space-grotesk",
+    "description": "Space Grotesk is a proportional sans-serif evolved from Colophon Foundry's fixed-width Space Mono, reinterpreted by Florian Karsten in 2018 to work across a wider range of design contexts. The typeface retains Space Mono's distinctive quirks — such as its slightly mechanical character — while gaining the versatility of a proportional spacing system. Available on GitHub and Google Fonts, it supports Latin, Vietnamese, and multiple European languages under SIL OFL."
+  },
+  {
+    "name": "Space Mono",
+    "designer": "Colophon Foundry (Anthony Sheret, Edd Harrington, Benjamin Critton)",
+    "foundry": "Colophon Foundry",
+    "url": "https://fonts.google.com/specimen/Space+Mono",
+    "description": "Space Mono is an original fixed-width typeface family commissioned by Google Design and created by Colophon Foundry — the London/Los Angeles studio founded by Benjamin Critton, Edd Harrington, and Anthony Sheret. Designed for editorial headlines and display use, it infuses geometric grotesque DNA with the retrofuturist character of 1960s titling faces like Microgramma and Eurostile, then pushes that into a distinctly contemporary coding aesthetic. Released under SIL OFL on Google Fonts, it has become one of the most-used monospaced typefaces for developer tools and tech branding."
+  },
+  {
+    "name": "Sprat",
+    "designer": "Ethan Nakache",
+    "foundry": "Independent",
+    "url": "https://ethannakache.com/sprat/",
+    "description": "Sprat is an expressive variable display serif by Ethan Nakache, available in 18 cuts spanning a two-axis variable font (weight × width) that ranges from condensed thin to extended black. Designed as a full display family with a dramatic range of expression, it is ideal for editorial headlines, posters, and branding work that demands typographic personality. The font is freely available for personal and commercial use via the designer's website, Font Squirrel, and GitHub."
+  },
+  {
+    "name": "Srisakdi",
+    "designer": "Cadson Demak",
+    "foundry": "Cadson Demak",
+    "url": "https://fonts.google.com/specimen/Srisakdi",
+    "description": "Srisakdi is a Thai and Latin display typeface designed by Cadson Demak, the Bangkok-based type foundry known for their work on Thai script typography. Inspired by the controlled handwriting style of Thailand's Rattanakosin period — using western ink and paper — it merges historical calligraphic tradition with a modern, legible structure. Available on Google Fonts in Regular and Bold, it is particularly suited for editorial projects with a retrospective or cultural Thai sensibility."
+  },
+  {
+    "name": "Standard",
+    "designer": "Bryce Wilner",
+    "foundry": "Independent / self-published",
+    "url": "https://github.com/brycewilner/Standard",
+    "description": "Standard by Bryce Wilner is a translation and modification of Berthold's classic Akzidenz-Grotesk (historically also known as Standard), reimagined and released under the SIL Open Font License in 2017. The four-style family — Book and Bold with matching italics — preserves the warm, slightly humanist quality of the early grotesque tradition with extensive multilingual support. It suits minimalist graphic design, editorial systems, and web typography where understated European modernism is the aesthetic goal."
+  },
+  {
+    "name": "Supreme",
+    "designer": "Ilya Naumoff, Jérémie Hornus",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/supreme",
+    "description": "Supreme is a constructed-style sans-serif whose monolinear strokes and straight-sided letters recall the engineering lettering standards favoured for over a century of industrial and technical drawing. Originally released as Screen Sans by Indian Type Foundry in 2016, it was renamed Supreme and brought to Fontshare in 2021. The family spans 14 members from Extralight to Extrabold and is free via Fontshare."
+  },
+  {
+    "name": "Switzer",
+    "designer": "Jérémie Hornus",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/switzer",
+    "description": "Switzer is a neo-grotesque sans-serif by Jérémie Hornus, originally published as Volkart with Indian Type Foundry in 2015 before being renamed and released for free on Fontshare in 2021. Inspired by the clean, functional aesthetics of 1980s and 1990s magazine advertising, it feels classic without being derivative and pairs well with display and body-text applications alike. The family ships in 18 styles including italics and is free to download via ITF's Fontshare platform."
+  },
+  {
+    "name": "TASA Explorer",
+    "designer": "Weizhong Zhang",
+    "foundry": "Local Remote",
+    "url": "https://github.com/localremotetw/TASA-Typeface-Collection",
+    "description": "TASA Explorer is a geometric display sans-serif designed by Weizhong Zhang for Local Remote as part of the comprehensive 2022–2023 rebrand of Taiwan Space Agency (TASA) — channeling the spirit of space exploration through Futura-inspired geometry, vertically cut terminals, sharp-angled corners, and an extremely large x-height optimized for high-impact performance at display sizes. Available in five weights (including a variable font), it was updated in 2025 for improved drawing precision and released open-source on GitHub under SIL OFL, making it the rare institutional custom typeface that the public can freely use."
+  },
+  {
+    "name": "Tanklager Kompakt",
+    "designer": "Ariel Martín Pérez",
+    "foundry": "Tunera Type Foundry",
+    "url": "https://www.tunera.xyz/fonts/tanklager/",
+    "description": "Tanklager Kompakt is a condensed companion to Ariel Martín Pérez's Tanklager family, released through his Paris-based Tunera Type Foundry and distributed under the SIL Open Font License. It combines a tight, space-saving structure with enough personality to carry headlines and editorial titles without fading into anonymity. Available as a variable font, it suits demanding layouts where column width is at a premium but visual character still matters."
+  },
+  {
+    "name": "Terminal Grotesque",
+    "designer": "Raphaël Bastide",
+    "foundry": "Velvetyne Type Foundry",
+    "url": "https://velvetyne.fr/download/?font=terminal-grotesque",
+    "description": "Terminal Grotesque began as a side project in December 2010 when Raphaël Bastide was building a game, evolving from a pixel font called Modulicon with inspiration from Paul Renner's Futura and Radim Peško's grotesques. It sits at the intersection of pixel and organic type — 'enhanced enough to be organic while staying punk and technical.' Available in Regular and Open styles, it is a libre workhorse well suited to digital interfaces, zines, and expressive editorial work."
+  },
+  {
+    "name": "Thestral Neue",
+    "designer": "Pauline Maréchal",
+    "foundry": "X Cicéro / ÉSAD Grenoble Valence",
+    "url": "https://xcicero.esad-gv.net/page/thestral/index.php",
+    "description": "Thestral Neue is a revival typeface designed by Pauline Maréchal at the X Cicéro workshop within ÉSAD Grenoble Valence, based on a display character from the historic Jacoby & Fils woodtype collection. Maréchal's redesign refines the source material for digital use while retaining the bold, slightly archaic charm of letterpress-era wood type. Released in April 2024, it is free for commercial and personal use under the SIL Open Font License."
+  },
+  {
+    "name": "Thunder",
+    "designer": "Rajesh Rajput",
+    "foundry": "Self-published",
+    "url": "https://rajputrajesh-448.gumroad.com/l/thundertypeface9",
+    "description": "Thunder is a highly condensed sans-serif display typeface by Indian designer Rajesh Rajput, offering 36 styles (18 weights plus italics) and a fully variable font file — a remarkable scope for a free release. Its sharp edges, strong contrast, and extreme compression make it a natural choice for high-impact headlines, sports and entertainment branding, editorial openers, and contemporary poster design. Published via Gumroad in 2021, it is free for personal and commercial use."
+  },
+  {
+    "name": "TikTok Sans",
+    "designer": "Grilli Type & Contrast Foundry",
+    "foundry": "Grilli Type, Contrast Foundry & Type Network",
+    "url": "https://fonts.google.com/specimen/TikTok+Sans",
+    "description": "TikTok Sans is a variable sans-serif typeface originally designed as TikTok's custom brand typeface by Grilli Type and Contrast Foundry, expanded into an open-source release via Type Network and published on Google Fonts in 2025. The font supports 460+ languages across Latin, Greek, and Cyrillic scripts, with variable axes for Weight, Width, Slant, and Optical Size, optimized for mobile UI and creator-facing captions. Free under the SIL Open Font License, it is an ideal choice for digital product design, social media content, and multilingual interfaces."
+  },
+  {
+    "name": "Tillana",
+    "designer": "Lipi Raval & Jonny Pinhorn",
+    "foundry": "Indian Type Foundry",
+    "url": "https://fonts.google.com/specimen/Tillana",
+    "description": "Tillana is a refreshingly informal Devanagari and Latin typeface designed by Lipi Raval and Jonny Pinhorn, first published by the Indian Type Foundry as an open-source project in 2014. The Devanagari component is one of the few truly cursive designs for the script, with letterforms slanted at 10 degrees as if written swiftly by hand, while the Latin companion maintains the same casual, fluid rhythm. Available in five weights on Google Fonts, Tillana is ideal for editorial design, children's media, and any project serving Hindi, Marathi, Nepali, or other Devanagari-language audiences."
+  },
+  {
+    "name": "Times Newer Roman",
+    "designer": "MSCHF Internet Studios",
+    "foundry": "MSCHF Internet Studios",
+    "url": "https://timesnewerroman.com/",
+    "description": "Times Newer Roman is a 2018 conceptual typeface by the art collective MSCHF, built by subtly widening each character of the open-source Nimbus Roman No.9 L by 5–10% to make academic papers appear longer without detection. Lowercase x-heights are raised, punctuation enlarged, and word spacing increased — all while maintaining visual near-indistinguishability from Times New Roman at a glance. Beyond its viral appeal as a student hack, it stands as a witty piece of design critique about institutional typographic norms."
+  },
+  {
+    "name": "Ultra",
+    "designer": "Astigmatic (AOETI)",
+    "foundry": "Astigmatic (AOETI)",
+    "url": "https://fonts.google.com/specimen/Ultra",
+    "description": "Ultra is an ultra-bold slab-serif from the independent digital foundry Astigmatic (AOETI), inspired by the wood-type styles of Clarendon and Egyptian letterforms, with additional debt to the all-caps lettering of Hungarian Deco poster artist Robert Berény. Its grid-based, geometric construction produces letterforms that remain highly readable at display sizes while projecting maximum authority. Available on Google Fonts since 2011 under the Apache 2.0 licence, it is widely used for bold editorial, packaging, and entertainment design."
+  },
+  {
+    "name": "Uncut Sans",
+    "designer": "Kasper Nordkvist",
+    "foundry": "Uncut Type",
+    "url": "https://uncut.wtf/sans-serif/uncut-sans/",
+    "description": "Uncut Sans is a slightly quirky sans-serif designed by Danish designer Kasper Nordkvist as the house typeface for the Uncut.wtf free font catalogue, started in 2019 and released in 2022. Created with deliberate informality — intentionally without deep research into historical precedents — it carries a fresh, unpretentious personality that works well for digital interfaces, branding, and experimental layouts. Available in 12 cuts including a variable font, free for commercial use under OFL."
+  },
+  {
+    "name": "Vampiro One",
+    "designer": "Riccardo De Franceschi",
+    "foundry": "Sorkin Type Co.",
+    "url": "https://fonts.google.com/specimen/Vampiro+One",
+    "description": "Vampiro One is a low-contrast monoline script typeface designed by Riccardo De Franceschi and published by Eben Sorkin's Sorkin Type Co., inspired by the 20th-century Italian tradition of expressive monoline scripts. With its fluid, brushlike letterforms and sincere personality, it excels as a display face at medium to large sizes for entertainment, fashion, and cultural branding. Available on Google Fonts under the SIL Open Font License, it brings warmth and flair without the visual complexity of high-contrast scripts."
+  },
+  {
+    "name": "Zodiak",
+    "designer": "Jérémie Hornus, Gaëtan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Théo Guillard",
+    "foundry": "Indian Type Foundry",
+    "url": "https://www.fontshare.com/fonts/zodiak",
+    "description": "Zodiak is a refined serif family originally launched as Claire with Indian Type Foundry in 2020, then renamed and made freely available through Fontshare in 2021. Designed by a Paris-based team, it offers 12 styles from Thin to Black in both static and variable formats, balancing text-setting clarity at regular weights with expressive display potential at the extremes. It is free to download via Fontshare."
+  },
+  {
+    "name": "enjoy please 3",
+    "designer": "mozkito leee",
+    "foundry": "Self-published",
+    "url": "https://font.download/font/enjoy-please-3",
+    "description": "Enjoy Please 3 is a mellow, softly geometric sans-serif typeface by Taiwanese designer and illustrator mozkito leee, featuring a consistent 12° inclination that makes letterforms feel light and dynamic without crossing into full italic territory. It is designed to bring visual balance and quiet friendliness to layouts — a tonal antidote to aggressive display faces. Free for personal and commercial use, it suits product packaging, lifestyle branding, social media graphics, and any design context that calls for approachable but considered typography."
+  }
+]

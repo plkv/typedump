@@ -3,7 +3,7 @@ import { kv } from '@vercel/kv'
 import { fontStorageClean } from '@/lib/font-storage-clean'
 import { toTitleCase } from '@/lib/category-utils'
 
-type Coll = 'Text'|'Display'|'Weirdo'
+type Coll = 'Text'|'Display'|'Brutal'
 const keyOf = (type: 'appearance'|'category', collection: Coll) => `tags:vocab:${type}:${collection}`
 
 export async function POST(req: NextRequest) {
@@ -13,8 +13,8 @@ export async function POST(req: NextRequest) {
     const fonts = await fontStorageClean.getAllFonts()
 
     const used: Record<'appearance'|'category', Record<Coll, Set<string>>> = {
-      appearance: { Text: new Set(), Display: new Set(), Weirdo: new Set() },
-      category: { Text: new Set(), Display: new Set(), Weirdo: new Set() },
+      appearance: { Text: new Set(), Display: new Set(), Brutal: new Set() },
+      category: { Text: new Set(), Display: new Set(), Brutal: new Set() },
     }
     for (const f of fonts as any[]) {
       const coll: Coll = (f.collection as Coll) || 'Text'
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
 
     const result: any = { success: true, updated: [] as any[] }
     for (const type of ['appearance','category'] as const) {
-      for (const coll of ['Text','Display','Weirdo'] as Coll[]) {
+      for (const coll of ['Text','Display','Brutal'] as Coll[]) {
         const key = keyOf(type, coll)
         const curr = (await kv.get<string[]>(key)) || []
         const currSet = new Set(curr)

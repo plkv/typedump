@@ -21,7 +21,7 @@ export function buildFontCSS(families: FontFamily[]): string {
       // Direct blob source for base alias
       chunks.push(FontVariantUtils.toCSSFontFace(v, familyName))
       // Per-variant alias allows selecting a specific file even when weight/style collide
-      const variantAlias = `${familyName}__v_${shortHash(v.id).slice(0,6)}`
+      const variantAlias = `${familyName}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0,6)}`
       chunks.push(FontVariantUtils.toCSSFontFace(v, variantAlias))
     }
   }

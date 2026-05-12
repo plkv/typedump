@@ -19,7 +19,7 @@ type CleanFont = {
   version?: string
   license?: string
   uploadedAt?: string
-  collection?: 'Text' | 'Display' | 'Weirdo'
+  collection?: 'Text' | 'Display' | 'Brutal'
   styleTags?: string[]
   languages?: string[]
   category?: string[]
@@ -31,7 +31,7 @@ type Family = {
   fonts: CleanFont[]
   stylesCount: number
   uploadedAt: string
-  collection: 'Text' | 'Display' | 'Weirdo'
+  collection: 'Text' | 'Display' | 'Brutal'
   styleTags: string[]
   languages: string[]
   category: string[]
@@ -43,14 +43,14 @@ export default function AdminManager() {
   const [loading, setLoading] = useState(false)
   const [fonts, setFonts] = useState<CleanFont[]>([])
   const [query, setQuery] = useState('')
-  const [collectionFilter, setCollectionFilter] = useState<'all' | 'Text' | 'Display' | 'Weirdo'>('all')
+  const [collectionFilter, setCollectionFilter] = useState<'all' | 'Text' | 'Display' | 'Brutal'>('all')
   const [categoryFilter, setCategoryFilter] = useState<string>('all')
   const [sortBy, setSortBy] = useState<'date' | 'alpha'>('date')
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [editing, setEditing] = useState<Record<string, { collection: Family['collection']; styleTags: string[]; languages: string[]; category?: string[] }>>({})
   const [uploading, setUploading] = useState(false)
   const [uploadFamily, setUploadFamily] = useState('')
-  const [uploadCollection, setUploadCollection] = useState<'Text'|'Display'|'Weirdo'>('Text')
+  const [uploadCollection, setUploadCollection] = useState<'Text'|'Display'|'Brutal'>('Text')
   const [dragOver, setDragOver] = useState(false)
   const [pendingFiles, setPendingFiles] = useState<File[]>([])
   const [manageTagsOpen, setManageTagsOpen] = useState(false)
@@ -140,8 +140,8 @@ export default function AdminManager() {
         const [app, cat] = await Promise.all([
           loadOne('appearance'), loadOne('category')
         ])
-        setAppearanceVocab({ Text: app, Display: app, Weirdo: app })
-        setCategoryVocab({ Text: cat, Display: cat, Weirdo: cat })
+        setAppearanceVocab({ Text: app, Display: app, Brutal: app })
+        setCategoryVocab({ Text: cat, Display: cat, Brutal: cat })
       } catch {}
     }
     loadKV()
@@ -171,8 +171,8 @@ export default function AdminManager() {
   }, [manageTagsOpen, manageType])
 
   // Vocabularies persisted in KV; fallback to dataset on first load
-  const [appearanceVocab, setAppearanceVocab] = useState<Record<'Text'|'Display'|'Weirdo', string[]>>({ Text: [], Display: [], Weirdo: [] })
-  const [categoryVocab, setCategoryVocab] = useState<Record<'Text'|'Display'|'Weirdo', string[]>>({ Text: [], Display: [], Weirdo: [] })
+  const [appearanceVocab, setAppearanceVocab] = useState<Record<'Text'|'Display'|'Brutal', string[]>>({ Text: [], Display: [], Brutal: [] })
+  const [categoryVocab, setCategoryVocab] = useState<Record<'Text'|'Display'|'Brutal', string[]>>({ Text: [], Display: [], Brutal: [] })
 
   useEffect(()=>{
     const fetchVocab = async () => {
@@ -193,12 +193,12 @@ export default function AdminManager() {
       setAppearanceVocab({
         Text: appList,
         Display: appList,
-        Weirdo: appList,
+        Brutal: appList,
       })
       setCategoryVocab({
         Text: catList,
         Display: catList,
-        Weirdo: catList,
+        Brutal: catList,
       })
     }
     fetchVocab()
@@ -385,7 +385,7 @@ export default function AdminManager() {
             <option value="all">All</option>
             <option value="Text">Text</option>
             <option value="Display">Display</option>
-            <option value="Weirdo">Weirdo</option>
+            <option value="Brutal">Brutal</option>
           </select>
           <select className="btn-md" value={sortBy} onChange={e => setSortBy(e.target.value as any)}>
             <option value="date">Date</option>
@@ -526,8 +526,8 @@ export default function AdminManager() {
                   const res = await fetch(`/api/tags/vocab?type=${manageType}`, { cache:'no-store' })
                   const data = await res.json()
                   const list = Array.isArray(data.list) ? data.list : []
-                  if (manageType==='appearance') setAppearanceVocab({ Text: list, Display: list, Weirdo: list })
-                  else setCategoryVocab({ Text: list, Display: list, Weirdo: list })
+                  if (manageType==='appearance') setAppearanceVocab({ Text: list, Display: list, Brutal: list })
+                  else setCategoryVocab({ Text: list, Display: list, Brutal: list })
                   // Update global order used by catalog pages without full reload
                   if (typeof window !== 'undefined') {
                     if (manageType === 'appearance') {
@@ -567,7 +567,7 @@ export default function AdminManager() {
             <select className="btn-md" value={uploadCollection} onChange={e=> setUploadCollection(e.target.value as any)}>
               <option>Text</option>
               <option>Display</option>
-              <option>Weirdo</option>
+              <option>Brutal</option>
             </select>
             <label className="btn-md cursor-pointer">
               <input type="file" multiple accept=".ttf,.otf,.woff,.woff2" onChange={onUpload} style={{ display: 'none' }} />
@@ -689,7 +689,7 @@ export default function AdminManager() {
                   {/* Collection row */}
                   <div className="flex gap-2 flex-wrap items-center">
                     <div className="text-sidebar-title" style={{ color: 'var(--gray-cont-tert)' }}>Collection</div>
-                    {(['Text','Display','Weirdo'] as const).map(c => (
+                    {(['Text','Display','Brutal'] as const).map(c => (
                       <button key={c} className={`btn-sm ${ (editing[fam.name]?.collection ?? fam.collection) === c ? 'active' : '' }`} onClick={()=>{
                         if (!editing[fam.name]) startEdit(fam)
                         setEditing(p=>({ ...p, [fam.name]: { ...(p[fam.name]||{ collection: fam.collection, styleTags: fam.styleTags, languages: fam.languages }), collection: c }}))

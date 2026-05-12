@@ -1,4 +1,4 @@
-export type Collection = 'Text' | 'Display' | 'Weirdo'
+export type Collection = 'Text' | 'Display' | 'Brutal'
 
 const canonicalMap: Record<string, string> = {
   // Core
@@ -17,7 +17,7 @@ const canonicalMap: Record<string, string> = {
   'stencil': 'Stencil',
   'pixel': 'Pixel',
   'vintage': 'Vintage',
-  // Weirdo-ish
+  // Brutal-ish
   'experimental': 'Experimental',
   'symbol': 'Symbol',
   'bitmap': 'Bitmap',

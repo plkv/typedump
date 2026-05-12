@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import { staticDb } from '@/lib/static-db'
 import { slugMatchesFamily } from '@/lib/font-slug'
+import { buildFontFaceCSS } from '@/lib/font-face-css'
 import { FontDetail } from './FontDetail'
 
 interface Props {
@@ -26,5 +27,12 @@ export default async function FontPage({ params }: Props) {
   const { slug } = await params
   const family = staticDb.getAllFamilies().find(f => slugMatchesFamily(slug, f.name))
   if (!family) notFound()
-  return <FontDetail family={family} />
+  const fontFaceCSS = buildFontFaceCSS(family)
+  const fonts = staticDb.getAllFamilies().map(f => ({ name: f.name, author: f.foundry }))
+  return (
+    <>
+      <style dangerouslySetInnerHTML={{ __html: fontFaceCSS }} />
+      <FontDetail family={family} fonts={fonts} />
+    </>
+  )
 }
