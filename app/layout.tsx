@@ -79,6 +79,18 @@ export default function RootLayout({
           fetch('/api/tags/vocab?type=category&collection=Display').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Display=d.list||[]});
           fetch('/api/tags/vocab?type=category&collection=Weirdo').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Weirdo=d.list||[]});
         })();`}} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'typedump',
+          url: 'https://typedump.vercel.app',
+          description: 'Curated collection of 150+ free professional fonts for designers — variable fonts, display fonts, and text fonts.',
+          potentialAction: {
+            '@type': 'SearchAction',
+            target: { '@type': 'EntryPoint', urlTemplate: 'https://typedump.vercel.app/?q={search_term_string}' },
+            'query-input': 'required name=search_term_string',
+          },
+        }) }} />
         <link rel="stylesheet" href="/fonts/fonts.css" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
