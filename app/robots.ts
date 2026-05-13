@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/api/', '/debug/', '/test/'],
       },
     ],
-    sitemap: 'https://typedump.vercel.app/sitemap.xml',
+    sitemap: 'https://baseline-fonts.vercel.app/sitemap.xml',
   }
 }
