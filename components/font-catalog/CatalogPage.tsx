@@ -147,7 +147,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     if (!previewFontsRef.current[collection]) {
       const candidates = fonts.filter(f => f.collection === collection)
       if (candidates.length) {
-        const pick = candidates[Math.floor(Math.random() * candidates.length)]
+        // Prefer variable fonts — only they get a family-level @font-face registration.
+        // Static fonts register variant-level aliases (alias__v_hash) which don't match fontFamily.
+        const pool = candidates.filter(f => f.type === 'Variable')
+        const pick = (pool.length ? pool : candidates)[Math.floor(Math.random() * (pool.length || candidates.length))]
         previewFontsRef.current[collection] = pick?.fontFamily || "Inter Variable, system-ui, sans-serif"
       }
     }
