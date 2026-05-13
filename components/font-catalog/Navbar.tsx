@@ -113,7 +113,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               width: '100%', height: '100%',
               fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
-              fontFamily: 'Inter Variable',
+              fontFamily: 'var(--font-inter), "Inter Variable", system-ui, -apple-system, sans-serif',
               fontSize: '22px', fontWeight: 900, lineHeight: '100%',
               textTransform: 'lowercase',
               color: 'var(--gray-cont-prim)',
