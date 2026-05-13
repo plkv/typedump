@@ -300,13 +300,6 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               <InfoRow label="Released" value={new Date(family.publishedAt).getFullYear().toString()} />
             )}
             {typeInfo && <InfoRow label="Type" value={typeInfo} />}
-            {family.designerInfo?.designer && (
-              <InfoRow label="Author" value={
-                family.designerInfo.designerURL
-                  ? <a href={family.designerInfo.designerURL} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>{family.designerInfo.designer} ↗</a>
-                  : family.designerInfo.designer
-              } />
-            )}
             {family.foundry && family.foundry !== 'Unknown' && (
               <InfoRow label="Author" value={
                 family.designerInfo?.vendorURL

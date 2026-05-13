@@ -696,7 +696,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Creative Sauce Fz LLC",
+      "foundry": "Alfredo Marco Pradil, Creative Sauce Fz LLC",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://github.com/marcologous/Open-Sauce-Fonts",
@@ -883,7 +883,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Tokotype",
+      "foundry": "Gumpita Rahayu, Tokotype",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/tokotype/PlusJakartaSans",
@@ -1170,7 +1170,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Ilya Naumoff, Jérémie Hornus, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://fontshare.com/fonts/supreme",
@@ -1281,7 +1281,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Schibsted ASA",
+      "foundry": "Bakken & Bæck, Schibsted ASA",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/schibsted/schibsted-grotesk",
@@ -1750,7 +1750,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "fragTYPE",
+      "foundry": "Rodrigo Fuenzalida, fragTYPE",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/Outfitio/Outfit-Fonts",
@@ -2503,7 +2503,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Unknown",
+      "foundry": "RandomMaerks",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/RandomMaerks/Overused-Grotesk",
@@ -2848,7 +2848,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "https://alanmadic.com/",
+      "foundry": "Alan Madić",
       "isVariable": false,
       "published": true,
       "id": "family_jakob_1757807924654",
@@ -3030,7 +3030,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "ESAD Valence",
+      "foundry": "Guillaume Lelong, ESAD Valence",
       "isVariable": false,
       "published": true,
       "id": "family_nouvelle_grotesquerie_1757807924462",
@@ -3225,7 +3225,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Frode Helland, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://www.fontshare.com/fonts/general-sans",
@@ -3448,7 +3448,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Velvetyne Type Foundry",
+      "foundry": "Mariel Nils, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
       "id": "family_picnic_1757807924177",
@@ -3587,7 +3587,7 @@
       "category": [
         "Decorative"
       ],
-      "foundry": "Unknown",
+      "foundry": "Fanny Coulez, Julien Saurin",
       "isVariable": false,
       "published": true,
       "id": "family_insolente_1757807924072",
@@ -3694,7 +3694,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "Unknown",
+      "foundry": "Clara Sambot",
       "isVariable": false,
       "published": true,
       "id": "family_dindong_1757807923967",
@@ -4498,7 +4498,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Uncut Type",
+      "foundry": "Kasper Nordkvist, Uncut Type",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/kaspernordkvist/uncut_sans",
@@ -5135,7 +5135,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Manushi Parikh, Indian Type Foundry",
       "isVariable": false,
       "published": true,
       "id": "family_pencerio_hairline_1757807923131",
@@ -5192,7 +5192,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Théo Guillard, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "id": "family_sharpie_variable_1757807923079",
@@ -5262,7 +5262,7 @@
       "category": [
         "Serif Based"
       ],
-      "foundry": "abstrkt",
+      "foundry": "Roman Gornitsky, abstrkt",
       "isVariable": false,
       "published": true,
       "id": "family_america_xix_1757807923031",
@@ -5541,7 +5541,7 @@
         "Script",
         "Sans Based"
       ],
-      "foundry": "Lokal Container",
+      "foundry": "Deni Anggara, Lokal Container",
       "isVariable": true,
       "published": true,
       "id": "family_lct_mogi_a_1757807922817",
@@ -5799,7 +5799,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "http://behance.net/h4rr13",
+      "foundry": "Harry Dinh",
       "isVariable": true,
       "published": true,
       "downloadLink": "/fonts/BDLifelessGrotesk_Variable_sm01.ttf",
@@ -5932,7 +5932,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Dicotype",
+      "foundry": "Kristian Möller, Dicotype",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/Dicotype/Funnel",
@@ -6122,7 +6122,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Velvetyne Type Foundry",
+      "foundry": "Chloé Lozano, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
       "id": "family_compagnon_bold_1757807922488",
@@ -6402,7 +6402,7 @@
       "category": [
         "Mono"
       ],
-      "foundry": "Velvetyne Type Foundry",
+      "foundry": "Ariel Martín Pérez, Velvetyne Type Foundry",
       "isVariable": true,
       "published": true,
       "id": "family_sligoil_micro_1757807922332",
@@ -7851,7 +7851,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Atelier national de recherche typographique",
+      "foundry": "Alexandre Bassi, ANRT",
       "isVariable": false,
       "published": true,
       "id": "family_chaumont_script_1757807921309",
@@ -8465,7 +8465,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "JAMO",
+      "foundry": "Kyungwon Jang, JAMO",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://fonts.google.com/specimen/Bagel+Fat+One",
@@ -8650,7 +8650,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Manushi Parikh, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://www.fontshare.com/fonts/chillax",
@@ -8731,7 +8731,7 @@
       "category": [
         "Mono"
       ],
-      "foundry": "Displaay",
+      "foundry": "Martin Vácha, Displaay",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://fonts.google.com/specimen/Azeret+Mono",
@@ -9026,7 +9026,7 @@
       "category": [
         "Serif"
       ],
-      "foundry": "Catharsis Fonts",
+      "foundry": "Christian Thalmann, Catharsis Fonts",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/CatharsisFonts/Cormorant",
@@ -10755,7 +10755,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Indian Type Foundry",
+      "foundry": "Shiva Nallaperumal, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://www.fontshare.com/fonts/cabinet-grotesk",
@@ -12729,7 +12729,7 @@
       "category": [
         "Sans Based"
       ],
-      "foundry": "Sebastien Sanfilippo",
+      "foundry": "Sébastien Sanfilippo",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://osp.kitchen/foundry/reglo/tree/master/fonts/",
@@ -14145,7 +14145,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Velvetyne Type Foundry",
+      "foundry": "Luna Mattei, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://velvetyne.fr/degheest/louise.html",
@@ -14565,7 +14565,7 @@
       "category": [
         "Script"
       ],
-      "foundry": "Sorkin Type Co.",
+      "foundry": "Riccardo De Franceschi, Sorkin Type Co.",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://fonts.google.com/specimen/Vampiro+One",
@@ -16046,7 +16046,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Supernotes",
+      "foundry": "Tobias Wüstefeld, Supernotes",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://supernotes.app/open-source/sn-pro/",
