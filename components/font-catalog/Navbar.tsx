@@ -31,12 +31,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
     if (pathname === '/') {
       document.querySelector('main')?.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
-      router.push('/')
-      // Scroll to top after navigation (Next.js push resets scroll by default, but ensure it)
-      requestAnimationFrame(() => {
-        document.querySelector('main')?.scrollTo({ top: 0 })
-        window.scrollTo(0, 0)
-      })
+      router.push('/', { scroll: true })
     }
   }
 
