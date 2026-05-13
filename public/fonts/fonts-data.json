@@ -2698,7 +2698,8 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "downloadLink": "/fonts/FA-1-Regular.otf"
     },
     {
       "name": "Alpha Lyrae",
@@ -2951,7 +2952,8 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "downloadLink": "/fonts/AntiqueSerie-Regular.otf"
     },
     {
       "name": "Thestral Neue",
@@ -3069,7 +3071,8 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "downloadLink": "/fonts/NouvelleGrotesquerie-Regular.otf"
     },
     {
       "name": "Excessive Extra Condensed",
@@ -3127,7 +3130,8 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "downloadLink": "/fonts/Excessive-ExtraCondensed.otf"
     },
     {
       "name": "N27",
@@ -4662,7 +4666,7 @@
       "foundry": "Alexey Atapin",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "/fonts/Block-font.otf",
       "id": "family_block_1757807923524",
       "variants": [
         {
@@ -4817,7 +4821,8 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "downloadLink": "/fonts/FRANKINITY.otf"
     },
     {
       "name": "P95-CYR",
@@ -5405,7 +5410,8 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "downloadLink": "/fonts/ARK-ES-DenseRegular.otf"
     },
     {
       "name": "ARK-ES Solid",
@@ -5516,7 +5522,8 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "downloadLink": "/fonts/ARK-ES-SolidRegular.otf"
     },
     {
       "name": "LCT Mogi A",
@@ -5795,7 +5802,7 @@
       "foundry": "http://behance.net/h4rr13",
       "isVariable": true,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "/fonts/BDLifelessGrotesk_Variable_sm01.ttf",
       "id": "family_bd_lifeless_grotesk_1757807922664",
       "variants": [
         {
@@ -7124,7 +7131,8 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "downloadLink": "/fonts/Crewmate-Regular.otf"
     },
     {
       "name": "LT Museum",
@@ -7323,7 +7331,8 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "downloadLink": "/fonts/LTMuseum-Regular.ttf"
     },
     {
       "name": "IntraNet",
@@ -7341,7 +7350,7 @@
       "foundry": "Joao Serafim",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "/fonts/IntraNetRegular.otf",
       "id": "family_intranet_1757807921727",
       "variants": [
         {
@@ -7714,7 +7723,8 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "downloadLink": "/fonts/CossetteTexte-Regular.ttf"
     },
     {
       "name": "Oi",
@@ -8049,7 +8059,8 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "downloadLink": "/fonts/enjoyplease2-Regular.otf"
     },
     {
       "name": "Fat Porn Font XXL",
@@ -10664,7 +10675,7 @@
       "foundry": "Maksym Kobuzan",
       "isVariable": false,
       "published": true,
-      "downloadLink": "",
+      "downloadLink": "/fonts/CyGrotesk-GrandDark.otf",
       "id": "family_cy_grotesk_grand_dark_1757807919836",
       "variants": [
         {
