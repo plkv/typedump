@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props) {
     openGraph: {
       title,
       description,
-      url: `https://baseline-fonts.vercel.app/font/${slug}`,
+      url: `https://www.typedump.com/font/${slug}`,
       siteName: 'typedump',
       images: [{ url: '/og-image.webp', width: 1200, height: 630, alt: `${family.name} font preview` }],
       type: 'website',
@@ -60,7 +60,7 @@ export default async function FontPage({ params }: Props) {
     author: { '@type': 'Organization', name: family.foundry },
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     operatingSystem: 'Web',
-    url: `https://baseline-fonts.vercel.app/font/${slug}`,
+    url: `https://www.typedump.com/font/${slug}`,
     ...(family.licenseInfo?.url ? { license: family.licenseInfo.url } : {}),
   }
 

@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const families = staticDb.getAllFamilies()
 
   const fontPages: MetadataRoute.Sitemap = families.map(f => ({
-    url: `https://baseline-fonts.vercel.app/font/${familyToSlug(f.name)}`,
+    url: `https://www.typedump.com/font/${familyToSlug(f.name)}`,
     lastModified: new Date(f.updatedAt),
     changeFrequency: 'monthly',
     priority: 0.8,
@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://baseline-fonts.vercel.app',
+      url: 'https://www.typedump.com',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
