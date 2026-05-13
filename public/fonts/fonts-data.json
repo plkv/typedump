@@ -3559,7 +3559,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.122Z",
       "updatedAt": "2025-09-13T23:58:44.173Z",
-      "downloadLink": "https://www.collletttivo.it/typefaces/sprat",
+      "downloadLink": "https://github.com/EthanNakache/Sprat-type",
       "description": "Sprat is a variable display serif by Ethan Nakache, featuring long sharp serifs and high stroke contrast inspired by Eric Gill's alphabet. Available across three widths (condensed, regular, extended) and six weights from thin to black, it shines in headlines, posters, and logotypes where typographic drama is welcome.",
       "licenseInfo": {
         "type": "OFL",
@@ -3620,7 +3620,7 @@
       "useCases": [
         "Experimental"
       ],
-      "downloadLink": "/fonts/Insolente-Regular.otf"
+      "downloadLink": "https://typotes.lacambretypo.be/home/insolente"
     },
     {
       "name": "Crozet",
@@ -3834,7 +3834,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.916Z",
       "updatedAt": "2025-09-13T23:58:43.963Z",
-      "downloadLink": "https://uncut.wtf/display/roberte/",
+      "downloadLink": "https://gitlab.com/Eugenie-B/roberte",
       "description": "Roberte is an italic-only stroke typeface by Eugénie Bidaut, drawn freely from the italic letter forms of Robert Granjon without any upright companion. Its calligraphic origins give it fluid, expressive energy — it exists entirely as a cursive, making it unusual and striking in display contexts.",
       "licenseInfo": {
         "type": "OFL",
@@ -9018,7 +9018,7 @@
       "foundry": "Catharsis Fonts",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Cormorant?query=Cormorant",
+      "downloadLink": "https://github.com/CatharsisFonts/Cormorant",
       "id": "family_cormorant_1757807920473",
       "variants": [
         {
@@ -9309,7 +9309,7 @@
       "foundry": "Catharsis Fonts",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Cormorant+Unicase",
+      "downloadLink": "https://github.com/CatharsisFonts/Cormorant",
       "id": "family_cormorant_unicase_1757807920341",
       "variants": [
         {
@@ -10273,7 +10273,7 @@
       "foundry": "Benoît 'Sans Terre' Ferran",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.tunera.xyz/",
+      "downloadLink": "https://gitlab.com/benoitsansterre/isenheim",
       "id": "family_isenheim_1757807920047",
       "variants": [
         {
@@ -10472,7 +10472,7 @@
       "foundry": "Ariel Martín Pérez",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.tunera.xyz/",
+      "downloadLink": "https://codeberg.org/ArielMartinPerez/Canarina",
       "id": "family_canarina_1757807919996",
       "variants": [
         {
@@ -10543,7 +10543,7 @@
       "foundry": "Ariel Martín Pérez",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://www.tunera.xyz/fonts/kobata/",
+      "downloadLink": "https://gitlab.com/arielmartinperez/kobata",
       "id": "family_kobata_1757807919934",
       "variants": [
         {
@@ -10909,7 +10909,7 @@
       "foundry": "Agyei Archer, Celine Hurka, Mirko Velimirović",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Jaro",
+      "downloadLink": "https://github.com/agyeiarcher/Jaro",
       "id": "family_jaro_1757807919622",
       "variants": [
         {
@@ -10998,7 +10998,7 @@
       "foundry": "Rodrigo Fuenzalida, Jordan Egstad",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Instrument+Sans",
+      "downloadLink": "https://github.com/Instrument/instrument-sans",
       "id": "family_instrument_sans_1757807919561",
       "variants": [
         {
@@ -11464,7 +11464,7 @@
       "foundry": "Kanon Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters/?ref=uncut.wtf",
+      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters",
       "id": "family_hedvig_letters_serif_1757807919259",
       "variants": [
         {
@@ -11545,7 +11545,7 @@
       "foundry": "Kanon Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters/?ref=uncut.wtf",
+      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters",
       "id": "family_hedvig_letters_sans_1757807919204",
       "variants": [
         {
@@ -11694,7 +11694,7 @@
       "foundry": "Local Remote, Weizhong Zhang",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/TASA+Explorer",
+      "downloadLink": "https://github.com/localremotetw/TASA-Typeface-Collection",
       "id": "family_tasa_explorer_1757807919034",
       "variants": [
         {
@@ -13117,7 +13117,7 @@
       "foundry": "© 2023, Luigi Gorlero & Collletttivo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.collletttivo.it/typefaces/apfel-grotezk",
+      "downloadLink": "https://github.com/collletttivo/apfel-grotezk",
       "id": "family_apfel_grotesk_1757807918210",
       "variants": [
         {
@@ -13249,7 +13249,7 @@
       "foundry": "© 2023, Luigi Gorlero & Collletttivo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.collletttivo.it/typefaces/apfel-grotezk",
+      "downloadLink": "https://github.com/collletttivo/apfel-grotezk",
       "id": "family_apfel_grotezk_brukt_1757807918158",
       "variants": [
         {
@@ -14610,7 +14610,7 @@
       "foundry": "Indian Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Tillana",
+      "downloadLink": "https://github.com/itfoundry/tillana",
       "id": "family_tillana_1757807917283",
       "variants": [
         {
@@ -15704,7 +15704,7 @@
       "foundry": "Studio DRAMA",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/BBH+Bogle",
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/bbhbogle",
       "id": "family_bbh_bogle_1747180800000",
       "variants": [
         {
@@ -15896,7 +15896,7 @@
       "foundry": "TYPE Associates",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Momo+Trust+Display",
+      "downloadLink": "https://github.com/typeassociates/MomoTrustDisplay",
       "id": "family_momo_trust_display_1747180803000",
       "variants": [
         {
@@ -15961,7 +15961,7 @@
       "foundry": "TYPE Associates",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Momo+Trust+Sans",
+      "downloadLink": "https://github.com/typeassociates/MomoTrustSans",
       "id": "family_momo_trust_sans_1747180804000",
       "variants": [
         {
@@ -16193,7 +16193,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Stack+Sans+Headline",
+      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
       "id": "family_stack_sans_headline_1747180806000",
       "variants": [
         {
@@ -16275,7 +16275,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Stack+Sans+Notch",
+      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
       "id": "family_stack_sans_notch_1747180807000",
       "variants": [
         {
@@ -16357,7 +16357,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Stack+Sans+Text",
+      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
       "id": "family_stack_sans_text_1747180808000",
       "variants": [
         {
