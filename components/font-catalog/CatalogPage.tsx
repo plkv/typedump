@@ -1061,6 +1061,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     if (sessionStorage.getItem('catalog-scroll-reset') === '1') {
       sessionStorage.removeItem('catalog-scroll-reset')
       mainRef.current?.scrollTo({ top: 0 })
+      // Re-enable scroll restoration so browser back button works normally
+      history.scrollRestoration = 'auto'
     }
   }, [])
 
