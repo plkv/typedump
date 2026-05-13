@@ -15782,7 +15782,7 @@
       "variants": [
         {
           "filename": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
-          "weight": 1,
+          "weight": 400,
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": true,
