@@ -31,11 +31,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
     if (pathname === '/') {
       document.querySelector('main')?.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
-      sessionStorage.setItem('catalog-scroll-reset', '1')
-      // Disable scroll restoration so the browser doesn't restore <main> scroll
-      // on this push navigation. CatalogPage will re-enable it after scrolling to top.
-      history.scrollRestoration = 'manual'
-      router.push('/')
+      window.location.href = '/'
     }
   }
 
