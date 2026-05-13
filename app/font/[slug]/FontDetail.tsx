@@ -123,6 +123,21 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   const defaultVariant = family.variants.find(v => v.isDefaultStyle) ?? sorted[0]
   const heroFont = defaultVariant ? variantCssFamily(family, defaultVariant.id) : 'system-ui'
 
+  // npm copy snippet
+  const npmFile = defaultVariant
+    ? defaultVariant.filename.replace(/\.(otf|ttf|woff)$/, '.woff2')
+    : null
+  const npmSnippet = npmFile
+    ? `npm i typedump-npm\nimport font from 'typedump-npm/fonts/${npmFile}'`
+    : `npm i typedump-npm`
+  const [npmCopied, setNpmCopied] = useState(false)
+  const handleNpmCopy = () => {
+    navigator.clipboard.writeText(npmSnippet).then(() => {
+      setNpmCopied(true)
+      setTimeout(() => setNpmCopied(false), 2000)
+    })
+  }
+
   const allAlternateTags = [...new Set(
     family.variants.flatMap(v =>
       (v.openTypeFeatureTags ?? []).filter(f => /^(ss\d\d|cv\d\d)$/.test(f.tag)).map(f => f.tag)
@@ -166,18 +181,28 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         }}>
           by {family.foundry}
         </div>
-        {family.downloadLink && (
-          <a
-            href={family.downloadLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="v2-badge v2-button-active"
-            style={{ textDecoration: 'none', marginTop: '4px' }}
-            onClick={() => (window as any).gtag?.('event', 'get_font', { font_name: family.name })}
+        <div style={{ display: 'flex', gap: 6, marginTop: '4px', flexWrap: 'wrap' }}>
+          <button
+            onClick={handleNpmCopy}
+            className="v2-badge v2-button-inactive"
+            style={{ cursor: 'pointer', border: 'none' }}
+            title={npmSnippet}
           >
-            Get font
-          </a>
-        )}
+            {npmCopied ? 'Copied!' : 'Copy import'}
+          </button>
+          {family.downloadLink && (
+            <a
+              href={family.downloadLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="v2-badge v2-button-active"
+              style={{ textDecoration: 'none' }}
+              onClick={() => (window as any).gtag?.('event', 'get_font', { font_name: family.name })}
+            >
+              Get font
+            </a>
+          )}
+        </div>
       </div>
 
       {/* ── Variant rows ── */}
@@ -302,9 +327,14 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
             {typeInfo && <InfoRow label="Type" value={typeInfo} />}
             {family.foundry && family.foundry !== 'Unknown' && (
               <InfoRow label="Author" value={
-                family.designerInfo?.vendorURL
-                  ? <a href={family.designerInfo.vendorURL} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>{family.foundry} ↗</a>
-                  : family.foundry
+                <span>
+                  {family.foundry.split(', ').map((part, i, arr) => (
+                    <span key={part}>
+                      <a href={`/?author=${encodeURIComponent(part)}`} style={{ color: 'var(--gray-cont-prim)' }}>{part}</a>
+                      {i < arr.length - 1 && ', '}
+                    </span>
+                  ))}
+                </span>
               } />
             )}
             {family.licenseInfo?.type && (
@@ -315,11 +345,36 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               } />
             )}
             {(family.languages || []).length > 0 && (
-              <InfoRow label="Languages" value={(family.languages || []).join(', ')} />
+              <InfoRow label="Languages" value={
+                <span>
+                  {(family.languages || []).map((lang, i, arr) => (
+                    <span key={lang}>
+                      <a href={`/?language=${encodeURIComponent(lang)}`} style={{ color: 'var(--gray-cont-prim)' }}>{lang}</a>
+                      {i < arr.length - 1 && ', '}
+                    </span>
+                  ))}
+                </span>
+              } />
             )}
             {(() => {
-              const tags = [family.collection, ...family.category, ...family.styleTags].filter(Boolean)
-              return tags.length > 0 ? <InfoRow label="Tags" value={tags.join(', ')} /> : null
+              const tags = [
+                ...(family.collection ? [{ label: family.collection, param: 'collection' }] : []),
+                ...(family.category || []).map(c => ({ label: c, param: 'category' })),
+                ...(family.styleTags || []).map(s => ({ label: s, param: 'style' })),
+              ]
+              if (!tags.length) return null
+              return (
+                <InfoRow label="Tags" value={
+                  <span>
+                    {tags.map((t, i) => (
+                      <span key={`${t.param}-${t.label}`}>
+                        <a href={`/?${t.param}=${encodeURIComponent(t.label)}`} style={{ color: 'var(--gray-cont-prim)' }}>{t.label}</a>
+                        {i < tags.length - 1 && ', '}
+                      </span>
+                    ))}
+                  </span>
+                } />
+              )
             })()}
           </div>
         </div>

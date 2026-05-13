@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { familyToSlug } from '@/lib/font-slug'
 import { IconSearch, IconXMark, IconChevronLeft } from '@/components/icons'
 
@@ -24,6 +24,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const pathname = usePathname()
+  const router = useRouter()
 
   const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (pathname === '/') {
@@ -75,19 +76,26 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
       >
         {/* Island 0: Back — optional, fixed 54px at left edge */}
         {back && (
-          <a
-            href="/"
+          <button
+            onClick={() => {
+              if (window.history.length > 1) {
+                router.back()
+              } else {
+                router.push('/')
+              }
+            }}
             className="navbar-back-island v2-card v2-overlay"
             style={{
               left: 0,
               width: '54px',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
-              textDecoration: 'none',
+              background: 'none',
+              cursor: 'pointer',
               color: 'var(--gray-cont-prim)',
             }}
           >
             <IconChevronLeft size={20} />
-          </a>
+          </button>
         )}
 
         {/* Island 1: Logo — fills remaining left space, collapses to 0 */}

@@ -160,7 +160,7 @@ export function FontCard({
               )}
 
               {/* Author */}
-              <span className="text-author truncate max-w-[200px]" title={`by ${font.author}`}>
+              <span className="text-author truncate" title={`by ${font.author}`}>
                 by {font.author}
               </span>
             </div>

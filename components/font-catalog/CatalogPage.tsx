@@ -78,7 +78,10 @@ const getPresetContent = (preset: string, fontName: string) => {
   }
 }
 
-export default function CatalogPage({ initialFonts }: { initialFonts: FontData[] }) {
+type InitialFilters = Record<string, string | string[] | undefined>
+
+export default function CatalogPage({ initialFonts, initialFilters }: { initialFonts: FontData[], initialFilters?: InitialFilters }) {
+  const toArr = (v: string | string[] | undefined) => v ? (Array.isArray(v) ? v : [v]) : []
   // UI State
   const [sidebarOpen, setSidebarOpen] = useState(false) // matches SSR; set correctly in useEffect below
   const [catalogVisible, setCatalogVisible] = useState(false)
@@ -92,11 +95,12 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   const [loadedFonts, setLoadedFonts] = useState<Set<number>>(new Set())
   const [animatedFonts, setAnimatedFonts] = useState<Set<number>>(new Set()) // Track fonts that have been animated once
   const [customText, setCustomText] = useState("")
-  const [selectedCollections, setSelectedCollections] = useState<string[]>([])
+  const [selectedCollections, setSelectedCollections] = useState<string[]>(() => toArr(initialFilters?.collection))
   const [selectedPreset, setSelectedPreset] = useState("Names")
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
-  const [selectedStyles, setSelectedStyles] = useState<string[]>([])
-  const [selectedLanguages, setSelectedLanguages] = useState<string[]>([])
+  const [selectedCategories, setSelectedCategories] = useState<string[]>(() => toArr(initialFilters?.category))
+  const [selectedStyles, setSelectedStyles] = useState<string[]>(() => toArr(initialFilters?.style))
+  const [selectedLanguages, setSelectedLanguages] = useState<string[]>(() => toArr(initialFilters?.language))
+  const [selectedAuthor, setSelectedAuthor] = useState<string>(() => typeof initialFilters?.author === 'string' ? initialFilters.author : '')
   const [previewWeight, setPreviewWeight] = useState(400)
   const [selectedFeatures, setSelectedFeatures] = useState<string[]>([])
   const [fontWeightSelections, setFontWeightSelections] = useState<Record<number, { weight: number; italic: boolean; cssFamily?: string; styleName?: string }>>(
@@ -556,7 +560,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
   // Pure filter predicate — no sorting, used by both getFilteredFonts and filterAvailability
   const fontPassesFilters = (
     font: FontData,
-    cols: string[], cats: string[], stags: string[], langs: string[], feats: string[], wt: number | null
+    cols: string[], cats: string[], stags: string[], langs: string[], feats: string[], wt: number | null, authorQ = ''
   ): boolean => {
     if (cols.length > 0 && !cols.includes(font.collection || 'Text')) return false
     if (cats.length > 0 && !cats.every(c => (font.categories || []).includes(c))) return false
@@ -567,21 +571,22 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       if (!feats.every(f => fontFeats.includes(f))) return false
     }
     if (wt !== null && !font.availableWeights.includes(wt)) return false
+    if (authorQ && !(font.author || '').toLowerCase().includes(authorQ.toLowerCase())) return false
     return true
   }
 
   // Which filter options still yield results — drives disabled state in sidebar
   const filterAvailability = useMemo(() => {
     const c = selectedCollections, ca = selectedCategories, st = selectedStyles
-    const la = selectedLanguages, fe = selectedFeatures, wt = previewWeight
+    const la = selectedLanguages, fe = selectedFeatures, wt = previewWeight, au = selectedAuthor
 
     // For OR-groups: check against fonts passing all OTHER groups
-    const forCols  = fonts.filter(f => fontPassesFilters(f, [],  ca, st, la, fe, wt))
-    const forLangs = fonts.filter(f => fontPassesFilters(f, c, ca, st, [], fe, wt))
-    const forWt    = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, null))
+    const forCols  = fonts.filter(f => fontPassesFilters(f, [],  ca, st, la, fe, wt, au))
+    const forLangs = fonts.filter(f => fontPassesFilters(f, c, ca, st, [], fe, wt, au))
+    const forWt    = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, null, au))
 
     // For AND-groups: check against current full result
-    const current  = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, wt))
+    const current  = fonts.filter(f => fontPassesFilters(f, c, ca, st, la, fe, wt, au))
 
     return {
       collections: new Set(forCols.map(f => f.collection || 'Text')),
@@ -591,7 +596,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
       features:    new Set(current.flatMap(f => getFontFeatures(f))),
       weights:     new Set(forWt.flatMap(f => f.availableWeights)),
     }
-  }, [fonts, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedFeatures, previewWeight])
+  }, [fonts, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedFeatures, previewWeight, selectedAuthor])
 
   const getFilteredFonts = () => {
     const filtered = fonts.filter((font) => {
@@ -642,6 +647,8 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
 
       if (!font.availableWeights.includes(previewWeight)) return false
 
+      if (selectedAuthor && !(font.author || '').toLowerCase().includes(selectedAuthor.toLowerCase())) return false
+
       return true
     })
 
@@ -678,6 +685,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     selectedCategories.length > 0 ||
     selectedStyles.length > 0 ||
     selectedLanguages.length > 0 ||
+    selectedAuthor !== '' ||
     selectedFeatures.length > 0 ||
     previewWeight !== 400 ||
     sortBy !== 'Date' ||
@@ -694,6 +702,7 @@ export default function CatalogPage({ initialFonts }: { initialFonts: FontData[]
     setSelectedCategories([])
     setSelectedStyles([])
     setSelectedLanguages([])
+    setSelectedAuthor('')
     setPreviewWeight(400)
     setSelectedFeatures([])
     setSortBy("Date") // Reset sort to default (New)
