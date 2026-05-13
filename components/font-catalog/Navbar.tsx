@@ -31,7 +31,8 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
     if (pathname === '/') {
       document.querySelector('main')?.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
-      router.push('/', { scroll: true })
+      sessionStorage.setItem('catalog-scroll-reset', '1')
+      router.push('/')
     }
   }
 

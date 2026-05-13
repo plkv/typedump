@@ -1056,6 +1056,14 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // Scroll to top when navigated via logo click (not via browser back)
+  useEffect(() => {
+    if (sessionStorage.getItem('catalog-scroll-reset') === '1') {
+      sessionStorage.removeItem('catalog-scroll-reset')
+      mainRef.current?.scrollTo({ top: 0 })
+    }
+  }, [])
+
   useLayoutEffect(() => {
     setIsMobile(window.innerWidth < 768)
     const handleResize = () => setIsMobile(window.innerWidth < 768)
