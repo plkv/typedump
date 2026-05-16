@@ -573,7 +573,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       const fontFeats = getFontFeatures(font)
       if (!feats.every(f => fontFeats.includes(f))) return false
     }
-    if (wt !== null && !font.availableWeights.includes(wt)) return false
+    if (wt !== null && wt !== 400 && !font.availableWeights.includes(wt)) return false
     if (authorQ && !(font.author || '').toLowerCase().includes(authorQ.toLowerCase())) return false
     return true
   }
@@ -648,7 +648,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         if (!selectedFeatures.every(f => fontFeats.includes(f))) return false
       }
 
-      if (!font.availableWeights.includes(previewWeight)) return false
+      if (previewWeight !== 400 && !font.availableWeights.includes(previewWeight)) return false
 
       if (selectedAuthor && !(font.author || '').toLowerCase().includes(selectedAuthor.toLowerCase())) return false
 
