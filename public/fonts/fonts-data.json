@@ -16600,7 +16600,1906 @@
           "uploadedAt": "2026-05-16T18:00:00.000Z"
         }
       ]
+    },
+    {
+      "name": "DT Dumpling Display",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Rounded",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Death of Typography",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://deathoftypography.com/dumpling-display/",
+      "sourceUrl": "https://deathoftypography.com/dumpling-display/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://deathoftypography.com/dumpling-display/"
+      },
+      "id": "family_dt_dumpling_display_1128699540469",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_dt_dump_lnvrfg",
+          "familyId": "family_dt_dumpling_display_1128699540469",
+          "filename": "DTDumplingDisplay-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/DTDumplingDisplay-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "DT Getai Grotesk",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Wide",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Sylvester Tan",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://deathoftypography.com/getai-grotesk-display/",
+      "sourceUrl": "https://deathoftypography.com/getai-grotesk-display/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://deathoftypography.com/getai-grotesk-display/"
+      },
+      "id": "family_dt_getai_grotesk_4488267531958",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_dt_getai_9xblv9",
+          "familyId": "family_dt_getai_grotesk_4488267531958",
+          "filename": "DTGetaiGroteskDisplay-Black.woff2",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/DTGetaiGroteskDisplay-Black.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "DT Nightingale",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Contrast",
+        "Modern"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Celia Yew",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://deathoftypography.com/nightingale/",
+      "sourceUrl": "https://deathoftypography.com/nightingale/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://deathoftypography.com/nightingale/"
+      },
+      "id": "family_dt_nightingale_9381754122107",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_dt_night_kokade",
+          "familyId": "family_dt_nightingale_9381754122107",
+          "filename": "DTNightingale-Light.woff2",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/DTNightingale-Light.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "DT Nouveau",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "DOT®",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://deathoftypography.com/nouveau/",
+      "sourceUrl": "https://deathoftypography.com/nouveau/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://deathoftypography.com/nouveau/"
+      },
+      "id": "family_dt_nouveau_9703337829358",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_dt_nouv_w66f3e",
+          "familyId": "family_dt_nouveau_9703337829358",
+          "filename": "DTNouveau-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/DTNouveau-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "DT World Tour",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Wide"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Nurjannah Suhaimi",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://deathoftypography.com/world-tour/",
+      "sourceUrl": "https://deathoftypography.com/world-tour/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://deathoftypography.com/world-tour/"
+      },
+      "id": "family_dt_world_tour_117440086612",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_dt_world_k93912",
+          "familyId": "family_dt_world_tour_117440086612",
+          "filename": "DTWorldTour-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/DTWorldTour-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF Azadliq",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Narrow",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_azadliq_329457640024",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_azad_emc147",
+          "familyId": "family_fff_azadliq_329457640024",
+          "filename": "FFF_AZADLIQ-Black.woff2",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_AZADLIQ-Black.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF Magyar Nemzet",
+      "collection": "Display",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_magyar_nemzet_2194708968341",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_magy_vp8e9s",
+          "familyId": "family_fff_magyar_nemzet_2194708968341",
+          "filename": "FFF_Magyar-Nemzet-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_Magyar-Nemzet-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF Nepsza Badsag",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_nepsza_badsag_5610521725250",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_neps_kjqbhj",
+          "familyId": "family_fff_nepsza_badsag_5610521725250",
+          "filename": "FFF_NEPSZA-BADSAG-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_NEPSZA-BADSAG-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF Oezguer Guendem",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_oezguer_guendem_3267750598827",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_oezg_o4a7r2",
+          "familyId": "family_fff_oezguer_guendem_3267750598827",
+          "filename": "FFF_Oezguer-Guendem-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_Oezguer-Guendem-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF HK",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_hk_6791778813043",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_hk_pm89hy",
+          "familyId": "family_fff_hk_6791778813043",
+          "filename": "FFF_HK-PlainForeground.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_HK-PlainForeground.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FFF Tuoi Tre",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "bBox Type GmbH",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
+      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://carrois.com/typefaces/custom/FFF/"
+      },
+      "id": "family_fff_tuoi_tre_7165928461446",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_fff_tuoi_7il51s",
+          "familyId": "family_fff_tuoi_tre_7165928461446",
+          "filename": "FFF_tuoi-tre-Black.woff2",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_tuoi-tre-Black.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_fff_tuoi_g0f6sl",
+          "familyId": "family_fff_tuoi_tre_7165928461446",
+          "filename": "FFF_tuoi-tre-Text.woff2",
+          "weight": 400,
+          "styleName": "Text",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/FFF_tuoi-tre-Text.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Inclusive Sans",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Olivia King",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/LivingOS/Inclusive-Sans",
+      "sourceUrl": "https://github.com/LivingOS/Inclusive-Sans",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/LivingOS/Inclusive-Sans"
+      },
+      "id": "family_inclusive_sans_8531949776094",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_inc_ghwf45",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-Light.woff2",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-Light.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_yam3q5",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-LightItalic.woff2",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-LightItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_q9par0",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_bgf4in",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-Italic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_tyiyi8",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-Medium.woff2",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-Medium.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_86ihrd",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-MediumItalic.woff2",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-MediumItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_y6smp7",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_inc_9zz8mk",
+          "familyId": "family_inclusive_sans_8531949776094",
+          "filename": "InclusiveSans-BoldItalic.woff2",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InclusiveSans-BoldItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "League Gothic",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "The League of Moveable Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.theleagueofmoveabletype.com/league-gothic",
+      "sourceUrl": "https://github.com/theleagueof/league-gothic",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/theleagueof/league-gothic"
+      },
+      "id": "family_league_gothic_6033508244452",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_lg_l0lfkf",
+          "familyId": "family_league_gothic_6033508244452",
+          "filename": "LeagueGothic-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LeagueGothic-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lg_l5t15c",
+          "familyId": "family_league_gothic_6033508244452",
+          "filename": "LeagueGothic-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LeagueGothic-Italic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lg_ruu54l",
+          "familyId": "family_league_gothic_6033508244452",
+          "filename": "LeagueGothic-Condensed.woff2",
+          "weight": 400,
+          "styleName": "Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LeagueGothic-Condensed.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lg_9e3n2u",
+          "familyId": "family_league_gothic_6033508244452",
+          "filename": "LeagueGothic-CondensedItalic.woff2",
+          "weight": 400,
+          "styleName": "Condensed Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LeagueGothic-CondensedItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "League Script No.1",
+      "collection": "Display",
+      "category": [
+        "Script"
+      ],
+      "styleTags": [
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "The League of Moveable Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.theleagueofmoveabletype.com/league-script-number-one",
+      "sourceUrl": "https://github.com/theleagueof/league-script-number-one",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/theleagueof/league-script-number-one"
+      },
+      "id": "family_league_script_9013907702053",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_ls_j9xfc9",
+          "familyId": "family_league_script_9013907702053",
+          "filename": "LeagueScriptNumberOne.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LeagueScriptNumberOne.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Paysage",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Anton Moglia",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.tunera.xyz/fonts/paysage/",
+      "sourceUrl": "https://github.com/tunera/paysage",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/tunera/paysage"
+      },
+      "id": "family_paysage_9591001920930",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_pay_ce59dk",
+          "familyId": "family_paysage_9591001920930",
+          "filename": "Paysage-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paysage-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_pay_8lz3dz",
+          "familyId": "family_paysage_9591001920930",
+          "filename": "Paysage-Medium.woff2",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paysage-Medium.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_pay_frfsvc",
+          "familyId": "family_paysage_9591001920930",
+          "filename": "Paysage-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paysage-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_pay_7l1ttf",
+          "familyId": "family_paysage_9591001920930",
+          "filename": "Paysage-Black.woff2",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paysage-Black.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Perun",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Stefan Peev",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/StefanPeev/Perun",
+      "sourceUrl": "https://github.com/StefanPeev/Perun",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/StefanPeev/Perun"
+      },
+      "id": "family_perun_3092041038131",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_per_8e84rf",
+          "familyId": "family_perun_3092041038131",
+          "filename": "Perun-VF.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Perun-VF.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_per_qshf07",
+          "familyId": "family_perun_3092041038131",
+          "filename": "Perun-Italic-VF.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "isDefaultStyle": false,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Perun-Italic-VF.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Spectral",
+      "collection": "Text",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Jean-Baptiste Levée",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Spectral",
+      "sourceUrl": "https://github.com/productiontype/Spectral",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/productiontype/Spectral"
+      },
+      "id": "family_spectral_5799929858159",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_spec_ka2grg",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-ExtraLight.woff2",
+          "weight": 200,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-ExtraLight.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_nkbxlp",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-ExtraLightItalic.woff2",
+          "weight": 200,
+          "styleName": "ExtraLight Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-ExtraLightItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_88rsai",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-Light.woff2",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-Light.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_goz96n",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-LightItalic.woff2",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-LightItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_xovdwj",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_r294t7",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-Italic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_2g022z",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-Medium.woff2",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-Medium.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_6pexxo",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-MediumItalic.woff2",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-MediumItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_7qgrqn",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-SemiBold.woff2",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-SemiBold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_wzzub2",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-SemiBoldItalic.woff2",
+          "weight": 600,
+          "styleName": "SemiBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-SemiBoldItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_9u2uyw",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_aujt5l",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-BoldItalic.woff2",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-BoldItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_h6zg4p",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-ExtraBold.woff2",
+          "weight": 800,
+          "styleName": "ExtraBold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-ExtraBold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_spec_afef69",
+          "familyId": "family_spectral_5799929858159",
+          "filename": "Spectral-ExtraBoldItalic.woff2",
+          "weight": 800,
+          "styleName": "ExtraBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Spectral-ExtraBoldItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Affigere",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Romain Laurent, Daphné Lejeune, Alexandre D'Hubert",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fonderiz.fr/affigere/",
+      "sourceUrl": "https://fonderiz.fr/affigere/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonderiz.fr/affigere/"
+      },
+      "id": "family_affigere_2935204536512",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_aff_8h6e52",
+          "familyId": "family_affigere_2935204536512",
+          "filename": "Affigere-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Affigere-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Absans",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Valerio Monopoli",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.collletttivo.it/typefaces/absans",
+      "sourceUrl": "https://www.collletttivo.it/typefaces/absans",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://www.collletttivo.it/typefaces/absans"
+      },
+      "id": "family_absans_9073355596148",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_abs_qemgs3",
+          "familyId": "family_absans_9073355596148",
+          "filename": "Absans-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Absans-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Bajaderka",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Beata Kurek",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/warszawskie-kroje/bajaderka",
+      "sourceUrl": "https://github.com/warszawskie-kroje/bajaderka",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/warszawskie-kroje/bajaderka"
+      },
+      "id": "family_bajaderka_4656372865922",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_baj_dvpv33",
+          "familyId": "family_bajaderka_4656372865922",
+          "filename": "Bajaderka-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Bajaderka-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Coconat",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Sara Lavazza",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.collletttivo.it/typefaces/coconat",
+      "sourceUrl": "https://www.collletttivo.it/typefaces/coconat",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://www.collletttivo.it/typefaces/coconat"
+      },
+      "id": "family_coconat_3605815269132",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_coc_1u0m1z",
+          "familyId": "family_coconat_3605815269132",
+          "filename": "Coconat-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Coconat-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_coc_9csm9n",
+          "familyId": "family_coconat_3605815269132",
+          "filename": "Coconat-Demi.woff2",
+          "weight": 600,
+          "styleName": "Demi",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Coconat-Demi.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_coc_cw9llz",
+          "familyId": "family_coconat_3605815269132",
+          "filename": "Coconat-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Coconat-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Instrument Serif",
+      "collection": "Text",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Modern",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Rodrigo Fuenzalida",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Instrument+Serif",
+      "sourceUrl": "https://github.com/Instrument-Type/InstrumentSerif",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/Instrument-Type/InstrumentSerif"
+      },
+      "id": "family_instrument_serif_6804086547976",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_ins_sgs6kp",
+          "familyId": "family_instrument_serif_6804086547976",
+          "filename": "InstrumentSerif-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InstrumentSerif-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_ins_r0jv7o",
+          "familyId": "family_instrument_serif_6804086547976",
+          "filename": "InstrumentSerif-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/InstrumentSerif-Italic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Junicode",
+      "collection": "Text",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Peter S. Baker",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/psb1558/Junicode-font",
+      "sourceUrl": "https://github.com/psb1558/Junicode-font",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/psb1558/Junicode-font"
+      },
+      "id": "family_junicode_9910451256524",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_jun_bsmhb6",
+          "familyId": "family_junicode_9910451256524",
+          "filename": "Junicode-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Junicode-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_jun_vbsz7f",
+          "familyId": "family_junicode_9910451256524",
+          "filename": "Junicode-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Junicode-Italic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_jun_gg3qij",
+          "familyId": "family_junicode_9910451256524",
+          "filename": "Junicode-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Junicode-Bold.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_jun_2i1ywe",
+          "familyId": "family_junicode_9910451256524",
+          "filename": "Junicode-BoldItalic.woff2",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Junicode-BoldItalic.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Luperca",
+      "collection": "Text",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Ariel Martín Pérez",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.tunera.xyz/fonts/luperca/",
+      "sourceUrl": "https://github.com/tunera/luperca",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/tunera/luperca"
+      },
+      "id": "family_luperca_6672533278817",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_lup_mqdcp6",
+          "familyId": "family_luperca_6672533278817",
+          "filename": "Luperca-12-24Caption.woff2",
+          "weight": 400,
+          "styleName": "Caption",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Luperca-12-24Caption.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lup_0ztt3w",
+          "familyId": "family_luperca_6672533278817",
+          "filename": "Luperca-24-36Subtitle.woff2",
+          "weight": 400,
+          "styleName": "Subtitle",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Luperca-24-36Subtitle.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lup_e74amn",
+          "familyId": "family_luperca_6672533278817",
+          "filename": "Luperca-36-48Title.woff2",
+          "weight": 400,
+          "styleName": "Title",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Luperca-36-48Title.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lup_uue0nj",
+          "familyId": "family_luperca_6672533278817",
+          "filename": "Luperca-48-72Header.woff2",
+          "weight": 400,
+          "styleName": "Header",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Luperca-48-72Header.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        },
+        {
+          "id": "v_lup_24egt4",
+          "familyId": "family_luperca_6672533278817",
+          "filename": "Luperca-72-96Banner.woff2",
+          "weight": 400,
+          "styleName": "Banner",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Luperca-72-96Banner.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Manosque",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Ariel Martín Pérez",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.tunera.xyz/fonts/manosque/",
+      "sourceUrl": "https://github.com/tunera/manosque",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/tunera/manosque"
+      },
+      "id": "family_manosque_1522565776859",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_man_7hwgms",
+          "familyId": "family_manosque_1522565776859",
+          "filename": "Manosque-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Manosque-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Opening Hours Mono",
+      "collection": "Text",
+      "category": [
+        "Mono"
+      ],
+      "styleTags": [
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Opening Hours Studio",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/opening-hours-studio/opening-hours-mono",
+      "sourceUrl": "https://github.com/opening-hours-studio/opening-hours-mono",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/opening-hours-studio/opening-hours-mono"
+      },
+      "id": "family_opening_hours_mono_6688894311557",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_ohm_g9m2e8",
+          "familyId": "family_opening_hours_mono_6688894311557",
+          "filename": "OpeningHoursMonoVF.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "HORZ",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "axis": "CHNK",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "axis": "SPED",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/OpeningHoursMonoVF.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Opening Hours Sans",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Kim Andre Ottesen",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/opening-hours-studio/opening-hours-sans",
+      "sourceUrl": "https://github.com/opening-hours-studio/opening-hours-sans",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/opening-hours-studio/opening-hours-sans"
+      },
+      "id": "family_opening_hours_sans_3999839556116",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_ohs_r6qs7q",
+          "familyId": "family_opening_hours_sans_3999839556116",
+          "filename": "OpeningHoursSans-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/OpeningHoursSans-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Pretendard",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Korean"
+      ],
+      "foundry": "Kil Hyung-jin",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/orioncactus/pretendard",
+      "sourceUrl": "https://github.com/orioncactus/pretendard",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/orioncactus/pretendard"
+      },
+      "id": "family_pretendard_8388747208782",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_pret_gn82wb",
+          "familyId": "family_pretendard_8388747208782",
+          "filename": "PretendardVariable.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 45,
+              "max": 930,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/PretendardVariable.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Zarathustra",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Lorene Ceccon",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://uncut.wtf/serif/zarathustra/",
+      "sourceUrl": "https://uncut.wtf/serif/zarathustra/",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://uncut.wtf/serif/zarathustra/"
+      },
+      "id": "family_zarathustra_5041052975029",
+      "createdAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_zar_04hmcq",
+          "familyId": "family_zarathustra_5041052975029",
+          "filename": "Zarathustra-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Zarathustra-Regular.woff2",
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-16T18:00:00.000Z"
+  "lastUpdated": "2026-05-16T20:00:00.000Z"
 }
