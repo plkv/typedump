@@ -16725,7 +16725,173 @@
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
       ]
+    },
+    {
+      "name": "Paragon",
+      "collection": "Text",
+      "category": [
+        "Serif"
+      ],
+      "styleTags": [
+        "Modern"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Unknown",
+      "isVariable": false,
+      "published": true,
+      "id": "family_paragon_1778960001000",
+      "createdAt": "2026-05-16T18:00:00.000Z",
+      "updatedAt": "2026-05-16T18:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_1778960001000_c3grrf",
+          "familyId": "",
+          "filename": "Paragon-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paragon-Regular.woff2",
+          "uploadedAt": "2026-05-16T18:00:00.000Z"
+        },
+        {
+          "id": "v_1778960001000_fm78y5",
+          "familyId": "",
+          "filename": "Paragon-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Paragon-Italic.woff2",
+          "uploadedAt": "2026-05-16T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "P-ACR-AGON",
+      "collection": "Display",
+      "category": [
+        "Serif Based"
+      ],
+      "styleTags": [
+        "Stencil",
+        "Modern"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Unknown",
+      "isVariable": false,
+      "published": true,
+      "id": "family_pacragon_1778960002000",
+      "createdAt": "2026-05-16T18:00:00.000Z",
+      "updatedAt": "2026-05-16T18:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_1778960002000_jn9sj7",
+          "familyId": "",
+          "filename": "P-ACR-AGON-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/P-ACR-AGON-Regular.woff2",
+          "uploadedAt": "2026-05-16T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "MuseoModerno",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Bauhaus",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Omnibus Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/Omnibus-Type/MuseoModerno",
+      "sourceUrl": "https://github.com/Omnibus-Type/MuseoModerno",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/Omnibus-Type/MuseoModerno"
+      },
+      "description": "MuseoModerno is a variable geometric display font by Omnibus Type, blending Bauhaus proportions with a modern rationalist sensibility. Supports weight axis from Thin to Black.",
+      "id": "family_museomoderno_1778960003000",
+      "createdAt": "2026-05-16T18:00:00.000Z",
+      "updatedAt": "2026-05-16T18:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_1778960003000_du23ul",
+          "familyId": "",
+          "filename": "MuseoModerno-VariableFont_wght.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/MuseoModerno-VariableFont_wght.woff2",
+          "uploadedAt": "2026-05-16T18:00:00.000Z"
+        },
+        {
+          "id": "v_1778960003000_4mj2qn",
+          "familyId": "",
+          "filename": "MuseoModerno-Italic-VariableFont_wght.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "isDefaultStyle": false,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/MuseoModerno-Italic-VariableFont_wght.woff2",
+          "uploadedAt": "2026-05-16T18:00:00.000Z"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-13T00:00:00.000Z"
+  "lastUpdated": "2026-05-16T18:00:00.000Z"
 }
