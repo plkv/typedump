@@ -401,7 +401,6 @@
       "name": "Host Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
         "Neutral",
         "Geometry"
       ],
@@ -1048,7 +1047,7 @@
       "name": "Switzer",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
+        "Old Face",
         "Neutral"
       ],
       "languages": [
@@ -1272,8 +1271,7 @@
       "name": "Schibsted Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
-        "Neutral"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -1398,7 +1396,8 @@
       "name": "Space Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Tech"
+        "Tech",
+        "Geometry"
       ],
       "languages": [
         "Latin",
@@ -2056,7 +2055,8 @@
       "name": "Zodiak",
       "collection": "Text",
       "styleTags": [
-        "Contrast"
+        "Contrast",
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -2163,7 +2163,8 @@
       "name": "New Century Schoolbook (C095)",
       "collection": "Text",
       "styleTags": [
-        "Vintage"
+        "Modern",
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -2493,7 +2494,7 @@
       "name": "Overused Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
+        "Old Face",
         "Neutral"
       ],
       "languages": [
@@ -2960,7 +2961,7 @@
       "collection": "Display",
       "styleTags": [
         "Contrast",
-        "Old Style"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -3584,9 +3585,7 @@
       "languages": [
         "Latin"
       ],
-      "category": [
-        "Decorative"
-      ],
+      "category": [],
       "foundry": "Fanny Coulez, Julien Saurin",
       "isVariable": false,
       "published": true,
@@ -3634,7 +3633,6 @@
         "Latin"
       ],
       "category": [
-        "Decorative",
         "Pixel",
         "Script"
       ],
@@ -4489,7 +4487,6 @@
       "name": "Uncut Sans",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
         "Curly"
       ],
       "languages": [
@@ -4653,15 +4650,15 @@
       "name": "Block",
       "collection": "Brutal",
       "styleTags": [
-        "Geometry"
+        "Geometry",
+        "Modular"
       ],
       "languages": [
         "Latin",
         "Cyrillic"
       ],
       "category": [
-        "Sans Based",
-        "Decorative"
+        "Sans Based"
       ],
       "foundry": "Alexey Atapin",
       "isVariable": false,
@@ -4705,12 +4702,15 @@
     {
       "name": "Elevatia",
       "collection": "Brutal",
-      "styleTags": [],
+      "styleTags": [
+        "Narrow"
+      ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Mono"
+        "Mono",
+        "Sans Based"
       ],
       "foundry": "GGBotNet",
       "isVariable": false,
@@ -4827,13 +4827,16 @@
     {
       "name": "P95-CYR",
       "collection": "Brutal",
-      "styleTags": [],
+      "styleTags": [
+        "Stroked",
+        "Narrow",
+        "Fatface"
+      ],
       "languages": [
         "Latin",
         "Cyrillic"
       ],
       "category": [
-        "Decorative",
         "Pixel"
       ],
       "foundry": "Unknown",
@@ -5311,7 +5314,6 @@
         "Latin"
       ],
       "category": [
-        "Decorative",
         "Pixel"
       ],
       "foundry": "Eddie Stuart",
@@ -5423,7 +5425,6 @@
         "Latin"
       ],
       "category": [
-        "Decorative",
         "Pixel"
       ],
       "foundry": "Eddie Stuart",
@@ -5787,7 +5788,7 @@
       "collection": "Text",
       "styleTags": [
         "Neutral",
-        "Old Style",
+        "Old Face",
         "Tech",
         "Gill",
         "Multi Style"
@@ -6048,7 +6049,6 @@
       ],
       "category": [
         "Sans Based",
-        "Decorative",
         "Pixel"
       ],
       "foundry": "Raphaël Bastide",
@@ -6164,14 +6164,14 @@
       "name": "Anthony",
       "collection": "Brutal",
       "styleTags": [
-        "Geometry"
+        "Geometry",
+        "Modular"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Sans Based",
-        "Decorative"
+        "Sans Based"
       ],
       "foundry": "Velvetyne Type Foundry",
       "isVariable": false,
@@ -6484,13 +6484,14 @@
     {
       "name": "Pilowlava",
       "collection": "Brutal",
-      "styleTags": [],
+      "styleTags": [
+        "Curly"
+      ],
       "languages": [
         "Latin",
         "Cyrillic"
       ],
       "category": [
-        "Decorative",
         "Script"
       ],
       "foundry": "Anton Moglia, Jérémy Landes, Velvetyne Type Foundry",
@@ -6540,7 +6541,7 @@
               "title": "Stylistic Set 5"
             }
           ],
-          "isDefaultStyle": false,
+          "isDefaultStyle": true,
           "uploadedAt": "2025-09-08T15:57:13.564Z",
           "id": "variant_family_pilowlava_1757807922275_1757807922313",
           "familyId": "family_pilowlava_1757807922275",
@@ -6551,7 +6552,7 @@
         {
           "filename": "Pilowlava-Atome.otf",
           "weight": 400,
-          "styleName": "Regular",
+          "styleName": "Atome",
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
@@ -6614,7 +6615,8 @@
       "name": "Jost",
       "collection": "Text",
       "styleTags": [
-        "Futura"
+        "Futura",
+        "Geometry"
       ],
       "languages": [
         "Latin",
@@ -7344,7 +7346,6 @@
         "Latin"
       ],
       "category": [
-        "Decorative",
         "Pixel"
       ],
       "foundry": "Joao Serafim",
@@ -7661,7 +7662,7 @@
         "Latin"
       ],
       "category": [
-        "Sans"
+        "Sans Based"
       ],
       "foundry": "Cossette Communication Inc.",
       "isVariable": false,
@@ -7902,7 +7903,7 @@
       "name": "Baskervville",
       "collection": "Text",
       "styleTags": [
-        "Vintage"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -8020,8 +8021,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based",
-        "Decorative"
+        "Sans Based"
       ],
       "foundry": "Unknown",
       "isVariable": false,
@@ -8723,8 +8723,10 @@
     },
     {
       "name": "Azeret Mono",
-      "collection": "Text",
-      "styleTags": [],
+      "collection": "Display",
+      "styleTags": [
+        "Curly"
+      ],
       "languages": [
         "Latin"
       ],
@@ -8949,7 +8951,7 @@
       "collection": "Display",
       "styleTags": [
         "Narrow",
-        "Old Style"
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -9016,7 +9018,7 @@
       "name": "Cormorant",
       "collection": "Text",
       "styleTags": [
-        "Old Style"
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -10746,7 +10748,7 @@
       "name": "Cabinet Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
+        "Old Face",
         "Curly"
       ],
       "languages": [
@@ -11313,7 +11315,6 @@
         "Cyrillic"
       ],
       "category": [
-        "Decorative",
         "Serif Based"
       ],
       "foundry": "Liza Dushnota",
@@ -11464,7 +11465,8 @@
       "name": "Hedvig Letters Serif",
       "collection": "Text",
       "styleTags": [
-        "Old Style"
+        "Old Face",
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -11970,7 +11972,9 @@
     {
       "name": "Amiamie",
       "collection": "Text",
-      "styleTags": [],
+      "styleTags": [
+        "New Face"
+      ],
       "languages": [
         "Latin"
       ],
@@ -13116,7 +13120,7 @@
       "name": "Apfel Grotesk",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
+        "Old Face",
         "Curly"
       ],
       "languages": [
@@ -13248,7 +13252,7 @@
       "name": "Apfel Grotezk Brukt",
       "collection": "Brutal",
       "styleTags": [
-        "Old Style",
+        "Old Face",
         "Curly"
       ],
       "languages": [
@@ -13395,7 +13399,7 @@
       "name": "Standard",
       "collection": "Text",
       "styleTags": [
-        "Old Style"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -14003,8 +14007,7 @@
       "name": "Times Newer Roman",
       "collection": "Text",
       "styleTags": [
-        "Old Style",
-        "Vintage"
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -14193,7 +14196,9 @@
     {
       "name": "Knack",
       "collection": "Text",
-      "styleTags": [],
+      "styleTags": [
+        "Neutral"
+      ],
       "languages": [
         "Latin"
       ],
@@ -16038,7 +16043,8 @@
       "name": "SN Pro",
       "collection": "Text",
       "styleTags": [
-        "Rounded"
+        "Rounded",
+        "Neutral"
       ],
       "languages": [
         "Latin"
@@ -16432,6 +16438,292 @@
       "useCases": [
         "Interface",
         "Editorial / Ecommerce"
+      ]
+    },
+    {
+      "name": "Figtree",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Geometry"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Erik D. Kennedy",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/erikdkennedy/figtree",
+      "sourceUrl": "https://github.com/erikdkennedy/figtree",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/erikdkennedy/figtree"
+      },
+      "description": "Figtree is a simple and friendly geometric sans serif font by Erik D. Kennedy. Designed with variable weight support from Light to Black.",
+      "id": "family_figtree_1778941055167",
+      "createdAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "publishedAt": "2022-01-01",
+      "variants": [
+        {
+          "id": "v_1778941055167_s2u3ob",
+          "familyId": "",
+          "filename": "Figtree[wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Figtree[wght].woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        },
+        {
+          "id": "v_1778941055167_07fr1u",
+          "familyId": "",
+          "filename": "Figtree-Italic[wght].woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "isDefaultStyle": false,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Figtree-Italic[wght].woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        }
+      ]
+    },
+    {
+      "name": "Frick",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Fatface",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Dennis Grauel",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/dennisgrauel/Frick",
+      "sourceUrl": "https://github.com/dennisgrauel/Frick",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/dennisgrauel/Frick"
+      },
+      "description": "Frick is an all-uppercase headline typeface by Dennis Grauel, available in Regular and Condensed widths. Bold and expressive with a strong graphic character.",
+      "id": "family_frick_1778941055167",
+      "createdAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "publishedAt": "2023-01-01",
+      "variants": [
+        {
+          "id": "v_1778941055167_w2ya1x",
+          "familyId": "",
+          "filename": "Frick0.3-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Frick0.3-Regular.woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        },
+        {
+          "id": "v_1778941055167_4vxr4n",
+          "familyId": "",
+          "filename": "Frick0.3-Condensed.woff2",
+          "weight": 400,
+          "styleName": "Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Frick0.3-Condensed.woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        }
+      ]
+    },
+    {
+      "name": "Lineal",
+      "collection": "Brutal",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Geometry",
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Frank Adebiaye, Anton Moglia, Velvetyne Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://gitlab.com/velvetyne/lineal",
+      "sourceUrl": "https://gitlab.com/velvetyne/lineal",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://velvetyne.fr/fonts/lineal/"
+      },
+      "description": "Lineal is a libre geometric sans inspired by Futura, built with modules and no optical corrections. Initiated by Frank Adebiaye in 2010 and substantially updated by Anton Moglia since 2019, with help from Ariel Martín Pérez. Released by Velvetyne Type Foundry.",
+      "id": "family_lineal_1778941055167",
+      "createdAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "publishedAt": "2011-02-01",
+      "variants": [
+        {
+          "id": "v_1778941055167_wvmyzs",
+          "familyId": "",
+          "filename": "LinealVF.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/LinealVF.woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        }
+      ]
+    },
+    {
+      "name": "National Park",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Rounded",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Jeremy Shellhorn",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/nationalparktypeface/NationalPark",
+      "sourceUrl": "https://github.com/nationalparktypeface/NationalPark",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/nationalparktypeface/NationalPark"
+      },
+      "description": "National Park is a variable sans serif typeface inspired by the signage lettering used in US national parks. Friendly and legible with a distinct rounded warmth.",
+      "id": "family_nationalpark_1778941055167",
+      "createdAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "publishedAt": "2020-01-01",
+      "variants": [
+        {
+          "id": "v_1778941055167_sqkb99",
+          "familyId": "",
+          "filename": "NationalPark-VariableVF.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/NationalPark-VariableVF.woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        }
+      ]
+    },
+    {
+      "name": "Whois Mono",
+      "collection": "Text",
+      "category": [
+        "Mono"
+      ],
+      "styleTags": [],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "Raphaël Bastide",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/raphaelbastide/Whois-mono",
+      "sourceUrl": "https://github.com/raphaelbastide/Whois-mono",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/raphaelbastide/Whois-mono"
+      },
+      "description": "Whois Mono is a simple monospace font by Raphaël Bastide.",
+      "id": "family_whoismono_1778941055167",
+      "createdAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "publishedAt": "2015-01-01",
+      "variants": [
+        {
+          "id": "v_1778941055167_y0ee3t",
+          "familyId": "",
+          "filename": "whois-mono.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/whois-mono.woff2",
+          "uploadedAt": "2026-05-16T14:17:35.166Z"
+        }
       ]
     }
   ],
