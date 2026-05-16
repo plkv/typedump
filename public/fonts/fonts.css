@@ -644,8 +644,6 @@
 @font-face{font-family:"DT-Getai-Grotesk-70d262__v_414f34";src:url("/fonts/DTGetaiGroteskDisplay-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-Nightingale-918b5d";src:url("/fonts/DTNightingale-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-Nightingale-918b5d__v_36bcd2";src:url("/fonts/DTNightingale-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
-@font-face{font-family:"DT-Nouveau-90edbb";src:url("/fonts/DTNouveau-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"DT-Nouveau-90edbb__v_8adffd";src:url("/fonts/DTNouveau-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-World-Tour-198688";src:url("/fonts/DTWorldTour-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-World-Tour-198688__v_368bfe";src:url("/fonts/DTWorldTour-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"FFF-Azadliq-36f730";src:url("/fonts/FFF_AZADLIQ-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
@@ -656,12 +654,10 @@
 @font-face{font-family:"FFF-Nepsza-Badsag-4434dd__v_590b2d";src:url("/fonts/FFF_NEPSZA-BADSAG-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"FFF-Oezguer-Guendem-20ac11";src:url("/fonts/FFF_Oezguer-Guendem-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"FFF-Oezguer-Guendem-20ac11__v_c33bdf";src:url("/fonts/FFF_Oezguer-Guendem-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-HK-7b2e55";src:url("/fonts/FFF_HK-PlainForeground.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-HK-7b2e55__v_2b6505";src:url("/fonts/FFF_HK-PlainForeground.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Tuoi-Tre-41b7e9";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Tuoi-Tre-41b7e9__v_09268a";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Tuoi-Tre-41b7e9";src:url("/fonts/FFF_tuoi-tre-Text.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Tuoi-Tre-41b7e9__v_f4623d";src:url("/fonts/FFF_tuoi-tre-Text.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tuoi-Tre-9072de";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tuoi-Tre-9072de__v_09268a";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tuoi-Tre-9072de";src:url("/fonts/FFF_tuoi-tre-Text.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tuoi-Tre-9072de__v_f4623d";src:url("/fonts/FFF_tuoi-tre-Text.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Inclusive-Sans-9da80b";src:url("/fonts/InclusiveSans-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"Inclusive-Sans-9da80b__v_664bac";src:url("/fonts/InclusiveSans-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"Inclusive-Sans-9da80b";src:url("/fonts/InclusiveSans-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}

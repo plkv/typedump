@@ -16603,13 +16603,13 @@
     },
     {
       "name": "DT Dumpling Display",
-      "collection": "Display",
+      "collection": "Brutal",
       "category": [
         "Sans Based"
       ],
       "styleTags": [
-        "Rounded",
-        "Fatface"
+        "Fatface",
+        "Multi Style"
       ],
       "languages": [
         "Latin"
@@ -16652,8 +16652,8 @@
         "Sans"
       ],
       "styleTags": [
-        "Wide",
-        "Sharp"
+        "Inktrap",
+        "Fatface"
       ],
       "languages": [
         "Latin"
@@ -16734,56 +16734,13 @@
       ]
     },
     {
-      "name": "DT Nouveau",
-      "collection": "Display",
-      "category": [
-        "Serif Based"
-      ],
-      "styleTags": [
-        "Vintage"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "foundry": "DOT®",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://deathoftypography.com/nouveau/",
-      "sourceUrl": "https://deathoftypography.com/nouveau/",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://deathoftypography.com/nouveau/"
-      },
-      "id": "family_dt_nouveau_9703337829358",
-      "createdAt": "2026-05-16T20:00:00.000Z",
-      "updatedAt": "2026-05-16T20:00:00.000Z",
-      "variants": [
-        {
-          "id": "v_dt_nouv_w66f3e",
-          "familyId": "family_dt_nouveau_9703337829358",
-          "filename": "DTNouveau-Regular.woff2",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "isDefaultStyle": true,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "format": "woff2",
-          "url": "/fonts/DTNouveau-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
-        }
-      ]
-    },
-    {
       "name": "DT World Tour",
       "collection": "Display",
       "category": [
         "Sans Based"
       ],
       "styleTags": [
-        "Wide"
+        "Banded"
       ],
       "languages": [
         "Latin"
@@ -16993,55 +16950,16 @@
       ]
     },
     {
-      "name": "FFF HK",
-      "collection": "Display",
-      "category": [
-        "Sans"
-      ],
-      "styleTags": [
-        "Sharp"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "foundry": "bBox Type GmbH",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://carrois.com/typefaces/custom/FFF/",
-      "sourceUrl": "https://carrois.com/typefaces/custom/FFF/",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://carrois.com/typefaces/custom/FFF/"
-      },
-      "id": "family_fff_hk_6791778813043",
-      "createdAt": "2026-05-16T20:00:00.000Z",
-      "updatedAt": "2026-05-16T20:00:00.000Z",
-      "variants": [
-        {
-          "id": "v_fff_hk_pm89hy",
-          "familyId": "family_fff_hk_6791778813043",
-          "filename": "FFF_HK-PlainForeground.woff2",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "isDefaultStyle": true,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "format": "woff2",
-          "url": "/fonts/FFF_HK-PlainForeground.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "name": "FFF Tuoi Tre",
-      "collection": "Display",
+      "name": "Tuoi Tre",
+      "collection": "Brutal",
       "category": [
         "Serif Based"
       ],
-      "styleTags": [],
+      "styleTags": [
+        "Geometry",
+        "Sharp",
+        "Fatface"
+      ],
       "languages": [
         "Latin"
       ],
@@ -17254,7 +17172,8 @@
         "Sans"
       ],
       "styleTags": [
-        "Narrow"
+        "Narrow",
+        "Fatface"
       ],
       "languages": [
         "Latin"
@@ -17388,7 +17307,7 @@
         "Sans"
       ],
       "styleTags": [
-        "Neutral"
+        "Vintage"
       ],
       "languages": [
         "Latin"
@@ -17479,7 +17398,7 @@
         "Sans"
       ],
       "styleTags": [
-        "Neutral"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -17552,7 +17471,7 @@
         "Serif"
       ],
       "styleTags": [
-        "Contrast"
+        "Sharp"
       ],
       "languages": [
         "Latin"
@@ -17803,7 +17722,9 @@
         "Serif Based"
       ],
       "styleTags": [
-        "Contrast"
+        "Vintage",
+        "Narrow",
+        "Fatface"
       ],
       "languages": [
         "Latin"
@@ -17846,7 +17767,8 @@
         "Sans Based"
       ],
       "styleTags": [
-        "Modular"
+        "Curly",
+        "Sharp"
       ],
       "languages": [
         "Latin"
@@ -17889,7 +17811,7 @@
         "Serif Based"
       ],
       "styleTags": [
-        "Vintage"
+        "Calligraphy"
       ],
       "languages": [
         "Latin"
@@ -17929,10 +17851,10 @@
       "name": "Coconat",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Semi Serif"
       ],
       "styleTags": [
-        "Contrast"
+        "Banded"
       ],
       "languages": [
         "Latin"
@@ -18002,13 +17924,13 @@
     },
     {
       "name": "Instrument Serif",
-      "collection": "Text",
+      "collection": "Display",
       "category": [
-        "Serif"
+        "Serif Based"
       ],
       "styleTags": [
-        "Modern",
-        "Neutral"
+        "Narrow",
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -18153,12 +18075,12 @@
     },
     {
       "name": "Luperca",
-      "collection": "Text",
+      "collection": "Display",
       "category": [
-        "Serif"
+        "Serif Based"
       ],
       "styleTags": [
-        "Contrast"
+        "Sharp"
       ],
       "languages": [
         "Latin"
@@ -18262,10 +18184,10 @@
       "name": "Manosque",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Script"
       ],
       "styleTags": [
-        "Vintage"
+        "Fatface"
       ],
       "languages": [
         "Latin"
@@ -18303,12 +18225,12 @@
     },
     {
       "name": "Opening Hours Mono",
-      "collection": "Text",
+      "collection": "Brutal",
       "category": [
         "Mono"
       ],
       "styleTags": [
-        "Modular"
+        "Pixel"
       ],
       "languages": [
         "Latin"
