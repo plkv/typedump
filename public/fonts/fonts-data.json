@@ -10455,16 +10455,15 @@
     },
     {
       "name": "Cabinet Grotesk",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
-        "Old Face",
-        "Curly"
+        "Inktrap"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Sans"
+        "Sans Based"
       ],
       "foundry": "Shiva Nallaperumal, Indian Type Foundry",
       "isVariable": true,
