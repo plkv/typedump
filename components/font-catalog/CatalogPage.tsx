@@ -162,6 +162,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const heroRef = useRef<HTMLDivElement>(null)
   const mainRef = useRef<HTMLElement>(null)
   const catalogCardsRef = useRef<HTMLDivElement>(null)
+  const injectedFontIdsRef = useRef<Set<number>>(new Set())
+  const fontObserverRef = useRef<IntersectionObserver | null>(null)
   const [focusedFontId, setFocusedFontId] = useState<number | null>(null)
 
 
@@ -323,6 +325,43 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       styleElement.setAttribute('data-font-css', 'true')
       styleElement.textContent = fontCSS
       document.head.appendChild(styleElement)
+    }
+  }, [])
+
+  // Inject @font-face CSS for a single font — called lazily when card enters viewport
+  const injectSingleFontCSS = useCallback((font: FontData) => {
+    if (injectedFontIdsRef.current.has(font.id)) return
+    injectedFontIdsRef.current.add(font.id)
+
+    const isVar = font.type === 'Variable' || !!(font.variableAxes?.length)
+    let css = ''
+
+    if (font._familyFonts && font._familyFonts.length > 0 && !isVar) {
+      css = font._familyFonts.map((ff: any) => {
+        const alias = ff.cssFamily
+        if (!alias) return ''
+        const italic = ff.isItalic || (ff.style || '').toLowerCase().includes('italic')
+        const src = ff.url || ff.blobUrl || `/fonts/${ff.filename}`
+        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
+      }).filter(Boolean).join('\n')
+    } else if (isVar) {
+      const src = font.url || `/fonts/${font.filename}`
+      const wMin = font.availableWeights?.[0] ?? 100
+      const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
+      const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
+      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:swap;}`
+    } else {
+      const src = font.url || `/fonts/${font.filename}`
+      const alias = font._familyFonts?.[0]?.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
+      const italic = (font.style || '').toLowerCase().includes('italic')
+      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
+    }
+
+    if (css.trim()) {
+      const el = document.createElement('style')
+      el.setAttribute('data-font-css', String(font.id))
+      el.textContent = css
+      document.head.appendChild(el)
     }
   }, [])
 
@@ -1050,9 +1089,9 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
 
   // Load fonts only if not provided by server (fallback)
+  // When initialFonts are present, @font-face is injected lazily via IntersectionObserver below
   useEffect(() => {
     if (initialFonts.length === 0) loadFonts()
-    else loadFontCSS(initialFonts)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -1065,39 +1104,54 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }, [])
 
 
-  // Track font loading for individual fonts
+  // IntersectionObserver: inject @font-face and load font only when card enters viewport
+  useEffect(() => {
+    fontObserverRef.current?.disconnect()
+
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue
+        const fontId = Number((entry.target as HTMLElement).dataset.cardId)
+        const font = fonts.find(f => f.id === fontId)
+        if (!font || injectedFontIdsRef.current.has(font.id)) continue
+        injectSingleFontCSS(font)
+        observer.unobserve(entry.target)
+        const cssFamily = fontWeightSelections[font.id]?.cssFamily || font.fontFamily
+        document.fonts.load(`16px "${cssFamily}"`).then(() => {
+          setLoadedFonts(prev => new Set(prev).add(font.id))
+        }).catch(() => {
+          setLoadedFonts(prev => new Set(prev).add(font.id))
+        })
+      }
+    }, { rootMargin: '400px 0px', threshold: 0 })
+
+    fontObserverRef.current = observer
+    document.querySelectorAll('[data-card-id]').forEach(el => {
+      const id = Number((el as HTMLElement).dataset.cardId)
+      if (!injectedFontIdsRef.current.has(id)) observer.observe(el)
+    })
+
+    return () => observer.disconnect()
+  // Re-run when font list or filter state changes so new cards get observed
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fonts, injectSingleFontCSS, fontWeightSelections, selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedFeatures, selectedAuthor, previewWeight, sortBy])
+
+  // Re-check load state when style selection changes for already-injected fonts
   useEffect(() => {
     if (!fonts || fonts.length === 0) return
-
-    const checkFontLoaded = async (font: FontData) => {
-      try {
-        // Get the CSS family name from font selection or default
-        const fontSelection = fontWeightSelections[font.id]
-        const cssFamily = fontSelection?.cssFamily || font.fontFamily
-
-        if (!cssFamily) {
-          // If no cssFamily, mark as loaded immediately
+    fonts
+      .filter(f => injectedFontIdsRef.current.has(f.id) && !loadedFonts.has(f.id))
+      .forEach(async (font) => {
+        try {
+          const cssFamily = fontWeightSelections[font.id]?.cssFamily || font.fontFamily
+          if (!cssFamily) { setLoadedFonts(prev => new Set(prev).add(font.id)); return }
+          const fontSpec = `16px "${cssFamily}"`
+          if (!document.fonts.check(fontSpec)) await document.fonts.load(fontSpec)
           setLoadedFonts(prev => new Set(prev).add(font.id))
-          return
+        } catch {
+          setLoadedFonts(prev => new Set(prev).add(font.id))
         }
-
-        // Load this specific font only — don't block on document.fonts.ready (waits for all 150+)
-        const fontSpec = `16px "${cssFamily}"`
-        if (!document.fonts.check(fontSpec)) {
-          await document.fonts.load(fontSpec)
-        }
-        setLoadedFonts(prev => new Set(prev).add(font.id))
-      } catch (error) {
-        // On error, mark as loaded anyway to remove shimmer
-        setLoadedFonts(prev => new Set(prev).add(font.id))
-      }
-    }
-
-    // Check all fonts that aren't already marked as loaded
-    const fontsToCheck = fonts.filter(font => !loadedFonts.has(font.id))
-    fontsToCheck.forEach(font => {
-      checkFontLoaded(font)
-    })
+      })
   }, [fonts, fontWeightSelections, loadedFonts])
 
   // Track fonts that should be animated (only on first load)
