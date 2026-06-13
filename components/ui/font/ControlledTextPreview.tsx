@@ -47,6 +47,8 @@ export const ControlledTextPreview = forwardRef<
     try {
       // Set cursor position
       if ('setSelectionRange' in element) {
+        // Don't collapse an active range selection (e.g. user selected all text)
+        if ((element.selectionEnd ?? 0) > (element.selectionStart ?? 0)) return
         const safePosition = Math.min(cursorPosition, value.length)
         element.setSelectionRange(safePosition, safePosition)
       }
