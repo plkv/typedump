@@ -804,6 +804,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       if (el) {
         try {
           el.focus({ preventScroll: true })
+          // Don't collapse an active range selection (e.g. user selected all text)
+          if ((el.selectionEnd ?? 0) > (el.selectionStart ?? 0)) return
           const pos = Math.min(textCursorPosition[focusedFontId] || 0, el.value.length)
           el.setSelectionRange(pos, pos)
         } catch {}
