@@ -18265,11 +18265,11 @@
       "foundry": "Dmitry Grenev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Akt",
-      "sourceUrl": "https://fonts.google.com/specimen/Akt",
+      "downloadLink": "https://github.com/dimgrenev/akt",
+      "sourceUrl": "https://github.com/dimgrenev/akt",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Akt"
+        "url": "https://github.com/dimgrenev/akt"
       },
       "id": "family_akt_7200000000000",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18343,11 +18343,11 @@
       "foundry": "FontBob",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Geomini",
-      "sourceUrl": "https://fonts.google.com/specimen/Geomini",
+      "downloadLink": "https://fontbob.com/geomini",
+      "sourceUrl": "https://fontbob.com/geomini",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Geomini"
+        "url": "https://fontbob.com/geomini"
       },
       "id": "family_geomini_7200000000002",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18397,11 +18397,11 @@
       "foundry": "Andrés Briganti, Evil Rabbit, Guillermo Rauch",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Geist+Pixel",
-      "sourceUrl": "https://fonts.google.com/specimen/Geist+Pixel",
+      "downloadLink": "https://vercel.com/font",
+      "sourceUrl": "https://vercel.com/font",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Geist+Pixel"
+        "url": "https://vercel.com/font"
       },
       "id": "family_geist_pixel_7200000000004",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18484,11 +18484,11 @@
       "foundry": "Non Foundry, Jona Saucedo",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Pliant",
-      "sourceUrl": "https://fonts.google.com/specimen/Pliant",
+      "downloadLink": "https://github.com/TheJonassss/Pliant",
+      "sourceUrl": "https://github.com/TheJonassss/Pliant",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Pliant"
+        "url": "https://github.com/TheJonassss/Pliant"
       },
       "id": "family_pliant_7200000000006",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18590,11 +18590,11 @@
       "foundry": "Helsinki Type Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Finlandica+Text",
-      "sourceUrl": "https://fonts.google.com/specimen/Finlandica+Text",
+      "downloadLink": "https://github.com/HelsinkiTypeStudio/FinlandicaText",
+      "sourceUrl": "https://github.com/HelsinkiTypeStudio/FinlandicaText",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Finlandica+Text"
+        "url": "https://github.com/HelsinkiTypeStudio/FinlandicaText"
       },
       "id": "family_finlandica_text_7200000000009",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18681,11 +18681,11 @@
       "foundry": "René Bieder",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Strichpunkt+Sans",
-      "sourceUrl": "https://fonts.google.com/specimen/Strichpunkt+Sans",
+      "downloadLink": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
+      "sourceUrl": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fonts.google.com/specimen/Strichpunkt+Sans"
+        "url": "https://github.com/strichpunkt-design/Strichpunkt_Sans"
       },
       "id": "family_strichpunkt_sans_7200000000012",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -18770,5 +18770,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-12T21:00:00.000Z"
+  "lastUpdated": "2026-07-12T21:15:00.000Z"
 }
