@@ -3991,7 +3991,6 @@
       "name": "Commissioner",
       "collection": "Text",
       "styleTags": [
-        "Curly",
         "Neutral",
         "Gill"
       ],
@@ -5789,8 +5788,7 @@
         "Neutral",
         "Old Face",
         "Tech",
-        "Gill",
-        "Multi Style"
+        "Gill"
       ],
       "languages": [
         "Latin",
@@ -18770,5 +18768,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-12T21:15:00.000Z"
+  "lastUpdated": "2026-07-12T21:30:00.000Z"
 }
