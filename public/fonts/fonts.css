@@ -646,14 +646,6 @@
 @font-face{font-family:"DT-Nightingale-918b5d__v_36bcd2";src:url("/fonts/DTNightingale-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-World-Tour-198688";src:url("/fonts/DTWorldTour-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"DT-World-Tour-198688__v_368bfe";src:url("/fonts/DTWorldTour-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Azadliq-36f730";src:url("/fonts/FFF_AZADLIQ-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Azadliq-36f730__v_91fde0";src:url("/fonts/FFF_AZADLIQ-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Magyar-Nemzet-f71890";src:url("/fonts/FFF_Magyar-Nemzet-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Magyar-Nemzet-f71890__v_e8e53b";src:url("/fonts/FFF_Magyar-Nemzet-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Nepsza-Badsag-4434dd";src:url("/fonts/FFF_NEPSZA-BADSAG-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Nepsza-Badsag-4434dd__v_590b2d";src:url("/fonts/FFF_NEPSZA-BADSAG-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Oezguer-Guendem-20ac11";src:url("/fonts/FFF_Oezguer-Guendem-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"FFF-Oezguer-Guendem-20ac11__v_c33bdf";src:url("/fonts/FFF_Oezguer-Guendem-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Tuoi-Tre-9072de";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Tuoi-Tre-9072de__v_09268a";src:url("/fonts/FFF_tuoi-tre-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Tuoi-Tre-9072de";src:url("/fonts/FFF_tuoi-tre-Text.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -768,3 +760,19 @@
 @font-face{font-family:"Pretendard-e436c1__v_0ee0c0";src:url("/fonts/PretendardVariable.woff2") format("woff2");font-weight:45 930;font-style:normal;font-display:swap;}
 @font-face{font-family:"Zarathustra-cb8217";src:url("/fonts/Zarathustra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Zarathustra-cb8217__v_67067d";src:url("/fonts/Zarathustra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Akt-3a6036";src:url("/fonts/Akt[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Akt-3a6036__v_b8326e";src:url("/fonts/Akt[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Geomini-703027";src:url("/fonts/Geomini[wght].woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Geomini-703027__v_f27537";src:url("/fonts/Geomini[wght].woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Geist-Pixel-488c00";src:url("/fonts/GeistPixel[ELSH].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Geist-Pixel-488c00__v_d892f8";src:url("/fonts/GeistPixel[ELSH].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Pliant-7d647e";src:url("/fonts/Pliant[wdth,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Pliant-7d647e__v_f264b4";src:url("/fonts/Pliant[wdth,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Pliant-7d647e";src:url("/fonts/Pliant-Italic[wdth,wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Pliant-7d647e__v_1f5558";src:url("/fonts/Pliant-Italic[wdth,wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Finlandica-Text-0cd2df";src:url("/fonts/FinlandicaText[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Finlandica-Text-0cd2df__v_1ba2d8";src:url("/fonts/FinlandicaText[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Finlandica-Text-0cd2df";src:url("/fonts/FinlandicaText-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Finlandica-Text-0cd2df__v_769cb7";src:url("/fonts/FinlandicaText-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Strichpunkt-Sans-717be0";src:url("/fonts/StrichpunktSans[wdth,wght].woff2") format("woff2");font-weight:400 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Strichpunkt-Sans-717be0__v_24fac7";src:url("/fonts/StrichpunktSans[wdth,wght].woff2") format("woff2");font-weight:400 900;font-style:normal;font-display:swap;}

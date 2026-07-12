@@ -18247,7 +18247,482 @@
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
       ]
+    },
+    {
+      "name": "Akt",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "foundry": "Dmitry Grenev",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Akt",
+      "sourceUrl": "https://fonts.google.com/specimen/Akt",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Akt"
+      },
+      "id": "family_akt_7200000000000",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_akt_000001",
+          "familyId": "family_akt_7200000000000",
+          "filename": "Akt[wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Flat-tailed"
+            },
+            {
+              "tag": "ss02",
+              "title": "Tailed"
+            },
+            {
+              "tag": "ss03",
+              "title": "No-tailed"
+            },
+            {
+              "tag": "ss04",
+              "title": "Akzidenz"
+            },
+            {
+              "tag": "ss05",
+              "title": "Historic"
+            },
+            {
+              "tag": "ss06",
+              "title": "Experimental"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/Akt[wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Geomini",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Geometry",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "foundry": "FontBob",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Geomini",
+      "sourceUrl": "https://fonts.google.com/specimen/Geomini",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Geomini"
+      },
+      "id": "family_geomini_7200000000002",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_geomini_000003",
+          "familyId": "family_geomini_7200000000002",
+          "filename": "Geomini[wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 200
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/Geomini[wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Geist Pixel",
+      "collection": "Display",
+      "category": [
+        "Pixel"
+      ],
+      "styleTags": [
+        "Tech"
+      ],
+      "languages": [
+        "Latin",
+        "Greek",
+        "Vietnamese"
+      ],
+      "foundry": "Andrés Briganti, Evil Rabbit, Guillermo Rauch",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Geist+Pixel",
+      "sourceUrl": "https://fonts.google.com/specimen/Geist+Pixel",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Geist+Pixel"
+      },
+      "id": "family_geist_pixel_7200000000004",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_geistpixel_000005",
+          "familyId": "family_geist_pixel_7200000000004",
+          "filename": "GeistPixel[ELSH].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Element Shape",
+              "tag": "ELSH",
+              "axis": "ELSH",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "No tail a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt l"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alt I"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alt G"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alt numbers"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/GeistPixel[ELSH].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Pliant",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Modern"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "foundry": "Non Foundry, Jona Saucedo",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Pliant",
+      "sourceUrl": "https://fonts.google.com/specimen/Pliant",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Pliant"
+      },
+      "id": "family_pliant_7200000000006",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_pliant_000007",
+          "familyId": "family_pliant_7200000000006",
+          "filename": "Pliant[wdth,wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 100,
+              "max": 125,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate Constructions"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/Pliant[wdth,wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        },
+        {
+          "id": "v_pliant_it_000008",
+          "familyId": "family_pliant_7200000000006",
+          "filename": "Pliant-Italic[wdth,wght].woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "isDefaultStyle": false,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 100,
+              "max": 125,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate Constructions"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/Pliant-Italic[wdth,wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Finlandica Text",
+      "collection": "Text",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "foundry": "Helsinki Type Studio",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Finlandica+Text",
+      "sourceUrl": "https://fonts.google.com/specimen/Finlandica+Text",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Finlandica+Text"
+      },
+      "id": "family_finlandica_text_7200000000009",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_finlandicatext_000010",
+          "familyId": "family_finlandica_text_7200000000009",
+          "filename": "FinlandicaText[wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 500
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "No Serifs"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/FinlandicaText[wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        },
+        {
+          "id": "v_finlandicatext_it_000011",
+          "familyId": "family_finlandica_text_7200000000009",
+          "filename": "FinlandicaText-Italic[wght].woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "isDefaultStyle": false,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 500
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "No Serifs"
+            }
+          ],
+          "format": "woff2",
+          "url": "/fonts/FinlandicaText-Italic[wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Strichpunkt Sans",
+      "collection": "Display",
+      "category": [
+        "Sans"
+      ],
+      "styleTags": [
+        "Wide"
+      ],
+      "languages": [
+        "Latin",
+        "Greek",
+        "Vietnamese"
+      ],
+      "foundry": "René Bieder",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fonts.google.com/specimen/Strichpunkt+Sans",
+      "sourceUrl": "https://fonts.google.com/specimen/Strichpunkt+Sans",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fonts.google.com/specimen/Strichpunkt+Sans"
+      },
+      "id": "family_strichpunkt_sans_7200000000012",
+      "createdAt": "2026-07-12T20:00:00.000Z",
+      "updatedAt": "2026-07-12T20:00:00.000Z",
+      "variants": [
+        {
+          "id": "v_strichpunktsans_000013",
+          "familyId": "family_strichpunkt_sans_7200000000012",
+          "filename": "StrichpunktSans[wdth,wght].woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "isDefaultStyle": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 100,
+              "max": 200,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/StrichpunktSans[wdth,wght].woff2",
+          "uploadedAt": "2026-07-12T20:00:00.000Z"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-16T20:00:00.000Z"
+  "lastUpdated": "2026-07-12T20:00:00.000Z"
 }

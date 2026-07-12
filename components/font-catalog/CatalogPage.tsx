@@ -1112,6 +1112,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   useEffect(() => {
     fontObserverRef.current?.disconnect()
 
+    const reveal = (id: number) => setLoadedFonts(prev => new Set(prev).add(id))
     const observer = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (!entry.isIntersecting) continue
@@ -1120,12 +1121,15 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         if (!font || injectedFontIdsRef.current.has(font.id)) continue
         injectSingleFontCSS(font)
         observer.unobserve(entry.target)
-        const cssFamily = fontWeightSelections[font.id]?.cssFamily || font.fontFamily
-        document.fonts.load(`16px "${cssFamily}"`).then(() => {
-          setLoadedFonts(prev => new Set(prev).add(font.id))
-        }).catch(() => {
-          setLoadedFonts(prev => new Set(prev).add(font.id))
-        })
+        // Build a valid font shorthand: a bare cssFamily alias needs quoting,
+        // while font.fontFamily is already a fully-quoted family list.
+        try {
+          const bare = fontWeightSelections[font.id]?.cssFamily
+          const spec = bare ? `16px "${bare}"` : `16px ${font.fontFamily}`
+          document.fonts.load(spec).then(() => reveal(font.id)).catch(() => reveal(font.id))
+        } catch {
+          reveal(font.id)
+        }
       }
     }, { rootMargin: '400px 0px', threshold: 0 })
 
@@ -1147,9 +1151,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       .filter(f => injectedFontIdsRef.current.has(f.id) && !loadedFonts.has(f.id))
       .forEach(async (font) => {
         try {
-          const cssFamily = fontWeightSelections[font.id]?.cssFamily || font.fontFamily
-          if (!cssFamily) { setLoadedFonts(prev => new Set(prev).add(font.id)); return }
-          const fontSpec = `16px "${cssFamily}"`
+          const bare = fontWeightSelections[font.id]?.cssFamily
+          const fontSpec = bare ? `16px "${bare}"` : `16px ${font.fontFamily}`
           if (!document.fonts.check(fontSpec)) await document.fonts.load(fontSpec)
           setLoadedFonts(prev => new Set(prev).add(font.id))
         } catch {
