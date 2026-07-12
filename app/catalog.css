@@ -1,5 +1,23 @@
 /* V2 Catalog Design System */
 
+/* Interface font — trial: Pliant (variable) replacing Inter */
+@font-face {
+  font-family: "Pliant";
+  src: url("/fonts/Pliant[wdth,wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 100% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pliant";
+  src: url("/fonts/Pliant-Italic[wdth,wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 100% 125%;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   /* Primary action colors — reference gray tokens, no hardcoded hex */
   --v2-active-bg: var(--gray-cont-prim);
@@ -84,7 +102,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Inter Variable", sans-serif;
+  font-family: "Pliant", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -113,7 +131,7 @@
   border-radius: var(--radius-component);
   padding: 10px 12px;
   height: 40px;
-  font-family: "Inter Variable", sans-serif;
+  font-family: "Pliant", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -124,11 +142,28 @@
   padding: 3px 8px;
   border-radius: var(--radius-component);
   border: 1px solid var(--gray-brd-prim);
-  font-family: "Inter Variable", sans-serif;
+  font-family: "Pliant", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
   color: var(--gray-cont-sec);
+}
+
+.v2-tag-clickable {
+  cursor: pointer;
+  appearance: none;
+  background: transparent;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+.v2-tag-clickable:hover {
+  border-color: var(--gray-cont-tert);
+  color: var(--gray-cont-prim);
+}
+.v2-tag-active,
+.v2-tag-active:hover {
+  background-color: var(--gray-cont-prim);
+  border-color: var(--gray-cont-prim);
+  color: var(--v2-card-bg);
 }
 
 .v2-card {
@@ -151,7 +186,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Inter Variable", sans-serif;
+  font-family: "Pliant", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -453,7 +488,7 @@
 }
 
 .catalog-hero-text {
-  font-family: "Inter Variable", sans-serif;
+  font-family: "Pliant", sans-serif;
   font-size: 28px;
   line-height: 32px;
   font-weight: 500;
@@ -475,6 +510,23 @@
 .hero-line {
   opacity: 0;
   animation: heroFadeUp 0.5s ease forwards;
+}
+
+/* Soft word-by-word reveal for the intro paragraph */
+@keyframes heroWordReveal {
+  from { opacity: 0; filter: blur(7px); transform: translateY(0.14em); }
+  to   { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+
+.hero-word {
+  display: inline-block;
+  opacity: 0;
+  animation: heroWordReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity, filter, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-word { animation-duration: 0.001s; filter: none; transform: none; }
 }
 
 .hero-buttons-reveal {

@@ -151,10 +151,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         // Static fonts register variant-level aliases (alias__v_hash) which don't match fontFamily.
         const pool = candidates.filter(f => f.type === 'Variable')
         const pick = (pool.length ? pool : candidates)[Math.floor(Math.random() * (pool.length || candidates.length))]
-        previewFontsRef.current[collection] = pick?.fontFamily || "Inter Variable, system-ui, sans-serif"
+        previewFontsRef.current[collection] = pick?.fontFamily || "Pliant, system-ui, sans-serif"
       }
     }
-    return previewFontsRef.current[collection] || "Inter Variable, system-ui, sans-serif"
+    return previewFontsRef.current[collection] || "Pliant, system-ui, sans-serif"
   }
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
@@ -573,6 +573,22 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const toggleStyle = (style: string) => {
     setSelectedStyles((prev) => (prev.includes(style) ? prev.filter((s) => s !== style) : [...prev, style]))
   }
+
+  const toggleCollection = (collection: string) => {
+    setSelectedCollections((prev) => (prev.includes(collection) ? prev.filter((c) => c !== collection) : [...prev, collection]))
+  }
+
+  // Clicking a tag on a card toggles the matching filter
+  const handleTagFilter = (kind: 'collection' | 'category' | 'style', value: string) => {
+    if (kind === 'collection') toggleCollection(value)
+    else if (kind === 'category') toggleCategory(value)
+    else toggleStyle(value)
+  }
+
+  const isTagActive = (kind: 'collection' | 'category' | 'style', value: string) =>
+    kind === 'collection' ? selectedCollections.includes(value)
+    : kind === 'category' ? selectedCategories.includes(value)
+    : selectedStyles.includes(value)
 
 
 
@@ -1224,9 +1240,25 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         <div ref={heroRef} className="catalog-hero px-2">
           <div className="catalog-hero-content">
             <p className="catalog-hero-text">
-              <span className="hero-line" style={{ animationDelay: '0.05s' }}><span style={{ color: 'var(--gray-cont-tert)' }}>TypeDump</span> is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. </span><span className="hero-line" style={{ animationDelay: '0.35s' }}>Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. </span><span className="hero-line" style={{ animationDelay: '0.65s' }}>Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free.</span>
+              {(() => {
+                const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free."
+                const words = intro.split(' ')
+                const base = 0.08, step = 0.022
+                return words.flatMap((w, i) => {
+                  const el = (
+                    <span
+                      key={`w${i}`}
+                      className="hero-word"
+                      style={{ animationDelay: `${(base + i * step).toFixed(3)}s`, ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null) }}
+                    >
+                      {w}
+                    </span>
+                  )
+                  return i < words.length - 1 ? [el, ' '] : [el]
+                })
+              })()}
             </p>
-            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: '0.95s' }}>
+            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: '1.35s' }}>
               <a
                 href="https://www.npmjs.com/package/typedump"
                 target="_blank"
@@ -1320,6 +1352,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   onToggleExpand={() => toggleCardExpansion(font.id)}
                   onToggleOTFeature={tag => toggleOTFeature(font.id, tag)}
                   onVariableAxisChange={(tag, val) => updateVariableAxis(font.id, tag, val)}
+                  onTagFilter={handleTagFilter}
+                  isTagActive={isTagActive}
                 />
                 </div>
               )
@@ -1330,7 +1364,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Footer */}
         <footer style={{ marginTop: 80, padding: '0 24px 24px', display: 'flex', flexDirection: 'column', gap: 2 }}>
           <span style={{
-            fontFamily: '"Inter Variable", sans-serif',
+            fontFamily: '"Pliant", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',
@@ -1338,7 +1372,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             © 2026 TypeDump
           </span>
           <span style={{
-            fontFamily: '"Inter Variable", sans-serif',
+            fontFamily: '"Pliant", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',

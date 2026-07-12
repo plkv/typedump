@@ -69,6 +69,8 @@ export interface FontCardProps {
   onToggleExpand: () => void
   onToggleOTFeature: (tag: string) => void
   onVariableAxisChange: (tag: string, value: number) => void
+  onTagFilter?: (kind: 'collection' | 'category' | 'style', value: string) => void
+  isTagActive?: (kind: 'collection' | 'category' | 'style', value: string) => boolean
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -79,7 +81,7 @@ export function FontCard({
   styleAlternates, variableAxesDef, effectiveStyle,
   textSize, lineHeight, textAlign,
   onSelectRef, onInputRef, onStyleChange, onTextChange, onFocus, onToggleExpand,
-  onToggleOTFeature, onVariableAxisChange,
+  onToggleOTFeature, onVariableAxisChange, onTagFilter, isTagActive,
 }: FontCardProps) {
   const inputRef = useRef<HTMLInputElement | null>(null)
 
@@ -133,7 +135,7 @@ export function FontCard({
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
-                      fontFamily: '"Inter Variable", sans-serif',
+                      fontFamily: '"Pliant", sans-serif',
                       fontSize: '14px',
                       fontWeight: 500,
                       color: 'var(--gray-cont-prim)',
@@ -215,15 +217,29 @@ export function FontCard({
           />
         </div>
 
-        {/* ── Tags row: categories + style tags ── */}
+        {/* ── Tags row: collection + categories + style tags (clickable filters) ── */}
         {(() => {
-          const tags = [font.collection, ...(font.categories || []), ...(font.styleTags || [])]
+          const tags: Array<{ kind: 'collection' | 'category' | 'style'; value: string }> = [
+            { kind: 'collection', value: font.collection },
+            ...(font.categories || []).map(v => ({ kind: 'category' as const, value: v })),
+            ...(font.styleTags || []).map(v => ({ kind: 'style' as const, value: v })),
+          ]
           if (!tags.length) return null
           return (
             <div className="flex flex-wrap gap-1.5 mt-2">
-              {tags.map(tag => (
-                <span key={tag} className="v2-tag">{tag}</span>
-              ))}
+              {tags.map(({ kind, value }) => {
+                const active = isTagActive?.(kind, value)
+                return (
+                  <button
+                    key={`${kind}:${value}`}
+                    type="button"
+                    className={`v2-tag${onTagFilter ? ' v2-tag-clickable' : ''}${active ? ' v2-tag-active' : ''}`}
+                    onClick={onTagFilter ? (e) => { e.stopPropagation(); onTagFilter(kind, value) } : undefined}
+                  >
+                    {value}
+                  </button>
+                )
+              })}
             </div>
           )
         })()}
