@@ -18722,7 +18722,51 @@
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
       ]
+    },
+    {
+      "name": "Pirate Quest",
+      "collection": "Display",
+      "category": [
+        "Sans Based"
+      ],
+      "styleTags": [
+        "Handwritten",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "foundry": "2026fan",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fontbob.com/@2026fan/pirate-font",
+      "sourceUrl": "https://fontbob.com/@2026fan/pirate-font",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://fontbob.com/@2026fan/pirate-font"
+      },
+      "id": "family_pirate_quest_7300000000001",
+      "createdAt": "2026-07-12T20:30:00.000Z",
+      "updatedAt": "2026-07-12T20:30:00.000Z",
+      "variants": [
+        {
+          "id": "v_piratequest_a1b2c3",
+          "familyId": "family_pirate_quest_7300000000001",
+          "filename": "PirateQuest-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "isDefaultStyle": true,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "format": "woff2",
+          "url": "/fonts/PirateQuest-Regular.woff2",
+          "uploadedAt": "2026-07-12T20:30:00.000Z"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-07-12T20:00:00.000Z"
+  "lastUpdated": "2026-07-12T20:30:00.000Z"
 }

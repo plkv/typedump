@@ -51,7 +51,7 @@ interface FontSearchItem { name: string; author: string }
 export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?: FontSearchItem[] }) {
   const [selectedPreset, setSelectedPreset] = useState<TextPreset>('Names')
   const [previewText, setPreviewText] = useState(() => family.name)
-  const [fontSize, setFontSize] = useState(80)
+  const [fontSize, setFontSize] = useState(40)
   const [lineHeight, setLineHeight] = useState(1.2)
   const [letterSpacing, setLetterSpacing] = useState(0)
   const [align, setAlign] = useState<'left' | 'center' | 'right'>('left')
