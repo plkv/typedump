@@ -18255,7 +18255,8 @@
         "Sans"
       ],
       "styleTags": [
-        "Neutral"
+        "New Face",
+        "Tech"
       ],
       "languages": [
         "Latin",
@@ -18472,7 +18473,10 @@
         "Sans"
       ],
       "styleTags": [
-        "Modern"
+        "Geometry",
+        "Wide",
+        "Fatface",
+        "New Face"
       ],
       "languages": [
         "Latin",
@@ -18578,7 +18582,7 @@
         "Sans"
       ],
       "styleTags": [
-        "Neutral"
+        "Geometry"
       ],
       "languages": [
         "Latin",
@@ -18668,7 +18672,9 @@
         "Sans"
       ],
       "styleTags": [
-        "Wide"
+        "New Face",
+        "Fatface",
+        "Neutral"
       ],
       "languages": [
         "Latin",
@@ -18725,13 +18731,12 @@
     },
     {
       "name": "Pirate Quest",
-      "collection": "Display",
+      "collection": "Brutal",
       "category": [
         "Sans Based"
       ],
       "styleTags": [
-        "Handwritten",
-        "Rounded"
+        "Handwritten"
       ],
       "languages": [
         "Latin"
@@ -18768,5 +18773,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-12T20:30:00.000Z"
+  "lastUpdated": "2026-07-12T20:45:00.000Z"
 }
