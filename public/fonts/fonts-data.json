@@ -18663,7 +18663,7 @@
     },
     {
       "name": "Strichpunkt Sans",
-      "collection": "Display",
+      "collection": "Text",
       "category": [
         "Sans"
       ],
@@ -18770,5 +18770,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-12T22:00:00.000Z"
+  "lastUpdated": "2026-07-12T23:15:00.000Z"
 }
