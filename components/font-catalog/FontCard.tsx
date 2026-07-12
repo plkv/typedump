@@ -192,6 +192,7 @@ export function FontCard({
             onChange={(v, pos) => onTextChange(v, pos)}
             onCursorChange={pos => onTextChange(previewContent, pos)}
             onFocus={onFocus}
+            highlightMissingGlyphs
             className="whitespace-pre-line break-words cursor-text focus:outline-none w-full bg-transparent border-0"
             style={{
               fontSize: `${textSize}px`,

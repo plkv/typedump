@@ -3,7 +3,8 @@
  * Replaces contentEditable with controlled React inputs
  */
 
-import React, { useLayoutEffect, useRef, useState, forwardRef } from 'react'
+import React, { useLayoutEffect, useEffect, useMemo, useRef, useState, forwardRef } from 'react'
+import { firstFamily, segmentByCoverage } from '@/lib/glyph-coverage'
 
 interface ControlledTextPreviewProps {
   value: string
@@ -18,6 +19,10 @@ interface ControlledTextPreviewProps {
   placeholder?: string
   multiline?: boolean
   readOnly?: boolean
+  /** Color characters not present in the font (rendered via fallback) differently. */
+  highlightMissingGlyphs?: boolean
+  /** Color for missing glyphs (default: tertiary content token). */
+  missingGlyphColor?: string
 }
 
 export const ControlledTextPreview = forwardRef<
@@ -35,9 +40,28 @@ export const ControlledTextPreview = forwardRef<
   style = {},
   placeholder = '',
   multiline = false,
-  readOnly = false
+  readOnly = false,
+  highlightMissingGlyphs = false,
+  missingGlyphColor = 'var(--gray-cont-tert)',
 }, ref) => {
   const [isFocused, setIsFocused] = useState(false)
+
+  // Recompute glyph coverage whenever any web font finishes loading
+  const [fontEpoch, setFontEpoch] = useState(0)
+  useEffect(() => {
+    if (!highlightMissingGlyphs || typeof document === 'undefined' || !(document as any).fonts) return
+    const bump = () => setFontEpoch(e => e + 1)
+    document.fonts.addEventListener('loadingdone', bump)
+    return () => document.fonts.removeEventListener('loadingdone', bump)
+  }, [highlightMissingGlyphs])
+
+  const family = highlightMissingGlyphs ? firstFamily(String(style.fontFamily || '')) : ''
+  const segments = useMemo(
+    () => (highlightMissingGlyphs ? segmentByCoverage(String(value ?? ''), family) : null),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [highlightMissingGlyphs, value, family, fontEpoch],
+  )
+  const hasMissing = !!segments && segments.some(s => s.missing)
   
   // Sync cursor position with React state after renders
   useLayoutEffect(() => {
@@ -104,6 +128,7 @@ export const ControlledTextPreview = forwardRef<
   if (multiline) {
     // Auto-resize textarea to fit content height (prevent inner scrollbars)
     const taRef = useRef<HTMLTextAreaElement | null>(null)
+    const overlayRef = useRef<HTMLDivElement | null>(null)
     // Bridge forwarded ref and local ref
     const setRefs = (el: HTMLTextAreaElement | null) => {
       taRef.current = el
@@ -120,6 +145,73 @@ export const ControlledTextPreview = forwardRef<
         el.style.height = `${el.scrollHeight}px`
       } catch {}
     }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings])
+
+    // Mirror the textarea's exact box (UA/Tailwind padding + border) onto the
+    // overlay so glyphs line up pixel-for-pixel regardless of default styles.
+    useLayoutEffect(() => {
+      const ta = taRef.current, ov = overlayRef.current
+      if (!ta || !ov) return
+      const cs = getComputedStyle(ta)
+      ov.style.paddingTop = cs.paddingTop
+      ov.style.paddingRight = cs.paddingRight
+      ov.style.paddingBottom = cs.paddingBottom
+      ov.style.paddingLeft = cs.paddingLeft
+      ov.style.borderTopWidth = cs.borderTopWidth
+      ov.style.borderLeftWidth = cs.borderLeftWidth
+      ov.style.letterSpacing = cs.letterSpacing
+      ov.scrollTop = ta.scrollTop
+    })
+
+    // When any character is missing, overlay a color-matched backdrop and hide
+    // the textarea's own text (keep the caret visible) so missing glyphs can be
+    // colored individually. No overlay when nothing is missing → zero overhead.
+    const overlayActive = highlightMissingGlyphs && hasMissing
+    if (overlayActive) {
+      const textColor = (style.color as string) || 'inherit'
+      return (
+        <div style={{ position: 'relative', width: '100%' }}>
+          <div
+            ref={overlayRef}
+            aria-hidden
+            style={{
+              ...style,
+              position: 'absolute',
+              top: 0, left: 0, right: 0, bottom: 0,
+              margin: 0,
+              boxSizing: 'border-box',
+              pointerEvents: 'none',
+              overflow: 'hidden',
+              whiteSpace: 'pre-wrap',
+              overflowWrap: 'break-word',
+              color: textColor,
+            }}
+          >
+            {segments!.map((s, i) =>
+              s.missing
+                ? <span key={i} style={{ color: missingGlyphColor }}>{s.text}</span>
+                : <span key={i}>{s.text}</span>
+            )}
+          </div>
+          <textarea
+            ref={setRefs}
+            {...baseProps}
+            rows={1}
+            style={{
+              ...style,
+              width: '100%',
+              overflow: 'hidden',
+              resize: 'none',
+              position: 'relative',
+              background: 'transparent',
+              color: 'transparent',
+              WebkitTextFillColor: 'transparent',
+              caretColor: textColor,
+            }}
+          />
+        </div>
+      )
+    }
+
     return (
       <textarea
         ref={setRefs}
