@@ -151,10 +151,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         // Static fonts register variant-level aliases (alias__v_hash) which don't match fontFamily.
         const pool = candidates.filter(f => f.type === 'Variable')
         const pick = (pool.length ? pool : candidates)[Math.floor(Math.random() * (pool.length || candidates.length))]
-        previewFontsRef.current[collection] = pick?.fontFamily || "Pliant, system-ui, sans-serif"
+        previewFontsRef.current[collection] = pick?.fontFamily || '"Strichpunkt Sans", system-ui, sans-serif'
       }
     }
-    return previewFontsRef.current[collection] || "Pliant, system-ui, sans-serif"
+    return previewFontsRef.current[collection] || '"Strichpunkt Sans", system-ui, sans-serif'
   }
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
@@ -1364,7 +1364,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Footer */}
         <footer style={{ marginTop: 80, padding: '0 24px 24px', display: 'flex', flexDirection: 'column', gap: 2 }}>
           <span style={{
-            fontFamily: '"Pliant", sans-serif',
+            fontFamily: '"Strichpunkt Sans", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',
@@ -1372,7 +1372,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             © 2026 TypeDump
           </span>
           <span style={{
-            fontFamily: '"Pliant", sans-serif',
+            fontFamily: '"Strichpunkt Sans", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',

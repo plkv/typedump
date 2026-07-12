@@ -123,7 +123,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               width: '100%', height: '100%',
               fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
-              fontFamily: '"Pliant", "Pliant", system-ui, -apple-system, sans-serif',
+              fontFamily: '"Strichpunkt Sans", system-ui, -apple-system, sans-serif',
               fontSize: '22px', fontWeight: 900, lineHeight: '100%',
               textTransform: 'lowercase',
               color: 'var(--gray-cont-prim)',
@@ -166,7 +166,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
             style={{
               flex: 1, minWidth: 0, paddingRight: '16px',
               background: 'transparent', border: 'none', outline: 'none',
-              fontFamily: '"Pliant", sans-serif',
+              fontFamily: '"Strichpunkt Sans", sans-serif',
               fontSize: '16px', fontWeight: 500,
               color: 'var(--gray-cont-prim)',
               caretColor: 'var(--gray-cont-prim)',
@@ -220,15 +220,15 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
                   borderBottom: '1px solid var(--gray-brd-prim)', gap: '2px',
                 }}
               >
-                <span style={{ fontFamily: '"Pliant", sans-serif', fontSize: '14px', fontWeight: 500 }}>
+                <span style={{ fontFamily: '"Strichpunkt Sans", sans-serif', fontSize: '14px', fontWeight: 500 }}>
                   {font.name}
                 </span>
-                <span style={{ fontFamily: '"Pliant", sans-serif', fontSize: '14px', fontWeight: 400, color: 'var(--gray-cont-tert)' }}>
+                <span style={{ fontFamily: '"Strichpunkt Sans", sans-serif', fontSize: '14px', fontWeight: 400, color: 'var(--gray-cont-tert)' }}>
                   {font.author}
                 </span>
               </a>
             )) : (
-              <div style={{ padding: '16px', color: 'var(--gray-cont-tert)', fontSize: '14px', fontFamily: '"Pliant", sans-serif' }}>
+              <div style={{ padding: '16px', color: 'var(--gray-cont-tert)', fontSize: '14px', fontFamily: '"Strichpunkt Sans", sans-serif' }}>
                 No results for «{query}»
               </div>
             )}

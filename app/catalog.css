@@ -1,20 +1,12 @@
 /* V2 Catalog Design System */
 
-/* Interface font — trial: Pliant (variable) replacing Inter */
+/* Interface font — trial: Strichpunkt Sans (variable) replacing Inter */
 @font-face {
-  font-family: "Pliant";
-  src: url("/fonts/Pliant[wdth,wght].woff2") format("woff2");
-  font-weight: 100 900;
-  font-stretch: 100% 125%;
+  font-family: "Strichpunkt Sans";
+  src: url("/fonts/StrichpunktSans[wdth,wght].woff2") format("woff2");
+  font-weight: 400 900;
+  font-stretch: 100% 200%;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Pliant";
-  src: url("/fonts/Pliant-Italic[wdth,wght].woff2") format("woff2");
-  font-weight: 100 900;
-  font-stretch: 100% 125%;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -102,7 +94,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Pliant", sans-serif;
+  font-family: "Strichpunkt Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -131,7 +123,7 @@
   border-radius: var(--radius-component);
   padding: 10px 12px;
   height: 40px;
-  font-family: "Pliant", sans-serif;
+  font-family: "Strichpunkt Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -142,7 +134,7 @@
   padding: 3px 8px;
   border-radius: var(--radius-component);
   border: 1px solid var(--gray-brd-prim);
-  font-family: "Pliant", sans-serif;
+  font-family: "Strichpunkt Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -186,7 +178,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Pliant", sans-serif;
+  font-family: "Strichpunkt Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -488,7 +480,7 @@
 }
 
 .catalog-hero-text {
-  font-family: "Pliant", sans-serif;
+  font-family: "Strichpunkt Sans", sans-serif;
   font-size: 28px;
   line-height: 32px;
   font-weight: 500;
