@@ -135,7 +135,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Universitype Foundry",
       "isVariable": false,
@@ -2711,7 +2711,7 @@
       ],
       "category": [
         "Pixel",
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Fontfabric LLC",
       "isVariable": false,
@@ -2847,7 +2847,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Alan Madić",
       "isVariable": false,
@@ -2908,7 +2908,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "ESAD Valence",
       "isVariable": false,
@@ -2967,7 +2967,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "ÉSAD Valence",
       "isVariable": false,
@@ -3029,7 +3029,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Guillaume Lelong, ESAD Valence",
       "isVariable": false,
@@ -3086,7 +3086,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "ESAD Valence",
       "isVariable": false,
@@ -3146,8 +3146,7 @@
         "Latin"
       ],
       "category": [
-        "Sans",
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "atipo",
       "isVariable": false,
@@ -3500,7 +3499,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Ethan Nakache",
       "isVariable": true,
@@ -3690,7 +3689,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Clara Sambot",
       "isVariable": false,
@@ -4605,7 +4604,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Riesling Type",
       "isVariable": false,
@@ -4658,7 +4657,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Alexey Atapin",
       "isVariable": false,
@@ -4710,7 +4709,7 @@
       ],
       "category": [
         "Mono",
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "GGBotNet",
       "isVariable": false,
@@ -4783,7 +4782,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "DIANA N",
       "isVariable": false,
@@ -5263,7 +5262,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Roman Gornitsky, abstrkt",
       "isVariable": false,
@@ -5540,7 +5539,7 @@
       ],
       "category": [
         "Script",
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Deni Anggara, Lokal Container",
       "isVariable": true,
@@ -5620,7 +5619,7 @@
       "name": "Biceps Grotesk",
       "collection": "Brutal",
       "styleTags": [
-        "Modul"
+        "Modular"
       ],
       "languages": [
         "Latin"
@@ -6048,7 +6047,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based",
+        "Sans",
         "Pixel"
       ],
       "foundry": "Raphaël Bastide",
@@ -6171,7 +6170,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Velvetyne Type Foundry",
       "isVariable": false,
@@ -7005,7 +7004,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "www.keussel.studio",
       "isVariable": false,
@@ -7096,7 +7095,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "LyonsType",
       "isVariable": false,
@@ -7399,7 +7398,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Rajesh Rajput",
       "isVariable": true,
@@ -7587,7 +7586,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Cossette Communication Inc.",
       "isVariable": false,
@@ -7662,7 +7661,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Cossette Communication Inc.",
       "isVariable": false,
@@ -7742,7 +7741,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Unknown",
       "isVariable": false,
@@ -7799,7 +7798,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Astigmatic (AOETI)",
       "isVariable": false,
@@ -8021,7 +8020,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Unknown",
       "isVariable": false,
@@ -8067,13 +8066,13 @@
       "collection": "Brutal",
       "styleTags": [
         "Fatface",
-        "Modul"
+        "Modular"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Nastia Piven",
       "isVariable": false,
@@ -8124,7 +8123,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Frank Adebiaye, Anton Moglia",
       "isVariable": false,
@@ -8178,7 +8177,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based",
+        "Serif",
         "Mono"
       ],
       "foundry": "Velvetyne Type Foundry",
@@ -8269,7 +8268,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "unfun.de",
       "isVariable": false,
@@ -8463,7 +8462,7 @@
         "Korean"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Kyungwon Jang, JAMO",
       "isVariable": false,
@@ -8521,7 +8520,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Indian Type Foundry",
       "isVariable": false,
@@ -8583,7 +8582,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "artakana",
       "isVariable": false,
@@ -8648,7 +8647,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Manushi Parikh, Indian Type Foundry",
       "isVariable": true,
@@ -8958,7 +8957,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Rodrigo Fuenzalida",
       "isVariable": false,
@@ -9026,7 +9025,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Catharsis Fonts",
       "isVariable": false,
@@ -9453,7 +9452,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Ariel Martín Pérez",
       "isVariable": true,
@@ -9518,7 +9517,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Maksym Kobuzan",
       "isVariable": false,
@@ -9925,7 +9924,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Ariel Martín Pérez",
       "isVariable": false,
@@ -9990,7 +9989,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Benoît 'Sans Terre' Ferran",
       "isVariable": false,
@@ -10253,7 +10252,7 @@
       "name": "Kobata",
       "collection": "Display",
       "styleTags": [
-        "Modul",
+        "Modular",
         "Geometry"
       ],
       "languages": [
@@ -10319,7 +10318,7 @@
       "collection": "Brutal",
       "styleTags": [
         "Rounded",
-        "Modul"
+        "Modular"
       ],
       "languages": [
         "Latin"
@@ -10381,7 +10380,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Maksym Kobuzan",
       "isVariable": false,
@@ -10463,7 +10462,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Shiva Nallaperumal, Indian Type Foundry",
       "isVariable": true,
@@ -10566,7 +10565,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based",
+        "Sans",
         "Script"
       ],
       "foundry": "Robert E. Leuschke",
@@ -10625,7 +10624,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Agyei Archer, Celine Hurka, Mirko Velimirović",
       "isVariable": true,
@@ -10966,7 +10965,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based",
+        "Sans",
         "Script"
       ],
       "foundry": "Giulia Boggio / Martin Desinde",
@@ -11023,7 +11022,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Liza Dushnota",
       "isVariable": false,
@@ -11076,7 +11075,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Leonit Gashi",
       "isVariable": false,
@@ -11327,7 +11326,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Giulia B.",
       "isVariable": true,
@@ -12439,7 +12438,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Sébastien Sanfilippo",
       "isVariable": false,
@@ -12493,7 +12492,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Collletttivo",
       "isVariable": false,
@@ -12642,7 +12641,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Collletttivo",
       "isVariable": true,
@@ -12724,7 +12723,6 @@
         "Latin"
       ],
       "category": [
-        "Sans Based",
         "Sans"
       ],
       "foundry": "GTF",
@@ -12967,7 +12965,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "© 2023, Luigi Gorlero & Collletttivo",
       "isVariable": false,
@@ -13026,7 +13024,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Collletttivo",
       "isVariable": true,
@@ -13184,7 +13182,7 @@
         "Latin"
       ],
       "category": [
-        "Serif Based",
+        "Serif",
         "Pixel"
       ],
       "foundry": "MCKL",
@@ -14112,7 +14110,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Vernon Adams",
       "isVariable": true,
@@ -14185,7 +14183,7 @@
         "Vietnamese"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Florian Karsten",
       "isVariable": true,
@@ -15159,7 +15157,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "foundry": "Rajesh Rajput",
       "isVariable": false,
@@ -15214,7 +15212,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based",
+        "Sans",
         "Script"
       ],
       "foundry": "Nathan Laurent",
@@ -15301,7 +15299,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Nathan Laurent",
       "isVariable": false,
@@ -15423,7 +15421,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Studio DRAMA",
       "isVariable": false,
@@ -15615,7 +15613,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "TYPE Associates",
       "isVariable": false,
@@ -15913,7 +15911,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Koto Studio",
       "isVariable": true,
@@ -15995,7 +15993,7 @@
         "Latin"
       ],
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "foundry": "Koto Studio",
       "isVariable": true,
@@ -16227,7 +16225,7 @@
       "name": "Frick",
       "collection": "Display",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Fatface",
@@ -16289,7 +16287,7 @@
       "name": "Lineal",
       "collection": "Brutal",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Geometry",
@@ -16491,7 +16489,7 @@
       "name": "P-ACR-AGON",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Stencil",
@@ -16529,7 +16527,7 @@
       "name": "MuseoModerno",
       "collection": "Display",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Bauhaus",
@@ -16604,7 +16602,7 @@
       "name": "DT Dumpling Display",
       "collection": "Brutal",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Fatface",
@@ -16692,7 +16690,7 @@
       "name": "DT Nightingale",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Contrast",
@@ -16736,7 +16734,7 @@
       "name": "DT World Tour",
       "collection": "Display",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Banded"
@@ -16779,7 +16777,7 @@
       "name": "Tuoi Tre",
       "collection": "Brutal",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Geometry",
@@ -17545,7 +17543,7 @@
       "name": "Affigere",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Vintage",
@@ -17590,7 +17588,7 @@
       "name": "Absans",
       "collection": "Display",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Curly",
@@ -17634,7 +17632,7 @@
       "name": "Bajaderka",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Calligraphy"
@@ -17752,7 +17750,7 @@
       "name": "Instrument Serif",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Narrow",
@@ -17903,7 +17901,7 @@
       "name": "Luperca",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Sharp"
@@ -18209,7 +18207,7 @@
       "name": "Zarathustra",
       "collection": "Display",
       "category": [
-        "Serif Based"
+        "Serif"
       ],
       "styleTags": [
         "Vintage"
@@ -18336,8 +18334,7 @@
         "Sans"
       ],
       "styleTags": [
-        "Geometry",
-        "Rounded"
+        "Geometry"
       ],
       "languages": [
         "Latin",
@@ -18733,7 +18730,7 @@
       "name": "Pirate Quest",
       "collection": "Brutal",
       "category": [
-        "Sans Based"
+        "Sans"
       ],
       "styleTags": [
         "Handwritten"
@@ -18773,5 +18770,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-12T20:45:00.000Z"
+  "lastUpdated": "2026-07-12T21:00:00.000Z"
 }
