@@ -1201,6 +1201,9 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       const progress = Math.min(main.scrollTop / (heroHeight * 0.35), 1)
       hero.style.opacity = String(1 - progress)
       hero.style.transform = `scale(${1 - progress * 0.05})`
+      // Once fully faded, stop the invisible 100vh sticky hero from eating clicks
+      // on content beneath it (e.g. the footer link when scrolled to the bottom).
+      hero.style.pointerEvents = progress >= 1 ? 'none' : 'auto'
       setCatalogVisible(main.scrollTop > heroHeight * 0.15)
     }
     main.addEventListener('scroll', onScroll, { passive: true })
@@ -1232,7 +1235,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       <main
         ref={mainRef}
         className="h-full overflow-y-auto"
-        style={{ paddingTop: '80px', paddingBottom: '140px' }}
+        style={{ paddingTop: '80px', paddingBottom: '220px' }}
       >
         <h1 className="sr-only">Free Font Collection - Professional Typography for Designers</h1>
 

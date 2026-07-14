@@ -46,14 +46,16 @@ export const ControlledTextPreview = forwardRef<
 }, ref) => {
   const [isFocused, setIsFocused] = useState(false)
 
-  // Recompute glyph coverage whenever any web font finishes loading
+  // Bump whenever any web font finishes loading, so glyph coverage is recomputed
+  // AND the multiline textarea is re-measured (lazily-loaded fonts change metrics
+  // after the initial auto-resize, which would otherwise clip the text).
   const [fontEpoch, setFontEpoch] = useState(0)
   useEffect(() => {
-    if (!highlightMissingGlyphs || typeof document === 'undefined' || !(document as any).fonts) return
+    if (typeof document === 'undefined' || !(document as any).fonts) return
     const bump = () => setFontEpoch(e => e + 1)
     document.fonts.addEventListener('loadingdone', bump)
     return () => document.fonts.removeEventListener('loadingdone', bump)
-  }, [highlightMissingGlyphs])
+  }, [])
 
   const family = highlightMissingGlyphs ? firstFamily(String(style.fontFamily || '')) : ''
   const segments = useMemo(
@@ -144,7 +146,7 @@ export const ControlledTextPreview = forwardRef<
         el.style.resize = 'none'
         el.style.height = `${el.scrollHeight}px`
       } catch {}
-    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings])
+    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings, fontEpoch])
 
     // Mirror the textarea's exact box (UA/Tailwind padding + border) onto the
     // overlay so glyphs line up pixel-for-pixel regardless of default styles.
