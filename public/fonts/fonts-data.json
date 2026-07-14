@@ -2868,12 +2868,6 @@
             "https://alanmadic.com/",
             "Kerning"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-07T19:19:49.367Z",
           "id": "variant_family_jakob_1757807924654_1757807924701",
@@ -3047,12 +3041,6 @@
             "Standard Ligatures",
             "Regular"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-07T19:22:58.004Z",
           "id": "variant_family_nouvelle_grotesquerie_1757807924462_1757807924507",
@@ -3191,7 +3179,12 @@
             "Kerning",
             "Standard Ligatures"
           ],
-          "openTypeFeatureTags": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-07T19:25:04.635Z",
           "id": "variant_family_n27_1757807924334_1757807924392",
@@ -4858,10 +4851,6 @@
             {
               "tag": "ss01",
               "title": "Stylistic Set 1"
-            },
-            {
-              "tag": "ss02",
-              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -5279,7 +5268,12 @@
             "Standard Ligatures",
             "Kerning"
           ],
-          "openTypeFeatureTags": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-08T13:34:18.534Z",
           "id": "variant_family_america_xix_1757807923031_1757807923072",
@@ -6666,12 +6660,6 @@
             "Tabular Figures",
             "Kerning",
             "Standard Ligatures"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
           ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-08T16:00:01.621Z",
@@ -12757,48 +12745,6 @@
             "ExtraBold",
             "Black"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Weight"
-            },
-            {
-              "tag": "ss02",
-              "title": "Thin"
-            },
-            {
-              "tag": "ss03",
-              "title": "ExtraLight"
-            },
-            {
-              "tag": "ss04",
-              "title": "Light"
-            },
-            {
-              "tag": "ss05",
-              "title": "Regular"
-            },
-            {
-              "tag": "ss06",
-              "title": "Medium"
-            },
-            {
-              "tag": "ss07",
-              "title": "SemiBold"
-            },
-            {
-              "tag": "ss08",
-              "title": "Bold"
-            },
-            {
-              "tag": "ss09",
-              "title": "ExtraBold"
-            },
-            {
-              "tag": "ss10",
-              "title": "Black"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2025-09-11T23:20:43.976Z",
           "fileSize": 14736,
@@ -14045,32 +13991,6 @@
             "Stylistic Set 5",
             "Stylistic Set 6",
             "Kerning"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            },
-            {
-              "tag": "ss02",
-              "title": "Stylistic Set 2"
-            },
-            {
-              "tag": "ss03",
-              "title": "Stylistic Set 3"
-            },
-            {
-              "tag": "ss04",
-              "title": "Stylistic Set 4"
-            },
-            {
-              "tag": "ss05",
-              "title": "Stylistic Set 5"
-            },
-            {
-              "tag": "ss06",
-              "title": "Stylistic Set 6"
-            }
           ],
           "isDefaultStyle": true,
           "uploadedAt": "2025-09-12T02:23:43.297Z",
@@ -15442,7 +15362,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "alt J"
             }
           ],
           "isDefaultStyle": true,
@@ -15567,15 +15487,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Single-story a"
             },
             {
               "tag": "ss02",
-              "title": "Stylistic Set 2"
+              "title": "Double-story g"
             },
             {
               "tag": "ss09",
-              "title": "Stylistic Set 09"
+              "title": "Alternate Symbols"
             }
           ],
           "isDefaultStyle": true,
@@ -15640,7 +15560,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "ss01"
             }
           ],
           "isDefaultStyle": true,
@@ -15714,11 +15634,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "ss01"
             },
             {
               "tag": "ss02",
-              "title": "Stylistic Set 2"
+              "title": "ss02"
             }
           ],
           "isDefaultStyle": true,
@@ -15804,15 +15724,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Markdown Marks"
             },
             {
               "tag": "ss02",
-              "title": "Stylistic Set 2"
+              "title": "Alternative lowercase a"
             },
             {
               "tag": "ss03",
-              "title": "Stylistic Set 03"
+              "title": "ss03"
             }
           ],
           "isDefaultStyle": true,
@@ -15865,15 +15785,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Markdown Marks"
             },
             {
               "tag": "ss02",
-              "title": "Stylistic Set 2"
+              "title": "Alternative lowercase a"
             },
             {
               "tag": "ss03",
-              "title": "Stylistic Set 03"
+              "title": "ss03"
             }
           ],
           "isDefaultStyle": false,
@@ -15955,7 +15875,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Stack Notch Stylistic Set"
             }
           ],
           "isDefaultStyle": true,
@@ -16037,7 +15957,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Stack Notch Stylistic Set"
             }
           ],
           "isDefaultStyle": true,
@@ -16119,7 +16039,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "Stack Notch Stylistic Set"
             }
           ],
           "isDefaultStyle": true,
@@ -16189,7 +16109,12 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "alt J"
+            }
+          ],
           "format": "woff2",
           "url": "/fonts/Figtree[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
@@ -18294,32 +18219,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Flat-tailed"
-            },
-            {
-              "tag": "ss02",
-              "title": "Tailed"
-            },
-            {
-              "tag": "ss03",
-              "title": "No-tailed"
-            },
-            {
-              "tag": "ss04",
-              "title": "Akzidenz"
-            },
-            {
-              "tag": "ss05",
-              "title": "Historic"
-            },
-            {
-              "tag": "ss06",
-              "title": "Experimental"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/Akt[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18426,36 +18325,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "No tail a"
-            },
-            {
-              "tag": "ss02",
-              "title": "Alt a"
-            },
-            {
-              "tag": "ss03",
-              "title": "Alt l"
-            },
-            {
-              "tag": "ss04",
-              "title": "Alt R"
-            },
-            {
-              "tag": "ss05",
-              "title": "Alt I"
-            },
-            {
-              "tag": "ss06",
-              "title": "Alt G"
-            },
-            {
-              "tag": "ss09",
-              "title": "Alt numbers"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/GeistPixel[ELSH].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18521,12 +18390,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Alternate Constructions"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/Pliant[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18559,12 +18422,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Alternate Constructions"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/Pliant-Italic[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18619,12 +18476,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "No Serifs"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/FinlandicaText[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18649,12 +18500,6 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "No Serifs"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/FinlandicaText-Italic[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
@@ -18768,7 +18613,532 @@
           "uploadedAt": "2026-07-12T20:30:00.000Z"
         }
       ]
+    },
+    {
+      "name": "Doto",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Pixel"
+      ],
+      "foundry": "Óliver Lalan",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/oliverlalan/Doto",
+      "id": "family_doto_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Doto is a free variable typeface built entirely from dots, inspired by the low-resolution charm of dot-matrix printers and LED displays. A dedicated roundness axis (ROND) morphs each dot from a hard square to a full circle, while the weight axis controls how densely the dots pack together — letting the same letters read as delicate perforations or bold, glowing signage. Designed by Óliver Lalan and released under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/oliverlalan/Doto/blob/main/OFL.txt"
+      },
+      "publishedAt": "2024-01-01",
+      "useCases": [
+        "Experimental",
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "Doto-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Roundness",
+              "tag": "ROND",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 900
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 320,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_doto_new_Doto_Variable_ttf",
+          "familyId": "family_doto_new",
+          "url": "/fonts/Doto-Variable.woff2",
+          "originalUrl": "/fonts/Doto-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Sono",
+      "collection": "Text",
+      "styleTags": [
+        "Rounded"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans",
+        "Mono"
+      ],
+      "foundry": "Tyler Finck (Etcetera Type Co.)",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/sursly/sono",
+      "id": "family_sono_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Sono is a soft, rounded superfamily by Tyler Finck that spans from a friendly proportional sans to a true monospace through a single MONO axis. Its gently rounded terminals keep long UI text and code calm and legible, while the weight axis (ExtraLight to ExtraBold) covers everything from captions to headlines. A versatile, open-source workhorse for interfaces, dashboards and code editors.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/sursly/sono/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Interface",
+        "Code / Data"
+      ],
+      "variants": [
+        {
+          "filename": "Sono-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 200
+            },
+            {
+              "name": "Monospace",
+              "tag": "MONO",
+              "min": 0,
+              "max": 1,
+              "default": 1
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate I, l and r"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate c and g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alternate a, t and y"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alternate M and m"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate numbers"
+            }
+          ],
+          "glyphCount": 750,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_sono_new_Sono_Variable_ttf",
+          "familyId": "family_sono_new",
+          "url": "/fonts/Sono-Variable.woff2",
+          "originalUrl": "/fonts/Sono-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Bagnard",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Sébastien Sanfilippo",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/sebsan/Bagnard",
+      "id": "family_bagnard_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Bagnard is a display serif by Sébastien Sanfilippo, drawn during a bicycle journey retracing the route of a 19th-century convict and named after the French bagnes (penal colonies). It pairs sturdy, slightly archaic serifs with crisp contrast and a confident, literary voice that comes alive at large sizes in titles and posters. Free and open-source under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/sebsan/Bagnard/blob/master/OFL.txt"
+      },
+      "publishedAt": "2015-01-01",
+      "useCases": [
+        "Poster",
+        "Editorial / Ecommerce"
+      ],
+      "variants": [
+        {
+          "filename": "Bagnard.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 157,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_bagnard_new_Bagnard_otf",
+          "familyId": "family_bagnard_new",
+          "url": "/fonts/Bagnard.woff2",
+          "originalUrl": "/fonts/Bagnard.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Libre Caslon Condensed",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Contrast",
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Impallari Type / Ertekin Erdin",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/ertekinno/libre-caslon-condensed",
+      "id": "family_libre_caslon_condensed_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Libre Caslon Condensed is a narrow, high-contrast take on the classic Caslon, extending the libre Impallari Type family into tighter editorial territory. Condensing the letterforms sharpens the vertical rhythm and stacks headlines economically without losing Caslon’s warm, old-style character. A variable weight axis (Regular to Bold) plus matching italics make it a flexible choice for magazines, ecommerce and long-form titling. SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/ertekinno/libre-caslon-condensed/blob/main/OFL.txt"
+      },
+      "publishedAt": "2024-01-01",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "LibreCaslonCondensed-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 568,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_libre_caslon_condensed_new_LibreCaslonCondensed_Variable_ttf",
+          "familyId": "family_libre_caslon_condensed_new",
+          "url": "/fonts/LibreCaslonCondensed-Variable.woff2",
+          "originalUrl": "/fonts/LibreCaslonCondensed-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "LibreCaslonCondensed-Italic-Variable.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Ampersand"
+            }
+          ],
+          "glyphCount": 571,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_libre_caslon_condensed_new_LibreCaslonCondensed_Italic_Variable_ttf",
+          "familyId": "family_libre_caslon_condensed_new",
+          "url": "/fonts/LibreCaslonCondensed-Italic-Variable.woff2",
+          "originalUrl": "/fonts/LibreCaslonCondensed-Italic-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Anybody",
+      "collection": "Display",
+      "styleTags": [
+        "Wide",
+        "Squared",
+        "Tech"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Etcetera Type Company",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/etcetera-type-co/anybody",
+      "id": "family_anybody_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Anybody is a retro-futuristic sans by Etcetera Type Company (Tyler Finck), reviving the wide, rounded-rectangle spirit of 1960s–70s designs like Eurostile and Microgramma. Two variable axes — width (Ultra Condensed to Extra Expanded) and weight (Thin to Black), with matching italics — turn it into an expressive system for sci-fi headlines, technical labels and bold display work. Open-source under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/etcetera-type-co/anybody/blob/main/OFL.txt"
+      },
+      "publishedAt": "2021-01-01",
+      "useCases": [
+        "Poster",
+        "Tech / Digital"
+      ],
+      "variants": [
+        {
+          "filename": "Anybody-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 50,
+              "max": 150,
+              "default": 100
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "glyphCount": 785,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_anybody_new_Anybody_Variable_ttf",
+          "familyId": "family_anybody_new",
+          "url": "/fonts/Anybody-Variable.woff2",
+          "originalUrl": "/fonts/Anybody-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Anybody-Italic-Variable.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 50,
+              "max": 150,
+              "default": 100
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "glyphCount": 785,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_anybody_new_Anybody_Italic_Variable_ttf",
+          "familyId": "family_anybody_new",
+          "url": "/fonts/Anybody-Italic-Variable.woff2",
+          "originalUrl": "/fonts/Anybody-Italic-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Open Runde",
+      "collection": "Text",
+      "styleTags": [
+        "Rounded"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Laurids Kern",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/lauridskern/open-runde",
+      "id": "family_open_runde_new",
+      "createdAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-07-15T00:00:00.000Z",
+      "description": "Open Runde is an open-source rounded companion to Inter by Laurids Kern, softening Inter’s contours into approachable, friendly forms while keeping its excellent screen legibility. With four carefully spaced weights (Regular to Bold) and broad Latin, Cyrillic and Greek coverage, it’s built for warm, modern interfaces, product branding and anything that needs a gentle voice. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/lauridskern/open-runde/blob/main/LICENSE.txt"
+      },
+      "publishedAt": "2023-01-01",
+      "useCases": [
+        "Interface",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "OpenRunde-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 2549,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_open_runde_new_OpenRunde_Regular_otf",
+          "familyId": "family_open_runde_new",
+          "url": "/fonts/OpenRunde-Regular.woff2",
+          "originalUrl": "/fonts/OpenRunde-Regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "OpenRunde-Medium.otf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 2549,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_open_runde_new_OpenRunde_Medium_otf",
+          "familyId": "family_open_runde_new",
+          "url": "/fonts/OpenRunde-Medium.woff2",
+          "originalUrl": "/fonts/OpenRunde-Medium.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "OpenRunde-Semibold.otf",
+          "weight": 600,
+          "styleName": "Semibold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 2549,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_open_runde_new_OpenRunde_Semibold_otf",
+          "familyId": "family_open_runde_new",
+          "url": "/fonts/OpenRunde-Semibold.woff2",
+          "originalUrl": "/fonts/OpenRunde-Semibold.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "OpenRunde-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 2549,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-15T00:00:00.000Z",
+          "id": "variant_family_open_runde_new_OpenRunde_Bold_otf",
+          "familyId": "family_open_runde_new",
+          "url": "/fonts/OpenRunde-Bold.woff2",
+          "originalUrl": "/fonts/OpenRunde-Bold.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-07-12T23:15:00.000Z"
+  "lastUpdated": "2026-07-15T00:00:00.000Z"
 }
