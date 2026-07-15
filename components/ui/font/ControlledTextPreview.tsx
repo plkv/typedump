@@ -137,6 +137,8 @@ export const ControlledTextPreview = forwardRef<
       if (typeof ref === 'function') ref(el)
       else if (ref && 'current' in ref) (ref as any).current = el
     }
+    // User-driven changes (text, size, family…) get a full re-measure that can
+    // shrink OR grow — reset to auto, read scrollHeight, apply.
     useLayoutEffect(() => {
       const el = taRef.current
       if (!el) return
@@ -146,7 +148,26 @@ export const ControlledTextPreview = forwardRef<
         el.style.resize = 'none'
         el.style.height = `${el.scrollHeight}px`
       } catch {}
-    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings, fontEpoch])
+    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings])
+
+    // Font load (global 'loadingdone') → GROW-ONLY. A lazily-loaded real font can
+    // be taller than the fallback we first measured, which would clip the text.
+    // We must NOT collapse to 'auto' here: loadingdone fires for every card as you
+    // scroll, and transiently shrinking off-screen textareas (e.g. tall multiline
+    // "Brands" previews above the viewport) breaks scroll anchoring and jerks the
+    // page to the top. Only expand when the content actually overflows the current
+    // box; already-correct textareas are untouched, so repeated bumps are no-ops.
+    useLayoutEffect(() => {
+      const el = taRef.current
+      if (!el) return
+      try {
+        el.style.overflow = 'hidden'
+        el.style.resize = 'none'
+        if (el.scrollHeight > el.clientHeight) {
+          el.style.height = `${el.scrollHeight}px`
+        }
+      } catch {}
+    }, [fontEpoch])
 
     // Mirror the textarea's exact box (UA/Tailwind padding + border) onto the
     // overlay so glyphs line up pixel-for-pixel regardless of default styles.
