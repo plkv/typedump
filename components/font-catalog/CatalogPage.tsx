@@ -54,7 +54,7 @@ const getPresetContent = (preset: string, fontName: string) => {
     case "Names":
       return fontName
     case "Key Glyphs":
-      return 'RKFJIGCQ aueoyrgsltf 0123469 ≪"(@&?;€$© ->…'
+      return 'RKFJIGCQM aueoyrgsltfm 0123469 ≪"(@&?;€$© ->…'
     case "Basic":
       return "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 !@#$%^&*()_+-=[]{}|;':\",./<>?"
     case "Paragraph":
