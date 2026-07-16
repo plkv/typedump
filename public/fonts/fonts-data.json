@@ -7094,14 +7094,13 @@
       "styleTags": [
         "Fatface",
         "Wide",
-        "Gill"
+        "Curly"
       ],
       "languages": [
         "Latin",
         "Vietnamese"
       ],
       "category": [
-        "Script",
         "Sans"
       ],
       "foundry": "Deni Anggara, Lokal Container",
@@ -10550,7 +10549,9 @@
     {
       "name": "Gap Sans",
       "collection": "Brutal",
-      "styleTags": [],
+      "styleTags": [
+        "Modular"
+      ],
       "languages": [
         "Latin",
         "Cyrillic"
@@ -13665,14 +13666,13 @@
       "name": "Carattere",
       "collection": "Display",
       "styleTags": [
-        "Old Face"
+        "Calligraphy"
       ],
       "languages": [
         "Latin",
         "Vietnamese"
       ],
       "category": [
-        "Sans",
         "Script"
       ],
       "foundry": "Robert E. Leuschke",
@@ -15549,13 +15549,14 @@
       "name": "Cooper",
       "collection": "Text",
       "styleTags": [
-        "Vintage"
+        "Vintage",
+        "Old Face"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Semi Serif"
+        "Serif"
       ],
       "foundry": "indestructible type*",
       "isVariable": false,
@@ -21534,7 +21535,7 @@
       "name": "DT World Tour",
       "collection": "Display",
       "category": [
-        "Sans"
+        "Semi Serif"
       ],
       "styleTags": [
         "Banded"
