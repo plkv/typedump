@@ -32,6 +32,8 @@ export interface FontData {
   styleTags: string[]
   categories: string[]
   languages?: string[]
+  altPairs?: [string, string][]
+  specialChars?: string
 }
 
 export interface StyleAlternate { tag: string; title: string }
@@ -51,6 +53,8 @@ export interface FontCardProps {
   isAnimated: boolean
   isExpanded: boolean
   previewContent: string
+  /** When true, render the read-only default→alternate + special-glyph showcase. */
+  alternatesMode?: boolean
   cursorPosition: number
   otFeatures: Record<string, boolean>
   variableAxesState: Record<string, number>
@@ -77,7 +81,7 @@ export interface FontCardProps {
 
 export function FontCard({
   font, isMobile, fontSelection, isLoaded, isAnimated, isExpanded,
-  previewContent, cursorPosition, otFeatures, variableAxesState,
+  previewContent, alternatesMode, cursorPosition, otFeatures, variableAxesState,
   styleAlternates, variableAxesDef, effectiveStyle,
   textSize, lineHeight, textAlign,
   onSelectRef, onInputRef, onStyleChange, onTextChange, onFocus, onToggleExpand,
@@ -186,6 +190,60 @@ export function FontCard({
         </div>
 
         {/* ── Preview ── */}
+        {alternatesMode ? (() => {
+          const sharedFont: React.CSSProperties = {
+            fontFamily: fontSelection.cssFamily
+              ? `"${fontSelection.cssFamily}", system-ui, sans-serif`
+              : font.fontFamily,
+            fontWeight: effectiveStyle.weight,
+            fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
+            fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes),
+          }
+          const pairs = font.altPairs || []
+          const specials = font.specialChars || ''
+          const hasAny = pairs.length > 0 || specials.length > 0
+          return (
+            <div className="relative" style={{ paddingTop: '16px', paddingBottom: '16px' }}>
+              {hasAny ? (
+                <div
+                  style={{
+                    ...sharedFont,
+                    fontSize: `${textSize}px`,
+                    lineHeight: `${lineHeight}%`,
+                    color: 'var(--gray-cont-prim)',
+                    textAlign,
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    alignItems: 'baseline',
+                    justifyContent: textAlign === 'center' ? 'center' : textAlign === 'right' ? 'flex-end' : 'flex-start',
+                    columnGap: `${textSize * 0.34}px`,
+                    rowGap: `${textSize * 0.1}px`,
+                    opacity: isLoaded ? undefined : 0,
+                    animation: isLoaded ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
+                  }}
+                >
+                  {/* default (muted) → alternate (solid) pairs */}
+                  {pairs.map(([ch, feat], i) => (
+                    <span key={`p${i}`} style={{ display: 'inline-flex', columnGap: `${textSize * 0.06}px`, alignItems: 'baseline' }}>
+                      <span style={{ color: 'var(--gray-cont-tert)', fontFeatureSettings: 'normal' }}>{ch}</span>
+                      <span style={{ fontFeatureSettings: `"${feat}" 1` }}>{ch}</span>
+                    </span>
+                  ))}
+                  {/* line break between pairs and specials */}
+                  {pairs.length > 0 && specials.length > 0 && (
+                    <span aria-hidden style={{ flexBasis: '100%', height: 0 }} />
+                  )}
+                  {/* special glyphs */}
+                  {[...specials].map((ch, i) => (
+                    <span key={`s${i}`} style={{ fontFeatureSettings: 'normal' }}>{ch}</span>
+                  ))}
+                </div>
+              ) : (
+                <span className="text-author">No alternates or special glyphs</span>
+              )}
+            </div>
+          )
+        })() : (
         <div className="relative" style={{ paddingTop: '16px', paddingBottom: '16px' }}>
           <ControlledTextPreview
             ref={inputRef as any}
@@ -216,6 +274,7 @@ export function FontCard({
             multiline
           />
         </div>
+        )}
 
         {/* ── Tags row: collection + categories + style tags (clickable filters) ── */}
         {(() => {

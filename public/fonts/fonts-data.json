@@ -122,7 +122,106 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss06"
+        ],
+        [
+          "I",
+          "ss05"
+        ],
+        [
+          "R",
+          "ss04"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss08"
+        ],
+        [
+          "j",
+          "ss08"
+        ],
+        [
+          "l",
+          "ss03"
+        ],
+        [
+          "0",
+          "ss09"
+        ],
+        [
+          "1",
+          "ss09"
+        ],
+        [
+          "Ä",
+          "ss08"
+        ],
+        [
+          "Ë",
+          "ss08"
+        ],
+        [
+          "Ì",
+          "ss05"
+        ],
+        [
+          "Í",
+          "ss05"
+        ],
+        [
+          "Î",
+          "ss05"
+        ],
+        [
+          "Ï",
+          "ss05"
+        ],
+        [
+          "Ö",
+          "ss08"
+        ],
+        [
+          "Ü",
+          "ss08"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss08"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Boldonse",
@@ -187,7 +286,22 @@
       "publishedAt": "2024-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "DatDot",
@@ -280,7 +394,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%†‡•¡¿¢°±×÷≠“”‘’…–—"
     },
     {
       "name": "Geist Mono",
@@ -395,7 +511,106 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Code / Data"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss06"
+        ],
+        [
+          "R",
+          "ss04"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss08"
+        ],
+        [
+          "j",
+          "ss08"
+        ],
+        [
+          "l",
+          "ss03"
+        ],
+        [
+          "0",
+          "ss09"
+        ],
+        [
+          "Ä",
+          "ss08"
+        ],
+        [
+          "Ë",
+          "ss08"
+        ],
+        [
+          "Ï",
+          "ss08"
+        ],
+        [
+          "Ö",
+          "ss08"
+        ],
+        [
+          "Ü",
+          "ss08"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss08"
+        ],
+        [
+          "ï",
+          "ss08"
+        ],
+        [
+          "ö",
+          "ss08"
+        ],
+        [
+          "ü",
+          "ss08"
+        ],
+        [
+          "ÿ",
+          "ss08"
+        ],
+        [
+          "ā",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Host Grotesk",
@@ -543,7 +758,74 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss02"
+        ],
+        [
+          "3",
+          "ss03"
+        ],
+        [
+          "6",
+          "ss03"
+        ],
+        [
+          "9",
+          "ss03"
+        ],
+        [
+          "à",
+          "ss02"
+        ],
+        [
+          "á",
+          "ss02"
+        ],
+        [
+          "â",
+          "ss02"
+        ],
+        [
+          "ã",
+          "ss02"
+        ],
+        [
+          "ä",
+          "ss02"
+        ],
+        [
+          "å",
+          "ss02"
+        ],
+        [
+          "æ",
+          "ss02"
+        ],
+        [
+          "ā",
+          "ss02"
+        ],
+        [
+          "ă",
+          "ss02"
+        ],
+        [
+          "ą",
+          "ss02"
+        ],
+        [
+          "ǎ",
+          "ss02"
+        ],
+        [
+          "ǽ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "JetBrains Mono",
@@ -680,7 +962,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Code / Data"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Open Sauce Sans",
@@ -866,7 +1150,9 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’"
     },
     {
       "name": "Plus Jakarta Sans",
@@ -1041,7 +1327,106 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "I",
+          "salt"
+        ],
+        [
+          "J",
+          "ss03"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "Q",
+          "ss03"
+        ],
+        [
+          "R",
+          "ss03"
+        ],
+        [
+          "U",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "e",
+          "ss03"
+        ],
+        [
+          "f",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "h",
+          "salt"
+        ],
+        [
+          "i",
+          "salt"
+        ],
+        [
+          "j",
+          "salt"
+        ],
+        [
+          "k",
+          "salt"
+        ],
+        [
+          "l",
+          "salt"
+        ],
+        [
+          "m",
+          "salt"
+        ],
+        [
+          "n",
+          "salt"
+        ],
+        [
+          "p",
+          "ss02"
+        ],
+        [
+          "q",
+          "ss02"
+        ],
+        [
+          "r",
+          "salt"
+        ],
+        [
+          "t",
+          "salt"
+        ],
+        [
+          "u",
+          "salt"
+        ],
+        [
+          "y",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Switzer",
@@ -1155,7 +1540,9 @@
       "publishedAt": "2015-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Supreme",
@@ -1265,7 +1652,9 @@
       "useCases": [
         "Interface",
         "Tech"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Schibsted Grotesk",
@@ -1390,7 +1779,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Space Grotesk",
@@ -1489,7 +1880,106 @@
       "useCases": [
         "Interface",
         "Tech"
-      ]
+      ],
+      "altPairs": [
+        [
+          "B",
+          "ss04"
+        ],
+        [
+          "D",
+          "ss04"
+        ],
+        [
+          "I",
+          "ss05"
+        ],
+        [
+          "J",
+          "ss04"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "y",
+          "ss03"
+        ],
+        [
+          "Ì",
+          "ss05"
+        ],
+        [
+          "Í",
+          "ss05"
+        ],
+        [
+          "Î",
+          "ss05"
+        ],
+        [
+          "Ï",
+          "ss05"
+        ],
+        [
+          "Ð",
+          "ss04"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ý",
+          "ss03"
+        ],
+        [
+          "ÿ",
+          "ss03"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "Ď",
+          "ss04"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Ronzino",
@@ -1733,7 +2223,82 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss03"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ĝ",
+          "ss02"
+        ],
+        [
+          "ğ",
+          "ss02"
+        ],
+        [
+          "ġ",
+          "ss02"
+        ],
+        [
+          "ģ",
+          "ss02"
+        ],
+        [
+          "ǎ",
+          "ss01"
+        ],
+        [
+          "ǧ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Outfit",
@@ -1813,7 +2378,30 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "e",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "t",
+          "salt"
+        ],
+        [
+          "1",
+          "salt"
+        ],
+        [
+          "&",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%¡¿€£¥¢“”‘’–—"
     },
     {
       "name": "Satoshi",
@@ -1974,7 +2562,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "Q",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "t",
+          "salt"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "Ĝ",
+          "salt"
+        ],
+        [
+          "ĝ",
+          "salt"
+        ],
+        [
+          "Ğ",
+          "salt"
+        ],
+        [
+          "ğ",
+          "salt"
+        ],
+        [
+          "Ġ",
+          "salt"
+        ],
+        [
+          "ġ",
+          "salt"
+        ],
+        [
+          "Ģ",
+          "salt"
+        ],
+        [
+          "ģ",
+          "salt"
+        ],
+        [
+          "ţ",
+          "salt"
+        ],
+        [
+          "ť",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Departure Mono",
@@ -2049,7 +2736,14 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "&",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Zodiak",
@@ -2157,7 +2851,9 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "New Century Schoolbook (C095)",
@@ -2283,7 +2979,9 @@
       "publishedAt": "2000-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Mona Sans",
@@ -2488,7 +3186,106 @@
       "publishedAt": "2022-11-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss07"
+        ],
+        [
+          "I",
+          "ss02"
+        ],
+        [
+          "a",
+          "ss05"
+        ],
+        [
+          "g",
+          "ss06"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss03"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ì",
+          "ss02"
+        ],
+        [
+          "Í",
+          "ss02"
+        ],
+        [
+          "Î",
+          "ss02"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "Ö",
+          "ss01"
+        ],
+        [
+          "Ü",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss05"
+        ],
+        [
+          "á",
+          "ss05"
+        ],
+        [
+          "â",
+          "ss05"
+        ],
+        [
+          "ã",
+          "ss05"
+        ],
+        [
+          "ä",
+          "ss05"
+        ],
+        [
+          "å",
+          "ss05"
+        ],
+        [
+          "ë",
+          "ss01"
+        ],
+        [
+          "ï",
+          "ss01"
+        ],
+        [
+          "ö",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
     },
     {
       "name": "Overused Grotesk",
@@ -2650,7 +3447,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss04"
+        ],
+        [
+          "I",
+          "ss11"
+        ],
+        [
+          "J",
+          "ss06"
+        ],
+        [
+          "R",
+          "ss05"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss03"
+        ],
+        [
+          "j",
+          "ss03"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "t",
+          "ss08"
+        ],
+        [
+          "u",
+          "ss10"
+        ],
+        [
+          "y",
+          "ss07"
+        ],
+        [
+          "Ä",
+          "ss03"
+        ],
+        [
+          "Ë",
+          "ss03"
+        ],
+        [
+          "Ì",
+          "ss11"
+        ],
+        [
+          "Í",
+          "ss11"
+        ],
+        [
+          "Î",
+          "ss11"
+        ],
+        [
+          "Ï",
+          "ss03"
+        ],
+        [
+          "Ö",
+          "ss03"
+        ],
+        [
+          "Ü",
+          "ss03"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®¶†‡•¡¿€£¥₽¢°±×÷→←↑↓«"
     },
     {
       "name": "FA-1",
@@ -2700,7 +3596,9 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/FA-1-Regular.otf"
+      "downloadLink": "/fonts/FA-1-Regular.otf",
+      "altPairs": [],
+      "specialChars": "&@#%‰€£¥¢±×÷≠“”‘’…–—∞"
     },
     {
       "name": "Alpha Lyrae",
@@ -2781,7 +3679,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "salt"
+        ],
+        [
+          "B",
+          "salt"
+        ],
+        [
+          "C",
+          "salt"
+        ],
+        [
+          "D",
+          "salt"
+        ],
+        [
+          "E",
+          "salt"
+        ],
+        [
+          "F",
+          "salt"
+        ],
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "H",
+          "salt"
+        ],
+        [
+          "I",
+          "salt"
+        ],
+        [
+          "J",
+          "salt"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "L",
+          "salt"
+        ],
+        [
+          "M",
+          "salt"
+        ],
+        [
+          "N",
+          "salt"
+        ],
+        [
+          "O",
+          "salt"
+        ],
+        [
+          "P",
+          "salt"
+        ],
+        [
+          "Q",
+          "salt"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "S",
+          "salt"
+        ],
+        [
+          "T",
+          "salt"
+        ],
+        [
+          "U",
+          "salt"
+        ],
+        [
+          "V",
+          "salt"
+        ],
+        [
+          "W",
+          "salt"
+        ],
+        [
+          "X",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰®™•¡¿€£¥₽¢±×÷≠«»“”‘’…–—"
     },
     {
       "name": "Havana",
@@ -2834,7 +3831,9 @@
       "publishedAt": "2016-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™•¡¿€£¥¢°×÷≠«»“”‘’…–—"
     },
     {
       "name": "Jakob",
@@ -2888,7 +3887,30 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#©®™¶†‡•¡¿€¥¢°×«»“”‘’…–—"
     },
     {
       "name": "Antique Série",
@@ -2948,7 +3970,14 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/AntiqueSerie-Regular.otf"
+      "downloadLink": "/fonts/AntiqueSerie-Regular.otf",
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷≠→←↑↓«»“"
     },
     {
       "name": "Thestral Neue",
@@ -3010,7 +4039,18 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "s",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§¶•€£¢°×÷≠«»“”‘’…–—"
     },
     {
       "name": "Nouvelle Grotesquerie",
@@ -3061,7 +4101,34 @@
       "useCases": [
         "Brand Headline"
       ],
-      "downloadLink": "/fonts/NouvelleGrotesquerie-Regular.otf"
+      "downloadLink": "/fonts/NouvelleGrotesquerie-Regular.otf",
+      "altPairs": [
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "k",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "5",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&«»“”‘’"
     },
     {
       "name": "Excessive Extra Condensed",
@@ -3120,7 +4187,14 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/Excessive-ExtraCondensed.otf"
+      "downloadLink": "/fonts/Excessive-ExtraCondensed.otf",
+      "altPairs": [
+        [
+          "Q",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#§¶€¥«»“”‘’…"
     },
     {
       "name": "N27",
@@ -3203,7 +4277,58 @@
       "useCases": [
         "Interface",
         "Tech"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "æ",
+          "salt"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "ǎ",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "General Sans",
@@ -3349,7 +4474,54 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "Q",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "LCT Iptex",
@@ -3427,7 +4599,30 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "o",
+          "ss02"
+        ],
+        [
+          "0",
+          "ss02"
+        ],
+        [
+          "1",
+          "ss02"
+        ],
+        [
+          "#",
+          "ss03"
+        ]
+      ],
+      "specialChars": "&@#%‰©®™•¡¿€£¥¢°±×÷≠→←↑↓«»“”"
     },
     {
       "name": "PicNic",
@@ -3478,7 +4673,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§™†¡¿€£¥¢°×÷«»’…"
     },
     {
       "name": "Sprat",
@@ -3565,7 +4762,9 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
     },
     {
       "name": "Insolente",
@@ -3615,7 +4814,9 @@
       "useCases": [
         "Experimental"
       ],
-      "downloadLink": "https://typotes.lacambretypo.be/home/insolente"
+      "downloadLink": "https://typotes.lacambretypo.be/home/insolente",
+      "altPairs": [],
+      "specialChars": "«»’…—"
     },
     {
       "name": "Crozet",
@@ -3669,7 +4870,9 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%€¢°×÷«»‘’…"
     },
     {
       "name": "DINdong",
@@ -3760,7 +4963,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«"
     },
     {
       "name": "Roberte",
@@ -3837,7 +5042,74 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "v",
+          "ss01"
+        ],
+        [
+          "w",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "z",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss02"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Nudles",
@@ -3978,7 +5250,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¢°×÷→←↑↓«»“”"
     },
     {
       "name": "Commissioner",
@@ -4472,7 +5746,14 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "б",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Uncut Sans",
@@ -4581,7 +5862,50 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "Y",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss02"
+        ],
+        [
+          "4",
+          "ss02"
+        ],
+        [
+          "Ý",
+          "ss01"
+        ],
+        [
+          "ý",
+          "ss01"
+        ],
+        [
+          "ÿ",
+          "ss01"
+        ],
+        [
+          "Ŷ",
+          "ss01"
+        ],
+        [
+          "ŷ",
+          "ss01"
+        ],
+        [
+          "Ÿ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "RT Obligat",
@@ -4635,7 +5959,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Block",
@@ -4688,7 +6014,9 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§€£¥₽±“”‘’—"
     },
     {
       "name": "Elevatia",
@@ -4760,7 +6088,9 @@
       "publishedAt": "2024-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Frankinity",
@@ -4813,7 +6143,9 @@
       "useCases": [
         "Brand Headline"
       ],
-      "downloadLink": "/fonts/FRANKINITY.otf"
+      "downloadLink": "/fonts/FRANKINITY.otf",
+      "altPairs": [],
+      "specialChars": "&@#%§×÷«»“”‘’—"
     },
     {
       "name": "P95-CYR",
@@ -4873,7 +6205,106 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/P95-CYR-Regular.otf"
+      "downloadLink": "/fonts/P95-CYR-Regular.otf",
+      "altPairs": [
+        [
+          "H",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "P",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "X",
+          "ss01"
+        ],
+        [
+          "Y",
+          "ss01"
+        ],
+        [
+          "0",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "3",
+          "ss01"
+        ],
+        [
+          "4",
+          "ss01"
+        ],
+        [
+          "5",
+          "ss01"
+        ],
+        [
+          "6",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "8",
+          "ss01"
+        ],
+        [
+          "9",
+          "ss01"
+        ],
+        [
+          "К",
+          "ss01"
+        ],
+        [
+          "Л",
+          "ss01"
+        ],
+        [
+          "Н",
+          "ss01"
+        ],
+        [
+          "П",
+          "ss01"
+        ],
+        [
+          "Р",
+          "ss01"
+        ],
+        [
+          "У",
+          "ss01"
+        ],
+        [
+          "Ф",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥₽°×÷«»“”‘’…–—"
     },
     {
       "name": "Space Mono",
@@ -5048,7 +6479,106 @@
       "publishedAt": "2016-01-01",
       "useCases": [
         "Code / Data"
-      ]
+      ],
+      "altPairs": [
+        [
+          "B",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss02"
+        ],
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "i",
+          "ss02"
+        ],
+        [
+          "j",
+          "ss02"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "r",
+          "ss02"
+        ],
+        [
+          "y",
+          "ss02"
+        ],
+        [
+          "Ð",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss02"
+        ],
+        [
+          "á",
+          "ss02"
+        ],
+        [
+          "â",
+          "ss02"
+        ],
+        [
+          "ã",
+          "ss02"
+        ],
+        [
+          "ä",
+          "ss02"
+        ],
+        [
+          "å",
+          "ss02"
+        ],
+        [
+          "ì",
+          "ss02"
+        ],
+        [
+          "í",
+          "ss02"
+        ],
+        [
+          "î",
+          "ss02"
+        ],
+        [
+          "ï",
+          "ss02"
+        ],
+        [
+          "ý",
+          "ss02"
+        ],
+        [
+          "ÿ",
+          "ss02"
+        ],
+        [
+          "ā",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Comico",
@@ -5111,7 +6641,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Pencerio Hairline",
@@ -5168,7 +6700,34 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [
+        [
+          "L",
+          "salt"
+        ],
+        [
+          "Ĺ",
+          "salt"
+        ],
+        [
+          "Ļ",
+          "salt"
+        ],
+        [
+          "Ľ",
+          "salt"
+        ],
+        [
+          "Ŀ",
+          "salt"
+        ],
+        [
+          "Ł",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Sharpie Variable",
@@ -5236,7 +6795,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "America XIX",
@@ -5294,7 +6855,9 @@
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/am_xix FREE.otf"
+      "downloadLink": "/fonts/am_xix FREE.otf",
+      "altPairs": [],
+      "specialChars": "&@#‰§¶†‡•€°±«»“”‘’…–—"
     },
     {
       "name": "ARK-ES Dense",
@@ -5405,7 +6968,9 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/ARK-ES-DenseRegular.otf"
+      "downloadLink": "/fonts/ARK-ES-DenseRegular.otf",
+      "altPairs": [],
+      "specialChars": "&@#%©®™•€£¢÷«»“”‘’–—"
     },
     {
       "name": "ARK-ES Solid",
@@ -5516,7 +7081,9 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/ARK-ES-SolidRegular.otf"
+      "downloadLink": "/fonts/ARK-ES-SolidRegular.otf",
+      "altPairs": [],
+      "specialChars": "&@#%©®™•€£¢÷«»“”‘’–—"
     },
     {
       "name": "LCT Mogi A",
@@ -5606,7 +7173,14 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "&",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Biceps Grotesk",
@@ -5657,7 +7231,9 @@
       "publishedAt": "2024-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%•¡¿«»“”‘’…–—"
     },
     {
       "name": "BDO Grotesk",
@@ -5773,7 +7349,58 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "O",
+          "ss06"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "g",
+          "ss03"
+        ],
+        [
+          "o",
+          "ss05"
+        ],
+        [
+          "t",
+          "ss04"
+        ],
+        [
+          "ğ",
+          "ss03"
+        ],
+        [
+          "ġ",
+          "ss03"
+        ],
+        [
+          "ģ",
+          "ss03"
+        ],
+        [
+          "Ŕ",
+          "salt"
+        ],
+        [
+          "Ŗ",
+          "salt"
+        ],
+        [
+          "Ř",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "BD Lifeless Grotesk",
@@ -5909,7 +7536,106 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "C",
+          "ss05"
+        ],
+        [
+          "G",
+          "ss04"
+        ],
+        [
+          "K",
+          "ss07"
+        ],
+        [
+          "Q",
+          "ss09"
+        ],
+        [
+          "R",
+          "ss08"
+        ],
+        [
+          "S",
+          "ss05"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "c",
+          "ss05"
+        ],
+        [
+          "e",
+          "ss05"
+        ],
+        [
+          "g",
+          "ss05"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "s",
+          "ss05"
+        ],
+        [
+          "t",
+          "ss03"
+        ],
+        [
+          "u",
+          "ss04"
+        ],
+        [
+          "y",
+          "ss10"
+        ],
+        [
+          "2",
+          "ss05"
+        ],
+        [
+          "3",
+          "ss05"
+        ],
+        [
+          "5",
+          "ss05"
+        ],
+        [
+          "6",
+          "ss05"
+        ],
+        [
+          "9",
+          "ss05"
+        ],
+        [
+          "Ç",
+          "ss05"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€¥¢°±×÷≠→←↑↓«"
     },
     {
       "name": "Funnel Sans",
@@ -6029,7 +7755,9 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "Terminal Grotesque",
@@ -6099,7 +7827,9 @@
       "publishedAt": "2011-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’…"
     },
     {
       "name": "Compagnon Bold",
@@ -6149,7 +7879,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Anthony",
@@ -6215,7 +7947,106 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "salt"
+        ],
+        [
+          "B",
+          "salt"
+        ],
+        [
+          "C",
+          "salt"
+        ],
+        [
+          "D",
+          "salt"
+        ],
+        [
+          "E",
+          "salt"
+        ],
+        [
+          "F",
+          "salt"
+        ],
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "H",
+          "salt"
+        ],
+        [
+          "I",
+          "salt"
+        ],
+        [
+          "J",
+          "salt"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "L",
+          "salt"
+        ],
+        [
+          "M",
+          "salt"
+        ],
+        [
+          "O",
+          "salt"
+        ],
+        [
+          "P",
+          "salt"
+        ],
+        [
+          "Q",
+          "salt"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "S",
+          "salt"
+        ],
+        [
+          "T",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "b",
+          "salt"
+        ],
+        [
+          "d",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "i",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%§¶†‡¡¿€£¥¢°±×÷→←↑↓«»“”‘’"
     },
     {
       "name": "Hubot Sans",
@@ -6378,7 +8209,106 @@
       "useCases": [
         "Interface",
         "Tech"
-      ]
+      ],
+      "altPairs": [
+        [
+          "I",
+          "ss04"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "r",
+          "ss03"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ì",
+          "ss04"
+        ],
+        [
+          "Í",
+          "ss04"
+        ],
+        [
+          "Î",
+          "ss04"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "Ö",
+          "ss01"
+        ],
+        [
+          "Ü",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss01"
+        ],
+        [
+          "ï",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
     },
     {
       "name": "Sligoil Micro",
@@ -6470,7 +8400,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss02"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss01"
+        ],
+        [
+          "r",
+          "ss01"
+        ],
+        [
+          "s",
+          "ss01"
+        ],
+        [
+          "@",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "Ğ",
+          "ss02"
+        ],
+        [
+          "ğ",
+          "ss01"
+        ],
+        [
+          "Ġ",
+          "ss02"
+        ],
+        [
+          "ġ",
+          "ss01"
+        ],
+        [
+          "Ģ",
+          "ss02"
+        ],
+        [
+          "ģ",
+          "ss01"
+        ],
+        [
+          "ĺ",
+          "ss01"
+        ],
+        [
+          "ļ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«"
     },
     {
       "name": "Pilowlava",
@@ -6600,7 +8629,106 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss02"
+        ],
+        [
+          "B",
+          "salt"
+        ],
+        [
+          "C",
+          "salt"
+        ],
+        [
+          "D",
+          "salt"
+        ],
+        [
+          "E",
+          "salt"
+        ],
+        [
+          "G",
+          "ss03"
+        ],
+        [
+          "H",
+          "salt"
+        ],
+        [
+          "J",
+          "ss03"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "M",
+          "salt"
+        ],
+        [
+          "N",
+          "salt"
+        ],
+        [
+          "S",
+          "salt"
+        ],
+        [
+          "T",
+          "salt"
+        ],
+        [
+          "U",
+          "salt"
+        ],
+        [
+          "V",
+          "salt"
+        ],
+        [
+          "W",
+          "ss03"
+        ],
+        [
+          "X",
+          "salt"
+        ],
+        [
+          "&",
+          "ss03"
+        ],
+        [
+          "À",
+          "ss02"
+        ],
+        [
+          "Á",
+          "ss02"
+        ],
+        [
+          "Â",
+          "ss02"
+        ],
+        [
+          "Ã",
+          "ss02"
+        ],
+        [
+          "Ä",
+          "ss02"
+        ],
+        [
+          "Å",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%•¡¿€£°«»“”‘’…–—"
     },
     {
       "name": "Jost",
@@ -6978,7 +9106,54 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "а",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Basteleur",
@@ -7067,7 +9242,98 @@
       "publishedAt": "2021-04-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ã",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Å",
+          "ss01"
+        ],
+        [
+          "Æ",
+          "ss01"
+        ],
+        [
+          "È",
+          "ss01"
+        ],
+        [
+          "É",
+          "ss01"
+        ],
+        [
+          "Ê",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ā",
+          "ss01"
+        ],
+        [
+          "Ă",
+          "ss01"
+        ],
+        [
+          "Ą",
+          "ss01"
+        ],
+        [
+          "Ē",
+          "ss01"
+        ],
+        [
+          "Ė",
+          "ss01"
+        ],
+        [
+          "Ę",
+          "ss01"
+        ],
+        [
+          "Ě",
+          "ss01"
+        ],
+        [
+          "Œ",
+          "ss01"
+        ],
+        [
+          "Ǎ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠«»“”‘’"
     },
     {
       "name": "LT Crewmate",
@@ -7119,7 +9385,9 @@
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/Crewmate-Regular.otf"
+      "downloadLink": "/fonts/Crewmate-Regular.otf",
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†•¡¿€£¥¢°±×÷≠«»“”‘"
     },
     {
       "name": "LT Museum",
@@ -7319,7 +9587,9 @@
       "useCases": [
         "Editorial / Ecommerce"
       ],
-      "downloadLink": "/fonts/LTMuseum-Medium.ttf"
+      "downloadLink": "/fonts/LTMuseum-Medium.ttf",
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "IntraNet",
@@ -7370,7 +9640,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%"
     },
     {
       "name": "Thunder",
@@ -7464,7 +9736,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "Libertinus Sans",
@@ -7560,7 +9834,9 @@
       "publishedAt": "2012-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Cossette Titre",
@@ -7635,7 +9911,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "Cossette Texte",
@@ -7710,7 +9988,9 @@
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/CossetteTexte-Regular.ttf"
+      "downloadLink": "/fonts/CossetteTexte-Regular.ttf",
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "Oi",
@@ -7769,7 +10049,9 @@
       "publishedAt": "2013-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Ultra",
@@ -7823,7 +10105,9 @@
       "publishedAt": "2011-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Chaumont Script",
@@ -7882,7 +10166,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©™¶†‡•¡¿€£¥₽¢×÷≠→←↑↓«»"
     },
     {
       "name": "Baskervville",
@@ -7994,7 +10280,9 @@
       "publishedAt": "2018-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "enjoy please 3",
@@ -8045,7 +10333,9 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/enjoyplease2-Regular.otf"
+      "downloadLink": "/fonts/enjoyplease2-Regular.otf",
+      "altPairs": [],
+      "specialChars": "&@#%©¥“”‘’—"
     },
     {
       "name": "Fat Porn Font XXL",
@@ -8097,7 +10387,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%©®™¡¿€£¥¢°±×÷≠→←↑↓«»“”‘’"
     },
     {
       "name": "Format 1452",
@@ -8151,7 +10443,9 @@
       "publishedAt": "2010-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%©•¡¿€£°«»“”‘’…–—"
     },
     {
       "name": "Director",
@@ -8243,7 +10537,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™†‡•¡¿€£¥¢°×÷≠→←↑↓«»“"
     },
     {
       "name": "Gap Sans",
@@ -8312,7 +10608,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”‘"
     },
     {
       "name": "Handjet",
@@ -8434,7 +10732,106 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "0",
+          "ss09"
+        ],
+        [
+          "1",
+          "ss09"
+        ],
+        [
+          "2",
+          "ss09"
+        ],
+        [
+          "3",
+          "ss09"
+        ],
+        [
+          "4",
+          "ss09"
+        ],
+        [
+          "5",
+          "ss09"
+        ],
+        [
+          "6",
+          "ss09"
+        ],
+        [
+          "7",
+          "ss09"
+        ],
+        [
+          "8",
+          "ss09"
+        ],
+        [
+          "9",
+          "ss09"
+        ],
+        [
+          "Д",
+          "ss08"
+        ],
+        [
+          "Л",
+          "ss08"
+        ],
+        [
+          "б",
+          "ss07"
+        ],
+        [
+          "в",
+          "ss08"
+        ],
+        [
+          "г",
+          "ss08"
+        ],
+        [
+          "д",
+          "ss08"
+        ],
+        [
+          "ж",
+          "ss08"
+        ],
+        [
+          "з",
+          "ss08"
+        ],
+        [
+          "и",
+          "ss08"
+        ],
+        [
+          "й",
+          "ss08"
+        ],
+        [
+          "к",
+          "ss08"
+        ],
+        [
+          "л",
+          "ss08"
+        ],
+        [
+          "п",
+          "ss08"
+        ],
+        [
+          "т",
+          "ss08"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Bagel Fat One",
@@ -8491,7 +10888,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
     },
     {
       "name": "Boxing",
@@ -8549,7 +10948,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Dela Gothic One",
@@ -8620,7 +11021,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Chillax",
@@ -8704,7 +11107,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "salt"
+        ],
+        [
+          "B",
+          "salt"
+        ],
+        [
+          "D",
+          "salt"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "M",
+          "salt"
+        ],
+        [
+          "N",
+          "salt"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "V",
+          "salt"
+        ],
+        [
+          "W",
+          "salt"
+        ],
+        [
+          "X",
+          "salt"
+        ],
+        [
+          "Y",
+          "salt"
+        ],
+        [
+          "Z",
+          "salt"
+        ],
+        [
+          "k",
+          "salt"
+        ],
+        [
+          "v",
+          "salt"
+        ],
+        [
+          "w",
+          "salt"
+        ],
+        [
+          "x",
+          "salt"
+        ],
+        [
+          "z",
+          "salt"
+        ],
+        [
+          "3",
+          "salt"
+        ],
+        [
+          "À",
+          "salt"
+        ],
+        [
+          "Á",
+          "salt"
+        ],
+        [
+          "Â",
+          "salt"
+        ],
+        [
+          "Ã",
+          "salt"
+        ],
+        [
+          "Ä",
+          "salt"
+        ],
+        [
+          "Å",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Azeret Mono",
@@ -8874,7 +11376,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Code / Data"
-      ]
+      ],
+      "altPairs": [
+        [
+          "C",
+          "ss04"
+        ],
+        [
+          "G",
+          "ss05"
+        ],
+        [
+          "M",
+          "ss09"
+        ],
+        [
+          "Q",
+          "ss03"
+        ],
+        [
+          "S",
+          "ss11"
+        ],
+        [
+          "U",
+          "ss13"
+        ],
+        [
+          "Y",
+          "ss15"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "b",
+          "ss03"
+        ],
+        [
+          "c",
+          "ss04"
+        ],
+        [
+          "d",
+          "ss03"
+        ],
+        [
+          "g",
+          "ss06"
+        ],
+        [
+          "h",
+          "ss08"
+        ],
+        [
+          "m",
+          "ss08"
+        ],
+        [
+          "n",
+          "ss08"
+        ],
+        [
+          "p",
+          "ss03"
+        ],
+        [
+          "q",
+          "ss03"
+        ],
+        [
+          "r",
+          "ss10"
+        ],
+        [
+          "s",
+          "ss11"
+        ],
+        [
+          "t",
+          "ss12"
+        ],
+        [
+          "u",
+          "ss14"
+        ],
+        [
+          "y",
+          "ss15"
+        ],
+        [
+          "Ç",
+          "ss04"
+        ],
+        [
+          "Ù",
+          "ss13"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Néo-castel",
@@ -8929,7 +11530,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%•¡¿€£¥¢→←↑↓«»…"
     },
     {
       "name": "Freeman",
@@ -8997,7 +11600,9 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Cormorant Unicase",
@@ -9425,7 +12030,106 @@
       "publishedAt": "2015-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "À",
+          "ss13"
+        ],
+        [
+          "Á",
+          "ss13"
+        ],
+        [
+          "Â",
+          "ss13"
+        ],
+        [
+          "È",
+          "ss13"
+        ],
+        [
+          "É",
+          "ss13"
+        ],
+        [
+          "Ê",
+          "ss13"
+        ],
+        [
+          "Ì",
+          "ss13"
+        ],
+        [
+          "Í",
+          "ss13"
+        ],
+        [
+          "Î",
+          "ss13"
+        ],
+        [
+          "Ò",
+          "ss13"
+        ],
+        [
+          "Ó",
+          "ss13"
+        ],
+        [
+          "Ô",
+          "ss13"
+        ],
+        [
+          "Ù",
+          "ss13"
+        ],
+        [
+          "Ú",
+          "ss13"
+        ],
+        [
+          "Û",
+          "ss13"
+        ],
+        [
+          "Ý",
+          "ss13"
+        ],
+        [
+          "à",
+          "ss13"
+        ],
+        [
+          "á",
+          "ss13"
+        ],
+        [
+          "â",
+          "ss13"
+        ],
+        [
+          "è",
+          "ss13"
+        ],
+        [
+          "é",
+          "ss13"
+        ],
+        [
+          "ê",
+          "ss13"
+        ],
+        [
+          "ì",
+          "ss13"
+        ],
+        [
+          "í",
+          "ss13"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Tanklager Kompakt",
@@ -9489,7 +12193,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰¶†‡•¡¿°×÷«»“”‘’…–—"
     },
     {
       "name": "Nyght Serif",
@@ -9897,7 +12603,18 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "ж",
+          "ss01"
+        ],
+        [
+          "к",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Piscolabis",
@@ -9963,7 +12680,26 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "ţ",
+          "ss01"
+        ],
+        [
+          "ť",
+          "ss01"
+        ],
+        [
+          "ț",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰©¶†‡•¡¿€¥¢°×«»“”‘’…–—"
     },
     {
       "name": "Isenheim",
@@ -10162,7 +12898,106 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss02"
+        ],
+        [
+          "K",
+          "ss04"
+        ],
+        [
+          "M",
+          "ss02"
+        ],
+        [
+          "O",
+          "ss02"
+        ],
+        [
+          "R",
+          "ss04"
+        ],
+        [
+          "T",
+          "ss02"
+        ],
+        [
+          "d",
+          "ss07"
+        ],
+        [
+          "r",
+          "ss12"
+        ],
+        [
+          "s",
+          "ss07"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ã",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Å",
+          "ss01"
+        ],
+        [
+          "Æ",
+          "ss01"
+        ],
+        [
+          "È",
+          "ss02"
+        ],
+        [
+          "É",
+          "ss02"
+        ],
+        [
+          "Ê",
+          "ss02"
+        ],
+        [
+          "Ë",
+          "ss02"
+        ],
+        [
+          "Ò",
+          "ss02"
+        ],
+        [
+          "Ó",
+          "ss02"
+        ],
+        [
+          "Ô",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©™¶†‡•¡¿€¢°±×÷«»“”‘’…–"
     },
     {
       "name": "Canarina",
@@ -10232,7 +13067,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "b",
+          "salt"
+        ],
+        [
+          "d",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "j",
+          "ss02"
+        ],
+        [
+          "l",
+          "salt"
+        ],
+        [
+          "p",
+          "salt"
+        ],
+        [
+          "q",
+          "salt"
+        ],
+        [
+          "t",
+          "salt"
+        ],
+        [
+          "y",
+          "ss03"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ý",
+          "ss03"
+        ],
+        [
+          "þ",
+          "salt"
+        ],
+        [
+          "ÿ",
+          "ss03"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "ď",
+          "salt"
+        ],
+        [
+          "đ",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Kobata",
@@ -10297,7 +13231,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«»"
     },
     {
       "name": "Azabache",
@@ -10351,7 +13287,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰•¡¿€£¢°×«»“”‘’…–—"
     },
     {
       "name": "Cy Grotesk Grand Dark",
@@ -10436,7 +13374,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "I",
+          "ss04"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss02"
+        ],
+        [
+          "g",
+          "ss03"
+        ],
+        [
+          "Ì",
+          "ss04"
+        ],
+        [
+          "Í",
+          "ss04"
+        ],
+        [
+          "Î",
+          "ss04"
+        ],
+        [
+          "Ï",
+          "ss04"
+        ],
+        [
+          "à",
+          "ss02"
+        ],
+        [
+          "á",
+          "ss02"
+        ],
+        [
+          "â",
+          "ss02"
+        ],
+        [
+          "ã",
+          "ss02"
+        ],
+        [
+          "ä",
+          "ss02"
+        ],
+        [
+          "å",
+          "ss02"
+        ],
+        [
+          "ā",
+          "ss02"
+        ],
+        [
+          "ă",
+          "ss02"
+        ],
+        [
+          "ą",
+          "ss02"
+        ],
+        [
+          "Ĝ",
+          "ss01"
+        ],
+        [
+          "ĝ",
+          "ss03"
+        ],
+        [
+          "Ğ",
+          "ss01"
+        ],
+        [
+          "ğ",
+          "ss03"
+        ],
+        [
+          "Ġ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Cabinet Grotesk",
@@ -10538,7 +13575,82 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "Ä",
+          "salt"
+        ],
+        [
+          "Ü",
+          "salt"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "ĝ",
+          "salt"
+        ],
+        [
+          "ğ",
+          "salt"
+        ],
+        [
+          "ġ",
+          "salt"
+        ],
+        [
+          "ģ",
+          "salt"
+        ],
+        [
+          "Ĳ",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Carattere",
@@ -10597,7 +13709,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Jaro",
@@ -10684,7 +13798,9 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Instrument Sans",
@@ -10938,7 +14054,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss07"
+        ],
+        [
+          "J",
+          "ss08"
+        ],
+        [
+          "K",
+          "ss04"
+        ],
+        [
+          "M",
+          "ss06"
+        ],
+        [
+          "Q",
+          "ss09"
+        ],
+        [
+          "R",
+          "ss05"
+        ],
+        [
+          "a",
+          "ss02"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "k",
+          "ss04"
+        ],
+        [
+          "y",
+          "ss03"
+        ],
+        [
+          "2",
+          "ss10"
+        ],
+        [
+          "&",
+          "ss11"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "Ö",
+          "ss01"
+        ],
+        [
+          "Ü",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss02"
+        ],
+        [
+          "á",
+          "ss02"
+        ],
+        [
+          "â",
+          "ss02"
+        ],
+        [
+          "ã",
+          "ss02"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷→←↑↓«»“”"
     },
     {
       "name": "Milkman",
@@ -10993,7 +14208,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#®•¿€£¥°×→←–—"
     },
     {
       "name": "Saint",
@@ -11049,7 +14266,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": ""
     },
     {
       "name": "Kulturë",
@@ -11101,7 +14320,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%€¥“”‘’"
     },
     {
       "name": "Phosphène Font",
@@ -11152,7 +14373,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Tech / Digital"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©™¶†‡•¡¿€£¥°×÷≠→←↑↓«»“"
     },
     {
       "name": "Hedvig Letters Serif",
@@ -11234,7 +14457,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Hedvig Letters Sans",
@@ -11299,7 +14524,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Galgo Condensed",
@@ -11382,7 +14609,106 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "o",
+          "ss01"
+        ],
+        [
+          "s",
+          "ss01"
+        ],
+        [
+          "z",
+          "ss02"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "é",
+          "ss01"
+        ],
+        [
+          "ê",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss01"
+        ],
+        [
+          "ò",
+          "ss01"
+        ],
+        [
+          "ó",
+          "ss01"
+        ],
+        [
+          "ô",
+          "ss01"
+        ],
+        [
+          "õ",
+          "ss01"
+        ],
+        [
+          "ö",
+          "ss01"
+        ],
+        [
+          "ē",
+          "ss01"
+        ],
+        [
+          "ĕ",
+          "ss01"
+        ],
+        [
+          "ė",
+          "ss01"
+        ],
+        [
+          "ę",
+          "ss01"
+        ],
+        [
+          "ě",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "TASA Explorer",
@@ -11660,7 +14986,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Amiamie",
@@ -11839,7 +15167,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Amiamie Round",
@@ -11969,7 +15299,9 @@
       "useCases": [
         "Interface",
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Aspekta",
@@ -12104,7 +15436,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss06"
+        ],
+        [
+          "J",
+          "ss07"
+        ],
+        [
+          "R",
+          "ss08"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "t",
+          "ss03"
+        ],
+        [
+          "u",
+          "ss04"
+        ],
+        [
+          "y",
+          "ss05"
+        ],
+        [
+          "1",
+          "ss10"
+        ],
+        [
+          "3",
+          "ss09"
+        ],
+        [
+          "4",
+          "ss10"
+        ],
+        [
+          "6",
+          "ss09"
+        ],
+        [
+          "9",
+          "ss09"
+        ],
+        [
+          "@",
+          "ss11"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ù",
+          "ss04"
+        ],
+        [
+          "ú",
+          "ss04"
+        ],
+        [
+          "û",
+          "ss04"
+        ],
+        [
+          "ü",
+          "ss04"
+        ]
+      ],
+      "specialChars": "&@#%‰©®™†‡¡¿€£¥¢°×÷→←↑↓“”‘’…"
     },
     {
       "name": "Cooper",
@@ -12411,7 +15842,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Reglo",
@@ -12465,7 +15898,9 @@
       "publishedAt": "2009-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#“”‘’–—"
     },
     {
       "name": "Ortica Linear",
@@ -12613,7 +16048,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Aujournuit",
@@ -12697,7 +16134,22 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Culture"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Micro Grotesk",
@@ -12764,7 +16216,9 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Interface"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": ""
     },
     {
       "name": "Apfel Grotesk",
@@ -12896,7 +16350,9 @@
       "publishedAt": "2019-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Apfel Grotezk Brukt",
@@ -12954,7 +16410,9 @@
       "useCases": [
         "Culture",
         "Experimental"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Sinistre",
@@ -13043,7 +16501,106 @@
       "publishedAt": "2020-01-01",
       "useCases": [
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "C",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "H",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "L",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "P",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "S",
+          "ss01"
+        ],
+        [
+          "T",
+          "ss01"
+        ],
+        [
+          "U",
+          "ss01"
+        ],
+        [
+          "W",
+          "ss01"
+        ],
+        [
+          "Y",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Standard",
@@ -13116,7 +16673,9 @@
       "publishedAt": "2017-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘’"
     },
     {
       "name": "Redaction",
@@ -13651,7 +17210,9 @@
       "useCases": [
         "Culture"
       ],
-      "sourceUrl": "https://www.mckltype.com/typefaces/redaction"
+      "sourceUrl": "https://www.mckltype.com/typefaces/redaction",
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°×«»“”‘’…–"
     },
     {
       "name": "Times Newer Roman",
@@ -13784,7 +17345,9 @@
       "publishedAt": "2018-01-01",
       "useCases": [
         "Editorial"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Louise",
@@ -13841,7 +17404,9 @@
       "publishedAt": "2021-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Knack",
@@ -13953,7 +17518,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "I",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "O",
+          "ss02"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "U",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss01"
+        ],
+        [
+          "o",
+          "ss02"
+        ],
+        [
+          "r",
+          "ss04"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "u",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "0",
+          "ss05"
+        ],
+        [
+          "1",
+          "ss10"
+        ],
+        [
+          "2",
+          "ss05"
+        ],
+        [
+          "3",
+          "ss10"
+        ],
+        [
+          "4",
+          "ss05"
+        ],
+        [
+          "5",
+          "ss10"
+        ],
+        [
+          "6",
+          "ss10"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Crédible",
@@ -14013,7 +17677,106 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Experimental"
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "b",
+          "salt"
+        ],
+        [
+          "c",
+          "salt"
+        ],
+        [
+          "d",
+          "salt"
+        ],
+        [
+          "e",
+          "salt"
+        ],
+        [
+          "f",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "h",
+          "salt"
+        ],
+        [
+          "i",
+          "salt"
+        ],
+        [
+          "j",
+          "ss02"
+        ],
+        [
+          "k",
+          "salt"
+        ],
+        [
+          "l",
+          "salt"
+        ],
+        [
+          "m",
+          "salt"
+        ],
+        [
+          "n",
+          "salt"
+        ],
+        [
+          "o",
+          "salt"
+        ],
+        [
+          "p",
+          "salt"
+        ],
+        [
+          "q",
+          "salt"
+        ],
+        [
+          "r",
+          "salt"
+        ],
+        [
+          "s",
+          "salt"
+        ],
+        [
+          "t",
+          "salt"
+        ],
+        [
+          "u",
+          "salt"
+        ],
+        [
+          "v",
+          "salt"
+        ],
+        [
+          "w",
+          "salt"
+        ],
+        [
+          "x",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Oswald",
@@ -14088,7 +17851,9 @@
       "publishedAt": "2012-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Montagu Slab",
@@ -14180,7 +17945,9 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Vampiro One",
@@ -14233,7 +18000,9 @@
       "publishedAt": "2012-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷«»“”‘’…–"
     },
     {
       "name": "Tillana",
@@ -14369,7 +18138,9 @@
       "publishedAt": "2014-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Ranga",
@@ -14444,7 +18215,9 @@
       "publishedAt": "2014-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "Astloch",
@@ -14519,7 +18292,9 @@
       "publishedAt": "2011-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®¶•¡¿£¥¢°±×÷«»“”‘’–—"
     },
     {
       "name": "Srisakdi",
@@ -14604,7 +18379,9 @@
       "publishedAt": "2016-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Playpen Sans",
@@ -14697,7 +18474,98 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "I",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "ľ",
+          "ss01"
+        ],
+        [
+          "Ŋ",
+          "ss01"
+        ],
+        [
+          "ƒ",
+          "ss19"
+        ],
+        [
+          "Ɲ",
+          "ss01"
+        ],
+        [
+          "Μ",
+          "ss01"
+        ],
+        [
+          "ά",
+          "ss01"
+        ],
+        [
+          "α",
+          "ss01"
+        ],
+        [
+          "δ",
+          "ss01"
+        ],
+        [
+          "θ",
+          "ss01"
+        ],
+        [
+          "λ",
+          "ss01"
+        ],
+        [
+          "а",
+          "ss01"
+        ],
+        [
+          "и",
+          "ss01"
+        ],
+        [
+          "й",
+          "ss01"
+        ],
+        [
+          "у",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Shantell Sans",
@@ -14920,7 +18788,62 @@
       "publishedAt": "2022-01-01",
       "useCases": [
         "Handwritten / Script"
-      ]
+      ],
+      "altPairs": [
+        [
+          "Ф",
+          "ss01"
+        ],
+        [
+          "б",
+          "ss03"
+        ],
+        [
+          "в",
+          "ss01"
+        ],
+        [
+          "г",
+          "ss01"
+        ],
+        [
+          "д",
+          "ss01"
+        ],
+        [
+          "ж",
+          "ss01"
+        ],
+        [
+          "з",
+          "ss01"
+        ],
+        [
+          "к",
+          "ss01"
+        ],
+        [
+          "п",
+          "ss01"
+        ],
+        [
+          "т",
+          "ss01"
+        ],
+        [
+          "ц",
+          "ss01"
+        ],
+        [
+          "ш",
+          "ss01"
+        ],
+        [
+          "щ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "TikTok Sans",
@@ -15062,7 +18985,106 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "I",
+          "ss06"
+        ],
+        [
+          "l",
+          "ss06"
+        ],
+        [
+          "0",
+          "ss06"
+        ],
+        [
+          "Ì",
+          "ss06"
+        ],
+        [
+          "Í",
+          "ss06"
+        ],
+        [
+          "Î",
+          "ss06"
+        ],
+        [
+          "Ï",
+          "ss06"
+        ],
+        [
+          "Ĩ",
+          "ss06"
+        ],
+        [
+          "Ī",
+          "ss06"
+        ],
+        [
+          "Ĭ",
+          "ss06"
+        ],
+        [
+          "Į",
+          "ss06"
+        ],
+        [
+          "İ",
+          "ss06"
+        ],
+        [
+          "Ĳ",
+          "ss06"
+        ],
+        [
+          "ĺ",
+          "ss06"
+        ],
+        [
+          "ļ",
+          "ss06"
+        ],
+        [
+          "ľ",
+          "ss06"
+        ],
+        [
+          "ŀ",
+          "ss06"
+        ],
+        [
+          "ł",
+          "ss06"
+        ],
+        [
+          "Ɨ",
+          "ss06"
+        ],
+        [
+          "Ǐ",
+          "ss06"
+        ],
+        [
+          "Ι",
+          "ss06"
+        ],
+        [
+          "Ϊ",
+          "ss06"
+        ],
+        [
+          "Д",
+          "ss01"
+        ],
+        [
+          "Л",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Sober",
@@ -15118,7 +19140,9 @@
       "publishedAt": "2023-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”"
     },
     {
       "name": "Granturismo",
@@ -15204,7 +19228,9 @@
       "useCases": [
         "Culture",
         "Poster"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": ""
     },
     {
       "name": "Format",
@@ -15325,7 +19351,9 @@
       "useCases": [
         "Brand Headline",
         "Interface"
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#£"
     },
     {
       "name": "BBH Bogle",
@@ -15385,7 +19413,18 @@
       "useCases": [
         "Brand Headline",
         "Poster"
-      ]
+      ],
+      "altPairs": [
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%©®™•€£¥¢°×÷“”‘’…–—"
     },
     {
       "name": "Google Sans Flex",
@@ -15518,7 +19557,74 @@
       "useCases": [
         "Interface"
       ],
-      "sourceUrl": "https://fonts.google.com/specimen/Google+Sans+Flex"
+      "sourceUrl": "https://fonts.google.com/specimen/Google+Sans+Flex",
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "æ",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ğ",
+          "ss02"
+        ],
+        [
+          "ġ",
+          "ss02"
+        ],
+        [
+          "ģ",
+          "ss02"
+        ],
+        [
+          "ǎ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷≠«»“”‘’…"
     },
     {
       "name": "Momo Trust Display",
@@ -15582,7 +19688,18 @@
       "publishedAt": "2024-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
     },
     {
       "name": "Momo Trust Sans",
@@ -15661,7 +19778,26 @@
       "useCases": [
         "Interface",
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "m",
+          "ss02"
+        ],
+        [
+          "n",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
     },
     {
       "name": "SN Pro",
@@ -15816,7 +19952,102 @@
       "useCases": [
         "Interface",
         "Code/Data"
-      ]
+      ],
+      "altPairs": [
+        [
+          "M",
+          "ss03"
+        ],
+        [
+          "a",
+          "ss02"
+        ],
+        [
+          "l",
+          "ss03"
+        ],
+        [
+          "à",
+          "ss02"
+        ],
+        [
+          "á",
+          "ss02"
+        ],
+        [
+          "â",
+          "ss02"
+        ],
+        [
+          "ã",
+          "ss02"
+        ],
+        [
+          "ä",
+          "ss02"
+        ],
+        [
+          "å",
+          "ss02"
+        ],
+        [
+          "ā",
+          "ss02"
+        ],
+        [
+          "ă",
+          "ss02"
+        ],
+        [
+          "ą",
+          "ss02"
+        ],
+        [
+          "ĺ",
+          "ss03"
+        ],
+        [
+          "ļ",
+          "ss03"
+        ],
+        [
+          "ľ",
+          "ss03"
+        ],
+        [
+          "ŀ",
+          "ss03"
+        ],
+        [
+          "ł",
+          "ss03"
+        ],
+        [
+          "ǉ",
+          "ss03"
+        ],
+        [
+          "ǎ",
+          "ss02"
+        ],
+        [
+          "ǻ",
+          "ss02"
+        ],
+        [
+          "ȁ",
+          "ss02"
+        ],
+        [
+          "ȃ",
+          "ss02"
+        ],
+        [
+          "ȧ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Stack Sans Headline",
@@ -15897,7 +20128,106 @@
       "publishedAt": "2024-01-01",
       "useCases": [
         "Brand Headline"
-      ]
+      ],
+      "altPairs": [
+        [
+          "B",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss01"
+        ],
+        [
+          "P",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Stack Sans Notch",
@@ -15980,7 +20310,106 @@
       "useCases": [
         "Brand Headline",
         "Culture"
-      ]
+      ],
+      "altPairs": [
+        [
+          "B",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss01"
+        ],
+        [
+          "P",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Stack Sans Text",
@@ -16062,7 +20491,106 @@
       "useCases": [
         "Interface",
         "Editorial / Ecommerce"
-      ]
+      ],
+      "altPairs": [
+        [
+          "B",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss01"
+        ],
+        [
+          "P",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "f",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "y",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Figtree",
@@ -16142,7 +20670,106 @@
           "url": "/fonts/Figtree-Italic[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "I",
+          "ss02"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "0",
+          "ss02"
+        ],
+        [
+          "Ì",
+          "ss02"
+        ],
+        [
+          "Í",
+          "ss02"
+        ],
+        [
+          "Î",
+          "ss02"
+        ],
+        [
+          "Ï",
+          "ss02"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "Ī",
+          "ss02"
+        ],
+        [
+          "Į",
+          "ss02"
+        ],
+        [
+          "İ",
+          "ss02"
+        ],
+        [
+          "Ĳ",
+          "ss02"
+        ],
+        [
+          "ĺ",
+          "ss02"
+        ],
+        [
+          "ļ",
+          "ss02"
+        ],
+        [
+          "ľ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«"
     },
     {
       "name": "Frick",
@@ -16204,7 +20831,30 @@
           "url": "/fonts/Frick0.3-Condensed.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥₽¢°→←↑↓«»“”‘’"
     },
     {
       "name": "Lineal",
@@ -16257,7 +20907,106 @@
           "url": "/fonts/LinealVF.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "C",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "O",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "V",
+          "ss01"
+        ],
+        [
+          "W",
+          "ss01"
+        ],
+        [
+          "m",
+          "ss02"
+        ],
+        [
+          "n",
+          "ss02"
+        ],
+        [
+          "0",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "4",
+          "ss01"
+        ],
+        [
+          "5",
+          "ss01"
+        ],
+        [
+          "6",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "9",
+          "ss01"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%•¡¿€£¥°×÷→←↑↓«»“”‘’…–—"
     },
     {
       "name": "National Park",
@@ -16310,7 +21059,9 @@
           "url": "/fonts/NationalPark-VariableVF.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Whois Mono",
@@ -16353,7 +21104,9 @@
           "url": "/fonts/whois-mono.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®¶¡¿€£¥¢°±×÷«»“”‘’–—"
     },
     {
       "name": "Paragon",
@@ -16406,7 +21159,9 @@
           "url": "/fonts/Paragon-Italic.woff2",
           "uploadedAt": "2026-05-16T18:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%•¡¿€£«»’—"
     },
     {
       "name": "P-ACR-AGON",
@@ -16444,7 +21199,9 @@
           "url": "/fonts/P-ACR-AGON-Regular.woff2",
           "uploadedAt": "2026-05-16T18:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%•¡¿€£«»’"
     },
     {
       "name": "MuseoModerno",
@@ -16519,7 +21276,106 @@
           "url": "/fonts/MuseoModerno-Italic-VariableFont_wght.woff2",
           "uploadedAt": "2026-05-16T18:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "L",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "O",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "T",
+          "ss01"
+        ],
+        [
+          "W",
+          "ss01"
+        ],
+        [
+          "X",
+          "ss01"
+        ],
+        [
+          "Z",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "k",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss01"
+        ],
+        [
+          "m",
+          "ss01"
+        ],
+        [
+          "n",
+          "ss01"
+        ],
+        [
+          "o",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "DT Dumpling Display",
@@ -16563,7 +21419,9 @@
           "url": "/fonts/DTDumplingDisplay-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": ""
     },
     {
       "name": "DT Getai Grotesk",
@@ -16607,7 +21465,9 @@
           "url": "/fonts/DTGetaiGroteskDisplay-Black.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶†‡€£¥¢°±×÷≠“”‘’–—"
     },
     {
       "name": "DT Nightingale",
@@ -16652,7 +21512,9 @@
           "url": "/fonts/DTNightingale-Light.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠“”‘’"
     },
     {
       "name": "DT World Tour",
@@ -16695,7 +21557,9 @@
           "url": "/fonts/DTWorldTour-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°±×÷≠“”‘’…–—"
     },
     {
       "name": "Tuoi Tre",
@@ -16756,7 +21620,9 @@
           "url": "/fonts/FFF_tuoi-tre-Text.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&%‰•¡¿€¢«»“”‘’…–—"
     },
     {
       "name": "Inclusive Sans",
@@ -16911,7 +21777,66 @@
           "url": "/fonts/InclusiveSans-BoldItalic.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ğ",
+          "ss01"
+        ],
+        [
+          "ġ",
+          "ss01"
+        ],
+        [
+          "ģ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
     },
     {
       "name": "League Gothic",
@@ -17003,7 +21928,9 @@
           "url": "/fonts/LeagueGothic-CondensedItalic.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%©®™•¡¿€£¥¢“”‘’…–—"
     },
     {
       "name": "League Script No.1",
@@ -17046,7 +21973,9 @@
           "url": "/fonts/LeagueScriptNumberOne.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%•¡¿€£¢«»“”‘’"
     },
     {
       "name": "Paysage",
@@ -17137,7 +22066,70 @@
           "url": "/fonts/Paysage-Black.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ĝ",
+          "ss01"
+        ],
+        [
+          "ğ",
+          "ss01"
+        ],
+        [
+          "ġ",
+          "ss01"
+        ],
+        [
+          "ģ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%©•¡¿€£°±×÷≠→←«»“”‘’…–—"
     },
     {
       "name": "Perun",
@@ -17210,7 +22202,9 @@
           "url": "/fonts/Perun-Italic-VF.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Spectral",
@@ -17461,7 +22455,106 @@
           "url": "/fonts/Spectral-ExtraBoldItalic.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss04"
+        ],
+        [
+          "b",
+          "ss04"
+        ],
+        [
+          "c",
+          "ss04"
+        ],
+        [
+          "d",
+          "ss04"
+        ],
+        [
+          "0",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "3",
+          "ss01"
+        ],
+        [
+          "4",
+          "ss01"
+        ],
+        [
+          "5",
+          "ss01"
+        ],
+        [
+          "6",
+          "ss01"
+        ],
+        [
+          "7",
+          "ss01"
+        ],
+        [
+          "8",
+          "ss01"
+        ],
+        [
+          "9",
+          "ss01"
+        ],
+        [
+          "×",
+          "ss03"
+        ],
+        [
+          "÷",
+          "ss03"
+        ],
+        [
+          "Д",
+          "ss06"
+        ],
+        [
+          "Ж",
+          "ss06"
+        ],
+        [
+          "К",
+          "ss06"
+        ],
+        [
+          "Л",
+          "ss06"
+        ],
+        [
+          "б",
+          "ss05"
+        ],
+        [
+          "в",
+          "ss06"
+        ],
+        [
+          "г",
+          "ss05"
+        ],
+        [
+          "д",
+          "ss05"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Affigere",
@@ -17506,7 +22599,18 @@
           "url": "/fonts/Affigere-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰©®™†‡•¡¿€£¥¢°±×÷≠«»“”‘’"
     },
     {
       "name": "Absans",
@@ -17550,7 +22654,78 @@
           "url": "/fonts/Absans-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "Q",
+          "ss03"
+        ],
+        [
+          "a",
+          "ss04"
+        ],
+        [
+          "g",
+          "ss04"
+        ],
+        [
+          "à",
+          "ss04"
+        ],
+        [
+          "á",
+          "ss04"
+        ],
+        [
+          "â",
+          "ss04"
+        ],
+        [
+          "ã",
+          "ss04"
+        ],
+        [
+          "ä",
+          "ss04"
+        ],
+        [
+          "å",
+          "ss04"
+        ],
+        [
+          "ā",
+          "ss04"
+        ],
+        [
+          "ă",
+          "ss04"
+        ],
+        [
+          "ą",
+          "ss04"
+        ],
+        [
+          "ĝ",
+          "ss04"
+        ],
+        [
+          "ğ",
+          "ss04"
+        ],
+        [
+          "ġ",
+          "ss04"
+        ],
+        [
+          "ģ",
+          "ss04"
+        ],
+        [
+          "ǧ",
+          "ss04"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Bajaderka",
@@ -17593,7 +22768,9 @@
           "url": "/fonts/Bajaderka-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™†€¢°×÷«»“”‘’–—"
     },
     {
       "name": "Coconat",
@@ -17668,7 +22845,9 @@
           "url": "/fonts/Coconat-Bold.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Instrument Serif",
@@ -17728,7 +22907,106 @@
           "url": "/fonts/InstrumentSerif-Italic.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "c",
+          "ss01"
+        ],
+        [
+          "d",
+          "ss01"
+        ],
+        [
+          "e",
+          "ss01"
+        ],
+        [
+          "g",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ç",
+          "ss01"
+        ],
+        [
+          "è",
+          "ss01"
+        ],
+        [
+          "é",
+          "ss01"
+        ],
+        [
+          "ê",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ć",
+          "ss01"
+        ],
+        [
+          "ċ",
+          "ss01"
+        ],
+        [
+          "č",
+          "ss01"
+        ],
+        [
+          "ď",
+          "ss01"
+        ],
+        [
+          "đ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–"
     },
     {
       "name": "Junicode",
@@ -17819,7 +23097,106 @@
           "url": "/fonts/Junicode-BoldItalic.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "salt"
+        ],
+        [
+          "B",
+          "salt"
+        ],
+        [
+          "C",
+          "salt"
+        ],
+        [
+          "D",
+          "salt"
+        ],
+        [
+          "E",
+          "salt"
+        ],
+        [
+          "F",
+          "salt"
+        ],
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "H",
+          "salt"
+        ],
+        [
+          "I",
+          "salt"
+        ],
+        [
+          "J",
+          "salt"
+        ],
+        [
+          "K",
+          "salt"
+        ],
+        [
+          "L",
+          "salt"
+        ],
+        [
+          "M",
+          "salt"
+        ],
+        [
+          "N",
+          "salt"
+        ],
+        [
+          "O",
+          "salt"
+        ],
+        [
+          "P",
+          "salt"
+        ],
+        [
+          "Q",
+          "salt"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "S",
+          "salt"
+        ],
+        [
+          "T",
+          "salt"
+        ],
+        [
+          "U",
+          "salt"
+        ],
+        [
+          "V",
+          "salt"
+        ],
+        [
+          "W",
+          "salt"
+        ],
+        [
+          "X",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Luperca",
@@ -17926,7 +23303,106 @@
           "url": "/fonts/Luperca-72-96Banner.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss03"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "L",
+          "ss03"
+        ],
+        [
+          "N",
+          "ss02"
+        ],
+        [
+          "Q",
+          "ss04"
+        ],
+        [
+          "T",
+          "ss03"
+        ],
+        [
+          "Y",
+          "ss02"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ã",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Å",
+          "ss01"
+        ],
+        [
+          "Ý",
+          "ss02"
+        ],
+        [
+          "ÿ",
+          "ss02"
+        ],
+        [
+          "Ā",
+          "ss01"
+        ],
+        [
+          "Ă",
+          "ss01"
+        ],
+        [
+          "Ą",
+          "ss01"
+        ],
+        [
+          "Ĺ",
+          "ss05"
+        ],
+        [
+          "Ļ",
+          "ss05"
+        ],
+        [
+          "Ľ",
+          "ss05"
+        ],
+        [
+          "Ł",
+          "ss05"
+        ],
+        [
+          "Ŷ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%†‡•¡¿°×«»“”‘’…–—"
     },
     {
       "name": "Manosque",
@@ -17969,7 +23445,70 @@
           "url": "/fonts/Manosque-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "j",
+          "ss02"
+        ],
+        [
+          "y",
+          "ss02"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "ý",
+          "ss02"
+        ],
+        [
+          "ÿ",
+          "ss02"
+        ],
+        [
+          "ā",
+          "salt"
+        ],
+        [
+          "ă",
+          "salt"
+        ],
+        [
+          "ą",
+          "salt"
+        ],
+        [
+          "ŷ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°×÷≠→←↑↓«»“”"
     },
     {
       "name": "Opening Hours Mono",
@@ -18031,7 +23570,106 @@
           "url": "/fonts/OpeningHoursMonoVF.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "C",
+          "ss01"
+        ],
+        [
+          "D",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "F",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "L",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "O",
+          "ss01"
+        ],
+        [
+          "Q",
+          "ss01"
+        ],
+        [
+          "S",
+          "ss01"
+        ],
+        [
+          "V",
+          "ss01"
+        ],
+        [
+          "W",
+          "ss01"
+        ],
+        [
+          "X",
+          "ss01"
+        ],
+        [
+          "Y",
+          "ss01"
+        ],
+        [
+          "Z",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "0",
+          "ss01"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "2",
+          "ss01"
+        ],
+        [
+          "3",
+          "ss01"
+        ],
+        [
+          "4",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«"
     },
     {
       "name": "Opening Hours Sans",
@@ -18074,7 +23712,70 @@
           "url": "/fonts/OpeningHoursSans-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "Ö",
+          "ss01"
+        ],
+        [
+          "Ü",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "ë",
+          "ss01"
+        ],
+        [
+          "ï",
+          "ss01"
+        ],
+        [
+          "ö",
+          "ss01"
+        ],
+        [
+          "÷",
+          "ss01"
+        ],
+        [
+          "ü",
+          "ss01"
+        ],
+        [
+          "ÿ",
+          "ss01"
+        ],
+        [
+          "Ÿ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Pretendard",
@@ -18125,7 +23826,106 @@
           "url": "/fonts/PretendardVariable.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "I",
+          "salt"
+        ],
+        [
+          "a",
+          "salt"
+        ],
+        [
+          "l",
+          "salt"
+        ],
+        [
+          "1",
+          "salt"
+        ],
+        [
+          "3",
+          "salt"
+        ],
+        [
+          "4",
+          "salt"
+        ],
+        [
+          "6",
+          "salt"
+        ],
+        [
+          "9",
+          "salt"
+        ],
+        [
+          "@",
+          "ss05"
+        ],
+        [
+          "Ì",
+          "salt"
+        ],
+        [
+          "Í",
+          "salt"
+        ],
+        [
+          "Î",
+          "salt"
+        ],
+        [
+          "Ï",
+          "salt"
+        ],
+        [
+          "×",
+          "ss05"
+        ],
+        [
+          "ß",
+          "salt"
+        ],
+        [
+          "à",
+          "salt"
+        ],
+        [
+          "á",
+          "salt"
+        ],
+        [
+          "â",
+          "salt"
+        ],
+        [
+          "ã",
+          "salt"
+        ],
+        [
+          "ä",
+          "salt"
+        ],
+        [
+          "å",
+          "salt"
+        ],
+        [
+          "÷",
+          "ss05"
+        ],
+        [
+          "ā",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Zarathustra",
@@ -18168,7 +23968,9 @@
           "url": "/fonts/Zarathustra-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "§¶†•¡¿«»“”‘’…–—★"
     },
     {
       "name": "Akt",
@@ -18223,7 +24025,106 @@
           "url": "/fonts/Akt[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "Q",
+          "ss02"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss03"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "t",
+          "ss03"
+        ],
+        [
+          "y",
+          "ss02"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ý",
+          "ss02"
+        ],
+        [
+          "ÿ",
+          "ss02"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ĳ",
+          "ss03"
+        ],
+        [
+          "ĵ",
+          "ss03"
+        ],
+        [
+          "ĺ",
+          "ss02"
+        ],
+        [
+          "ļ",
+          "ss02"
+        ],
+        [
+          "ľ",
+          "ss02"
+        ],
+        [
+          "ŀ",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Geomini",
@@ -18276,7 +24177,9 @@
           "url": "/fonts/Geomini[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "Geist Pixel",
@@ -18329,7 +24232,106 @@
           "url": "/fonts/GeistPixel[ELSH].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "ss06"
+        ],
+        [
+          "I",
+          "ss05"
+        ],
+        [
+          "R",
+          "ss04"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss03"
+        ],
+        [
+          "0",
+          "ss09"
+        ],
+        [
+          "Ì",
+          "ss05"
+        ],
+        [
+          "Í",
+          "ss05"
+        ],
+        [
+          "Î",
+          "ss05"
+        ],
+        [
+          "Ï",
+          "ss05"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "Ğ",
+          "ss06"
+        ],
+        [
+          "Ġ",
+          "ss06"
+        ],
+        [
+          "Ģ",
+          "ss06"
+        ],
+        [
+          "Ĩ",
+          "ss05"
+        ],
+        [
+          "Ī",
+          "ss05"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Pliant",
@@ -18426,7 +24428,66 @@
           "url": "/fonts/Pliant-Italic[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "&",
+          "ss01"
+        ],
+        [
+          "@",
+          "ss01"
+        ],
+        [
+          "ß",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ǎ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Finlandica Text",
@@ -18504,7 +24565,106 @@
           "url": "/fonts/FinlandicaText-Italic[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ã",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Å",
+          "ss01"
+        ],
+        [
+          "Ì",
+          "ss01"
+        ],
+        [
+          "Í",
+          "ss01"
+        ],
+        [
+          "Î",
+          "ss01"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "ì",
+          "ss01"
+        ],
+        [
+          "í",
+          "ss01"
+        ],
+        [
+          "î",
+          "ss01"
+        ],
+        [
+          "ï",
+          "ss01"
+        ],
+        [
+          "Ā",
+          "ss01"
+        ],
+        [
+          "Ă",
+          "ss01"
+        ],
+        [
+          "Ą",
+          "ss01"
+        ],
+        [
+          "Ĝ",
+          "ss01"
+        ],
+        [
+          "Ğ",
+          "ss01"
+        ],
+        [
+          "Ġ",
+          "ss01"
+        ],
+        [
+          "Ģ",
+          "ss01"
+        ],
+        [
+          "Ĩ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Strichpunkt Sans",
@@ -18569,7 +24729,9 @@
           "url": "/fonts/StrichpunktSans[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Pirate Quest",
@@ -18612,7 +24774,9 @@
           "url": "/fonts/PirateQuest-Regular.woff2",
           "uploadedAt": "2026-07-12T20:30:00.000Z"
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "@§©®™¶•¡¿€£¢×÷«»“”‘’…"
     },
     {
       "name": "Doto",
@@ -18679,7 +24843,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "Sono",
@@ -18768,7 +24934,106 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "I",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss04"
+        ],
+        [
+          "a",
+          "ss03"
+        ],
+        [
+          "c",
+          "ss02"
+        ],
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "i",
+          "ss01"
+        ],
+        [
+          "j",
+          "ss01"
+        ],
+        [
+          "l",
+          "ss01"
+        ],
+        [
+          "m",
+          "ss04"
+        ],
+        [
+          "r",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss03"
+        ],
+        [
+          "y",
+          "ss03"
+        ],
+        [
+          "0",
+          "ss05"
+        ],
+        [
+          "3",
+          "ss05"
+        ],
+        [
+          "4",
+          "ss05"
+        ],
+        [
+          "Ì",
+          "ss01"
+        ],
+        [
+          "Í",
+          "ss01"
+        ],
+        [
+          "Î",
+          "ss01"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss03"
+        ],
+        [
+          "á",
+          "ss03"
+        ],
+        [
+          "â",
+          "ss03"
+        ],
+        [
+          "ã",
+          "ss03"
+        ],
+        [
+          "ä",
+          "ss03"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Bagnard",
@@ -18820,7 +25085,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@€«»“”‘’"
     },
     {
       "name": "Libre Caslon Condensed",
@@ -18913,7 +25180,14 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "&",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←«»“"
     },
     {
       "name": "Anybody",
@@ -19026,7 +25300,94 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "V",
+          "ss01"
+        ],
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "t",
+          "ss01"
+        ],
+        [
+          "à",
+          "ss01"
+        ],
+        [
+          "á",
+          "ss01"
+        ],
+        [
+          "â",
+          "ss01"
+        ],
+        [
+          "ã",
+          "ss01"
+        ],
+        [
+          "ä",
+          "ss01"
+        ],
+        [
+          "å",
+          "ss01"
+        ],
+        [
+          "ā",
+          "ss01"
+        ],
+        [
+          "ă",
+          "ss01"
+        ],
+        [
+          "ą",
+          "ss01"
+        ],
+        [
+          "ţ",
+          "ss01"
+        ],
+        [
+          "ť",
+          "ss01"
+        ],
+        [
+          "ŧ",
+          "ss01"
+        ],
+        [
+          "ǎ",
+          "ss01"
+        ],
+        [
+          "ǻ",
+          "ss01"
+        ],
+        [
+          "ȁ",
+          "ss01"
+        ],
+        [
+          "ȃ",
+          "ss01"
+        ],
+        [
+          "ț",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "Open Runde",
@@ -19137,7 +25498,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Newsreader",
@@ -19242,7 +25605,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
     },
     {
       "name": "JeanLuc",
@@ -19313,7 +25678,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥¢°×÷≠«»“”‘’"
     },
     {
       "name": "Lack",
@@ -19429,7 +25796,106 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss02"
+        ],
+        [
+          "B",
+          "ss02"
+        ],
+        [
+          "C",
+          "ss02"
+        ],
+        [
+          "D",
+          "ss02"
+        ],
+        [
+          "E",
+          "ss02"
+        ],
+        [
+          "F",
+          "ss02"
+        ],
+        [
+          "G",
+          "ss02"
+        ],
+        [
+          "H",
+          "ss02"
+        ],
+        [
+          "I",
+          "ss02"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "K",
+          "ss02"
+        ],
+        [
+          "L",
+          "ss02"
+        ],
+        [
+          "M",
+          "ss02"
+        ],
+        [
+          "N",
+          "ss02"
+        ],
+        [
+          "O",
+          "ss02"
+        ],
+        [
+          "P",
+          "ss02"
+        ],
+        [
+          "Q",
+          "ss02"
+        ],
+        [
+          "R",
+          "ss02"
+        ],
+        [
+          "S",
+          "ss02"
+        ],
+        [
+          "T",
+          "ss02"
+        ],
+        [
+          "U",
+          "ss02"
+        ],
+        [
+          "V",
+          "ss02"
+        ],
+        [
+          "W",
+          "ss02"
+        ],
+        [
+          "X",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Lack Line",
@@ -19546,7 +26012,106 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss02"
+        ],
+        [
+          "B",
+          "ss02"
+        ],
+        [
+          "C",
+          "ss02"
+        ],
+        [
+          "D",
+          "ss02"
+        ],
+        [
+          "E",
+          "ss02"
+        ],
+        [
+          "F",
+          "ss02"
+        ],
+        [
+          "G",
+          "ss02"
+        ],
+        [
+          "H",
+          "ss02"
+        ],
+        [
+          "I",
+          "ss02"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "K",
+          "ss02"
+        ],
+        [
+          "L",
+          "ss02"
+        ],
+        [
+          "M",
+          "ss02"
+        ],
+        [
+          "N",
+          "ss02"
+        ],
+        [
+          "O",
+          "ss02"
+        ],
+        [
+          "P",
+          "ss02"
+        ],
+        [
+          "Q",
+          "ss02"
+        ],
+        [
+          "R",
+          "ss02"
+        ],
+        [
+          "S",
+          "ss02"
+        ],
+        [
+          "T",
+          "ss02"
+        ],
+        [
+          "U",
+          "ss02"
+        ],
+        [
+          "V",
+          "ss02"
+        ],
+        [
+          "W",
+          "ss02"
+        ],
+        [
+          "X",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Cimatics",
@@ -19693,7 +26258,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
     },
     {
       "name": "Work Avec",
@@ -19827,7 +26394,78 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "G",
+          "salt"
+        ],
+        [
+          "R",
+          "salt"
+        ],
+        [
+          "g",
+          "salt"
+        ],
+        [
+          "l",
+          "salt"
+        ],
+        [
+          "Ğ",
+          "salt"
+        ],
+        [
+          "ğ",
+          "salt"
+        ],
+        [
+          "Ģ",
+          "salt"
+        ],
+        [
+          "ģ",
+          "salt"
+        ],
+        [
+          "Ĳ",
+          "salt"
+        ],
+        [
+          "ĺ",
+          "salt"
+        ],
+        [
+          "ļ",
+          "ss02"
+        ],
+        [
+          "ľ",
+          "salt"
+        ],
+        [
+          "ŀ",
+          "ss02"
+        ],
+        [
+          "ł",
+          "salt"
+        ],
+        [
+          "Ŕ",
+          "salt"
+        ],
+        [
+          "Ŗ",
+          "salt"
+        ],
+        [
+          "Ř",
+          "salt"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
       "name": "Abordage",
@@ -19878,7 +26516,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷→←↑↓«»“”‘’"
     },
     {
       "name": "Basalte",
@@ -19967,7 +26607,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§™¶†‡•¡¿€£¥°÷«»“”‘’…–—"
     },
     {
       "name": "Equateur",
@@ -20018,7 +26660,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "FT88",
@@ -20232,7 +26876,106 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "À",
+          "ss01"
+        ],
+        [
+          "Á",
+          "ss01"
+        ],
+        [
+          "Â",
+          "ss01"
+        ],
+        [
+          "Ã",
+          "ss01"
+        ],
+        [
+          "Ä",
+          "ss01"
+        ],
+        [
+          "Å",
+          "ss01"
+        ],
+        [
+          "È",
+          "ss01"
+        ],
+        [
+          "É",
+          "ss01"
+        ],
+        [
+          "Ê",
+          "ss01"
+        ],
+        [
+          "Ë",
+          "ss01"
+        ],
+        [
+          "Ì",
+          "ss01"
+        ],
+        [
+          "Í",
+          "ss01"
+        ],
+        [
+          "Î",
+          "ss01"
+        ],
+        [
+          "Ï",
+          "ss01"
+        ],
+        [
+          "Ñ",
+          "ss01"
+        ],
+        [
+          "Ò",
+          "ss01"
+        ],
+        [
+          "Ó",
+          "ss01"
+        ],
+        [
+          "Ô",
+          "ss01"
+        ],
+        [
+          "Ù",
+          "ss01"
+        ],
+        [
+          "Ú",
+          "ss01"
+        ],
+        [
+          "Û",
+          "ss01"
+        ],
+        [
+          "Ü",
+          "ss01"
+        ],
+        [
+          "Ý",
+          "ss01"
+        ],
+        [
+          "Ÿ",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%§©™¶†•¡€£¥¢°×÷≠«»“”‘’…–—"
     },
     {
       "name": "Latitude",
@@ -20283,7 +27026,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
       "name": "Ovo",
@@ -20334,7 +27079,9 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
     {
       "name": "Mon Hugo",
@@ -20440,7 +27187,26 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "altPairs": [
+        [
+          "I",
+          "ss02"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "i",
+          "ss02"
+        ],
+        [
+          "j",
+          "ss02"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”"
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"

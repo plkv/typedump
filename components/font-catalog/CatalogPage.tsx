@@ -45,9 +45,11 @@ interface FontData {
   styleTags: string[]
   categories: string[]
   languages?: string[]
+  altPairs?: [string, string][]
+  specialChars?: string
 }
 
-const textPresets = ["Names", "Key Glyphs", "Basic", "Paragraph", "Brands"]
+const textPresets = ["Names", "Key Glyphs", "Alternates", "Basic", "Paragraph", "Brands"]
 
 const getPresetContent = (preset: string, fontName: string) => {
   switch (preset) {
@@ -1354,6 +1356,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   isAnimated={animatedFonts.has(font.id)}
                   isExpanded={expandedCards.has(font.id)}
                   previewContent={getPreviewContent(font.name)}
+                  alternatesMode={selectedPreset === 'Alternates' && !customText.trim()}
                   cursorPosition={textCursorPosition[font.id] || 0}
                   otFeatures={fontOTFeatures[font.id] || {}}
                   variableAxesState={fontVariableAxes[font.id] || {}}
@@ -1592,7 +1595,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                           onClick={() => {
                             setSelectedPreset(preset)
                             if (preset === "Paragraph") setTextSize([20]); else setTextSize([80])
-                            if (preset === "Names") setCustomText(""); else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
+                            // Names & Alternates are per-font (empty customText → each card
+                            // renders its own name / its own alt+special showcase).
+                            if (preset === "Names" || preset === "Alternates") setCustomText("")
+                            else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
                           }}
                           className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
                         >{preset}</button>

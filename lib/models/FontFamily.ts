@@ -43,6 +43,10 @@ export interface FontFamily {
   }
   
   // Download settings
+  // Per-family showcase data for the "Alternates" text preset (precomputed).
+  // altPairs: characters that have a stylistic alternate + the feature that swaps it.
+  altPairs?: [string, string][]
+  specialChars?: string
   downloadLink?: string
   licenseInfo?: {
     type?: string

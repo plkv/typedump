@@ -66,6 +66,8 @@ function normalizeFamily(f: Record<string, unknown>): FontFamily {
       ? String(f.downloadLink)
       : variants[0]?.blobUrl ?? undefined,
     licenseInfo: (f.licenseInfo as any) ?? undefined,
+    altPairs: Array.isArray(f.altPairs) ? (f.altPairs as [string, string][]) : undefined,
+    specialChars: f.specialChars != null ? String(f.specialChars) : undefined,
   }
 }
 

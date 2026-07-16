@@ -175,6 +175,8 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
       styleTags: family.styleTags || [],
       languages: Array.isArray(family.languages) ? family.languages : ['Latin'],
       categories: Array.isArray(family.category) ? family.category : [category],
+      altPairs: family.altPairs,
+      specialChars: family.specialChars,
     } as FontData
   }).filter(Boolean) as FontData[]
 }
