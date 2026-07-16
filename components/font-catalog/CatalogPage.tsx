@@ -160,6 +160,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({})
   const heroRef = useRef<HTMLDivElement>(null)
+  const heroTextRef = useRef<HTMLParagraphElement>(null)
+  // Per-word animation delays, grouped by visual line (measured after layout).
+  const [heroWordDelays, setHeroWordDelays] = useState<number[] | null>(null)
+  const [heroButtonsDelay, setHeroButtonsDelay] = useState(1.2)
   const mainRef = useRef<HTMLElement>(null)
   const catalogCardsRef = useRef<HTMLDivElement>(null)
   const injectedFontIdsRef = useRef<Set<number>>(new Set())
@@ -1123,6 +1127,25 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
+  // Group intro words into visual lines by offsetTop, then give every word in a
+  // line the same delay so lines reveal one after another in a cascade.
+  useLayoutEffect(() => {
+    const p = heroTextRef.current
+    if (!p) return
+    const spans = Array.from(p.querySelectorAll<HTMLElement>('.hero-word'))
+    if (!spans.length) return
+    const base = 0.1, lineStep = 0.14
+    let lineIdx = -1, lastTop = -Infinity
+    const delays = spans.map(s => {
+      const top = s.offsetTop
+      if (top > lastTop + 2) { lineIdx++; lastTop = top }
+      return base + lineIdx * lineStep
+    })
+    setHeroWordDelays(delays)
+    setHeroButtonsDelay(base + (lineIdx + 1) * lineStep)
+  // Re-measure when viewport width flips (wrapping changes)
+  }, [isMobile])
+
 
   // IntersectionObserver: inject @font-face and load font only when card enters viewport
   useEffect(() => {
@@ -1242,17 +1265,22 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Hero section */}
         <div ref={heroRef} className="catalog-hero px-2">
           <div className="catalog-hero-content">
-            <p className="catalog-hero-text">
+            <p ref={heroTextRef} className="catalog-hero-text">
               {(() => {
                 const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free."
                 const words = intro.split(' ')
-                const base = 0.08, step = 0.022
                 return words.flatMap((w, i) => {
                   const el = (
                     <span
                       key={`w${i}`}
                       className="hero-word"
-                      style={{ animationDelay: `${(base + i * step).toFixed(3)}s`, ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null) }}
+                      style={{
+                        // Until measured, hold at delay 0 but paused so nothing animates
+                        // before lines are grouped; then each line gets its shared delay.
+                        animationDelay: `${(heroWordDelays?.[i] ?? 0).toFixed(3)}s`,
+                        animationPlayState: heroWordDelays ? 'running' : 'paused',
+                        ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null),
+                      }}
                     >
                       {w}
                     </span>
@@ -1261,7 +1289,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 })
               })()}
             </p>
-            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: '1.35s' }}>
+            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
               <a
                 href="https://www.npmjs.com/package/typedump"
                 target="_blank"

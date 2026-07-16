@@ -504,23 +504,22 @@
   animation: heroFadeUp 0.5s ease forwards;
 }
 
-/* Soft word-by-word reveal — words fall from above and land on the line with a small bounce */
+/* Line-by-line reveal — each visual line fades up in a staggered cascade, no blur.
+   Words within a line share the same animation-delay (computed from offsetTop). */
 @keyframes heroWordReveal {
-  0%   { opacity: 0; filter: blur(6px); transform: translateY(-1em); }
-  55%  { opacity: 1; filter: blur(0); }
-  100% { opacity: 1; filter: blur(0); transform: translateY(0); }
+  from { opacity: 0; transform: translateY(0.35em); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .hero-word {
   display: inline-block;
   opacity: 0;
-  /* easeOutBack: overshoots past the line then settles → a landing bounce */
-  animation: heroWordReveal 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-  will-change: opacity, filter, transform;
+  animation: heroWordReveal 0.5s ease-out forwards;
+  will-change: opacity, transform;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-word { animation-duration: 0.001s; filter: none; transform: none; }
+  .hero-word { animation-duration: 0.001s; transform: none; }
 }
 
 .hero-buttons-reveal {
