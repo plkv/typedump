@@ -19138,7 +19138,416 @@
           "published": true
         }
       ]
+    },
+    {
+      "name": "Newsreader",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Production Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/productiontype/NewsReader",
+      "id": "family_newsreader_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Newsreader is an open-source text serif from Production Type, drawn by Hugues Gentile for on-screen reading at every size. Two variable axes — weight (200–800) and optical size (6–72) — let it shift from crisp small-text news columns to warm, high-contrast display headings, with a companion italic throughout. Its sturdy, faintly old-style forms and generous ink traps make it a dependable workhorse for editorial interfaces and long reads. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/productiontype/NewsReader/blob/master/OFL.txt"
+      },
+      "publishedAt": "2020-01-01",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Interface"
+      ],
+      "variants": [
+        {
+          "filename": "Newsreader-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical Size",
+              "axis": "opsz",
+              "tag": "opsz",
+              "min": 6,
+              "default": 18,
+              "max": 72
+            },
+            {
+              "name": "Weight",
+              "axis": "wght",
+              "tag": "wght",
+              "min": 200,
+              "default": 400,
+              "max": 800
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 658,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_newsreader_new_Newsreader-Variable_ttf",
+          "familyId": "family_newsreader_new",
+          "url": "/fonts/Newsreader-Variable.woff2",
+          "originalUrl": "/fonts/Newsreader-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Newsreader-Italic-Variable.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical Size",
+              "axis": "opsz",
+              "tag": "opsz",
+              "min": 6,
+              "default": 18,
+              "max": 72
+            },
+            {
+              "name": "Weight",
+              "axis": "wght",
+              "tag": "wght",
+              "min": 200,
+              "default": 400,
+              "max": 800
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 658,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_newsreader_new_Newsreader-Italic-Variable_ttf",
+          "familyId": "family_newsreader_new",
+          "url": "/fonts/Newsreader-Italic-Variable.woff2",
+          "originalUrl": "/fonts/Newsreader-Italic-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "JeanLuc",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Modern"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Atelier Carvalho Bernau",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.carvalho-bernau.com/jlg/",
+      "id": "family_jeanluc_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "JeanLuc is a high-contrast display serif drawn by Atelier Carvalho Bernau (with Bernd Volmer) for the 80th birthday of Jean-Luc Godard. Its hairline strokes snap against heavy stems in a sharp, cinematic Didone voice that comes alive at poster scale, shipping in a delicate Thin and an emphatic Bold. Free of charge from the studio under its freeware licence.",
+      "licenseInfo": {
+        "type": "Freeware",
+        "url": "https://www.carvalho-bernau.com/jlg/licence.html"
+      },
+      "publishedAt": "2010-01-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "JeanLuc-Thin.otf",
+          "weight": 300,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 351,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_jeanluc_new_JeanLuc-Thin_otf",
+          "familyId": "family_jeanluc_new",
+          "url": "/fonts/JeanLuc-Thin.woff2",
+          "originalUrl": "/fonts/JeanLuc-Thin.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "JeanLuc-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 357,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_jeanluc_new_JeanLuc-Bold_otf",
+          "familyId": "family_jeanluc_new",
+          "url": "/fonts/JeanLuc-Bold.woff2",
+          "originalUrl": "/fonts/JeanLuc-Bold.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Lack",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Adrien Midzic",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/velvetyne/lack",
+      "id": "family_lack_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Lack is a high-contrast display sans by Adrien Midzic, released through the Velvetyne Type Foundry. It pushes fashion-magazine drama into a grotesque skeleton — hairline joins, swelling verticals and a cool, editorial poise — with a true italic, stylistic alternates and broad Latin, Cyrillic and Greek coverage. Built for oversized headlines and identity work. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/velvetyne/lack/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2017-01-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "Lack-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Altenate"
+            },
+            {
+              "tag": "ss02",
+              "title": "O.V.N.I-1"
+            },
+            {
+              "tag": "ss03",
+              "title": "O.V.N.I-2"
+            }
+          ],
+          "glyphCount": 1018,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_lack_new_Lack-Regular_otf",
+          "familyId": "family_lack_new",
+          "url": "/fonts/Lack-Regular.woff2",
+          "originalUrl": "/fonts/Lack-Regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Lack-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Altenate"
+            },
+            {
+              "tag": "ss02",
+              "title": "O.V.N.I-1"
+            },
+            {
+              "tag": "ss03",
+              "title": "O.V.N.I-2"
+            }
+          ],
+          "glyphCount": 1018,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_lack_new_Lack-Italic_otf",
+          "familyId": "family_lack_new",
+          "url": "/fonts/Lack-Italic.woff2",
+          "originalUrl": "/fonts/Lack-Italic.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Lack Line",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Banded"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Adrien Midzic",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/velvetyne/lack",
+      "id": "family_lack_line_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Lack Line is the inline companion to Adrien Midzic's Lack, splitting each high-contrast stroke with a fine channel of negative space for a lit-up, marquee effect. Same fashion-grotesque bones, true italic and Latin/Cyrillic/Greek range — tuned for statement headlines and display lockups where the plain Lack would sit too solid. Free under the SIL Open Font License via Velvetyne.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/velvetyne/lack/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2017-01-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "LackLine-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            }
+          ],
+          "glyphCount": 1020,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_lack_line_new_LackLine-Regular_otf",
+          "familyId": "family_lack_line_new",
+          "url": "/fonts/LackLine-Regular.woff2",
+          "originalUrl": "/fonts/LackLine-Regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "LackLine-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            }
+          ],
+          "glyphCount": 1016,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_lack_line_new_LackLine-Italic_otf",
+          "familyId": "family_lack_line_new",
+          "url": "/fonts/LackLine-Italic.woff2",
+          "originalUrl": "/fonts/LackLine-Italic.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-07-15T00:00:00.000Z"
+  "lastUpdated": "2026-07-16T00:00:00.000Z"
 }
