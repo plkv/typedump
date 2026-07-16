@@ -3984,7 +3984,7 @@
       "collection": "Display",
       "styleTags": [
         "Contrast",
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -4683,7 +4683,8 @@
       "styleTags": [
         "Fatface",
         "Narrow",
-        "Sharp"
+        "Sharp",
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -6097,7 +6098,8 @@
       "collection": "Display",
       "styleTags": [
         "Vintage",
-        "Contrast"
+        "Contrast",
+        "Transitional"
       ],
       "languages": [
         "Latin",
@@ -6804,7 +6806,8 @@
       "collection": "Display",
       "styleTags": [
         "Vintage",
-        "Sharp"
+        "Sharp",
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -9159,7 +9162,8 @@
       "name": "Basteleur",
       "collection": "Display",
       "styleTags": [
-        "Vintage"
+        "Vintage",
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -9998,7 +10002,8 @@
       "styleTags": [
         "Fatface",
         "Contrast",
-        "Curly"
+        "Curly",
+        "Slab"
       ],
       "languages": [
         "Latin",
@@ -10060,7 +10065,7 @@
         "Fatface",
         "Contrast",
         "Curly",
-        "Old Face"
+        "Slab"
       ],
       "languages": [
         "Latin"
@@ -10174,7 +10179,7 @@
       "name": "Baskervville",
       "collection": "Text",
       "styleTags": [
-        "Old Face"
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -10451,7 +10456,8 @@
       "name": "Director",
       "collection": "Display",
       "styleTags": [
-        "Contrast"
+        "Contrast",
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -10899,7 +10905,7 @@
         "Rounded",
         "Fatface",
         "Wide",
-        "Old Face"
+        "Slab"
       ],
       "languages": [
         "Latin"
@@ -11608,7 +11614,8 @@
       "name": "Cormorant Unicase",
       "collection": "Display",
       "styleTags": [
-        "Contrast"
+        "Contrast",
+        "Old Face"
       ],
       "languages": [
         "Latin",
@@ -12202,7 +12209,8 @@
       "collection": "Display",
       "styleTags": [
         "Contrast",
-        "Sharp"
+        "Sharp",
+        "Transitional"
       ],
       "languages": [
         "Latin",
@@ -12705,7 +12713,8 @@
       "name": "Isenheim",
       "collection": "Display",
       "styleTags": [
-        "Contrast"
+        "Contrast",
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -14381,8 +14390,7 @@
       "name": "Hedvig Letters Serif",
       "collection": "Text",
       "styleTags": [
-        "Old Face",
-        "Modern"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -15907,7 +15915,8 @@
       "collection": "Display",
       "styleTags": [
         "Low Poly",
-        "Contrast"
+        "Contrast",
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -16058,7 +16067,8 @@
       "styleTags": [
         "Contrast",
         "Wide",
-        "Narrow"
+        "Narrow",
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -16426,7 +16436,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Serif"
+        "Semi Serif"
       ],
       "foundry": "Collletttivo",
       "isVariable": true,
@@ -16680,7 +16690,9 @@
     {
       "name": "Redaction",
       "collection": "Display",
-      "styleTags": [],
+      "styleTags": [
+        "Transitional"
+      ],
       "languages": [
         "Latin"
       ],
@@ -17859,7 +17871,8 @@
       "name": "Montagu Slab",
       "collection": "Display",
       "styleTags": [
-        "Wide"
+        "Wide",
+        "Modern"
       ],
       "languages": [
         "Latin",
@@ -19090,7 +19103,8 @@
       "name": "Sober",
       "collection": "Display",
       "styleTags": [
-        "Narrow"
+        "Narrow",
+        "Slab"
       ],
       "languages": [
         "Latin",
@@ -21115,7 +21129,7 @@
         "Serif"
       ],
       "styleTags": [
-        "Modern"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -21171,7 +21185,7 @@
       ],
       "styleTags": [
         "Stencil",
-        "Modern"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -21477,8 +21491,8 @@
       ],
       "styleTags": [
         "Contrast",
-        "Modern",
-        "Curly"
+        "Curly",
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -21565,12 +21579,11 @@
       "name": "Tuoi Tre",
       "collection": "Brutal",
       "category": [
-        "Serif"
+        "Sans"
       ],
       "styleTags": [
-        "Geometry",
-        "Sharp",
-        "Fatface"
+        "Fatface",
+        "Narrow"
       ],
       "languages": [
         "Latin"
@@ -22213,7 +22226,8 @@
         "Serif"
       ],
       "styleTags": [
-        "Sharp"
+        "Sharp",
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -22857,7 +22871,7 @@
       ],
       "styleTags": [
         "Narrow",
-        "Modern"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -23015,7 +23029,7 @@
         "Serif"
       ],
       "styleTags": [
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -23934,7 +23948,8 @@
         "Serif"
       ],
       "styleTags": [
-        "Vintage"
+        "Vintage",
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -25040,7 +25055,7 @@
       "collection": "Display",
       "styleTags": [
         "Contrast",
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -25095,7 +25110,7 @@
       "styleTags": [
         "Narrow",
         "Contrast",
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -25506,7 +25521,7 @@
       "name": "Newsreader",
       "collection": "Text",
       "styleTags": [
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin",
@@ -25613,14 +25628,14 @@
       "name": "JeanLuc",
       "collection": "Display",
       "styleTags": [
-        "Contrast",
-        "Modern"
+        "Fatface",
+        "Narrow"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Serif"
+        "Sans"
       ],
       "foundry": "Atelier Carvalho Bernau",
       "isVariable": false,
@@ -26114,155 +26129,6 @@
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     },
     {
-      "name": "Cimatics",
-      "collection": "Brutal",
-      "styleTags": [
-        "Tech",
-        "Multi Style"
-      ],
-      "languages": [
-        "Latin",
-        "Cyrillic"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "OSP (Open Source Publishing)",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://osp.kitchen/foundry/cimatics/",
-      "id": "family_cimatics_new",
-      "createdAt": "2026-07-16T00:00:00.000Z",
-      "updatedAt": "2026-07-16T00:00:00.000Z",
-      "description": "Cimatics is an experimental display face by Ludi and Ivan at OSP (Open Source Publishing), built in 2009 for the Cimatics audiovisual festival on top of URW++ sources. Its blocky techno skeleton ships in escalating states of decay — a clean Base, then Dust, Noise and Trash — plus a fuller character set and a monospaced cut, so a headline can be run pristine or corroded to taste. Free and libre under the GNU GPL with font exception.",
-      "licenseInfo": {
-        "type": "GPL",
-        "url": "https://osp.kitchen/foundry/cimatics/tree/master/COPYING.txt"
-      },
-      "publishedAt": "2009-01-01",
-      "useCases": [
-        "Poster"
-      ],
-      "variants": [
-        {
-          "filename": "Cimatics-Base.ttf",
-          "weight": 400,
-          "styleName": "Base",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 592,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_Cimatics-Base_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/Cimatics-Base.woff2",
-          "originalUrl": "/fonts/Cimatics-Base.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Cimatics-Dust.ttf",
-          "weight": 400,
-          "styleName": "Dust",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 592,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_Cimatics-Dust_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/Cimatics-Dust.woff2",
-          "originalUrl": "/fonts/Cimatics-Dust.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Cimatics-Noise.ttf",
-          "weight": 400,
-          "styleName": "Noise",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 592,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_Cimatics-Noise_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/Cimatics-Noise.woff2",
-          "originalUrl": "/fonts/Cimatics-Noise.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Cimatics-Trash.ttf",
-          "weight": 600,
-          "styleName": "Trash",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 591,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_Cimatics-Trash_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/Cimatics-Trash.woff2",
-          "originalUrl": "/fonts/Cimatics-Trash.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "CimaticsFull-Regular.ttf",
-          "weight": 400,
-          "styleName": "Full",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 728,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_CimaticsFull-Regular_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/CimaticsFull-Regular.woff2",
-          "originalUrl": "/fonts/CimaticsFull-Regular.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "CimaticsFull-Mono.ttf",
-          "weight": 400,
-          "styleName": "Full Mono",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 726,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_cimatics_new_CimaticsFull-Mono_ttf",
-          "familyId": "family_cimatics_new",
-          "url": "/fonts/CimaticsFull-Mono.woff2",
-          "originalUrl": "/fonts/CimaticsFull-Mono.ttf",
-          "format": "woff2",
-          "published": true
-        }
-      ],
-      "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
-    },
-    {
       "name": "Work Avec",
       "collection": "Text",
       "styleTags": [
@@ -26469,9 +26335,9 @@
     },
     {
       "name": "Abordage",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
-        "Rounded"
+        "Curly"
       ],
       "languages": [
         "Latin"
@@ -26521,101 +26387,12 @@
       "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷→←↑↓«»“”‘’"
     },
     {
-      "name": "Basalte",
-      "collection": "Display",
-      "styleTags": [
-        "Multi Style",
-        "Squared"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Benjamin Gomez, Eugénie Bidaut",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
-      "id": "family_basalte_new",
-      "createdAt": "2026-07-16T00:00:00.000Z",
-      "updatedAt": "2026-07-16T00:00:00.000Z",
-      "description": "Basalte is a heavy, blocky display revived by Benjamin Gomez and Eugénie Bidaut from Ange Degheest's archives for Velvetyne. Built as a layered system — a solid Fond, a shaded Volume and a chromatic Multicolor — it stacks into bold, poster-scale compositions with an industrial, monumental feel. Free under the SIL Open Font License.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
-      },
-      "publishedAt": "2022-01-01",
-      "useCases": [
-        "Poster"
-      ],
-      "variants": [
-        {
-          "filename": "Basalte-Fond.otf",
-          "weight": 400,
-          "styleName": "Fond",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 136,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_basalte_new_Basalte-Fond_otf",
-          "familyId": "family_basalte_new",
-          "url": "/fonts/Basalte-Fond.woff2",
-          "originalUrl": "/fonts/Basalte-Fond.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Basalte-Volume.otf",
-          "weight": 400,
-          "styleName": "Volume",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 136,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_basalte_new_Basalte-Volume_otf",
-          "familyId": "family_basalte_new",
-          "url": "/fonts/Basalte-Volume.woff2",
-          "originalUrl": "/fonts/Basalte-Volume.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Basalte-Multicolor.otf",
-          "weight": 400,
-          "styleName": "Multicolor",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "glyphCount": 136,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_basalte_new_Basalte-Multicolor_otf",
-          "familyId": "family_basalte_new",
-          "url": "/fonts/Basalte-Multicolor.woff2",
-          "originalUrl": "/fonts/Basalte-Multicolor.otf",
-          "format": "woff2",
-          "published": true
-        }
-      ],
-      "altPairs": [],
-      "specialChars": "&@#%‰§™¶†‡•¡¿€£¥°÷«»“”‘’…–—"
-    },
-    {
       "name": "Equateur",
       "collection": "Display",
       "styleTags": [
-        "Contrast"
+        "Contrast",
+        "Sharp",
+        "Transitional"
       ],
       "languages": [
         "Latin"
@@ -26665,323 +26442,10 @@
       "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
     {
-      "name": "FT88",
-      "collection": "Brutal",
-      "styleTags": [
-        "Tech",
-        "Multi Style"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Pixel"
-      ],
-      "foundry": "Mandy Elbé",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
-      "id": "family_ft88_new",
-      "createdAt": "2026-07-16T00:00:00.000Z",
-      "updatedAt": "2026-07-16T00:00:00.000Z",
-      "description": "FT88 is a pixel type system revived by Mandy Elbé from Ange Degheest's archives for Velvetyne. A single coarse bitmap grid spawns a whole family — Regular, Bold, a serifed cut, a blackletter Gothique, a schoolbook, an Expanded and an oblique — for raw, screen-native display work. Free under the SIL Open Font License.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
-      },
-      "publishedAt": "2022-01-01",
-      "useCases": [
-        "Poster"
-      ],
-      "variants": [
-        {
-          "filename": "FT88-Regular.otf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 233,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Regular_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Regular.woff2",
-          "originalUrl": "/fonts/FT88-Regular.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-Bold.otf",
-          "weight": 700,
-          "styleName": "Bold",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 234,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Bold_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Bold.woff2",
-          "originalUrl": "/fonts/FT88-Bold.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-Serif.otf",
-          "weight": 400,
-          "styleName": "Serif",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 239,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Serif_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Serif.woff2",
-          "originalUrl": "/fonts/FT88-Serif.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-Gothique.otf",
-          "weight": 400,
-          "styleName": "Gothique",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 232,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Gothique_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Gothique.woff2",
-          "originalUrl": "/fonts/FT88-Gothique.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-School.otf",
-          "weight": 400,
-          "styleName": "School",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 256,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-School_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-School.woff2",
-          "originalUrl": "/fonts/FT88-School.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-Expanded.otf",
-          "weight": 400,
-          "styleName": "Expanded",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 239,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Expanded_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Expanded.woff2",
-          "originalUrl": "/fonts/FT88-Expanded.otf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "FT88-Italic.otf",
-          "weight": 400,
-          "styleName": "Italic",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Name:"
-            }
-          ],
-          "glyphCount": 276,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-07-16T00:00:00.000Z",
-          "id": "variant_family_ft88_new_FT88-Italic_otf",
-          "familyId": "family_ft88_new",
-          "url": "/fonts/FT88-Italic.woff2",
-          "originalUrl": "/fonts/FT88-Italic.otf",
-          "format": "woff2",
-          "published": true
-        }
-      ],
-      "altPairs": [
-        [
-          "À",
-          "ss01"
-        ],
-        [
-          "Á",
-          "ss01"
-        ],
-        [
-          "Â",
-          "ss01"
-        ],
-        [
-          "Ã",
-          "ss01"
-        ],
-        [
-          "Ä",
-          "ss01"
-        ],
-        [
-          "Å",
-          "ss01"
-        ],
-        [
-          "È",
-          "ss01"
-        ],
-        [
-          "É",
-          "ss01"
-        ],
-        [
-          "Ê",
-          "ss01"
-        ],
-        [
-          "Ë",
-          "ss01"
-        ],
-        [
-          "Ì",
-          "ss01"
-        ],
-        [
-          "Í",
-          "ss01"
-        ],
-        [
-          "Î",
-          "ss01"
-        ],
-        [
-          "Ï",
-          "ss01"
-        ],
-        [
-          "Ñ",
-          "ss01"
-        ],
-        [
-          "Ò",
-          "ss01"
-        ],
-        [
-          "Ó",
-          "ss01"
-        ],
-        [
-          "Ô",
-          "ss01"
-        ],
-        [
-          "Ù",
-          "ss01"
-        ],
-        [
-          "Ú",
-          "ss01"
-        ],
-        [
-          "Û",
-          "ss01"
-        ],
-        [
-          "Ü",
-          "ss01"
-        ],
-        [
-          "Ý",
-          "ss01"
-        ],
-        [
-          "Ÿ",
-          "ss01"
-        ]
-      ],
-      "specialChars": "&@#%§©™¶†•¡€£¥¢°×÷≠«»“”‘’…–—"
-    },
-    {
       "name": "Latitude",
       "collection": "Display",
       "styleTags": [
-        "Old Face"
+        "Transitional"
       ],
       "languages": [
         "Latin"
