@@ -19547,6 +19547,287 @@
           "published": true
         }
       ]
+    },
+    {
+      "name": "Cimatics",
+      "collection": "Brutal",
+      "styleTags": [
+        "Tech",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "OSP (Open Source Publishing)",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://osp.kitchen/foundry/cimatics/",
+      "id": "family_cimatics_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Cimatics is an experimental display face by Ludi and Ivan at OSP (Open Source Publishing), built in 2009 for the Cimatics audiovisual festival on top of URW++ sources. Its blocky techno skeleton ships in escalating states of decay — a clean Base, then Dust, Noise and Trash — plus a fuller character set and a monospaced cut, so a headline can be run pristine or corroded to taste. Free and libre under the GNU GPL with font exception.",
+      "licenseInfo": {
+        "type": "GPL",
+        "url": "https://osp.kitchen/foundry/cimatics/tree/master/COPYING.txt"
+      },
+      "publishedAt": "2009-01-01",
+      "useCases": [
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "Cimatics-Base.ttf",
+          "weight": 400,
+          "styleName": "Base",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 592,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_Cimatics-Base_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/Cimatics-Base.woff2",
+          "originalUrl": "/fonts/Cimatics-Base.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Cimatics-Dust.ttf",
+          "weight": 400,
+          "styleName": "Dust",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 592,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_Cimatics-Dust_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/Cimatics-Dust.woff2",
+          "originalUrl": "/fonts/Cimatics-Dust.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Cimatics-Noise.ttf",
+          "weight": 400,
+          "styleName": "Noise",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 592,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_Cimatics-Noise_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/Cimatics-Noise.woff2",
+          "originalUrl": "/fonts/Cimatics-Noise.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Cimatics-Trash.ttf",
+          "weight": 600,
+          "styleName": "Trash",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 591,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_Cimatics-Trash_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/Cimatics-Trash.woff2",
+          "originalUrl": "/fonts/Cimatics-Trash.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CimaticsFull-Regular.ttf",
+          "weight": 400,
+          "styleName": "Full",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 728,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_CimaticsFull-Regular_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/CimaticsFull-Regular.woff2",
+          "originalUrl": "/fonts/CimaticsFull-Regular.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CimaticsFull-Mono.ttf",
+          "weight": 400,
+          "styleName": "Full Mono",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 726,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_cimatics_new_CimaticsFull-Mono_ttf",
+          "familyId": "family_cimatics_new",
+          "url": "/fonts/CimaticsFull-Mono.woff2",
+          "originalUrl": "/fonts/CimaticsFull-Mono.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Work Avec",
+      "collection": "Text",
+      "styleTags": [
+        "New Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "OSP (Open Source Publishing)",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://osp.kitchen/foundry/work-avec/",
+      "id": "family_work_avec_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Work Avec is a schoolbook redraw of Wei Huang's Work Sans, reworked by Pierre Huyghebaert at OSP (Open Source Publishing). It swaps the grotesque's double-storey a and g for the single-storey infant forms used in reading primers, keeping Work Sans' steady, legible rhythm across a Medium and a SemiBold with several stylistic sets. Suited to education, wayfinding and friendly interface text. Libre under the SIL Open Font License, following its Work Sans base.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://osp.kitchen/foundry/work-avec/"
+      },
+      "publishedAt": "2015-01-01",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Interface"
+      ],
+      "variants": [
+        {
+          "filename": "WorkAvec-Medium.ttf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03",
+            "ss04",
+            "ss05"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            },
+            {
+              "tag": "ss05",
+              "title": "Stylistic Set 5"
+            }
+          ],
+          "glyphCount": 768,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_work_avec_new_WorkAvec-Medium_ttf",
+          "familyId": "family_work_avec_new",
+          "url": "/fonts/WorkAvec-Medium.woff2",
+          "originalUrl": "/fonts/WorkAvec-Medium.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "WorkAvec-SemiBold.ttf",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02",
+            "ss03",
+            "ss04",
+            "ss05"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            },
+            {
+              "tag": "ss05",
+              "title": "Stylistic Set 5"
+            }
+          ],
+          "glyphCount": 768,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_work_avec_new_WorkAvec-SemiBold_ttf",
+          "familyId": "family_work_avec_new",
+          "url": "/fonts/WorkAvec-SemiBold.woff2",
+          "originalUrl": "/fonts/WorkAvec-SemiBold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"
