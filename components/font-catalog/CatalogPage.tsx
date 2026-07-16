@@ -1514,7 +1514,11 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
           }}>
             <div style={{ overflow: 'hidden' }}>
-              <div className="overflow-y-auto scrollbar-hide" style={{ maxHeight: 'calc(100vh - 150px)' }}>
+              {/* Own GPU layer + translateZ so scrolling this list repaints on its
+                  own plane instead of dirtying the frosted panel's backdrop-filter
+                  layer above it — otherwise the blur re-rasterizes every scroll
+                  frame and the filters flicker. */}
+              <div className="overflow-y-auto scrollbar-hide" style={{ maxHeight: 'calc(100vh - 150px)', transform: 'translateZ(0)', willChange: 'transform' }}>
                 <div className="px-4 py-4 space-y-8" style={{ paddingBottom: '40px' }}>
 
                   <div className="flex gap-2">
