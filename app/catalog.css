@@ -60,6 +60,9 @@
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   color: rgba(255, 255, 255, 0.92) !important;
+  /* Own compositing layer — see .v2-overlay note below. */
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 /* Overlay surface — navbar + bottom sheet */
@@ -68,6 +71,13 @@
   border: 1px solid var(--v2-overlay-border) !important;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  /* Pin the frosted panel to its own GPU layer. Otherwise Chrome re-rasterizes
+     the backdrop-filter every time content repaints behind it (cards fading in
+     and auto-growing as fonts lazy-load on scroll), which makes the fixed nav
+     and filter bars visibly flicker. will-change (not a literal transform) so it
+     never clobbers the existing translateX(-50%)/scale() transforms on the bars. */
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .v2-overlay .v2-button-inactive,
