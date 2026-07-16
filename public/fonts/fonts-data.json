@@ -19828,6 +19828,619 @@
           "published": true
         }
       ]
+    },
+    {
+      "name": "Abordage",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Eugénie Bidaut",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "id": "family_abordage_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Abordage is a soft, rounded sans revived by Eugénie Bidaut from the archives of French lettering artist Ange Degheest, part of Velvetyne's Degheest release. Its warm monolinear strokes and gently rounded terminals give a friendly, slightly hand-made voice well suited to headlines and branding. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "Abordage-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 273,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_abordage_new_Abordage-Regular_otf",
+          "familyId": "family_abordage_new",
+          "url": "/fonts/Abordage-Regular.woff2",
+          "originalUrl": "/fonts/Abordage-Regular.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Basalte",
+      "collection": "Display",
+      "styleTags": [
+        "Multi Style",
+        "Squared"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Benjamin Gomez, Eugénie Bidaut",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "id": "family_basalte_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Basalte is a heavy, blocky display revived by Benjamin Gomez and Eugénie Bidaut from Ange Degheest's archives for Velvetyne. Built as a layered system — a solid Fond, a shaded Volume and a chromatic Multicolor — it stacks into bold, poster-scale compositions with an industrial, monumental feel. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "Basalte-Fond.otf",
+          "weight": 400,
+          "styleName": "Fond",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 136,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_basalte_new_Basalte-Fond_otf",
+          "familyId": "family_basalte_new",
+          "url": "/fonts/Basalte-Fond.woff2",
+          "originalUrl": "/fonts/Basalte-Fond.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Basalte-Volume.otf",
+          "weight": 400,
+          "styleName": "Volume",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 136,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_basalte_new_Basalte-Volume_otf",
+          "familyId": "family_basalte_new",
+          "url": "/fonts/Basalte-Volume.woff2",
+          "originalUrl": "/fonts/Basalte-Volume.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Basalte-Multicolor.otf",
+          "weight": 400,
+          "styleName": "Multicolor",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 136,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_basalte_new_Basalte-Multicolor_otf",
+          "familyId": "family_basalte_new",
+          "url": "/fonts/Basalte-Multicolor.woff2",
+          "originalUrl": "/fonts/Basalte-Multicolor.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Equateur",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Eugénie Bidaut",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "id": "family_equateur_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Equateur is a contrast serif revived by Eugénie Bidaut from Ange Degheest's archives for Velvetyne. It balances lively, slightly asymmetric serifs with crisp thick-thin modulation, giving titles an elegant yet characterful antique voice. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Poster",
+        "Editorial / Ecommerce"
+      ],
+      "variants": [
+        {
+          "filename": "Equateur-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 253,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_equateur_new_Equateur-Regular_otf",
+          "familyId": "family_equateur_new",
+          "url": "/fonts/Equateur-Regular.woff2",
+          "originalUrl": "/fonts/Equateur-Regular.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "FT88",
+      "collection": "Brutal",
+      "styleTags": [
+        "Tech",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Pixel"
+      ],
+      "foundry": "Mandy Elbé",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "id": "family_ft88_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "FT88 is a pixel type system revived by Mandy Elbé from Ange Degheest's archives for Velvetyne. A single coarse bitmap grid spawns a whole family — Regular, Bold, a serifed cut, a blackletter Gothique, a schoolbook, an Expanded and an oblique — for raw, screen-native display work. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "FT88-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 233,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Regular_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Regular.woff2",
+          "originalUrl": "/fonts/FT88-Regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 234,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Bold_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Bold.woff2",
+          "originalUrl": "/fonts/FT88-Bold.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-Serif.otf",
+          "weight": 400,
+          "styleName": "Serif",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 239,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Serif_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Serif.woff2",
+          "originalUrl": "/fonts/FT88-Serif.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-Gothique.otf",
+          "weight": 400,
+          "styleName": "Gothique",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 232,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Gothique_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Gothique.woff2",
+          "originalUrl": "/fonts/FT88-Gothique.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-School.otf",
+          "weight": 400,
+          "styleName": "School",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 256,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-School_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-School.woff2",
+          "originalUrl": "/fonts/FT88-School.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-Expanded.otf",
+          "weight": 400,
+          "styleName": "Expanded",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 239,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Expanded_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Expanded.woff2",
+          "originalUrl": "/fonts/FT88-Expanded.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "FT88-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Name:"
+            }
+          ],
+          "glyphCount": 276,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ft88_new_FT88-Italic_otf",
+          "familyId": "family_ft88_new",
+          "url": "/fonts/FT88-Italic.woff2",
+          "originalUrl": "/fonts/FT88-Italic.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Latitude",
+      "collection": "Display",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Eugénie Bidaut",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "id": "family_latitude_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Latitude is an antique display serif revived by Eugénie Bidaut from Ange Degheest's archives for Velvetyne. Its spurred, slightly gothic forms and old-style proportions carry a 19th-century printerly character that shines in titles and packaging. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://gitlab.com/Eugenie-B/degheest-types/-/blob/master/OFL.txt"
+      },
+      "publishedAt": "2022-01-01",
+      "useCases": [
+        "Poster",
+        "Editorial / Ecommerce"
+      ],
+      "variants": [
+        {
+          "filename": "Latitude-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 253,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_latitude_new_Latitude-Regular_otf",
+          "familyId": "family_latitude_new",
+          "url": "/fonts/Latitude-Regular.woff2",
+          "originalUrl": "/fonts/Latitude-Regular.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Ovo",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Sorkin Type Co",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.sorkintype.com",
+      "id": "family_ovo_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Ovo is a text serif by Nicole Fally, published by Sorkin Type Co, based on a set of hand-lettered old-style capitals. Its moderate contrast, gentle bracketed serifs and even colour make it a calm, readable choice for body text and understated headings. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/Ovo/blob/master/OFL.txt"
+      },
+      "publishedAt": "2011-01-01",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Interface"
+      ],
+      "variants": [
+        {
+          "filename": "Ovo-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 270,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_ovo_new_Ovo-Regular_ttf",
+          "familyId": "family_ovo_new",
+          "url": "/fonts/Ovo-Regular.woff2",
+          "originalUrl": "/fonts/Ovo-Regular.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Mon Hugo",
+      "collection": "Brutal",
+      "styleTags": [
+        "Tech",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Vika Usmanova (Monti Fonti)",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://montifonti.tilda.ws/mon_hugo",
+      "id": "family_mon_hugo_new",
+      "createdAt": "2026-07-16T00:00:00.000Z",
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "description": "Mon Hugo is a heavy techno display by Vika Usmanova of Monti Fonti — an all-lowercase, monospaced-feeling block letter shipped as a two-layer system: In (the solid letters) and Out (the same letters set into filled background bars). Stack them for a bold, signage-like marquee effect. Broad Latin and Cyrillic coverage with stylistic sets. Free under the SIL Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://montifonti.tilda.ws/mon_hugo"
+      },
+      "publishedAt": "2020-01-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "MonHugo-in.otf",
+          "weight": 500,
+          "styleName": "In",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "glyphCount": 1645,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_mon_hugo_new_MonHugo-in_otf",
+          "familyId": "family_mon_hugo_new",
+          "url": "/fonts/MonHugo-in.woff2",
+          "originalUrl": "/fonts/MonHugo-in.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "MonHugo-out.otf",
+          "weight": 400,
+          "styleName": "Out",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "salt",
+            "ss01",
+            "ss02"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "salt",
+              "title": "Alternates"
+            },
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "glyphCount": 1645,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-16T00:00:00.000Z",
+          "id": "variant_family_mon_hugo_new_MonHugo-out_otf",
+          "familyId": "family_mon_hugo_new",
+          "url": "/fonts/MonHugo-out.woff2",
+          "originalUrl": "/fonts/MonHugo-out.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"
