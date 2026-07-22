@@ -161,7 +161,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         padding: '48px 24px 56px',
         display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px',
       }}>
-        <div style={{
+        <h1 style={{
           fontFamily: `"${heroFont}", system-ui, sans-serif`,
           fontSize: 'clamp(48px, 20vw, 180px)',
           fontWeight: defaultVariant?.weight ?? 400,
@@ -170,9 +170,10 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           color: 'var(--gray-cont-prim)',
           textAlign: 'center',
           wordBreak: 'break-word',
+          margin: 0,
         }}>
           {family.name}
-        </div>
+        </h1>
         <div style={{
           fontFamily: '"Strichpunkt Sans", sans-serif',
           fontSize: '14px',

@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import { staticDb } from "@/lib/static-db"
 import "./globals.css"
 import "./catalog.css"
 
@@ -11,15 +12,20 @@ const inter = Inter({
 })
 
 
+// Derived at build time so the count can never go stale again.
+const FONT_COUNT = staticDb.getAllFamilies().length
+const COUNT_LABEL = `${Math.floor(FONT_COUNT / 10) * 10}+`
+
 export const metadata: Metadata = {
-  title: "typedump | Free font collection – typography for designers",
-  description: "Curated collection of 150+ professional free fonts including variable fonts, display fonts, and text fonts. Perfect for web design, branding, and creative projects. Browse by category, language support, and style. All fonts verified with proper licensing.",
-  keywords: "free fonts, variable fonts, typography, font collection, web fonts, display fonts, design fonts, font download, professional fonts, curated fonts, open source fonts",
+  title: `typedump | Free fonts to download – typography for designers`,
+  description: `Download ${COUNT_LABEL} curated free fonts — variable, display, text, pixel and monospace typefaces for web design, branding and creative projects. Browse by category, style and language support. Every font is open-source with its licence shown.`,
+  keywords: "free fonts, free font download, download fonts, variable fonts, typography, font collection, web fonts, display fonts, design fonts, professional fonts, curated fonts, open source fonts",
   metadataBase: new URL('https://www.typedump.com'),
+  alternates: { canonical: 'https://www.typedump.com' },
   verification: { google: 'UGauCsR9zcDBwNPf55d-aQuVtlyrfUnKb3h_ytciu-o' },
   openGraph: {
-    title: "typedump | Free font collection – typography for designers",
-    description: "150+ curated professional free fonts for designers. Variable fonts, display fonts, multilingual support. Perfect for web design and branding.",
+    title: `typedump | Free fonts to download – typography for designers`,
+    description: `${COUNT_LABEL} curated free fonts for designers. Variable fonts, display fonts, multilingual support. Preview in the browser, check the licence, download.`,
     url: "https://www.typedump.com",
     siteName: "typedump",
     images: [
@@ -36,8 +42,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "typedump | Free font collection – typography for designers",
-    description: "150+ curated professional free fonts for designers. Variable fonts, display fonts, multilingual support.",
+    title: `typedump | Free fonts to download – typography for designers`,
+    description: `${COUNT_LABEL} curated free fonts for designers. Variable fonts, display fonts, multilingual support.`,
     images: ["/og-image.webp"],
   },
   icons: {
@@ -80,18 +86,31 @@ export default function RootLayout({
           fetch('/api/tags/vocab?type=category&collection=Display').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Display=d.list||[]});
           fetch('/api/tags/vocab?type=category&collection=Weirdo').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Weirdo=d.list||[]});
         })();`}} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          name: 'typedump',
-          url: 'https://www.typedump.com',
-          description: 'Curated collection of 150+ free professional fonts for designers — variable fonts, display fonts, and text fonts.',
-          potentialAction: {
-            '@type': 'SearchAction',
-            target: { '@type': 'EntryPoint', urlTemplate: 'https://www.typedump.com/?q={search_term_string}' },
-            'query-input': 'required name=search_term_string',
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'typedump',
+            url: 'https://www.typedump.com',
+            description: `Curated collection of ${COUNT_LABEL} free open-source fonts for designers — variable, display, text, monospace and pixel typefaces. Free to download, licence shown for every family.`,
+            inLanguage: 'en',
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: { '@type': 'EntryPoint', urlTemplate: 'https://www.typedump.com/?q={search_term_string}' },
+              'query-input': 'required name=search_term_string',
+            },
           },
-        }) }} />
+          {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: 'Free fonts',
+            url: 'https://www.typedump.com',
+            isAccessibleForFree: true,
+            about: { '@type': 'Thing', name: 'Free open-source typefaces' },
+            // Every family is free — state it explicitly so answer engines can cite it.
+            description: `${FONT_COUNT} free, open-source font families, each with its licence, styles, variable axes and language coverage.`,
+          },
+        ]) }} />
         <link rel="stylesheet" href="/fonts/fonts.css" />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
