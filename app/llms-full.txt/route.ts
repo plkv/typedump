@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 const SITE = 'https://www.typedump.com'
 
 /**
- * /llms-full.txt — the complete catalogue as plain text, so an answer engine can
+ * /llms-full.txt is the complete catalogue as plain text, so an answer engine can
  * cite specific families (name, designer, classification, licence, URL) without
  * rendering the client-side catalogue.
  */
@@ -34,7 +34,7 @@ export function GET() {
     return parts.join('\n')
   })
 
-  const body = `# typedump — full font list
+  const body = `# typedump full font list
 
 ${families.length} free, open-source font families. Every entry below is free to download and use; the licence is stated per family. Live preview and download links are on each font's page.
 

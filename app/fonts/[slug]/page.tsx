@@ -14,7 +14,7 @@ const hasLanguage = (f: FontFamily, l: string) => (f.languages || []).includes(l
 interface Landing {
   slug: string
   h1: string
-  /** Plain-language lead paragraph — real guidance, not keyword filler. */
+  /** Lead paragraph shown on the page. Plain description, no keyword filler. */
   intro: string
   /** Short label used in <title> and meta. */
   label: string
@@ -26,67 +26,67 @@ interface Landing {
 const LANDINGS: Landing[] = [
   {
     slug: 'serif', label: 'Serif Fonts', h1: 'Free serif fonts',
-    intro: 'Serif typefaces carry small strokes at the ends of their letterforms. They range from old-style faces with a diagonal axis and gentle contrast, through transitional and modern cuts, to heavy slabs. Every family here is free to download and use, with the licence shown on each page.',
+    intro: 'Serif typefaces have small strokes at the ends of the letters. This list covers old-style faces with a diagonal axis and low contrast, transitional and modern cuts with a more upright axis, and heavy slabs. Every family is free to download, and the licence is listed on its page.',
     match: f => hasCategory(f, 'Serif'), catalogHref: '/?category=Serif',
   },
   {
     slug: 'sans', label: 'Sans Serif Fonts', h1: 'Free sans serif fonts',
-    intro: 'Sans serif typefaces drop the terminal strokes for cleaner, more neutral letterforms — the default choice for interfaces, signage and most screen text. This list covers neutral workhorses, geometric and humanist designs, and expressive display sans.',
+    intro: 'Sans serif typefaces have no strokes at the ends of the letters, which is why most interfaces, signage and screen text use them. This list covers neutral workhorses, geometric and humanist designs, and display sans with more character.',
     match: f => hasCategory(f, 'Sans'), catalogHref: '/?category=Sans',
   },
   {
     slug: 'mono', label: 'Monospace Fonts', h1: 'Free monospace fonts',
-    intro: 'Monospaced typefaces give every character the same width, which keeps code, tabular data and terminal output aligned. Each family below is free to download, with variable and multi-weight options where available.',
+    intro: 'Monospaced typefaces give every character the same width, so code, tables and terminal output stay aligned. Several of the families here also come in multiple weights or as variable fonts.',
     match: f => hasCategory(f, 'Mono'), catalogHref: '/?category=Mono',
   },
   {
     slug: 'pixel', label: 'Pixel Fonts', h1: 'Free pixel fonts',
-    intro: 'Pixel and bitmap typefaces are drawn on a visible grid. They suit game UI, low-resolution displays and deliberately raw, screen-native design work. All are free to download.',
+    intro: 'Pixel and bitmap typefaces are drawn on a visible grid. They fit game interfaces, low-resolution screens and layouts where the grid is meant to show. All are free to download.',
     match: f => hasCategory(f, 'Pixel'), catalogHref: '/?category=Pixel',
   },
   {
     slug: 'script', label: 'Script Fonts', h1: 'Free script fonts',
-    intro: 'Script typefaces imitate handwriting — from formal connected copperplate to loose, hand-drawn lettering. They work best large, in logotypes, invitations and headlines rather than body text.',
+    intro: 'Script typefaces imitate handwriting, from formal connected copperplate to loose hand-drawn lettering. They work at large sizes, in logotypes, invitations and headlines. At body sizes they get hard to read.',
     match: f => hasCategory(f, 'Script'), catalogHref: '/?category=Script',
   },
   {
     slug: 'semi-serif', label: 'Semi Serif Fonts', h1: 'Free semi serif fonts',
-    intro: 'Semi serif typefaces sit between sans and serif: mostly clean stems with partial, flared or brush-drawn terminals. A useful middle ground when a pure sans feels flat and a full serif feels too traditional.',
+    intro: 'Semi serif typefaces sit between sans and serif: mostly clean stems, with partial, flared or brush-drawn terminals. They keep the neutrality of a sans and add some of the texture of a serif.',
     match: f => hasCategory(f, 'Semi Serif'), catalogHref: '/?category=Semi%20Serif',
   },
   {
     slug: 'variable', label: 'Variable Fonts', h1: 'Free variable fonts',
-    intro: 'Variable fonts ship every weight, width or optical size in a single file with continuous axes, so you can dial in exact styles and load less. Each family here exposes its axes so you can test them in the browser before downloading.',
+    intro: 'Variable fonts hold every weight, width or optical size in one file, on continuous axes. You set exact values instead of picking from fixed styles, and the page loads one file instead of several. Each family here lists its axes so you can test them in the browser.',
     match: isVariable, catalogHref: '/',
   },
   {
     slug: 'text', label: 'Text Fonts', h1: 'Free fonts for body text',
-    intro: 'Neutral, readable typefaces built for setting long passages — interfaces, articles and documentation. They hold up at small sizes and usually offer a full weight range.',
+    intro: 'Neutral, readable typefaces for setting long passages: interfaces, articles, documentation. They hold up at small sizes and usually come with a full weight range.',
     match: f => f.collection === 'Text', catalogHref: '/?collection=Text',
   },
   {
     slug: 'display', label: 'Display Fonts', h1: 'Free display fonts',
-    intro: 'Display typefaces are made to be seen large — posters, headlines and brand lockups. They carry more character and finer detail than text faces, which is exactly why they should not be used for body copy.',
+    intro: 'Display typefaces are drawn to be seen large, in posters, headlines and brand lockups. They carry more character and finer detail than text faces, so they lose legibility at body sizes.',
     match: f => f.collection === 'Display', catalogHref: '/?collection=Display',
   },
   {
     slug: 'experimental', label: 'Experimental Fonts', h1: 'Free experimental fonts',
-    intro: 'Odd, broken and deliberately strange typefaces — distorted, modular, pixelated or layered. Made for work that wants to look nothing like a default.',
+    intro: 'Odd, broken and deliberately strange typefaces: distorted, modular, pixelated or layered. Mostly used in art direction, posters and covers.',
     match: f => f.collection === 'Brutal', catalogHref: '/?collection=Brutal',
   },
   {
     slug: 'cyrillic', label: 'Cyrillic Fonts', h1: 'Free Cyrillic fonts',
-    intro: 'Typefaces with Cyrillic coverage, for Russian, Ukrainian, Bulgarian, Serbian and other languages using the script. Preview Cyrillic text directly in the browser before you download.',
+    intro: 'Typefaces with Cyrillic coverage, for Russian, Ukrainian, Bulgarian, Serbian and other languages that use the script. You can type Cyrillic into the preview before downloading.',
     match: f => hasLanguage(f, 'Cyrillic'), catalogHref: '/?language=Cyrillic',
   },
   {
     slug: 'greek', label: 'Greek Fonts', h1: 'Free Greek fonts',
-    intro: 'Typefaces that include a Greek character set alongside Latin, so you can set both scripts in one family without a fallback.',
+    intro: 'Typefaces that include a Greek character set alongside Latin, so both scripts come from one family and nothing drops to a system fallback.',
     match: f => hasLanguage(f, 'Greek'), catalogHref: '/?language=Greek',
   },
   {
     slug: 'vietnamese', label: 'Vietnamese Fonts', h1: 'Free Vietnamese fonts',
-    intro: 'Typefaces with the diacritic coverage Vietnamese needs — stacked tone marks and modified vowels drawn properly rather than pieced together from fallbacks.',
+    intro: 'Typefaces that cover the Vietnamese diacritics: stacked tone marks and modified vowels drawn as part of the font.',
     match: f => hasLanguage(f, 'Vietnamese'), catalogHref: '/?language=Vietnamese',
   },
 ]
@@ -102,8 +102,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const landing = findLanding(slug)
   if (!landing) return {}
   const count = staticDb.getAllFamilies().filter(landing.match).length
-  const title = `${count} Free ${landing.label} — Download | typedump`
-  const description = `${landing.intro.split('. ')[0]}. Browse ${count} free, open-source ${landing.label.toLowerCase()} on typedump — preview in the browser, check the licence, download.`
+  const title = `${count} free ${landing.label.toLowerCase()} to download | typedump`
+  const description = `${landing.intro.split('. ')[0]}. Browse ${count} free, open-source ${landing.label.toLowerCase()} on typedump. Preview in the browser, check the licence, download.`
   const url = `${SITE}/fonts/${landing.slug}`
   return {
     title,

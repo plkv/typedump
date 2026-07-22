@@ -18,7 +18,7 @@ const COUNT_LABEL = `${Math.floor(FONT_COUNT / 10) * 10}+`
 
 export const metadata: Metadata = {
   title: `typedump | Free fonts to download – typography for designers`,
-  description: `Download ${COUNT_LABEL} curated free fonts — variable, display, text, pixel and monospace typefaces for web design, branding and creative projects. Browse by category, style and language support. Every font is open-source with its licence shown.`,
+  description: `Download ${COUNT_LABEL} curated free fonts: variable, display, text, pixel and monospace typefaces for web design, branding and creative projects. Browse by category, style and language support. Every font is open-source, with its licence shown.`,
   keywords: "free fonts, free font download, download fonts, variable fonts, typography, font collection, web fonts, display fonts, design fonts, professional fonts, curated fonts, open source fonts",
   metadataBase: new URL('https://www.typedump.com'),
   alternates: { canonical: 'https://www.typedump.com' },
@@ -92,7 +92,7 @@ export default function RootLayout({
             '@type': 'WebSite',
             name: 'typedump',
             url: 'https://www.typedump.com',
-            description: `Curated collection of ${COUNT_LABEL} free open-source fonts for designers — variable, display, text, monospace and pixel typefaces. Free to download, licence shown for every family.`,
+            description: `Curated collection of ${COUNT_LABEL} free open-source fonts for designers: variable, display, text, monospace and pixel typefaces. Free to download, with the licence shown for every family.`,
             inLanguage: 'en',
             potentialAction: {
               '@type': 'SearchAction',
@@ -107,7 +107,7 @@ export default function RootLayout({
             url: 'https://www.typedump.com',
             isAccessibleForFree: true,
             about: { '@type': 'Thing', name: 'Free open-source typefaces' },
-            // Every family is free — state it explicitly so answer engines can cite it.
+            // Every family is free. State it explicitly so answer engines can cite it.
             description: `${FONT_COUNT} free, open-source font families, each with its licence, styles, variable axes and language coverage.`,
           },
         ]) }} />

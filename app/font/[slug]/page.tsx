@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props) {
   const styleCount = family.variants.length
   const isVariable = family.isVariable || family.variants.some(v => v.isVariable)
   // Match how people actually search: "<name> font download", "<name> free font".
-  const title = `${family.name} Font — Free Download | typedump`
+  const title = `${family.name} font, free download | typedump`
 
   // Keep the hand-written description as the meta description (it's the best copy
   // we have); only fall back to a generated one, and lead it with search intent.
