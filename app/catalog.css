@@ -247,12 +247,11 @@
 .v2-nav-enter-bottom { transform: translateX(-50%); opacity: 1; pointer-events: auto; }
 
 /* Expanded card controls (Variable Axes / Stylistic Alternates).
-   auto-fit collapses empty tracks, so a single section spans the full width
-   instead of being pinned to a half column; below tablet everything stacks so
-   the sliders get the whole card width. */
+   Two columns on desktop (unchanged); stacks to one full-width column on
+   tablet and below so the sliders get the whole card width. */
 .v2-card-expand-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 32px;
 }
 @media (max-width: 1024px) {
