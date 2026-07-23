@@ -246,6 +246,19 @@
 .v2-nav-enter-top    { transform: translateX(-50%); }
 .v2-nav-enter-bottom { transform: translateX(-50%); opacity: 1; pointer-events: auto; }
 
+/* Expanded card controls (Variable Axes / Stylistic Alternates).
+   auto-fit collapses empty tracks, so a single section spans the full width
+   instead of being pinned to a half column; below tablet everything stacks so
+   the sliders get the whole card width. */
+.v2-card-expand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+@media (max-width: 1024px) {
+  .v2-card-expand-grid { grid-template-columns: 1fr; }
+}
+
 /* Card staggered reveal */
 @keyframes cardFadeUp {
   from { opacity: 0; transform: translateY(8px); }

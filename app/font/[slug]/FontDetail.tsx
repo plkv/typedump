@@ -541,7 +541,7 @@ function VariantRow({
       }}>
         <div style={{ minHeight: 0, overflow: 'hidden' }}>
           <div style={{ paddingBottom: 16 }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
+            <div className="v2-card-expand-grid">
               {axesDef && axesDef.length > 0 && (
                 <div>
                   <div className="text-author" style={{ marginBottom: 8 }}>Variable Axes</div>

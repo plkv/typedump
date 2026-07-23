@@ -305,7 +305,7 @@ export function FontCard({
 
         {/* ── Expanded: variable axes + OT features ── */}
         {isExpanded && (styleAlternates.length > 0 || variableAxesDef.length > 0) && (
-          <div className="mt-6" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
+          <div className="mt-6 v2-card-expand-grid">
 
             {variableAxesDef.length > 0 && (
               <div>
