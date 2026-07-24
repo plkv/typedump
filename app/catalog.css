@@ -510,18 +510,17 @@
   font-feature-settings: "cv11" on;
 }
 
-/* Curator name inside the intro paragraph: inherits the paragraph's type,
-   marked only by an underline so it reads as part of the sentence. */
+/* Curator name inside the intro paragraph: reads as plain paragraph text,
+   underline only on hover. */
 .hero-credit-link {
   color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-  text-decoration-color: var(--gray-cont-tert);
+  text-decoration: none;
 }
 
 .hero-credit-link:hover {
-  text-decoration-color: var(--gray-cont-prim);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .catalog-hero-buttons {
