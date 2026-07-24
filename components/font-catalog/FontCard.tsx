@@ -139,7 +139,7 @@ export function FontCard({
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
-                      fontFamily: '"Strichpunkt Sans", sans-serif',
+                      fontFamily: '"Geist", sans-serif',
                       fontSize: '14px',
                       fontWeight: 500,
                       color: 'var(--gray-cont-prim)',

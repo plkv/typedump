@@ -153,10 +153,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         // Static fonts register variant-level aliases (alias__v_hash) which don't match fontFamily.
         const pool = candidates.filter(f => f.type === 'Variable')
         const pick = (pool.length ? pool : candidates)[Math.floor(Math.random() * (pool.length || candidates.length))]
-        previewFontsRef.current[collection] = pick?.fontFamily || '"Strichpunkt Sans", system-ui, sans-serif'
+        previewFontsRef.current[collection] = pick?.fontFamily || '"Geist", system-ui, sans-serif'
       }
     }
-    return previewFontsRef.current[collection] || '"Strichpunkt Sans", system-ui, sans-serif'
+    return previewFontsRef.current[collection] || '"Geist", system-ui, sans-serif'
   }
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
@@ -1149,6 +1149,22 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }, [isMobile])
 
 
+  // The Text/Display/Brutal buttons preview a random font from each collection.
+  // Those fonts are rarely among the cards currently in view, so the lazy
+  // per-card @font-face injection never covers them and all three fell back to
+  // the same system font. Inject their faces explicitly.
+  useEffect(() => {
+    if (!fonts.length) return
+    ;(['Text', 'Display', 'Brutal'] as const).forEach(collection => {
+      const family = getStablePreviewFontForCollection(collection)
+      const alias = family.match(/"([^"]+)"/)?.[1]
+      if (!alias) return
+      const font = fonts.find(f => f.fontFamily?.includes(`"${alias}"`))
+      if (font) injectSingleFontCSS(font)
+    })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fonts, injectSingleFontCSS])
+
   // IntersectionObserver: inject @font-face and load font only when card enters viewport
   useEffect(() => {
     fontObserverRef.current?.disconnect()
@@ -1269,7 +1285,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
           <div className="catalog-hero-content">
             <p ref={heroTextRef} className="catalog-hero-text">
               {(() => {
-                const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free."
+                const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Type designers put more into a font than most apps ever show: variable axes, alternate letterforms, ligatures, whole scripts. You can try all of it here, in the browser. Totally free."
                 // The curator credit is part of the paragraph, so it wraps and
                 // reveals line-by-line with the rest of the text. The name stays
                 // one unit so it never breaks across lines.
@@ -1411,7 +1427,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Footer */}
         <footer style={{ marginTop: 80, padding: '0 24px 24px', display: 'flex', flexDirection: 'column', gap: 2 }}>
           <span style={{
-            fontFamily: '"Strichpunkt Sans", sans-serif',
+            fontFamily: '"Geist", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',
@@ -1419,7 +1435,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             © 2026 TypeDump
           </span>
           <span style={{
-            fontFamily: '"Strichpunkt Sans", sans-serif',
+            fontFamily: '"Geist", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',

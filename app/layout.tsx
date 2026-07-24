@@ -1,15 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import { staticDb } from "@/lib/static-db"
 import "./globals.css"
 import "./catalog.css"
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-})
 
 
 // Derived at build time so the count can never go stale again.
@@ -72,7 +65,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <head>
         <style dangerouslySetInnerHTML={{ __html:
           `@keyframes v2NavSlideTop{from{transform:translateX(-50%) translateY(-20px)}to{transform:translateX(-50%)}}` +
