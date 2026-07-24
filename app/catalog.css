@@ -510,6 +510,26 @@
   font-feature-settings: "cv11" on;
 }
 
+/* Curator credit under the intro. Negative margin pulls it out of the hero's
+   32px gap so it sits close to the paragraph it credits. */
+.catalog-hero-byline {
+  font-family: "Strichpunkt Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--gray-cont-tert);
+  margin-top: -20px;
+}
+
+.catalog-hero-byline a {
+  color: var(--gray-cont-prim);
+  text-decoration: none;
+}
+
+.catalog-hero-byline a:hover {
+  text-decoration: underline;
+}
+
 .catalog-hero-buttons {
   display: flex;
   gap: 8px;

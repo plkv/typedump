@@ -1291,7 +1291,12 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 })
               })()}
             </p>
-            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
+            {/* Curator credit — revealed right after the last intro line, before the buttons */}
+            <p className="catalog-hero-byline hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
+              Curated by{' '}
+              <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer">Stas Polyakov ↗</a>
+            </p>
+            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${(heroButtonsDelay + 0.14).toFixed(3)}s` }}>
               <a
                 href="https://www.npmjs.com/package/typedump"
                 target="_blank"

@@ -22,7 +22,7 @@ export function GET() {
 
 > An index of ${count} free, open-source typefaces. Every font is free to download and use. Each family lists its licence, styles, variable axes and language coverage, and can be previewed in the browser.
 
-typedump is hand-curated: a designer picks and tags every family, so the list is smaller than a general font directory. Tagging covers classification (serif sub-styles, sans genres), language coverage, variable axes and OpenType features.
+typedump is built and curated by Stas Polyakov (https://plkv.works), a product and UX designer. He picks and tags every family by hand, so the list is smaller than a general font directory. Tagging covers classification (serif sub-styles, sans genres), language coverage, variable axes and OpenType features.
 
 ## What is here
 

@@ -16,6 +16,16 @@ const inter = Inter({
 const FONT_COUNT = staticDb.getAllFamilies().length
 const COUNT_LABEL = `${Math.floor(FONT_COUNT / 10) * 10}+`
 
+// Machine-readable authorship: ties the site to a real person as an entity, so
+// search and answer engines can attribute the curation rather than treating the
+// catalogue as anonymous. Add profile URLs to sameAs to strengthen the link.
+const CURATOR = {
+  '@type': 'Person',
+  name: 'Stas Polyakov',
+  url: 'https://plkv.works/',
+  jobTitle: 'Product & UX designer',
+}
+
 export const metadata: Metadata = {
   title: `typedump | Free fonts to download – typography for designers`,
   description: `Download ${COUNT_LABEL} curated free fonts: variable, display, text, pixel and monospace typefaces for web design, branding and creative projects. Browse by category, style and language support. Every font is open-source, with its licence shown.`,
@@ -94,6 +104,8 @@ export default function RootLayout({
             url: 'https://www.typedump.com',
             description: `Curated collection of ${COUNT_LABEL} free open-source fonts for designers: variable, display, text, monospace and pixel typefaces. Free to download, with the licence shown for every family.`,
             inLanguage: 'en',
+            author: CURATOR,
+            creator: CURATOR,
             potentialAction: {
               '@type': 'SearchAction',
               target: { '@type': 'EntryPoint', urlTemplate: 'https://www.typedump.com/?q={search_term_string}' },
@@ -109,6 +121,8 @@ export default function RootLayout({
             about: { '@type': 'Thing', name: 'Free open-source typefaces' },
             // Every family is free. State it explicitly so answer engines can cite it.
             description: `${FONT_COUNT} free, open-source font families, each with its licence, styles, variable axes and language coverage.`,
+            author: CURATOR,
+            creator: CURATOR,
           },
         ]) }} />
         <link rel="stylesheet" href="/fonts/fonts.css" />
