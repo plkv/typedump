@@ -110,11 +110,6 @@ export default function RootLayout({
             creator: CURATOR,
           },
         ]) }} />
-        {/* fonts.css is served immutable/max-age=1y at a fixed path, but its
-            content (the @font-face aliases) changes when the catalogue does.
-            Version it by the data's lastUpdated so a data change busts the
-            cache while identical data keeps returning visitors on the cache. */}
-        <link rel="stylesheet" href={`/fonts/fonts.css?v=${encodeURIComponent(staticDb.lastUpdated)}`} />
       </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
