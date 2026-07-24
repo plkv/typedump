@@ -510,17 +510,16 @@
   font-feature-settings: "cv11" on;
 }
 
-/* Curator name inside the intro paragraph: reads as plain paragraph text,
-   underline only on hover. */
+/* Curator name inside the intro paragraph: grey, going to primary on hover.
+   No underline — links on this site are marked by colour, not decoration. */
 .hero-credit-link {
-  color: inherit;
+  color: var(--gray-cont-tert);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .hero-credit-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+  color: var(--gray-cont-prim);
 }
 
 .catalog-hero-buttons {
