@@ -2,8 +2,6 @@
 
 import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from "react"
 import { Slider } from "@/components/ui/slider"
-import { canonicalFamilyName } from "@/lib/font-naming"
-import { shortHash } from "@/lib/hash"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
 import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
@@ -92,8 +90,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const selectRefs = useRef<Record<number, HTMLSelectElement | null>>({})
   
   // Font Data State — initialFonts comes from server component, no fetch needed
-  const [fonts, setFonts] = useState<FontData[]>(initialFonts)
-  const [isLoadingFonts, setIsLoadingFonts] = useState(initialFonts.length === 0)
+  const [fonts] = useState<FontData[]>(initialFonts)
+  // Server always provides initialFonts, so this is effectively always false; the
+  // skeleton branch it guards stays as a defensive no-op.
+  const isLoadingFonts = initialFonts.length === 0
   const [loadedFonts, setLoadedFonts] = useState<Set<number>>(new Set())
   const [animatedFonts, setAnimatedFonts] = useState<Set<number>>(new Set()) // Track fonts that have been animated once
   const [customText, setCustomText] = useState("")
@@ -174,165 +174,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
 
   const [textCursorPosition, setTextCursorPosition] = useState<Record<number, number>>({})
-
-  // Load fonts — only runs as fallback when server didn't provide initialFonts
-  const loadFonts = useCallback(async () => {
-    try {
-      setIsLoadingFonts(true)
-      const response = await fetch('/api/fonts-clean/list')
-      if (!response.ok) {
-        console.error('Fallback font list fetch failed:', response.status)
-        return
-      }
-      const data = await response.json()
-      if (!data.success || !data.fonts) {
-        console.error('No font data in fallback response')
-        return
-      }
-
-      // Group flat font list by family name
-      const fontsByFamily = new Map<string, any[]>()
-      for (const font of data.fonts) {
-        const key = font.family || font.name
-        if (!fontsByFamily.has(key)) fontsByFamily.set(key, [])
-        fontsByFamily.get(key)!.push(font)
-      }
-
-      const catalogFonts: FontData[] = Array.from(fontsByFamily.entries()).map(([familyName, familyFonts], index) => {
-        const rep =
-          familyFonts.find((f: any) => f.isDefaultStyle) ||
-          familyFonts.find((f: any) => !f.style?.toLowerCase().includes('italic') && !f.style?.toLowerCase().includes('oblique')) ||
-          familyFonts[0]
-        if (!rep) return null
-
-        const isVariable = familyFonts.some((f: any) => f.isVariable)
-        const hasItalic = familyFonts.some((f: any) =>
-          f.style?.toLowerCase().includes('italic') || f.style?.toLowerCase().includes('oblique')
-        )
-        const familyAlias = `${canonicalFamilyName(familyName)}-${shortHash(canonicalFamilyName(familyName)).slice(0, 6)}`
-
-        let availableWeights: number[]
-        let availableStyles: FontData['_availableStyles'] = []
-
-        if (isVariable) {
-          const weightAxes = familyFonts
-            .flatMap((f: any) => f.variableAxes || [])
-            .filter((a: any) => a.axis === 'wght')
-          if (weightAxes.length > 0) {
-            const min = Math.min(...weightAxes.map((a: any) => a.min))
-            const max = Math.max(...weightAxes.map((a: any) => a.max))
-            availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900].filter(w => w >= min && w <= max)
-          } else {
-            availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900]
-          }
-          availableStyles = availableWeights.map(weight => ({ weight, styleName: getStyleNameFromWeight(weight, false), isItalic: false }))
-          if (hasItalic) {
-            availableStyles = [
-              ...availableStyles,
-              ...availableWeights.map(weight => ({ weight, styleName: getStyleNameFromWeight(weight, true), isItalic: true })),
-            ]
-          }
-          const seen = new Set<string>()
-          availableStyles = availableStyles.filter(s => {
-            const k = `${s.weight}|${s.isItalic ? 1 : 0}`
-            return seen.has(k) ? false : (seen.add(k), true)
-          })
-        } else {
-          availableStyles = familyFonts.map((f: any) => ({
-            weight: f.weight || 400,
-            styleName: f.style || 'Regular',
-            isItalic: f.style?.toLowerCase().includes('italic') || f.style?.toLowerCase().includes('oblique') || false,
-            cssFamily: `${familyAlias}__v_${shortHash(f.id || f.filename).slice(0, 6)}`,
-          })).sort((a: any, b: any) => a.weight !== b.weight ? a.weight - b.weight : (a.isItalic ? 1 : -1))
-          availableWeights = [...new Set(availableStyles.map((s: any) => s.weight))].sort((a: number, b: number) => a - b)
-        }
-
-        const cat = Array.isArray(rep.category) ? (rep.category[0] || 'Sans') : (rep.category || 'Sans')
-        return {
-          id: index + 1,
-          name: familyName,
-          family: familyName,
-          style: `${familyFonts.length} style${familyFonts.length !== 1 ? 's' : ''}`,
-          category: cat,
-          styles: availableStyles.length || familyFonts.length,
-          type: isVariable ? 'Variable' : 'Static',
-          author: rep.foundry || 'Unknown',
-          fontFamily: `"${familyAlias}", system-ui, sans-serif`,
-          availableWeights,
-          hasItalic,
-          filename: rep.filename,
-          url: rep.url || rep.blobUrl,
-          downloadLink: rep.downloadLink,
-          variableAxes: rep.variableAxes,
-          openTypeFeatures: rep.openTypeFeatures,
-          _familyFonts: familyFonts.map((f: any) => ({
-            ...f,
-            openTypeFeatureTags: f.openTypeFeatureTags || f.openTypeFeatureTagsParsed || undefined,
-          })),
-          _availableStyles: availableStyles,
-          collection: rep.collection || 'Text',
-          styleTags: rep.styleTags || [],
-          languages: Array.isArray(rep.languages) ? rep.languages : ['Latin'],
-          categories: Array.isArray(rep.category) ? rep.category : [cat],
-        } as FontData
-      }).filter(Boolean) as FontData[]
-
-      setFonts(catalogFonts)
-      loadFontCSS(catalogFonts)
-    } catch (error) {
-      console.error('Failed to load fonts:', error)
-    } finally {
-      setIsLoadingFonts(false)
-    }
-  }, [])
-
-  // Load font CSS dynamically
-  const loadFontCSS = useCallback((fonts: FontData[]) => {
-    // Remove existing font styles
-    const existingStyles = document.querySelectorAll('style[data-font-css]')
-    existingStyles.forEach(style => style.remove())
-
-    const isVariable = (font: FontData) => font.type === 'Variable' || !!(font.variableAxes && font.variableAxes.length)
-
-    // Generate CSS for each font - handle multiple files per family
-    const fontCSS = fonts.map(font => {
-      if (font._familyFonts && font._familyFonts.length > 0 && !isVariable(font)) {
-        // Static multi-file family: each file gets its own unique @font-face alias.
-        // Using font-weight: 100 900 prevents browser synthesis across aliases.
-        return font._familyFonts.map((fontFile: any) => {
-          const alias = fontFile.cssFamily
-          if (!alias) return ''
-          const isItalic = fontFile.isItalic ||
-            (fontFile.style || '').toLowerCase().includes('italic') ||
-            (fontFile.style || '').toLowerCase().includes('oblique')
-          const src = fontFile.url || fontFile.blobUrl || `/fonts/${fontFile.filename}`
-          return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${isItalic ? 'italic' : 'normal'};font-display:swap;}`
-        }).filter(Boolean).join('\n')
-      } else if (isVariable(font)) {
-        // Variable font: register under the shared family alias with actual weight range
-        const src = font.url || `/fonts/${font.filename}`
-        const wMin = font.availableWeights?.[0] ?? 100
-        const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
-        const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
-        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:swap;}`
-      } else {
-        // Single static file
-        const src = font.url || `/fonts/${font.filename}`
-        const alias = font._familyFonts?.[0]?.cssFamily ||
-          font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
-        const isItalic = (font.style || '').toLowerCase().includes('italic')
-        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${isItalic ? 'italic' : 'normal'};font-display:swap;}`
-      }
-    }).join('\n')
-
-    // Inject CSS
-    if (fontCSS.trim()) {
-      const styleElement = document.createElement('style')
-      styleElement.setAttribute('data-font-css', 'true')
-      styleElement.textContent = fontCSS
-      document.head.appendChild(styleElement)
-    }
-  }, [])
 
   // Inject @font-face CSS for a single font — called lazily when card enters viewport
   const injectSingleFontCSS = useCallback((font: FontData) => {
@@ -895,23 +736,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     return [...orderedLanguages, ...remainingLanguages];
   }
 
-  // Helper function to convert weight number to style name
-  const getStyleNameFromWeight = (weight: number, isItalic: boolean): string => {
-    let styleName = 'Regular'
-    
-    if (weight <= 150) styleName = 'Thin'
-    else if (weight <= 250) styleName = 'ExtraLight'
-    else if (weight <= 350) styleName = 'Light'
-    else if (weight <= 450) styleName = 'Regular'
-    else if (weight <= 550) styleName = 'Medium'
-    else if (weight <= 650) styleName = 'SemiBold'
-    else if (weight <= 750) styleName = 'Bold'
-    else if (weight <= 850) styleName = 'ExtraBold'
-    else styleName = 'Black'
-    
-    return isItalic ? `${styleName} Italic` : styleName
-  }
-
   // Post-render font fallback detection using DOM and canvas measurement
   useEffect(() => {
     const detectAndHighlightFallbackChars = () => {
@@ -1112,14 +936,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     const result = { weight, italic, variableAxes: axesOut, otFeatures }
     return result
   }
-
-
-  // Load fonts only if not provided by server (fallback)
-  // When initialFonts are present, @font-face is injected lazily via IntersectionObserver below
-  useEffect(() => {
-    if (initialFonts.length === 0) loadFonts()
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
 
 
   useLayoutEffect(() => {
