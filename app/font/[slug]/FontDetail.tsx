@@ -227,7 +227,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                   { a: 'center', Icon: IconAlignCenter },
                   { a: 'right',  Icon: IconAlignRight },
                 ] as const).map(({ a, Icon }) => (
-                  <button key={a} onClick={() => setAlign(a)}
+                  <button key={a} aria-label={`Align ${a}`} aria-pressed={align === a} onClick={() => setAlign(a)}
                     className={`v2-button ${align === a ? 'v2-button-active' : 'v2-button-inactive'}`}
                     style={{ width: '40px', padding: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                   >
@@ -236,6 +236,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                 ))}
               </div>
               <button
+                aria-label="Reset preview settings"
                 onClick={() => { setFontSize(80); setLineHeight(1.2); setLetterSpacing(0); setAlign('left'); setSelectedPreset('Names'); setPreviewText(family.name); setRowOtFeatures({}); setRowVarAxes({}); setExpandedRowKey(null) }}
                 className="v2-button v2-button-inactive"
                 style={{ padding: 0, width: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}
@@ -557,6 +558,7 @@ function VariantRow({
                             <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                               <span style={{ color: 'var(--gray-cont-prim)', fontSize: 14, fontWeight: 500 }}>{Math.round(clamped)}</span>
                               <button
+                                aria-label={`Reset ${axis.name}`}
                                 onClick={() => onAxisChange?.(axis.tag, axis.default)}
                                 style={{ opacity: isChanged ? 1 : 0.2, color: 'var(--gray-cont-prim)', lineHeight: 1 }}
                               >

@@ -4,7 +4,10 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true,
+    // Type errors now fail the build. This is what would have caught the
+    // font-alias mismatch before it shipped. The codebase type-checks clean
+    // (opentype.js declared in types/opentype.d.ts).
+    ignoreBuildErrors: false,
   },
   images: {
     unoptimized: true,

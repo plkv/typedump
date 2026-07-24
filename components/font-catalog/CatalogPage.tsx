@@ -1479,7 +1479,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
                 <div className="flex gap-2">
                   {hasActiveFilters && (
-                    <button onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <button aria-label="Reset all filters" onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                       <IconReset size={20} />
                     </button>
                   )}
@@ -1588,6 +1588,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                     {(['left', 'center', 'right'] as const).map((a) => (
                       <button
                         key={a}
+                        aria-label={`Align ${a}`}
+                        aria-pressed={textAlign === a}
                         onClick={() => setTextAlign(a)}
                         className={`v2-button flex-1 ${textAlign === a ? 'v2-button-active' : 'v2-button-inactive'}`}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -1724,7 +1726,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   })()}
                 </button>
                 {hasActiveFilters && (
-                  <button onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <button aria-label="Reset all filters" onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <IconReset size={20} />
                   </button>
                 )}

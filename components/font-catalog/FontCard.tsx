@@ -326,6 +326,7 @@ export function FontCard({
                               {Math.round(clamped)}
                             </span>
                             <button
+                              aria-label={`Reset ${axis.name}`}
                               onClick={() => onVariableAxisChange(axis.tag, resetTarget)}
                               style={{ opacity: isChanged ? 1 : 0.2, color: 'var(--gray-cont-prim)', lineHeight: 1 }}
                             >

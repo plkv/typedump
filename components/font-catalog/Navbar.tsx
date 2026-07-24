@@ -79,6 +79,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
         {/* Island 0: Back — optional, fixed 54px at left edge */}
         {back && (
           <button
+            aria-label="Go back"
             onClick={() => {
               if (window.history.length > 1) {
                 router.back()
@@ -148,8 +149,12 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
               : `right 0.22s ${EASE_CLOSE}, width 0.22s ${EASE_CLOSE}, background-color 0.2s`,
           }}
           onClick={!searchOpen ? () => setSearchOpen(true) : undefined}
+          role={!searchOpen ? 'button' : undefined}
+          aria-label={!searchOpen ? 'Open search' : undefined}
+          tabIndex={!searchOpen ? 0 : undefined}
+          onKeyDown={!searchOpen ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSearchOpen(true) } } : undefined}
         >
-          <div style={{
+          <div aria-hidden style={{
             width: '54px', flexShrink: 0,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             color: 'var(--gray-cont-prim)',
@@ -158,6 +163,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           </div>
           <input
             ref={inputRef}
+            aria-label="Search fonts by name, author or foundry"
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={e => e.key === 'Escape' && closeSearch()}
@@ -179,6 +185,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
 
         {/* Island 3: Close — scale+fade, width handles layout */}
         <button
+          aria-label="Close search"
           className="navbar-close-island v2-card v2-overlay"
           onClick={closeSearch}
           style={{
