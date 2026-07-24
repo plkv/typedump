@@ -6,7 +6,7 @@ import { canonicalFamilyName } from "@/lib/font-naming"
 import { shortHash } from "@/lib/hash"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
-import { IconXMark, IconReset } from "@/components/icons"
+import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
 // catalog.css is imported globally in layout.tsx
 
 
@@ -1592,9 +1592,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                         className={`v2-button flex-1 ${textAlign === a ? 'v2-button-active' : 'v2-button-inactive'}`}
                         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                       >
-                        <span className="material-symbols-outlined" style={{ fontSize: '18px', fontWeight: 400 }}>
-                          {a === 'left' ? 'format_align_left' : a === 'center' ? 'format_align_center' : 'format_align_right'}
-                        </span>
+                        {a === 'left' ? <IconAlignLeft size={20} /> : a === 'center' ? <IconAlignCenter size={20} /> : <IconAlignRight size={20} />}
                       </button>
                     ))}
                   </div>

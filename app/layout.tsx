@@ -81,14 +81,6 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'G-FL0K563LQ7');
         `}} />
-        <script dangerouslySetInnerHTML={{__html:`(function(){
-          fetch('/api/tags/vocab?type=appearance&collection=Text').then(r=>r.json()).then(d=>{window.__appearanceOrder__=window.__appearanceOrder__||{};window.__appearanceOrder__.Text=d.list||[]});
-          fetch('/api/tags/vocab?type=appearance&collection=Display').then(r=>r.json()).then(d=>{window.__appearanceOrder__=window.__appearanceOrder__||{};window.__appearanceOrder__.Display=d.list||[]});
-          fetch('/api/tags/vocab?type=appearance&collection=Weirdo').then(r=>r.json()).then(d=>{window.__appearanceOrder__=window.__appearanceOrder__||{};window.__appearanceOrder__.Weirdo=d.list||[]});
-          fetch('/api/tags/vocab?type=category&collection=Text').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Text=d.list||[]});
-          fetch('/api/tags/vocab?type=category&collection=Display').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Display=d.list||[]});
-          fetch('/api/tags/vocab?type=category&collection=Weirdo').then(r=>r.json()).then(d=>{window.__categoryOrder__=window.__categoryOrder__||{};window.__categoryOrder__.Weirdo=d.list||[]});
-        })();`}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
           {
             '@context': 'https://schema.org',
@@ -123,10 +115,6 @@ export default function RootLayout({
             Version it by the data's lastUpdated so a data change busts the
             cache while identical data keeps returning visitors on the cache. */}
         <link rel="stylesheet" href={`/fonts/fonts.css?v=${encodeURIComponent(staticDb.lastUpdated)}`} />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
-          rel="stylesheet"
-        />
       </head>
       <body className="font-sans antialiased">{children}</body>
     </html>

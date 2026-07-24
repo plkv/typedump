@@ -375,6 +375,9 @@ export default function AdminManager() {
 
   return (
     <main className="p-6 space-y-6">
+      {/* Material Symbols used only on this internal admin page (dropped from the
+          global head). Next hoists this <link> to <head> and dedupes it. */}
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0" />
       <Toaster richColors position="top-right" />
       <header className="flex flex-col gap-2">
         <div className="flex items-center justify-between gap-3">

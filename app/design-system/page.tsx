@@ -473,6 +473,9 @@ function SegmentedControlPlayground() {
 export default function DesignSystemPage() {
   return (
     <div style={{ backgroundColor: 'var(--gray-surface-prim)', minHeight: '100vh' }}>
+      {/* Material Symbols used only on this internal reference page (dropped from
+          the global head). Next hoists this <link> to <head> and dedupes it. */}
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0" />
       <div style={{ maxWidth: 960, margin: '0 auto', padding: '48px 24px 120px' }}>
 
         {/* Header */}
