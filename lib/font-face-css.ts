@@ -1,12 +1,16 @@
 import type { FontFamily } from '@/lib/models/FontFamily'
-import { canonicalFamilyName } from '@/lib/font-naming'
-import { shortHash } from '@/lib/hash'
+import { variantAlias } from './font-alias.mjs'
 
+/**
+ * Alias for one specific variant file.
+ *
+ * Keyed by the variant's URL, not its id, so it matches the aliases the
+ * catalogue and public/fonts/fonts.css produce. (It used to hash the id, which
+ * silently produced a name nothing else in the app could resolve.)
+ */
 export function variantCssFamily(family: FontFamily, variantId: string) {
-  const alias = canonicalFamilyName(family.name)
-  const fHash = shortHash(alias).slice(0, 6)
-  const vHash = shortHash(variantId).slice(0, 6)
-  return `${alias}-${fHash}__v_${vHash}`
+  const v = family.variants.find(x => x.id === variantId)
+  return variantAlias(family.name, v?.blobUrl || v?.filename || variantId)
 }
 
 export function buildFontFaceCSS(family: FontFamily): string {

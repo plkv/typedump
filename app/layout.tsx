@@ -118,7 +118,11 @@ export default function RootLayout({
             creator: CURATOR,
           },
         ]) }} />
-        <link rel="stylesheet" href="/fonts/fonts.css" />
+        {/* fonts.css is served immutable/max-age=1y at a fixed path, but its
+            content (the @font-face aliases) changes when the catalogue does.
+            Version it by the data's lastUpdated so a data change busts the
+            cache while identical data keeps returning visitors on the cache. */}
+        <link rel="stylesheet" href={`/fonts/fonts.css?v=${encodeURIComponent(staticDb.lastUpdated)}`} />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
           rel="stylesheet"

@@ -1,7 +1,6 @@
 import type { FontFamily } from '@/lib/models/FontFamily'
 import { FontVariantUtils } from '@/lib/models/FontVariant'
-import { canonicalFamilyName } from '@/lib/font-naming'
-import { shortHash } from '@/lib/hash'
+import { familyAlias, variantAlias } from './font-alias.mjs'
 
 function escapeCssString(input: string): string {
   return input.replace(/"/g, '\\"')
@@ -12,17 +11,15 @@ function escapeCssString(input: string): string {
 export function buildFontCSS(families: FontFamily[]): string {
   const chunks: string[] = []
   for (const fam of families) {
-    const canonical = canonicalFamilyName(fam.name)
-    const alias = `${canonical}-${shortHash(canonical).slice(0,6)}`
-    const familyName = escapeCssString(alias)
+    const familyName = escapeCssString(familyAlias(fam.name))
     for (const v of fam.variants) {
       if (!v.blobUrl) continue
       chunks.push(`/* ${familyName} :: ${v.styleName} ${v.weight}${v.isItalic ? ' Italic' : ''} */`)
       // Direct blob source for base alias
       chunks.push(FontVariantUtils.toCSSFontFace(v, familyName))
       // Per-variant alias allows selecting a specific file even when weight/style collide
-      const variantAlias = `${familyName}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0,6)}`
-      chunks.push(FontVariantUtils.toCSSFontFace(v, variantAlias))
+      const vAlias = escapeCssString(variantAlias(fam.name, v.blobUrl || v.filename || v.id))
+      chunks.push(FontVariantUtils.toCSSFontFace(v, vAlias))
     }
   }
   return chunks.join('\n')
