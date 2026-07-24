@@ -161,12 +161,14 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
         weight: v.weight,
         style: v.styleName,
         isItalic: v.isItalic,
-        blobUrl: v.blobUrl,
+        // `url` alone is enough; blobUrl was a duplicate of the same value.
         url: v.blobUrl,
         cssFamily: `${alias}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0, 6)}`,
         downloadLink: (v as any).downloadLink,
         variableAxes: v.variableAxes,
-        openTypeFeatures: v.openTypeFeatures,
+        // Raw feature strings are only read as a fallback when there are no
+        // parsed tags. Omit them (≈45KB of SSR payload) when tags exist.
+        openTypeFeatures: v.openTypeFeatureTags?.length ? undefined : v.openTypeFeatures,
         openTypeFeatureTags: v.openTypeFeatureTags,
         uploadedAt: v.uploadedAt || null,
       })),
