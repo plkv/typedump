@@ -1149,22 +1149,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }, [isMobile])
 
 
-  // The Text/Display/Brutal buttons preview a random font from each collection.
-  // Those fonts are rarely among the cards currently in view, so the lazy
-  // per-card @font-face injection never covers them and all three fell back to
-  // the same system font. Inject their faces explicitly.
-  useEffect(() => {
-    if (!fonts.length) return
-    ;(['Text', 'Display', 'Brutal'] as const).forEach(collection => {
-      const family = getStablePreviewFontForCollection(collection)
-      const alias = family.match(/"([^"]+)"/)?.[1]
-      if (!alias) return
-      const font = fonts.find(f => f.fontFamily?.includes(`"${alias}"`))
-      if (font) injectSingleFontCSS(font)
-    })
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [fonts, injectSingleFontCSS])
-
   // IntersectionObserver: inject @font-face and load font only when card enters viewport
   useEffect(() => {
     fontObserverRef.current?.disconnect()

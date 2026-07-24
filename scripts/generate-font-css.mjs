@@ -4,9 +4,10 @@
  * Add to package.json prebuild: "node scripts/generate-font-css.mjs"
  */
 import { readFileSync, writeFileSync } from 'fs'
-import { createHash } from 'crypto'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
+// Same helpers the running app uses, so the aliases here match what it asks for.
+import { familyAlias, variantAlias } from '../lib/font-alias.mjs'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
 const root = join(__dir, '..')
@@ -16,14 +17,6 @@ const outPath = join(root, 'public/fonts/fonts.css')
 const data = JSON.parse(readFileSync(dataPath, 'utf8'))
 
 const formatMap = { woff2: 'woff2', woff: 'woff', truetype: 'truetype', opentype: 'opentype', ttf: 'truetype', otf: 'opentype' }
-
-function shortHash(s) {
-  return createHash('md5').update(s).digest('hex').slice(0, 6)
-}
-
-function canonicalName(name) {
-  return name.replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
-}
 
 function buildFontFace(familyName, v) {
   const url = v.url || `/fonts/${v.filename}`
@@ -54,14 +47,13 @@ for (const fam of data.families) {
   const variants = (fam.variants || []).filter(v => v.published !== false)
   if (!variants.length) continue
 
-  const canonical = canonicalName(fam.name)
-  const alias = `${canonical}-${shortHash(canonical)}`
+  const alias = familyAlias(fam.name)
 
   for (const v of variants) {
     if (!v.url && !v.filename) continue
     chunks.push(buildFontFace(alias, v))
-    const variantAlias = `${alias}__v_${shortHash(v.url || v.filename || v.id || '')}`
-    chunks.push(buildFontFace(variantAlias, v))
+    // The app hashes the variant's blobUrl, which is this same `url` value.
+    chunks.push(buildFontFace(variantAlias(fam.name, v.url || v.filename || v.id || ''), v))
   }
 }
 
