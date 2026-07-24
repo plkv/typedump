@@ -510,24 +510,18 @@
   font-feature-settings: "cv11" on;
 }
 
-/* Curator credit under the intro. Negative margin pulls it out of the hero's
-   32px gap so it sits close to the paragraph it credits. */
-.catalog-hero-byline {
-  font-family: "Strichpunkt Sans", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-  color: var(--gray-cont-tert);
-  margin-top: -20px;
-}
-
-.catalog-hero-byline a {
-  color: var(--gray-cont-prim);
-  text-decoration: none;
-}
-
-.catalog-hero-byline a:hover {
+/* Curator name inside the intro paragraph: inherits the paragraph's type,
+   marked only by an underline so it reads as part of the sentence. */
+.hero-credit-link {
+  color: inherit;
   text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--gray-cont-tert);
+}
+
+.hero-credit-link:hover {
+  text-decoration-color: var(--gray-cont-prim);
 }
 
 .catalog-hero-buttons {

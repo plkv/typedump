@@ -1270,33 +1270,41 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             <p ref={heroTextRef} className="catalog-hero-text">
               {(() => {
                 const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Preview any font in the browser, explore variable axes and stylistic alternates, find similar styles. Totally free."
-                const words = intro.split(' ')
-                return words.flatMap((w, i) => {
-                  const el = (
-                    <span
+                // The curator credit is part of the paragraph, so it wraps and
+                // reveals line-by-line with the rest of the text. The name stays
+                // one unit so it never breaks across lines.
+                const items: Array<{ text: string; href?: string }> = [
+                  ...intro.split(' ').map(text => ({ text })),
+                  { text: 'Curated' }, { text: 'by' },
+                  { text: 'Stas Polyakov', href: 'https://plkv.works/' },
+                ]
+                return items.flatMap(({ text, href }, i) => {
+                  const style: React.CSSProperties = {
+                    // Until measured, hold at delay 0 but paused so nothing animates
+                    // before lines are grouped; then each line gets its shared delay.
+                    animationDelay: `${(heroWordDelays?.[i] ?? 0).toFixed(3)}s`,
+                    animationPlayState: heroWordDelays ? 'running' : 'paused',
+                    ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null),
+                  }
+                  const el = href ? (
+                    <a
                       key={`w${i}`}
-                      className="hero-word"
-                      style={{
-                        // Until measured, hold at delay 0 but paused so nothing animates
-                        // before lines are grouped; then each line gets its shared delay.
-                        animationDelay: `${(heroWordDelays?.[i] ?? 0).toFixed(3)}s`,
-                        animationPlayState: heroWordDelays ? 'running' : 'paused',
-                        ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null),
-                      }}
+                      className="hero-word hero-credit-link"
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={style}
                     >
-                      {w}
-                    </span>
+                      {text}
+                    </a>
+                  ) : (
+                    <span key={`w${i}`} className="hero-word" style={style}>{text}</span>
                   )
-                  return i < words.length - 1 ? [el, ' '] : [el]
+                  return i < items.length - 1 ? [el, ' '] : [el]
                 })
               })()}
             </p>
-            {/* Curator credit — revealed right after the last intro line, before the buttons */}
-            <p className="catalog-hero-byline hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
-              Curated by{' '}
-              <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer">Stas Polyakov ↗</a>
-            </p>
-            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${(heroButtonsDelay + 0.14).toFixed(3)}s` }}>
+            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
               <a
                 href="https://www.npmjs.com/package/typedump"
                 target="_blank"
