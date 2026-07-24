@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 // Same helpers the running app uses, so the aliases here match what it asks for.
 import { familyAlias, variantAlias } from '../lib/font-alias.mjs'
+import { fontFaceRule } from '../lib/font-face.mjs'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
 const root = join(__dir, '..')
@@ -16,13 +17,7 @@ const outPath = join(root, 'public/fonts/fonts.css')
 
 const data = JSON.parse(readFileSync(dataPath, 'utf8'))
 
-const formatMap = { woff2: 'woff2', woff: 'woff', truetype: 'truetype', opentype: 'opentype', ttf: 'truetype', otf: 'opentype' }
-
 function buildFontFace(familyName, v) {
-  const url = v.url || `/fonts/${v.filename}`
-  const fmt = (v.format || '').toLowerCase()
-  const fmtHint = formatMap[fmt] ? ` format("${formatMap[fmt]}")` : ''
-
   let weight
   if (v.isVariable) {
     const wAxis = (v.variableAxes || []).find(a => a.axis === 'wght')
@@ -37,8 +32,14 @@ function buildFontFace(familyName, v) {
     weight = String(v.weight || 400)
   }
 
-  const style = v.isItalic ? 'italic' : 'normal'
-  return `@font-face{font-family:"${familyName}";src:url("${url}")${fmtHint};font-weight:${weight};font-style:${style};font-display:swap;}`
+  return fontFaceRule({
+    family: familyName,
+    src: v.url || `/fonts/${v.filename}`,
+    weight,
+    isItalic: v.isItalic,
+    format: v.format,
+    fontDisplay: 'swap',
+  })
 }
 
 const chunks = []

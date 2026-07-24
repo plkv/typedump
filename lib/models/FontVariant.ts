@@ -2,6 +2,7 @@
  * FontVariant - Individual font file within a family
  * Inherits settings from FontFamily parent
  */
+import { fontFaceRule } from '@/lib/font-face.mjs'
 
 export interface FontVariant {
   // Core identity
@@ -234,19 +235,14 @@ export class FontVariantUtils {
       fontWeight = `${variant.weight}`
     }
 
-    // Guess format() from variant.format if available
-    const formatMap: Record<string, string> = {
-      'woff2': 'woff2',
-      'woff': 'woff',
-      'truetype': 'truetype',
-      'opentype': 'opentype',
-      'ttf': 'truetype',
-      'otf': 'opentype',
-    }
-    const fmt = (variant.format || '').toLowerCase()
-    const formatHint = formatMap[fmt] ? ` format("${formatMap[fmt]}")` : ''
-
-    return `@font-face{font-family:"${familyName}";src:url("${variant.blobUrl}")${formatHint};font-weight:${fontWeight};font-style:${variant.isItalic ? 'italic' : 'normal'};font-display:swap;}`
+    return fontFaceRule({
+      family: familyName,
+      src: variant.blobUrl,
+      weight: fontWeight,
+      isItalic: variant.isItalic,
+      format: variant.format,
+      fontDisplay: 'swap',
+    })
   }
   
   /**
