@@ -175,7 +175,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           {family.name}
         </h1>
         <div style={{
-          fontFamily: '"Geist", sans-serif',
+          fontFamily: '"Instrument Sans UI", sans-serif',
           fontSize: '14px',
           fontWeight: 500,
           color: 'var(--gray-cont-tert)',
@@ -261,7 +261,8 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
             const otFeatures = rowOtFeatures[vr.key] ?? {}
             const varAxes = rowVarAxes[vr.key] ?? {}
             const varSettings = getFontVariationSettings({ wght: vr.weight, ...varAxes })
-            const featureSettings = getFontFeatureSettings(otFeatures)
+            // 'normal' resets the body-level UI stylistic sets on the specimen.
+            const featureSettings = getFontFeatureSettings(otFeatures) ?? 'normal'
             return (
               <VariantRow
                 key={vr.key}
@@ -310,7 +311,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         <div className="v2-card" style={{ padding: '20px 24px 24px' }}>
           <div className="text-author" style={{ marginBottom: 12 }}>About</div>
           <p style={{
-            fontFamily: '"Geist", sans-serif',
+            fontFamily: '"Instrument Sans UI", sans-serif',
             fontSize: 14, fontWeight: 400, lineHeight: 1.6,
             color: 'var(--gray-cont-prim)',
             margin: 0,
@@ -385,7 +386,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
 
       {/* ── Footer ── */}
       <footer style={{ padding: '16px 24px' }}>
-        <span style={{ fontFamily: '"Geist", sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
+        <span style={{ fontFamily: '"Instrument Sans UI", sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
           © 2026 TypeDump. Built and curated by{' '}
           <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>
         </span>

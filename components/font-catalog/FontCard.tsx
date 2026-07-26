@@ -139,7 +139,7 @@ export function FontCard({
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
-                      fontFamily: '"Geist", sans-serif',
+                      fontFamily: '"Instrument Sans UI", sans-serif',
                       fontSize: '14px',
                       fontWeight: 500,
                       color: 'var(--gray-cont-prim)',
@@ -268,7 +268,9 @@ export function FontCard({
               opacity: isLoaded ? undefined : 0,
               animation: isLoaded ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
               textAlign,
-              fontFeatureSettings: getFontFeatureSettings(effectiveStyle.otFeatures),
+              // 'normal' resets the body-level UI stylistic sets so they never
+              // bleed into the font specimen.
+              fontFeatureSettings: getFontFeatureSettings(effectiveStyle.otFeatures) ?? 'normal',
               fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes),
             }}
             multiline

@@ -143,7 +143,7 @@ type CtrlToggle = { type: 'toggle'; label: string; value: boolean; onChange: (v:
 type Ctrl = CtrlRadio | CtrlText | CtrlToggle
 
 const ctrlBase: React.CSSProperties = {
-  fontFamily: '"Geist", sans-serif', cursor: 'pointer', transition: 'all 0.15s',
+  fontFamily: '"Instrument Sans UI", sans-serif', cursor: 'pointer', transition: 'all 0.15s',
 }
 
 function ControlPanel({ controls }: { controls: Ctrl[] }) {
@@ -166,7 +166,7 @@ function ControlPanel({ controls }: { controls: Ctrl[] }) {
         if (c.type === 'text') return (
           <div key={i}>
             {lbl}
-            <input value={c.value} onChange={e => c.onChange(e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 8, border: '1px solid var(--gray-brd-prim)', background: 'var(--gray-fill-prim)', color: 'var(--gray-cont-prim)', fontSize: 12, fontFamily: '"Geist", sans-serif', outline: 'none', boxSizing: 'border-box' }} />
+            <input value={c.value} onChange={e => c.onChange(e.target.value)} style={{ width: '100%', padding: '6px 10px', borderRadius: 8, border: '1px solid var(--gray-brd-prim)', background: 'var(--gray-fill-prim)', color: 'var(--gray-cont-prim)', fontSize: 12, fontFamily: '"Instrument Sans UI", sans-serif', outline: 'none', boxSizing: 'border-box' }} />
           </div>
         )
         if (c.type === 'toggle') return (
@@ -174,7 +174,7 @@ function ControlPanel({ controls }: { controls: Ctrl[] }) {
             <button role="switch" aria-checked={c.value} onClick={() => c.onChange(!c.value)} style={{ width: 30, height: 17, borderRadius: 9, border: 'none', cursor: 'pointer', background: c.value ? 'var(--gray-cont-prim)' : 'var(--gray-brd-prim)', position: 'relative', transition: 'all 0.2s', flexShrink: 0, padding: 0 }}>
               <div style={{ position: 'absolute', top: 2, left: c.value ? 14 : 2, width: 13, height: 13, borderRadius: '50%', background: c.value ? 'var(--gray-surface-prim)' : 'var(--gray-cont-prim)', transition: 'left 0.2s' }} />
             </button>
-            <span style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Geist", sans-serif' }}>{c.label}</span>
+            <span style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Instrument Sans UI", sans-serif' }}>{c.label}</span>
           </div>
         )
         return null
@@ -191,7 +191,7 @@ function Playground({ name, cls, preview, controls, code }: {
   return (
     <div style={{ borderRadius: 'var(--radius-card)', border: '1px solid var(--gray-brd-prim)', overflow: 'hidden', marginBottom: 20 }}>
       <div style={{ padding: '10px 16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', alignItems: 'center', gap: 10 }}>
-        <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-cont-prim)', fontFamily: '"Geist", sans-serif' }}>{name}</span>
+        <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-cont-prim)', fontFamily: '"Instrument Sans UI", sans-serif' }}>{name}</span>
         <Mono>{cls}</Mono>
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 200px' }}>
@@ -298,8 +298,8 @@ function V2CardPlayground() {
     <Playground name="Card" cls=".v2-card" code={code}
       preview={
         <div className="v2-card" style={{ padding: Number(padding), width: 180, border: '1px solid var(--gray-brd-prim)' }}>
-          <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-prim)', fontFamily: '"Geist", sans-serif', marginBottom: 4 }}>Card title</div>
-          <div style={{ fontSize: 12, color: 'var(--gray-cont-tert)', fontFamily: '"Geist", sans-serif' }}>Some content inside the card.</div>
+          <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-prim)', fontFamily: '"Instrument Sans UI", sans-serif', marginBottom: 4 }}>Card title</div>
+          <div style={{ fontSize: 12, color: 'var(--gray-cont-tert)', fontFamily: '"Instrument Sans UI", sans-serif' }}>Some content inside the card.</div>
         </div>
       }
       controls={
@@ -319,7 +319,7 @@ function V2DropdownPlayground() {
     <Playground name="Dropdown" cls=".v2-dropdown" code={code}
       preview={
         <div className={style} style={{ display: 'flex', alignItems: 'center' }}>
-          <select style={{ padding: '10px 36px 10px 12px', border: 'none', background: 'transparent', fontSize: 14, fontWeight: 500, fontFamily: '"Geist", sans-serif', color: 'var(--gray-cont-prim)', cursor: 'pointer' }}>
+          <select style={{ padding: '10px 36px 10px 12px', border: 'none', background: 'transparent', fontSize: 14, fontWeight: 500, fontFamily: '"Instrument Sans UI", sans-serif', color: 'var(--gray-cont-prim)', cursor: 'pointer' }}>
             {options.map(o => <option key={o}>{o}</option>)}
           </select>
         </div>
@@ -481,10 +481,10 @@ export default function DesignSystemPage() {
         {/* Header */}
         <div style={{ marginBottom: 56 }}>
           <Link href="/" style={{ fontSize: 13, color: 'var(--gray-cont-tert)', textDecoration: 'none' }}>← Library</Link>
-          <h1 style={{ fontSize: 32, fontWeight: 600, marginTop: 16, color: 'var(--gray-cont-prim)', fontFamily: '"Geist", sans-serif' }}>
+          <h1 style={{ fontSize: 32, fontWeight: 600, marginTop: 16, color: 'var(--gray-cont-prim)', fontFamily: '"Instrument Sans UI", sans-serif' }}>
             Design System
           </h1>
-          <p style={{ fontSize: 14, color: 'var(--gray-cont-sec)', marginTop: 8, fontFamily: '"Geist", sans-serif' }}>
+          <p style={{ fontSize: 14, color: 'var(--gray-cont-sec)', marginTop: 8, fontFamily: '"Instrument Sans UI", sans-serif' }}>
             Foundation tokens and interactive component playground
           </p>
         </div>
@@ -492,7 +492,7 @@ export default function DesignSystemPage() {
         {/* ── FOUNDATION ──────────────────────────────────────────────────── */}
 
         <Section title="Colors — gray tokens">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Geist", sans-serif' }}>
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Instrument Sans UI", sans-serif' }}>
             Theme via <Mono>prefers-color-scheme</Mono>. Light base <Mono>#0a0a0a</Mono> · Dark base <Mono>#fcfcfc</Mono>
           </p>
           <TokenTable groups={GRAY_TOKENS} />
@@ -503,7 +503,7 @@ export default function DesignSystemPage() {
         </Section>
 
         <Section title="Colors — shadcn tokens">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Geist", sans-serif' }}>
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-tert)', marginBottom: 16, fontFamily: '"Instrument Sans UI", sans-serif' }}>
             Used by shadcn components (Slider etc). <Mono>oklch</Mono> values approximated to hex for display.
           </p>
           <TokenTable groups={SHADCN_TOKENS} />
@@ -512,7 +512,7 @@ export default function DesignSystemPage() {
         <Section title="Typography">
           <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
             {[
-              { name: 'Geist', family: '"Geist"', note: '--font-inter · main UI font', weights: [400, 500, 600, 700, 900] },
+              { name: 'Geist', family: '"Instrument Sans UI"', note: '--font-inter · main UI font', weights: [400, 500, 600, 700, 900] },
               { name: 'Space Grotesk',  family: 'var(--font-space-grotesk)', note: '--font-space-grotesk · used in: unknown', weights: [400, 500, 700] },
               { name: 'Space Mono',     family: 'var(--font-space-mono)',    note: '--font-space-mono · code labels', weights: [400, 700] },
             ].map(f => (
@@ -547,7 +547,7 @@ export default function DesignSystemPage() {
                 <Mono>{cls}</Mono>
                 <div className={cls.slice(1)} style={{ flex: 1 }}>{sample}</div>
                 <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: 'var(--font-space-mono)', flexShrink: 0, display: 'none' }}>{spec}</div>
-                <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Geist", sans-serif', textAlign: 'right' }}>{spec}</div>
+                <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Instrument Sans UI", sans-serif', textAlign: 'right' }}>{spec}</div>
               </div>
             ))}
           </div>
@@ -563,8 +563,8 @@ export default function DesignSystemPage() {
                 <div style={{ width: 64, height: 40, borderRadius: r, background: 'var(--gray-fill-sec)', border: '1px solid var(--gray-brd-prim)', flexShrink: 0 }} />
                 <div>
                   <Mono>{token}</Mono>
-                  <div style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Geist", sans-serif', marginTop: 4 }}>{value}</div>
-                  <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Geist", sans-serif', marginTop: 2 }}>{use}</div>
+                  <div style={{ fontSize: 12, color: 'var(--gray-cont-prim)', fontFamily: '"Instrument Sans UI", sans-serif', marginTop: 4 }}>{value}</div>
+                  <div style={{ fontSize: 11, color: 'var(--gray-cont-tert)', fontFamily: '"Instrument Sans UI", sans-serif', marginTop: 2 }}>{use}</div>
                 </div>
               </div>
             ))}
@@ -572,7 +572,7 @@ export default function DesignSystemPage() {
         </Section>
 
         <Section title="Spacing">
-          <p style={{ fontSize: 12, color: 'var(--gray-cont-sec)', marginBottom: 16, fontFamily: '"Geist", sans-serif' }}>
+          <p style={{ fontSize: 12, color: 'var(--gray-cont-sec)', marginBottom: 16, fontFamily: '"Instrument Sans UI", sans-serif' }}>
             No spacing tokens — all values hardcoded inline. Base unit: 4px.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'flex-end', gap: 12 }}>

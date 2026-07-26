@@ -62,7 +62,7 @@
     --misc-cont-tert: rgba(247, 247, 247, 0.24);
 
     /* Font variables */
-    --font-inter: "Geist";
+    --font-inter: "Instrument Sans UI";
     --font-space-grotesk: var(--font-space-grotesk);
     --font-space-mono: var(--font-space-mono);
   }
@@ -122,7 +122,7 @@
     --misc-cont-tert: rgba(10, 10, 10, 0.24);
 
     /* Font variables */
-    --font-inter: "Geist";
+    --font-inter: "Instrument Sans UI";
     --font-space-grotesk: var(--font-space-grotesk);
     --font-space-mono: var(--font-space-mono);
   }
@@ -195,7 +195,7 @@
 }
 
 @theme inline {
-  --font-sans: "Geist";
+  --font-sans: "Instrument Sans UI";
   --font-serif: var(--font-space-grotesk);
   --font-mono: var(--font-space-mono);
   --color-background: var(--background);
@@ -243,41 +243,45 @@
   body {
     @apply bg-background text-foreground;
     background-color: var(--gray-surface-sec);
+    /* Interface font (Instrument Sans UI) stylistic sets: ss01 round dots,
+       ss02 single-storey a, ss06 alt M, ss08 alt J. Font previews override
+       font-feature-settings explicitly so these never leak into specimens. */
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
   }
 }
 
 @layer utilities {
   /* Sidebar titles */
   .text-sidebar-title {
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-prim);
   }
 
   /* Font name and menu */
   .text-font-name,
   .text-menu {
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-prim);
   }
 
   /* Author */
   .text-author {
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-tert);
   }
 
@@ -289,12 +293,12 @@
     align-items: center;
     height: 26px;
     border-radius: var(--radius-md);
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-prim);
     background-color: var(--gray-surface-sec);
     border: none;
@@ -318,12 +322,12 @@
     align-items: center;
     height: 32px;
     border-radius: var(--radius-md);
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-prim);
     background-color: var(--gray-surface-sec);
     border: none;
@@ -346,12 +350,12 @@
     padding: 6px;
     align-items: center;
     border-radius: var(--radius-md);
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-tert);
     background-color: transparent;
     border: none;
@@ -397,12 +401,12 @@
     justify-content: center;
     align-items: center;
     border-radius: var(--radius-md);
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     border: none;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -423,12 +427,12 @@
     padding: 6px 8px;
     align-items: center;
     border-radius: 0; /* handled by wrapper */
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     color: var(--gray-cont-prim);
     background-color: transparent; /* wrapped */
     border: none;
@@ -501,12 +505,12 @@
     gap: 8px;
     flex: 1 0 0;
     border-radius: var(--radius-sm);
-    font-family: "Geist", sans-serif;
+    font-family: "Instrument Sans UI", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 14px;
-    font-feature-settings: "ss03" on, "cv06" on, "cv11" on;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
     background-color: transparent;
     color: var(--gray-cont-tert);
     border: none;

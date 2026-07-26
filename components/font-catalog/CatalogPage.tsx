@@ -153,10 +153,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         // Static fonts register variant-level aliases (alias__v_hash) which don't match fontFamily.
         const pool = candidates.filter(f => f.type === 'Variable')
         const pick = (pool.length ? pool : candidates)[Math.floor(Math.random() * (pool.length || candidates.length))]
-        previewFontsRef.current[collection] = pick?.fontFamily || '"Geist", system-ui, sans-serif'
+        previewFontsRef.current[collection] = pick?.fontFamily || '"Instrument Sans UI", system-ui, sans-serif'
       }
     }
-    return previewFontsRef.current[collection] || '"Geist", system-ui, sans-serif'
+    return previewFontsRef.current[collection] || '"Instrument Sans UI", system-ui, sans-serif'
   }
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
@@ -1227,7 +1227,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Footer */}
         <footer style={{ marginTop: 80, padding: '0 24px 24px', display: 'flex', flexDirection: 'column', gap: 2 }}>
           <span style={{
-            fontFamily: '"Geist", sans-serif',
+            fontFamily: '"Instrument Sans UI", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',
@@ -1235,7 +1235,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             © 2026 TypeDump
           </span>
           <span style={{
-            fontFamily: '"Geist", sans-serif',
+            fontFamily: '"Instrument Sans UI", sans-serif',
             fontSize: 13,
             fontWeight: 400,
             color: 'var(--gray-cont-tert)',
@@ -1328,7 +1328,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                     className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
                   >
                     <span style={{
-                      fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
+                      // reset the body UI stylistic sets — this previews a catalogue font
+                      fontFeatureSettings: 'normal',
                       fontFamily: getStablePreviewFontForCollection(mode),
                       fontSize: "24px", fontWeight: 500, lineHeight: "24px",
                     }}>Ag</span>
@@ -1367,7 +1368,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                         className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
                       >
                         <span style={{
-                          fontFeatureSettings: "'ss03' on, 'cv06' on, 'cv11' on",
+                          // reset the body UI stylistic sets — this previews a catalogue font
+                          fontFeatureSettings: 'normal',
                           fontFamily: getStablePreviewFontForCollection(mode),
                           fontSize: "24px", fontWeight: 500, lineHeight: "24px",
                         }}>Ag</span>
