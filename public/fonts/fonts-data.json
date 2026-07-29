@@ -21176,7 +21176,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%•¡¿€£«»’—"
+      "specialChars": "&@#%•¡¿€£«»’—",
+      "description": "Paragon is a revival by Cédric Rossignol-Brunet under his Fond de riz label. It brings back the 1935 newspaper serif Chauncey H. Griffith cut for Linotype, whose thin strokes were designed to survive heavy inking at small sizes. Free under the Open Font License 1.1."
     },
     {
       "name": "P-ACR-AGON",
@@ -21216,7 +21217,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%•¡¿€£«»’"
+      "specialChars": "&@#%•¡¿€£«»’",
+      "description": "P-ACR-AGON is the ACR cut of Paragon by Cédric Rossignol-Brunet under his Fond de riz label. Inspired by Phil Baines' You Can Read Me, it pushes the letters toward the edge of machine readability while a person can still read them in short texts. Free under the Open Font License 1.1."
     },
     {
       "name": "MuseoModerno",
@@ -21436,7 +21438,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": ""
+      "specialChars": "",
+      "description": "DT Dumpling Display is a community display face from Death of Typography, the Singapore collective. It was drawn collaboratively in a workshop supported by Designing Cultures Studio, so its shapes carry many hands rather than one. Free under the Open Font License, on a pay-what-you-want basis."
     },
     {
       "name": "DT Getai Grotesk",
@@ -21482,7 +21485,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶†‡€£¥¢°±×÷≠“”‘’–—"
+      "specialChars": "&@#%§©®™¶†‡€£¥¢°±×÷≠“”‘’–—",
+      "description": "DT Getai Grotesk is a single-weight display grotesque by Sylvester Tan for Death of Typography in Singapore. Its curves are drawn from the calligraphic forms of Getai, the loud outdoor stage culture of Chinese street opera, and ink traps keep those curves crisp at large sizes. It covers Latin with figures, wide punctuation and symbols. Free under the Open Font License."
     },
     {
       "name": "DT Nightingale",
@@ -21529,7 +21533,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠“”‘’"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠“”‘’",
+      "description": "DT Nightingale is a display serif by Celia Yew for Death of Typography in Singapore. Tapered serifs, teardrop terminals and a gentle slant give it rhythm and a light, expressive voice. It covers Latin with figures, punctuation and symbols. Free under the Open Font License, pay what you want."
     },
     {
       "name": "DT World Tour",
@@ -21574,7 +21579,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°±×÷≠“”‘’…–—"
+      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°±×÷≠“”‘’…–—",
+      "description": "DT World Tour is a display face by Nur Jannah Suhaimi for Death of Typography in Singapore. Its stems flare out like bell-bottom jeans and its rounded counters taper to sharp points, which is where the semi-serif feel comes from. It ships with ff, ffi, ffl, fl and ft ligatures plus accented Latin, currency and math. Free under the Open Font License."
     },
     {
       "name": "Tuoi Tre",
@@ -21636,7 +21642,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&%‰•¡¿€¢«»“”‘’…–—"
+      "specialChars": "&%‰•¡¿€¢«»“”‘’…–—",
+      "description": "Tuoi Tre is a bold, tightly spaced lowercase display face by Carrois Type Design in Potsdam. It was reconstructed from the masthead of the Vietnamese newspaper Tuổi Trẻ and keeps that paper's striking diacritics. Carrois drew it in about two weeks for Fonts for Freedom, a Reporters Without Borders project on press freedom, and it covers German, English and Vietnamese. Free under the Open Font License."
     },
     {
       "name": "Inclusive Sans",
@@ -21850,7 +21857,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”",
+      "description": "Inclusive Sans is a text sans by Olivia King, drawn for legibility. It gives you a distinct I, l and 1, non-mirrored b, d, p and q, wide open counters, a tall x-height and a little extra default spacing, all aimed at readers who are hard of seeing or neurodiverse. It also carries glyphs for Aboriginal and Torres Strait Islander languages. Free under the Open Font License 1.1."
     },
     {
       "name": "League Gothic",
@@ -21944,7 +21952,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%©®™•¡¿€£¥¢“”‘’…–—"
+      "specialChars": "&@#%©®™•¡¿€£¥¢“”‘’…–—",
+      "description": "League Gothic is The League of Moveable Type's revival of Alternate Gothic No.1, the condensed sans Morris Fuller Benton drew for ATF in 1903 and which entered the public domain after the foundry closed. It was redrawn and extended to 324 glyphs across 122 languages, in Regular, Italic and Condensed. Free under the Open Font License."
     },
     {
       "name": "League Script No.1",
@@ -21989,7 +21998,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%•¡¿€£¢«»“”‘’"
+      "specialChars": "&@#%•¡¿€£¢«»“”‘’",
+      "description": "League Script No.1 is a script by Haley Fiege for The League of Moveable Type. It sits somewhere between a handwritten love note and 1920s penmanship, and was built to serve as the base for the League's future script designs. It includes ligatures. Free under the Open Font License."
     },
     {
       "name": "Paysage",
@@ -22143,7 +22153,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%©•¡¿€£°±×÷≠→←«»“”‘’…–—"
+      "specialChars": "&@#%©•¡¿€£°±×÷≠→←«»“”‘’…–—",
+      "description": "Paysage is a humanist sans by Anton Moglia for Tunera Type Foundry. It first appeared in 2017 as a single style called Garcia, then grew to four weights and was reissued under this name. The shapes are warm and a little dynamic: an oval O, a flat-tailed Q, a serifed figure 1 and a diagonal ampersand. It covers most European Latin languages. Free under the Open Font License."
     },
     {
       "name": "Perun",
@@ -22218,7 +22229,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "description": "Perun is a Cyrillic-first sans by Stefan Peev for Local Fonts. It is built on the modern Bulgarian letterform model and adds local shapes for Bulgarian, Serbian, Macedonian and Ukrainian. It descends from Free Universal and, further back, from SIL Sophia. Free under the Open Font License 1.1."
     },
     {
       "name": "Spectral",
@@ -22569,7 +22581,8 @@
           "ss05"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Spectral is a text serif by Production Type, designed by Jean-Baptiste Levée. Google commissioned it for the screen, first for Google Docs, and it stays even and readable in long text. It comes in seven weights with roman, italic and small caps, covering more than 130 languages including Vietnamese. Free under the Open Font License 1.1."
     },
     {
       "name": "Affigere",
@@ -22625,7 +22638,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰©®™†‡•¡¿€£¥¢°±×÷≠«»“”‘’"
+      "specialChars": "&@#%‰©®™†‡•¡¿€£¥¢°±×÷≠«»“”‘’",
+      "description": "Affigere is a wood-type revival by Romain Laurent, Daphné Lejeune and Alexandre d'Hubert, made at ESAD Valence and published by Fonderiz. It is built up from a single wood-type character found in the school's collection. Free to download."
     },
     {
       "name": "Absans",
@@ -22740,7 +22754,8 @@
           "ss04"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Absans is a grotesque by Valerio Monopoli for the Italian collective Collletttivo. It is drawn after early-twentieth-century models, kept plain and universal but left with a few quaint irregularities that give it character. It covers extended Latin with ligatures, arrows and geometric shapes. Free under the Open Font License."
     },
     {
       "name": "Bajaderka",
@@ -22785,7 +22800,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™†€¢°×÷«»“”‘’–—"
+      "specialChars": "&@#%§©®™†€¢°×÷«»“”‘’–—",
+      "description": "Bajaderka is a signage face by Beata Kurek for Warszawskie Kroje. It is drawn from the hand-painted tablets above small Warsaw shops and keeps the brush strokes and calligraphic details of the city's old sign painters. It was made during the 2016 Warsaw Types heritage project. Free under the Open Font License."
     },
     {
       "name": "Coconat",
@@ -22862,7 +22878,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "description": "Coconat is a display family by Sara Lavazza for the Italian collective Collletttivo. It runs from a fair-proportioned, flared regular to an extended bold, where the slanted stress turns extreme while the underlying letter drawing stays the same. Full Latin with fractions, ligatures and math. Free under the Open Font License."
     },
     {
       "name": "Instrument Serif",
@@ -23021,7 +23038,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–",
+      "description": "Instrument Serif is a condensed display serif by Rodrigo Fuenzalida with the agency Instrument. It gives old-style shapes a contemporary edge and is built for large sizes. It ships in regular and italic, 374 glyphs across 86 languages. Free under the Open Font License 1.1."
     },
     {
       "name": "Junicode",
@@ -23211,7 +23229,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "description": "Junicode is a serif by Peter S. Baker made for medievalists and linguists. It follows the Medieval Unicode Font Initiative and is packed with small caps, mark positioning and scholarly characters, so it can set old and specialized texts accurately. It comes in five weights and five widths, with Weight, Width and an Enlarge axis. Free under the Open Font License 1.1."
     },
     {
       "name": "Luperca",
@@ -23417,7 +23436,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%†‡•¡¿°×«»“”‘’…–—"
+      "specialChars": "&@#%†‡•¡¿°×«»“”‘’…–—",
+      "description": "Luperca is an all-caps titling face by Ariel Martín Pérez for Tunera Type Foundry in Paris. It follows the evolution of Roman square capitals, mixing chiseled epigraphic shapes with calligraphic detail, down to fang-shaped serifs on the C and E. Drawn first for the mythology issue of Cercle magazine, it comes in five optical sizes. Free under the Open Font License 1.1."
     },
     {
       "name": "Manosque",
@@ -23523,7 +23543,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°×÷≠→←↑↓«»“”"
+      "specialChars": "&@#%‰§©™¶•¡¿€£¥¢°×÷≠→←↑↓«»“”",
+      "description": "Manosque is a display face by Ariel Martín Pérez for Tunera Type Foundry in Paris. It grows out of late-nineteenth and early-twentieth-century French public signage, starting with the lettering in the Manosque train station. Pérez redrew the varied sources with a flat brush to bring them into one voice, and it supports all Latin-based European languages. Free under the Open Font License."
     },
     {
       "name": "Opening Hours Mono",
@@ -23684,7 +23705,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«",
+      "description": "Opening Hours Mono is a monospace by Opening Hours Studio. Its three axes run from a dot-matrix look to a smoother eighties style, so it works for both branding and detailed graphics like 3D ASCII. Free under the Open Font License 1.1."
     },
     {
       "name": "Opening Hours Sans",
@@ -23790,7 +23812,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "description": "Opening Hours Sans is Opening Hours Studio's own custom sans, drawn in Glyphs and released for anyone to use. Free under the Open Font License 1.1."
     },
     {
       "name": "Pretendard",
@@ -23940,7 +23963,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Pretendard is a system-UI alternative by Kil Hyung-jin. It is refined from Inter, Source Han Sans and M PLUS 1p so that it looks natural across platforms without extra tuning. It covers Latin, Korean Hangul and Japanese kana in nine weights plus a variable weight axis. Free under the Open Font License."
     },
     {
       "name": "Zarathustra",
@@ -23986,7 +24010,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "§¶†•¡¿«»“”‘’…–—★"
+      "specialChars": "§¶†•¡¿«»“”‘’…–—★",
+      "description": "Zarathustra is a revival of a 1908 typeface the Belgian painter Georges Lemmen drew for an Insel Verlag edition of Nietzsche's book. Lorène Picard digitized it at La Cambre in Brussels, starting in 2012 and releasing the first version in 2016, staying faithful to the original Art Nouveau metal type. Free and available on GitHub."
     },
     {
       "name": "Akt",
@@ -24140,7 +24165,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Akt is an interface-first grotesque by Dima Grenev. Every weight from Thin to Black keeps the same glyph widths, and the capitals sit centered in the line so they align with icons. More than 1,800 glyphs cover extended Latin and Cyrillic, Greek and basic IPA, with a weight axis across nine weights. Free under the Open Font License 1.1."
     },
     {
       "name": "Geomini",
@@ -24195,7 +24221,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—",
+      "description": "Geomini is a compact geometric sans made in FontBob by Carl's Type. It has a very high x-height and is drawn after Swedish road signage (Tratex), aimed at text, branding and interfaces. Free under the Open Font License 1.1."
     },
     {
       "name": "Geist Pixel",
@@ -24347,7 +24374,8 @@
           "ss05"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "description": "Geist Pixel is the pixel member of Vercel's Geist family, built on the same plain, Swiss-minimal logic as Geist Sans and Mono. A single variable font carries five pixel shapes on one axis: square, circle, grid, triangle and line. Free under the Open Font License."
     },
     {
       "name": "Pliant",
@@ -24681,7 +24709,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Finlandica Text is the official typeface of Finland, made by Helsinki Type Studio and commissioned by the Prime Minister's Office. It was given freely to everyone in the spirit of the country's right to roam. Open apertures and engineered ink traps keep it steady across sizes and media, and it covers a wide range of Latin and Cyrillic. Free under the Open Font License 1.1."
     },
     {
       "name": "Strichpunkt Sans",
@@ -24748,7 +24777,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Strichpunkt Sans is a modern grotesque by René Bieder for the agency Strichpunkt Design. It reworks early-grotesque shapes, setting rounded forms against sharp angular cuts on the R leg and the tails of the a and l. It comes in eighteen styles across three widths, Regular to Black, in both static and variable formats. Free under the Open Font License 1.1."
     },
     {
       "name": "Pirate Quest",
@@ -24793,7 +24823,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "@§©®™¶•¡¿€£¢×÷«»“”‘’…"
+      "specialChars": "@§©®™¶•¡¿€£¢×÷«»“”‘’…",
+      "description": "Pirate Quest is a display face made in FontBob, the browser-based type editor, by a community author. Free under the Open Font License."
     },
     {
       "name": "Doto",
