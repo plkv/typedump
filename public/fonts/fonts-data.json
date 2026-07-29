@@ -24503,7 +24503,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "description": "Pliant is a variable sans-serif from Non Foundry, the Monterrey studio of Jona Saucedo. It follows the Swiss tradition of neutral, even-colour text, with weight and width axes that run from compact to expanded plus a companion italic. Its character set is wide: Latin, Greek and Cyrillic across more than a thousand glyphs, with fractions, sub/superscripts and alternates, so it holds up in both long reading and interface work. Free under the SIL Open Font License."
     },
     {
       "name": "Finlandica Text",
