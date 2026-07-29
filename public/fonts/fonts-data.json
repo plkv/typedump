@@ -14298,7 +14298,7 @@
       "id": "family_kultur__1757807919360",
       "variants": [
         {
-          "filename": "Kulturë Type.otf",
+          "filename": "Kulture-Type.otf",
           "weight": 400,
           "styleName": "Regular",
           "isItalic": false,
@@ -14314,8 +14314,8 @@
           "checksum": "e2c55fd2bd8ad85abe06d3a522e5050568c4bd753d0efdcfa288528151a07244",
           "id": "variant_family_kultur__1757807919360_1757807919403",
           "familyId": "family_kultur__1757807919360",
-          "url": "/fonts/Kulturë Type.woff2",
-          "originalUrl": "/fonts/Kulturë Type.otf",
+          "url": "/fonts/Kulture-Type.woff2",
+          "originalUrl": "/fonts/Kulture-Type.otf",
           "format": "woff2"
         }
       ],
