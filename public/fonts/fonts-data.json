@@ -26815,6 +26815,156 @@
       ],
       "altPairs": [],
       "specialChars": []
+    },
+    {
+      "name": "Mutern",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Vølven",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/vivescene/MuternVF",
+      "id": "family_mutern_1753989400000",
+      "variants": [
+        {
+          "filename": "MuternVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical size",
+              "tag": "opsz",
+              "axis": "opsz",
+              "min": 14,
+              "max": 32,
+              "default": 14
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Alternate digits",
+            "Alternate l",
+            "Squared characters",
+            "Square punctuation",
+            "Square quotes",
+            "Tail a"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate digits"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate l"
+            },
+            {
+              "tag": "ss03",
+              "title": "Squared characters"
+            },
+            {
+              "tag": "ss07",
+              "title": "Square punctuation"
+            },
+            {
+              "tag": "ss08",
+              "title": "Square quotes"
+            },
+            {
+              "tag": "ss09",
+              "title": "Tail a"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-31T00:00:00.000Z",
+          "id": "variant_family_mutern_1753989400000_1753989400001",
+          "familyId": "family_mutern_1753989400000",
+          "url": "/fonts/MuternVF.woff2",
+          "originalUrl": "/fonts/MuternVF.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-07-31T00:00:00.000Z",
+      "updatedAt": "2026-07-31T00:00:00.000Z",
+      "description": "Mutern is a variable grotesque by Vølven, built on Rasmus Andersson’s Inter. It carries weight, width, and optical size axes, so one file spans hairline to black, condensed to expanded, and shifts from a tighter text cut to a more open headline cut. Squared alternates for punctuation, quotes, and select letters give it a cooler, more technical voice when you want one.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/vivescene/MuternVF/blob/main/OFL.txt"
+      },
+      "publishedAt": "2026-01-01",
+      "useCases": [
+        "Interface"
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss09"
+        ],
+        [
+          "l",
+          "ss02"
+        ],
+        [
+          "1",
+          "ss01"
+        ],
+        [
+          "4",
+          "ss01"
+        ],
+        [
+          "6",
+          "ss01"
+        ],
+        [
+          "9",
+          "ss01"
+        ]
+      ],
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"
