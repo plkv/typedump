@@ -20,6 +20,7 @@
   <array>
     <string>/opt/homebrew/bin/node</string>
     <string>/Users/plkv/Work Life Balance/TypeDump/baseline-fonts/scripts/discover/index.mjs</string>
+    <string>--ytd</string>
     <string>--push</string>
   </array>
 

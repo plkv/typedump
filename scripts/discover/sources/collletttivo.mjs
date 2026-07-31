@@ -6,8 +6,8 @@ export default {
   id: 'collletttivo',
   label: 'Collletttivo',
   priority: 20,
-  async run({ months }) {
-    const floor = monthsAgoISO(months)
+  async run({ months, floor }) {
+    floor = floor || monthsAgoISO(months || 3)
     let xml
     try {
       xml = await fetchText('https://www.collletttivo.it/sitemap.xml')

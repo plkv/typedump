@@ -14,7 +14,7 @@ type DiscoveredFont = {
   category: string | null
   license: string | null
 }
-type Payload = { generatedAt: string; months: number; count: number; fonts: DiscoveredFont[] }
+type Payload = { generatedAt: string; months: number; since?: string; count: number; fonts: DiscoveredFont[] }
 
 const PASSWORD = 'showme'
 const AUTH_KEY = 'td_new_auth'
@@ -131,7 +131,7 @@ function Gallery() {
             New fonts
           </h1>
           <p style={{ fontSize: 14, color: 'var(--gray-cont-tert)', marginTop: 6 }}>
-            {data.count} not in the catalog · last {data.months} months · updated{' '}
+            {data.count} not in the catalog · since {data.since ?? `${data.months}mo ago`} · updated{' '}
             {new Date(data.generatedAt).toLocaleDateString()}
           </p>
         </header>

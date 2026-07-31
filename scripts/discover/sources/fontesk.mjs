@@ -34,8 +34,8 @@ export default {
   id: 'fontesk',
   label: 'Fontesk',
   priority: 30,
-  async run({ months }) {
-    const floor = monthsAgoISO(months)
+  async run({ months, floor }) {
+    floor = floor || monthsAgoISO(months || 3)
     let index
     try {
       index = await fetchText('https://fontesk.com/sitemap.xml')

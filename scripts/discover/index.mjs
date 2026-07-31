@@ -10,7 +10,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { execFileSync } from 'node:child_process'
-import { normName, withinMonths, ogImage, fetchText, mapLimit } from './lib.mjs'
+import { normName, monthsAgoISO, ogImage, fetchText, mapLimit } from './lib.mjs'
 
 import googleFonts from './sources/google-fonts.mjs'
 import github from './sources/github.mjs'
@@ -27,7 +27,17 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..', '..')
 const args = process.argv.slice(2)
 const months = Number((args.find(a => a.startsWith('--months=')) || '').split('=')[1]) || 3
+const sinceArg = (args.find(a => a.startsWith('--since=')) || '').split('=')[1]
+const ytd = args.includes('--ytd')
 const doPush = args.includes('--push')
+
+// The recency floor (YYYY-MM-DD). --since wins, then --ytd (Jan 1 this year),
+// else a rolling N-month window.
+const floor = sinceArg
+  ? sinceArg
+  : ytd
+    ? `${new Date().getFullYear()}-01-01`
+    : monthsAgoISO(months)
 
 function log(...a) {
   console.log(`[discover]`, ...a)
@@ -41,13 +51,13 @@ function loadCatalogNames() {
 
 async function main() {
   const have = loadCatalogNames()
-  log(`catalog: ${have.size} families`)
+  log(`catalog: ${have.size} families | floor: ${floor}`)
 
   // 1. Run every source; a failing source contributes nothing, never throws.
   const results = await Promise.all(
     SOURCES.map(async s => {
       try {
-        const items = await s.run({ months })
+        const items = await s.run({ months, floor })
         log(`${s.id}: ${items.length} raw`)
         return items.map(it => ({ ...it, _priority: s._priority ?? s.priority ?? 50, _sourceLabel: s.label }))
       } catch (e) {
@@ -64,9 +74,9 @@ async function main() {
     it => it.name && !have.has(normName(it.name)) && !/personal use/i.test(it.license || '')
   )
 
-  // 3. Recency: keep dated entries inside the window; keep dateless ones
+  // 3. Recency: keep dated entries at or after the floor; keep dateless ones
   //    (e.g. Fontshare "new") as a secondary group.
-  const inWindow = fresh.filter(it => (it.date ? withinMonths(it.date, months) : true))
+  const inWindow = fresh.filter(it => (it.date ? it.date >= floor : true))
 
   // 4. Dedupe by normalized name across sources. Prefer the entry that is
   //    dated, then higher-priority (smaller number = upstream foundry).
@@ -118,6 +128,7 @@ async function main() {
   const out = {
     generatedAt: new Date().toISOString(),
     months,
+    since: floor,
     count: fonts.length,
     fonts: fonts.map(f => ({
       name: f.name,
