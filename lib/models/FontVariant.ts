@@ -47,6 +47,7 @@ export interface FontVariant {
 export interface VariableAxis {
   name: string  // Human readable name
   axis: string  // 4-char tag (e.g. "wght", "slnt")
+  tag?: string  // Same 4-char code under the name most of the app uses
   min: number
   max: number
   default: number

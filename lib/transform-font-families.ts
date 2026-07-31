@@ -35,7 +35,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
     if (isVariable) {
       const weightAxes = variants
         .flatMap(v => v.variableAxes || [])
-        .filter(a => a.axis === 'wght')
+        .filter(a => ((a as any).tag ?? a.axis) === 'wght')
       if (weightAxes.length > 0) {
         const min = Math.min(...weightAxes.map(a => a.min))
         const max = Math.max(...weightAxes.map(a => a.max))
@@ -49,7 +49,10 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
         isItalic: false,
       }))
       const hasItalicAxis = variants.some(v =>
-        (v.variableAxes || []).some(a => a.axis === 'ital' || a.axis === 'slnt')
+        (v.variableAxes || []).some(a => {
+          const t = (a as any).tag ?? a.axis
+          return t === 'ital' || t === 'slnt'
+        })
       )
       if (variants.some(v => v.isItalic) || hasItalicAxis) {
         availableStyles = [

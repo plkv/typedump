@@ -13,6 +13,25 @@ const raw = require('../public/fonts/fonts-data.json') as {
   lastUpdated: string
 }
 
+// Axis objects reach us with the 4-char code under either `tag` (most fonts)
+// or `axis` (some older records). Guarantee both fields plus numeric bounds so
+// every consumer — the style-list builder, the slider UI, the CSS layer — reads
+// the same shape regardless of which key the source file happened to use.
+function normalizeAxis(a: Record<string, unknown>) {
+  const code = String(a.tag ?? a.axis ?? '')
+  const min = Number(a.min ?? 0)
+  const max = Number(a.max ?? 0)
+  return {
+    ...a,
+    tag: code,
+    axis: code,
+    name: String(a.name ?? code),
+    min,
+    max,
+    default: Number(a.default ?? (a as any).defaultValue ?? min),
+  }
+}
+
 function normalizeVariant(v: Record<string, unknown>): FontVariant {
   const filename = String(v.filename ?? '')
   const url = String(v.url ?? `/fonts/${filename}`)
@@ -27,7 +46,7 @@ function normalizeVariant(v: Record<string, unknown>): FontVariant {
     fileSize: Number(v.fileSize ?? 0),
     format: String(v.format ?? 'ttf'),
     isVariable: Boolean(v.isVariable ?? false),
-    variableAxes: Array.isArray(v.variableAxes) ? (v.variableAxes as any[]) : [],
+    variableAxes: Array.isArray(v.variableAxes) ? (v.variableAxes as any[]).map(normalizeAxis) : [],
     openTypeFeatures: Array.isArray(v.openTypeFeatures) ? (v.openTypeFeatures as string[]) : [],
     openTypeFeatureTags: Array.isArray(v.openTypeFeatureTags) ? (v.openTypeFeatureTags as any[]) : [],
     fontMetrics: (v.fontMetrics as any) ?? undefined,
