@@ -26704,6 +26704,117 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”"
+    },
+    {
+      "name": "Besley",
+      "collection": "Text",
+      "styleTags": [
+        "Slab"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Owen Earl",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/indestructible-type/Besley",
+      "id": "family_besley_1785508111819",
+      "createdAt": "2026-07-31T14:28:31.819Z",
+      "updatedAt": "2026-07-31T14:28:31.819Z",
+      "publishedAt": "2026-07-31T14:28:31.819Z",
+      "description": "Besley is a Clarendon-style slab serif by Owen Earl, released through his Indestructible Type foundry. It is named after Robert Besley, who cut the original Clarendon in 1845, and builds that model out into a full family with weights from Regular to Black, matching italics, and a variable width axis. The bracketed slab serifs and even color let it hold up in running text as well as in headlines.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/indestructible-type/Besley/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Editorial / Ecommerce"
+      ],
+      "variants": [
+        {
+          "filename": "Besley-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 75,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "glyphCount": 767,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-07-31T14:28:31.819Z",
+          "id": "variant_family_besley_1785508111819_roman",
+          "familyId": "family_besley_1785508111819",
+          "url": "/fonts/Besley-Variable.woff2",
+          "originalUrl": "/fonts/Besley-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Besley-Italic-Variable.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 75,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "glyphCount": 767,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-07-31T14:28:31.819Z",
+          "id": "variant_family_besley_1785508111819_italic",
+          "familyId": "family_besley_1785508111819",
+          "url": "/fonts/Besley-Italic-Variable.woff2",
+          "originalUrl": "/fonts/Besley-Italic-Variable.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": [],
+      "specialChars": []
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"
