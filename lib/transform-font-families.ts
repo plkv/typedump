@@ -1,6 +1,7 @@
 import type { FontFamily } from '@/lib/models/FontFamily'
 import { canonicalFamilyName } from '@/lib/font-naming'
 import { shortHash } from '@/lib/hash'
+import { cleanAuthor } from '@/lib/author'
 import type { FontData } from '@/components/font-catalog/FontCard'
 
 function styleNameFromWeight(weight: number, isItalic: boolean): string {
@@ -151,7 +152,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
       category,
       styles: availableStyles.length || variants.length,
       type: isVariable ? 'Variable' : 'Static',
-      author: family.foundry || 'Unknown',
+      author: cleanAuthor(family.foundry || 'Unknown'),
       fontFamily: `"${alias}", system-ui, sans-serif`,
       availableWeights,
       hasItalic,

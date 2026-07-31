@@ -13,7 +13,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza",
+      "foundry": "Vercel, Basement Studio",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://vercel.com/font",
@@ -411,7 +411,7 @@
       "category": [
         "Mono"
       ],
-      "foundry": "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza",
+      "foundry": "Vercel, Basement Studio",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://vercel.com/font",
@@ -9170,7 +9170,7 @@
       "category": [
         "Serif"
       ],
-      "foundry": "www.keussel.studio",
+      "foundry": "Keussel",
       "isVariable": false,
       "published": true,
       "id": "family_basteleur_1757807921953",
@@ -15323,7 +15323,7 @@
       "category": [
         "Sans"
       ],
-      "foundry": "https://www.github.com/ivodolenc",
+      "foundry": "Ivo Dolenc",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/ivodolenc/aspekta",
@@ -21135,7 +21135,7 @@
       "languages": [
         "Latin"
       ],
-      "foundry": "Unknown",
+      "foundry": "Cédric Rossignol-Brunet",
       "isVariable": false,
       "published": true,
       "id": "family_paragon_1778960001000",
@@ -21192,7 +21192,7 @@
       "languages": [
         "Latin"
       ],
-      "foundry": "Unknown",
+      "foundry": "Cédric Rossignol-Brunet",
       "isVariable": false,
       "published": true,
       "id": "family_pacragon_1778960002000",

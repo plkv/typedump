@@ -7,6 +7,7 @@ import { Navbar } from '@/components/font-catalog/Navbar'
 import { IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from '@/components/icons'
 import { Slider } from '@/components/ui/slider'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
+import { cleanAuthor } from '@/lib/author'
 
 
 function weightLabel(w: number) {
@@ -171,6 +172,9 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           textAlign: 'center',
           wordBreak: 'break-word',
           margin: 0,
+          // Reset the interface font's stylistic sets so they never bleed into
+          // the specimen — the hero must render the font's own default glyphs.
+          fontFeatureSettings: 'normal',
         }}>
           {family.name}
         </h1>
@@ -180,7 +184,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           fontWeight: 500,
           color: 'var(--gray-cont-tert)',
         }}>
-          by {family.foundry}
+          by {cleanAuthor(family.foundry)}
         </div>
         <div style={{ display: 'flex', gap: 6, marginTop: '4px', flexWrap: 'wrap' }}>
           <button
@@ -331,7 +335,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
             {family.foundry && family.foundry !== 'Unknown' && (
               <InfoRow label="Author" value={
                 <span>
-                  {family.foundry.split(', ').map((part, i, arr) => (
+                  {family.foundry.split(', ').map(cleanAuthor).map((part, i, arr) => (
                     <span key={part}>
                       <a href={`/?author=${encodeURIComponent(part)}`} style={{ color: 'var(--gray-cont-prim)' }}>{part}</a>
                       {i < arr.length - 1 && ', '}
