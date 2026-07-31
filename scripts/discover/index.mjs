@@ -58,8 +58,11 @@ async function main() {
   )
   const raw = results.flat()
 
-  // 2. Drop what we already have, and anything without a usable name.
-  const fresh = raw.filter(it => it.name && !have.has(normName(it.name)))
+  // 2. Drop what we already have, anything without a usable name, and any
+  //    personal-use-only font — we only surface commercially-usable licenses.
+  const fresh = raw.filter(
+    it => it.name && !have.has(normName(it.name)) && !/personal use/i.test(it.license || '')
+  )
 
   // 3. Recency: keep dated entries inside the window; keep dateless ones
   //    (e.g. Fontshare "new") as a secondary group.

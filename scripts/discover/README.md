@@ -34,7 +34,7 @@ Add or remove a source by editing the `SOURCES` array in `index.mjs`.
 | Source | Method | Dated? | Notes |
 |---|---|---|---|
 | Google Fonts | `metadata/fonts` JSON, `dateAdded` | ✅ real | catch-all; renders live preview on the page |
-| Fontesk | highest-numbered `post-sitemap*.xml` | ⚠️ regen date | big, mixed-license firehose — capped at 40/source |
+| Fontesk | highest-numbered `post-sitemap*.xml` | ⚠️ regen date | commercial-only: each candidate page is checked, `free-for-personal-use` dropped, `free-for-commercial-use`/`ofl-gpl` kept; capped at 40/source |
 | GitHub | search API, `created_at` | ✅ real | only genuinely-new OFL repos (old repos recently pushed are skipped) |
 | Collletttivo | `sitemap.xml` `<lastmod>` | ✅ real | small, pristine OFL; quiet since early 2026 |
 | Fontshare | v2 API, `is_new` flag | ❌ none | no reliable date; contributes only when the foundry flags "new" |
