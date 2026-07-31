@@ -29,6 +29,32 @@ export async function fetchJSON(url, opts = {}) {
   return JSON.parse(txt.replace(/^\)\]\}'[^\n]*\n?/, ''))
 }
 
+// Like fetchJSON, but surfaces the HTTP status and headers too. GitHub's REST
+// API needs this: a 403 with x-ratelimit-remaining: 0 means "backed off", not
+// "broken", and we want to stop the source cleanly rather than treat it as an
+// empty result.
+export async function fetchJSONMeta(url, { headers = {}, timeout = 25000 } = {}) {
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), timeout)
+  try {
+    const res = await fetch(url, {
+      headers: { ...BROWSER_HEADERS, Accept: 'application/json', ...headers },
+      signal: ctrl.signal,
+      redirect: 'follow',
+    })
+    const status = res.status
+    const rateRemaining = Number(res.headers.get('x-ratelimit-remaining') ?? '')
+    let body = null
+    if (res.ok) {
+      const txt = await res.text()
+      body = JSON.parse(txt.replace(/^\)\]\}'[^\n]*\n?/, ''))
+    }
+    return { ok: res.ok, status, rateRemaining, body }
+  } finally {
+    clearTimeout(t)
+  }
+}
+
 // Normalized family key for matching against our catalog and cross-source dedupe.
 export function normName(name) {
   return String(name || '')

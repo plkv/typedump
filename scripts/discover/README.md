@@ -9,7 +9,9 @@ anything already in our catalog, keeps the last N months, and writes
 
 ```bash
 node scripts/discover/index.mjs            # 3-month window, writes JSON only
-node scripts/discover/index.mjs --months=6 # wider window
+node scripts/discover/index.mjs --months=6 # wider rolling window
+node scripts/discover/index.mjs --ytd      # since Jan 1 this year
+node scripts/discover/index.mjs --since=2026-01-01
 node scripts/discover/index.mjs --push     # also git commit + push the JSON
 ```
 
@@ -35,7 +37,7 @@ Add or remove a source by editing the `SOURCES` array in `index.mjs`.
 |---|---|---|---|
 | Google Fonts | `metadata/fonts` JSON, `dateAdded` | ✅ real | catch-all; renders live preview on the page |
 | Fontesk | highest-numbered `post-sitemap*.xml` | ⚠️ regen date | commercial-only: each candidate page is checked, `free-for-personal-use` dropped, `free-for-commercial-use`/`ofl-gpl` kept; capped at 40/source |
-| GitHub | search API, `created_at` | ✅ real | only genuinely-new OFL repos (old repos recently pushed are skipped) |
+| GitHub | search API, two passes | ✅ real | Pass A: repos **created** in window (new projects). Pass B: established repos (stars ≥ 40) whose **latest release** landed in window — date = `published_at`. Denylist strips tools/collections/forks; optional `GITHUB_TOKEN` lifts rate limits |
 | Collletttivo | `sitemap.xml` `<lastmod>` | ✅ real | small, pristine OFL; quiet since early 2026 |
 | Fontshare | v2 API, `is_new` flag | ❌ none | no reliable date; contributes only when the foundry flags "new" |
 | Uncut.wtf | `fonts.json`, `date` YYMMDD | ⚠️ frozen | dormant since Aug 2024 + intermittent JS firewall; best-effort |
