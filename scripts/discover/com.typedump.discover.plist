@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily font-discovery crawler for TypeDump.
+
+  Install:
+    1. Edit the two absolute paths below (node binary + repo) if they differ.
+    2. cp scripts/discover/com.typedump.discover.plist ~/Library/LaunchAgents/
+    3. launchctl load ~/Library/LaunchAgents/com.typedump.discover.plist
+  Run once now to test:
+    launchctl start com.typedump.discover
+  Logs: /tmp/typedump-discover.log
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.typedump.discover</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/node</string>
+    <string>/Users/plkv/Work Life Balance/TypeDump/baseline-fonts/scripts/discover/index.mjs</string>
+    <string>--push</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/plkv/Work Life Balance/TypeDump/baseline-fonts</string>
+
+  <!-- Every day at 08:00 local time. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>8</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/typedump-discover.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/typedump-discover.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>
