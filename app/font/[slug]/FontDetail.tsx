@@ -74,6 +74,22 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   type AxisDef = { name: string; tag: string; min: number; max: number; default: number }
   type RowSpec = { key: string; label: string; cssFamily: string; weight: number; isItalic: boolean; styleAlternates: StyleAlt[]; axesDef: AxisDef[] }
 
+  const ALT_TAG = /^(ss\d\d|cv\d\d)$/
+  const altTagTitle = (tag: string): string => {
+    const m = /^(ss|cv)(\d\d)$/.exec(tag)
+    if (!m) return tag
+    const n = parseInt(m[2], 10)
+    return `${m[1] === 'ss' ? 'Stylistic Set' : 'Character Variant'} ${n}`
+  }
+  // Some fonts carry their alternates only in family-level altPairs ([glyph, tag])
+  // and never got titled openTypeFeatureTags from the parser. Derive the tag list
+  // from altPairs so those specimens still expose their stylistic sets.
+  const altPairTags: StyleAlt[] = [...new Set(
+    (family.altPairs ?? [])
+      .map(p => (Array.isArray(p) ? p[1] : (p as { tag?: string })?.tag) ?? '')
+      .filter(t => ALT_TAG.test(t))
+  )].sort().map(tag => ({ tag, title: altTagTitle(tag) }))
+
   const variantRows: RowSpec[] = (() => {
     const regularVar = sorted.find(v => v.isVariable && !v.isItalic) ?? sorted.find(v => v.isVariable)
     const italicVar = sorted.find(v => v.isVariable && v.isItalic)
@@ -86,8 +102,10 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         return { name: a.name, tag, min: a.min, max: a.max, default: isWght && nominalWeight != null ? nominalWeight : a.default }
       })
 
-    const toStyleAlts = (v: typeof sorted[0]): StyleAlt[] =>
-      (v.openTypeFeatureTags ?? []).filter(f => /^(ss\d\d|cv\d\d)$/.test(f.tag))
+    const toStyleAlts = (v: typeof sorted[0]): StyleAlt[] => {
+      const tagged = (v.openTypeFeatureTags ?? []).filter(f => ALT_TAG.test(f.tag))
+      return tagged.length ? tagged : altPairTags
+    }
 
     if (isVariable && regularVar && wAxis) {
       const weights = [100, 200, 300, 400, 500, 600, 700, 800, 900].filter(w => w >= wAxis.min && w <= wAxis.max)
@@ -139,11 +157,14 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
     })
   }
 
-  const allAlternateTags = [...new Set(
+  const taggedAlternates = [...new Set(
     family.variants.flatMap(v =>
-      (v.openTypeFeatureTags ?? []).filter(f => /^(ss\d\d|cv\d\d)$/.test(f.tag)).map(f => f.tag)
+      (v.openTypeFeatureTags ?? []).filter(f => ALT_TAG.test(f.tag)).map(f => f.tag)
     )
   )]
+  // Fall back to altPairs-derived tags only when no titled tags exist, so the 73
+  // already-working families keep their exact badge counts untouched.
+  const allAlternateTags = taggedAlternates.length ? taggedAlternates : altPairTags.map(a => a.tag)
   const typeInfo = [
     isVariable && 'Variable',
     allAlternateTags.length > 0 && `${allAlternateTags.length} Alternates`,
