@@ -147,8 +147,8 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
     ? defaultVariant.filename.replace(/\.(otf|ttf|woff)$/, '.woff2')
     : null
   const npmSnippet = npmFile
-    ? `npm i typedump-npm\nimport font from 'typedump-npm/fonts/${npmFile}'`
-    : `npm i typedump-npm`
+    ? `npm i typedump\nimport font from 'typedump/fonts/${npmFile}'`
+    : `npm i typedump`
   const [npmCopied, setNpmCopied] = useState(false)
   const handleNpmCopy = () => {
     navigator.clipboard.writeText(npmSnippet).then(() => {
