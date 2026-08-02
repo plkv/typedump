@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:00:30.049Z",
+  "generatedAt": "2026-08-02T06:00:29.403Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -65,18 +65,6 @@
       "license": "OFL"
     },
     {
-      "name": "LxgwNeoZhiSong",
-      "author": "lxgw",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/lxgw/LxgwNeoZhiSong/releases/tag/v1.066",
-      "date": "2026-07-14",
-      "image": "https://opengraph.githubassets.com/2f010169d1f158e3e040189347b9ce3186e46ae7773dbce9d8dbb94d9b741ff8/lxgw/LxgwNeoZhiSong/releases/tag/v1.066",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
       "name": "Hibur Mono",
       "author": "",
       "source": "fonts.google.com",
@@ -95,7 +83,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/dithernaut/quanta-strike",
       "date": "2026-07-06",
-      "image": "https://opengraph.githubassets.com/fd962a55d4e40386e4934eeff7337729a0a3c71c8c6f3629205fab4aa3c2496f/dithernaut/quanta-strike",
+      "image": "https://opengraph.githubassets.com/462e271c6245c90d8452fc8a85a5c9bf91624cdd7229aa8ba2a205a638dea9ff/dithernaut/quanta-strike",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -155,7 +143,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/the3ash/cough-mono",
       "date": "2026-06-22",
-      "image": "https://opengraph.githubassets.com/f9e1956140456ccbe217cdb6b2c9c2739779ff316825e35aee51224028be7977/the3ash/cough-mono",
+      "image": "https://opengraph.githubassets.com/502d9322574cec79960d91f6e8e3d2df3119f72ea06154c61c7667fd38bb1880/the3ash/cough-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -167,7 +155,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/hicchicc/NegaPico",
       "date": "2026-06-18",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273113391/0117aeff-0d82-4470-98cc-07dfb9d3a58b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060025Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=510980747d766f39c9c9cfd173c6f3bd710fc866b0d4a9379ecb65adb52ff639&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNSwibmJmIjoxNzg1NTY0MDI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.xU99ZHgs-zueaaMhlT8nmGTGWpYAJ1aIqyM8k78A2D8",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273113391/0117aeff-0d82-4470-98cc-07dfb9d3a58b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060024Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=037e251a374ee5ae8a56737f64f5f0052136480d3608446fc1423591d788cea8&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNCwibmJmIjoxNzg1NjUwNDI0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.G2C8JfMtqj5MH6NTTKiru1SgVdjDRI_F3-Zq4n8GqgM",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -191,7 +179,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/hicchicc/x5y8pxNegaClip",
       "date": "2026-06-12",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267323433/b0c9660f-356e-4cb7-a10e-20d4f822bc7a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060025Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bea193048f3c01ef792a0a9f35cb61b2ea9dddae1951648c114d3e10cc880105&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNSwibmJmIjoxNzg1NTY0MDI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.xU99ZHgs-zueaaMhlT8nmGTGWpYAJ1aIqyM8k78A2D8",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267323433/b0c9660f-356e-4cb7-a10e-20d4f822bc7a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060024Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=619899829debcb473ef0720afb1bb61c52fb88eac8803ba822c592d9c6bb1ff9&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNCwibmJmIjoxNzg1NjUwNDI0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.G2C8JfMtqj5MH6NTTKiru1SgVdjDRI_F3-Zq4n8GqgM",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -203,7 +191,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/RandomMaerks/Accent-Mono",
       "date": "2026-06-06",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1261172491/790d639f-9c4c-4cb0-8905-88fb2bbd2c90?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060025Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=238566c714bd4f955e681f35c9c75ead90c55543ca6ff3f8131b9017d71ddd30&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNSwibmJmIjoxNzg1NTY0MDI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.xU99ZHgs-zueaaMhlT8nmGTGWpYAJ1aIqyM8k78A2D8",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1261172491/790d639f-9c4c-4cb0-8905-88fb2bbd2c90?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060024Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=c32780803f32456a8b6ef993967d6d0613597bbbf9689f9e863ef7445d2121c2&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNCwibmJmIjoxNzg1NjUwNDI0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.G2C8JfMtqj5MH6NTTKiru1SgVdjDRI_F3-Zq4n8GqgM",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -299,7 +287,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/nanxstats/anthrosevka",
       "date": "2026-06-02",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1256780336/9df8df2c-af81-4ff6-8133-127f3e2d5521?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060025Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=dba08ca606c8137fc8e22317745f11c933710fc89f67d5fe42c6ad43da9222cf&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNSwibmJmIjoxNzg1NTY0MDI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.xU99ZHgs-zueaaMhlT8nmGTGWpYAJ1aIqyM8k78A2D8",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1256780336/9df8df2c-af81-4ff6-8133-127f3e2d5521?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060025Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ca8e46e2cfe7a2af2b1c91ea5bc16302f25994f2c68d0a54e4fdcbcd563570e6&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNSwibmJmIjoxNzg1NjUwNDI1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Jr78HgaD5m7u6SQFUFP3GK5p4ZEYNM8k9CzUsQ4TXPc",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -371,7 +359,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/avanturation/interlude",
       "date": "2026-05-21",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1245451617/31b0a925-04ee-4919-9a63-0e926a71104b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f511df243f02308098b8d2317eaf3360c7dd5313d4128ea888b2c283d7ddac60&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNiwibmJmIjoxNzg1NTY0MDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.lNS7qfU59BkGR8MgfYR-2tAFVLah-RlTLERt2wds2z4",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1245451617/31b0a925-04ee-4919-9a63-0e926a71104b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f97757c08721075e42f98838dda89706c62cf46bd86993bb1c08e234c1bdc5d6&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNiwibmJmIjoxNzg1NjUwNDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Y15MUSxIbN957O_bizDRa4LxgBs0XYCpz3OGOY4hX6Y",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -383,7 +371,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/hicchicc/x5y8pxNegaTape",
       "date": "2026-05-18",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1242151281/ef06694b-b3ad-48e6-ae95-24080c2237d8?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=9dd26c497c83dfd2e348d8024ce9207791eddc7cea0ae3e63b05784d6e9b5fce&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNiwibmJmIjoxNzg1NTY0MDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.lNS7qfU59BkGR8MgfYR-2tAFVLah-RlTLERt2wds2z4",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1242151281/ef06694b-b3ad-48e6-ae95-24080c2237d8?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=075c78ff341665a8e611ed72eb59ef48a2d479be99450cd938365ebd38717fed&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNiwibmJmIjoxNzg1NjUwNDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Y15MUSxIbN957O_bizDRa4LxgBs0XYCpz3OGOY4hX6Y",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -647,7 +635,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/namesakefyi/atkinson-hyperlegible-soft",
       "date": "2026-04-16",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1212543757/ed8c764b-0c44-46d9-b965-ba81939fa146?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060027Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=120f958890caa4ecbcce3027a399b658432655796ca9f2c9e7ef768060bd5643&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNywibmJmIjoxNzg1NTY0MDI3LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Wp4dEc2uLJF9h8svn11KMkuhwx3EPgxhc8jytFmd2DE",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1212543757/ed8c764b-0c44-46d9-b965-ba81939fa146?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3890be3179688739d93803cc7a480d4efb6b16b1baf1b656bc78c6f38001cbd8&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNiwibmJmIjoxNzg1NjUwNDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Y15MUSxIbN957O_bizDRa4LxgBs0XYCpz3OGOY4hX6Y",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -719,7 +707,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/BeterCh/GenWa-Kocha",
       "date": "2026-03-22",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1188976209/09b13b1a-ed81-4f7b-8983-5d390f1a4f9a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060027Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=4432e655fea428deac4cd8ce16d994f26ddf6f2f45b8cc9252f1e78e3a74b7e3&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyNywibmJmIjoxNzg1NTY0MDI3LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Wp4dEc2uLJF9h8svn11KMkuhwx3EPgxhc8jytFmd2DE",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1188976209/09b13b1a-ed81-4f7b-8983-5d390f1a4f9a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060026Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f550dbc22f9a77b194474b957fb30e5123aed2c8d0cac3e111a5b1956d6f810d&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyNiwibmJmIjoxNzg1NjUwNDI2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Y15MUSxIbN957O_bizDRa4LxgBs0XYCpz3OGOY4hX6Y",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -756,18 +744,6 @@
       "url": "https://github.com/lxgw/LxgwWenkaiGB/releases/tag/v1.522",
       "date": "2026-03-17",
       "image": "https://opengraph.githubassets.com/3ec8cf94e8b3ffaaa5da2c679624c37b5a7ebb7c5fbbdea3976bd6faaeeec961/lxgw/LxgwWenkaiGB/releases/tag/v1.522",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "LxgwZhenKai",
-      "author": "lxgw",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/lxgw/LxgwZhenKai/releases/tag/v0.825",
-      "date": "2026-03-17",
-      "image": "https://opengraph.githubassets.com/dde0416b62ce2a881b03d9b4f55a80b184bdbb3dfff239e5937e0b84cd2f2b8e/lxgw/LxgwZhenKai/releases/tag/v0.825",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -935,7 +911,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/RandomMaerks/Trmnl-Cubic",
       "date": "2026-03-07",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1175250161/8207f7e9-ec57-41bd-a551-078cf3ee9d58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060028Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6eb1e7399c323ae8840934e20a40747a4a790b460759745f78bae7c9052f2969&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyOCwibmJmIjoxNzg1NTY0MDI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.DeAYQv_2lKkEOWfy7Ywm85Fesz3q-UUrw0t3IjuwpDM",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1175250161/8207f7e9-ec57-41bd-a551-078cf3ee9d58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060028Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=2ba79f454f2956b7308ddfd9d2f84d187059eea6a5197a78992c8c626dd86c38&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyOCwibmJmIjoxNzg1NjUwNDI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.moCt7aH9hynnZPxhIE7GbU8vgn6eilPCSQrdOdcSGNg",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -959,7 +935,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/shortnamesalex/Alexsevka",
       "date": "2026-03-02",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1170438095/bc88e970-5de5-44fc-94b6-756c95a0a83a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060029Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=91f732cd8654bfcb14a0ffbde4add20ab6630b663ea7ac57eb523288c4dc930b&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyOSwibmJmIjoxNzg1NTY0MDI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6W2eS7CbYILZl6ILYFwDRTmLGR7lh3CQJ606FmakhP4",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1170438095/bc88e970-5de5-44fc-94b6-756c95a0a83a?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060028Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=8ddaf6f496d8aecfce0c2ef69fa7bf25ea91df69059603eb268c7496409d795a&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyOCwibmJmIjoxNzg1NjUwNDI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.moCt7aH9hynnZPxhIE7GbU8vgn6eilPCSQrdOdcSGNg",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1115,7 +1091,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/hicchicc/x8y12pxDenkiChip",
       "date": "2026-02-02",
-      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1147956055/0c145c12-fe3b-4bee-ae6d-000ed7136c5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T060029Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=21d811aa86320c42d0414f7c80118645dca115e9582501f7274b1db3c9bb72d3&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU2NDMyOSwibmJmIjoxNzg1NTY0MDI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.6W2eS7CbYILZl6ILYFwDRTmLGR7lh3CQJ606FmakhP4",
+      "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1147956055/0c145c12-fe3b-4bee-ae6d-000ed7136c5f?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T060029Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=535a7746ae5c708f93f1dae608c057ec9278e073f5f167f5f40348c85feb833e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY1MDcyOSwibmJmIjoxNzg1NjUwNDI5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.3gL9DVbUd3nCdvRtmaFBHOs-wiWcR3SnrpqME5eoKKo",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1193,6 +1169,18 @@
       "license": null
     },
     {
+      "name": "XiuZhenXiangSuTi",
+      "author": "yzdnn",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/yzdnn/XiuZhenXiangSuTi",
+      "date": "2026-01-25",
+      "image": "https://opengraph.githubassets.com/05d8a372fa2074fb0a50454a71c582ae88489ae6c86f7dfd070dbd98654e5705/yzdnn/XiuZhenXiangSuTi",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
       "name": "LINE Seed JP",
       "author": "",
       "source": "fonts.google.com",
@@ -1203,6 +1191,18 @@
       "googleFamily": "LINE Seed JP",
       "category": "Sans Serif",
       "license": null
+    },
+    {
+      "name": "LINE Seed TW Reader",
+      "author": "Eujenz",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/Eujenz/LINE-Seed-TW-Reader",
+      "date": "2026-01-15",
+      "image": "https://opengraph.githubassets.com/0962f3a20daa38f53ae6cb6c9d8ee8dd653565b9258b96794b7be03f11286a6c/Eujenz/LINE-Seed-TW-Reader",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
     }
   ]
 }
