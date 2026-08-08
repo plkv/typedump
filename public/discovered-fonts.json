@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T06:00:28.562Z",
+  "generatedAt": "2026-08-08T06:00:26.488Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -239,7 +239,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/taevel02/yeomil-mono",
       "date": "2026-06-05",
-      "image": "https://opengraph.githubassets.com/e20aa64af2136195b191ca4637b6af43179cba2dd79fc6a261b6da800e0479b8/taevel02/yeomil-mono",
+      "image": "https://opengraph.githubassets.com/85afbe1dc2dd59805b7a7e06fab251c698487b3f2c652732100db4dc954b7bdd/taevel02/yeomil-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -323,7 +323,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/MohamadDarvishi/Ario",
       "date": "2026-06-02",
-      "image": "https://opengraph.githubassets.com/3e60402771ed8019b418db16ba6f2258db7073d776d12e5f0d580b4d2c20431b/MohamadDarvishi/Ario",
+      "image": "https://opengraph.githubassets.com/b56f62baa108a4856e46b310998f64225ef9e7caa29ce0a73003f3eea234be5d/MohamadDarvishi/Ario",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -359,7 +359,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/vinitkumar/berka-mono-closer",
       "date": "2026-05-29",
-      "image": "https://opengraph.githubassets.com/b103fe23b95dc9fd53d9f326784f7ab3c838a54ade784ab7e32c1a46826f74e6/vinitkumar/berka-mono-closer",
+      "image": "https://opengraph.githubassets.com/128b4628548e45ebbc3abebf880e86ba9bc5e83165e12d12ef140603163fef30/vinitkumar/berka-mono-closer",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -660,18 +660,6 @@
       "url": "https://github.com/namesakefyi/atkinson-hyperlegible-soft",
       "date": "2026-04-16",
       "image": "https://repository-images.githubusercontent.com/1212543757/ed8c764b-0c44-46d9-b965-ba81939fa146",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "Coreui Icons",
-      "author": "coreui",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/coreui/coreui-icons/releases/tag/v3.1.0",
-      "date": "2026-04-16",
-      "image": "https://opengraph.githubassets.com/291c77d8acf361b946722095654892322cc44d00bf6e7c9b0e1e1796bed6f178/coreui/coreui-icons/releases/tag/v3.1.0",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1001,6 +989,18 @@
       "license": null
     },
     {
+      "name": "Fontaine",
+      "author": "unjs",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/unjs/fontaine/releases/tag/fontless%400.2.1",
+      "date": "2026-02-13",
+      "image": "https://opengraph.githubassets.com/f42bfdddbeee1c77924b2e937874cff58b7abf60d7bed7de6406a47b8afc34a8/unjs/fontaine/releases/tag/fontless%400.2.1",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
       "name": "Betania Patmos",
       "author": "",
       "source": "fonts.google.com",
@@ -1103,7 +1103,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/sgmonda/sergamon",
       "date": "2026-02-09",
-      "image": "https://opengraph.githubassets.com/bcb579654c15f5535801bc615f8543b1c4d268e3b0c2192e947be2ce4ff75b5a/sgmonda/sergamon",
+      "image": "https://opengraph.githubassets.com/9064d62a485c3f172f9b6201e5a565a77eff860384cd4c8f16e560b12862464f/sgmonda/sergamon",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
