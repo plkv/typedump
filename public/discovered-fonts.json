@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T06:00:26.488Z",
+  "generatedAt": "2026-08-09T06:00:31.609Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -359,7 +359,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/vinitkumar/berka-mono-closer",
       "date": "2026-05-29",
-      "image": "https://opengraph.githubassets.com/128b4628548e45ebbc3abebf880e86ba9bc5e83165e12d12ef140603163fef30/vinitkumar/berka-mono-closer",
+      "image": "https://opengraph.githubassets.com/64832257451a707ba349bb2def69af96b6d6a6721f8b3914ae2624da16feac81/vinitkumar/berka-mono-closer",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
