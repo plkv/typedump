@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-08-09T06:00:31.609Z",
+  "generatedAt": "2026-08-10T06:00:46.188Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
   "fonts": [
+    {
+      "name": "PlemolJP",
+      "author": "yuru7",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/yuru7/PlemolJP/releases/tag/v3.1.0",
+      "date": "2026-08-10",
+      "image": "https://opengraph.githubassets.com/89e5eb9370a0dcddc7740659408df0f588393b957af3d983f06322358eb0e4b3/yuru7/PlemolJP/releases/tag/v3.1.0",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
     {
       "name": "Free",
       "author": "jaywcjlove",
@@ -119,7 +131,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/dithernaut/quanta-strike",
       "date": "2026-07-06",
-      "image": "https://opengraph.githubassets.com/663ffab642ff5b67eb203b42a0444ad5a76b3559635e339fa2c759d638ac5468/dithernaut/quanta-strike",
+      "image": "https://opengraph.githubassets.com/bcce25f6a0517818c45b2de159f44ff4da1b2478fd6401e08de5a8d289f1c0e6/dithernaut/quanta-strike",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -239,7 +251,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/taevel02/yeomil-mono",
       "date": "2026-06-05",
-      "image": "https://opengraph.githubassets.com/85afbe1dc2dd59805b7a7e06fab251c698487b3f2c652732100db4dc954b7bdd/taevel02/yeomil-mono",
+      "image": "https://opengraph.githubassets.com/40ac796c3d35abaad85766f6d4b08bb55301e18cfc2e0c2c5b0b09e6bbff5b3a/taevel02/yeomil-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -323,7 +335,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/MohamadDarvishi/Ario",
       "date": "2026-06-02",
-      "image": "https://opengraph.githubassets.com/b56f62baa108a4856e46b310998f64225ef9e7caa29ce0a73003f3eea234be5d/MohamadDarvishi/Ario",
+      "image": "https://opengraph.githubassets.com/fc376804e930860c147a888839c430695e617293c4a005e4ebc944f40088dab8/MohamadDarvishi/Ario",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1116,18 +1128,6 @@
       "url": "https://github.com/sammularczyk/television-sans",
       "date": "2026-02-07",
       "image": "https://opengraph.githubassets.com/dc8e8737f667d732673c29c07e68cbc7bab54cbe0d92531d989780df27a4d08a/sammularczyk/television-sans",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "X8y12pxDenkiChip",
-      "author": "hicchicc",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/hicchicc/x8y12pxDenkiChip",
-      "date": "2026-02-02",
-      "image": "https://repository-images.githubusercontent.com/1147956055/0c145c12-fe3b-4bee-ae6d-000ed7136c5f",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
