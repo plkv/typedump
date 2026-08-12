@@ -1,9 +1,33 @@
 {
-  "generatedAt": "2026-08-11T06:00:33.092Z",
+  "generatedAt": "2026-08-12T06:01:10.348Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
   "fonts": [
+    {
+      "name": "Ark Pixel",
+      "author": "TakWolf",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/TakWolf/ark-pixel-font/releases/tag/2026.08.11",
+      "date": "2026-08-11",
+      "image": "https://opengraph.githubassets.com/a3046cfb348a4cab70837386559ffbac2d71a78724a93ce98def139eb8852a77/TakWolf/ark-pixel-font/releases/tag/2026.08.11",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
+      "name": "Fusion Pixel",
+      "author": "TakWolf",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.08.11",
+      "date": "2026-08-11",
+      "image": "https://opengraph.githubassets.com/d689f1e13da4ac8c20be89c900d12a57c34a9939c1af333e60120179eaed86b0/TakWolf/fusion-pixel-font/releases/tag/2026.08.11",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
     {
       "name": "PlemolJP",
       "author": "yuru7",
@@ -65,30 +89,6 @@
       "license": "OFL"
     },
     {
-      "name": "Ark Pixel",
-      "author": "TakWolf",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/TakWolf/ark-pixel-font/releases/tag/2026.07.20",
-      "date": "2026-07-20",
-      "image": "https://opengraph.githubassets.com/55bcba3fd94befc3163e55def1bbddff6331868a22fbed1773363dc9b972b276/TakWolf/ark-pixel-font/releases/tag/2026.07.20",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "Fusion Pixel",
-      "author": "TakWolf",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.07.20",
-      "date": "2026-07-20",
-      "image": "https://opengraph.githubassets.com/3c88e6c8cd979b5cc27d76a7ca47af9fd6519bcd4bcf1f698496b6f84011ff5b/TakWolf/fusion-pixel-font/releases/tag/2026.07.20",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
       "name": "LxgwNeoXiHei",
       "author": "lxgw",
       "source": "github.com",
@@ -96,18 +96,6 @@
       "url": "https://github.com/lxgw/LxgwNeoXiHei/releases/tag/v1.304",
       "date": "2026-07-14",
       "image": "https://opengraph.githubassets.com/986a3744324a87aea8cff6fcb6e76df37bff1b03732db402b9249bd6ca2668e3/lxgw/LxgwNeoXiHei/releases/tag/v1.304",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "LxgwNeoZhiSong",
-      "author": "lxgw",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/lxgw/LxgwNeoZhiSong/releases/tag/v1.066",
-      "date": "2026-07-14",
-      "image": "https://opengraph.githubassets.com/2f010169d1f158e3e040189347b9ce3186e46ae7773dbce9d8dbb94d9b741ff8/lxgw/LxgwNeoZhiSong/releases/tag/v1.066",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -185,13 +173,25 @@
       "license": null
     },
     {
+      "name": "EqHiSans",
+      "author": "howlingFounts",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/howlingFounts/EqHiSans",
+      "date": "2026-06-29",
+      "image": "https://opengraph.githubassets.com/fb978d44a8fbd14f5944945751f133891f8ac0ed205585811fc22eeb2887500b/howlingFounts/EqHiSans",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
       "name": "Cough Mono",
       "author": "the3ash",
       "source": "github.com",
       "sourceLabel": "GitHub",
       "url": "https://github.com/the3ash/cough-mono",
       "date": "2026-06-22",
-      "image": "https://opengraph.githubassets.com/502d9322574cec79960d91f6e8e3d2df3119f72ea06154c61c7667fd38bb1880/the3ash/cough-mono",
+      "image": "https://opengraph.githubassets.com/68ef6f9fe25d8ab4fdc61ad10f5f202565b987c46b8adcdfb0cf3acb5b386152/the3ash/cough-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -617,6 +617,18 @@
       "license": "Free for commercial"
     },
     {
+      "name": "Riottosa",
+      "author": "marcogoranromano",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/marcogoranromano/riottosa",
+      "date": "2026-05-08",
+      "image": "https://repository-images.githubusercontent.com/1233035072/5403400f-2c73-46b3-8284-95529180f8d7",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
       "name": "Romano Revival",
       "author": "",
       "source": "fontesk.com",
@@ -779,7 +791,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/5788a8e381236684586fd964ab5ecb40179a691a0779cc26156a9c9578644595/mblode/glide",
+      "image": "https://opengraph.githubassets.com/7783c46760f693cfa011041d2e457c84bcb769fd5fe11c850b4ca5153fcb2fa2/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1119,18 +1131,6 @@
       "googleFamily": "Ramsina",
       "category": "Serif",
       "license": null
-    },
-    {
-      "name": "Mona",
-      "author": "MonadABXY",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/MonadABXY/mona-font",
-      "date": "2026-02-09",
-      "image": "https://opengraph.githubassets.com/8580da73be20ac2e0a195e70043da5a3c9d9aa9829c722b0c8bb254ee1674086/MonadABXY/mona-font",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
     },
     {
       "name": "Bpmf Huninn",
