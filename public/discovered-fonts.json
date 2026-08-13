@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T06:01:10.348Z",
+  "generatedAt": "2026-08-13T06:00:33.226Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -24,18 +24,6 @@
       "url": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.08.11",
       "date": "2026-08-11",
       "image": "https://opengraph.githubassets.com/d689f1e13da4ac8c20be89c900d12a57c34a9939c1af333e60120179eaed86b0/TakWolf/fusion-pixel-font/releases/tag/2026.08.11",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "PlemolJP",
-      "author": "yuru7",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/yuru7/PlemolJP/releases/tag/v3.1.0",
-      "date": "2026-08-10",
-      "image": "https://opengraph.githubassets.com/89e5eb9370a0dcddc7740659408df0f588393b957af3d983f06322358eb0e4b3/yuru7/PlemolJP/releases/tag/v3.1.0",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -131,7 +119,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/dithernaut/quanta-strike",
       "date": "2026-07-06",
-      "image": "https://opengraph.githubassets.com/6e3fe5bbf988f20f6754e98a85e4ec3178871c96b5a3e065f28eb79b38f6cfa9/dithernaut/quanta-strike",
+      "image": "https://opengraph.githubassets.com/67fddf2a19fa829a1ef3fc45d6f25996fd522f9f9f9cb970350c83df4d3cbce6/dithernaut/quanta-strike",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -179,7 +167,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/howlingFounts/EqHiSans",
       "date": "2026-06-29",
-      "image": "https://opengraph.githubassets.com/fb978d44a8fbd14f5944945751f133891f8ac0ed205585811fc22eeb2887500b/howlingFounts/EqHiSans",
+      "image": "https://opengraph.githubassets.com/963ca22a7ee1cb21f7db6e612268a5219cc8ec1df36d5d28dc61e421a39053e2/howlingFounts/EqHiSans",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -791,7 +779,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/7783c46760f693cfa011041d2e457c84bcb769fd5fe11c850b4ca5153fcb2fa2/mblode/glide",
+      "image": "https://opengraph.githubassets.com/2a55249fd49e979ddbc9742eace05de2150988985876ef7a625295a85fc89c37/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1131,6 +1119,18 @@
       "googleFamily": "Ramsina",
       "category": "Serif",
       "license": null
+    },
+    {
+      "name": "Mona",
+      "author": "MonadABXY",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/MonadABXY/mona-font",
+      "date": "2026-02-09",
+      "image": "https://opengraph.githubassets.com/8580da73be20ac2e0a195e70043da5a3c9d9aa9829c722b0c8bb254ee1674086/MonadABXY/mona-font",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
     },
     {
       "name": "Bpmf Huninn",
