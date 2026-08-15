@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T06:00:31.527Z",
+  "generatedAt": "2026-08-15T06:00:40.842Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -803,7 +803,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/66994db14f8cd8e5fd382802ad3ade6bbab60772cb4d0123b4b84d294b737a9d/mblode/glide",
+      "image": "https://opengraph.githubassets.com/20865840b451ea9b4d42f0b83b201786fe546533702d079959e62910e247dea4/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
