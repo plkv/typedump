@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:00:40.842Z",
+  "generatedAt": "2026-08-16T06:01:02.642Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -84,18 +84,6 @@
       "url": "https://github.com/lxgw/LxgwNeoXiHei/releases/tag/v1.304",
       "date": "2026-07-14",
       "image": "https://opengraph.githubassets.com/986a3744324a87aea8cff6fcb6e76df37bff1b03732db402b9249bd6ca2668e3/lxgw/LxgwNeoXiHei/releases/tag/v1.304",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "Flutter Gen",
-      "author": "FlutterGen",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/FlutterGen/flutter_gen/releases/tag/v5.15.0",
-      "date": "2026-07-13",
-      "image": "https://opengraph.githubassets.com/3396bcb4318865343bf5ea58c18221c93902a7e87ee1e14149aa21e9a5cb14e8/FlutterGen/flutter_gen/releases/tag/v5.15.0",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -347,7 +335,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/MohamadDarvishi/Ario",
       "date": "2026-06-02",
-      "image": "https://opengraph.githubassets.com/fc376804e930860c147a888839c430695e617293c4a005e4ebc944f40088dab8/MohamadDarvishi/Ario",
+      "image": "https://opengraph.githubassets.com/9cf9058f34c54ef49d683d624c12361490417f5b7b4be5ac9d4bd95e46d36644/MohamadDarvishi/Ario",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -701,18 +689,6 @@
       "license": "OFL"
     },
     {
-      "name": "Coreui Icons",
-      "author": "coreui",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/coreui/coreui-icons/releases/tag/v3.1.0",
-      "date": "2026-04-16",
-      "image": "https://opengraph.githubassets.com/291c77d8acf361b946722095654892322cc44d00bf6e7c9b0e1e1796bed6f178/coreui/coreui-icons/releases/tag/v3.1.0",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
       "name": "Paper Mono Ligaturized",
       "author": "nanxstats",
       "source": "github.com",
@@ -803,7 +779,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/20865840b451ea9b4d42f0b83b201786fe546533702d079959e62910e247dea4/mblode/glide",
+      "image": "https://opengraph.githubassets.com/4cdbfbd9bed8eb868926c1bacac60ebafff08612cb4d3c1f23a3769df3b32ee8/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -816,6 +792,18 @@
       "url": "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.522",
       "date": "2026-03-17",
       "image": "https://opengraph.githubassets.com/867c479ddef21bddbf376dc78b561a7a8a18cc3f5a582978d1fa016015e01d95/lxgw/LxgwWenKai/releases/tag/v1.522",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
+      "name": "LxgwWenkaiGB",
+      "author": "lxgw",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/lxgw/LxgwWenkaiGB/releases/tag/v1.522",
+      "date": "2026-03-17",
+      "image": "https://opengraph.githubassets.com/3ec8cf94e8b3ffaaa5da2c679624c37b5a7ebb7c5fbbdea3976bd6faaeeec961/lxgw/LxgwWenkaiGB/releases/tag/v1.522",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -1131,6 +1119,18 @@
       "googleFamily": "Ramsina",
       "category": "Serif",
       "license": null
+    },
+    {
+      "name": "Mona",
+      "author": "MonadABXY",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/MonadABXY/mona-font",
+      "date": "2026-02-09",
+      "image": "https://opengraph.githubassets.com/8580da73be20ac2e0a195e70043da5a3c9d9aa9829c722b0c8bb254ee1674086/MonadABXY/mona-font",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
     },
     {
       "name": "Bpmf Huninn",
