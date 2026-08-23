@@ -1,9 +1,33 @@
 {
-  "generatedAt": "2026-08-22T06:00:30.183Z",
+  "generatedAt": "2026-08-23T06:01:17.629Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
   "fonts": [
+    {
+      "name": "Iosevka",
+      "author": "be5invis",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/be5invis/Iosevka/releases/tag/v34.8.1",
+      "date": "2026-08-22",
+      "image": "https://opengraph.githubassets.com/741250a634e83fba7fa48f9731cbd2f6f4ddca0505c6afa6a1b933a3bda53f1a/be5invis/Iosevka/releases/tag/v34.8.1",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
+      "name": "Sarasa Gothic",
+      "author": "be5invis",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/be5invis/Sarasa-Gothic/releases/tag/v1.0.41",
+      "date": "2026-08-22",
+      "image": "https://opengraph.githubassets.com/d653a893a07ab47040c48e50a3113dc02581b79886de09aee3e623fdf9364441/be5invis/Sarasa-Gothic/releases/tag/v1.0.41",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
     {
       "name": "Fontaine",
       "author": "unjs",
@@ -125,18 +149,6 @@
       "license": "OFL"
     },
     {
-      "name": "Iosevka",
-      "author": "be5invis",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/be5invis/Iosevka/releases/tag/v34.8.0",
-      "date": "2026-07-26",
-      "image": "https://opengraph.githubassets.com/b7c25ba382c8fb716383d8e5fddc5d6fa0e74c92c2cf827a4f5eb674f645cc84/be5invis/Iosevka/releases/tag/v34.8.0",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
       "name": "Zutat",
       "author": "Sy-D",
       "source": "github.com",
@@ -239,7 +251,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/howlingFounts/EqHiSans",
       "date": "2026-06-29",
-      "image": "https://opengraph.githubassets.com/dc2be350d6db223defc5c5be4425a376cafe30830d07623d67ab73dcf61f6a5d/howlingFounts/EqHiSans",
+      "image": "https://opengraph.githubassets.com/7b9612893a30e776283a9edcedcd1f548cf3f6aeddfaf3d1f5feb44cea9a8c81/howlingFounts/EqHiSans",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -323,7 +335,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/taevel02/yeomil-mono",
       "date": "2026-06-05",
-      "image": "https://opengraph.githubassets.com/6fbb3b8b62297928d1fb312ea1b4892a964e6dd10ae333c78b97a6aab93acf03/taevel02/yeomil-mono",
+      "image": "https://opengraph.githubassets.com/b75dae73fe6f17867fb8991ff94b5da48d0e0ad9ad9b5718a42f1611f691c702/taevel02/yeomil-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -419,7 +431,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/vivescene/MuternVF",
       "date": "2026-05-31",
-      "image": "https://opengraph.githubassets.com/778f9bd7ac53f79c015306bbac1ee0d7bf7e282c9dc03758f959b1ef0dd33727/vivescene/MuternVF",
+      "image": "https://opengraph.githubassets.com/29bbe979fb861d56d9df99ea65ed12427b981a2ca29b00f752345f0071f07ead/vivescene/MuternVF",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -743,7 +755,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/PaulBunch/astropan-mono",
       "date": "2026-04-24",
-      "image": "https://opengraph.githubassets.com/1814507c6143941d0df70fd6bd394ae09c271e2a4a02a7f3abc0f2d5634c8cf2/PaulBunch/astropan-mono",
+      "image": "https://opengraph.githubassets.com/1acbca1814fa2b9d5085463e0c72fae714cb924e6fc9c10b631ba6ae8f0949a5/PaulBunch/astropan-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -851,19 +863,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/c739b8871a4f963852b611b822da54e0a87abdbf7c2cc6bf0a99acf8eae766c8/mblode/glide",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "LxgwWenKai",
-      "author": "lxgw",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.522",
-      "date": "2026-03-17",
-      "image": "https://opengraph.githubassets.com/867c479ddef21bddbf376dc78b561a7a8a18cc3f5a582978d1fa016015e01d95/lxgw/LxgwWenKai/releases/tag/v1.522",
+      "image": "https://opengraph.githubassets.com/2dbb41b12898e6c10724542e8dc61352e3d6f608fcda18e66a44dfd17fd1aa3c/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
