@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-08-23T06:01:17.629Z",
+  "generatedAt": "2026-08-24T06:00:29.392Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
   "fonts": [
+    {
+      "name": "Fontaine",
+      "author": "unjs",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/unjs/fontaine/releases/tag/release-2026-08-23",
+      "date": "2026-08-23",
+      "image": "https://opengraph.githubassets.com/e409dd07f239717352e05b9527913f688be54d32c95e0de3fae322acb895a749/unjs/fontaine/releases/tag/release-2026-08-23",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
     {
       "name": "Iosevka",
       "author": "be5invis",
@@ -24,18 +36,6 @@
       "url": "https://github.com/be5invis/Sarasa-Gothic/releases/tag/v1.0.41",
       "date": "2026-08-22",
       "image": "https://opengraph.githubassets.com/d653a893a07ab47040c48e50a3113dc02581b79886de09aee3e623fdf9364441/be5invis/Sarasa-Gothic/releases/tag/v1.0.41",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
-      "name": "Fontaine",
-      "author": "unjs",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/unjs/fontaine/releases/tag/release-2026-08-21",
-      "date": "2026-08-21",
-      "image": "https://opengraph.githubassets.com/bdfb338b6026dfe0882c8e7d9cec15ef735022fef01cfb0bfc7346ce0f52a77d/unjs/fontaine/releases/tag/release-2026-08-21",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -863,7 +863,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/2dbb41b12898e6c10724542e8dc61352e3d6f608fcda18e66a44dfd17fd1aa3c/mblode/glide",
+      "image": "https://opengraph.githubassets.com/9553ae8b5a0a232316f300c19910d964f92ea00f48fd1322720f974959011c0c/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
