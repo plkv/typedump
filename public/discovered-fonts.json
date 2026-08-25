@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:00:29.392Z",
+  "generatedAt": "2026-08-25T06:00:45.887Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 100,
@@ -161,18 +161,6 @@
       "license": "OFL"
     },
     {
-      "name": "Flutter Gen",
-      "author": "FlutterGen",
-      "source": "github.com",
-      "sourceLabel": "GitHub",
-      "url": "https://github.com/FlutterGen/flutter_gen/releases/tag/v5.15.0",
-      "date": "2026-07-13",
-      "image": "https://opengraph.githubassets.com/3396bcb4318865343bf5ea58c18221c93902a7e87ee1e14149aa21e9a5cb14e8/FlutterGen/flutter_gen/releases/tag/v5.15.0",
-      "googleFamily": null,
-      "category": null,
-      "license": "OFL"
-    },
-    {
       "name": "Hibur Mono",
       "author": "",
       "source": "fonts.google.com",
@@ -251,7 +239,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/howlingFounts/EqHiSans",
       "date": "2026-06-29",
-      "image": "https://opengraph.githubassets.com/7b9612893a30e776283a9edcedcd1f548cf3f6aeddfaf3d1f5feb44cea9a8c81/howlingFounts/EqHiSans",
+      "image": "https://opengraph.githubassets.com/d934d2452c0b4a22b6174884070cc7a39ff1ff4d2967a4f237940bc81fc23bbb/howlingFounts/EqHiSans",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -443,7 +431,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/yzdnn/QiuYeYuanTi-16",
       "date": "2026-05-29",
-      "image": "https://opengraph.githubassets.com/20a720e07cceccaea289ba18c735b4e344dea967a03ebb28f0ae8fc6ecfda20c/yzdnn/QiuYeYuanTi-16",
+      "image": "https://opengraph.githubassets.com/61187e2836a36e892c8034bf728fcd6e9512b615390a588ead8563ed34f3e1e1/yzdnn/QiuYeYuanTi-16",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -455,7 +443,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/vinitkumar/berka-mono-closer",
       "date": "2026-05-29",
-      "image": "https://opengraph.githubassets.com/c6db587b9f45f1a322c4a1e67a45acb40910d735e3112b13ba7358f295c6d063/vinitkumar/berka-mono-closer",
+      "image": "https://opengraph.githubassets.com/24cf17804e561cfab6c37650b515b9c67ca770d3956e895438c222b24b2c3add/vinitkumar/berka-mono-closer",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -863,7 +851,19 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/9553ae8b5a0a232316f300c19910d964f92ea00f48fd1322720f974959011c0c/mblode/glide",
+      "image": "https://opengraph.githubassets.com/03d5f86a9a44874b4bff5bd394a72405215536b50a441c1031f41311479b1cb2/mblode/glide",
+      "googleFamily": null,
+      "category": null,
+      "license": "OFL"
+    },
+    {
+      "name": "LxgwWenKai",
+      "author": "lxgw",
+      "source": "github.com",
+      "sourceLabel": "GitHub",
+      "url": "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.522",
+      "date": "2026-03-17",
+      "image": "https://opengraph.githubassets.com/867c479ddef21bddbf376dc78b561a7a8a18cc3f5a582978d1fa016015e01d95/lxgw/LxgwWenKai/releases/tag/v1.522",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -875,7 +875,7 @@
       "sourceLabel": "Collletttivo",
       "url": "https://www.collletttivo.it/typefaces/borges",
       "date": "2026-03-11",
-      "image": "https://www.collletttivo.it/_og/d/c_Typeface,svgPath_~PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTAwIDkwMCI-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDYwMEw2MDAgNjAwTDYwMCA1MDBMNDAwIDUwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMNDAwIDcwMFpNNDAwIC0yMDBMODAwIC0yMDBMODAwIC0xMDBMNzAwIC0xMDBMNzAwIDEwMEw0MDAgMTAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDQwMCAtMTAwWk00MDAgMjAwTDcwMCAyMDBMNzAwIDMwMEw0MDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgMzAwTDEwMCAzMDBMMTAwIDQwMEw4MDAgNDAwTDgwMCAzMDBMOTAwIDMwMEw5MDAgNTAwTDAgNTAwWk0wIDIwMEwwIDBMOTAwIDBMOTAwIDIwMEw4MDAgMjAwTDgwMCAxMDBMMTAwIDEwMEwxMDAgMjAwWk0yMDAgMjAwTDcwMCAyMDBMNzAwIDMwMEwyMDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjAwLDcwMCkgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0xMDAgNjAwTDYwMCA2MDBMNjAwIDMwMEw0MDAgMzAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDUwMCAtMTAwTDUwMCAtMjAwTDgwMCAtMjAwTDgwMCAtMTAwTDcwMCAtMTAwTDcwMCAxMDBMNTAwIDEwMEw1MDAgMjAwTDcwMCAyMDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMMTAwIDcwMFpNMTAwIC0yMDBMNDAwIC0yMDBMNDAwIC0xMDBMMzAwIC0xMDBMMzAwIDQwMEw1MDAgNDAwTDUwMCA1MDBMMjAwIDUwMEwyMDAgLTEwMEwxMDAgLTEwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMCAwTDEwMCAwTDEwMCA1MDBMMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTIwMCAzMDBMMjAwIDBMOTAwIDBMOTAwIDMwMEw0MDAgMzAwTDQwMCAyMDBMODAwIDIwMEw4MDAgMTAwTDMwMCAxMDBMMzAwIDMwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzIwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDcwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDUwMEw1MDAgNTAwTDUwMCA2MDBMODAwIDYwMEw4MDAgNzAwWk00MDAgLTIwMEw4MDAgLTIwMEw4MDAgLTEwMEw1MDAgLTEwMEw1MDAgMEw3MDAgMEw3MDAgMTAwTDQwMCAxMDBaTTQwMCAyMDBMNzAwIDIwMEw3MDAgMzAwTDQwMCAzMDBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgNTAwTDAgMjAwTDgwMCAyMDBMODAwIDBMOTAwIDBMOTAwIDMwMEwxMDAgMzAwTDEwMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTAgMEw3MDAgMEw3MDAgMTAwTDAgMTAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48L3N2Zz4,p_Ii90eXBlZmFjZXMvYm9yZ2VzIg,s_Md4BXJDXiTuiq-D7.png",
+      "image": null,
       "googleFamily": null,
       "category": null,
       "license": null
@@ -923,7 +923,7 @@
       "sourceLabel": "Collletttivo",
       "url": "https://www.collletttivo.it/typefaces/apfel-grotezk",
       "date": "2026-03-09",
-      "image": "https://www.collletttivo.it/_og/d/c_Typeface,svgPath_~PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1ODM2IDEyODMiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTQgMEwxMDAgMEwxNjYgMTc2TDQ0MSAxNzZMNTA4IDBMNjA0IDBMMzQ4IDY1MEwyNjAgNjUwWk0xOTYgMjU2TDMwMiA1NDBMNDEwIDI1NloiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjA4LDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0zMjQgLTEyQzQ2MCAtMTIgNTU4IDk4IDU1OCAyNTJDNTU4IDQwNCA0NjEgNTEyIDMyNiA1MTJDMjQ5IDUxMiAxODMgNDc3IDE0MiA0MTlMMTMyIDUwMEw2NCA1MDBMNjQgLTIwMEwxNDQgLTIwMEwxNDQgNzlDMTg1IDIyIDI0OSAtMTIgMzI0IC0xMlpNMzA4IDY4QzIxMSA2OCAxNDIgMTQ0IDE0MiAyNTBDMTQyIDM1NyAyMTEgNDM0IDMwOCA0MzRDNDA1IDQzNCA0NzQgMzU3IDQ3NCAyNTBDNDc0IDE0NCA0MDUgNjggMzA4IDY4WiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTk4LDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik05MiA1NDhMOTIgNDc5TDE2IDQ3OUwxNiA0MDFMOTIgNDAxTDkyIDBMMTcyIDBMMTcyIDQwMUwyOTIgNDAxTDI5MiA0NzlMMTcyIDQ3OUwxNzIgNTQ4QzE3MiA2MTEgMjQwIDYyNCAyODggNTkyTDMxMiA2NzBDMjI0IDcyMiA5MiA2NzggOTIgNTQ4WiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDgyLDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0yODAgLTEyQzM4OCAtMTIgNDc4IDQ4IDUwMiAxMzZMNDE2IDE2NEM0MDQgMTA4IDM1MCA2OCAyODIgNjhDMTk3IDY4IDEzNSAxMjkgMTIxIDIxN0w1MDcgMjE3QzUxOSAzODUgNDI1IDUxMiAyNzIgNTEyQzEzMiA1MTIgMzIgNDAzIDMyIDI1MEMzMiA5NyAxMzUgLTEyIDI4MCAtMTJaTTEyMiAyOTVDMTM2IDM3NyAxOTUgNDM0IDI3NCA0MzRDMzUwIDQzNCA0MTAgMzc5IDQyMiAyOTVaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMjIsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTY0IDBMMTQ0IDBMMTQ0IDY4MEw2NCA2ODBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIyMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0NTAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTM0MCAtMTJDNDYyIC0xMiA1NTUgNTkgNTc4IDE2M0w1OTYgMEw2NTIgMEw2MzIgMzU1TDI2NiAzNTVMMjY2IDI3N0w1NTggMjc3TDU1OCAyNjhDNTU0IDE1NSA0NjUgNzIgMzQ4IDcyQzIxNyA3MiAxMjQgMTc5IDEyNCAzMjdDMTI0IDQ3MyAyMTcgNTgwIDM0NCA1ODBDNDQ1IDU4MCA1MjUgNTEyIDUzNiA0MTZMNjMyIDQ0OEM2MDkgNTcyIDQ4OSA2NjIgMzQ2IDY2MkMxNjYgNjYyIDM2IDUxOSAzNiAzMjVDMzYgMTMwIDE2NCAtMTIgMzQwIC0xMloiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzE0Niw5NjcpIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNNjQgMEwxNDQgMEwxNDQgMzA0QzE0NCA0MTcgMjQ0IDQ1MCAzMjQgNDEwTDMyOCA1MDRDMjQyIDUyOCAxNjUgNDkzIDE0MCA0MjBMMTMyIDUwMEw2NCA1MDBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM0NzgsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MiAtMTJDNDI4IC0xMiA1MzIgOTcgNTMyIDI1MEM1MzIgNDAzIDQyOCA1MTIgMjgyIDUxMkMxMzYgNTEyIDMyIDQwMyAzMiAyNTBDMzIgOTcgMTM2IC0xMiAyODIgLTEyWk0yODIgNjhDMTg1IDY4IDExNiAxNDQgMTE2IDI1MEMxMTYgMzU3IDE4NSA0MzQgMjgyIDQzNEMzNzkgNDM0IDQ0OCAzNTcgNDQ4IDI1MEM0NDggMTQ0IDM3OSA2OCAyODIgNjhaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MiAtNEwyNzggNzZDMjI2IDU2IDE2OCA3MiAxNjggMTI4TDE2OCA0MjJMMjgwIDQyMkwyODAgNTAwTDE2OCA1MDBMMTY4IDYyOEw5MiA2MjhMOTIgNTYyQzkyIDUyNCA3MSA1MDAgMzggNTAwTDggNTAwTDggNDIyTDg4IDQyMkw4OCAxMDhDODggLTQgMTk4IC0yOCAyODIgLTRaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQzMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MCAtMTJDMzg4IC0xMiA0NzggNDggNTAyIDEzNkw0MTYgMTY0QzQwNCAxMDggMzUwIDY4IDI4MiA2OEMxOTcgNjggMTM1IDEyOSAxMjEgMjE3TDUwNyAyMTdDNTE5IDM4NSA0MjUgNTEyIDI3MiA1MTJDMTMyIDUxMiAzMiA0MDMgMzIgMjUwQzMyIDk3IDEzNSAtMTIgMjgwIC0xMlpNMTIyIDI5NUMxMzYgMzc3IDE5NSA0MzQgMjc0IDQzNEMzNTAgNDM0IDQxMCAzNzkgNDIyIDI5NVoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDg2Miw5NjcpIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMzIgMEw0NDAgMEw0NDAgODBMMTM0IDgwTDQzNiA0MjJMNDM2IDUwMEw0MCA1MDBMNDAgNDI0TDMzOCA0MjRMMzIgODJaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUzMzQsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTQwMCAwTDUwMCAwTDI4NiAyODhMNDgwIDUwMEwzNzIgNTAwTDE0NCAyNDNMMTQ0IDY4MEw2NCA2ODBMNjQgMEwxNDQgMEwxNDQgMTM0TDIzMiAyMjlaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjwvc3ZnPg,p_Ii90eXBlZmFjZXMvYXBmZWwtZ3JvdGV6ayI,s_3InqR6AwAPM73UrF.png",
+      "image": null,
       "googleFamily": null,
       "category": null,
       "license": null
