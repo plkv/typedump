@@ -1,17 +1,65 @@
 {
-  "generatedAt": "2026-08-25T06:00:45.887Z",
+  "generatedAt": "2026-08-26T06:00:34.694Z",
   "months": 3,
   "since": "2026-01-01",
-  "count": 100,
+  "count": 104,
   "fonts": [
+    {
+      "name": "Asap Sharp",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Asap+Sharp",
+      "date": "2026-08-25",
+      "image": null,
+      "googleFamily": "Asap Sharp",
+      "category": "Sans Serif",
+      "license": null
+    },
+    {
+      "name": "Caacupe One",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Caacupe+One",
+      "date": "2026-08-25",
+      "image": null,
+      "googleFamily": "Caacupe One",
+      "category": "Display",
+      "license": null
+    },
+    {
+      "name": "Scoutie Sans",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Scoutie+Sans",
+      "date": "2026-08-25",
+      "image": null,
+      "googleFamily": "Scoutie Sans",
+      "category": "Sans Serif",
+      "license": null
+    },
+    {
+      "name": "Valley Sans",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Valley+Sans",
+      "date": "2026-08-25",
+      "image": null,
+      "googleFamily": "Valley Sans",
+      "category": "Sans Serif",
+      "license": null
+    },
     {
       "name": "Fontaine",
       "author": "unjs",
       "source": "github.com",
       "sourceLabel": "GitHub",
-      "url": "https://github.com/unjs/fontaine/releases/tag/release-2026-08-23",
-      "date": "2026-08-23",
-      "image": "https://opengraph.githubassets.com/e409dd07f239717352e05b9527913f688be54d32c95e0de3fae322acb895a749/unjs/fontaine/releases/tag/release-2026-08-23",
+      "url": "https://github.com/unjs/fontaine/releases/tag/release-2026-08-25.2",
+      "date": "2026-08-25",
+      "image": "https://opengraph.githubassets.com/f9646333bba028d2ead26404a3774766da55d57dc9c039d6eb4003a93ef29ece/unjs/fontaine/releases/tag/release-2026-08-25.2",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -251,7 +299,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/the3ash/cough-mono",
       "date": "2026-06-22",
-      "image": "https://opengraph.githubassets.com/68ef6f9fe25d8ab4fdc61ad10f5f202565b987c46b8adcdfb0cf3acb5b386152/the3ash/cough-mono",
+      "image": "https://opengraph.githubassets.com/ec253b4064567517e7dfae8ee893d9f02a56f135fc3b41a5adbc7f85ac9bb886/the3ash/cough-mono",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -767,7 +815,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/nanxstats/paper-mono-ligaturized",
       "date": "2026-04-13",
-      "image": "https://opengraph.githubassets.com/953a3d1b8b9144f0c20cc746e16711ec76d5bd0170bab66025c8666867b74033/nanxstats/paper-mono-ligaturized",
+      "image": "https://opengraph.githubassets.com/33e0ab65d9d7ced133c80d1991f40a5499788f1115bbc5e299876c7a9970a030/nanxstats/paper-mono-ligaturized",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -851,7 +899,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/03d5f86a9a44874b4bff5bd394a72405215536b50a441c1031f41311479b1cb2/mblode/glide",
+      "image": "https://opengraph.githubassets.com/95d8e9f475d570f9fab4154fff2ec98606ef5c8a66e193544d9fd47e257b1c1c/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -923,7 +971,7 @@
       "sourceLabel": "Collletttivo",
       "url": "https://www.collletttivo.it/typefaces/apfel-grotezk",
       "date": "2026-03-09",
-      "image": null,
+      "image": "https://www.collletttivo.it/_og/d/c_Typeface,svgPath_~PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1ODM2IDEyODMiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTQgMEwxMDAgMEwxNjYgMTc2TDQ0MSAxNzZMNTA4IDBMNjA0IDBMMzQ4IDY1MEwyNjAgNjUwWk0xOTYgMjU2TDMwMiA1NDBMNDEwIDI1NloiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjA4LDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0zMjQgLTEyQzQ2MCAtMTIgNTU4IDk4IDU1OCAyNTJDNTU4IDQwNCA0NjEgNTEyIDMyNiA1MTJDMjQ5IDUxMiAxODMgNDc3IDE0MiA0MTlMMTMyIDUwMEw2NCA1MDBMNjQgLTIwMEwxNDQgLTIwMEwxNDQgNzlDMTg1IDIyIDI0OSAtMTIgMzI0IC0xMlpNMzA4IDY4QzIxMSA2OCAxNDIgMTQ0IDE0MiAyNTBDMTQyIDM1NyAyMTEgNDM0IDMwOCA0MzRDNDA1IDQzNCA0NzQgMzU3IDQ3NCAyNTBDNDc0IDE0NCA0MDUgNjggMzA4IDY4WiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTk4LDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik05MiA1NDhMOTIgNDc5TDE2IDQ3OUwxNiA0MDFMOTIgNDAxTDkyIDBMMTcyIDBMMTcyIDQwMUwyOTIgNDAxTDI5MiA0NzlMMTcyIDQ3OUwxNzIgNTQ4QzE3MiA2MTEgMjQwIDYyNCAyODggNTkyTDMxMiA2NzBDMjI0IDcyMiA5MiA2NzggOTIgNTQ4WiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDgyLDk2Nykgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0yODAgLTEyQzM4OCAtMTIgNDc4IDQ4IDUwMiAxMzZMNDE2IDE2NEM0MDQgMTA4IDM1MCA2OCAyODIgNjhDMTk3IDY4IDEzNSAxMjkgMTIxIDIxN0w1MDcgMjE3QzUxOSAzODUgNDI1IDUxMiAyNzIgNTEyQzEzMiA1MTIgMzIgNDAzIDMyIDI1MEMzMiA5NyAxMzUgLTEyIDI4MCAtMTJaTTEyMiAyOTVDMTM2IDM3NyAxOTUgNDM0IDI3NCA0MzRDMzUwIDQzNCA0MTAgMzc5IDQyMiAyOTVaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMjIsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTY0IDBMMTQ0IDBMMTQ0IDY4MEw2NCA2ODBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIyMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0NTAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTM0MCAtMTJDNDYyIC0xMiA1NTUgNTkgNTc4IDE2M0w1OTYgMEw2NTIgMEw2MzIgMzU1TDI2NiAzNTVMMjY2IDI3N0w1NTggMjc3TDU1OCAyNjhDNTU0IDE1NSA0NjUgNzIgMzQ4IDcyQzIxNyA3MiAxMjQgMTc5IDEyNCAzMjdDMTI0IDQ3MyAyMTcgNTgwIDM0NCA1ODBDNDQ1IDU4MCA1MjUgNTEyIDUzNiA0MTZMNjMyIDQ0OEM2MDkgNTcyIDQ4OSA2NjIgMzQ2IDY2MkMxNjYgNjYyIDM2IDUxOSAzNiAzMjVDMzYgMTMwIDE2NCAtMTIgMzQwIC0xMloiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzE0Niw5NjcpIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNNjQgMEwxNDQgMEwxNDQgMzA0QzE0NCA0MTcgMjQ0IDQ1MCAzMjQgNDEwTDMyOCA1MDRDMjQyIDUyOCAxNjUgNDkzIDE0MCA0MjBMMTMyIDUwMEw2NCA1MDBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM0NzgsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MiAtMTJDNDI4IC0xMiA1MzIgOTcgNTMyIDI1MEM1MzIgNDAzIDQyOCA1MTIgMjgyIDUxMkMxMzYgNTEyIDMyIDQwMyAzMiAyNTBDMzIgOTcgMTM2IC0xMiAyODIgLTEyWk0yODIgNjhDMTg1IDY4IDExNiAxNDQgMTE2IDI1MEMxMTYgMzU3IDE4NSA0MzQgMjgyIDQzNEMzNzkgNDM0IDQ0OCAzNTcgNDQ4IDI1MEM0NDggMTQ0IDM3OSA2OCAyODIgNjhaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MiAtNEwyNzggNzZDMjI2IDU2IDE2OCA3MiAxNjggMTI4TDE2OCA0MjJMMjgwIDQyMkwyODAgNTAwTDE2OCA1MDBMMTY4IDYyOEw5MiA2MjhMOTIgNTYyQzkyIDUyNCA3MSA1MDAgMzggNTAwTDggNTAwTDggNDIyTDg4IDQyMkw4OCAxMDhDODggLTQgMTk4IC0yOCAyODIgLTRaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQzMzAsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTI4MCAtMTJDMzg4IC0xMiA0NzggNDggNTAyIDEzNkw0MTYgMTY0QzQwNCAxMDggMzUwIDY4IDI4MiA2OEMxOTcgNjggMTM1IDEyOSAxMjEgMjE3TDUwNyAyMTdDNTE5IDM4NSA0MjUgNTEyIDI3MiA1MTJDMTMyIDUxMiAzMiA0MDMgMzIgMjUwQzMyIDk3IDEzNSAtMTIgMjgwIC0xMlpNMTIyIDI5NUMxMzYgMzc3IDE5NSA0MzQgMjc0IDQzNEMzNTAgNDM0IDQxMCAzNzkgNDIyIDI5NVoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDg2Miw5NjcpIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMzIgMEw0NDAgMEw0NDAgODBMMTM0IDgwTDQzNiA0MjJMNDM2IDUwMEw0MCA1MDBMNDAgNDI0TDMzOCA0MjRMMzIgODJaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUzMzQsOTY3KSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTQwMCAwTDUwMCAwTDI4NiAyODhMNDgwIDUwMEwzNzIgNTAwTDE0NCAyNDNMMTQ0IDY4MEw2NCA2ODBMNjQgMEwxNDQgMEwxNDQgMTM0TDIzMiAyMjlaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjwvc3ZnPg,p_Ii90eXBlZmFjZXMvYXBmZWwtZ3JvdGV6ayI,s_3InqR6AwAPM73UrF.png",
       "googleFamily": null,
       "category": null,
       "license": null
