@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:00:34.694Z",
+  "generatedAt": "2026-08-27T06:00:34.638Z",
   "months": 3,
   "since": "2026-01-01",
   "count": 104,
@@ -467,7 +467,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/vivescene/MuternVF",
       "date": "2026-05-31",
-      "image": "https://opengraph.githubassets.com/29bbe979fb861d56d9df99ea65ed12427b981a2ca29b00f752345f0071f07ead/vivescene/MuternVF",
+      "image": "https://opengraph.githubassets.com/f20695a060a4217cea2dfe539d757fcb955bca9a3d50f1fcd722f17129508558/vivescene/MuternVF",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -899,7 +899,7 @@
       "sourceLabel": "GitHub",
       "url": "https://github.com/mblode/glide",
       "date": "2026-03-18",
-      "image": "https://opengraph.githubassets.com/95d8e9f475d570f9fab4154fff2ec98606ef5c8a66e193544d9fd47e257b1c1c/mblode/glide",
+      "image": "https://opengraph.githubassets.com/f74a3a398caab96fbb2a03293a5bb633177b57f1b907f236a9e25494e794c414/mblode/glide",
       "googleFamily": null,
       "category": null,
       "license": "OFL"
@@ -923,7 +923,7 @@
       "sourceLabel": "Collletttivo",
       "url": "https://www.collletttivo.it/typefaces/borges",
       "date": "2026-03-11",
-      "image": null,
+      "image": "https://www.collletttivo.it/_og/d/c_Typeface,svgPath_~PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTAwIDkwMCI-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDYwMEw2MDAgNjAwTDYwMCA1MDBMNDAwIDUwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMNDAwIDcwMFpNNDAwIC0yMDBMODAwIC0yMDBMODAwIC0xMDBMNzAwIC0xMDBMNzAwIDEwMEw0MDAgMTAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDQwMCAtMTAwWk00MDAgMjAwTDcwMCAyMDBMNzAwIDMwMEw0MDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgMzAwTDEwMCAzMDBMMTAwIDQwMEw4MDAgNDAwTDgwMCAzMDBMOTAwIDMwMEw5MDAgNTAwTDAgNTAwWk0wIDIwMEwwIDBMOTAwIDBMOTAwIDIwMEw4MDAgMjAwTDgwMCAxMDBMMTAwIDEwMEwxMDAgMjAwWk0yMDAgMjAwTDcwMCAyMDBMNzAwIDMwMEwyMDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjAwLDcwMCkgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0xMDAgNjAwTDYwMCA2MDBMNjAwIDMwMEw0MDAgMzAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDUwMCAtMTAwTDUwMCAtMjAwTDgwMCAtMjAwTDgwMCAtMTAwTDcwMCAtMTAwTDcwMCAxMDBMNTAwIDEwMEw1MDAgMjAwTDcwMCAyMDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMMTAwIDcwMFpNMTAwIC0yMDBMNDAwIC0yMDBMNDAwIC0xMDBMMzAwIC0xMDBMMzAwIDQwMEw1MDAgNDAwTDUwMCA1MDBMMjAwIDUwMEwyMDAgLTEwMEwxMDAgLTEwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMCAwTDEwMCAwTDEwMCA1MDBMMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTIwMCAzMDBMMjAwIDBMOTAwIDBMOTAwIDMwMEw0MDAgMzAwTDQwMCAyMDBMODAwIDIwMEw4MDAgMTAwTDMwMCAxMDBMMzAwIDMwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzIwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDcwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDUwMEw1MDAgNTAwTDUwMCA2MDBMODAwIDYwMEw4MDAgNzAwWk00MDAgLTIwMEw4MDAgLTIwMEw4MDAgLTEwMEw1MDAgLTEwMEw1MDAgMEw3MDAgMEw3MDAgMTAwTDQwMCAxMDBaTTQwMCAyMDBMNzAwIDIwMEw3MDAgMzAwTDQwMCAzMDBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgNTAwTDAgMjAwTDgwMCAyMDBMODAwIDBMOTAwIDBMOTAwIDMwMEwxMDAgMzAwTDEwMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTAgMEw3MDAgMEw3MDAgMTAwTDAgMTAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48L3N2Zz4,p_Ii90eXBlZmFjZXMvYm9yZ2VzIg,s_Md4BXJDXiTuiq-D7.png",
       "googleFamily": null,
       "category": null,
       "license": null
