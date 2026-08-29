@@ -513,6 +513,16 @@
   margin-top: 16px;
 }
 
+/* Bigger than the buttons in the cards below: these are the two things the
+   whole first screen is asking the reader to do. Scoped to the hero, because
+   .v2-button is the site's button everywhere else and 40px is right there. */
+.catalog-hero-buttons .v2-button {
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 48px;
+}
+
 .catalog-hero-text {
   margin: 0;
   max-width: 800px;
