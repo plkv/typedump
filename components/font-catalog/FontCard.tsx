@@ -23,6 +23,8 @@ export interface FontData {
   hasItalic: boolean
   filename: string
   url?: string
+  /** Cut-down file the card renders at rest; see scripts/build-preview-subsets.py */
+  previewUrl?: string
   downloadLink?: string
   variableAxes?: Array<{ name: string; axis: string; min: number; max: number; default: number }>
   openTypeFeatures?: string[]

@@ -1,0 +1,12 @@
+# Read by Cloudflare Pages (and Netlify). `output: 'export'` turns the site into
+# plain files, and Next's own `headers()` only runs on a Next server — so the
+# font headers that used to live in next.config.mjs live here instead.
+
+/fonts/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET
+  Cache-Control: public, max-age=31536000, immutable
+
+# Hashed build output is safe to cache forever.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable

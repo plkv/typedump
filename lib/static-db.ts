@@ -43,6 +43,7 @@ function normalizeVariant(v: Record<string, unknown>): FontVariant {
     isItalic: Boolean(v.isItalic ?? false),
     styleName: String(v.styleName ?? 'Regular'),
     blobUrl: url,
+    previewUrl: v.previewUrl != null ? String(v.previewUrl) : undefined,
     fileSize: Number(v.fileSize ?? 0),
     format: String(v.format ?? 'ttf'),
     isVariable: Boolean(v.isVariable ?? false),

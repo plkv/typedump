@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Static export: the site has no API routes, server actions, middleware or
+  // image optimisation, so every page is already prerendered. This makes the
+  // build a folder of files that any host can serve.
+  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,27 +15,6 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-  },
-  async headers() {
-    return [
-      {
-        source: '/fonts/:path*',
-        headers: [
-          {
-            key: 'Access-Control-Allow-Origin',
-            value: '*',
-          },
-          {
-            key: 'Access-Control-Allow-Methods',
-            value: 'GET',
-          },
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ]
   },
 }
 

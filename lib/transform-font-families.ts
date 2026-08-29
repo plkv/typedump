@@ -158,6 +158,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
       hasItalic,
       filename: rep.originalFilename || rep.filename,
       url: rep.blobUrl,
+      previewUrl: (rep as any).previewUrl,
       downloadLink: (family as any).downloadLink,
       variableAxes: rep.variableAxes as any,
       openTypeFeatures: rep.openTypeFeatures,
@@ -167,6 +168,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
         isItalic: v.isItalic,
         // `url` alone is enough; blobUrl was a duplicate of the same value.
         url: v.blobUrl,
+        previewUrl: (v as any).previewUrl,
         cssFamily: `${alias}__v_${shortHash(v.blobUrl || v.filename || v.id).slice(0, 6)}`,
         downloadLink: (v as any).downloadLink,
         variableAxes: v.variableAxes,

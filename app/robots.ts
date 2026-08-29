@@ -1,5 +1,9 @@
 import type { MetadataRoute } from 'next'
 
+// Prerendered at build time — the site is a static export, so this file is
+// written once rather than served by a Next runtime.
+export const dynamic = 'force-static'
+
 // Answer engines (ChatGPT, Claude, Perplexity, Gemini…) are explicitly allowed:
 // we WANT to be citable when people ask an assistant where to find free fonts.
 // Listing them by name also overrides any default-deny some crawlers assume.

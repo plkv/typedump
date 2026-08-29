@@ -34,7 +34,11 @@ function buildFontFace(familyName, v) {
 
   return fontFaceRule({
     family: familyName,
-    src: v.url || `/fonts/${v.filename}`,
+    // The cut-down preview file when there is one. This sheet declares every
+    // face in the catalogue, so it — not the per-card injection — is what the
+    // browser actually fetches while scrolling. Pointing it at the full files
+    // was the 16MB.
+    src: v.previewUrl || v.url || `/fonts/${v.filename}`,
     weight,
     isItalic: v.isItalic,
     format: v.format,

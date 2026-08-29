@@ -2,6 +2,10 @@ import type { MetadataRoute } from 'next'
 import { staticDb } from '@/lib/static-db'
 import { familyToSlug } from '@/lib/font-slug'
 
+// Prerendered at build time — the site is a static export, so this file is
+// written once rather than served by a Next runtime.
+export const dynamic = 'force-static'
+
 // Keep in sync with app/fonts/[slug]/page.tsx
 const LANDING_SLUGS = [
   'serif', 'sans', 'mono', 'pixel', 'script', 'semi-serif', 'variable',

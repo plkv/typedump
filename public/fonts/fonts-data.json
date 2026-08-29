@@ -109,7 +109,8 @@
           "familyId": "family_geist_1757807925957",
           "url": "/fonts/Geist-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Geist-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Geist-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:45.957Z",
@@ -304,7 +305,8 @@
           "familyId": "family_boldonse_1757807926091",
           "url": "/fonts/Boldonse-Regular FREE.woff2",
           "originalUrl": "/fonts/Boldonse-Regular FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Boldonse-Regular FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:46.091Z",
@@ -530,7 +532,8 @@
           "familyId": "family_geist_mono_1757807925905",
           "url": "/fonts/GeistMono-VariableFont_wght.woff2",
           "originalUrl": "/fonts/GeistMono-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/GeistMono-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:45.905Z",
@@ -733,7 +736,8 @@
           "familyId": "family_host_grotesk_1757807925843",
           "url": "/fonts/HostGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/HostGrotesk-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/HostGrotesk-VariableFont_wght.woff2"
         },
         {
           "filename": "HostGrotesk-Italic-VariableFont_wght.ttf",
@@ -950,7 +954,8 @@
           "familyId": "family_jetbrains_mono_1757807925777",
           "url": "/fonts/JetBrainsMono-VariableFont_wght.woff2",
           "originalUrl": "/fonts/JetBrainsMono-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/JetBrainsMono-VariableFont_wght.woff2"
         },
         {
           "filename": "JetBrainsMono-Italic-VariableFont_wght.ttf",
@@ -1079,7 +1084,8 @@
           "familyId": "family_open_sauce_sans_1757807925667",
           "url": "/fonts/OpenSauceSans-Medium.woff2",
           "originalUrl": "/fonts/OpenSauceSans-Medium.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/OpenSauceSans-Medium.woff2"
         },
         {
           "filename": "OpenSauceSans-Light.otf",
@@ -1317,7 +1323,8 @@
           "familyId": "family_plus_jakarta_sans_1757807925608",
           "url": "/fonts/PlusJakartaSans-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/PlusJakartaSans-VariableItalic FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PlusJakartaSans-VariableItalic FREE.woff2"
         },
         {
           "filename": "PlusJakartaSans-Variable FREE.ttf",
@@ -1574,7 +1581,8 @@
           "familyId": "family_switzer_1757807925551",
           "url": "/fonts/Switzer-VariableItalic.woff2",
           "originalUrl": "/fonts/Switzer-VariableItalic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Switzer-VariableItalic.woff2"
         },
         {
           "filename": "Switzer-Variable.ttf",
@@ -1695,7 +1703,8 @@
           "familyId": "family_supreme_1757807925492",
           "url": "/fonts/Supreme-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/Supreme-VariableItalic FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Supreme-VariableItalic FREE.woff2"
         },
         {
           "filename": "Supreme-Variable FREE.ttf",
@@ -1821,7 +1830,8 @@
           "familyId": "family_schibsted_grotesk_1757807925434",
           "url": "/fonts/SchibstedGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SchibstedGrotesk-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SchibstedGrotesk-VariableFont_wght.woff2"
         },
         {
           "filename": "SchibstedGrotesk-Italic-VariableFont_wght.ttf",
@@ -1978,7 +1988,8 @@
           "familyId": "family_space_grotesk_1757807925384",
           "url": "/fonts/SpaceGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SpaceGrotesk-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SpaceGrotesk-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:45.384Z",
@@ -2171,7 +2182,8 @@
           "familyId": "family_ronzino_1757807925303",
           "url": "/fonts/Ronzino-Regular.woff2",
           "originalUrl": "/fonts/Ronzino-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ronzino-Regular.woff2"
         },
         {
           "filename": "Ronzino-Oblique.otf",
@@ -2485,7 +2497,8 @@
           "familyId": "family_outfit_1757807925253",
           "url": "/fonts/Outfit[wght] FREE.woff2",
           "originalUrl": "/fonts/Outfit[wght] FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Outfit[wght] FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:45.253Z",
@@ -2619,7 +2632,8 @@
           "familyId": "family_satoshi_1757807925184",
           "url": "/fonts/Satoshi-VariableItalic.woff2",
           "originalUrl": "/fonts/Satoshi-VariableItalic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Satoshi-VariableItalic.woff2"
         },
         {
           "filename": "Satoshi-Variable.ttf",
@@ -2865,7 +2879,8 @@
           "familyId": "family_departure_mono_1757807925131",
           "url": "/fonts/DepartureMono-Regular.woff2",
           "originalUrl": "/fonts/DepartureMono-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DepartureMono-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:45.131Z",
@@ -2942,7 +2957,8 @@
           "familyId": "family_zodiak_1757807925069",
           "url": "/fonts/Zodiak-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/Zodiak-VariableItalic FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Zodiak-VariableItalic FREE.woff2"
         },
         {
           "filename": "Zodiak-Variable FREE.ttf",
@@ -3039,7 +3055,8 @@
           "familyId": "family_new_century_schoolbook__c095__1757807924976",
           "url": "/fonts/C059-Roman.woff2",
           "originalUrl": "/fonts/C059-Roman.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/C059-Roman.woff2"
         },
         {
           "filename": "C059-Italic.otf",
@@ -3238,7 +3255,8 @@
           "familyId": "family_mona_sans_1757807924916",
           "url": "/fonts/MonaSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/MonaSans-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MonaSans-VariableFont_wdth,wght.woff2"
         },
         {
           "filename": "MonaSans-Italic-VariableFont_wdth,wght.ttf",
@@ -3592,7 +3610,8 @@
           "familyId": "family_overused_grotesk_1757807924864",
           "url": "/fonts/OverusedGrotesk-VF.woff2",
           "originalUrl": "/fonts/OverusedGrotesk-VF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/OverusedGrotesk-VF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.864Z",
@@ -3748,7 +3767,8 @@
           "familyId": "family_fa_1_1757807924812",
           "url": "/fonts/FA-1-Regular.woff2",
           "originalUrl": "/fonts/FA-1-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/FA-1-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.812Z",
@@ -3831,7 +3851,8 @@
           "familyId": "family_alpha_lyrae_1757807924760",
           "url": "/fonts/AlphaLyrae-Medium.woff2",
           "originalUrl": "/fonts/AlphaLyrae-Medium.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/AlphaLyrae-Medium.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.760Z",
@@ -3983,7 +4004,8 @@
           "familyId": "family_havana_1757807924708",
           "url": "/fonts/Havana-Regular.woff2",
           "originalUrl": "/fonts/Havana-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Havana-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.708Z",
@@ -4039,7 +4061,8 @@
           "familyId": "family_jakob_1757807924654",
           "url": "/fonts/Jakob-Semi-Condensed.woff2",
           "originalUrl": "/fonts/Jakob-Semi-Condensed.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Jakob-Semi-Condensed.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.654Z",
@@ -4122,7 +4145,8 @@
           "familyId": "family_antique_s_rie_1757807924602",
           "url": "/fonts/AntiqueSerie-Regular.woff2",
           "originalUrl": "/fonts/AntiqueSerie-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/AntiqueSerie-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.602Z",
@@ -4191,7 +4215,8 @@
           "familyId": "family_thestral_neue_1757807924538",
           "url": "/fonts/ThestralNeue-Bold.woff2",
           "originalUrl": "/fonts/ThestralNeue-Bold.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ThestralNeue-Bold.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.538Z",
@@ -4253,7 +4278,8 @@
           "familyId": "family_nouvelle_grotesquerie_1757807924462",
           "url": "/fonts/NouvelleGrotesquerie-Regular.woff2",
           "originalUrl": "/fonts/NouvelleGrotesquerie-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/NouvelleGrotesquerie-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.462Z",
@@ -4339,7 +4365,8 @@
           "familyId": "family_excessive_extra_condensed_1757807924399",
           "url": "/fonts/Excessive-ExtraCondensed.woff2",
           "originalUrl": "/fonts/Excessive-ExtraCondensed.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Excessive-ExtraCondensed.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.399Z",
@@ -4401,7 +4428,8 @@
           "uploadedAt": "2025-09-07T19:25:05.114Z",
           "id": "variant_family_n27_1757807924334_1757807924378",
           "familyId": "family_n27_1757807924334",
-          "url": "/fonts/N27-Regularitalic.otf"
+          "url": "/fonts/N27-Regularitalic.otf",
+          "previewUrl": "/fonts/preview/N27-Regularitalic.otf"
         },
         {
           "filename": "N27-Regular.otf",
@@ -4570,7 +4598,8 @@
           "familyId": "family_general_sans_1757807924272",
           "url": "/fonts/GeneralSans-VariableItalic.woff2",
           "originalUrl": "/fonts/GeneralSans-VariableItalic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/GeneralSans-VariableItalic.woff2"
         },
         {
           "filename": "GeneralSans-Variable.ttf",
@@ -4759,7 +4788,8 @@
           "familyId": "family_lct_iptex_1757807924229",
           "url": "/fonts/LCTIptex-VF FREE.woff2",
           "originalUrl": "/fonts/LCTIptex-VF FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LCTIptex-VF FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.229Z",
@@ -4833,7 +4863,8 @@
           "familyId": "family_picnic_1757807924177",
           "url": "/fonts/PicNic-Regular.woff2",
           "originalUrl": "/fonts/PicNic-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PicNic-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.177Z",
@@ -4975,7 +5006,8 @@
           "familyId": "family_insolente_1757807924072",
           "url": "/fonts/Insolente-Regular.woff2",
           "originalUrl": "/fonts/Insolente-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Insolente-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.072Z",
@@ -5031,7 +5063,8 @@
           "familyId": "family_crozet_1757807924019",
           "url": "/fonts/Crozet-Regular.woff2",
           "originalUrl": "/fonts/Crozet-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Crozet-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.019Z",
@@ -5124,7 +5157,8 @@
           "familyId": "family_dindong_1757807923967",
           "url": "/fonts/DINdong.woff2",
           "originalUrl": "/fonts/DINdong.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DINdong.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.967Z",
@@ -5203,7 +5237,8 @@
           "familyId": "family_roberte_1757807923916",
           "url": "/fonts/Roberte-Regular.woff2",
           "originalUrl": "/fonts/Roberte-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Roberte-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.916Z",
@@ -5323,7 +5358,8 @@
           "familyId": "family_nudles_1757807923823",
           "url": "/fonts/Nudles-Thin.woff2",
           "originalUrl": "/fonts/Nudles-Thin.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Nudles-Thin.woff2"
         },
         {
           "filename": "Nudles-Regular.ttf",
@@ -5500,7 +5536,8 @@
           "familyId": "family_commissioner_1757807923687",
           "url": "/fonts/Commissioner-Thin.woff2",
           "originalUrl": "/fonts/Commissioner-Thin.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Commissioner-Thin.woff2"
         },
         {
           "filename": "Commissioner-SemiBold.ttf",
@@ -6024,7 +6061,8 @@
           "familyId": "family_uncut_sans_1757807923638",
           "url": "/fonts/Uncut-Sans-VF.woff2",
           "originalUrl": "/fonts/Uncut-Sans-VF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Uncut-Sans-VF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.638Z",
@@ -6120,7 +6158,8 @@
           "familyId": "family_rt_obligat_1757807923575",
           "url": "/fonts/RT Obligat FREE.woff2",
           "originalUrl": "/fonts/RT Obligat FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/RT Obligat FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.575Z",
@@ -6176,7 +6215,8 @@
           "familyId": "family_block_1757807923524",
           "url": "/fonts/Block-font.woff2",
           "originalUrl": "/fonts/Block-font.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Block-font.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.524Z",
@@ -6305,7 +6345,8 @@
           "familyId": "family_frankinity_1757807923366",
           "url": "/fonts/FRANKINITY.woff2",
           "originalUrl": "/fonts/FRANKINITY.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/FRANKINITY.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.366Z",
@@ -6367,7 +6408,8 @@
           "familyId": "family_p95_cyr_1757807923314",
           "url": "/fonts/P95-CYR-Regular.woff2",
           "originalUrl": "/fonts/P95-CYR-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/P95-CYR-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.314Z",
@@ -6537,7 +6579,8 @@
           "familyId": "family_space_mono_1757807923237",
           "url": "/fonts/SpaceMono-Regular.woff2",
           "originalUrl": "/fonts/SpaceMono-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SpaceMono-Regular.woff2"
         },
         {
           "filename": "SpaceMono-Italic.ttf",
@@ -6811,7 +6854,8 @@
           "familyId": "family_comico_1757807923185",
           "url": "/fonts/Comico-Regular FREE.woff2",
           "originalUrl": "/fonts/Comico-Regular FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Comico-Regular FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.185Z",
@@ -6870,7 +6914,8 @@
           "familyId": "family_pencerio_hairline_1757807923131",
           "url": "/fonts/Pencerio-Hairline FREE.woff2",
           "originalUrl": "/fonts/Pencerio-Hairline FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Pencerio-Hairline FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.131Z",
@@ -6965,7 +7010,8 @@
           "familyId": "family_sharpie_variable_1757807923079",
           "url": "/fonts/Sharpie-Variable FREE.woff2",
           "originalUrl": "/fonts/Sharpie-Variable FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Sharpie-Variable FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.079Z",
@@ -7026,7 +7072,8 @@
           "familyId": "family_america_xix_1757807923031",
           "url": "/fonts/am_xix FREE.woff2",
           "originalUrl": "/fonts/am_xix FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/am_xix FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:43.031Z",
@@ -7079,7 +7126,8 @@
           "familyId": "family_ark_es_dense_1757807922952",
           "url": "/fonts/ARK-ES-DenseRegular.woff2",
           "originalUrl": "/fonts/ARK-ES-DenseRegular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ARK-ES-DenseRegular.woff2"
         },
         {
           "filename": "ARK-ES-DenseMedium.otf",
@@ -7192,7 +7240,8 @@
           "familyId": "family_ark_es_solid_1757807922870",
           "url": "/fonts/ARK-ES-SolidRegular.woff2",
           "originalUrl": "/fonts/ARK-ES-SolidRegular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ARK-ES-SolidRegular.woff2"
         },
         {
           "filename": "ARK-ES-SolidMedium.otf",
@@ -7343,7 +7392,8 @@
           "familyId": "family_lct_mogi_a_1757807922817",
           "url": "/fonts/LCTMogi-VF.woff2",
           "originalUrl": "/fonts/LCTMogi-VF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LCTMogi-VF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.817Z",
@@ -7401,7 +7451,8 @@
           "familyId": "family_biceps_grotesk_1757807922760",
           "url": "/fonts/BicepsGrotesk-Regular.woff2",
           "originalUrl": "/fonts/BicepsGrotesk-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BicepsGrotesk-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.760Z",
@@ -7520,7 +7571,8 @@
           "familyId": "family_bdo_grotesk_1757807922712",
           "url": "/fonts/BDOGrotesk-VF FREE.woff2",
           "originalUrl": "/fonts/BDOGrotesk-VF FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BDOGrotesk-VF FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.712Z",
@@ -7707,7 +7759,8 @@
           "familyId": "family_bd_lifeless_grotesk_1757807922664",
           "url": "/fonts/BDLifelessGrotesk_Variable_sm01.woff2",
           "originalUrl": "/fonts/BDLifelessGrotesk_Variable_sm01.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BDLifelessGrotesk_Variable_sm01.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.664Z",
@@ -7884,7 +7937,8 @@
           "familyId": "family_funnel_sans_1757807922601",
           "url": "/fonts/FunnelSans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/FunnelSans-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/FunnelSans-Italic-VariableFont_wght.woff2"
         },
         {
           "filename": "FunnelSans-VariableFont_wght.ttf",
@@ -7978,7 +8032,8 @@
           "familyId": "family_terminal_grotesque_1757807922536",
           "url": "/fonts/terminal-grotesque.woff2",
           "originalUrl": "/fonts/terminal-grotesque.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/terminal-grotesque.woff2"
         },
         {
           "filename": "terminal-grotesque_open.otf",
@@ -8049,7 +8104,8 @@
           "familyId": "family_compagnon_bold_1757807922488",
           "url": "/fonts/Compagnon-Bold.woff2",
           "originalUrl": "/fonts/Compagnon-Bold.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Compagnon-Bold.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.488Z",
@@ -8117,7 +8173,8 @@
           "familyId": "family_anthony_1757807922441",
           "url": "/fonts/Anthony.woff2",
           "originalUrl": "/fonts/Anthony.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Anthony.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.441Z",
@@ -8313,7 +8370,8 @@
           "familyId": "family_hubot_sans_1757807922381",
           "url": "/fonts/HubotSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/HubotSans-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/HubotSans-VariableFont_wdth,wght.woff2"
         },
         {
           "filename": "HubotSans-Italic-VariableFont_wdth,wght.ttf",
@@ -8570,7 +8628,8 @@
           "familyId": "family_sligoil_micro_1757807922332",
           "url": "/fonts/SligoilVF.woff2",
           "originalUrl": "/fonts/SligoilVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SligoilVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:42.332Z",
@@ -8751,7 +8810,8 @@
           "familyId": "family_pilowlava_1757807922275",
           "url": "/fonts/Pilowlava-Regular.woff2",
           "originalUrl": "/fonts/Pilowlava-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Pilowlava-Regular.woff2"
         },
         {
           "filename": "Pilowlava-Atome.otf",
@@ -9168,7 +9228,8 @@
           "familyId": "family_jost_1757807922015",
           "url": "/fonts/Jost-400-Book.woff2",
           "originalUrl": "/fonts/Jost-400-Book.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Jost-400-Book.woff2"
         },
         {
           "filename": "Jost-300-LightItalic.otf",
@@ -9392,7 +9453,8 @@
           "familyId": "family_basteleur_1757807921953",
           "url": "/fonts/Basteleur-Moonlight.woff2",
           "originalUrl": "/fonts/Basteleur-Moonlight.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Basteleur-Moonlight.woff2"
         },
         {
           "filename": "Basteleur-Bold.otf",
@@ -9564,7 +9626,8 @@
           "familyId": "family_lt_crewmate_1757807921902",
           "url": "/fonts/Crewmate-Regular.woff2",
           "originalUrl": "/fonts/Crewmate-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Crewmate-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.902Z",
@@ -9619,7 +9682,8 @@
           "familyId": "family_lt_museum_1757807921775",
           "url": "/fonts/LTMuseum-MediumItalic.woff2",
           "originalUrl": "/fonts/LTMuseum-MediumItalic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LTMuseum-MediumItalic.woff2"
         },
         {
           "filename": "LTMuseum-Medium.ttf",
@@ -9820,7 +9884,8 @@
           "familyId": "family_intranet_1757807921727",
           "url": "/fonts/IntraNetRegular.woff2",
           "originalUrl": "/fonts/IntraNetRegular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/IntraNetRegular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.727Z",
@@ -9973,7 +10038,8 @@
           "familyId": "family_libertinus_sans_1757807921611",
           "url": "/fonts/LibertinusSans-Italic.woff2",
           "originalUrl": "/fonts/LibertinusSans-Italic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LibertinusSans-Italic.woff2"
         },
         {
           "filename": "LibertinusSans-Bold.ttf",
@@ -10068,7 +10134,8 @@
           "familyId": "family_cossette_titre_1757807921543",
           "url": "/fonts/CossetteTitre-Regular.woff2",
           "originalUrl": "/fonts/CossetteTitre-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CossetteTitre-Regular.woff2"
         },
         {
           "filename": "CossetteTitre-Bold.ttf",
@@ -10145,7 +10212,8 @@
           "familyId": "family_cossette_texte_1757807921481",
           "url": "/fonts/CossetteTexte-Bold.woff2",
           "originalUrl": "/fonts/CossetteTexte-Bold.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CossetteTexte-Bold.woff2"
         },
         {
           "filename": "CossetteTexte-Regular.ttf",
@@ -10230,7 +10298,8 @@
           "familyId": "family_oi_1757807921421",
           "url": "/fonts/Oi-Regular.woff2",
           "originalUrl": "/fonts/Oi-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Oi-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.421Z",
@@ -10286,7 +10355,8 @@
           "familyId": "family_ultra_1757807921366",
           "url": "/fonts/Ultra-Regular.woff2",
           "originalUrl": "/fonts/Ultra-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ultra-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.366Z",
@@ -10346,7 +10416,8 @@
           "familyId": "family_chaumont_script_1757807921309",
           "url": "/fonts/ChaumontScript-Regular.woff2",
           "originalUrl": "/fonts/ChaumontScript-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ChaumontScript-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.309Z",
@@ -10421,7 +10492,8 @@
           "familyId": "family_baskervville_1757807921243",
           "url": "/fonts/Baskervville[wght].woff2",
           "originalUrl": "/fonts/Baskervville[wght].ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Baskervville[wght].woff2"
         },
         {
           "filename": "Baskervville-Italic[wght].ttf",
@@ -10521,7 +10593,8 @@
           "familyId": "family_enjoy_please_3_1757807921190",
           "url": "/fonts/enjoyplease2-Regular.woff2",
           "originalUrl": "/fonts/enjoyplease2-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/enjoyplease2-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.190Z",
@@ -10576,7 +10649,8 @@
           "familyId": "family_fat_porn_font_xxl_1757807921139",
           "url": "/fonts/Fat Porn Font.woff2",
           "originalUrl": "/fonts/Fat Porn Font.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Fat Porn Font.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.139Z",
@@ -10632,7 +10706,8 @@
           "familyId": "family_format_1452_1757807921083",
           "url": "/fonts/Format 1452 FREE.woff2",
           "originalUrl": "/fonts/Format 1452 FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Format 1452 FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.083Z",
@@ -10687,7 +10762,8 @@
           "familyId": "family_director_1757807921006",
           "url": "/fonts/Director-Regular FREE.woff2",
           "originalUrl": "/fonts/Director-Regular FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Director-Regular FREE.woff2"
         },
         {
           "filename": "Director-Light FREE.otf",
@@ -10780,7 +10856,8 @@
           "familyId": "family_gap_sans_1757807920945",
           "url": "/fonts/Tape stolen 2.woff2",
           "originalUrl": "/fonts/Tape stolen 2.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Tape stolen 2.woff2"
         },
         {
           "filename": "Tape stolen 1.otf",
@@ -10924,7 +11001,8 @@
           "familyId": "family_handjet_1757807920894",
           "url": "/fonts/Handjet[EGRD,ESHP,wght].woff2",
           "originalUrl": "/fonts/Handjet[EGRD,ESHP,wght].ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Handjet[EGRD,ESHP,wght].woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.894Z",
@@ -11080,7 +11158,8 @@
           "familyId": "family_bagel_fat_one_1757807920845",
           "url": "/fonts/BagelFatOne-Regular.woff2",
           "originalUrl": "/fonts/BagelFatOne-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BagelFatOne-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.845Z",
@@ -11140,7 +11219,8 @@
           "familyId": "family_boxing_1757807920793",
           "url": "/fonts/Boxing-Regular FREE.woff2",
           "originalUrl": "/fonts/Boxing-Regular FREE.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Boxing-Regular FREE.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.793Z",
@@ -11213,7 +11293,8 @@
           "familyId": "family_dela_gothic_one_1757807920744",
           "url": "/fonts/DelaGothicOne-Regular.woff2",
           "originalUrl": "/fonts/DelaGothicOne-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DelaGothicOne-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.744Z",
@@ -11299,7 +11380,8 @@
           "familyId": "family_chillax_1757807920693",
           "url": "/fonts/Chillax-Variable.woff2",
           "originalUrl": "/fonts/Chillax-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Chillax-Variable.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.693Z",
@@ -11568,7 +11650,8 @@
           "familyId": "family_azeret_mono_1757807920641",
           "url": "/fonts/AzeretMonoVF_sm01.woff2",
           "originalUrl": "/fonts/AzeretMonoVF_sm01.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/AzeretMonoVF_sm01.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.641Z",
@@ -11722,7 +11805,8 @@
           "familyId": "family_n_o_castel_1757807920587",
           "url": "/fonts/Neo-castel.woff2",
           "originalUrl": "/fonts/Neo-castel.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Neo-castel.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.587Z",
@@ -11792,7 +11876,8 @@
           "familyId": "family_freeman_1757807920536",
           "url": "/fonts/Freeman-Regular.woff2",
           "originalUrl": "/fonts/Freeman-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Freeman-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.536Z",
@@ -11986,7 +12071,8 @@
           "familyId": "family_cormorant_unicase_1757807920341",
           "url": "/fonts/CormorantUnicase-Regular.woff2",
           "originalUrl": "/fonts/CormorantUnicase-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CormorantUnicase-Regular.woff2"
         },
         {
           "filename": "CormorantUnicase-Medium.ttf",
@@ -12386,7 +12472,8 @@
           "checksum": "5dd82141a81f4b455630a8ffbcdc2dd4e28a03162fc1f74559297bdc9cd4a959",
           "id": "variant_family_tanklager_kompakt_1757807920293_1757807920333",
           "familyId": "family_tanklager_kompakt_1757807920293",
-          "url": "/fonts/TanklagerVF.woff"
+          "url": "/fonts/TanklagerVF.woff",
+          "previewUrl": "/fonts/preview/TanklagerVF.woff"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.293Z",
@@ -12497,7 +12584,8 @@
           "familyId": "family_nyght_serif_1757807920155",
           "url": "/fonts/NyghtSerif-Regular.woff2",
           "originalUrl": "/fonts/NyghtSerif-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/NyghtSerif-Regular.woff2"
         },
         {
           "filename": "NyghtSerif-MediumItalic.ttf",
@@ -12874,7 +12962,8 @@
           "familyId": "family_piscolabis_1757807920109",
           "url": "/fonts/Piscolabis-Regular.woff2",
           "originalUrl": "/fonts/Piscolabis-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Piscolabis-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.109Z",
@@ -13009,7 +13098,8 @@
           "familyId": "family_isenheim_1757807920047",
           "url": "/fonts/Isenheim_Regulier.woff2",
           "originalUrl": "/fonts/Isenheim_Regulier.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Isenheim_Regulier.woff2"
         },
         {
           "filename": "Isenheim_Fin.otf",
@@ -13262,7 +13352,8 @@
           "familyId": "family_canarina_1757807919996",
           "url": "/fonts/Canarina-Regular.woff2",
           "originalUrl": "/fonts/Canarina-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Canarina-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.996Z",
@@ -13426,7 +13517,8 @@
           "familyId": "family_kobata_1757807919934",
           "url": "/fonts/KobataGX.woff2",
           "originalUrl": "/fonts/KobataGX.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/KobataGX.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.934Z",
@@ -13482,7 +13574,8 @@
           "familyId": "family_azabache_1757807919883",
           "url": "/fonts/Azabache-Regular.woff2",
           "originalUrl": "/fonts/Azabache-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Azabache-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.883Z",
@@ -13569,7 +13662,8 @@
           "familyId": "family_cy_grotesk_grand_dark_1757807919836",
           "url": "/fonts/CyGrotesk-GrandDark.woff2",
           "originalUrl": "/fonts/CyGrotesk-GrandDark.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CyGrotesk-GrandDark.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.836Z",
@@ -13770,7 +13864,8 @@
           "familyId": "family_cabinet_grotesk_1757807919726",
           "url": "/fonts/CabinetGrotesk-Variable.woff2",
           "originalUrl": "/fonts/CabinetGrotesk-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CabinetGrotesk-Variable.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.726Z",
@@ -13903,7 +13998,8 @@
           "familyId": "family_carattere_1757807919677",
           "url": "/fonts/Carattere-Regular.woff2",
           "originalUrl": "/fonts/Carattere-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Carattere-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.677Z",
@@ -13992,7 +14088,8 @@
           "familyId": "family_jaro_1757807919622",
           "url": "/fonts/Jaro-Regular-VariableFont_opsz.woff2",
           "originalUrl": "/fonts/Jaro-Regular-VariableFont_opsz.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Jaro-Regular-VariableFont_opsz.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.622Z",
@@ -14138,7 +14235,8 @@
           "familyId": "family_instrument_sans_1757807919561",
           "url": "/fonts/InstrumentSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/InstrumentSans-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/InstrumentSans-VariableFont_wdth,wght.woff2"
         },
         {
           "filename": "InstrumentSans-Italic-VariableFont_wdth,wght.ttf",
@@ -14416,7 +14514,8 @@
           "familyId": "family_milkman_1757807919507",
           "url": "/fonts/milkman.woff2",
           "originalUrl": "/fonts/milkman.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/milkman.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.507Z",
@@ -14528,7 +14627,8 @@
           "familyId": "family_kultur__1757807919360",
           "url": "/fonts/Kulture-Type.woff2",
           "originalUrl": "/fonts/Kulture-Type.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Kulture-Type.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.360Z",
@@ -14581,7 +14681,8 @@
           "familyId": "family_phosph_ne_font_1757807919311",
           "url": "/fonts/PhospheneFont-Regular.woff2",
           "originalUrl": "/fonts/PhospheneFont-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PhospheneFont-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.311Z",
@@ -14664,7 +14765,8 @@
           "familyId": "family_hedvig_letters_serif_1757807919259",
           "url": "/fonts/HedvigLettersSerif[opsz].woff2",
           "originalUrl": "/fonts/HedvigLettersSerif[opsz].ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/HedvigLettersSerif[opsz].woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.259Z",
@@ -14731,7 +14833,8 @@
           "familyId": "family_hedvig_letters_sans_1757807919204",
           "url": "/fonts/HedvigLettersSans-Regular.woff2",
           "originalUrl": "/fonts/HedvigLettersSans-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/HedvigLettersSans-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.204Z",
@@ -14816,7 +14919,8 @@
           "familyId": "family_galgo_condensed_1757807919152",
           "url": "/fonts/GalgoVF.woff2",
           "originalUrl": "/fonts/GalgoVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/GalgoVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.152Z",
@@ -15027,7 +15131,8 @@
           "familyId": "family_tasa_explorer_1757807919034",
           "url": "/fonts/TASAExplorer-Regular.woff2",
           "originalUrl": "/fonts/TASAExplorer-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/TASAExplorer-Regular.woff2"
         },
         {
           "filename": "TASAExplorer-Medium.ttf",
@@ -15250,7 +15355,8 @@
           "familyId": "family_amiamie_1757807918918",
           "url": "/fonts/Amiamie-Regular.woff2",
           "originalUrl": "/fonts/Amiamie-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Amiamie-Regular.woff2"
         },
         {
           "filename": "Amiamie-LightItalic.ttf",
@@ -15431,7 +15537,8 @@
           "familyId": "family_amiamie_round_1757807918830",
           "url": "/fonts/Amiamie-RegularRound.woff2",
           "originalUrl": "/fonts/Amiamie-RegularRound.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Amiamie-RegularRound.woff2"
         },
         {
           "filename": "Amiamie-ItalicRound.ttf",
@@ -15643,7 +15750,8 @@
           "familyId": "family_aspekta_1757807918773",
           "url": "/fonts/AspektaVF.woff2",
           "originalUrl": "/fonts/AspektaVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/AspektaVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.773Z",
@@ -15843,7 +15951,8 @@
           "familyId": "family_cooper_1757807918571",
           "url": "/fonts/Cooper-Regular.woff2",
           "originalUrl": "/fonts/Cooper-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Cooper-Regular.woff2"
         },
         {
           "filename": "Cooper-MediumItalic.otf",
@@ -16114,7 +16223,8 @@
           "familyId": "family_reglo_1757807918510",
           "url": "/fonts/Reglo-Bold.woff2",
           "originalUrl": "/fonts/Reglo-Bold.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Reglo-Bold.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.510Z",
@@ -16178,7 +16288,8 @@
           "familyId": "family_ortica_linear_1757807918408",
           "url": "/fonts/OrticaLinear-Regular.woff2",
           "originalUrl": "/fonts/OrticaLinear-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/OrticaLinear-Regular.woff2"
         },
         {
           "filename": "OrticaLinear-Light.otf",
@@ -16352,7 +16463,8 @@
           "familyId": "family_aujournuit_1757807918352",
           "url": "/fonts/Aujournuit-VariableVF.woff2",
           "originalUrl": "/fonts/Aujournuit-VariableVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Aujournuit-VariableVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.352Z",
@@ -16434,7 +16546,8 @@
           "checksum": "52609e119e74e02844bb2ad1f9ff2d67c32e21dfa22fc69b1d11932b885da7e2",
           "id": "variant_family_micro_grotesk_1757807918302_1757807918344",
           "familyId": "family_micro_grotesk_1757807918302",
-          "url": "/fonts/MicroGrotesk[wght].ttf"
+          "url": "/fonts/MicroGrotesk[wght].ttf",
+          "previewUrl": "/fonts/preview/MicroGrotesk[wght].ttf"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.302Z",
@@ -16493,7 +16606,8 @@
           "familyId": "family_apfel_grotesk_1757807918210",
           "url": "/fonts/ApfelGrotezk-Satt.woff2",
           "originalUrl": "/fonts/ApfelGrotezk-Satt.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ApfelGrotezk-Satt.woff2"
         },
         {
           "filename": "ApfelGrotezk-Regular.otf",
@@ -16627,7 +16741,8 @@
           "familyId": "family_apfel_grotezk_brukt_1757807918158",
           "url": "/fonts/ApfelGrotezk-Brukt.woff2",
           "originalUrl": "/fonts/ApfelGrotezk-Brukt.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ApfelGrotezk-Brukt.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.158Z",
@@ -16719,7 +16834,8 @@
           "familyId": "family_sinistre_1757807918100",
           "url": "/fonts/SinistreVF.woff2",
           "originalUrl": "/fonts/SinistreVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SinistreVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.100Z",
@@ -16891,7 +17007,8 @@
           "familyId": "family_standard_1757807918038",
           "url": "/fonts/standard-book.woff2",
           "originalUrl": "/fonts/standard-book.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/standard-book.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.038Z",
@@ -16949,7 +17066,8 @@
           "familyId": "family_redaction_1757807917752",
           "url": "/fonts/Redaction100-Regular.woff2",
           "originalUrl": "/fonts/Redaction100-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Redaction100-Regular.woff2"
         },
         {
           "filename": "Redaction100-Italic.otf",
@@ -17490,7 +17608,8 @@
           "familyId": "family_times_newer_roman_1757807917674",
           "url": "/fonts/TimesNewerRoman-Regular.woff2",
           "originalUrl": "/fonts/TimesNewerRoman-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/TimesNewerRoman-Regular.woff2"
         },
         {
           "filename": "TimesNewerRoman-Italic.otf",
@@ -17632,7 +17751,8 @@
           "familyId": "family_louise_1757807917625",
           "url": "/fonts/Louise-Regular.woff2",
           "originalUrl": "/fonts/Louise-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Louise-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.625Z",
@@ -17746,7 +17866,8 @@
           "familyId": "family_knack_1757807917577",
           "url": "/fonts/KnackVF.woff2",
           "originalUrl": "/fonts/KnackVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/KnackVF.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.577Z",
@@ -17905,7 +18026,8 @@
           "familyId": "family_cr_dible_1757807917528",
           "url": "/fonts/Crédible-Regular.woff2",
           "originalUrl": "/fonts/Crédible-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Crédible-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.528Z",
@@ -18079,7 +18201,8 @@
           "familyId": "family_oswald_1757807917476",
           "url": "/fonts/Oswald-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Oswald-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Oswald-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.476Z",
@@ -18182,7 +18305,8 @@
           "familyId": "family_montagu_slab_1757807917426",
           "url": "/fonts/MontaguSlab-VariableFont_opsz,wght.woff2",
           "originalUrl": "/fonts/MontaguSlab-VariableFont_opsz,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MontaguSlab-VariableFont_opsz,wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.426Z",
@@ -18237,7 +18361,8 @@
           "familyId": "family_vampiro_one_1757807917376",
           "url": "/fonts/VampiroOne-Regular.woff2",
           "originalUrl": "/fonts/VampiroOne-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/VampiroOne-Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.376Z",
@@ -18312,7 +18437,8 @@
           "familyId": "family_tillana_1757807917283",
           "url": "/fonts/Tillana-Regular.woff2",
           "originalUrl": "/fonts/Tillana-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Tillana-Regular.woff2"
         },
         {
           "filename": "Tillana-Medium.ttf",
@@ -18430,7 +18556,8 @@
           "familyId": "family_ranga_1757807917224",
           "url": "/fonts/Ranga-Regular.woff2",
           "originalUrl": "/fonts/Ranga-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ranga-Regular.woff2"
         },
         {
           "filename": "Ranga-Bold.ttf",
@@ -18590,7 +18717,8 @@
           "familyId": "family_srisakdi_1757807917098",
           "url": "/fonts/Srisakdi-Regular.woff2",
           "originalUrl": "/fonts/Srisakdi-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Srisakdi-Regular.woff2"
         },
         {
           "filename": "Srisakdi-Bold.ttf",
@@ -18711,7 +18839,8 @@
           "familyId": "family_playpen_sans_1757807917046",
           "url": "/fonts/PlaypenSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/PlaypenSans-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PlaypenSans-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:37.046Z",
@@ -18930,7 +19059,8 @@
           "familyId": "family_shantell_sans_1757807916987",
           "url": "/fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.woff2",
           "originalUrl": "/fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.woff2"
         },
         {
           "filename": "ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf",
@@ -19222,7 +19352,8 @@
           "familyId": "family_tiktok_sans_1757807916938",
           "url": "/fonts/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2",
           "originalUrl": "/fonts/TikTokSans-VariableFont_opsz,slnt,wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:36.938Z",
@@ -19378,7 +19509,8 @@
           "checksum": "7c6a927768146cc5a9edeecb6c2b8f509650fc89456a7407cab83e6821b94032",
           "id": "variant_family_sober_1757807916889_1757807916931",
           "familyId": "family_sober_1757807916889",
-          "url": "/fonts/Sober-Regular.woff"
+          "url": "/fonts/Sober-Regular.woff",
+          "previewUrl": "/fonts/preview/Sober-Regular.woff"
         }
       ],
       "createdAt": "2025-09-13T23:58:36.889Z",
@@ -19464,7 +19596,8 @@
           "familyId": "family_granturismo_1757807916836",
           "url": "/fonts/GranturismoGX.woff2",
           "originalUrl": "/fonts/GranturismoGX.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/GranturismoGX.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:36.836Z",
@@ -19544,7 +19677,8 @@
           "familyId": "family_format_1757807916754",
           "url": "/fonts/Format-Regular.woff2",
           "originalUrl": "/fonts/Format-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Format-Regular.woff2"
         },
         {
           "filename": "Format-Italic.otf",
@@ -19650,7 +19784,8 @@
           "familyId": "family_bbh_bogle_1747180800000",
           "url": "/fonts/BBHBogle-Regular.woff2",
           "originalUrl": "/fonts/BBHBogle-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BBHBogle-Regular.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -19794,7 +19929,8 @@
           "familyId": "family_google_sans_flex_1747180802000",
           "url": "/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2",
           "originalUrl": "/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -19926,7 +20062,8 @@
           "familyId": "family_momo_trust_display_1747180803000",
           "url": "/fonts/MomoTrustDisplay-Regular.woff2",
           "originalUrl": "/fonts/MomoTrustDisplay-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MomoTrustDisplay-Regular.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20015,7 +20152,8 @@
           "familyId": "family_momo_trust_sans_1747180804000",
           "url": "/fonts/MomoTrustSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/MomoTrustSans-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MomoTrustSans-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20128,7 +20266,8 @@
           "familyId": "family_sn_pro_1747180805000",
           "url": "/fonts/SNPro-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SNPro-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SNPro-VariableFont_wght.woff2"
         },
         {
           "filename": "SNPro-Italic-VariableFont_wght.ttf",
@@ -20366,7 +20505,8 @@
           "familyId": "family_stack_sans_headline_1747180806000",
           "url": "/fonts/StackSansHeadline-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansHeadline-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/StackSansHeadline-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20547,7 +20687,8 @@
           "familyId": "family_stack_sans_notch_1747180807000",
           "url": "/fonts/StackSansNotch-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansNotch-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/StackSansNotch-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20728,7 +20869,8 @@
           "familyId": "family_stack_sans_text_1747180808000",
           "url": "/fonts/StackSansText-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansText-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/StackSansText-VariableFont_wght.woff2"
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20896,7 +21038,8 @@
           ],
           "format": "woff2",
           "url": "/fonts/Figtree[wght].woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "previewUrl": "/fonts/preview/Figtree[wght].woff2"
         },
         {
           "id": "v_1778941055167_07fr1u",
@@ -21084,7 +21227,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Frick0.3-Regular.woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "previewUrl": "/fonts/preview/Frick0.3-Regular.woff2"
         },
         {
           "id": "v_1778941055167_4vxr4n",
@@ -21176,7 +21320,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LinealVF.woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "previewUrl": "/fonts/preview/LinealVF.woff2"
         }
       ],
       "altPairs": [
@@ -21328,7 +21473,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/NationalPark-VariableVF.woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "previewUrl": "/fonts/preview/NationalPark-VariableVF.woff2"
         }
       ],
       "altPairs": [],
@@ -21373,7 +21519,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/whois-mono.woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "previewUrl": "/fonts/preview/whois-mono.woff2"
         }
       ],
       "altPairs": [],
@@ -21412,7 +21559,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paragon-Regular.woff2",
-          "uploadedAt": "2026-05-16T18:00:00.000Z"
+          "uploadedAt": "2026-05-16T18:00:00.000Z",
+          "previewUrl": "/fonts/preview/Paragon-Regular.woff2"
         },
         {
           "id": "v_1778960001000_fm78y5",
@@ -21470,7 +21618,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/P-ACR-AGON-Regular.woff2",
-          "uploadedAt": "2026-05-16T18:00:00.000Z"
+          "uploadedAt": "2026-05-16T18:00:00.000Z",
+          "previewUrl": "/fonts/preview/P-ACR-AGON-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -21526,7 +21675,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/MuseoModerno-VariableFont_wght.woff2",
-          "uploadedAt": "2026-05-16T18:00:00.000Z"
+          "uploadedAt": "2026-05-16T18:00:00.000Z",
+          "previewUrl": "/fonts/preview/MuseoModerno-VariableFont_wght.woff2"
         },
         {
           "id": "v_1778960003000_4mj2qn",
@@ -21692,7 +21842,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTDumplingDisplay-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/DTDumplingDisplay-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -21739,7 +21890,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTGetaiGroteskDisplay-Black.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/DTGetaiGroteskDisplay-Black.woff2"
         }
       ],
       "altPairs": [],
@@ -21787,7 +21939,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTNightingale-Light.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/DTNightingale-Light.woff2"
         }
       ],
       "altPairs": [],
@@ -21833,7 +21986,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTWorldTour-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/DTWorldTour-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -21880,7 +22034,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/FFF_tuoi-tre-Black.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/FFF_tuoi-tre-Black.woff2"
         },
         {
           "id": "v_fff_tuoi_g0f6sl",
@@ -21974,7 +22129,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/InclusiveSans-Regular.woff2"
         },
         {
           "id": "v_inc_bgf4in",
@@ -22158,7 +22314,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueGothic-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/LeagueGothic-Regular.woff2"
         },
         {
           "id": "v_lg_l5t15c",
@@ -22252,7 +22409,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueScriptNumberOne.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/LeagueScriptNumberOne.woff2"
         }
       ],
       "altPairs": [],
@@ -22298,7 +22456,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paysage-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Paysage-Regular.woff2"
         },
         {
           "id": "v_pay_8lz3dz",
@@ -22460,7 +22619,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Perun-VF.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Perun-VF.woff2"
         },
         {
           "id": "v_per_qshf07",
@@ -22594,7 +22754,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Spectral-Regular.woff2"
         },
         {
           "id": "v_spec_r294t7",
@@ -22897,7 +23058,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Affigere-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Affigere-Regular.woff2"
         }
       ],
       "altPairs": [
@@ -22953,7 +23115,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Absans-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Absans-Regular.woff2"
         }
       ],
       "altPairs": [
@@ -23068,7 +23231,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Bajaderka-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Bajaderka-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -23114,7 +23278,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Coconat-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Coconat-Regular.woff2"
         },
         {
           "id": "v_coc_9csm9n",
@@ -23193,7 +23358,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InstrumentSerif-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/InstrumentSerif-Regular.woff2"
         },
         {
           "id": "v_ins_r0jv7o",
@@ -23366,7 +23532,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Junicode-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Junicode-Regular.woff2"
         },
         {
           "id": "v_jun_vbsz7f",
@@ -23589,7 +23756,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-36-48Title.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Luperca-36-48Title.woff2"
         },
         {
           "id": "v_lup_uue0nj",
@@ -23764,7 +23932,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Manosque-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Manosque-Regular.woff2"
         }
       ],
       "altPairs": [
@@ -23890,7 +24059,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/OpeningHoursMonoVF.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/OpeningHoursMonoVF.woff2"
         }
       ],
       "altPairs": [
@@ -24033,7 +24203,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/OpeningHoursSans-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/OpeningHoursSans-Regular.woff2"
         }
       ],
       "altPairs": [
@@ -24148,7 +24319,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PretendardVariable.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/PretendardVariable.woff2"
         }
       ],
       "altPairs": [
@@ -24306,7 +24478,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Zarathustra-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Zarathustra-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -24364,7 +24537,8 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/Akt[wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Akt[wght].woff2"
         }
       ],
       "altPairs": [
@@ -24517,7 +24691,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Geomini[wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Geomini[wght].woff2"
         }
       ],
       "altPairs": [],
@@ -24573,7 +24748,8 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/GeistPixel[ELSH].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/GeistPixel[ELSH].woff2"
         }
       ],
       "altPairs": [
@@ -24738,7 +24914,8 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/Pliant[wdth,wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/Pliant[wdth,wght].woff2"
         },
         {
           "id": "v_pliant_it_000008",
@@ -24884,7 +25061,8 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/FinlandicaText[wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/FinlandicaText[wght].woff2"
         },
         {
           "id": "v_finlandicatext_it_000011",
@@ -25073,7 +25251,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/StrichpunktSans[wdth,wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "previewUrl": "/fonts/preview/StrichpunktSans[wdth,wght].woff2"
         }
       ],
       "altPairs": [],
@@ -25119,7 +25298,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PirateQuest-Regular.woff2",
-          "uploadedAt": "2026-07-12T20:30:00.000Z"
+          "uploadedAt": "2026-07-12T20:30:00.000Z",
+          "previewUrl": "/fonts/preview/PirateQuest-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -25189,7 +25369,8 @@
           "url": "/fonts/Doto-Variable.woff2",
           "originalUrl": "/fonts/Doto-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Doto-Variable.woff2"
         }
       ],
       "altPairs": [],
@@ -25280,7 +25461,8 @@
           "url": "/fonts/Sono-Variable.woff2",
           "originalUrl": "/fonts/Sono-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Sono-Variable.woff2"
         }
       ],
       "altPairs": [
@@ -25431,7 +25613,8 @@
           "url": "/fonts/Bagnard.woff2",
           "originalUrl": "/fonts/Bagnard.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Bagnard.woff2"
         }
       ],
       "altPairs": [],
@@ -25494,7 +25677,8 @@
           "url": "/fonts/LibreCaslonCondensed-Variable.woff2",
           "originalUrl": "/fonts/LibreCaslonCondensed-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/LibreCaslonCondensed-Variable.woff2"
         },
         {
           "filename": "LibreCaslonCondensed-Italic-Variable.ttf",
@@ -25607,7 +25791,8 @@
           "url": "/fonts/Anybody-Variable.woff2",
           "originalUrl": "/fonts/Anybody-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Anybody-Variable.woff2"
         },
         {
           "filename": "Anybody-Italic-Variable.ttf",
@@ -25795,7 +25980,8 @@
           "url": "/fonts/OpenRunde-Regular.woff2",
           "originalUrl": "/fonts/OpenRunde-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/OpenRunde-Regular.woff2"
         },
         {
           "filename": "OpenRunde-Medium.otf",
@@ -25931,7 +26117,8 @@
           "url": "/fonts/Newsreader-Variable.woff2",
           "originalUrl": "/fonts/Newsreader-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Newsreader-Variable.woff2"
         },
         {
           "filename": "Newsreader-Italic-Variable.ttf",
@@ -26054,7 +26241,8 @@
           "url": "/fonts/JeanLuc-Bold.woff2",
           "originalUrl": "/fonts/JeanLuc-Bold.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/JeanLuc-Bold.woff2"
         }
       ],
       "altPairs": [],
@@ -26131,7 +26319,8 @@
           "url": "/fonts/Lack-Regular.woff2",
           "originalUrl": "/fonts/Lack-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Lack-Regular.woff2"
         },
         {
           "filename": "Lack-Italic.otf",
@@ -26347,7 +26536,8 @@
           "url": "/fonts/LackLine-Regular.woff2",
           "originalUrl": "/fonts/LackLine-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/LackLine-Regular.woff2"
         },
         {
           "filename": "LackLine-Italic.otf",
@@ -26570,7 +26760,8 @@
           "url": "/fonts/WorkAvec-Medium.woff2",
           "originalUrl": "/fonts/WorkAvec-Medium.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/WorkAvec-Medium.woff2"
         },
         {
           "filename": "WorkAvec-SemiBold.ttf",
@@ -26743,7 +26934,8 @@
           "url": "/fonts/Abordage-Regular.woff2",
           "originalUrl": "/fonts/Abordage-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Abordage-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -26798,7 +26990,8 @@
           "url": "/fonts/Equateur-Regular.woff2",
           "originalUrl": "/fonts/Equateur-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Equateur-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -26851,7 +27044,8 @@
           "url": "/fonts/Latitude-Regular.woff2",
           "originalUrl": "/fonts/Latitude-Regular.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Latitude-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -26904,7 +27098,8 @@
           "url": "/fonts/Ovo-Regular.woff2",
           "originalUrl": "/fonts/Ovo-Regular.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Ovo-Regular.woff2"
         }
       ],
       "altPairs": [],
@@ -26976,7 +27171,8 @@
           "url": "/fonts/MonHugo-in.woff2",
           "originalUrl": "/fonts/MonHugo-in.otf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/MonHugo-in.woff2"
         },
         {
           "filename": "MonHugo-out.otf",
@@ -27101,7 +27297,8 @@
           "url": "/fonts/Besley-Variable.woff2",
           "originalUrl": "/fonts/Besley-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "previewUrl": "/fonts/preview/Besley-Variable.woff2"
         },
         {
           "filename": "Besley-Italic-Variable.ttf",
@@ -27262,7 +27459,8 @@
           "familyId": "family_mutern_1753989400000",
           "url": "/fonts/MuternVF.woff2",
           "originalUrl": "/fonts/MuternVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MuternVF.woff2"
         }
       ],
       "createdAt": "2026-07-31T00:00:00.000Z",
@@ -27364,7 +27562,8 @@
           "familyId": "family_aboreto_1756400000000",
           "url": "/fonts/Aboreto-Regular.woff2",
           "originalUrl": "/fonts/Aboreto-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Aboreto-Regular.woff2"
         }
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
@@ -27455,7 +27654,8 @@
           "familyId": "family_valley_sans_1756400010000",
           "url": "/fonts/ValleySans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ValleySans-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ValleySans-VariableFont_wght.woff2"
         },
         {
           "filename": "ValleySans-Italic-VariableFont_wght.ttf",
@@ -27659,7 +27859,8 @@
           "familyId": "family_scoutie_sans_1756400020000",
           "url": "/fonts/ScoutieSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ScoutieSans-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ScoutieSans-VariableFont_wght.woff2"
         },
         {
           "filename": "ScoutieSans-Italic-VariableFont_wght.ttf",
@@ -27801,5 +28002,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-16T00:00:00.000Z"
+  "lastUpdated": "2026-08-29T21:17:22.244785Z"
 }

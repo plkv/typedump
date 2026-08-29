@@ -17,6 +17,9 @@ export interface FontVariant {
   
   // File storage
   blobUrl: string
+  /** Small, instance-pinned, Latin-only cut used by the catalogue cards.
+      Absent when cutting the font gained nothing — then the full file is used. */
+  previewUrl?: string
   fileSize: number
   format: string // e.g. "woff2", "ttf", "otf"
   

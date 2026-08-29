@@ -23,6 +23,8 @@ interface FontData {
   hasItalic: boolean
   filename: string
   url?: string
+  /** Cut-down file the card renders at rest; see scripts/build-preview-subsets.py */
+  previewUrl?: string
   downloadLink?: string
   variableAxes?: Array<{
     name: string
@@ -222,17 +224,17 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         const alias = ff.cssFamily
         if (!alias) return ''
         const italic = ff.isItalic || (ff.style || '').toLowerCase().includes('italic')
-        const src = ff.url || ff.blobUrl || `/fonts/${ff.filename}`
+        const src = ff.previewUrl || ff.url || ff.blobUrl || `/fonts/${ff.filename}`
         return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
       }).filter(Boolean).join('\n')
     } else if (isVar) {
-      const src = font.url || `/fonts/${font.filename}`
+      const src = font.previewUrl || font.url || `/fonts/${font.filename}`
       const wMin = font.availableWeights?.[0] ?? 100
       const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
       const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
       css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:swap;}`
     } else {
-      const src = font.url || `/fonts/${font.filename}`
+      const src = font.previewUrl || font.url || `/fonts/${font.filename}`
       const alias = font._familyFonts?.[0]?.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
       const italic = (font.style || '').toLowerCase().includes('italic')
       css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
@@ -756,6 +758,22 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   useEffect(() => {
     if (draft && focusedFontId !== null && focusedFontId !== draft.fontId) commitDraft()
   }, [focusedFontId, draft, commitDraft])
+
+  // The filters in the URL are applied after mount, not during render: the
+  // server has no query string to read in a static export, and reading it
+  // during the first client render would disagree with the HTML and break
+  // hydration. One pass, on load, from whatever the address bar says.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search)
+    if (![...q.keys()].length) return
+    const all = (k: string) => q.getAll(k)
+    if (all('collection').length) setSelectedCollections(all('collection'))
+    if (all('category').length) setSelectedCategories(all('category'))
+    if (all('style').length) setSelectedStyles(all('style'))
+    if (all('language').length) setSelectedLanguages(all('language'))
+    const author = q.get('author')
+    if (author) setSelectedAuthor(author)
+  }, [])
 
   // Close expanded cards on click outside
   useEffect(() => {
