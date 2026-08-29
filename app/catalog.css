@@ -278,6 +278,13 @@
 .v2-card-reveal {
   opacity: 0;
   animation: cardFadeUp 0.4s ease forwards;
+  /* Every family is in the DOM at once, so the browser laid out all 207 cards
+     and therefore counted all 207 webfonts as used — scrolling a third of the
+     list fetched the whole 16MB. Skipping layout for what is off-screen means
+     a font is fetched when its card is actually near the viewport. The browser
+     remembers each card's measured height, so the scrollbar stays put. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
 }
 
 

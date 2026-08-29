@@ -278,8 +278,8 @@
 @font-face{font-family:"IntraNet-26892a__v_97ff21";src:url("/fonts/preview/IntraNetRegular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Thunder-13a7b4";src:url("/fonts/Thunder-VF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Thunder-13a7b4__v_0a0abb";src:url("/fonts/Thunder-VF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Libertinus Sans-0dac2d";src:url("/fonts/preview/LibertinusSans-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
-@font-face{font-family:"Libertinus Sans-0dac2d__v_0ed2a3";src:url("/fonts/preview/LibertinusSans-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Libertinus Sans-0dac2d";src:url("/fonts/LibertinusSans-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Libertinus Sans-0dac2d__v_0ed2a3";src:url("/fonts/LibertinusSans-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
 @font-face{font-family:"Libertinus Sans-0dac2d";src:url("/fonts/LibertinusSans-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Libertinus Sans-0dac2d__v_2b006b";src:url("/fonts/LibertinusSans-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Libertinus Sans-0dac2d";src:url("/fonts/LibertinusSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -318,14 +318,14 @@
 @font-face{font-family:"Gap Sans-9bb8cf__v_34e1a3";src:url("/fonts/preview/Tape stolen 2.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Gap Sans-9bb8cf";src:url("/fonts/Tape stolen 1.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Gap Sans-9bb8cf__v_fffb68";src:url("/fonts/Tape stolen 1.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Handjet-8c83e7";src:url("/fonts/preview/Handjet[EGRD,ESHP,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Handjet-8c83e7__v_321eb8";src:url("/fonts/preview/Handjet[EGRD,ESHP,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Bagel Fat One-5d0604";src:url("/fonts/preview/BagelFatOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Bagel Fat One-5d0604__v_7c4a6e";src:url("/fonts/preview/BagelFatOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Handjet-8c83e7";src:url("/fonts/Handjet[EGRD,ESHP,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Handjet-8c83e7__v_321eb8";src:url("/fonts/Handjet[EGRD,ESHP,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Bagel Fat One-5d0604";src:url("/fonts/BagelFatOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Bagel Fat One-5d0604__v_7c4a6e";src:url("/fonts/BagelFatOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Boxing-76f42e";src:url("/fonts/preview/Boxing-Regular FREE.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Boxing-76f42e__v_d6791b";src:url("/fonts/preview/Boxing-Regular FREE.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Dela Gothic One-73401f";src:url("/fonts/preview/DelaGothicOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Dela Gothic One-73401f__v_86d3ce";src:url("/fonts/preview/DelaGothicOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Dela Gothic One-73401f";src:url("/fonts/DelaGothicOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Dela Gothic One-73401f__v_86d3ce";src:url("/fonts/DelaGothicOne-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Chillax-8fb3e0";src:url("/fonts/preview/Chillax-Variable.woff2") format("woff2");font-weight:200 700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Chillax-8fb3e0__v_1e97af";src:url("/fonts/preview/Chillax-Variable.woff2") format("woff2");font-weight:200 700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Azeret Mono-a1063a";src:url("/fonts/preview/AzeretMonoVF_sm01.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
@@ -756,8 +756,8 @@
 @font-face{font-family:"Opening Hours Mono-30673d__v_dac4a4";src:url("/fonts/preview/OpeningHoursMonoVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Opening Hours Sans-3069c3";src:url("/fonts/preview/OpeningHoursSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Opening Hours Sans-3069c3__v_42cb9c";src:url("/fonts/preview/OpeningHoursSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Pretendard-042cd5";src:url("/fonts/preview/PretendardVariable.woff2") format("woff2");font-weight:45 930;font-style:normal;font-display:swap;}
-@font-face{font-family:"Pretendard-042cd5__v_e41b3a";src:url("/fonts/preview/PretendardVariable.woff2") format("woff2");font-weight:45 930;font-style:normal;font-display:swap;}
+@font-face{font-family:"Pretendard-042cd5";src:url("/fonts/PretendardVariable.woff2") format("woff2");font-weight:45 930;font-style:normal;font-display:swap;}
+@font-face{font-family:"Pretendard-042cd5__v_e41b3a";src:url("/fonts/PretendardVariable.woff2") format("woff2");font-weight:45 930;font-style:normal;font-display:swap;}
 @font-face{font-family:"Zarathustra-fb77c3";src:url("/fonts/preview/Zarathustra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Zarathustra-fb77c3__v_33471b";src:url("/fonts/preview/Zarathustra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Akt-000101";src:url("/fonts/preview/Akt[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}

@@ -63,10 +63,13 @@ SCRIPT_RANGES = {
     "Greek": [(0x0370, 0x03FF)],
     "Vietnamese": [(0x1EA0, 0x1EF9), (0x0300, 0x0341)],
 }
-# Deliberately NOT kept: Korean, Japanese, Chinese, Arabic, Hebrew. Those are
-# where the weight actually was — Pretendard's Korean is 2MB of the 2.01MB file
-# — and a Latin card preview never shows them. Five families are affected; they
-# still ship the full font for the download link and the detail page.
+# A family that carries one of these is left alone entirely — no cut file, the
+# card loads the real thing. They are the heavy ones (Pretendard is 2MB of
+# Korean, Dela Gothic One 1.16MB of Japanese) and cutting them would have been
+# the whole saving, but someone who filters the catalogue to Korean and types
+# Korean must see Korean. Those cards stay slow because the font genuinely holds
+# 14,000 glyphs, which is the honest reason to be slow.
+UNCUTTABLE = {"Korean", "Japanese", "Chinese", "Arabic", "Hebrew"}
 
 
 def preview_charset(families):
@@ -134,6 +137,10 @@ def main():
     for family in families:
         variant = default_variant(family)
         if not variant:
+            continue
+        if set(family.get("languages") or []) & UNCUTTABLE:
+            variant.pop("previewUrl", None)
+            skipped += 1
             continue
         src_url = variant.get("url") or ""
         src = os.path.join(ROOT, "public" + src_url)

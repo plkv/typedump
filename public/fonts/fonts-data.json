@@ -10038,8 +10038,7 @@
           "familyId": "family_libertinus_sans_1757807921611",
           "url": "/fonts/LibertinusSans-Italic.woff2",
           "originalUrl": "/fonts/LibertinusSans-Italic.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/LibertinusSans-Italic.woff2"
+          "format": "woff2"
         },
         {
           "filename": "LibertinusSans-Bold.ttf",
@@ -11001,8 +11000,7 @@
           "familyId": "family_handjet_1757807920894",
           "url": "/fonts/Handjet[EGRD,ESHP,wght].woff2",
           "originalUrl": "/fonts/Handjet[EGRD,ESHP,wght].ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/Handjet[EGRD,ESHP,wght].woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.894Z",
@@ -11158,8 +11156,7 @@
           "familyId": "family_bagel_fat_one_1757807920845",
           "url": "/fonts/BagelFatOne-Regular.woff2",
           "originalUrl": "/fonts/BagelFatOne-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/BagelFatOne-Regular.woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.845Z",
@@ -11293,8 +11290,7 @@
           "familyId": "family_dela_gothic_one_1757807920744",
           "url": "/fonts/DelaGothicOne-Regular.woff2",
           "originalUrl": "/fonts/DelaGothicOne-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/DelaGothicOne-Regular.woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.744Z",
@@ -24319,8 +24315,7 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PretendardVariable.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/PretendardVariable.woff2"
+          "uploadedAt": "2026-05-16T20:00:00.000Z"
         }
       ],
       "altPairs": [
@@ -28002,5 +27997,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-29T21:17:22.244785Z"
+  "lastUpdated": "2026-08-29T21:26:20.972517Z"
 }
