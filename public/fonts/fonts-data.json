@@ -26970,8 +26970,7 @@
       "name": "Aboreto",
       "collection": "Display",
       "styleTags": [
-        "Banded",
-        "Contrast"
+        "Banded"
       ],
       "languages": [
         "Latin"
@@ -27018,7 +27017,7 @@
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
       "updatedAt": "2026-08-29T00:00:00.000Z",
-      "description": "Aboreto is a display face by Dominik Jáger. It is uppercase only, with tall proportions, flared stems and light contrast that give it an engraved, Art Deco feel. It is made for large sizes: titles, posters and logos. Latin and Latin Extended, one weight.",
+      "description": "Aboreto is a display face by Dominik Jáger. It is uppercase only, with tall proportions, flared stems and light contrast that give it an engraved, Art Deco feel. It is made for large sizes: titles, posters and logos, in the spirit of engraved deco capitals like Trajan. Latin and Latin Extended, one weight.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/domija/Aboreto/blob/main/OFL.txt"
@@ -27034,7 +27033,7 @@
       "name": "Valley Sans",
       "collection": "Text",
       "styleTags": [
-        "Neutral"
+        "Humanist"
       ],
       "languages": [
         "Latin"
@@ -27167,7 +27166,7 @@
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
       "updatedAt": "2026-08-29T00:00:00.000Z",
-      "description": "Valley Sans is a neutral grotesque by Helsinki Type Studio (Niklas Ekholm and Lari Mörö). The weight axis runs from thin to black, with a matching italic. Stylistic sets swap in a single-storey g, a single-storey a and alternate K, R and k. Latin and Latin Extended.",
+      "description": "Valley Sans is a humanist sans by Helsinki Type Studio (Niklas Ekholm and Lari Mörö). The weight axis runs from thin to black, with a matching italic. Stylistic sets swap in a single-storey g, a single-storey a and alternate K, R and k. A free alternative to Frutiger or Inter for interfaces and running text. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/HelsinkiTypeStudio/valley-sans/blob/main/OFL.txt"
@@ -27208,7 +27207,7 @@
       "name": "Scoutie Sans",
       "collection": "Text",
       "styleTags": [
-        "Neutral"
+        "Grotesque"
       ],
       "languages": [
         "Latin",
@@ -27400,7 +27399,7 @@
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
       "updatedAt": "2026-08-29T00:00:00.000Z",
-      "description": "Scoutie Sans is a warm humanist sans by Tyler Finck. The weight axis runs from extra light to extra bold, with a true italic. Nine stylistic sets cover a single-storey a and g, a slashed zero, a straight-leg R, an alternate ampersand and more. Latin, Latin Extended and Vietnamese.",
+      "description": "Scoutie Sans is a warm grotesque by Tyler Finck. The weight axis runs from extra light to extra bold, with a true italic. Nine stylistic sets cover a single-storey a and g, a slashed zero, a straight-leg R, an alternate ampersand and more. A free alternative to Helvetica or Inter for interfaces and text. Latin, Latin Extended and Vietnamese.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/sursly/scoutie/blob/main/OFL.txt"
