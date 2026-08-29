@@ -337,12 +337,35 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           <div className="text-author" style={{ marginBottom: 12 }}>About</div>
           <p style={{
             fontFamily: '"Instrument Sans UI", sans-serif',
-            fontSize: 14, fontWeight: 400, lineHeight: 1.6,
+            // 450, not 400: every other word on this page — the labels, the
+            // table values, the buttons — is 500, so body copy at 400 was the
+            // one light thing on the page and read as washed out.
+            fontSize: 14, fontWeight: 450, lineHeight: 1.6,
             color: 'var(--gray-cont-prim)',
             margin: 0,
           }}>
             {family.description || `${family.name} is a ${family.category.join(', ').toLowerCase()} typeface${family.foundry !== 'Unknown' ? ` by ${family.foundry}` : ''}. It includes ${sorted.length} style${sorted.length !== 1 ? 's' : ''}${isVariable ? ' and supports variable font axes' : ''}.`}
           </p>
+          {/* Generated, not stored. The claim used to be a sentence appended to
+              each description by hand, which drifted: 37 families still carried
+              one that no source supported, and the rest named the faces in a
+              different order from the data. Built from `alternativeTo` there is
+              one claim per page and it cannot disagree with the row opposite.
+              Written as a full sentence so the family's own name sits beside
+              the words people search. */}
+          {(family.alternativeTo || []).length > 0 && (
+            <p style={{
+              fontFamily: '"Instrument Sans UI", sans-serif',
+              // 450, not 400: every other word on this page — the labels, the
+            // table values, the buttons — is 500, so body copy at 400 was the
+            // one light thing on the page and read as washed out.
+            fontSize: 14, fontWeight: 450, lineHeight: 1.6,
+              color: 'var(--gray-cont-prim)',
+              margin: '12px 0 0',
+            }}>
+              {family.name} is a free alternative to {listPhrase((family.alternativeTo || []).map(a => a.name))}.
+            </p>
+          )}
         </div>
 
         {/* Right: Details table */}
@@ -370,18 +393,6 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                 family.licenseInfo.url
                   ? <a href={family.licenseInfo.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>{family.licenseInfo.type} ↗</a>
                   : family.licenseInfo.type
-              } />
-            )}
-            {(family.alternativeTo || []).length > 0 && (
-              <InfoRow label="Free alternative to" value={
-                <span>
-                  {(family.alternativeTo || []).map((alt, i, arr) => (
-                    <span key={alt.name} title={alt.gets}>
-                      {alt.name}
-                      {i < arr.length - 1 && ', '}
-                    </span>
-                  ))}
-                </span>
               } />
             )}
             {(family.languages || []).length > 0 && (
@@ -670,6 +681,12 @@ function SliderControl({ label, value, min, max, step, format, onChange, onReset
   )
 }
 
+/** "A", "A and B", "A, B and C" — a list a person would read aloud. */
+function listPhrase(items: string[]) {
+  if (items.length <= 1) return items[0] ?? ''
+  return `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`
+}
+
 // ─── Info row ────────────────────────────────────────────────────────────────
 
 function InfoRow({ label, value }: { label: string; value: React.ReactNode }) {
@@ -678,7 +695,11 @@ function InfoRow({ label, value }: { label: string; value: React.ReactNode }) {
       {/* 124px, not 80: "Free alternative to" is the longest label the table
           carries and at 80 it wrapped to three lines, doubling the row height
           and breaking the rhythm of the ones around it. */}
-      <span className="text-author" style={{ minWidth: 124, flex: 'none' }}>{label}</span>
+      {/* The space after the label is real text, not the flex gap. The gap is
+          drawn, never written, so the two cells ran together when the row was
+          read as text: "Free alternative toSF Pro". That is the exact phrase
+          people search, and a crawler was seeing it welded shut. */}
+      <span className="text-author" style={{ minWidth: 124, flex: 'none' }}>{label}{' '}</span>
       <span className="text-sidebar-title">{value}</span>
     </div>
   )
