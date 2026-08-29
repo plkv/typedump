@@ -120,6 +120,14 @@
   color: var(--v2-active-fg);
 }
 
+/* The primary button had no hover at all — the only control on the page that
+   did not answer the pointer. `--gray-accent-sec` is the token for one step off
+   the accent, and it is defined in both themes, so this lightens in the light
+   theme and darkens in the dark one without a second rule. */
+.v2-button-active:hover {
+  background-color: var(--gray-accent-sec);
+}
+
 .v2-button-inactive {
   background-color: var(--v2-inactive-bg);
   color: var(--v2-inactive-fg);

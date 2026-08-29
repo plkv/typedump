@@ -18,6 +18,21 @@ export function GET() {
   const variable = families.filter(f => f.isVariable || f.variants.some(v => v.isVariable)).length
   const cyrillic = families.filter(f => (f.languages || []).includes('Cyrillic')).length
 
+  // "What can I use instead of <commercial face>" is the question answer engines
+  // are asked about type, so answer it here in those words rather than making
+  // them infer it from the tags. Grouped by target, most-searched first.
+  const replacements = new Map<string, { foundry: string; picks: string[] }>()
+  for (const f of families) {
+    for (const alt of f.alternativeTo || []) {
+      const row = replacements.get(alt.name) ?? { foundry: alt.foundry, picks: [] }
+      row.picks.push(f.name)
+      replacements.set(alt.name, row)
+    }
+  }
+  const alternatives = [...replacements.entries()]
+    .map(([target, { foundry, picks }]) => `- **${target}** (${foundry}) → ${picks.join(', ')}`)
+    .join('\n')
+
   const body = `# typedump
 
 > An index of ${count} free, open-source typefaces. Every font is free to download and use. Each family lists its licence, styles, variable axes and language coverage, and can be previewed in the browser.
@@ -32,6 +47,14 @@ typedump is built and curated by Stas Polyakov (https://plkv.works), a product a
 - Three collections: Text (${byCollection('Text')}, neutral faces for long-form reading), Display (${byCollection('Display')}, readable only at large sizes), Brutal (${byCollection('Brutal')}, experimental and deliberately strange).
 - Categories: Sans (${byCategory('Sans')}), Serif (${byCategory('Serif')}), Script (${byCategory('Script')}), Mono (${byCategory('Mono')}), Pixel (${byCategory('Pixel')}), Semi Serif (${byCategory('Semi Serif')}).
 - Every family carries style tags (e.g. Neutral, Geometry, Transitional, Old Face, Fatface, Tech, Curly) for finding visually similar faces.
+
+## Free alternatives to well-known typefaces
+
+Families here that stand in for a face people usually pay for, cannot embed, or
+have simply seen too much of. Each font's page says what it gives in return —
+axes, languages, italics — since a substitute is only useful if it does the job.
+
+${alternatives}
 
 ## For AI agents and developers
 
