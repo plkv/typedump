@@ -87,6 +87,9 @@ function normalizeFamily(f: Record<string, unknown>): FontFamily {
     licenseInfo: (f.licenseInfo as any) ?? undefined,
     altPairs: Array.isArray(f.altPairs) ? (f.altPairs as [string, string][]) : undefined,
     specialChars: f.specialChars != null ? String(f.specialChars) : undefined,
+    alternativeTo: Array.isArray(f.alternativeTo)
+      ? (f.alternativeTo as FontFamily['alternativeTo'])
+      : undefined,
   }
 }
 

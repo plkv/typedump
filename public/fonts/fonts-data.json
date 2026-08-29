@@ -221,7 +221,39 @@
           "ss08"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "SF Pro",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "wght 100–900, Cyrillic, free to embed"
+        },
+        {
+          "name": "Roboto",
+          "foundry": "Google",
+          "motive": "overused",
+          "gets": "wght 100–900, Cyrillic, 24 alternate pairs"
+        },
+        {
+          "name": "Söhne",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "wght 100–900, Cyrillic"
+        },
+        {
+          "name": "Neue Montreal",
+          "foundry": "Pangram Pangram",
+          "motive": "paid",
+          "gets": "wght 100–900, Cyrillic"
+        },
+        {
+          "name": "ABC Diatype",
+          "foundry": "Dinamo",
+          "motive": "paid",
+          "gets": "wght 100–900 in one variable file, Cyrillic, 24 alternate pairs"
+        }
+      ]
     },
     {
       "name": "Boldonse",
@@ -610,7 +642,21 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "SF Mono",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "wght 100–900, Cyrillic"
+        },
+        {
+          "name": "Berkeley Mono",
+          "foundry": "Berkeley Graphics",
+          "motive": "paid",
+          "gets": "wght 100–900, Cyrillic, 24 alternate pairs"
+        }
+      ]
     },
     {
       "name": "Host Grotesk",
@@ -825,7 +871,15 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "Montserrat",
+          "foundry": "Julieta Ulanovsky",
+          "motive": "overused",
+          "gets": "uniform letter width across weights, wght 300–800, italics"
+        }
+      ]
     },
     {
       "name": "JetBrains Mono",
@@ -964,7 +1018,27 @@
         "Code / Data"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "SF Mono",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "Cyrillic, Greek, Vietnamese, italics"
+        },
+        {
+          "name": "Consolas",
+          "foundry": "Microsoft",
+          "motive": "unlicensable",
+          "gets": "variable weight, italics, four writing systems"
+        },
+        {
+          "name": "Berkeley Mono",
+          "foundry": "Berkeley Graphics",
+          "motive": "paid",
+          "gets": "Cyrillic, Greek and Vietnamese, wght 100–800, italics"
+        }
+      ]
     },
     {
       "name": "Open Sauce Sans",
@@ -1426,7 +1500,21 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "Poppins",
+          "foundry": "Indian Type Foundry",
+          "motive": "overused",
+          "gets": "italics, Vietnamese, wght 200–800"
+        },
+        {
+          "name": "Circular",
+          "foundry": "Lineto",
+          "motive": "paid",
+          "gets": "wght 200–800, italics, Vietnamese"
+        }
+      ]
     },
     {
       "name": "Switzer",
@@ -1542,7 +1630,15 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "alternativeTo": [
+        {
+          "name": "Suisse Int'l",
+          "foundry": "Swiss Typefaces",
+          "motive": "paid",
+          "gets": "wght 100–900 with italics, variable"
+        }
+      ]
     },
     {
       "name": "Supreme",
@@ -1654,7 +1750,15 @@
         "Tech"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "alternativeTo": [
+        {
+          "name": "Calibre",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "wght 100–800, italics"
+        }
+      ]
     },
     {
       "name": "Schibsted Grotesk",
@@ -1781,7 +1885,15 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "Univers",
+          "foundry": "Linotype",
+          "motive": "paid",
+          "gets": "variable weight with italics"
+        }
+      ]
     },
     {
       "name": "Space Grotesk",
@@ -1979,7 +2091,15 @@
           "ss04"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "Apercu",
+          "foundry": "Colophon",
+          "motive": "paid",
+          "gets": "Vietnamese support and 24 alternate pairs"
+        }
+      ]
     },
     {
       "name": "Ronzino",
@@ -2401,7 +2521,21 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%¡¿€£¥¢“”‘’–—"
+      "specialChars": "&@#%¡¿€£¥¢“”‘’–—",
+      "alternativeTo": [
+        {
+          "name": "Montserrat",
+          "foundry": "Julieta Ulanovsky",
+          "motive": "overused",
+          "gets": "wght 100–900"
+        },
+        {
+          "name": "Poppins",
+          "foundry": "Indian Type Foundry",
+          "motive": "overused",
+          "gets": "wght 100–900 in one file"
+        }
+      ]
     },
     {
       "name": "Satoshi",
@@ -2661,7 +2795,15 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "alternativeTo": [
+        {
+          "name": "Söhne",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "wght 300–900 with true italics"
+        }
+      ]
     },
     {
       "name": "Departure Mono",
@@ -2873,7 +3015,7 @@
       "foundry": "URW",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fontesk.com/century-schoolbook-typeface/",
+      "downloadLink": "https://github.com/ArtifexSoftware/urw-base35-fonts",
       "id": "family_new_century_schoolbook__c095__1757807924976",
       "variants": [
         {
@@ -2981,7 +3123,15 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "alternativeTo": [
+        {
+          "name": "Century Schoolbook",
+          "foundry": "ATF / Monotype",
+          "motive": "unlicensable",
+          "gets": "Cyrillic, Greek, italics"
+        }
+      ]
     },
     {
       "name": "Mona Sans",
@@ -3285,7 +3435,15 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»",
+      "alternativeTo": [
+        {
+          "name": "Söhne",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "wdth 75–125 and wght 200–900, with italics"
+        }
+      ]
     },
     {
       "name": "Overused Grotesk",
@@ -3546,7 +3704,15 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®¶†‡•¡¿€£¥₽¢°±×÷→←↑↓«"
+      "specialChars": "&@#%‰§©®¶†‡•¡¿€£¥₽¢°±×÷→←↑↓«",
+      "alternativeTo": [
+        {
+          "name": "Helvetica",
+          "foundry": "Linotype / Monotype",
+          "motive": "unlicensable",
+          "gets": "a slant axis and wght 300–900 — Helvetica has no variable version"
+        }
+      ]
     },
     {
       "name": "FA-1",
@@ -4521,7 +4687,15 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "alternativeTo": [
+        {
+          "name": "Calibre",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "wght 200–700, italics"
+        }
+      ]
     },
     {
       "name": "LCT Iptex",
@@ -4955,7 +5129,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.967Z",
       "updatedAt": "2025-09-13T23:58:44.015Z",
-      "downloadLink": "https://uncut.wtf/sans-serif/dindong/",
+      "downloadLink": "https://gitlab.com/Clarasambot/dindong",
       "description": "DINdong is a reworking of DIN 1451 Breitschrift after Peter Wiegel's digitization, created by Clara Sambot with inclusive and non-binary glyph features. It retains the functional, industrial character of the classic German standards typeface while expanding its cultural scope for contemporary use.",
       "licenseInfo": {
         "type": "Free for commercial use",
@@ -6580,7 +6754,15 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "alternativeTo": [
+        {
+          "name": "Operator Mono",
+          "foundry": "Hoefler & Co.",
+          "motive": "paid",
+          "gets": "true italics and 24 alternate pairs"
+        }
+      ]
     },
     {
       "name": "Comico",
@@ -9155,7 +9337,15 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "alternativeTo": [
+        {
+          "name": "Futura",
+          "foundry": "Bauer / Paratype",
+          "motive": "paid",
+          "gets": "Cyrillic and true italics"
+        }
+      ]
     },
     {
       "name": "Basteleur",
@@ -9905,7 +10095,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.543Z",
       "updatedAt": "2025-09-13T23:58:41.599Z",
-      "downloadLink": "https://fonts.google.com/specimen/Cossette+Titre",
+      "downloadLink": "https://github.com/googlefonts/cossette-fonts",
       "description": "Cossette Titre is a condensed grotesque display typeface created by Cossette Communication, featuring a classic grotesque structure with a distinctive subtle inverted contrast. Designed to work as a tight-packed headline companion to Cossette Texte, it maximizes brand impact in constrained spaces.",
       "licenseInfo": {
         "type": "OFL",
@@ -10075,7 +10265,7 @@
       "foundry": "Astigmatic (AOETI)",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Ultra",
+      "downloadLink": "https://github.com/googlefonts/googlefontdirectory-hg/tree/master/apache/ultra",
       "id": "family_ultra_1757807921366",
       "variants": [
         {
@@ -10286,7 +10476,15 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "alternativeTo": [
+        {
+          "name": "Baskerville",
+          "foundry": "Monotype",
+          "motive": "paid",
+          "gets": "italics, free"
+        }
+      ]
     },
     {
       "name": "enjoy please 3",
@@ -10562,7 +10760,7 @@
       "foundry": "unfun.de",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://open-foundry.com/fonts/gap_sans_bold",
+      "downloadLink": "https://github.com/Interstices-/GapSans",
       "id": "family_gap_sans_1757807920945",
       "variants": [
         {
@@ -10857,7 +11055,7 @@
       "foundry": "Kyungwon Jang, JAMO",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Bagel+Fat+One",
+      "downloadLink": "https://github.com/JAMO-TYPEFACE/BagelFat",
       "id": "family_bagel_fat_one_1757807920845",
       "variants": [
         {
@@ -10981,7 +11179,7 @@
       "foundry": "artakana",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Dela+Gothic+One",
+      "downloadLink": "https://github.com/syakuzen/DelaGothic",
       "id": "family_dela_gothic_one_1757807920744",
       "variants": [
         {
@@ -11230,7 +11428,7 @@
       "foundry": "Martin Vácha, Displaay",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Azeret+Mono",
+      "downloadLink": "https://github.com/displaay/Azeret",
       "id": "family_azeret_mono_1757807920641",
       "variants": [
         {
@@ -11558,7 +11756,7 @@
       "foundry": "Rodrigo Fuenzalida",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Freeman",
+      "downloadLink": "https://github.com/rfuenzalida/Freeman",
       "id": "family_freeman_1757807920536",
       "variants": [
         {
@@ -13678,7 +13876,7 @@
       "foundry": "Robert E. Leuschke",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Carattere",
+      "downloadLink": "https://github.com/googlefonts/carattere",
       "id": "family_carattere_1757807919677",
       "variants": [
         {
@@ -14162,7 +14360,21 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷→←↑↓«»“”"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷→←↑↓«»“”",
+      "alternativeTo": [
+        {
+          "name": "Inter",
+          "foundry": "Rasmus Andersson",
+          "motive": "overused",
+          "gets": "a width axis plus italics and 24 alternate pairs"
+        },
+        {
+          "name": "ABC Diatype",
+          "foundry": "Dinamo",
+          "motive": "paid",
+          "gets": "a width axis (75–100) as well as weight, plus italics"
+        }
+      ]
     },
     {
       "name": "Milkman",
@@ -14239,7 +14451,7 @@
       "foundry": "Liza Dushnota",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://uncut.wtf/display/saint/",
+      "downloadLink": "https://www.behance.net/gallery/150260489/Saint-Free-Display-Typeface-Free-font-Typography",
       "id": "family_saint_1757807919410",
       "variants": [
         {
@@ -14294,7 +14506,7 @@
       "foundry": "Leonit Gashi",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://uncut.wtf/display/kulture-type/",
+      "downloadLink": "https://www.behance.net/gallery/193553069/Kulture-Grotesk-Typeface",
       "id": "family_kultur__1757807919360",
       "variants": [
         {
@@ -15853,7 +16065,15 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "alternativeTo": [
+        {
+          "name": "Cooper Black",
+          "foundry": "Monotype",
+          "motive": "paid",
+          "gets": "the full weight range and italics, not just the Black"
+        }
+      ]
     },
     {
       "name": "Reglo",
@@ -17360,7 +17580,15 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "alternativeTo": [
+        {
+          "name": "Times New Roman",
+          "foundry": "Monotype",
+          "motive": "unlicensable",
+          "gets": "Cyrillic and Greek, italics"
+        }
+      ]
     },
     {
       "name": "Louise",
@@ -17809,7 +18037,7 @@
       "foundry": "Vernon Adams",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Oswald",
+      "downloadLink": "https://github.com/googlefonts/OswaldFont",
       "id": "family_oswald_1757807917476",
       "variants": [
         {
@@ -17866,7 +18094,15 @@
         "Brand Headline"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "alternativeTo": [
+        {
+          "name": "DIN",
+          "foundry": "Monotype",
+          "motive": "paid",
+          "gets": "Cyrillic and Vietnamese, wght 200–700"
+        }
+      ]
     },
     {
       "name": "Montagu Slab",
@@ -17978,7 +18214,7 @@
       "foundry": "Riccardo De Franceschi, Sorkin Type Co.",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Vampiro+One",
+      "downloadLink": "https://github.com/SorkinType/Vampiro",
       "id": "family_vampiro_one_1757807917376",
       "variants": [
         {
@@ -18171,7 +18407,7 @@
       "foundry": "A&O",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Ranga",
+      "downloadLink": "https://github.com/googlefonts/Ranga",
       "id": "family_ranga_1757807917224",
       "variants": [
         {
@@ -18248,7 +18484,7 @@
       "foundry": "Dan Rhatigan",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Astloch",
+      "downloadLink": "https://github.com/googlefonts/astloch",
       "id": "family_astloch_1757807917161",
       "variants": [
         {
@@ -19233,7 +19469,7 @@
       ],
       "createdAt": "2025-09-13T23:58:36.836Z",
       "updatedAt": "2025-09-13T23:58:36.885Z",
-      "downloadLink": "https://uncut.wtf/display/granturismo/",
+      "downloadLink": "https://nathanlaurent.github.io/granturismo.html",
       "description": "Granturismo is a dynamic variable display family by Nathan Laurent, inspired by the excitement of speed and sound with variable reverse contrast that shifts its personality across weights. Its seven cuts — including variable — give designers a bold, striking voice for posters, headlines, and album artwork demanding impact.",
       "licenseInfo": {
         "type": "OFL",
@@ -20784,7 +21020,27 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«"
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«",
+      "alternativeTo": [
+        {
+          "name": "Gotham",
+          "foundry": "Hoefler & Co.",
+          "motive": "paid",
+          "gets": "wght 300–900 in one variable file"
+        },
+        {
+          "name": "Proxima Nova",
+          "foundry": "Mark Simonson",
+          "motive": "paid",
+          "gets": "variable weight instead of Proxima's per-weight webfont bill"
+        },
+        {
+          "name": "Circular",
+          "foundry": "Lineto",
+          "motive": "paid",
+          "gets": "wght 300–900 variable with italics"
+        }
+      ]
     },
     {
       "name": "Frick",
@@ -21039,7 +21295,7 @@
       "foundry": "Jeremy Shellhorn",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/nationalparktypeface/NationalPark",
+      "downloadLink": "https://github.com/benhoepner/National-Park",
       "sourceUrl": "https://github.com/nationalparktypeface/NationalPark",
       "licenseInfo": {
         "type": "OFL",
@@ -21177,7 +21433,8 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%•¡¿€£«»’—",
-      "description": "Paragon is a revival by Cédric Rossignol-Brunet under his Fond de riz label. It brings back the 1935 newspaper serif Chauncey H. Griffith cut for Linotype, whose thin strokes were designed to survive heavy inking at small sizes. Free under the Open Font License 1.1."
+      "description": "Paragon is a revival by Cédric Rossignol-Brunet under his Fond de riz label. It brings back the 1935 newspaper serif Chauncey H. Griffith cut for Linotype, whose thin strokes were designed to survive heavy inking at small sizes. Free under the Open Font License 1.1.",
+      "downloadLink": "https://fonderiz.fr/paragon/"
     },
     {
       "name": "P-ACR-AGON",
@@ -21218,7 +21475,8 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%•¡¿€£«»’",
-      "description": "P-ACR-AGON is the ACR cut of Paragon by Cédric Rossignol-Brunet under his Fond de riz label. Inspired by Phil Baines' You Can Read Me, it pushes the letters toward the edge of machine readability while a person can still read them in short texts. Free under the Open Font License 1.1."
+      "description": "P-ACR-AGON is the ACR cut of Paragon by Cédric Rossignol-Brunet under his Fond de riz label. Inspired by Phil Baines' You Can Read Me, it pushes the letters toward the edge of machine readability while a person can still read them in short texts. Free under the Open Font License 1.1.",
+      "downloadLink": "https://fonderiz.fr/paragon/"
     },
     {
       "name": "MuseoModerno",
@@ -21660,7 +21918,7 @@
       "foundry": "Olivia King",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/LivingOS/Inclusive-Sans",
+      "downloadLink": "https://github.com/LivKing/Inclusive-Sans",
       "sourceUrl": "https://github.com/LivingOS/Inclusive-Sans",
       "licenseInfo": {
         "type": "OFL",
@@ -21970,7 +22228,7 @@
       "foundry": "The League of Moveable Type",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.theleagueofmoveabletype.com/league-script-number-one",
+      "downloadLink": "https://github.com/theleagueof/league-script-number-one",
       "sourceUrl": "https://github.com/theleagueof/league-script-number-one",
       "licenseInfo": {
         "type": "OFL",
@@ -22248,7 +22506,7 @@
       "foundry": "Jean-Baptiste Levée",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Spectral",
+      "downloadLink": "https://github.com/productiontype/Spectral",
       "sourceUrl": "https://github.com/productiontype/Spectral",
       "licenseInfo": {
         "type": "OFL",
@@ -22582,7 +22840,21 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Spectral is a text serif by Production Type, designed by Jean-Baptiste Levée. Google commissioned it for the screen, first for Google Docs, and it stays even and readable in long text. It comes in seven weights with roman, italic and small caps, covering more than 130 languages including Vietnamese. Free under the Open Font License 1.1. A free alternative to Freight Text or Tiempos for editorial text."
+      "description": "Spectral is a text serif by Production Type, designed by Jean-Baptiste Levée. Google commissioned it for the screen, first for Google Docs, and it stays even and readable in long text. It comes in seven weights with roman, italic and small caps, covering more than 130 languages including Vietnamese. Free under the Open Font License 1.1. A free alternative to Freight Text or Tiempos for editorial text.",
+      "alternativeTo": [
+        {
+          "name": "Tiempos Text",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "italics and 24 alternate pairs"
+        },
+        {
+          "name": "Freight Text",
+          "foundry": "GarageFonts",
+          "motive": "paid",
+          "gets": "italics, 24 alternate pairs"
+        }
+      ]
     },
     {
       "name": "Affigere",
@@ -22897,7 +23169,7 @@
       "foundry": "Rodrigo Fuenzalida",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fonts.google.com/specimen/Instrument+Serif",
+      "downloadLink": "https://github.com/Instrument/instrument-serif",
       "sourceUrl": "https://github.com/Instrument-Type/InstrumentSerif",
       "licenseInfo": {
         "type": "OFL",
@@ -23039,7 +23311,21 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–",
-      "description": "Instrument Serif is a condensed display serif by Rodrigo Fuenzalida with the agency Instrument. It gives old-style shapes a contemporary edge and is built for large sizes. It ships in regular and italic, 374 glyphs across 86 languages. Free under the Open Font License 1.1. A free alternative to Portrait, Canela or Domaine for display headlines."
+      "description": "Instrument Serif is a condensed display serif by Rodrigo Fuenzalida with the agency Instrument. It gives old-style shapes a contemporary edge and is built for large sizes. It ships in regular and italic, 374 glyphs across 86 languages. Free under the Open Font License 1.1. A free alternative to Portrait, Canela or Domaine for display headlines.",
+      "alternativeTo": [
+        {
+          "name": "Canela",
+          "foundry": "Commercial Type",
+          "motive": "paid",
+          "gets": "italics and 24 alternate pairs, free"
+        },
+        {
+          "name": "Portrait",
+          "foundry": "Commercial Type",
+          "motive": "paid",
+          "gets": "italics, free to embed"
+        }
+      ]
     },
     {
       "name": "Junicode",
@@ -23964,7 +24250,21 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Pretendard is a system-UI alternative by Kil Hyung-jin. It is refined from Inter, Source Han Sans and M PLUS 1p so that it looks natural across platforms without extra tuning. It covers Latin, Korean Hangul and Japanese kana in nine weights plus a variable weight axis. Free under the Open Font License. A free alternative to Helvetica or Inter for interface and text work."
+      "description": "Pretendard is a system-UI alternative by Kil Hyung-jin. It is refined from Inter, Source Han Sans and M PLUS 1p so that it looks natural across platforms without extra tuning. It covers Latin, Korean Hangul and Japanese kana in nine weights plus a variable weight axis. Free under the Open Font License. A free alternative to Helvetica or Inter for interface and text work.",
+      "alternativeTo": [
+        {
+          "name": "Inter",
+          "foundry": "Rasmus Andersson",
+          "motive": "overused",
+          "gets": "wght 45–930 and full Korean"
+        },
+        {
+          "name": "SF Pro",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "wght 45–930 and full Korean"
+        }
+      ]
     },
     {
       "name": "Zarathustra",
@@ -23982,7 +24282,7 @@
       "foundry": "Lorene Ceccon",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://uncut.wtf/serif/zarathustra/",
+      "downloadLink": "https://github.com/lorene-cn/zarathustra-typeface",
       "sourceUrl": "https://uncut.wtf/serif/zarathustra/",
       "licenseInfo": {
         "type": "OFL",
@@ -25435,7 +25735,15 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "alternativeTo": [
+        {
+          "name": "Eurostile",
+          "foundry": "Nebiolo / Linotype",
+          "motive": "paid",
+          "gets": "wdth 50–150 and wght 100–900 — every width in one file"
+        }
+      ]
     },
     {
       "name": "Open Runde",
@@ -25548,7 +25856,15 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "SF Pro Rounded",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "Cyrillic, Greek and Vietnamese; a licence you can ship"
+        }
+      ]
     },
     {
       "name": "Newsreader",
@@ -25655,7 +25971,21 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "alternativeTo": [
+        {
+          "name": "Tiempos Text",
+          "foundry": "Klim",
+          "motive": "paid",
+          "gets": "an optical-size axis (6–72) plus wght 200–800"
+        },
+        {
+          "name": "Lyon Text",
+          "foundry": "Commercial Type",
+          "motive": "paid",
+          "gets": "optical sizing from 6 to 72"
+        }
+      ]
     },
     {
       "name": "JeanLuc",
@@ -26814,7 +27144,15 @@
         }
       ],
       "altPairs": [],
-      "specialChars": []
+      "specialChars": [],
+      "alternativeTo": [
+        {
+          "name": "Clarendon",
+          "foundry": "Linotype",
+          "motive": "paid",
+          "gets": "a width axis (75–100) and wght 400–900 with italics"
+        }
+      ]
     },
     {
       "name": "Mutern",
@@ -26964,7 +27302,21 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "alternativeTo": [
+        {
+          "name": "Inter",
+          "foundry": "Rasmus Andersson",
+          "motive": "overused",
+          "gets": "three axes — optical size 14–32, width 75–125, weight — and Latin, Cyrillic, Greek, Vietnamese"
+        },
+        {
+          "name": "Roboto",
+          "foundry": "Google",
+          "motive": "overused",
+          "gets": "optical size, width and weight axes, four writing systems"
+        }
+      ]
     },
     {
       "name": "Aboreto",

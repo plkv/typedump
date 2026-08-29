@@ -47,6 +47,15 @@ export interface FontFamily {
   // altPairs: characters that have a stylistic alternate + the feature that swaps it.
   altPairs?: [string, string][]
   specialChars?: string
+  // Well-known faces this family stands in for. `motive` says why someone is
+  // looking: paid (costs money), unlicensable (free to use, not to embed),
+  // overused (free and everywhere). `gets` names what this family does better.
+  alternativeTo?: {
+    name: string
+    foundry: string
+    motive: 'paid' | 'unlicensable' | 'overused'
+    gets: string
+  }[]
   downloadLink?: string
   licenseInfo?: {
     type?: string

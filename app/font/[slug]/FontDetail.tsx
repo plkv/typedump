@@ -372,6 +372,18 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                   : family.licenseInfo.type
               } />
             )}
+            {(family.alternativeTo || []).length > 0 && (
+              <InfoRow label="Free alternative to" value={
+                <span>
+                  {(family.alternativeTo || []).map((alt, i, arr) => (
+                    <span key={alt.name} title={alt.gets}>
+                      {alt.name}
+                      {i < arr.length - 1 && ', '}
+                    </span>
+                  ))}
+                </span>
+              } />
+            )}
             {(family.languages || []).length > 0 && (
               <InfoRow label="Languages" value={
                 <span>
@@ -663,7 +675,10 @@ function SliderControl({ label, value, min, max, step, format, onChange, onReset
 function InfoRow({ label, value }: { label: string; value: React.ReactNode }) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, borderBottom: '1px solid var(--gray-brd-prim)', padding: '10px 0' }}>
-      <span className="text-author" style={{ minWidth: 80 }}>{label}</span>
+      {/* 124px, not 80: "Free alternative to" is the longest label the table
+          carries and at 80 it wrapped to three lines, doubling the row height
+          and breaking the rhythm of the ones around it. */}
+      <span className="text-author" style={{ minWidth: 124, flex: 'none' }}>{label}</span>
       <span className="text-sidebar-title">{value}</span>
     </div>
   )

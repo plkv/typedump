@@ -21,8 +21,15 @@ export async function generateMetadata({ params }: Props) {
   const category = family.category[0] ?? 'font'
   const styleCount = family.variants.length
   const isVariable = family.isVariable || family.variants.some(v => v.isVariable)
-  // Match how people actually search: "<name> font download", "<name> free font".
-  const title = `${family.name} font, free download | typedump`
+  // The faces this one stands in for, most-searched first. "free alternative to
+  // X" and "fonts like X" are the queries; put that wording where it counts.
+  const replaces = (family.alternativeTo ?? []).map(a => a.name)
+
+  // Match how people actually search: "<name> font download", "<name> free font"
+  // — and, when the family answers one, "free alternative to <face>".
+  const title = replaces.length
+    ? `${family.name} font — free alternative to ${replaces[0]} | typedump`
+    : `${family.name} font, free download | typedump`
 
   // Keep the hand-written description as the meta description (it's the best copy
   // we have); only fall back to a generated one, and lead it with search intent.
@@ -33,7 +40,15 @@ export async function generateMetadata({ params }: Props) {
     family.licenseInfo?.type ? `, ${family.licenseInfo.type} licensed` : '',
     `. Preview it in your browser on typedump.`,
   ].join('')
-  const rawDesc = family.description ?? generated
+  // The alternative claim goes FIRST, not last. Descriptions are cut at 160
+  // characters, and the hand-written copy carries this line at the end — so the
+  // one sentence people search for was the one sentence always truncated away.
+  // No name in front: the hand-written description already opens with it, and
+  // repeating it spends characters the 160-limit does not have.
+  const altLead = replaces.length
+    ? `Free alternative to ${replaces.slice(0, 3).join(', ')}. `
+    : ''
+  const rawDesc = altLead + (family.description ?? generated)
   const description = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '…' : rawDesc
 
   const url = `https://www.typedump.com/font/${slug}`
