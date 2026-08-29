@@ -26965,6 +26965,489 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+    },
+    {
+      "name": "Aboreto",
+      "collection": "Display",
+      "styleTags": [
+        "Banded",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Dominik Jáger",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/domija/Aboreto",
+      "id": "family_aboreto_1756400000000",
+      "variants": [
+        {
+          "filename": "Aboreto-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-08-29T00:00:00.000Z",
+          "id": "variant_family_aboreto_1756400000000_1756400000001",
+          "familyId": "family_aboreto_1756400000000",
+          "url": "/fonts/Aboreto-Regular.woff2",
+          "originalUrl": "/fonts/Aboreto-Regular.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-08-29T00:00:00.000Z",
+      "updatedAt": "2026-08-29T00:00:00.000Z",
+      "description": "Aboreto is a display face by Dominik Jáger. It is uppercase only, with tall proportions, flared stems and light contrast that give it an engraved, Art Deco feel. It is made for large sizes: titles, posters and logos. Latin and Latin Extended, one weight.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/domija/Aboreto/blob/main/OFL.txt"
+      },
+      "publishedAt": "2026-08-29",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Valley Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Helsinki Type Studio",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/HelsinkiTypeStudio/valley-sans",
+      "id": "family_valley_sans_1756400010000",
+      "variants": [
+        {
+          "filename": "ValleySans-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Alternate K, R, k",
+            "Single-storey g",
+            "Single-storey a, d"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate K, R, k"
+            },
+            {
+              "tag": "ss02",
+              "title": "Single-storey g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Single-storey a, d"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-08-29T00:00:00.000Z",
+          "id": "variant_family_valley_sans_1756400010000_1756400010001",
+          "familyId": "family_valley_sans_1756400010000",
+          "url": "/fonts/ValleySans-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/ValleySans-VariableFont_wght.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ValleySans-Italic-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Alternate K, R, k",
+            "Single-storey g",
+            "Single-storey a, d"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate K, R, k"
+            },
+            {
+              "tag": "ss02",
+              "title": "Single-storey g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Single-storey a, d"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-08-29T00:00:00.000Z",
+          "id": "variant_family_valley_sans_1756400010000_1756400010002",
+          "familyId": "family_valley_sans_1756400010000",
+          "url": "/fonts/ValleySans-Italic-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/ValleySans-Italic-VariableFont_wght.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-08-29T00:00:00.000Z",
+      "updatedAt": "2026-08-29T00:00:00.000Z",
+      "description": "Valley Sans is a neutral grotesque by Helsinki Type Studio (Niklas Ekholm and Lari Mörö). The weight axis runs from thin to black, with a matching italic. Stylistic sets swap in a single-storey g, a single-storey a and alternate K, R and k. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/HelsinkiTypeStudio/valley-sans/blob/main/OFL.txt"
+      },
+      "publishedAt": "2026-08-29",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": [
+        [
+          "g",
+          "ss02"
+        ],
+        [
+          "a",
+          "ss03"
+        ],
+        [
+          "d",
+          "ss03"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "k",
+          "ss01"
+        ]
+      ]
+    },
+    {
+      "name": "Scoutie Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Sursly",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/sursly/scoutie",
+      "id": "family_scoutie_sans_1756400020000",
+      "variants": [
+        {
+          "filename": "ScoutieSans-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Alternate ampersand",
+            "Underscore with space",
+            "I without crossbars",
+            "R straight leg",
+            "Slashed zero",
+            "Skinny J",
+            "Single-storey g",
+            "Straight y",
+            "Single-storey a"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand"
+            },
+            {
+              "tag": "ss02",
+              "title": "Underscore with space"
+            },
+            {
+              "tag": "ss03",
+              "title": "I without crossbars"
+            },
+            {
+              "tag": "ss04",
+              "title": "R straight leg"
+            },
+            {
+              "tag": "ss05",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss06",
+              "title": "Skinny J"
+            },
+            {
+              "tag": "ss07",
+              "title": "Single-storey g"
+            },
+            {
+              "tag": "ss08",
+              "title": "Straight y"
+            },
+            {
+              "tag": "ss09",
+              "title": "Single-storey a"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-08-29T00:00:00.000Z",
+          "id": "variant_family_scoutie_sans_1756400020000_1756400020001",
+          "familyId": "family_scoutie_sans_1756400020000",
+          "url": "/fonts/ScoutieSans-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/ScoutieSans-VariableFont_wght.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ScoutieSans-Italic-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Alternate ampersand",
+            "Underscore with space",
+            "I without crossbars",
+            "R straight leg",
+            "Slashed zero",
+            "Skinny J",
+            "Single-storey g",
+            "Straight y",
+            "Single-storey a"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand"
+            },
+            {
+              "tag": "ss02",
+              "title": "Underscore with space"
+            },
+            {
+              "tag": "ss03",
+              "title": "I without crossbars"
+            },
+            {
+              "tag": "ss04",
+              "title": "R straight leg"
+            },
+            {
+              "tag": "ss05",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss06",
+              "title": "Skinny J"
+            },
+            {
+              "tag": "ss07",
+              "title": "Single-storey g"
+            },
+            {
+              "tag": "ss08",
+              "title": "Straight y"
+            },
+            {
+              "tag": "ss09",
+              "title": "Single-storey a"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-08-29T00:00:00.000Z",
+          "id": "variant_family_scoutie_sans_1756400020000_1756400020002",
+          "familyId": "family_scoutie_sans_1756400020000",
+          "url": "/fonts/ScoutieSans-Italic-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/ScoutieSans-Italic-VariableFont_wght.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-08-29T00:00:00.000Z",
+      "updatedAt": "2026-08-29T00:00:00.000Z",
+      "description": "Scoutie Sans is a warm humanist sans by Tyler Finck. The weight axis runs from extra light to extra bold, with a true italic. Nine stylistic sets cover a single-storey a and g, a slashed zero, a straight-leg R, an alternate ampersand and more. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/sursly/scoutie/blob/main/OFL.txt"
+      },
+      "publishedAt": "2026-08-29",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": [
+        [
+          "&",
+          "ss01"
+        ],
+        [
+          "_",
+          "ss02"
+        ],
+        [
+          "I",
+          "ss03"
+        ],
+        [
+          "R",
+          "ss04"
+        ],
+        [
+          "0",
+          "ss05"
+        ],
+        [
+          "J",
+          "ss06"
+        ],
+        [
+          "g",
+          "ss07"
+        ],
+        [
+          "y",
+          "ss08"
+        ],
+        [
+          "a",
+          "ss09"
+        ]
+      ]
     }
   ],
   "lastUpdated": "2026-07-16T00:00:00.000Z"

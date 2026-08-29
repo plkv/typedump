@@ -13,13 +13,13 @@ import { execFileSync } from 'node:child_process'
 import { normName, monthsAgoISO, ogImage, fetchText, mapLimit } from './lib.mjs'
 
 import googleFonts from './sources/google-fonts.mjs'
-import github from './sources/github.mjs'
 import fontesk from './sources/fontesk.mjs'
+import bestfreefonts from './sources/bestfreefonts.mjs'
 import collletttivo from './sources/collletttivo.mjs'
 import fontshare from './sources/fontshare.mjs'
 import uncut from './sources/uncut.mjs'
 
-const SOURCES = [googleFonts, github, fontesk, collletttivo, fontshare, uncut]
+const SOURCES = [googleFonts, fontesk, bestfreefonts, collletttivo, fontshare, uncut]
 const MAX_FONTS = 200 // total ceiling, keeps the page light
 const MAX_PER_SOURCE = 40 // no single firehose (Fontesk) may crowd out curated foundries
 

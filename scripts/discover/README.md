@@ -37,7 +37,7 @@ Add or remove a source by editing the `SOURCES` array in `index.mjs`.
 |---|---|---|---|
 | Google Fonts | `metadata/fonts` JSON, `dateAdded` | ✅ real | catch-all; renders live preview on the page |
 | Fontesk | highest-numbered `post-sitemap*.xml` | ⚠️ regen date | commercial-only: each candidate page is checked, `free-for-personal-use` dropped, `free-for-commercial-use`/`ofl-gpl` kept; capped at 40/source |
-| GitHub | search API, two passes | ✅ real | Pass A: repos **created** in window (new projects). Pass B: established repos (stars ≥ 40) whose **latest release** landed in window — date = `published_at`. Denylist strips tools/collections/forks; optional `GITHUB_TOKEN` lifts rate limits |
+| BestFreeFonts | `sitemap.xml`, flat root slugs | ❌ none | curated open-font aggregator; dateless (secondary group); heavy catalog/Google overlap deduped away; capped at 40/source |
 | Collletttivo | `sitemap.xml` `<lastmod>` | ✅ real | small, pristine OFL; quiet since early 2026 |
 | Fontshare | v2 API, `is_new` flag | ❌ none | no reliable date; contributes only when the foundry flags "new" |
 | Uncut.wtf | `fonts.json`, `date` YYMMDD | ⚠️ frozen | dormant since Aug 2024 + intermittent JS firewall; best-effort |
@@ -49,6 +49,8 @@ Add or remove a source by editing the `SOURCES` array in `index.mjs`.
   keeps it from burying the curated foundries; the `/new` page can filter it out.
 - **Uncut, Collletttivo, Fontshare** currently yield little (dormant / dateless).
   The adapters stay in place so they light up when those sites publish again.
+- **GitHub** was dropped: its releases/new-repo passes surfaced mostly tooling,
+  forks and re-releases rather than usable new typefaces — noise, not signal.
 - Sources that were evaluated and rejected as not cheaply scannable: Freefaces
   (client-rendered, no dates), Atipo (stale sitemap), Indestructible Type (tiny,
   undated), Velvetyne (429 rate-limit, no feed), Font Squirrel.
