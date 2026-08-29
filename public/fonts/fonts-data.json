@@ -114,7 +114,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.957Z",
       "updatedAt": "2025-09-14T09:44:09.429Z",
-      "description": "Geist is a clean, modern sans-serif typeface created by Vercel in collaboration with Basement Studio, designed specifically for code and user interfaces. Drawing inspiration from Swiss type traditions, it balances technical precision with contemporary readability, making it equally at home in dashboards, documentation, and developer tools. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Geist is a clean, modern sans-serif typeface created by Vercel in collaboration with Basement Studio, designed specifically for code and user interfaces. Drawing inspiration from Swiss type traditions, it balances technical precision with contemporary readability, making it equally at home in dashboards, documentation, and developer tools. A free alternative to Söhne, Neue Montreal or ABC Diatype.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt"
@@ -503,7 +503,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.905Z",
       "updatedAt": "2025-09-13T23:58:45.952Z",
-      "description": "Geist Mono is the monospaced companion to Geist, created by Vercel and Basement Studio for code editors, terminals, and developer-facing interfaces. It shares the same clean Swiss-inspired aesthetic as its proportional sibling, optimized for fixed-width contexts with strong legibility at small sizes. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
+      "description": "Geist Mono is the monospaced companion to Geist, created by Vercel and Basement Studio for code editors, terminals, and developer-facing interfaces. It shares the same clean Swiss-inspired aesthetic as its proportional sibling, optimized for fixed-width contexts with strong legibility at small sizes. A free alternative to Berkeley Mono or SF Mono.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt"
@@ -954,7 +954,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.777Z",
       "updatedAt": "2025-09-13T23:58:45.836Z",
-      "description": "JetBrains Mono is a free, open-source monospaced typeface designed specifically for developers by the creators of JetBrains IDEs. Its letterforms are crafted for reduced eye strain in long coding sessions, with increased letter height, wider characters, and a large x-height that make code structure immediately legible. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
+      "description": "JetBrains Mono is a free, open-source monospaced typeface designed specifically for developers by the creators of JetBrains IDEs. Its letterforms are crafted for reduced eye strain in long coding sessions, with increased letter height, wider characters, and a large x-height that make code structure immediately legible. The most-cited free alternative to SF Mono, Berkeley Mono and Consolas.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt"
@@ -1319,7 +1319,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.608Z",
       "updatedAt": "2025-09-13T23:58:45.663Z",
-      "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work. A free alternative to Futura or Circular for brand and interface work.",
+      "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work. A free alternative to Circular or Söhne for interface and brand work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/tokotype/PlusJakartaSans"
@@ -1532,7 +1532,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.551Z",
       "updatedAt": "2025-09-13T23:58:45.604Z",
-      "description": "Switzer is a neo-grotesque Latin typeface originally released as Volkart at the Indian Type Foundry in 2015, then renamed and moved to Fontshare in 2021. Classic and timeless in character, it combines legibility with lively details and a slightly rough texture that keeps it from feeling sterile. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Switzer is a neo-grotesque Latin typeface originally released as Volkart at the Indian Type Foundry in 2015, then renamed and moved to Fontshare in 2021. Classic and timeless in character, it combines legibility with lively details and a slightly rough texture that keeps it from feeling sterile. A free alternative to Suisse Int'l.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/switzer"
@@ -1643,7 +1643,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.492Z",
       "updatedAt": "2025-09-13T23:58:45.547Z",
-      "description": "Supreme is a refined sans-serif typeface designed by Ilya Naumoff and Jérémie Hornus, originally released as Screen Sans at the Indian Type Foundry in 2016. Its clean, contemporary letterforms lean tech-forward while remaining readable across a wide range of sizes, making it effective for digital products and branding. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Supreme is a refined sans-serif typeface designed by Ilya Naumoff and Jérémie Hornus, originally released as Screen Sans at the Indian Type Foundry in 2016. Its clean, contemporary letterforms lean tech-forward while remaining readable across a wide range of sizes, making it effective for digital products and branding. A free alternative to Calibre or Acumin.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/supreme"
@@ -1771,7 +1771,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.434Z",
       "updatedAt": "2025-09-13T23:58:45.489Z",
-      "description": "Schibsted Grotesk is a digital-first sans-serif developed by Bakken & Bæck for Schibsted, the Scandinavian media company. Taking cues from Schibsted's print heritage and digital identity, it's calibrated for UI and editorial use across a range of weights, covering the extensive Underware Latin Plus character set. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Schibsted Grotesk is a digital-first sans-serif developed by Bakken & Bæck for Schibsted, the Scandinavian media company. Taking cues from Schibsted's print heritage and digital identity, it's calibrated for UI and editorial use across a range of weights, covering the extensive Underware Latin Plus character set. A free alternative to Univers or Helvetica Now.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/schibsted/schibsted-grotesk"
@@ -1871,7 +1871,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.384Z",
       "updatedAt": "2025-09-13T23:58:45.430Z",
-      "description": "Space Grotesk is a proportional sans-serif designed by Florian Karsten in 2018 as a derivative of Colophon Foundry's fixed-width Space Mono. It translates the monospaced family's techno-grotesque character into a proportional workhorse, retaining Space Mono's inktrap details and idiosyncratic geometry while gaining everyday versatility. A free alternative to Eurostile for tech and display.",
+      "description": "Space Grotesk is a proportional sans-serif designed by Florian Karsten in 2018 as a derivative of Colophon Foundry's fixed-width Space Mono. It translates the monospaced family's techno-grotesque character into a proportional workhorse, retaining Space Mono's inktrap details and idiosyncratic geometry while gaining everyday versatility. A free alternative to Apercu or Neue Montreal.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/floriankarsten/space-grotesk"
@@ -2370,7 +2370,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.253Z",
       "updatedAt": "2025-09-13T23:58:45.300Z",
-      "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use. A free alternative to Futura or Circular for brand and interface work.",
+      "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use. A free alternative to Poppins or Gotham for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://fonts.google.com/specimen/Outfit"
@@ -2554,7 +2554,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.184Z",
       "updatedAt": "2025-09-13T23:58:45.250Z",
-      "description": "Satoshi is a Swiss-style modernist sans from the Indian Type Foundry's Fontshare platform, characterized by elegant rounded shapes playing against sharp angular details. Its double-storied 'a' and 'g' with single-storey alternates give it typographic richness that works in branding, editorial, and poster design. A free alternative to Futura or Circular for brand and interface work.",
+      "description": "Satoshi is a Swiss-style modernist sans from the Indian Type Foundry's Fontshare platform, characterized by elegant rounded shapes playing against sharp angular details. Its double-storied 'a' and 'g' with single-storey alternates give it typographic richness that works in branding, editorial, and poster design. A free alternative to Söhne or Circular.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/satoshi"
@@ -2843,7 +2843,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.069Z",
       "updatedAt": "2025-09-13T23:58:45.127Z",
-      "description": "Zodiak is a high-contrast display serif from the Indian Type Foundry's Fontshare platform, originally released as Claire in 2020 before being renamed. Its dramatic thick-thin transitions and bracketed slab-like serifs give it a luxurious editorial presence ideal for magazine headlines, fashion branding, and sophisticated display work. A free alternative to Didot or Bodoni for display and editorial.",
+      "description": "Zodiak is a high-contrast display serif from the Indian Type Foundry's Fontshare platform, originally released as Claire in 2020 before being renamed. Its dramatic thick-thin transitions and bracketed slab-like serifs give it a luxurious editorial presence ideal for magazine headlines, fashion branding, and sophisticated display work.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/zodiak"
@@ -2971,7 +2971,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.976Z",
       "updatedAt": "2025-09-13T23:58:45.066Z",
-      "description": "New Century Schoolbook is a URW digitization of Morris Fuller Benton's landmark 1919 design for the American Type Foundry, created specifically for improved legibility in schoolbooks and print media. Its generous x-height, open counters, and strong stroke contrast have made it a durable workhorse for editorial and academic typesetting. A free alternative to Century Schoolbook for editorial and text.",
+      "description": "New Century Schoolbook is a URW digitization of Morris Fuller Benton's landmark 1919 design for the American Type Foundry, created specifically for improved legibility in schoolbooks and print media. Its generous x-height, open counters, and strong stroke contrast have made it a durable workhorse for editorial and academic typesetting.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://fontesk.com/century-schoolbook-typeface/"
@@ -3178,7 +3178,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.916Z",
       "updatedAt": "2025-09-13T23:58:44.972Z",
-      "description": "Mona Sans is a variable sans-serif designed by GitHub in collaboration with Degarism, inspired by industrial-era grotesques. Released in November 2022, it spans weight, width, and slant axes and includes an optical size axis, making it a powerful, flexible system typeface suited to product, web, and print contexts. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Mona Sans is a variable sans-serif designed by GitHub in collaboration with Degarism, inspired by industrial-era grotesques. Released in November 2022, it spans weight, width, and slant axes and includes an optical size axis, making it a powerful, flexible system typeface suited to product, web, and print contexts. A free near-equivalent to Söhne, with width and weight axes.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/github/mona-sans"
@@ -3439,7 +3439,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.864Z",
       "updatedAt": "2025-09-13T23:58:44.912Z",
-      "description": "Overused Grotesk is an open-source variable sans-serif by RandomMaerks that began as a parody of the ubiquitous Swiss grotesque tradition — imitating Helvetica's most recognizable features — and evolved into a genuine multilingual workhorse. It wears its cynical origins lightly, delivering a familiar neutrality with an honest self-awareness. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "Overused Grotesk is an open-source variable sans-serif by RandomMaerks that began as a parody of the ubiquitous Swiss grotesque tradition — imitating Helvetica's most recognizable features — and evolved into a genuine multilingual workhorse. It wears its cynical origins lightly, delivering a familiar neutrality with an honest self-awareness.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/RandomMaerks/Overused-Grotesk"
@@ -4466,7 +4466,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.272Z",
       "updatedAt": "2025-09-13T23:58:44.330Z",
-      "description": "General Sans is a rationalist sans-serif designed by Frode Helland for the Indian Type Foundry, drawing aesthetic inspiration from 1950s French typography. Its clean, orderly letterforms carry an understated spright that makes it a reliable choice for editorial design, digital products, and corporate identity. A free alternative to Helvetica or Inter for interface and text work.",
+      "description": "General Sans is a rationalist sans-serif designed by Frode Helland for the Indian Type Foundry, drawing aesthetic inspiration from 1950s French typography. Its clean, orderly letterforms carry an understated spright that makes it a reliable choice for editorial design, digital products, and corporate identity. A free alternative to Calibre or Söhne.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/general-sans"
@@ -6473,7 +6473,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.237Z",
       "updatedAt": "2025-09-13T23:58:43.311Z",
-      "description": "Space Mono is a fixed-width typeface designed by Colophon Foundry for Google Design, commissioned for the 2016 refresh of Google Fonts. Its letterforms fuse geometric construction with grotesque details and a hint of 1960s headline aesthetics, making it expressive and distinctive for editorial, creative coding, and tech branding. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
+      "description": "Space Mono is a fixed-width typeface designed by Colophon Foundry for Google Design, commissioned for the 2016 refresh of Google Fonts. Its letterforms fuse geometric construction with grotesque details and a hint of 1960s headline aesthetics, making it expressive and distinctive for editorial, creative coding, and tech branding. A free alternative to Operator Mono when you want personality over neutrality.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/googlefonts/spacemono"
@@ -9100,7 +9100,7 @@
       "createdAt": "2025-09-13T23:58:42.015Z",
       "updatedAt": "2025-09-13T23:58:42.200Z",
       "downloadLink": "https://github.com/indestructible-type/Jost",
-      "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use. A free alternative to Futura or Circular for brand and interface work.",
+      "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use. The free alternative to Futura most often named.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/indestructible-type/Jost"
@@ -10276,7 +10276,7 @@
       "createdAt": "2025-09-13T23:58:41.243Z",
       "updatedAt": "2025-09-13T23:58:41.305Z",
       "downloadLink": "https://github.com/anrt-type/ANRT-Baskervville",
-      "description": "Baskervville is a revival of a transitional typeface by Jacob, the French punchcutter who distributed it from 1815 as 'Baskerwille' — bridging Baskerville's classical forms with Didot's emerging modernity. Developed by a workshop at ANRT in 2017–18, it's a rare document of French typographic history, now available as an open-source webfont. A free alternative to Baskerville for editorial and text.",
+      "description": "Baskervville is a revival of a transitional typeface by Jacob, the French punchcutter who distributed it from 1815 as 'Baskerwille' — bridging Baskerville's classical forms with Didot's emerging modernity. Developed by a workshop at ANRT in 2017–18, it's a rare document of French typographic history, now available as an open-source webfont.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/anrt-type/ANRT-Baskervville"
@@ -15843,7 +15843,7 @@
       ],
       "createdAt": "2025-09-13T23:58:38.571Z",
       "updatedAt": "2025-09-13T23:58:38.768Z",
-      "description": "Cooper is a historically accurate revival of the Cooper typeface series by indestructible type*, meticulously researched from the original designs released by Barnhart Brothers & Spindler in the 1920s. Its organic Art Nouveau curves, inward-bowing stems, and rounded serifs give it a warmth rare in display typography, still legible at text sizes. A free alternative to Cooper Black for posters and logos.",
+      "description": "Cooper is a historically accurate revival of the Cooper typeface series by indestructible type*, meticulously researched from the original designs released by Barnhart Brothers & Spindler in the 1920s. Its organic Art Nouveau curves, inward-bowing stems, and rounded serifs give it a warmth rare in display typography, still legible at text sizes. A historically accurate free revival of Cooper Black.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/indestructible-type/Cooper/"
@@ -17350,7 +17350,7 @@
       ],
       "createdAt": "2025-09-13T23:58:37.674Z",
       "updatedAt": "2025-09-13T23:58:37.748Z",
-      "description": "Times Newer Roman is a typeface by art collective MSCHF, released in 2018, based on the URW Nimbus Roman No. 9 L with characters widened by 5–10% without changing their vertical heights. Originally designed to help students meet page length requirements, it has taken on a life of its own as a commentary on typographic compliance. A free alternative to Times New Roman for editorial and text.",
+      "description": "Times Newer Roman is a typeface by art collective MSCHF, released in 2018, based on the URW Nimbus Roman No. 9 L with characters widened by 5–10% without changing their vertical heights. Originally designed to help students meet page length requirements, it has taken on a life of its own as a commentary on typographic compliance. A free stand-in for Times New Roman, drawn 5-10% wider per character.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://timesnewerroman.com/"
@@ -17856,7 +17856,7 @@
       ],
       "createdAt": "2025-09-13T23:58:37.476Z",
       "updatedAt": "2025-09-13T23:58:37.524Z",
-      "description": "Oswald is a reworking of the classic Alternate Gothic sans-serif style, designed by Vernon Adams and published through Google Fonts. Its condensed proportions, strong weight range, and clean construction make it one of the web's most-used display typefaces — sturdy, impactful, and highly readable at headline scale.",
+      "description": "Oswald is a reworking of the classic Alternate Gothic sans-serif style, designed by Vernon Adams and published through Google Fonts. Its condensed proportions, strong weight range, and clean construction make it one of the web's most-used display typefaces — sturdy, impactful, and highly readable at headline scale. A free alternative to DIN or Bank Gothic where you need condensed caps.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://fonts.google.com/specimen/Oswald"
@@ -20628,7 +20628,7 @@
         "type": "OFL",
         "url": "https://github.com/erikdkennedy/figtree"
       },
-      "description": "Figtree is a simple and friendly geometric sans serif font by Erik D. Kennedy. Designed with variable weight support from Light to Black. A free alternative to Futura or Circular for brand and interface work.",
+      "description": "Figtree is a simple and friendly geometric sans serif font by Erik D. Kennedy. Designed with variable weight support from Light to Black. A free alternative to Circular, Gotham or Proxima Nova.",
       "id": "family_figtree_1778941055167",
       "createdAt": "2026-05-16T14:17:35.166Z",
       "updatedAt": "2026-05-16T14:17:35.166Z",
@@ -21177,7 +21177,7 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%•¡¿€£«»’—",
-      "description": "Paragon is a revival by Cédric Rossignol-Brunet under his Fond de riz label. It brings back the 1935 newspaper serif Chauncey H. Griffith cut for Linotype, whose thin strokes were designed to survive heavy inking at small sizes. Free under the Open Font License 1.1. A free alternative to Times New Roman or Georgia for editorial and text."
+      "description": "Paragon is a revival by Cédric Rossignol-Brunet under his Fond de riz label. It brings back the 1935 newspaper serif Chauncey H. Griffith cut for Linotype, whose thin strokes were designed to survive heavy inking at small sizes. Free under the Open Font License 1.1."
     },
     {
       "name": "P-ACR-AGON",
@@ -22582,7 +22582,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Spectral is a text serif by Production Type, designed by Jean-Baptiste Levée. Google commissioned it for the screen, first for Google Docs, and it stays even and readable in long text. It comes in seven weights with roman, italic and small caps, covering more than 130 languages including Vietnamese. Free under the Open Font License 1.1. A free alternative to Times New Roman or Georgia for editorial and text."
+      "description": "Spectral is a text serif by Production Type, designed by Jean-Baptiste Levée. Google commissioned it for the screen, first for Google Docs, and it stays even and readable in long text. It comes in seven weights with roman, italic and small caps, covering more than 130 languages including Vietnamese. Free under the Open Font License 1.1. A free alternative to Freight Text or Tiempos for editorial text."
     },
     {
       "name": "Affigere",
@@ -23039,7 +23039,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–",
-      "description": "Instrument Serif is a condensed display serif by Rodrigo Fuenzalida with the agency Instrument. It gives old-style shapes a contemporary edge and is built for large sizes. It ships in regular and italic, 374 glyphs across 86 languages. Free under the Open Font License 1.1."
+      "description": "Instrument Serif is a condensed display serif by Rodrigo Fuenzalida with the agency Instrument. It gives old-style shapes a contemporary edge and is built for large sizes. It ships in regular and italic, 374 glyphs across 86 languages. Free under the Open Font License 1.1. A free alternative to Portrait, Canela or Domaine for display headlines."
     },
     {
       "name": "Junicode",
@@ -23230,7 +23230,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
-      "description": "Junicode is a serif by Peter S. Baker made for medievalists and linguists. It follows the Medieval Unicode Font Initiative and is packed with small caps, mark positioning and scholarly characters, so it can set old and specialized texts accurately. It comes in five weights and five widths, with Weight, Width and an Enlarge axis. Free under the Open Font License 1.1. A free alternative to Times New Roman or Georgia for editorial and text."
+      "description": "Junicode is a serif by Peter S. Baker made for medievalists and linguists. It follows the Medieval Unicode Font Initiative and is packed with small caps, mark positioning and scholarly characters, so it can set old and specialized texts accurately. It comes in five weights and five widths, with Weight, Width and an Enlarge axis. Free under the Open Font License 1.1."
     },
     {
       "name": "Luperca",
@@ -25459,7 +25459,7 @@
       "id": "family_open_runde_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
-      "description": "Open Runde is an open-source rounded companion to Inter by Laurids Kern, softening Inter’s contours into approachable, friendly forms while keeping its excellent screen legibility. With four carefully spaced weights (Regular to Bold) and broad Latin, Cyrillic and Greek coverage, it’s built for warm, modern interfaces, product branding and anything that needs a gentle voice. Free under the SIL Open Font License. A free alternative to SF Pro Rounded or Circular for friendly UI and branding.",
+      "description": "Open Runde is an open-source rounded companion to Inter by Laurids Kern, softening Inter’s contours into approachable, friendly forms while keeping its excellent screen legibility. With four carefully spaced weights (Regular to Bold) and broad Latin, Cyrillic and Greek coverage, it’s built for warm, modern interfaces, product branding and anything that needs a gentle voice. Free under the SIL Open Font License. Made as a free alternative to SF Pro Rounded.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/lauridskern/open-runde/blob/main/LICENSE.txt"
@@ -25570,7 +25570,7 @@
       "id": "family_newsreader_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
-      "description": "Newsreader is an open-source text serif from Production Type, drawn by Hugues Gentile for on-screen reading at every size. Two variable axes — weight (200–800) and optical size (6–72) — let it shift from crisp small-text news columns to warm, high-contrast display headings, with a companion italic throughout. Its sturdy, faintly old-style forms and generous ink traps make it a dependable workhorse for editorial interfaces and long reads. Free under the SIL Open Font License. A free alternative to Times New Roman or Georgia for editorial and text.",
+      "description": "Newsreader is an open-source text serif from Production Type, drawn by Hugues Gentile for on-screen reading at every size. Two variable axes — weight (200–800) and optical size (6–72) — let it shift from crisp small-text news columns to warm, high-contrast display headings, with a companion italic throughout. Its sturdy, faintly old-style forms and generous ink traps make it a dependable workhorse for editorial interfaces and long reads. Free under the SIL Open Font License. A free alternative to Lyon Text or Tiempos for editorial text.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/productiontype/NewsReader/blob/master/OFL.txt"
@@ -26546,7 +26546,7 @@
       "id": "family_ovo_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
-      "description": "Ovo is a text serif by Nicole Fally, published by Sorkin Type Co, based on a set of hand-lettered old-style capitals. Its moderate contrast, gentle bracketed serifs and even colour make it a calm, readable choice for body text and understated headings. Free under the SIL Open Font License. A free alternative to Garamond for long-form text.",
+      "description": "Ovo is a text serif by Nicole Fally, published by Sorkin Type Co, based on a set of hand-lettered old-style capitals. Its moderate contrast, gentle bracketed serifs and even colour make it a calm, readable choice for body text and understated headings. Free under the SIL Open Font License.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/googlefonts/Ovo/blob/master/OFL.txt"
@@ -26725,7 +26725,7 @@
       "createdAt": "2026-07-31T14:28:31.819Z",
       "updatedAt": "2026-07-31T14:28:31.819Z",
       "publishedAt": "2026-07-31T14:28:31.819Z",
-      "description": "Besley is a Clarendon-style slab serif by Owen Earl, released through his Indestructible Type foundry. It is named after Robert Besley, who cut the original Clarendon in 1845, and builds that model out into a full family with weights from Regular to Black, matching italics, and a variable width axis. The bracketed slab serifs and even color let it hold up in running text as well as in headlines. A free alternative to Rockwell or Clarendon for editorial and UI.",
+      "description": "Besley is a Clarendon-style slab serif by Owen Earl, released through his Indestructible Type foundry. It is named after Robert Besley, who cut the original Clarendon in 1845, and builds that model out into a full family with weights from Regular to Black, matching italics, and a variable width axis. The bracketed slab serifs and even color let it hold up in running text as well as in headlines.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/indestructible-type/Besley/blob/master/OFL.txt"
