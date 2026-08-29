@@ -114,7 +114,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.957Z",
       "updatedAt": "2025-09-14T09:44:09.429Z",
-      "description": "Geist is a clean, modern sans-serif typeface created by Vercel in collaboration with Basement Studio, designed specifically for code and user interfaces. Drawing inspiration from Swiss type traditions, it balances technical precision with contemporary readability, making it equally at home in dashboards, documentation, and developer tools.",
+      "description": "Geist is a clean, modern sans-serif typeface created by Vercel in collaboration with Basement Studio, designed specifically for code and user interfaces. Drawing inspiration from Swiss type traditions, it balances technical precision with contemporary readability, making it equally at home in dashboards, documentation, and developer tools. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt"
@@ -503,7 +503,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.905Z",
       "updatedAt": "2025-09-13T23:58:45.952Z",
-      "description": "Geist Mono is the monospaced companion to Geist, created by Vercel and Basement Studio for code editors, terminals, and developer-facing interfaces. It shares the same clean Swiss-inspired aesthetic as its proportional sibling, optimized for fixed-width contexts with strong legibility at small sizes.",
+      "description": "Geist Mono is the monospaced companion to Geist, created by Vercel and Basement Studio for code editors, terminals, and developer-facing interfaces. It shares the same clean Swiss-inspired aesthetic as its proportional sibling, optimized for fixed-width contexts with strong legibility at small sizes. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/vercel/geist-font/blob/main/LICENSE.txt"
@@ -750,7 +750,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.843Z",
       "updatedAt": "2025-09-13T23:58:45.902Z",
-      "description": "Host Grotesk is a uniwidth sans-serif designed by Doğukan Karapınar at Element Type, built on the foundations of Jonny Pinhorn's beloved Poppins. Its key innovation is uniform letter width across all weights, ensuring layouts remain stable when font weight changes — making it ideal for responsive UI and design systems.",
+      "description": "Host Grotesk is a uniwidth sans-serif designed by Doğukan Karapınar at Element Type, built on the foundations of Jonny Pinhorn's beloved Poppins. Its key innovation is uniform letter width across all weights, ensuring layouts remain stable when font weight changes — making it ideal for responsive UI and design systems. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/Element-Type/HostGrotesk"
@@ -954,7 +954,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.777Z",
       "updatedAt": "2025-09-13T23:58:45.836Z",
-      "description": "JetBrains Mono is a free, open-source monospaced typeface designed specifically for developers by the creators of JetBrains IDEs. Its letterforms are crafted for reduced eye strain in long coding sessions, with increased letter height, wider characters, and a large x-height that make code structure immediately legible.",
+      "description": "JetBrains Mono is a free, open-source monospaced typeface designed specifically for developers by the creators of JetBrains IDEs. Its letterforms are crafted for reduced eye strain in long coding sessions, with increased letter height, wider characters, and a large x-height that make code structure immediately legible. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt"
@@ -1142,7 +1142,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.667Z",
       "updatedAt": "2025-09-13T23:58:45.773Z",
-      "description": "Open Sauce Sans is a compact grotesque superfamily developed by Alfredo Marco Pradil as the in-house typeface for Creative Sauce, then released open source. It excels in digital UI and print contexts through its generous clarity at small sizes, with ink-trap detailing in its Sans variant and rounded corners in the Two variant.",
+      "description": "Open Sauce Sans is a compact grotesque superfamily developed by Alfredo Marco Pradil as the in-house typeface for Creative Sauce, then released open source. It excels in digital UI and print contexts through its generous clarity at small sizes, with ink-trap detailing in its Sans variant and rounded corners in the Two variant. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/marcologous/Open-Sauce-Fonts/blob/master/Open%20Sauce%20Sans%20OFL.txt"
@@ -1319,7 +1319,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.608Z",
       "updatedAt": "2025-09-13T23:58:45.663Z",
-      "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work.",
+      "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/tokotype/PlusJakartaSans"
@@ -1532,7 +1532,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.551Z",
       "updatedAt": "2025-09-13T23:58:45.604Z",
-      "description": "Switzer is a neo-grotesque Latin typeface originally released as Volkart at the Indian Type Foundry in 2015, then renamed and moved to Fontshare in 2021. Classic and timeless in character, it combines legibility with lively details and a slightly rough texture that keeps it from feeling sterile.",
+      "description": "Switzer is a neo-grotesque Latin typeface originally released as Volkart at the Indian Type Foundry in 2015, then renamed and moved to Fontshare in 2021. Classic and timeless in character, it combines legibility with lively details and a slightly rough texture that keeps it from feeling sterile. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/switzer"
@@ -1643,7 +1643,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.492Z",
       "updatedAt": "2025-09-13T23:58:45.547Z",
-      "description": "Supreme is a refined sans-serif typeface designed by Ilya Naumoff and Jérémie Hornus, originally released as Screen Sans at the Indian Type Foundry in 2016. Its clean, contemporary letterforms lean tech-forward while remaining readable across a wide range of sizes, making it effective for digital products and branding.",
+      "description": "Supreme is a refined sans-serif typeface designed by Ilya Naumoff and Jérémie Hornus, originally released as Screen Sans at the Indian Type Foundry in 2016. Its clean, contemporary letterforms lean tech-forward while remaining readable across a wide range of sizes, making it effective for digital products and branding. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/supreme"
@@ -1771,7 +1771,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.434Z",
       "updatedAt": "2025-09-13T23:58:45.489Z",
-      "description": "Schibsted Grotesk is a digital-first sans-serif developed by Bakken & Bæck for Schibsted, the Scandinavian media company. Taking cues from Schibsted's print heritage and digital identity, it's calibrated for UI and editorial use across a range of weights, covering the extensive Underware Latin Plus character set.",
+      "description": "Schibsted Grotesk is a digital-first sans-serif developed by Bakken & Bæck for Schibsted, the Scandinavian media company. Taking cues from Schibsted's print heritage and digital identity, it's calibrated for UI and editorial use across a range of weights, covering the extensive Underware Latin Plus character set. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/schibsted/schibsted-grotesk"
@@ -2215,7 +2215,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.303Z",
       "updatedAt": "2025-09-13T23:58:45.380Z",
-      "description": "Ronzino is Collletttivo's own brand typeface — an anonymous neo-grotesque inspired by Arial, built to improve on that workhorse's shortcomings while retaining its information-dense, neutral feel. Available in three weights with obliques, it embodies the cooperative's belief that even utilitarian type deserves craftsmanship.",
+      "description": "Ronzino is Collletttivo's own brand typeface — an anonymous neo-grotesque inspired by Arial, built to improve on that workhorse's shortcomings while retaining its information-dense, neutral feel. Available in three weights with obliques, it embodies the cooperative's belief that even utilitarian type deserves craftsmanship. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://www.collletttivo.it/licensing"
@@ -2370,7 +2370,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.253Z",
       "updatedAt": "2025-09-13T23:58:45.300Z",
-      "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use.",
+      "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://fonts.google.com/specimen/Outfit"
@@ -2554,7 +2554,7 @@
       ],
       "createdAt": "2025-09-13T23:58:45.184Z",
       "updatedAt": "2025-09-13T23:58:45.250Z",
-      "description": "Satoshi is a Swiss-style modernist sans from the Indian Type Foundry's Fontshare platform, characterized by elegant rounded shapes playing against sharp angular details. Its double-storied 'a' and 'g' with single-storey alternates give it typographic richness that works in branding, editorial, and poster design.",
+      "description": "Satoshi is a Swiss-style modernist sans from the Indian Type Foundry's Fontshare platform, characterized by elegant rounded shapes playing against sharp angular details. Its double-storied 'a' and 'g' with single-storey alternates give it typographic richness that works in branding, editorial, and poster design. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/satoshi"
@@ -5739,7 +5739,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.687Z",
       "updatedAt": "2025-09-13T23:58:43.815Z",
-      "description": "Commissioner is a low-contrast humanist sans-serif designed by Kostas Bartsokas with three 'voices' built into a single variable font: a clean grotesque, a semi-glyphic flared style, and a wedge-serif variation. The continuous axes allow designers to dial in exactly the right personality for headings, body text, or UI.",
+      "description": "Commissioner is a low-contrast humanist sans-serif designed by Kostas Bartsokas with three 'voices' built into a single variable font: a clean grotesque, a semi-glyphic flared style, and a wedge-serif variation. The continuous axes allow designers to dial in exactly the right personality for headings, body text, or UI. A free alternative to Frutiger or Gill Sans for signage and text.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/kosbarts/Commissioner"
@@ -6473,7 +6473,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.237Z",
       "updatedAt": "2025-09-13T23:58:43.311Z",
-      "description": "Space Mono is a fixed-width typeface designed by Colophon Foundry for Google Design, commissioned for the 2016 refresh of Google Fonts. Its letterforms fuse geometric construction with grotesque details and a hint of 1960s headline aesthetics, making it expressive and distinctive for editorial, creative coding, and tech branding.",
+      "description": "Space Mono is a fixed-width typeface designed by Colophon Foundry for Google Design, commissioned for the 2016 refresh of Google Fonts. Its letterforms fuse geometric construction with grotesque details and a hint of 1960s headline aesthetics, making it expressive and distinctive for editorial, creative coding, and tech branding. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/googlefonts/spacemono"
@@ -7530,7 +7530,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.664Z",
       "updatedAt": "2025-09-13T23:58:42.709Z",
-      "description": "BD Lifeless Grotesk is a neutral, unadorned grotesque by Harry Dinh, intentionally crafted for clarity and universal appeal without stylistic pretension. Its 9 weights from Thin to Black, with Vietnamese language support, make it a quietly dependable tool for corporate communications, websites, and print projects.",
+      "description": "BD Lifeless Grotesk is a neutral, unadorned grotesque by Harry Dinh, intentionally crafted for clarity and universal appeal without stylistic pretension. Its 9 weights from Thin to Black, with Vietnamese language support, make it a quietly dependable tool for corporate communications, websites, and print projects. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "CC BY",
         "url": "https://fontesk.com/bd-lifeless-grotesk-typeface/"
@@ -8202,7 +8202,7 @@
       "createdAt": "2025-09-13T23:58:42.381Z",
       "updatedAt": "2025-09-13T23:58:42.437Z",
       "downloadLink": "https://github.com/github/hubot-sans",
-      "description": "Hubot Sans is GitHub's technical companion typeface to Mona Sans, designed with Degarism with more geometric, idiosyncratic accents to convey a robotic, mechanical character. Released in November 2022 as a variable font, it's well-suited for headers, pull-quotes, and contexts where Mona Sans needs a distinctive counterpart.",
+      "description": "Hubot Sans is GitHub's technical companion typeface to Mona Sans, designed with Degarism with more geometric, idiosyncratic accents to convey a robotic, mechanical character. Released in November 2022 as a variable font, it's well-suited for headers, pull-quotes, and contexts where Mona Sans needs a distinctive counterpart. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/github/hubot-sans"
@@ -9100,7 +9100,7 @@
       "createdAt": "2025-09-13T23:58:42.015Z",
       "updatedAt": "2025-09-13T23:58:42.200Z",
       "downloadLink": "https://github.com/indestructible-type/Jost",
-      "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use.",
+      "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/indestructible-type/Jost"
@@ -14524,7 +14524,7 @@
       ],
       "createdAt": "2025-09-13T23:58:39.204Z",
       "updatedAt": "2025-09-13T23:58:39.255Z",
-      "description": "Hedvig Letters Sans is the sans-serif member of the Hedvig family by Kanon Foundry, sharing the same underlying skeleton as the optical-size serif cuts. Designed for the Swedish insurance company Hedvig alongside its serif companions, it provides a harmonious, imperfection-embracing voice suited to product and brand design.",
+      "description": "Hedvig Letters Sans is the sans-serif member of the Hedvig family by Kanon Foundry, sharing the same underlying skeleton as the optical-size serif cuts. Designed for the Swedish insurance company Hedvig alongside its serif companions, it provides a harmonious, imperfection-embracing voice suited to product and brand design. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/KanonFoundry/HedvigLetters"
@@ -14986,7 +14986,7 @@
       ],
       "createdAt": "2025-09-13T23:58:39.034Z",
       "updatedAt": "2025-09-13T23:58:39.148Z",
-      "description": "TASA Explorer is a geometric sans-serif designed by Weizhong Zhang at Local Remote, originally created for the rebranding of the Taiwan Space Agency. Inspired by Futura — the first font sent to space in 1969 — its vertically cut terminals, sharp corners, and subtle stroke contrast project adventure and institutional precision.",
+      "description": "TASA Explorer is a geometric sans-serif designed by Weizhong Zhang at Local Remote, originally created for the rebranding of the Taiwan Space Agency. Inspired by Futura — the first font sent to space in 1969 — its vertically cut terminals, sharp corners, and subtle stroke contrast project adventure and institutional precision. A free alternative to Frutiger or Gill Sans for signage and text.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/localremotetw/TASA-Typeface-Collection"
@@ -16353,7 +16353,7 @@
       ],
       "createdAt": "2025-09-13T23:58:38.210Z",
       "updatedAt": "2025-09-13T23:58:38.296Z",
-      "description": "Apfel Grotezk is an airy, rounded geometric sans by Luigi Gorlero at Collletttivo, drawing inspiration from neo-grotesque and geometric typeface traditions. Released in 2019, its easy curves and friendly open proportions strike a balance between neutral utility and warm, welcoming design — accessible in three styles including the ink-saving Brukt.",
+      "description": "Apfel Grotezk is an airy, rounded geometric sans by Luigi Gorlero at Collletttivo, drawing inspiration from neo-grotesque and geometric typeface traditions. Released in 2019, its easy curves and friendly open proportions strike a balance between neutral utility and warm, welcoming design — accessible in three styles including the ink-saving Brukt. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/collletttivo/apfel-grotezk"
@@ -16676,7 +16676,7 @@
       ],
       "createdAt": "2025-09-13T23:58:38.038Z",
       "updatedAt": "2025-09-13T23:58:38.095Z",
-      "description": "Standard is a clean, understated sans-serif by Bryce Wilner, conceived as a translation and modification of Berthold's Akzidenz-Grotesk (historically sold under the name 'Standard'). Released under OFL, it covers all Latin-script languages and comes in four styles — Book, Bold, and matching italics — prioritizing honest utility over personality.",
+      "description": "Standard is a clean, understated sans-serif by Bryce Wilner, conceived as a translation and modification of Berthold's Akzidenz-Grotesk (historically sold under the name 'Standard'). Released under OFL, it covers all Latin-script languages and comes in four styles — Book, Bold, and matching italics — prioritizing honest utility over personality. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/brycewilner/Standard"
@@ -19958,7 +19958,7 @@
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
       "updatedAt": "2026-05-13T00:00:00.000Z",
-      "description": "A rounded humanist sans designed by Tobias Whetton for the Supernotes note-taking app. Evolved from Nunito, SN Pro adds variable weight and true italic axes alongside custom ligatures for markdown workflows — arrows, symbols, and special characters baked in. ExtraLight to Black, making it as comfortable in UI as in long-form writing.",
+      "description": "A rounded humanist sans designed by Tobias Whetton for the Supernotes note-taking app. Evolved from Nunito, SN Pro adds variable weight and true italic axes alongside custom ligatures for markdown workflows — arrows, symbols, and special characters baked in. ExtraLight to Black, making it as comfortable in UI as in long-form writing. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/supernotes/sn-pro/blob/main/OFL.txt"
@@ -20497,7 +20497,7 @@
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
       "updatedAt": "2026-05-13T00:00:00.000Z",
-      "description": "The reading-optimized member of Koto Studio's Stack Sans family. The notch motif is adapted for text sizes — subtle enough to not distract, present enough to give the typeface personality. A clean, geometric sans for UI copy and body text in products that share the Stack visual identity.",
+      "description": "The reading-optimized member of Koto Studio's Stack Sans family. The notch motif is adapted for text sizes — subtle enough to not distract, present enough to give the typeface personality. A clean, geometric sans for UI copy and body text in products that share the Stack visual identity. A free alternative to Futura or Circular for brand and interface work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/DylanYoungKoto/Stack-Sans/blob/main/OFL.txt"
@@ -20628,7 +20628,7 @@
         "type": "OFL",
         "url": "https://github.com/erikdkennedy/figtree"
       },
-      "description": "Figtree is a simple and friendly geometric sans serif font by Erik D. Kennedy. Designed with variable weight support from Light to Black.",
+      "description": "Figtree is a simple and friendly geometric sans serif font by Erik D. Kennedy. Designed with variable weight support from Light to Black. A free alternative to Futura or Circular for brand and interface work.",
       "id": "family_figtree_1778941055167",
       "createdAt": "2026-05-16T14:17:35.166Z",
       "updatedAt": "2026-05-16T14:17:35.166Z",
@@ -21097,7 +21097,7 @@
         "type": "OFL",
         "url": "https://github.com/raphaelbastide/Whois-mono"
       },
-      "description": "Whois Mono is a simple monospace font by Raphaël Bastide.",
+      "description": "Whois Mono is a simple monospace font by Raphaël Bastide. A free alternative to JetBrains Mono or SF Mono for code and interfaces.",
       "id": "family_whoismono_1778941055167",
       "createdAt": "2026-05-16T14:17:35.166Z",
       "updatedAt": "2026-05-16T14:17:35.166Z",
@@ -21858,7 +21858,7 @@
         ]
       ],
       "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”",
-      "description": "Inclusive Sans is a text sans by Olivia King, drawn for legibility. It gives you a distinct I, l and 1, non-mirrored b, d, p and q, wide open counters, a tall x-height and a little extra default spacing, all aimed at readers who are hard of seeing or neurodiverse. It also carries glyphs for Aboriginal and Torres Strait Islander languages. Free under the Open Font License 1.1."
+      "description": "Inclusive Sans is a text sans by Olivia King, drawn for legibility. It gives you a distinct I, l and 1, non-mirrored b, d, p and q, wide open counters, a tall x-height and a little extra default spacing, all aimed at readers who are hard of seeing or neurodiverse. It also carries glyphs for Aboriginal and Torres Strait Islander languages. Free under the Open Font License 1.1. A free alternative to Helvetica or Inter for interface and text work."
     },
     {
       "name": "League Gothic",
@@ -22230,7 +22230,7 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
-      "description": "Perun is a Cyrillic-first sans by Stefan Peev for Local Fonts. It is built on the modern Bulgarian letterform model and adds local shapes for Bulgarian, Serbian, Macedonian and Ukrainian. It descends from Free Universal and, further back, from SIL Sophia. Free under the Open Font License 1.1."
+      "description": "Perun is a Cyrillic-first sans by Stefan Peev for Local Fonts. It is built on the modern Bulgarian letterform model and adds local shapes for Bulgarian, Serbian, Macedonian and Ukrainian. It descends from Free Universal and, further back, from SIL Sophia. Free under the Open Font License 1.1. A free alternative to Helvetica or Inter for interface and text work."
     },
     {
       "name": "Spectral",
@@ -24166,7 +24166,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Akt is an interface-first grotesque by Dima Grenev. Every weight from Thin to Black keeps the same glyph widths, and the capitals sit centered in the line so they align with icons. More than 1,800 glyphs cover extended Latin and Cyrillic, Greek and basic IPA, with a weight axis across nine weights. Free under the Open Font License 1.1."
+      "description": "Akt is an interface-first grotesque by Dima Grenev. Every weight from Thin to Black keeps the same glyph widths, and the capitals sit centered in the line so they align with icons. More than 1,800 glyphs cover extended Latin and Cyrillic, Greek and basic IPA, with a weight axis across nine weights. Free under the Open Font License 1.1. A free alternative to Helvetica or Inter for interface and text work."
     },
     {
       "name": "Geomini",
@@ -24532,7 +24532,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Pliant is a variable sans-serif from Non Foundry, the Monterrey studio of Jona Saucedo. It follows the Swiss tradition of neutral, even-colour text, with weight and width axes that run from compact to expanded plus a companion italic. Its character set is wide: Latin, Greek and Cyrillic across more than a thousand glyphs, with fractions, sub/superscripts and alternates, so it holds up in both long reading and interface work. Free under the SIL Open Font License."
+      "description": "Pliant is a variable sans-serif from Non Foundry, the Monterrey studio of Jona Saucedo. It follows the Swiss tradition of neutral, even-colour text, with weight and width axes that run from compact to expanded plus a companion italic. Its character set is wide: Latin, Greek and Cyrillic across more than a thousand glyphs, with fractions, sub/superscripts and alternates, so it holds up in both long reading and interface work. Free under the SIL Open Font License. A free alternative to Futura or Circular for brand and interface work."
     },
     {
       "name": "Finlandica Text",
@@ -24710,7 +24710,7 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Finlandica Text is the official typeface of Finland, made by Helsinki Type Studio and commissioned by the Prime Minister's Office. It was given freely to everyone in the spirit of the country's right to roam. Open apertures and engineered ink traps keep it steady across sizes and media, and it covers a wide range of Latin and Cyrillic. Free under the Open Font License 1.1."
+      "description": "Finlandica Text is the official typeface of Finland, made by Helsinki Type Studio and commissioned by the Prime Minister's Office. It was given freely to everyone in the spirit of the country's right to roam. Open apertures and engineered ink traps keep it steady across sizes and media, and it covers a wide range of Latin and Cyrillic. Free under the Open Font License 1.1. A free alternative to Futura or Circular for brand and interface work."
     },
     {
       "name": "Strichpunkt Sans",
@@ -24916,7 +24916,7 @@
       "id": "family_sono_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
-      "description": "Sono is a soft, rounded superfamily by Tyler Finck that spans from a friendly proportional sans to a true monospace through a single MONO axis. Its gently rounded terminals keep long UI text and code calm and legible, while the weight axis (ExtraLight to ExtraBold) covers everything from captions to headlines. A versatile, open-source workhorse for interfaces, dashboards and code editors.",
+      "description": "Sono is a soft, rounded superfamily by Tyler Finck that spans from a friendly proportional sans to a true monospace through a single MONO axis. Its gently rounded terminals keep long UI text and code calm and legible, while the weight axis (ExtraLight to ExtraBold) covers everything from captions to headlines. A versatile, open-source workhorse for interfaces, dashboards and code editors. A free alternative to Helvetica or Inter for interface and text work.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/sursly/sono/blob/master/OFL.txt"
