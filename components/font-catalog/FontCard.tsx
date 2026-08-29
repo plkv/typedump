@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, memo } from 'react'
 import { Slider } from '@/components/ui/slider'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { familyToSlug } from '@/lib/font-slug'
@@ -79,7 +79,7 @@ export interface FontCardProps {
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
-export function FontCard({
+function FontCardImpl({
   font, isMobile, fontSelection, isLoaded, isAnimated, isExpanded,
   previewContent, alternatesMode, cursorPosition, otFeatures, variableAxesState,
   styleAlternates, variableAxesDef, effectiveStyle,
@@ -379,3 +379,38 @@ export function FontCard({
     </div>
   )
 }
+
+/**
+ * The catalogue holds every family on one page, so a keystroke in any preview
+ * used to re-render all 207 cards — about 31ms of blocking work per letter,
+ * which is the stutter a reader reported while typing. Paired with the
+ * `useDeferredValue` in CatalogPage this fixes it: while the keys are still
+ * coming, only the card being typed into sees new text, and the rest compare
+ * equal and are skipped. They catch up in one pass when the typing stops.
+ *
+ * The comparison ignores the callback props on purpose. CatalogPage builds all
+ * nine of them as inline arrows per card per render, so they are new objects
+ * every time and a default shallow compare would never skip anything. They are
+ * safe to ignore because each closes over `font.id` and state setters, and the
+ * card the reader is actually interacting with always re-renders first: focus
+ * changes `focusedFontId`, which changes its text, which fails this comparison.
+ */
+export const FontCard = memo(FontCardImpl, (a, b) =>
+  a.font === b.font &&
+  a.isMobile === b.isMobile &&
+  a.fontSelection === b.fontSelection &&
+  a.isLoaded === b.isLoaded &&
+  a.isAnimated === b.isAnimated &&
+  a.isExpanded === b.isExpanded &&
+  a.previewContent === b.previewContent &&
+  a.alternatesMode === b.alternatesMode &&
+  a.cursorPosition === b.cursorPosition &&
+  a.otFeatures === b.otFeatures &&
+  a.variableAxesState === b.variableAxesState &&
+  a.styleAlternates === b.styleAlternates &&
+  a.variableAxesDef === b.variableAxesDef &&
+  a.effectiveStyle === b.effectiveStyle &&
+  a.textSize === b.textSize &&
+  a.lineHeight === b.lineHeight &&
+  a.textAlign === b.textAlign
+)

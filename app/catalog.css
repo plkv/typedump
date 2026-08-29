@@ -500,23 +500,70 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  /* Paragraphs sit closer to each other than the buttons sit to the text. */
+  gap: 16px;
   width: 100%;
+  /* The column is centred on the page — 800px of text plus the 24px padding
+     either side. */
+  max-width: calc(800px + 48px);
+  margin-inline: auto;
+}
+
+.catalog-hero-content .catalog-hero-buttons {
+  margin-top: 16px;
 }
 
 .catalog-hero-text {
+  margin: 0;
+  max-width: 800px;
   font-family: "Instrument Sans UI", sans-serif;
   font-size: 28px;
-  line-height: 32px;
-  font-weight: 500;
+  /* 36, not 32: at 1.14 the lines were touching, and this is a paragraph to be
+     read rather than a headline. */
+  line-height: 36px;
+  /* Both axes set off the register: the face is declared 400-700 on weight and
+     75%-100% on width (see the @font-face at the top of this file), so 450 and
+     97% land inside its range instead of snapping to a named instance. */
+  font-weight: 450;
+  font-stretch: 97%;
   color: var(--gray-cont-prim);
   font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
 }
 
-/* Curator name inside the intro paragraph: grey, going to primary on hover.
-   No underline — links on this site are marked by colour, not decoration. */
+/* Side gutters on a phone are 16px, as everywhere else on the site. The hero
+   sits inside a `px-2` wrapper (8px), so the content adds the other 8 rather
+   than its desktop 24 — which was putting the text 32px off the edge. */
+@media (max-width: 768px) {
+  .catalog-hero-content {
+    padding-inline: 8px;
+  }
+
+  /* 28px does not fit a phone: the intro grew taller than the viewport and its
+     first line ended up hidden behind the navbar. */
+  .catalog-hero-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* The two named things in the intro — the product at the start, the curator at
+   the end — sit a step heavier than the sentence around them, in grey. One
+   class for both so the colour and weight cannot drift apart. */
+.hero-muted {
+  /* Grey enough to read as a different word, dark enough to pass. Measured
+     against the hero ground: tertiary is 2.67:1 in the light theme (under the
+     3:1 floor, and this is a link marked by colour alone), while secondary
+     clears contrast at 5.85:1 but sits only 3.05:1 from the black around it
+     and stops looking grey at all. 58% is the lightest mix that still holds
+     4.5:1 — the bar that applies because the phone sets this at 20px, which
+     WCAG does not count as large text. Mixed from the tokens rather than
+     hardcoded, so it inverts with the theme on its own. */
+  color: color-mix(in srgb, var(--gray-cont-prim) 58%, var(--gray-surface-sec));
+  font-weight: 600;
+}
+
+/* No underline — links on this site are marked by colour, not decoration. */
 .hero-credit-link {
-  color: var(--gray-cont-tert);
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -541,22 +588,9 @@
   animation: heroFadeUp 0.5s ease forwards;
 }
 
-/* Line-by-line reveal — each visual line fades up in a staggered cascade, no blur.
-   Words within a line share the same animation-delay (computed from offsetTop). */
-@keyframes heroWordReveal {
-  from { opacity: 0; transform: translateY(0.35em); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.hero-word {
-  display: inline-block;
-  opacity: 0;
-  animation: heroWordReveal 0.5s ease-out forwards;
-  will-change: opacity, transform;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .hero-word { animation-duration: 0.001s; transform: none; }
+  .hero-line,
+  .hero-buttons-reveal { animation-duration: 0.001s; transform: none; }
 }
 
 .hero-buttons-reveal {

@@ -80,6 +80,33 @@ const getPresetContent = (preset: string, fontName: string) => {
 
 type InitialFilters = Record<string, string | string[] | undefined>
 
+
+/**
+ * What people actually type into the previews, sent once per finished edit.
+ *
+ * It rides on the commit rather than the keystroke, so one visitor trying a
+ * word is one event, not fifteen half-words. Analytics may not carry personal
+ * data — and a font preview is a text box on the open web, so people paste
+ * addresses and card numbers into it without thinking — hence the filter
+ * below rather than a blanket send.
+ */
+function reportPreviewText(text: string, preset: string, fontName?: string) {
+  const value = text.trim()
+  // Nothing to learn from an untouched preset or a single letter.
+  if (!value || value.length < 2 || value === preset.trim()) return
+  const looksPersonal =
+    /\S+@\S+\.\S+/.test(value) ||            // email
+    /\+?\d[\d\s().-]{7,}/.test(value) ||     // phone or card
+    /\d{6,}/.test(value)                    // any long run of digits
+  if (looksPersonal) return
+  ;(window as any).gtag?.('event', 'preview_text', {
+    // GA4 caps a parameter at 100 characters and drops the event if it is over.
+    preview_text: value.slice(0, 100),
+    font_name: fontName,
+    text_length: value.length,
+  })
+}
+
 export default function CatalogPage({ initialFonts, initialFilters }: { initialFonts: FontData[], initialFilters?: InitialFilters }) {
   const toArr = (v: string | string[] | undefined) => v ? (Array.isArray(v) ? v : [v]) : []
   // UI State
@@ -97,6 +124,13 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [loadedFonts, setLoadedFonts] = useState<Set<number>>(new Set())
   const [animatedFonts, setAnimatedFonts] = useState<Set<number>>(new Set()) // Track fonts that have been animated once
   const [customText, setCustomText] = useState("")
+  // What is being typed right now, and where. Committing a letter to
+  // `customText` re-renders all 207 cards, which measured at 285-500ms and is
+  // what a reader reported as typing "lagging badly" in Safari. So a keystroke
+  // stays local to its own card: only that card reads the draft, and the rest
+  // are untouched until the reader leaves the field — click elsewhere, tab out
+  // or press Escape — at which point the text lands everywhere at once.
+  const [draft, setDraft] = useState<{ fontId: number; text: string } | null>(null)
   const [selectedCollections, setSelectedCollections] = useState<string[]>(() => toArr(initialFilters?.collection))
   const [selectedPreset, setSelectedPreset] = useState("Names")
   const [selectedCategories, setSelectedCategories] = useState<string[]>(() => toArr(initialFilters?.category))
@@ -162,10 +196,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({})
   const heroRef = useRef<HTMLDivElement>(null)
-  const heroTextRef = useRef<HTMLParagraphElement>(null)
   // Per-word animation delays, grouped by visual line (measured after layout).
-  const [heroWordDelays, setHeroWordDelays] = useState<number[] | null>(null)
-  const [heroButtonsDelay, setHeroButtonsDelay] = useState(1.2)
+  // Per-word animation delays, grouped by visual line (measured after layout).
+  // The buttons follow the last block (0.38s + its 0.5s fade).
+  const heroButtonsDelay = 0.88
   const mainRef = useRef<HTMLElement>(null)
   const catalogCardsRef = useRef<HTMLDivElement>(null)
   const injectedFontIdsRef = useRef<Set<number>>(new Set())
@@ -244,8 +278,33 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }
 
   // Helper function to get stylistic alternates from font's OpenType features
+  // Both of the readers below are pure functions of (fonts, fontId), and both
+  // were being called once per card on every render — each starting with a
+  // linear `fonts.find` over the whole catalogue and ending in a freshly built
+  // array. At 207 cards that is ~43k iterations and 414 new arrays per
+  // keystroke, and the new array identities also meant the cards could never be
+  // memoised. Look the font up by id, and remember each answer until the
+  // catalogue itself changes.
+  const fontById = useMemo(
+    () => new Map(fonts.map(f => [f.id, f])),
+    [fonts]
+  )
+  const alternatesCache = useMemo(() => new Map<number, { tag: string; title: string }[]>(), [fonts])
+  const axesCache = useMemo(
+    () => new Map<number, { tag: string; name: string; min: number; max: number; default: number }[]>(),
+    [fonts]
+  )
+
   const getStyleAlternates = (fontId: number) => {
-    const font = fonts.find((f) => f.id === fontId)
+    const cached = alternatesCache.get(fontId)
+    if (cached) return cached
+    const value = computeStyleAlternates(fontId)
+    alternatesCache.set(fontId, value)
+    return value
+  }
+
+  const computeStyleAlternates = (fontId: number) => {
+    const font = fontById.get(fontId)
     if (!font) return []
     // Prefer server-parsed structured tags if available - use Map to deduplicate by tag
     const tagMap = new Map<string, string>()
@@ -380,7 +439,15 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }
 
   const getVariableAxes = (fontId: number) => {
-    const font = fonts.find((f) => f.id === fontId)
+    const cached = axesCache.get(fontId)
+    if (cached) return cached
+    const value = computeVariableAxes(fontId)
+    axesCache.set(fontId, value)
+    return value
+  }
+
+  const computeVariableAxes = (fontId: number) => {
+    const font = fontById.get(fontId)
     if (!font?._familyFonts) return []
     
     // Get variable axes from font metadata
@@ -620,12 +687,29 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     setFontVariableAxes({})
   }
 
-  const getPreviewContent = (fontName: string) => {
-    if (customText.trim()) {
-      return customText
-    }
+  // The card holding the caret shows the draft; every other card shows the last
+  // committed text, so a keystroke only ever re-renders one card.
+  const getPreviewContent = (fontName: string, fontId: number) => {
+    if (draft?.fontId === fontId) return draft.text
+    if (customText.trim()) return customText
     return getPresetContent(selectedPreset, fontName)
   }
+
+  /** Push the draft to the whole catalogue and stop drafting. */
+  const commitDraft = useCallback(() => {
+    setDraft(current => {
+      if (!current) return null
+      // An untouched preset is not a custom text — leaving a card without
+      // typing anything must not pin every other card to this font's name.
+      const font = fontById.get(current.fontId)
+      const preset = getPresetContent(selectedPreset, font?.name ?? '')
+      if (current.text !== customText && !(customText.trim() === '' && current.text === preset)) {
+        setCustomText(current.text)
+        reportPreviewText(current.text, preset, font?.name)
+      }
+      return null
+    })
+  }, [customText, selectedPreset])
 
 
   // Restore focus to the currently edited preview input after state updates
@@ -643,6 +727,35 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       }
     }
   }, [customText, textCursorPosition, focusedFontId])
+
+  // Leaving the field publishes the draft to every card: a click anywhere
+  // outside it, or Escape. Blur is handled per-card by `onBlur` below, which
+  // also covers tabbing away.
+  useEffect(() => {
+    if (!draft) return
+    const card = document.querySelector(`[data-card-id="${draft.fontId}"]`)
+    const onDown = (e: MouseEvent) => {
+      if (!card?.contains(e.target as Node)) commitDraft()
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        commitDraft()
+        inputRefs.current[draft.fontId]?.blur()
+      }
+    }
+    document.addEventListener('mousedown', onDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', onDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [draft, commitDraft])
+
+  // Focus moving to another card publishes the draft too — that is the tab-away
+  // and click-into-another-preview case, which no document listener would see.
+  useEffect(() => {
+    if (draft && focusedFontId !== null && focusedFontId !== draft.fontId) commitDraft()
+  }, [focusedFontId, draft, commitDraft])
 
   // Close expanded cards on click outside
   useEffect(() => {
@@ -736,21 +849,45 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     return [...orderedLanguages, ...remainingLanguages];
   }
 
-  // Post-render font fallback detection using DOM and canvas measurement
+  // Post-render font fallback detection using DOM and canvas measurement.
+  //
+  // This runs on every keystroke, so it has to be cheap. It was not: it built a
+  // fresh canvas per card (200+ of them per pass) and re-measured every
+  // character against both the intended font and the fallback, which means two
+  // `ctx.font` switches each. Canvas font switching is the slow path in WebKit,
+  // and a reader on Safari reported the catalogue "lagging badly" as soon as
+  // they scrolled and started typing. One canvas, a measurement cache and a
+  // longer idle wait between keystrokes leave the behaviour identical.
   useEffect(() => {
+    const canvas = document.createElement('canvas')
+    const ctx = canvas.getContext('2d')
+    // (font, char) → is it falling back? The same characters repeat across every
+    // card, so without this the same measurement is taken hundreds of times.
+    const widthCache = new Map<string, number>()
+    const measure = (font: string, char: string) => {
+      const key = `${font} ${char}`
+      const hit = widthCache.get(key)
+      if (hit !== undefined) return hit
+      ctx!.font = font
+      const w = ctx!.measureText(char).width
+      widthCache.set(key, w)
+      return w
+    }
+
     const detectAndHighlightFallbackChars = () => {
+      if (!ctx) return
       // Find all contentEditable preview divs
       const previewDivs = document.querySelectorAll('div[contenteditable="true"]')
-      
+
       previewDivs.forEach((div) => {
         const element = div as HTMLElement
         const fontFamily = element.style.fontFamily
         if (!fontFamily) return
 
-        // Create canvas for measurement
-        const canvas = document.createElement('canvas')
-        const ctx = canvas.getContext('2d')
-        if (!ctx) return
+        // Off-screen cards are measured for nothing — the reader cannot see
+        // them, and the pass costs the same per card whether they can or not.
+        const box = element.getBoundingClientRect()
+        if (box.bottom < -200 || box.top > window.innerHeight + 200) return
 
         const fontSize = 20 // Match approximate preview size
         const originalText = element.textContent || ''
@@ -764,14 +901,9 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
           if (/^[a-zA-Z0-9\s\.,!?;:'"-]$/.test(char)) continue
           
           try {
-            // Measure with intended font
-            ctx.font = `${fontSize}px ${fontFamily}`
-            const intendedWidth = ctx.measureText(char).width
-            
-            // Measure with fallback only
-            ctx.font = `${fontSize}px sans-serif`  
-            const fallbackWidth = ctx.measureText(char).width
-            
+            const intendedWidth = measure(`${fontSize}px ${fontFamily}`, char)
+            const fallbackWidth = measure(`${fontSize}px sans-serif`, char)
+
             // If widths are very close, likely using fallback
             if (Math.abs(intendedWidth - fallbackWidth) < 1) {
               fallbackChars.add(char)
@@ -813,8 +945,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       })
     }
     
-    // Run detection after fonts load and on text changes
-    const timer = setTimeout(detectAndHighlightFallbackChars, 100)
+    // Run detection after fonts load and on text changes. 400ms, not 100:
+    // at 100 the pass fires between keystrokes of ordinary typing, so the
+    // reader pays for it on every letter instead of once when they stop.
+    const timer = setTimeout(detectAndHighlightFallbackChars, 400)
     return () => clearTimeout(timer)
   }, [fonts, customText])
 
@@ -945,24 +1079,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Group intro words into visual lines by offsetTop, then give every word in a
-  // line the same delay so lines reveal one after another in a cascade.
-  useLayoutEffect(() => {
-    const p = heroTextRef.current
-    if (!p) return
-    const spans = Array.from(p.querySelectorAll<HTMLElement>('.hero-word'))
-    if (!spans.length) return
-    const base = 0.1, lineStep = 0.14
-    let lineIdx = -1, lastTop = -Infinity
-    const delays = spans.map(s => {
-      const top = s.offsetTop
-      if (top > lastTop + 2) { lineIdx++; lastTop = top }
-      return base + lineIdx * lineStep
-    })
-    setHeroWordDelays(delays)
-    setHeroButtonsDelay(base + (lineIdx + 1) * lineStep)
-  // Re-measure when viewport width flips (wrapping changes)
-  }, [isMobile])
+
 
 
   // IntersectionObserver: inject @font-face and load font only when card enters viewport
@@ -1083,42 +1200,28 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Hero section */}
         <div ref={heroRef} className="catalog-hero px-2">
           <div className="catalog-hero-content">
-            <p ref={heroTextRef} className="catalog-hero-text">
-              {(() => {
-                const intro = "TypeDump is a curated index of open-source typefaces, hand-picked for designers, vibe coders, and developers. Text fonts built for interfaces and long reads; display faces with a strong point of view; fresh type for identity and culture. Type designers put more into a font than most apps ever show: variable axes, alternate letterforms, ligatures, whole scripts. You can try all of it here, in the browser. Totally free."
-                // The curator credit is part of the paragraph, so it wraps and
-                // reveals line-by-line with the rest of the text. The name stays
-                // one unit so it never breaks across lines.
-                const items: Array<{ text: string; href?: string }> = [
-                  ...intro.split(' ').map(text => ({ text })),
-                  { text: 'Curated' }, { text: 'by' },
-                  { text: 'Stas Polyakov', href: 'https://plkv.works/' },
-                ]
-                return items.flatMap(({ text, href }, i) => {
-                  const style: React.CSSProperties = {
-                    // Until measured, hold at delay 0 but paused so nothing animates
-                    // before lines are grouped; then each line gets its shared delay.
-                    animationDelay: `${(heroWordDelays?.[i] ?? 0).toFixed(3)}s`,
-                    animationPlayState: heroWordDelays ? 'running' : 'paused',
-                    ...(i === 0 ? { color: 'var(--gray-cont-tert)' } : null),
-                  }
-                  const el = href ? (
-                    <a
-                      key={`w${i}`}
-                      className="hero-word hero-credit-link"
-                      href={href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={style}
-                    >
-                      {text}
-                    </a>
-                  ) : (
-                    <span key={`w${i}`} className="hero-word" style={style}>{text}</span>
-                  )
-                  return i < items.length - 1 ? [el, ' '] : [el]
-                })
-              })()}
+            {/* Three blocks by sense — what this is, what is in it, what the
+                fonts can do — each fading up as a section, then the buttons. */}
+            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.10s' }}>
+              <span className="hero-muted">TypeDump</span> is a curated index of open-source
+              typefaces, hand-picked for designers, vibe coders, and developers.
+            </p>
+            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.24s' }}>
+              Text fonts built for interfaces and long reads; display faces with a strong point of
+              view; fresh type for identity and culture.
+            </p>
+            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.38s' }}>
+              Type designers put more into a font than most apps ever show: variable axes, alternate
+              letterforms, ligatures, whole scripts. You can try all of it here, in the browser.
+              Totally free. Curated by{' '}
+              <a
+                className="hero-muted hero-credit-link"
+                href="https://plkv.works/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stas Polyakov
+              </a>
             </p>
             <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
               <a
@@ -1184,7 +1287,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   isLoaded={loadedFonts.has(font.id)}
                   isAnimated={animatedFonts.has(font.id)}
                   isExpanded={expandedCards.has(font.id)}
-                  previewContent={getPreviewContent(font.name)}
+                  previewContent={getPreviewContent(font.name, font.id)}
                   alternatesMode={selectedPreset === 'Alternates' && !customText.trim()}
                   cursorPosition={textCursorPosition[font.id] || 0}
                   otFeatures={fontOTFeatures[font.id] || {}}
@@ -1203,10 +1306,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   }}
                   onTextChange={(text, pos) => {
                     setTextCursorPosition(prev => ({ ...prev, [font.id]: pos }))
-                    if (text !== customText) {
-                      const presetVal = getPresetContent(selectedPreset, font.name)
-                      if (!(customText.trim() === '' && text === presetVal)) setCustomText(text)
-                    }
+                    // Local to this card until the reader leaves it — see `draft`.
+                    setDraft({ fontId: font.id, text })
                   }}
                   onFocus={() => {
                     setFocusedFontId(font.id)
