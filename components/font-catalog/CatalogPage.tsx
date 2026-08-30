@@ -698,20 +698,25 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   }
 
   /** Push the draft to the whole catalogue and stop drafting. */
+  // Read through a ref, so the listeners below can be attached once instead of
+  // being torn down and rebuilt on every keystroke.
+  const draftRef = useRef<{ fontId: number; text: string } | null>(null)
+  useEffect(() => { draftRef.current = draft }, [draft])
+
   const commitDraft = useCallback(() => {
-    setDraft(current => {
-      if (!current) return null
-      // An untouched preset is not a custom text — leaving a card without
-      // typing anything must not pin every other card to this font's name.
-      const font = fontById.get(current.fontId)
-      const preset = getPresetContent(selectedPreset, font?.name ?? '')
-      if (current.text !== customText && !(customText.trim() === '' && current.text === preset)) {
-        setCustomText(current.text)
-        reportPreviewText(current.text, preset, font?.name)
-      }
-      return null
-    })
-  }, [customText, selectedPreset])
+    const current = draftRef.current
+    if (!current) return
+    draftRef.current = null
+    setDraft(null)
+    // An untouched preset is not a custom text — leaving a card without typing
+    // anything must not pin every other card to this font's name.
+    const font = fontById.get(current.fontId)
+    const preset = getPresetContent(selectedPreset, font?.name ?? '')
+    if (current.text !== customText && !(customText.trim() === '' && current.text === preset)) {
+      setCustomText(current.text)
+      reportPreviewText(current.text, preset, font?.name)
+    }
+  }, [customText, selectedPreset, fontById])
 
 
   // Restore focus to the currently edited preview input after state updates
@@ -734,16 +739,21 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   // outside it, or Escape. Blur is handled per-card by `onBlur` below, which
   // also covers tabbing away.
   useEffect(() => {
-    if (!draft) return
-    const card = document.querySelector(`[data-card-id="${draft.fontId}"]`)
     const onDown = (e: MouseEvent) => {
-      if (!card?.contains(e.target as Node)) commitDraft()
+      const current = draftRef.current
+      if (!current) return
+      // Find the card under the pointer at the moment of the click. Holding on
+      // to the node instead went wrong: cards re-render, the captured element
+      // detaches, and every click then counted as a click outside — including
+      // clicks on the card's own controls.
+      const card = (e.target as HTMLElement | null)?.closest?.('[data-card-id]')
+      if (Number(card?.getAttribute('data-card-id')) !== current.fontId) commitDraft()
     }
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        commitDraft()
-        inputRefs.current[draft.fontId]?.blur()
-      }
+      const current = draftRef.current
+      if (!current || e.key !== 'Escape') return
+      commitDraft()
+      inputRefs.current[current.fontId]?.blur()
     }
     document.addEventListener('mousedown', onDown)
     document.addEventListener('keydown', onKey)
@@ -751,7 +761,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       document.removeEventListener('mousedown', onDown)
       document.removeEventListener('keydown', onKey)
     }
-  }, [draft, commitDraft])
+  }, [commitDraft])
 
   // Focus moving to another card publishes the draft too — that is the tab-away
   // and click-into-another-preview case, which no document listener would see.
