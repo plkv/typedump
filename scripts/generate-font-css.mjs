@@ -42,7 +42,13 @@ function buildFontFace(familyName, v) {
     weight,
     isItalic: v.isItalic,
     format: v.format,
-    fontDisplay: 'swap',
+    // `block`, not `swap`. Measured across the catalogue, every face here is
+    // wider than the system fallback — 1.05x to 1.39x — so any frame drawn in
+    // the fallback and then re-drawn in the real font visibly grows, which on a
+    // scroll reads as the text jittering. The card keeps its preview hidden
+    // until the font reports loaded anyway, so painting a fallback underneath
+    // it was never wanted. Safe now that the cut files load in ~76ms.
+    fontDisplay: 'block',
   })
 }
 

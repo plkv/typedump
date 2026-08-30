@@ -238,19 +238,19 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         if (!alias) return ''
         const italic = ff.isItalic || (ff.style || '').toLowerCase().includes('italic')
         const src = ff.previewUrl || ff.url || ff.blobUrl || `/fonts/${ff.filename}`
-        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
+        return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:block;}`
       }).filter(Boolean).join('\n')
     } else if (isVar) {
       const src = font.previewUrl || font.url || `/fonts/${font.filename}`
       const wMin = font.availableWeights?.[0] ?? 100
       const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
       const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
-      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:swap;}`
+      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:block;}`
     } else {
       const src = font.previewUrl || font.url || `/fonts/${font.filename}`
       const alias = font._familyFonts?.[0]?.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
       const italic = (font.style || '').toLowerCase().includes('italic')
-      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:swap;}`
+      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:block;}`
     }
 
     if (css.trim()) {

@@ -288,7 +288,10 @@
      intrinsic size lets the browser keep each card's real measured height, so
      the list stops resizing under the scroll after the first pass. */
   content-visibility: auto;
-  contain-intrinsic-size: auto 320px;
+  /* 295px is what a card actually measures; the 320 guessed before meant every
+     card shrank by 25px the moment it was really laid out, and on a scroll that
+     is the whole list twitching upward card by card. */
+  contain-intrinsic-size: auto 295px;
 }
 
 
