@@ -220,11 +220,12 @@ function FontCardImpl({
                     justifyContent: textAlign === 'center' ? 'center' : textAlign === 'right' ? 'flex-end' : 'flex-start',
                     columnGap: `${textSize * 0.34}px`,
                     rowGap: `${textSize * 0.1}px`,
-                    opacity: isLoaded ? undefined : 0,
-                    // Reveal once. Off-screen cards live in skipped content, and
-                    // returning to the viewport restarts their animations — so
-                    // this replayed on every scroll past and read as flicker.
-                    animation: isLoaded && !isAnimated ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
+                    // No opacity gate and no reveal animation here. With
+                    // `font-display: block` the browser already withholds the
+                    // text until the face is ready, so this was a second,
+                    // uncoordinated reveal racing the first — whichever won,
+                    // the text flashed. One mechanism, and it is the browser's,
+                    // because only it knows when the glyphs can actually paint.
                   }}
                 >
                   {/* default (muted) → alternate (solid) pairs */}
@@ -270,9 +271,7 @@ function FontCardImpl({
               fontWeight: effectiveStyle.weight,
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
               color: 'var(--gray-cont-prim)',
-              opacity: isLoaded ? undefined : 0,
-              // Reveal once — see the note on the other preview above.
-              animation: isLoaded && !isAnimated ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
+              // No opacity gate or reveal — see the note on the other preview.
               textAlign,
               // 'normal' resets the body-level UI stylistic sets so they never
               // bleed into the font specimen.
