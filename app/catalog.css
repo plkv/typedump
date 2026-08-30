@@ -276,13 +276,17 @@
 }
 
 .v2-card-reveal {
-  opacity: 0;
-  animation: cardFadeUp 0.4s ease forwards;
   /* Every family is in the DOM at once, so the browser laid out all 207 cards
      and therefore counted all 207 webfonts as used — scrolling a third of the
      list fetched the whole 16MB. Skipping layout for what is off-screen means
-     a font is fetched when its card is actually near the viewport. The browser
-     remembers each card's measured height, so the scrollbar stays put. */
+     a font is fetched when its card is actually near the viewport.
+
+     No entry animation here any more. Leaving the viewport puts a card back
+     into skipped content, and coming back re-runs its animations from the
+     start — so the staggered fade, written for one page load, replayed every
+     time you scrolled past a card and read as flickering. `auto` on the
+     intrinsic size lets the browser keep each card's real measured height, so
+     the list stops resizing under the scroll after the first pass. */
   content-visibility: auto;
   contain-intrinsic-size: auto 320px;
 }

@@ -221,7 +221,10 @@ function FontCardImpl({
                     columnGap: `${textSize * 0.34}px`,
                     rowGap: `${textSize * 0.1}px`,
                     opacity: isLoaded ? undefined : 0,
-                    animation: isLoaded ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
+                    // Reveal once. Off-screen cards live in skipped content, and
+                    // returning to the viewport restarts their animations — so
+                    // this replayed on every scroll past and read as flicker.
+                    animation: isLoaded && !isAnimated ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
                   }}
                 >
                   {/* default (muted) → alternate (solid) pairs */}
@@ -268,7 +271,8 @@ function FontCardImpl({
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
               color: 'var(--gray-cont-prim)',
               opacity: isLoaded ? undefined : 0,
-              animation: isLoaded ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
+              // Reveal once — see the note on the other preview above.
+              animation: isLoaded && !isAnimated ? 'v2TextReveal 0.5s cubic-bezier(0.2, 0, 0, 1) forwards' : 'none',
               textAlign,
               // 'normal' resets the body-level UI stylistic sets so they never
               // bleed into the font specimen.

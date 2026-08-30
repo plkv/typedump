@@ -1153,13 +1153,22 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       })
   }, [fonts, fontWeightSelections, loadedFonts])
 
-  // Track fonts that should be animated (only on first load)
+  // A font reveals once, on the pass where it finishes loading. After that the
+  // card renders it plainly — off-screen cards sit in skipped content and
+  // restart their animations on the way back in, which is what made scrolling
+  // flicker. The mark is set after the reveal has had time to play; setting it
+  // immediately would cut the animation off on the very next render.
   useEffect(() => {
-    loadedFonts.forEach(fontId => {
-      if (!animatedFonts.has(fontId)) {
-        setAnimatedFonts(prev => new Set(prev).add(fontId))
-      }
-    })
+    const pending = [...loadedFonts].filter(id => !animatedFonts.has(id))
+    if (!pending.length) return
+    const timer = setTimeout(() => {
+      setAnimatedFonts(prev => {
+        const next = new Set(prev)
+        pending.forEach(id => next.add(id))
+        return next
+      })
+    }, 600)
+    return () => clearTimeout(timer)
   }, [loadedFonts, animatedFonts])
 
   // Scroll-driven hero fade + scale
