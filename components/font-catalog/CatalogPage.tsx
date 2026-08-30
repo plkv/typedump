@@ -109,6 +109,19 @@ function reportPreviewText(text: string, preset: string, fontName?: string) {
   })
 }
 
+// Shared, frozen, and deliberately module-level: `|| {}` in a render creates a
+// new object every pass, and the card memo compares these by identity — so the
+// cards that have no OpenType or axis state set (most of them) looked changed
+// on every keystroke.
+const EMPTY_FEATURES: Record<string, boolean> = Object.freeze({})
+const EMPTY_AXES: Record<string, number> = Object.freeze({})
+type EffectiveStyleValue = {
+  weight: number
+  italic: boolean
+  variableAxes: Record<string, number>
+  otFeatures: Record<string, boolean>
+}
+
 export default function CatalogPage({ initialFonts, initialFilters }: { initialFonts: FontData[], initialFilters?: InitialFilters }) {
   const toArr = (v: string | string[] | undefined) => v ? (Array.isArray(v) ? v : [v]) : []
   // UI State
@@ -1076,11 +1089,27 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     }
   }
 
-  const getEffectiveStyle = (fontId: number) => {
-    const font = fonts.find(f => f.id === fontId)
+  // Computed for the whole catalogue at once, and only when something it
+  // depends on actually changes. It used to be called per card per render and
+  // to return a fresh object every time, which quietly defeated the card memo
+  // entirely — React compares that prop by identity, so no card was ever
+  // skipped and a keystroke reconciled all 207. It also scanned the font list
+  // linearly, 207 times over: 43,000 iterations a letter.
+  const effectiveStyles = useMemo(() => {
+    const map = new Map<number, EffectiveStyleValue>()
+    for (const font of fonts) map.set(font.id, computeEffectiveStyle(font.id))
+    return map
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fonts, fontWeightSelections, fontVariableAxes, fontOTFeatures, previewWeight])
+
+  const getEffectiveStyle = (fontId: number) =>
+    effectiveStyles.get(fontId) ?? computeEffectiveStyle(fontId)
+
+  function computeEffectiveStyle(fontId: number) {
+    const font = fontById.get(fontId)
     const fontSelection = fontWeightSelections[fontId] || { weight: 400, italic: false }
-    const stateAxes = fontVariableAxes[fontId] || {}
-    const otFeatures = fontOTFeatures[fontId] || {}
+    const stateAxes = fontVariableAxes[fontId] || EMPTY_AXES
+    const otFeatures = fontOTFeatures[fontId] || EMPTY_FEATURES
     const isFamilyVariable = (font?.type === 'Variable') || !!(font?.variableAxes && font.variableAxes.length)
 
     const axesOut: Record<string, number> = { ...stateAxes }
@@ -1327,8 +1356,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   previewContent={getPreviewContent(font.name, font.id)}
                   alternatesMode={selectedPreset === 'Alternates' && !customText.trim()}
                   cursorPosition={textCursorPosition[font.id] || 0}
-                  otFeatures={fontOTFeatures[font.id] || {}}
-                  variableAxesState={fontVariableAxes[font.id] || {}}
+                  otFeatures={fontOTFeatures[font.id] || EMPTY_FEATURES}
+                  variableAxesState={fontVariableAxes[font.id] || EMPTY_AXES}
                   styleAlternates={getStyleAlternates(font.id)}
                   variableAxesDef={getVariableAxes(font.id)}
                   effectiveStyle={effectiveStyle}
