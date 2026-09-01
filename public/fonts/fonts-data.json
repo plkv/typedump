@@ -26464,7 +26464,8 @@
       "collection": "Display",
       "styleTags": [
         "Contrast",
-        "Banded"
+        "Banded",
+        "Stroked"
       ],
       "languages": [
         "Latin",
@@ -27577,7 +27578,7 @@
     },
     {
       "name": "Valley Sans",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Humanist"
       ],
@@ -27995,7 +27996,4550 @@
           "ss09"
         ]
       ]
+    },
+    {
+      "name": "Averia Serif Libre",
+      "collection": "Display",
+      "styleTags": [
+        "Curly",
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Dan Sayers",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/averiaseriflibre",
+      "id": "family_averia_serif_libre_1756700000000",
+      "variants": [
+        {
+          "filename": "AveriaSerifLibre-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000001",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-Regular.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-Regular.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "AveriaSerifLibre-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000002",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-Italic.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-Italic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "AveriaSerifLibre-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000003",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-Light.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-Light.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "AveriaSerifLibre-LightItalic.ttf",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000004",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-LightItalic.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-LightItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "AveriaSerifLibre-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000005",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-Bold.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-Bold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "AveriaSerifLibre-BoldItalic.ttf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_averia_serif_libre_1756700000000_1756700000006",
+          "familyId": "family_averia_serif_libre_1756700000000",
+          "url": "/fonts/AveriaSerifLibre-BoldItalic.woff2",
+          "originalUrl": "/fonts/AveriaSerifLibre-BoldItalic.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Averia Serif Libre is a display serif by Dan Sayers, drawn by averaging the outlines of a whole library of serifs — every shape is the mean of hundreds of typefaces, which leaves edges soft and slightly unsteady. Light, Regular and Bold, each with an italic. It reads as warmth at headline sizes rather than as a mistake. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "BBH Sans Bartle",
+      "collection": "Display",
+      "styleTags": [
+        "Wide",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Studio DRAMA",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/Studio-DRAMA/BBHSans",
+      "id": "family_bbh_sans_bartle_1756700001000",
+      "variants": [
+        {
+          "filename": "BBHSansBartle-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Kerning",
+            "alt J"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "alt J"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_bbh_sans_bartle_1756700001000_1756700001001",
+          "familyId": "family_bbh_sans_bartle_1756700001000",
+          "url": "/fonts/BBHSansBartle-Regular.woff2",
+          "originalUrl": "/fonts/BBHSansBartle-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BBHSansBartle-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "BBH Sans Bartle is the expanded width of BBH Sans, the family Studio DRAMA drew for the Bartle Bogle Hegarty rebrand — Bartle (expanded), Hegarty (normal) and Bogle (condensed). Uppercase only, very heavy, with square counters and joints closed down to slits. One weight, for large sizes. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Poster"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Bitcount",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Pixel",
+        "Tech"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Pixel",
+        "Mono"
+      ],
+      "foundry": "Petr van Blokland (TYPETR)",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "id": "family_bitcount_1756700002000",
+      "variants": [
+        {
+          "filename": "Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Element Expansion",
+              "tag": "ELXP",
+              "axis": "ELXP",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "name": "Element Shape",
+              "tag": "ELSH",
+              "axis": "ELSH",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "name": "Slant",
+              "tag": "slnt",
+              "axis": "slnt",
+              "min": -8,
+              "max": 0,
+              "default": 0
+            },
+            {
+              "name": "Cursive",
+              "tag": "CRSV",
+              "axis": "CRSV",
+              "min": 0,
+              "max": 1,
+              "default": 0.5
+            }
+          ],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Small Capitals",
+            "Capitals to Small Capitals",
+            "Slashed Zero",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Extended ascenders",
+            "Extended capitals",
+            "Extended descenders",
+            "No contrast pixel",
+            "Italic shapes",
+            "Aternative g"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Extended ascenders"
+            },
+            {
+              "tag": "ss02",
+              "title": "Extended capitals"
+            },
+            {
+              "tag": "ss03",
+              "title": "Extended descenders"
+            },
+            {
+              "tag": "ss05",
+              "title": "No contrast pixel"
+            },
+            {
+              "tag": "ss08",
+              "title": "Italic shapes"
+            },
+            {
+              "tag": "ss09",
+              "title": "Aternative g"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_bitcount_1756700002000_1756700002001",
+          "familyId": "family_bitcount_1756700002000",
+          "url": "/fonts/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.woff2",
+          "originalUrl": "/fonts/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Bitcount is a modular monospace by Petr van Blokland: every glyph is assembled from identical elements on a fixed grid, so the whole alphabet is counted in bits. Five axes — weight, element shape, element expansion, slant and a cursive axis that swaps in connected forms — make one file behave like a whole pixel type library. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Tech / Digital",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Caudex",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Hjort Nidudsson",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/caudex",
+      "id": "family_caudex_1756700004000",
+      "variants": [
+        {
+          "filename": "Caudex-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_caudex_1756700004000_1756700004001",
+          "familyId": "family_caudex_1756700004000",
+          "url": "/fonts/Caudex-Regular.woff2",
+          "originalUrl": "/fonts/Caudex-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Caudex-Regular.woff2"
+        },
+        {
+          "filename": "Caudex-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_caudex_1756700004000_1756700004002",
+          "familyId": "family_caudex_1756700004000",
+          "url": "/fonts/Caudex-Italic.woff2",
+          "originalUrl": "/fonts/Caudex-Italic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Caudex-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_caudex_1756700004000_1756700004003",
+          "familyId": "family_caudex_1756700004000",
+          "url": "/fonts/Caudex-Bold.woff2",
+          "originalUrl": "/fonts/Caudex-Bold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Caudex-BoldItalic.ttf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_caudex_1756700004000_1756700004004",
+          "familyId": "family_caudex_1756700004000",
+          "url": "/fonts/Caudex-BoldItalic.woff2",
+          "originalUrl": "/fonts/Caudex-BoldItalic.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Caudex is a scholarly serif by Hjort Nidudsson, drawn for medieval and classical texts. It follows MUFI 3.0, so beyond a quiet old-style Latin it carries the abbreviation marks, ligatures and archaic letterforms that edited manuscripts need. Regular, Italic, Bold and Bold Italic. Latin, Latin Extended, Greek and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Drago",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Victor Pennetier",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/v-pennetier/drago",
+      "id": "family_drago_1756700005000",
+      "variants": [
+        {
+          "filename": "Drago-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_drago_1756700005000_1756700005001",
+          "familyId": "family_drago_1756700005000",
+          "url": "/fonts/Drago-Regular.woff2",
+          "originalUrl": "/fonts/Drago-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Drago-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Drago is a display serif by Victor Pennetier. High contrast on a vertical axis, wedge serifs cut to a point and joints tightened until the thins nearly disappear — it sharpens as it gets bigger. One weight, with a wide accented character set. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Homemade Apple",
+      "collection": "Display",
+      "styleTags": [
+        "Handwritten"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Font Diner",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/apache/homemadeapple",
+      "id": "family_homemade_apple_1756700006000",
+      "variants": [
+        {
+          "filename": "HomemadeApple-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_homemade_apple_1756700006000_1756700006001",
+          "familyId": "family_homemade_apple_1756700006000",
+          "url": "/fonts/HomemadeApple-Regular.woff2",
+          "originalUrl": "/fonts/HomemadeApple-Regular.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Homemade Apple is a handwriting face from Font Diner — a looping ballpoint cursive with connected lowercase, a right lean and thin, unhurried strokes. One weight, best used large and in short runs. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Handwritten / Script",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "LCT Ciburial",
+      "collection": "Display",
+      "styleTags": [
+        "Tech",
+        "Squared"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Lokal Container",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lokalcontainer.org",
+      "id": "family_lct_ciburial_1756700007000",
+      "variants": [
+        {
+          "filename": "LCT-Ciburial-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_lct_ciburial_1756700007000_1756700007001",
+          "familyId": "family_lct_ciburial_1756700007000",
+          "url": "/fonts/LCT-Ciburial-Regular.woff2",
+          "originalUrl": "/fonts/LCT-Ciburial-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LCT-Ciburial-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "LCT Ciburial is an industrial sans by Deni Anggara for Lokal Container. Near-monolinear strokes, squared-off curves and optical corrections that hold it together at both poster and interface sizes. One weight, with a technical, slightly raw character. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Tech / Digital"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Lil Grotesk",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Noir Blanc Rouge",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/noirblancrouge/LilGrotesk",
+      "id": "family_lil_grotesk_1756700008000",
+      "variants": [
+        {
+          "filename": "LilGroteskVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Lining Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Stylistic Set 1",
+            "Circled",
+            "Black Circled"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss03",
+              "title": "Circled"
+            },
+            {
+              "tag": "ss04",
+              "title": "Black Circled"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_lil_grotesk_1756700008000_1756700008001",
+          "familyId": "family_lil_grotesk_1756700008000",
+          "url": "/fonts/LilGroteskVF.woff2",
+          "originalUrl": "/fonts/LilGroteskVF.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LilGroteskVF.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Lil Grotesk is a neo-grotesque by Bastien Sozeau for Noir Blanc Rouge, with a weight axis from thin to black. Softened terminals and open apertures keep it warm where a Helvetica would go cold, and the character set stretches well past Latin. A free alternative to Helvetica Now for interfaces and text. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Lilex",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Tech"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Mikhael Khrustik",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/mishamyrt/Lilex",
+      "id": "family_lilex_1756700009000",
+      "variants": [
+        {
+          "filename": "Lilex-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Mark Positioning",
+            "Character Variant 1",
+            "Character Variant 2",
+            "Character Variant 3",
+            "Character Variant 4",
+            "Character Variant 5",
+            "Character Variant 6",
+            "Character Variant 7",
+            "Character Variant 8",
+            "Character Variant 9",
+            "Character Variant 10",
+            "Character Variant 11",
+            "Character Variant 12",
+            "Restore logical operations as arrows",
+            "Broken equals ligatures",
+            "Thin backslash",
+            "Broken number signs"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "cv01",
+              "title": "Character Variant 1"
+            },
+            {
+              "tag": "cv02",
+              "title": "Character Variant 2"
+            },
+            {
+              "tag": "cv03",
+              "title": "Character Variant 3"
+            },
+            {
+              "tag": "cv04",
+              "title": "Character Variant 4"
+            },
+            {
+              "tag": "cv05",
+              "title": "Character Variant 5"
+            },
+            {
+              "tag": "cv06",
+              "title": "Character Variant 6"
+            },
+            {
+              "tag": "cv07",
+              "title": "Character Variant 7"
+            },
+            {
+              "tag": "cv08",
+              "title": "Character Variant 8"
+            },
+            {
+              "tag": "cv09",
+              "title": "Character Variant 9"
+            },
+            {
+              "tag": "cv10",
+              "title": "Character Variant 10"
+            },
+            {
+              "tag": "cv11",
+              "title": "Character Variant 11"
+            },
+            {
+              "tag": "cv12",
+              "title": "Character Variant 12"
+            },
+            {
+              "tag": "ss01",
+              "title": "Restore logical operations as arrows"
+            },
+            {
+              "tag": "ss02",
+              "title": "Broken equals ligatures"
+            },
+            {
+              "tag": "ss03",
+              "title": "Thin backslash"
+            },
+            {
+              "tag": "ss04",
+              "title": "Broken number signs"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_lilex_1756700009000_1756700009001",
+          "familyId": "family_lilex_1756700009000",
+          "url": "/fonts/Lilex-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/Lilex-VariableFont_wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Lilex-VariableFont_wght.woff2"
+        },
+        {
+          "filename": "Lilex-Italic-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Superscript",
+            "Slashed Zero",
+            "Mark Positioning",
+            "Character Variant 1",
+            "Character Variant 2",
+            "Character Variant 3",
+            "Character Variant 4",
+            "Character Variant 5",
+            "Character Variant 6",
+            "Character Variant 7",
+            "Character Variant 8",
+            "Character Variant 9",
+            "Character Variant 10",
+            "Character Variant 11",
+            "Character Variant 12",
+            "Restore logical operations as arrows",
+            "Broken equals ligatures",
+            "Thin backslash",
+            "Broken number signs"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "cv01",
+              "title": "Character Variant 1"
+            },
+            {
+              "tag": "cv02",
+              "title": "Character Variant 2"
+            },
+            {
+              "tag": "cv03",
+              "title": "Character Variant 3"
+            },
+            {
+              "tag": "cv04",
+              "title": "Character Variant 4"
+            },
+            {
+              "tag": "cv05",
+              "title": "Character Variant 5"
+            },
+            {
+              "tag": "cv06",
+              "title": "Character Variant 6"
+            },
+            {
+              "tag": "cv07",
+              "title": "Character Variant 7"
+            },
+            {
+              "tag": "cv08",
+              "title": "Character Variant 8"
+            },
+            {
+              "tag": "cv09",
+              "title": "Character Variant 9"
+            },
+            {
+              "tag": "cv10",
+              "title": "Character Variant 10"
+            },
+            {
+              "tag": "cv11",
+              "title": "Character Variant 11"
+            },
+            {
+              "tag": "cv12",
+              "title": "Character Variant 12"
+            },
+            {
+              "tag": "ss01",
+              "title": "Restore logical operations as arrows"
+            },
+            {
+              "tag": "ss02",
+              "title": "Broken equals ligatures"
+            },
+            {
+              "tag": "ss03",
+              "title": "Thin backslash"
+            },
+            {
+              "tag": "ss04",
+              "title": "Broken number signs"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_lilex_1756700009000_1756700009002",
+          "familyId": "family_lilex_1756700009000",
+          "url": "/fonts/Lilex-Italic-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/Lilex-Italic-VariableFont_wght.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Lilex is a monospace for code by Mikhael Khrustik, built on IBM Plex Mono and extended with programming ligatures — arrows, comparison operators and comment markers resolve into single marks as you type. Weight axis 100–700 with a matching italic. A free alternative to Operator Mono or JetBrains Mono in an editor. Latin, Latin Extended, Cyrillic, Greek and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Code / Data",
+        "Interface"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "LINE Seed Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Geometry",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "LY Corporation & Dalton Maag",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://seed.line.me",
+      "id": "family_line_seed_sans_1756700010000",
+      "variants": [
+        {
+          "filename": "LINESeedSans_Rg.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_line_seed_sans_1756700010000_1756700010001",
+          "familyId": "family_line_seed_sans_1756700010000",
+          "url": "/fonts/LINESeedSans_Rg.woff2",
+          "originalUrl": "/fonts/LINESeedSans_Rg.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LINESeedSans_Rg.woff2"
+        },
+        {
+          "filename": "LINESeedSans_Th.ttf",
+          "weight": 250,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_line_seed_sans_1756700010000_1756700010002",
+          "familyId": "family_line_seed_sans_1756700010000",
+          "url": "/fonts/LINESeedSans_Th.woff2",
+          "originalUrl": "/fonts/LINESeedSans_Th.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "LINESeedSans_Bd.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_line_seed_sans_1756700010000_1756700010003",
+          "familyId": "family_line_seed_sans_1756700010000",
+          "url": "/fonts/LINESeedSans_Bd.woff2",
+          "originalUrl": "/fonts/LINESeedSans_Bd.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "LINESeedSans_XBd.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_line_seed_sans_1756700010000_1756700010004",
+          "familyId": "family_line_seed_sans_1756700010000",
+          "url": "/fonts/LINESeedSans_XBd.woff2",
+          "originalUrl": "/fonts/LINESeedSans_XBd.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "LINESeedSans_He.ttf",
+          "weight": 900,
+          "styleName": "Heavy",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_line_seed_sans_1756700010000_1756700010005",
+          "familyId": "family_line_seed_sans_1756700010000",
+          "url": "/fonts/LINESeedSans_He.woff2",
+          "originalUrl": "/fonts/LINESeedSans_He.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "LINE Seed Sans is the corporate typeface of LINE, drawn with Dalton Maag and released openly. A geometric skeleton with large counters and softened corners, tuned for screens at small sizes. Five weights from Thin to Heavy. A free alternative to Poppins or Circular for product UI. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Maname",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "mooniak",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/mooniak/maname-font",
+      "id": "family_maname_1756700011000",
+      "variants": [
+        {
+          "filename": "Maname-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Sinhala historical pa+f combination"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss02",
+              "title": "Sinhala historical pa+f combination"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_maname_1756700011000_1756700011001",
+          "familyId": "family_maname_1756700011000",
+          "url": "/fonts/Maname-Regular.woff2",
+          "originalUrl": "/fonts/Maname-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Maname-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Maname is a serif by Pathum Egodawatta for mooniak, drawn as a matched Sinhala and Latin pair. The Latin is a calligraphic old-style with pen-drawn stress and modest contrast, sized and weighted to sit level with the Sinhala rather than dominate it. One weight. Sinhala, Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Martí",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Replicante",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://replicante.co",
+      "id": "family_mart_1756700012000",
+      "variants": [
+        {
+          "filename": "MARTI.otf",
+          "weight": 600,
+          "styleName": "Standard",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "alt J"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_mart_1756700012000_1756700012001",
+          "familyId": "family_mart_1756700012000",
+          "url": "/fonts/MARTI.woff2",
+          "originalUrl": "/fonts/MARTI.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MARTI.woff2"
+        },
+        {
+          "filename": "MARTI-Rounded.otf",
+          "weight": 600,
+          "styleName": "Rounded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "alt J"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_mart_1756700012000_1756700012002",
+          "familyId": "family_mart_1756700012000",
+          "url": "/fonts/MARTI-Rounded.woff2",
+          "originalUrl": "/fonts/MARTI-Rounded.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Martí is an ultra-condensed grotesque by Cristian Arias (Replicante), reworked from Velvetyne's Commune Nuit Debout: shapes and proportions were redrawn, ascender and descender heights revised, and the kerning — absent in the original — was built from scratch. Two cuts, flat and rounded. Stack it big and tight. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Miranda Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Max Thunberg",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/maxthunberg/miranda-sans",
+      "id": "family_miranda_sans_1756700013000",
+      "variants": [
+        {
+          "filename": "MirandaSans-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_miranda_sans_1756700013000_1756700013001",
+          "familyId": "family_miranda_sans_1756700013000",
+          "url": "/fonts/MirandaSans-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/MirandaSans-VariableFont_wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MirandaSans-VariableFont_wght.woff2"
+        },
+        {
+          "filename": "MirandaSans-Italic-VariableFont_wght.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_miranda_sans_1756700013000_1756700013002",
+          "familyId": "family_miranda_sans_1756700013000",
+          "url": "/fonts/MirandaSans-Italic-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/MirandaSans-Italic-VariableFont_wght.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Miranda Sans is a humanist sans by Max Thunberg, with a weight axis from regular to bold and a true italic. Tall x-height, open apertures and quiet detailing — a workhorse rather than a statement. A free alternative to Inter or Söhne for interfaces and running text. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Modelo",
+      "collection": "Display",
+      "styleTags": [
+        "Bauhaus",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Maxitype",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.maxitype.com",
+      "id": "family_modelo_1756700014000",
+      "variants": [
+        {
+          "filename": "Modelo-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_modelo_1756700014000_1756700014001",
+          "familyId": "family_modelo_1756700014000",
+          "url": "/fonts/Modelo-Regular.woff2",
+          "originalUrl": "/fonts/Modelo-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Modelo-Regular.woff2"
+        },
+        {
+          "filename": "Modelo-Thin.otf",
+          "weight": 250,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_modelo_1756700014000_1756700014002",
+          "familyId": "family_modelo_1756700014000",
+          "url": "/fonts/Modelo-Thin.woff2",
+          "originalUrl": "/fonts/Modelo-Thin.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Modelo-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_modelo_1756700014000_1756700014003",
+          "familyId": "family_modelo_1756700014000",
+          "url": "/fonts/Modelo-Light.woff2",
+          "originalUrl": "/fonts/Modelo-Light.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Modelo-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_modelo_1756700014000_1756700014004",
+          "familyId": "family_modelo_1756700014000",
+          "url": "/fonts/Modelo-Bold.woff2",
+          "originalUrl": "/fonts/Modelo-Bold.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Modelo-Black.otf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_modelo_1756700014000_1756700014005",
+          "familyId": "family_modelo_1756700014000",
+          "url": "/fonts/Modelo-Black.woff2",
+          "originalUrl": "/fonts/Modelo-Black.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Modelo is a geometric display face by Maximage for Maxitype, built from circles, straight lines and 45° cuts and nothing else. The constraint shows in the joins: E, S and G resolve as constructed diagrams rather than letters, which is the point. Five weights from Thin to Black. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Momo Signature",
+      "collection": "Display",
+      "styleTags": [
+        "Handwritten",
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "TYPE Associates",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/typeassociates",
+      "id": "family_momo_signature_1756700015000",
+      "variants": [
+        {
+          "filename": "MomoSignature-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "ss01",
+            "ss02",
+            "ss03"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "ss01"
+            },
+            {
+              "tag": "ss02",
+              "title": "ss02"
+            },
+            {
+              "tag": "ss03",
+              "title": "ss03"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_momo_signature_1756700015000_1756700015001",
+          "familyId": "family_momo_signature_1756700015000",
+          "url": "/fonts/MomoSignature-Regular.woff2",
+          "originalUrl": "/fonts/MomoSignature-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MomoSignature-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Momo Signature is the handwritten member of the Momo family from TYPE Associates — a fast monoline script with connected lowercase, long entry and exit strokes and a steady forward lean. Full Vietnamese diacritics, drawn to clear the joins. One weight. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Handwritten / Script",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Ojuju",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Geometry",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "UDI Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/jobosonchisa/ojuju",
+      "id": "family_ojuju_1756700016000",
+      "variants": [
+        {
+          "filename": "Ojuju-VariableFont_wght.ttf",
+          "weight": 200,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 200
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ojuju_1756700016000_1756700016001",
+          "familyId": "family_ojuju_1756700016000",
+          "url": "/fonts/Ojuju-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/Ojuju-VariableFont_wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ojuju-VariableFont_wght.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Ojuju is a variable display sans by Chisaokwu Joboson and Mirko Velimirović for UDI Foundry, with a weight axis from extra light to extra bold. Near-geometric shapes with rounded corners and narrow apertures give it a bouncy, spoken quality at large sizes. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Paper Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Tech"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Paper",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/paper-design/paper-mono",
+      "id": "family_paper_mono_1756700017000",
+      "variants": [
+        {
+          "filename": "PaperMono[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Character Variant 1",
+            "Coding ligatures",
+            "Duospace glyphs",
+            "Narrow space",
+            "Alt arrows"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "cv01",
+              "title": "Character Variant 1"
+            },
+            {
+              "tag": "ss01",
+              "title": "Coding ligatures"
+            },
+            {
+              "tag": "ss02",
+              "title": "Duospace glyphs"
+            },
+            {
+              "tag": "ss03",
+              "title": "Narrow space"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt arrows"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_paper_mono_1756700017000_1756700017001",
+          "familyId": "family_paper_mono_1756700017000",
+          "url": "/fonts/PaperMono[wght].woff2",
+          "originalUrl": "/fonts/PaperMono[wght].ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PaperMono[wght].woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Paper Mono is a monospace by Guido Ferreyra and Javier Quintana Godoy, drawn for Paper. A weight axis from thin to extra bold on an even, low-contrast rhythm — plain enough for terminals and tables, with enough drawing left in it for interface labels. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Code / Data",
+        "Interface"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Panchi Mono",
+      "collection": "Brutal",
+      "styleTags": [
+        "Tech",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Erwan Le Rétif",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://erwanleretif.xyz/typotheque",
+      "id": "family_panchi_mono_1756700018000",
+      "variants": [
+        {
+          "filename": "Panchi Mono.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Standard Ligatures",
+            "Superscript",
+            "Stylistic Set 6"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "alt J"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_panchi_mono_1756700018000_1756700018001",
+          "familyId": "family_panchi_mono_1756700018000",
+          "url": "/fonts/Panchi Mono.woff2",
+          "originalUrl": "/fonts/Panchi Mono.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Panchi Mono.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Panchi Mono is a monospace by Erwan Le Rétif, drawn for a project and released free while it is still unfinished — the character set is modest and stops at Latin Extended. Sturdy stems, blunt terminals and a typewriter cadence. One weight. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Code / Data",
+        "Tech / Digital"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Phudu",
+      "collection": "Display",
+      "styleTags": [
+        "Squared",
+        "Tech"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Duong Tran",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/duongtrtype/DTPhudu",
+      "id": "family_phudu_1756700019000",
+      "variants": [
+        {
+          "filename": "Phudu-VariableFont_wght.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_phudu_1756700019000_1756700019001",
+          "familyId": "family_phudu_1756700019000",
+          "url": "/fonts/Phudu-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/Phudu-VariableFont_wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Phudu-VariableFont_wght.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Phudu is an uppercase display sans by Duong Tran with a weight axis from light to black. Squared bowls, flat terminals and even stems keep it steady when set large and tight. Full Vietnamese diacritics, fitted inside the cap height. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Poster"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Quattrocento",
+      "collection": "Display",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Pablo Impallari",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/quattrocento",
+      "id": "family_quattrocento_1756700020000",
+      "variants": [
+        {
+          "filename": "Quattrocento-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_quattrocento_1756700020000_1756700020001",
+          "familyId": "family_quattrocento_1756700020000",
+          "url": "/fonts/Quattrocento-Regular.woff2",
+          "originalUrl": "/fonts/Quattrocento-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Quattrocento-Regular.woff2"
+        },
+        {
+          "filename": "Quattrocento-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_quattrocento_1756700020000_1756700020002",
+          "familyId": "family_quattrocento_1756700020000",
+          "url": "/fonts/Quattrocento-Bold.woff2",
+          "originalUrl": "/fonts/Quattrocento-Bold.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Quattrocento is a humanist serif by Pablo Impallari, modelled on the Renaissance types of the 1400s: wide, open counters, low contrast and a calligraphic stress that keeps long text easy. Regular and Bold. A free alternative to Adobe Jenson or Palatino for long-form reading. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Special Gothic",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alistair McCready",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
+      "id": "family_special_gothic_1756700021000",
+      "variants": [
+        {
+          "filename": "SpecialGothic-VariableFont_wdth,wght.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "ss01"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_special_gothic_1756700021000_1756700021001",
+          "familyId": "family_special_gothic_1756700021000",
+          "url": "/fonts/SpecialGothic-VariableFont_wdth,wght.woff2",
+          "originalUrl": "/fonts/SpecialGothic-VariableFont_wdth,wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SpecialGothic-VariableFont_wdth,wght.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Special Gothic is a variable grotesque by Alistair McCready. Two axes in one file — width 75–125 and weight 400–700 — cover condensed to expanded and regular to bold in any combination, on a plain American gothic skeleton. A free alternative to Trade Gothic. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Special Gothic Condensed One",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alistair McCready",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
+      "id": "family_special_gothic_condensed_one_1756700022000",
+      "variants": [
+        {
+          "filename": "SpecialGothicCondensedOne-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "ss01"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_special_gothic_condensed_one_1756700022000_1756700022001",
+          "familyId": "family_special_gothic_condensed_one_1756700022000",
+          "url": "/fonts/SpecialGothicCondensedOne-Regular.woff2",
+          "originalUrl": "/fonts/SpecialGothicCondensedOne-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SpecialGothicCondensedOne-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Special Gothic Condensed One is the fixed condensed cut of Alistair McCready's Special Gothic — one width, one weight, spaced for headlines rather than for the variable family's range. Tight, plain and built to be set large. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Special Gothic Expanded One",
+      "collection": "Display",
+      "styleTags": [
+        "Wide"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alistair McCready",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
+      "id": "family_special_gothic_expanded_one_1756700023000",
+      "variants": [
+        {
+          "filename": "SpecialGothicExpandedOne-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "ss01"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "ss01"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_special_gothic_expanded_one_1756700023000_1756700023001",
+          "familyId": "family_special_gothic_expanded_one_1756700023000",
+          "url": "/fonts/SpecialGothicExpandedOne-Regular.woff2",
+          "originalUrl": "/fonts/SpecialGothicExpandedOne-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SpecialGothicExpandedOne-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Special Gothic Expanded One is the fixed expanded cut of Alistair McCready's Special Gothic — one width, one weight, drawn wide enough that a single word fills a line. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Tomorrow",
+      "collection": "Text",
+      "styleTags": [
+        "Tech",
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Monica Rizzolli & Tony de Marco",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/MonicaRizzolli/Tomorrow",
+      "id": "family_tomorrow_1756700024000",
+      "variants": [
+        {
+          "filename": "Tomorrow-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024001",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Regular.woff2",
+          "originalUrl": "/fonts/Tomorrow-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Tomorrow-Regular.woff2"
+        },
+        {
+          "filename": "Tomorrow-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024002",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Italic.woff2",
+          "originalUrl": "/fonts/Tomorrow-Italic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-Thin.ttf",
+          "weight": 250,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024003",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Thin.woff2",
+          "originalUrl": "/fonts/Tomorrow-Thin.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-ThinItalic.ttf",
+          "weight": 250,
+          "styleName": "Thin Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024004",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-ThinItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-ThinItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-ExtraLight.ttf",
+          "weight": 275,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024005",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-ExtraLight.woff2",
+          "originalUrl": "/fonts/Tomorrow-ExtraLight.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-ExtraLightItalic.ttf",
+          "weight": 275,
+          "styleName": "ExtraLight Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024006",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-ExtraLightItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-ExtraLightItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024007",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Light.woff2",
+          "originalUrl": "/fonts/Tomorrow-Light.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-LightItalic.ttf",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024008",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-LightItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-LightItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-Medium.ttf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024009",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Medium.woff2",
+          "originalUrl": "/fonts/Tomorrow-Medium.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-MediumItalic.ttf",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024010",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-MediumItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-MediumItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-SemiBold.ttf",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024011",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-SemiBold.woff2",
+          "originalUrl": "/fonts/Tomorrow-SemiBold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-SemiBoldItalic.ttf",
+          "weight": 600,
+          "styleName": "SemiBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024012",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-SemiBoldItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-SemiBoldItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024013",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Bold.woff2",
+          "originalUrl": "/fonts/Tomorrow-Bold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-BoldItalic.ttf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024014",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-BoldItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-BoldItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-ExtraBold.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024015",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-ExtraBold.woff2",
+          "originalUrl": "/fonts/Tomorrow-ExtraBold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-ExtraBoldItalic.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024016",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-ExtraBoldItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-ExtraBoldItalic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-Black.ttf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024017",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-Black.woff2",
+          "originalUrl": "/fonts/Tomorrow-Black.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Tomorrow-BlackItalic.ttf",
+          "weight": 900,
+          "styleName": "Black Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_tomorrow_1756700024000_1756700024018",
+          "familyId": "family_tomorrow_1756700024000",
+          "url": "/fonts/Tomorrow-BlackItalic.woff2",
+          "originalUrl": "/fonts/Tomorrow-BlackItalic.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Tomorrow is a techno-geometric sans by Monica Rizzolli and Tony de Marco: squared bowls, clipped joints and a slightly narrow build that keeps lines compact. Nine weights from Thin to Black, each with an italic. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Tech / Digital"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Vend Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Bold Scandinavia",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/ktkm/Vend-Sans",
+      "id": "family_vend_sans_1756700025000",
+      "variants": [
+        {
+          "filename": "VendSans-VariableFont_wght.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Straight Curve",
+            "Curve Straight"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Straight Curve"
+            },
+            {
+              "tag": "ss02",
+              "title": "Curve Straight"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_vend_sans_1756700025000_1756700025001",
+          "familyId": "family_vend_sans_1756700025000",
+          "url": "/fonts/VendSans-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/VendSans-VariableFont_wght.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/VendSans-VariableFont_wght.woff2"
+        },
+        {
+          "filename": "VendSans-Italic-VariableFont_wght.ttf",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Straight Curve",
+            "Curve Straight"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Straight Curve"
+            },
+            {
+              "tag": "ss02",
+              "title": "Curve Straight"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_vend_sans_1756700025000_1756700025002",
+          "familyId": "family_vend_sans_1756700025000",
+          "url": "/fonts/VendSans-Italic-VariableFont_wght.woff2",
+          "originalUrl": "/fonts/VendSans-Italic-VariableFont_wght.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Vend Sans is a neutral sans by Bold Scandinavia, with a weight axis from light to bold and a matching italic. Even spacing, closed apertures and Nordic restraint — it stays out of the way in product copy. A free alternative to Aktiv Grotesk or Suisse Int'l. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Feroniapi",
+      "collection": "Display",
+      "styleTags": [
+        "Calligraphy",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Julienne Richard",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.juliennerichard.com",
+      "id": "family_feroniapi_1756700026000",
+      "variants": [
+        {
+          "filename": "Feroniapi-MediumItalic.otf",
+          "weight": 500,
+          "styleName": "MediumItalic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Required Ligatures",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_feroniapi_1756700026000_1756700026001",
+          "familyId": "family_feroniapi_1756700026000",
+          "url": "/fonts/Feroniapi-MediumItalic.woff2",
+          "originalUrl": "/fonts/Feroniapi-MediumItalic.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Feroniapi-MediumItalic.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Feroniapi is Julienne Richard's rework of Feronia, Peter Wiegel's calligraphic serif from the Velvetyne library. It ships as a single medium italic: broad-nib contrast, long extenders and a steep slant that reads as written rather than drawn. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Sunday Collaborative Alphabet",
+      "collection": "Brutal",
+      "styleTags": [
+        "Cut",
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "The Sunday Paper",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.thesundaypaper.com.au",
+      "id": "family_sunday_collaborative_alphabet_1756700027000",
+      "variants": [
+        {
+          "filename": "SundayCollaborativeAlphabetVF.ttf",
+          "weight": 10,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 10,
+              "max": 200,
+              "default": 10
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_sunday_collaborative_alphabet_1756700027000_1756700027001",
+          "familyId": "family_sunday_collaborative_alphabet_1756700027000",
+          "url": "/fonts/SundayCollaborativeAlphabetVF.woff2",
+          "originalUrl": "/fonts/SundayCollaborativeAlphabetVF.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Sunday Collaborative Alphabet began as a drawing exercise at The Sunday Paper, an independent publication centring Aboriginal, Torres Strait Islander and Palestinian voices: each contributor added one straight line per character, and the result was digitised with a weight axis. Uppercase, jagged, deliberately unresolved. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Culture",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Sunday Masthead",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "The Sunday Paper",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.thesundaypaper.com.au",
+      "id": "family_sunday_masthead_1756700028000",
+      "variants": [
+        {
+          "filename": "SundayMasthead-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_sunday_masthead_1756700028000_1756700028001",
+          "familyId": "family_sunday_masthead_1756700028000",
+          "url": "/fonts/SundayMasthead-Regular.woff2",
+          "originalUrl": "/fonts/SundayMasthead-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SundayMasthead-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Sunday Masthead is the nameplate face of The Sunday Paper, drawn by Dennis Grauel: heavy, slightly condensed capitals with square shoulders. Only the characters the masthead needed are fully resolved — the rest of the alphabet follows the same drawing but is unfinished. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Poster"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Sunday Protest Marker",
+      "collection": "Brutal",
+      "styleTags": [
+        "Handwritten",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "The Sunday Paper",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.thesundaypaper.com.au",
+      "id": "family_sunday_protest_marker_1756700029000",
+      "variants": [
+        {
+          "filename": "SundayProtestMarker-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_sunday_protest_marker_1756700029000_1756700029001",
+          "familyId": "family_sunday_protest_marker_1756700029000",
+          "url": "/fonts/SundayProtestMarker-Regular.woff2",
+          "originalUrl": "/fonts/SundayProtestMarker-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SundayProtestMarker-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Sunday Protest Marker is traced from the lettering of editor Yul Scarf on a solidarity placard — fat marker strokes, uneven baseline, letters leaning into each other. A–Z only, for the moment. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Culture",
+        "Poster"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Sunday AC Hand",
+      "collection": "Brutal",
+      "styleTags": [
+        "Handwritten"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "The Sunday Paper",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.thesundaypaper.com.au",
+      "id": "family_sunday_ac_hand_1756700030000",
+      "variants": [
+        {
+          "filename": "SundayACHand-Thin.otf",
+          "weight": 100,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_sunday_ac_hand_1756700030000_1756700030001",
+          "familyId": "family_sunday_ac_hand_1756700030000",
+          "url": "/fonts/SundayACHand-Thin.woff2",
+          "originalUrl": "/fonts/SundayACHand-Thin.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SundayACHand-Thin.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Sunday AC Hand is a regularised drawing of a handwriting sketch by Alissar Chidiac, a contributor to The Sunday Paper — a thin, looping lowercase script kept close to the original hand. One weight. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Handwritten / Script",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Midgame",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Squared"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Yu Masuda",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/yumasuda",
+      "id": "family_midgame_1756700031000",
+      "variants": [
+        {
+          "filename": "Midgame Std.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_midgame_1756700031000_1756700031001",
+          "familyId": "family_midgame_1756700031000",
+          "url": "/fonts/Midgame Std.woff2",
+          "originalUrl": "/fonts/Midgame Std.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Midgame Std.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Midgame is a heavy block face by Yu Masuda: flat-sided capitals, square counters and numerals built to the same slab, drawn with sports graphics in mind. One weight, tightly spaced. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/yumasuda"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Azimut",
+      "collection": "Text",
+      "styleTags": [
+        "Contrast",
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Benjamin Blaess, Julien Priez & Mathieu Reguer",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://azimut.strasbourg.eu",
+      "id": "family_azimut_1756700032000",
+      "variants": [
+        {
+          "filename": "Azimut-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Lining Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Capitals to Small Capitals",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Circled figures white",
+            "Circled figures black",
+            "Squared figures white",
+            "Squared figures black"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Circled figures white"
+            },
+            {
+              "tag": "ss02",
+              "title": "Circled figures black"
+            },
+            {
+              "tag": "ss03",
+              "title": "Squared figures white"
+            },
+            {
+              "tag": "ss04",
+              "title": "Squared figures black"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_azimut_1756700032000_1756700032001",
+          "familyId": "family_azimut_1756700032000",
+          "url": "/fonts/Azimut-Regular.woff2",
+          "originalUrl": "/fonts/Azimut-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Azimut-Regular.woff2"
+        },
+        {
+          "filename": "Azimut-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Lining Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_azimut_1756700032000_1756700032002",
+          "familyId": "family_azimut_1756700032000",
+          "url": "/fonts/Azimut-Italic.woff2",
+          "originalUrl": "/fonts/Azimut-Italic.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Azimut-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_azimut_1756700032000_1756700032003",
+          "familyId": "family_azimut_1756700032000",
+          "url": "/fonts/Azimut-Bold.woff2",
+          "originalUrl": "/fonts/Azimut-Bold.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Azimut is the typeface of the city of Strasbourg, drawn by Benjamin Blaess, Julien Priez and Mathieu Reguer and released for anyone to use. A text serif with humanist proportions, pen-drawn stress and a large accented set for civic signage and print. Regular, Italic and Bold. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "CC BY-ND",
+        "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "RRR Climax",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Replicante",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://replicante.co",
+      "id": "family_rrr_climax_1756700033000",
+      "variants": [
+        {
+          "filename": "RRRClimaxVF.ttf",
+          "weight": 400,
+          "styleName": "100",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Contrast",
+              "tag": "CNTR",
+              "axis": "CNTR",
+              "min": 0,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_rrr_climax_1756700033000_1756700033001",
+          "familyId": "family_rrr_climax_1756700033000",
+          "url": "/fonts/RRRClimaxVF.woff2",
+          "originalUrl": "/fonts/RRRClimaxVF.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/RRRClimaxVF.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "RRR Climax is an ultra-condensed display face from Replicante with a single contrast axis: at 0 the strokes stay even, at 100 the thins collapse to hairlines and the face turns into a fatface. Capitals and figures, spaced tight for stacked headlines. Latin.",
+      "licenseInfo": {
+        "type": "CC BY-ND",
+        "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Runefa",
+      "collection": "Brutal",
+      "styleTags": [
+        "Cut",
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "yar.yav",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/696f7e55",
+      "id": "family_runefa_1756700035000",
+      "variants": [
+        {
+          "filename": "Runefa.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_runefa_1756700035000_1756700035001",
+          "familyId": "family_runefa_1756700035000",
+          "url": "/fonts/Runefa.woff2",
+          "originalUrl": "/fonts/Runefa.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Runefa.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Runefa is a display face by yar.yav that starts from squares and lets them melt: hard corners on one side of a letter, a soft curve on the other, with counters cut at odd angles. One case — the lowercase repeats the capitals — and no figures. Latin.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/696f7e55"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Experimental",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "SFC Steal Deal",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Skilline Fonts Co",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://skillinefontsco.com/freebies/",
+      "id": "family_sfc_steal_deal_1756700036000",
+      "variants": [
+        {
+          "filename": "SFC Steal Deal.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_sfc_steal_deal_1756700036000_1756700036001",
+          "familyId": "family_sfc_steal_deal_1756700036000",
+          "url": "/fonts/SFC Steal Deal.woff2",
+          "originalUrl": "/fonts/SFC Steal Deal.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/SFC Steal Deal.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "SFC Steal Deal is a slanted condensed display face from Skilline Fonts Co — heavy capitals cut on a steep italic angle, drawn for price tags, sale banners and signage. One weight. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://skillinefontsco.com/freebies/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Golden Goose Uppercase",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Banded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Unio Designs",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://uniodesign.eu",
+      "id": "family_golden_goose_uppercase_1756800000000",
+      "variants": [
+        {
+          "filename": "GoldenGooseUppercase-VariableVF.ttf",
+          "weight": 200,
+          "styleName": "Variable",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200.0,
+              "max": 400.0,
+              "default": 200.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_golden_goose_uppercase_1756800000000_1756800000001",
+          "familyId": "family_golden_goose_uppercase_1756800000000",
+          "url": "/fonts/GoldenGooseUppercase-VariableVF.woff2",
+          "originalUrl": "/fonts/GoldenGooseUppercase-VariableVF.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Golden Goose Uppercase is a display serif by Bruno Pierini for Unio Designs: flared stems, spurred capitals and a weight axis that runs only from extra light to regular, so the drawing never thickens past elegant. A–Z only — no lowercase, no figures, so anything else falls back. Latin.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://uniodesign.eu"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Poster"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "THICCCBOI",
+      "collection": "Text",
+      "styleTags": [
+        "Geometry",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Wonder Unit",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/wonderunit/font-thicccboi",
+      "id": "family_thicccboi_1756800001000",
+      "variants": [
+        {
+          "filename": "THICCCBOI-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001001",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Regular.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/THICCCBOI-Regular.woff2"
+        },
+        {
+          "filename": "THICCCBOI-Thin.ttf",
+          "weight": 100,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001002",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Thin.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Thin.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001003",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Light.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Light.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-Medium.ttf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001004",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Medium.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Medium.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-SemiBold.ttf",
+          "weight": 600,
+          "styleName": "Semi Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001005",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-SemiBold.woff2",
+          "originalUrl": "/fonts/THICCCBOI-SemiBold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001006",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Bold.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Bold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-ExtraBold.ttf",
+          "weight": 800,
+          "styleName": "Extra Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001007",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-ExtraBold.woff2",
+          "originalUrl": "/fonts/THICCCBOI-ExtraBold.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-Black.ttf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001008",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-Black.woff2",
+          "originalUrl": "/fonts/THICCCBOI-Black.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "THICCCBOI-ThicccAF.ttf",
+          "weight": 900,
+          "styleName": "Thiccc AF",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Alternates",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_thicccboi_1756800001000_1756800001009",
+          "familyId": "family_thicccboi_1756800001000",
+          "url": "/fonts/THICCCBOI-ThicccAF.woff2",
+          "originalUrl": "/fonts/THICCCBOI-ThicccAF.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "THICCCBOI is a geometric sans by Charles Forman for Wonder Unit — wide, open and near-circular in the bowls. Nine weights from Thin to ThicccAF, the last of which closes the counters down to slits and stops being a text face entirely. Latin, Latin Extended and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Ferron",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Nollev",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/nolepstudio",
+      "id": "family_ferron_1756800002000",
+      "variants": [
+        {
+          "filename": "Ferron-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002001",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-Regular.woff2",
+          "originalUrl": "/fonts/Ferron-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ferron-Regular.woff2"
+        },
+        {
+          "filename": "Ferron-UltraCondensed.otf",
+          "weight": 400,
+          "styleName": "Ultra Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002002",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-UltraCondensed.woff2",
+          "originalUrl": "/fonts/Ferron-UltraCondensed.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-ExtraCondensed.otf",
+          "weight": 400,
+          "styleName": "Extra Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002003",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-ExtraCondensed.woff2",
+          "originalUrl": "/fonts/Ferron-ExtraCondensed.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-Condensed.otf",
+          "weight": 400,
+          "styleName": "Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002004",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-Condensed.woff2",
+          "originalUrl": "/fonts/Ferron-Condensed.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-SemiCondensed.otf",
+          "weight": 400,
+          "styleName": "Semi Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002005",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-SemiCondensed.woff2",
+          "originalUrl": "/fonts/Ferron-SemiCondensed.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-SemiExpanded.otf",
+          "weight": 400,
+          "styleName": "Semi Expanded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002006",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-SemiExpanded.woff2",
+          "originalUrl": "/fonts/Ferron-SemiExpanded.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-Expanded.otf",
+          "weight": 400,
+          "styleName": "Expanded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002007",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-Expanded.woff2",
+          "originalUrl": "/fonts/Ferron-Expanded.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-ExtraExpanded.otf",
+          "weight": 400,
+          "styleName": "Extra Expanded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002008",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-ExtraExpanded.woff2",
+          "originalUrl": "/fonts/Ferron-ExtraExpanded.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "Ferron-UltraExpanded.otf",
+          "weight": 400,
+          "styleName": "Ultra Expanded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_ferron_1756800002000_1756800002009",
+          "familyId": "family_ferron_1756800002000",
+          "url": "/fonts/Ferron-UltraExpanded.woff2",
+          "originalUrl": "/fonts/Ferron-UltraExpanded.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Ferron is a heavy display grotesque by Akhmad Hidayat for Nollev, cut in nine widths from ultra condensed to ultra expanded at one ultra-heavy weight — the whole family is the width axis. Uppercase only in the free release. Latin.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/nolepstudio"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Bonbance",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "X Cicéro — ÉSAD Valence",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://xcicero.esad-gv.net",
+      "id": "family_bonbance_1756800003000",
+      "variants": [
+        {
+          "filename": "Bonbance-BoldCondensed.otf",
+          "weight": 700,
+          "styleName": "Noir Condensé",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_bonbance_1756800003000_1756800003001",
+          "familyId": "family_bonbance_1756800003000",
+          "url": "/fonts/Bonbance-BoldCondensed.woff2",
+          "originalUrl": "/fonts/Bonbance-BoldCondensed.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Bonbance-BoldCondensed.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Bonbance is a bold condensed serif by Louna Bourdon, drawn in the X Cicéro workshop at ÉSAD Valence from the school's collection of wood type. The originals are damaged and incomplete, and the revival keeps that history rather than sanding it off. One cut, for headlines. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Caramel",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "X Cicéro — ÉSAD Valence",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://xcicero.esad-gv.net",
+      "id": "family_caramel_1756800004000",
+      "variants": [
+        {
+          "filename": "Caramel-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Standard Ligatures",
+            "Kerning",
+            "Mark Positioning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_caramel_1756800004000_1756800004001",
+          "familyId": "family_caramel_1756800004000",
+          "url": "/fonts/Caramel-Regular.woff2",
+          "originalUrl": "/fonts/Caramel-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Caramel-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Caramel is a heavy condensed display face by Hugo Lopez, drawn in the X Cicéro workshop at ÉSAD Valence after the school's wood type: flat sides, blunt terminals and counters squeezed to slots. One weight, caps and lowercase. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Faktory",
+      "collection": "Display",
+      "styleTags": [
+        "Tech",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "SUVA Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.suvatypefoundry.ee/faktory/",
+      "id": "family_faktory_1756800005000",
+      "variants": [
+        {
+          "filename": "faktory.otf",
+          "weight": 400,
+          "styleName": "Standard",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_faktory_1756800005000_1756800005001",
+          "familyId": "family_faktory_1756800005000",
+          "url": "/fonts/faktory.woff2",
+          "originalUrl": "/fonts/faktory.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/faktory.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Faktory is a sans by Kristjan Prik for SUVA Type Foundry, the type shop of the Estonian Academy of Arts, built from rough industrial shapes — softened rectangles, clipped joints and a rhythm left slightly uneven on purpose. One weight; the foundry asks for a credit. Latin.",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://www.suvatypefoundry.ee/faktory/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Tech / Digital"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Kintsugi LVRG",
+      "collection": "Display",
+      "styleTags": [
+        "Cut",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Leverage",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/rafgraf798e7d4",
+      "id": "family_kintsugi_lvrg_1756800006000",
+      "variants": [
+        {
+          "filename": "Kintsugi_LVRG-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_kintsugi_lvrg_1756800006000_1756800006001",
+          "familyId": "family_kintsugi_lvrg_1756800006000",
+          "url": "/fonts/Kintsugi_LVRG-Regular.woff2",
+          "originalUrl": "/fonts/Kintsugi_LVRG-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Kintsugi_LVRG-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Kintsugi_LVRG is a display face by Rafael Leverage named after the Japanese craft of repairing pottery with gold: a line of text stands in for the broken plate and each letter for a patch, with the seams left visible where the shapes are rejoined. One weight, capitals-led. Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/rafgraf798e7d4"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Toronto",
+      "collection": "Display",
+      "styleTags": [
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Carter Teranes",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://carterteranes.com",
+      "id": "family_toronto_1756800007000",
+      "variants": [
+        {
+          "filename": "Toronto-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Sans Serif"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Sans Serif"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_toronto_1756800007000_1756800007001",
+          "familyId": "family_toronto_1756800007000",
+          "url": "/fonts/Toronto-Regular.woff2",
+          "originalUrl": "/fonts/Toronto-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Toronto-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Toronto is Carter Teranes's revival of Ro 44 Toronto, a Rarotype typewriter face. The original was strictly monospaced; here the spacing is loosened to semi-mono and the weight pulled back for screens, keeping the mechanical rhythm. Stylistic alternates supply simplified sans forms for r, l and i — copied from a machine whose slugs had been filed down. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Culture",
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Bricolage Grotesque",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Mathieu Triay",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/ateliertriay/bricolage",
+      "id": "family_bricolage_grotesque_1756700003000",
+      "variants": [
+        {
+          "filename": "BricolageGrotesque[opsz,wdth,wght].ttf",
+          "weight": 800,
+          "styleName": "96pt ExtraBold",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical Size",
+              "tag": "opsz",
+              "axis": "opsz",
+              "min": 12,
+              "max": 96,
+              "default": 96
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 800
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 75,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Lining Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-01T00:00:00.000Z",
+          "id": "variant_family_bricolage_grotesque_1756700003000_1756700003001",
+          "familyId": "family_bricolage_grotesque_1756700003000",
+          "url": "/fonts/BricolageGrotesque[opsz,wdth,wght].woff2",
+          "originalUrl": "/fonts/BricolageGrotesque[opsz,wdth,wght].ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BricolageGrotesque[opsz,wdth,wght].woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Bricolage Grotesque is a variable grotesque by Mathieu Triay. Three axes carry it across a whole page: weight 200–800, width 75–100 and an optical size axis from 12 to 96pt that opens the spacing for small text and tightens it for headlines. A free alternative to Söhne or Neue Haas Grotesk for interfaces and running text. Latin, Latin Extended and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "altPairs": []
     }
   ],
-  "lastUpdated": "2026-08-29T21:26:20.972517Z"
+  "lastUpdated": "2026-09-01T13:27:43.982937Z"
 }
