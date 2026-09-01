@@ -211,10 +211,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
   const inputRefs = useRef<Record<number, HTMLInputElement | null>>({})
   const heroRef = useRef<HTMLDivElement>(null)
-  // Per-word animation delays, grouped by visual line (measured after layout).
-  // Per-word animation delays, grouped by visual line (measured after layout).
-  // The buttons follow the last block (0.38s + its 0.5s fade).
-  const heroButtonsDelay = 0.88
   const mainRef = useRef<HTMLElement>(null)
   const catalogCardsRef = useRef<HTMLDivElement>(null)
   const injectedFontIdsRef = useRef<Set<number>>(new Set())
@@ -225,17 +221,32 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [textCursorPosition, setTextCursorPosition] = useState<Record<number, number>>({})
 
   // Inject @font-face CSS for a single font — called lazily when card enters viewport
+  // Families the stylesheet already declares. Re-declaring one is not a no-op:
+  // the browser takes the later @font-face as the winner, that copy starts
+  // unloaded, and `font-display: block` then hides the specimen until it
+  // arrives — so the text appeared, vanished, and came back as each card
+  // scrolled in. Measured 32 such duplicate (family, weight, style) triples,
+  // each with one loaded copy and one unloaded. Built lazily and not cached,
+  // because fonts.css streams in and our own injections join the same set —
+  // which is exactly what should suppress a second attempt.
+  const alreadyDeclared = () => {
+    const names = new Set<string>()
+    document.fonts.forEach(f => names.add(f.family.replace(/^["']|["']$/g, '')))
+    return names
+  }
+
   const injectSingleFontCSS = useCallback((font: FontData) => {
     if (injectedFontIdsRef.current.has(font.id)) return
     injectedFontIdsRef.current.add(font.id)
 
+    const declared = alreadyDeclared()
     const isVar = font.type === 'Variable' || !!(font.variableAxes?.length)
     let css = ''
 
     if (font._familyFonts && font._familyFonts.length > 0 && !isVar) {
       css = font._familyFonts.map((ff: any) => {
         const alias = ff.cssFamily
-        if (!alias) return ''
+        if (!alias || declared.has(alias)) return ''
         const italic = ff.isItalic || (ff.style || '').toLowerCase().includes('italic')
         const src = ff.previewUrl || ff.url || ff.blobUrl || `/fonts/${ff.filename}`
         return `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:block;}`
@@ -245,12 +256,16 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       const wMin = font.availableWeights?.[0] ?? 100
       const wMax = font.availableWeights?.[font.availableWeights.length - 1] ?? 900
       const alias = font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
-      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:block;}`
+      css = declared.has(alias)
+        ? ''
+        : `@font-face{font-family:"${alias}";src:url("${src}");font-weight:${wMin} ${wMax};font-style:normal oblique 0deg 20deg;font-display:block;}`
     } else {
       const src = font.previewUrl || font.url || `/fonts/${font.filename}`
       const alias = font._familyFonts?.[0]?.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
       const italic = (font.style || '').toLowerCase().includes('italic')
-      css = `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:block;}`
+      css = declared.has(alias)
+        ? ''
+        : `@font-face{font-family:"${alias}";src:url("${src}");font-weight:100 900;font-style:${italic ? 'italic' : 'normal'};font-display:block;}`
     }
 
     if (css.trim()) {
@@ -1228,7 +1243,16 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       // Once fully faded, stop the invisible 100vh sticky hero from eating clicks
       // on content beneath it (e.g. the footer link when scrolled to the bottom).
       hero.style.pointerEvents = progress >= 1 ? 'none' : 'auto'
-      setCatalogVisible(main.scrollTop > heroHeight * 0.15)
+      // The hero has finished fading at 35% of its height, so both thresholds
+      // sit above that: the bar only ever moves while the hero is already
+      // invisible. Two of them, not one, because the bar takes 0.25s to slide
+      // away — leaving at the exact pixel the hero starts coming back meant it
+      // was still on screen once the text had faded in. 45/50 gives it that
+      // quarter-second of scroll to clear, and the gap between the two keeps it
+      // from flickering when a scroll stops on the boundary.
+      const enter = heroHeight * 0.50
+      const leave = heroHeight * 0.45
+      setCatalogVisible(prev => (main.scrollTop > enter ? true : main.scrollTop < leave ? false : prev))
     }
     main.addEventListener('scroll', onScroll, { passive: true })
     return () => main.removeEventListener('scroll', onScroll)
@@ -1248,11 +1272,6 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
   return (
     <div className="h-screen overflow-hidden" style={{ backgroundColor: 'var(--gray-surface-sec)', color: getCurrentTheme().fg }}>
-      {/* Fallback character styles */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        .fallback-char{opacity:.4!important;color:var(--gray-cont-tert)!important;}
-      ` }} />
-
       <Navbar fonts={fonts.map(f => ({ name: f.name, author: f.author }))} />
 
       {/* Main font list */}
@@ -1266,46 +1285,52 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Hero section */}
         <div ref={heroRef} className="catalog-hero px-2">
           <div className="catalog-hero-content">
-            {/* Three blocks by sense — what this is, what is in it, what the
-                fonts can do — each fading up as a section, then the buttons. */}
-            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.10s' }}>
-              <span className="hero-muted">TypeDump</span> is a curated index of open-source
-              typefaces, hand-picked for designers, vibe coders, and developers.
-            </p>
-            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.24s' }}>
-              Text fonts built for interfaces and long reads; display faces with a strong point of
-              view; fresh type for identity and culture.
-            </p>
-            <p className="catalog-hero-text hero-line" style={{ animationDelay: '0.38s' }}>
-              Type designers put more into a font than most apps ever show: variable axes, alternate
-              letterforms, ligatures, whole scripts. You can try all of it here, in the browser.
-              Totally free. Curated by{' '}
-              <a
-                className="hero-muted hero-credit-link"
-                href="https://plkv.works/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Stas Polyakov
-              </a>
-            </p>
-            <div className="catalog-hero-buttons hero-buttons-reveal" style={{ animationDelay: `${heroButtonsDelay.toFixed(3)}s` }}>
-              <a
-                href="https://www.npmjs.com/package/typedump"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="v2-button v2-button-inactive"
-                style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none' }}
-              >
-                Install MCP
-              </a>
-              <button
-                className="v2-button v2-button-active"
-                onClick={scrollToCatalog}
-              >
-                Browse catalog
-              </button>
-            </div>
+            {/* One section, the width of the menu above it: the intro, with its
+                two actions at the foot. */}
+            <section className="hero-main v2-card">
+              <div className="hero-main-copy hero-copy-reveal">
+                <p className="catalog-hero-text">
+                  <span className="hero-muted">TypeDump</span> is a curated index of open-source
+                  typefaces, hand-picked for designers, vibe coders, and developers.
+                </p>
+                <p className="catalog-hero-text">
+                  Text fonts built for interfaces and long reads; display faces with a strong point
+                  of view; fresh type for identity and culture.
+                </p>
+                <p className="catalog-hero-text">
+                  Type designers put more into a font than most apps ever show: variable axes,
+                  alternate letterforms, ligatures, whole scripts.
+                </p>
+                <p className="catalog-hero-text">
+                  You can try all of it here, in the browser. Totally free.
+                </p>
+                <p className="catalog-hero-text">
+                  Curated by{' '}
+                  <a
+                    className="hero-muted hero-credit-link"
+                    href="https://plkv.works/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Stas Polyakov
+                  </a>
+                </p>
+              </div>
+
+              <div className="hero-buttons hero-buttons-reveal">
+                <button className="v2-button v2-button-active" onClick={scrollToCatalog}>
+                  Browse catalog
+                </button>
+                <a
+                  className="v2-button v2-button-inactive"
+                  href="https://www.npmjs.com/package/typedump"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install MCP
+                </a>
+              </div>
+            </section>
           </div>
         </div>
 

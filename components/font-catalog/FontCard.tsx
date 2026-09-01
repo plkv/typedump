@@ -1,11 +1,30 @@
 'use client'
 
-import { useRef, useEffect, memo } from 'react'
+import { useRef, useEffect, useState, memo } from 'react'
 import { Slider } from '@/components/ui/slider'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { familyToSlug } from '@/lib/font-slug'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
 import { IconReset, IconChevronDown } from '@/components/icons'
+
+// ─── Font readiness ─────────────────────────────────────────────────────────
+
+// One `loadingdone` listener for the whole catalogue rather than one per card.
+// 207 cards subscribing to the same event each would be 207 listeners doing
+// identical work on every font that lands.
+const readinessSubscribers = new Set<() => void>()
+let readinessHooked = false
+
+function onFontsChanged(cb: () => void): () => void {
+  readinessSubscribers.add(cb)
+  if (!readinessHooked && typeof document !== 'undefined' && document.fonts) {
+    readinessHooked = true
+    document.fonts.addEventListener('loadingdone', () => {
+      readinessSubscribers.forEach(fn => fn())
+    })
+  }
+  return () => { readinessSubscribers.delete(cb) }
+}
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -94,6 +113,44 @@ function FontCardImpl({
   useEffect(() => {
     onInputRef(inputRef.current)
   })
+
+  // True until proven otherwise, so the server-rendered card and the first
+  // client frame agree and nothing flashes a shimmer that was never needed.
+  // The same alias the preview's own fontFamily resolves to. font.family is the
+  // human name ("Geist"); the sheet declares hashed aliases ("Geist-4b3734"),
+  // so matching on the human name found no declared face and every card
+  // reported itself ready.
+  const previewFamily =
+    fontSelection.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
+  const [fontReady, setFontReady] = useState(true)
+
+  useEffect(() => {
+    if (!previewFamily || typeof document === 'undefined' || !document.fonts) return
+    // Read FontFace.status directly rather than document.fonts.check(): check()
+    // answers "would this family be used", which is true the moment the
+    // @font-face is declared, loaded or not — measured returning true for a
+    // face sitting at status 'unloaded', so the shimmer never once appeared.
+    //
+    // And status only, never load(). Asking to load would start fetching all
+    // 207 faces the moment the cards mount, which is the 16MB this catalogue
+    // was pulled back from — the browser fetches a face when rendered content
+    // actually uses it, and content-visibility keeps off-screen cards out of
+    // that.
+    const recheck = () => {
+      let declared = false
+      let loaded = false
+      document.fonts.forEach(f => {
+        if (f.family.replace(/^["']|["']$/g, '') !== previewFamily) return
+        declared = true
+        if (f.status === 'loaded') loaded = true
+      })
+      // A family this sheet does not declare is somebody else's problem — a
+      // system stack, say — and has nothing to wait for.
+      setFontReady(!declared || loaded)
+    }
+    recheck()
+    return onFontsChanged(recheck)
+  }, [previewFamily, textSize])
 
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
@@ -250,7 +307,11 @@ function FontCardImpl({
             </div>
           )
         })() : (
-        <div className="relative" style={{ paddingTop: '16px', paddingBottom: '16px' }}>
+        <div
+          className={`relative${fontReady ? '' : ' preview-loading'}`}
+          style={{ paddingTop: '16px', paddingBottom: '16px' }}
+        >
+          {!fontReady && <div className="preview-shimmer" aria-hidden="true" />}
           <ControlledTextPreview
             ref={inputRef as any}
             value={previewContent}

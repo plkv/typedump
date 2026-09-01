@@ -42,13 +42,14 @@ function buildFontFace(familyName, v) {
     weight,
     isItalic: v.isItalic,
     format: v.format,
-    // `block`, not `swap`. Measured across the catalogue, every face here is
-    // wider than the system fallback — 1.05x to 1.39x — so any frame drawn in
-    // the fallback and then re-drawn in the real font visibly grows, which on a
-    // scroll reads as the text jittering. The card keeps its preview hidden
-    // until the font reports loaded anyway, so painting a fallback underneath
-    // it was never wanted. Safe now that the cut files load in ~76ms.
-    fontDisplay: 'block',
+    // `swap`, so the specimen paints in the fallback straight away and the card
+    // can shimmer over it while the real face arrives. `block` was here before
+    // and hid the text outright: nothing to shimmer, and a blank card reads as
+    // broken rather than as loading. The swap does re-draw the line — every
+    // face in this catalogue is 1.05x to 1.39x wider than the system fallback,
+    // so it grows on arrival — but the shimmer is what marks the text as
+    // provisional, which is the point of showing it at all.
+    fontDisplay: 'swap',
   })
 }
 

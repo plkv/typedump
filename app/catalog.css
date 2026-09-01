@@ -32,9 +32,17 @@
   --v2-backdrop: rgba(0, 0, 0, 0.5);
   --v2-dim: rgba(0, 0, 0, 0.30);
 
-  /* Overlay surface — navbar + bottom sheet */
-  --v2-overlay-bg: rgba(240, 240, 240, 0.64);
-  --v2-overlay-border: rgba(0, 0, 0, 0.04);
+  /* Overlay surface — navbar + bottom sheet.
+
+     rgba(240,240,240,.64) composited over the page (--gray-surface-sec,
+     #f2f3f5) landed on #f1f1f2 — a step DARKER than the ground it floats on,
+     so the bars read as part of the background instead of above it. Mixed from
+     the card colour instead: #fcfcfc at .88 lands on #fbfbfb, the same
+     separation the cards below already have, with enough left of the
+     translucency for the blur to still do something. Light theme only; the dark
+     values below were already dense enough. */
+  --v2-overlay-bg: rgba(252, 252, 252, 0.88);
+  --v2-overlay-border: rgba(0, 0, 0, 0.06);
   --v2-overlay-btn-bg: rgba(0, 0, 0, 0.06);
   --v2-overlay-btn-hover: rgba(0, 0, 0, 0.07);
 
@@ -247,9 +255,17 @@
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.v2-nav-pre-bottom,
 .v2-nav-enter-bottom {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+/* Leaves faster than it arrives. The class swap means the departing bar takes
+   this transition, and a quarter-second exit was slower than a flick back to
+   the top — the panel was still sliding away over hero text that had already
+   faded in. Coming in it has the whole catalogue behind it and can take its
+   time; going out it is racing the hero. */
+.v2-nav-pre-bottom {
+  transition: transform 0.12s cubic-bezier(0.4, 0, 1, 1), opacity 0.1s ease;
 }
 
 .v2-nav-pre-top    { transform: translateX(-50%) translateY(calc(-100% - 16px)); }
@@ -506,53 +522,106 @@
 /* ─── Catalog Hero ─────────────────────────────────────────────────────────── */
 
 .catalog-hero {
+  /* Full height in the flow: this box is what reserves the first screen, and
+     shortening it pulls the catalogue up underneath the hero. */
   height: 100vh;
   margin-top: -80px;
   position: sticky;
   top: 0;
   z-index: 1;
   display: flex;
-  align-items: center;
+  /* The box starts 80px down, under the navbar, so its own bottom 80px are off
+     screen. The content column is pinned to the top of it and sized to what is
+     actually visible — that is where the four sections have to fit. */
+  align-items: flex-start;
   will-change: opacity, transform;
   transform-origin: center center;
 }
 
 .catalog-hero-content {
-  margin-top: -80px;
-  padding: 24px;
+  /* One column the width of the menu island above it (.navbar-container is
+     440px), so the first screen reads as one stack: menu, intro, TypeTray. */
   display: flex;
   flex-direction: column;
-  /* Paragraphs sit closer to each other than the buttons sit to the text. */
-  gap: 16px;
+  gap: 8px;
   width: 100%;
-  /* The column is centred on the page — 800px of text plus the 24px padding
-     either side. */
-  max-width: calc(800px + 48px);
+  max-width: 440px;
   margin-inline: auto;
+  /* dvh too, so a collapsing mobile address bar cannot push the last section
+     below the fold. */
+  height: calc(100vh - 80px);
+  height: calc(100dvh - 80px);
+  /* Deliberately uneven, because the two edges answer to different things.
+
+     Below, the card ends on the same line as the filter panel, which floats
+     16px off the bottom — at 8 it hung lower than the bar itself.
+
+     Above, the neighbour is the menu, and everything under it runs on the
+     page's 8px rhythm: 8px side gutters, 8px between catalogue cards. A 16
+     there read as a hole. This box starts at 80 and the menu ends at 70, so
+     zero padding leaves 10 — the closest to 8 available without shimming the
+     sticky offset for two pixels. */
+  padding: 0 0 16px;
 }
 
-.catalog-hero-content .catalog-hero-buttons {
-  margin-top: 16px;
+.hero-main {
+  /* Takes whatever height the TypeTray card below does not need. The copy sits
+     at the top, the two actions at the foot. */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px;
+  min-height: 0;
+  overflow: hidden;
 }
 
-/* Bigger than the buttons in the cards below: these are the two things the
-   whole first screen is asking the reader to do. Scoped to the hero, because
-   .v2-button is the site's button everywhere else and 40px is right there. */
-.catalog-hero-buttons .v2-button {
-  height: 48px;
-  padding: 0 20px;
-  font-size: 16px;
-  line-height: 48px;
+.hero-main-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* Whatever does not fit comes out of the copy, never out of the buttons.
+     Without this the text kept its full height, pushed the buttons past the
+     card, and the card's own overflow:hidden cut "Install MCP" in half on a
+     640-tall phone. */
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Stacked, not side by side, and each one the full width of the card. */
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.hero-buttons .v2-button {
+  width: 100%;
+  height: 44px;
+  font-size: 15px;
+  line-height: 44px;
+  padding: 0 16px;
+  /* One of the two is an <a> and the other a <button>: without this the link
+     sits left while the button centres, and they stop reading as a pair. */
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-main { padding: 20px 16px; }
 }
 
 .catalog-hero-text {
   margin: 0;
-  max-width: 800px;
   font-family: "Instrument Sans UI", sans-serif;
-  font-size: 28px;
-  /* 36, not 32: at 1.14 the lines were touching, and this is a paragraph to be
-     read rather than a headline. */
-  line-height: 36px;
+  /* The column is now the width of the menu, 440px. At the old 28px that left
+     about five words a line; 18/26 is the size this measure actually wants.
+     The width is set by the column, so no max-width here any more. */
+  font-size: 18px;
+  line-height: 26px;
   /* Both axes set off the register: the face is declared 400-700 on weight and
      75%-100% on width (see the @font-face at the top of this file), so 450 and
      97% land inside its range instead of snapping to a named instance. */
@@ -570,12 +639,22 @@
     padding-inline: 8px;
   }
 
-  /* 28px does not fit a phone: the intro grew taller than the viewport and its
-     first line ended up hidden behind the navbar. */
   .catalog-hero-text {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 17px;
+    line-height: 25px;
   }
+}
+
+/* Short phones — 640 tall and under. The five paragraphs ran 39px past the
+   card there, and the two buttons are the part that must survive, so the copy
+   gives up the difference rather than being clipped for it. */
+@media (max-height: 700px) {
+  .catalog-hero-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .hero-main-copy { gap: 10px; }
+  .hero-main { padding: 16px; gap: 16px; }
 }
 
 /* The two named things in the intro — the product at the start, the curator at
@@ -604,28 +683,78 @@
   color: var(--gray-cont-prim);
 }
 
-.catalog-hero-buttons {
-  display: flex;
-  gap: 8px;
-}
-
 /* Hero fade-in */
 @keyframes heroFadeUp {
   from { opacity: 0; transform: translateY(5px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.hero-line {
-  opacity: 0;
-  animation: heroFadeUp 0.5s ease forwards;
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy-reveal,
+  .hero-buttons-reveal { animation-duration: 0.001s; transform: none; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .hero-line,
-  .hero-buttons-reveal { animation-duration: 0.001s; transform: none; }
+/* Two reveals, not six. Each paragraph used to fade in on its own delay, which
+   at five paragraphs plus the buttons was more choreography than a first screen
+   needs — the eye tracked the animation instead of reading. The copy arrives as
+   one block, the buttons a beat behind it. */
+.hero-copy-reveal {
+  opacity: 0;
+  animation: heroFadeUp 0.35s ease 0.06s forwards;
 }
 
 .hero-buttons-reveal {
   opacity: 0;
-  animation: heroFadeUp 0.4s ease forwards;
+  animation: heroFadeUp 0.3s ease 0.22s forwards;
+}
+
+/* Characters the current face has no glyph for, greyed out inside a specimen.
+
+   This lived as an inline <style> inside CatalogPage's render. React tore the
+   element down and rebuilt it on every re-render — 22 times during a short
+   scroll, because scrolling sets state — and each removal and re-insertion of a
+   stylesheet forces a full style recalculation across a document that carries
+   200-odd injected @font-face rules. Every visible specimen blinked at once,
+   several times on the way down. The rules never changed, so they belong here,
+   parsed once. */
+.fallback-char {
+  opacity: 0.4 !important;
+  color: var(--gray-cont-tert) !important;
+}
+
+/* ─── Preview preloader ─────────────────────────────────────────────────────
+   While a specimen's face is still downloading the text paints in the system
+   fallback (font-display: swap). That fallback is not the answer to the
+   question the card is asking, so it is dimmed and swept with a shimmer: the
+   line is legible, and legibly provisional. Cleared the moment the browser
+   reports the face loaded — see onFontsChanged in FontCard.tsx. */
+
+.preview-loading textarea,
+.preview-loading [contenteditable] {
+  opacity: 0.32;
+  /* No transition on the way in — the dim state is the first frame. Coming out
+     it fades, so the swap to the real face is not a hard cut. */
+  transition: opacity 0.25s ease;
+}
+
+.preview-shimmer {
+  position: absolute;
+  /* Inset by the wrapper's own 16px padding, so the sweep covers the line of
+     text rather than the whitespace around it. */
+  inset: 16px 0;
+  pointer-events: none;
+  border-radius: var(--radius-component);
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    color-mix(in srgb, var(--gray-cont-prim) 7%, transparent) 20%,
+    transparent 40%,
+    transparent 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preview-shimmer { animation: none; }
 }
