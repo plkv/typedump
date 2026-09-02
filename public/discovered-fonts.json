@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-01T06:01:19.166Z",
+  "generatedAt": "2026-09-02T06:02:12.169Z",
   "months": 3,
   "since": "2026-01-01",
-  "count": 102,
+  "count": 114,
   "fonts": [
     {
       "name": "Asap Sharp",
@@ -329,6 +329,78 @@
       "license": "Free for commercial"
     },
     {
+      "name": "Ngaco",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/ngaco-font/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/ngaco-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Dacomment",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/dacomment-font/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/dacomment-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Black Bold Font 2",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/black-bold-font-2/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/04/black_bold-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Matcha Cih",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/matcha-cih-font/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/04/matcha_cih-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Batolah",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/batolah-font/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/04/batolah-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Mbah Liel",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/mbah-liel-font/",
+      "date": "2026-05-12",
+      "image": "https://fontesk.com/wp-content/uploads/2026/04/mbah_liel-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
       "name": "Romano Revival",
       "author": "",
       "source": "fontesk.com",
@@ -372,6 +444,78 @@
       "url": "https://fontesk.com/super-kidpop-font/",
       "date": "2026-05-08",
       "image": "https://fontesk.com/wp-content/uploads/2026/05/super_kidpop.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Story Master Display",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/story-master-display-font/",
+      "date": "2026-05-08",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/storymaster-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Youth Shandey",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/youth-shandey-font/",
+      "date": "2026-05-07",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/youth_shandey-2.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Eastern Rhodopes",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/eastern-rhodopes-font/",
+      "date": "2026-05-07",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/eastern_rodopes-5.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Satyr Sp 2",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/satyr-sp-2-font/",
+      "date": "2026-05-07",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/satyr-1.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Super Mindset",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/super-mindset-font/",
+      "date": "2026-05-07",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/super_mindset.jpg",
+      "googleFamily": null,
+      "category": null,
+      "license": "Free for commercial"
+    },
+    {
+      "name": "Super Beatpop",
+      "author": "",
+      "source": "fontesk.com",
+      "sourceLabel": "Fontesk",
+      "url": "https://fontesk.com/super-beatpop-font/",
+      "date": "2026-05-07",
+      "image": "https://fontesk.com/wp-content/uploads/2026/05/super_beatpop.jpg",
       "googleFamily": null,
       "category": null,
       "license": "Free for commercial"
