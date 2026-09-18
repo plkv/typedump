@@ -13,6 +13,7 @@ missing is converted here from the original file.
     python3 scripts/sync-npm-mirror.py            # report and write
     python3 scripts/sync-npm-mirror.py --dry-run  # report only
 """
+import hashlib
 import json
 import os
 import shutil
@@ -36,26 +37,46 @@ def woff2_name(url):
     return os.path.splitext(base)[0] + ".woff2"
 
 
+def _same(src, dest):
+    """Whether the package already holds this exact file.
+
+    Only meaningful when the site stores the face as woff2 too; a .ttf source
+    is re-flavoured on the way in, so its bytes never match and it is compared
+    by the source's own mtime instead.
+    """
+    if src.lower().endswith(".woff2"):
+        return (os.path.getsize(src) == os.path.getsize(dest)
+                and hashlib.file_digest(open(src, "rb"), "sha256").digest()
+                == hashlib.file_digest(open(dest, "rb"), "sha256").digest())
+    return os.path.getmtime(dest) >= os.path.getmtime(src)
+
+
 def ensure_woff2(src_url, dry_run):
     """Make sure the package has this face as woff2. Returns (name, action)."""
     name = woff2_name(src_url)
     if not name:
         return "", "no file"
     dest = os.path.join(PKG_FONTS, name)
-    if os.path.exists(dest):
-        return name, "already there"
     src = os.path.join(ROOT, "public" + src_url)
     if not os.path.exists(src):
-        return name, "source missing"
+        return name, "source missing" if not os.path.exists(dest) else "already there"
+
+    # Presence was the whole test, so a face that CHANGED on the site kept its
+    # stale copy in the package forever. Removing the bullet mappings edited
+    # eleven files the mirror then refused to refresh, silently.
+    fresh = os.path.exists(dest) and _same(src, dest)
+    if fresh:
+        return name, "already there"
+    action = "refreshed" if os.path.exists(dest) else "copied"
     if dry_run:
-        return name, "would convert"
+        return name, "would " + ("refresh" if action == "refreshed" else "convert")
     if src.lower().endswith(".woff2"):
         shutil.copyfile(src, dest)
-        return name, "copied"
+        return name, action
     font = TTFont(src)
     font.flavor = "woff2"
     font.save(dest)
-    return name, "converted"
+    return name, "converted" if action == "copied" else "refreshed"
 
 
 def main():
