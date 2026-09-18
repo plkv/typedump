@@ -65,7 +65,13 @@ def main():
         return 1
 
     site = json.load(open(SITE_DATA, encoding="utf-8"))
-    families = [f for f in site["families"] if f.get("published", True)]
+    # npmMirror: false keeps a font on the site but out of the package, for
+    # licences that allow showing a face but not redistributing the file.
+    families = [
+        f
+        for f in site["families"]
+        if f.get("published", True) and f.get("npmMirror", True)
+    ]
 
     out = []
     actions = {}

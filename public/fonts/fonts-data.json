@@ -36455,7 +36455,666 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": []
+    },
+    {
+      "name": "Memoir",
+      "collection": "Display",
+      "styleTags": [
+        "Banded",
+        "Humanist",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Daniel Gremme",
+      "isVariable": false,
+      "published": true,
+      "npmMirror": false,
+      "downloadLink": "https://danielgremme.com/type/",
+      "id": "family_memoir_1758190000000",
+      "variants": [
+        {
+          "filename": "Memoir-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Discretionary Ligatures",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Alt Y",
+            "Alt R",
+            "Alt A"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt Y"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt A"
+            },
+            {
+              "tag": "dlig",
+              "title": "RA ligature"
+            },
+            {
+              "tag": "salt",
+              "title": "Stylistic Alternates"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_memoir_1758190000000_1758190000001",
+          "familyId": "family_memoir_1758190000000",
+          "url": "/fonts/Memoir-Regular.woff2",
+          "originalUrl": "/fonts/Memoir-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "updatedAt": "2026-09-18T00:00:00.000Z",
+      "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://danielgremme.com/type/"
+      },
+      "publishedAt": "2026-09-18",
+      "useCases": [
+        "Brand Headline",
+        "Poster",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Humane",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Rajesh Rajput",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/146747487/HUMANE-Free-Typeface-Variable",
+      "id": "family_humane_1758191000000",
+      "variants": [
+        {
+          "filename": "Humane-Variable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_humane_1758191000000_1",
+          "familyId": "family_humane_1758191000000",
+          "url": "/fonts/Humane-Variable.woff2",
+          "originalUrl": "/fonts/Humane-Variable.ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Light",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semi Bold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Humane-Variable.woff2"
+        }
+      ],
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "updatedAt": "2026-09-18T00:00:00.000Z",
+      "description": "Humane is about as narrow as a sans gets: the capitals stand tall and thin enough that a headline which would normally wrap fits on one line, and the counters close to slivers. Contrast is almost nil and the joints are plain, so it stays a grotesque rather than turning decorative. One weight axis from thin to bold, seven named weights, Latin with the extended accents. Set it large — at text size the narrowness stops being legible.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/gallery/146747487/HUMANE-Free-Typeface-Variable"
+      },
+      "publishedAt": "2026-09-18",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "ZT Talk",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Grotesque",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Zelowtype",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://zelowtype.gumroad.com/l/zttalk",
+      "id": "family_zt_talk_1758191000001",
+      "variants": [
+        {
+          "filename": "ZTTalk-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_1",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-Regular.woff2",
+          "originalUrl": "/fonts/ZTTalk-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ZTTalk-Regular.woff2"
+        },
+        {
+          "filename": "ZTTalk-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_2",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-Italic.woff2",
+          "originalUrl": "/fonts/ZTTalk-Italic.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-Medium.otf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_3",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-Medium.woff2",
+          "originalUrl": "/fonts/ZTTalk-Medium.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-MediumItalic.otf",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_4",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-MediumItalic.woff2",
+          "originalUrl": "/fonts/ZTTalk-MediumItalic.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-SemiBold.otf",
+          "weight": 600,
+          "styleName": "Semi Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_5",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-SemiBold.woff2",
+          "originalUrl": "/fonts/ZTTalk-SemiBold.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-SemiBoldItalic.otf",
+          "weight": 600,
+          "styleName": "Semi Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_6",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-SemiBoldItalic.woff2",
+          "originalUrl": "/fonts/ZTTalk-SemiBoldItalic.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_7",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-Bold.woff2",
+          "originalUrl": "/fonts/ZTTalk-Bold.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ZTTalk-BoldItalic.otf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Historical Forms",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt g"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_talk_1758191000001_8",
+          "familyId": "family_zt_talk_1758191000001",
+          "url": "/fonts/ZTTalk-BoldItalic.woff2",
+          "originalUrl": "/fonts/ZTTalk-BoldItalic.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "updatedAt": "2026-09-18T00:00:00.000Z",
+      "description": "ZT Talk is the free cut of a much larger Zelowtype family: four weights from regular to bold, each with a true italic rather than a slant. The drawing is a slightly narrowed grotesque — double-storey a, single-storey g with an open hook, flat-cut terminals — neutral enough to set at paragraph size while saving a little width against Helvetica. Carries ligatures, fractions, super- and subscripts and alternates for a and g. Latin.",
+      "licenseInfo": {
+        "type": "Freeware",
+        "url": "https://zelowtype.gumroad.com/l/zttalk"
+      },
+      "publishedAt": "2026-09-18",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "ZT Floogn",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Zelowtype",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://zelowtype.gumroad.com/l/ztfloogn",
+      "id": "family_zt_floogn_1758191000002",
+      "variants": [
+        {
+          "filename": "ZTFloogn-ExtraBold.otf",
+          "weight": 800,
+          "styleName": "Extra Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Stylistic Alternates"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt forms"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_zt_floogn_1758191000002_1",
+          "familyId": "family_zt_floogn_1758191000002",
+          "url": "/fonts/ZTFloogn-ExtraBold.woff2",
+          "originalUrl": "/fonts/ZTFloogn-ExtraBold.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ZTFloogn-ExtraBold.woff2"
+        }
+      ],
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "updatedAt": "2026-09-18T00:00:00.000Z",
+      "description": "ZT Floogn is the one free weight of a sixteen-style family, and Zelowtype picked a good one: an extra bold built on near-geometric skeletons, then given odd details that keep it from reading as generic — the Q's tail sits detached below the bowl, the t is cut on a slant, the g ends in a blunt hook. Nothing subtle at small sizes; it is drawn for a headline. Latin with extended accents, plus fractions and alternates.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://zelowtype.gumroad.com/l/ztfloogn"
+      },
+      "publishedAt": "2026-09-18",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Riottosa",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Squared",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Marco Goran Romano",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/marcogoranromano/riottosa",
+      "id": "family_riottosa_1758191000003",
+      "variants": [
+        {
+          "filename": "RiottosaVF.ttf",
+          "weight": 400,
+          "styleName": "Regular Condensed",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 0.0,
+              "max": 100.0,
+              "default": 0.0
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 0.0,
+              "max": 100.0,
+              "default": 0.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
+          "id": "variant_family_riottosa_1758191000003_1",
+          "familyId": "family_riottosa_1758191000003",
+          "url": "/fonts/RiottosaVF.woff2",
+          "originalUrl": "/fonts/RiottosaVF.ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Regular Condensed",
+              "weight": 0,
+              "isItalic": false
+            },
+            {
+              "name": "Bold Condensed",
+              "weight": 100,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/RiottosaVF.woff2"
+        }
+      ],
+      "createdAt": "2026-09-18T00:00:00.000Z",
+      "updatedAt": "2026-09-18T00:00:00.000Z",
+      "description": "Riottosa comes out of the industrial architecture of Fontivegge in Perugia, and it shows: squared shapes with rounded corners, horizontal strokes heavier than vertical ones, and a unicase alphabet where the round lowercase forms sit at cap height next to the capitals. Two axes, weight and width, run between four named corners from regular condensed to bold wide. Open source under the OFL, with the Glyphs source in the repo. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/marcogoranromano/riottosa/blob/main/LICENSE"
+      },
+      "publishedAt": "2026-09-18",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Experimental"
+      ],
+      "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-18T08:42:21.910697Z"
+  "lastUpdated": "2026-09-18T12:03:48.303622Z"
 }

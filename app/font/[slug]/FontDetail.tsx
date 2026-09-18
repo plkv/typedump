@@ -598,6 +598,12 @@ function VariantRow({
   // ControlledTextPreview, which this row renders.
   const [cursor, setCursor] = useState(0)
 
+  // The number after the style name is only a weight when the family's weight
+  // axis uses the usual ladder. Riottosa numbers its axis 0-100, where
+  // "Regular Condensed · 0" and "Bold Condensed · 100" read as mistakes.
+  const wghtAxis = axesDef?.find(a => a.tag === 'wght')
+  const showsWeightNumber = !wghtAxis || wghtAxis.min >= 100
+
   const handleBlur = (e: React.FocusEvent<HTMLDivElement>) => {
     if (isExpanded && !e.currentTarget.contains(e.relatedTarget as Node)) {
       onToggleExpand?.()
@@ -616,7 +622,7 @@ function VariantRow({
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         }}
       >
-        <span>{label} · {weight}</span>
+        <span>{showsWeightNumber ? `${label} · ${weight}` : label}</span>
         {hasSettings && (
           <span style={{ color: 'var(--gray-cont-tert)', fontSize: 12, transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', display: 'inline-block' }}>▾</span>
         )}

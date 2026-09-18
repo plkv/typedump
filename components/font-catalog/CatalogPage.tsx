@@ -1184,7 +1184,13 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       const upright = styles.filter(s => !s.isItalic)
       const pool = upright.length ? upright : styles
       const exact = pool.find(s => s.weight === weightPref)
-      const regular = weightPref === 400 ? pool.find(s => s.styleName === 'Regular') : undefined
+      // Riottosa's weight axis runs 0-100 and its styles are "Regular Condensed"
+      // and "Bold Condensed", so nearest-to-400 lands on Bold. When the slider
+      // has not been moved, the style the font itself calls regular wins.
+      const regular = weightPref === 400
+        ? pool.find(s => s.styleName === 'Regular')
+          ?? pool.find(s => /^regular\b/i.test(s.styleName || ''))
+        : undefined
       const nearest = pool.reduce((a, b) => (Math.abs(b.weight - weightPref) < Math.abs(a.weight - weightPref) ? b : a))
       const chosen = exact || regular || nearest
       return { weight: chosen.weight, italic: chosen.isItalic, cssFamily: chosen.cssFamily, styleName: chosen.styleName }
@@ -1201,10 +1207,12 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
     const axesOut: Record<string, number> = { ...stateAxes }
     if (isFamilyVariable && axesOut.wght === undefined) {
-      axesOut.wght = fontSelection.weight || previewWeight
+      // ?? not ||: Riottosa's regular sits at wght 0, and a falsy zero here
+      // fell through to the slider's 400, which the axis clamps to bold.
+      axesOut.wght = fontSelection.weight ?? previewWeight
     }
 
-    const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (fontSelection.weight || previewWeight || 400)
+    const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (fontSelection.weight ?? previewWeight ?? 400)
     let italic = fontSelection.italic || false
     if (isFamilyVariable) {
       const italVal = Number(stateAxes['ital'])
