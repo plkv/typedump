@@ -113,15 +113,28 @@ build`, and `npm publish`. Publishing is Stas's, and only when asked.
 node scripts/check-taxonomy.mjs
 python3.13 scripts/check-glyphs.py
 python3.13 scripts/check-font-claims.py
+python3.13 scripts/check-feature-titles.py
+python3.13 scripts/drop-blank-mappings.py --dry-run
 ```
 
 `python3.13`, not `python3`: Homebrew moved the default to 3.14 and fontTools is
 installed under 3.13, so the bare name now finds an interpreter without it.
 
-It reports unknown tags, serifs missing their mandatory class, `Modern` on a
+They report unknown tags, serifs missing their mandatory class, `Modern` on a
 non-serif, `Pixel` outside Display/Brutal, missing categories, empty
 `downloadLink`, files referenced but absent, and fonts with no lowercase or no
 digits — the last one matters because the card's default preview is the font's
 own name.
+
+`check-feature-titles.py` reads the GSUB and checks that a stylistic set's
+label names a glyph the feature actually substitutes. ZT Talk shipped with
+ss02 labelled "Alt g" while the feature changes a, f and the ampersand,
+because the label was a guess. Never write one without looking.
+
+`drop-blank-mappings.py` finds characters mapped to an empty glyph. A browser
+believes the cmap, so it runs no fallback and the character vanishes from the
+line — Sunday Masthead swallowed every bullet in the Brands preset that way.
+Run it without `--dry-run` to unmap them; it edits only the served `.woff2`,
+never the original behind the download button.
 
 Then: build, look at the cards, and only then commit.

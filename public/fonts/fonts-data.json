@@ -23454,7 +23454,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "alt J"
+              "title": "Single-storey a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Serifed I, tailed l"
             }
           ],
           "format": "woff2",
@@ -23517,7 +23521,16 @@
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Single-storey a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Serifed I, tailed l"
+            }
+          ],
           "format": "woff2",
           "url": "/fonts/Figtree-Italic[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
@@ -30274,7 +30287,7 @@
     },
     {
       "name": "Abordage",
-      "collection": "Brutal",
+      "collection": "Display",
       "styleTags": [
         "Curly"
       ],
@@ -36068,7 +36081,8 @@
         "Old Face",
         "Rounded",
         "Narrow",
-        "Contrast"
+        "Contrast",
+        "Vintage"
       ],
       "languages": [
         "Latin"
@@ -36194,7 +36208,7 @@
     },
     {
       "name": "Faktory",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Low Poly",
         "Tech",
@@ -36246,7 +36260,7 @@
     },
     {
       "name": "Kintsugi LVRG",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Modern",
         "Sharp",
@@ -36360,7 +36374,7 @@
     },
     {
       "name": "Bricolage Grotesque",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Inktrap",
         "Neutral",
@@ -36682,11 +36696,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": true,
@@ -36719,11 +36733,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36755,11 +36769,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36791,11 +36805,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36827,11 +36841,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36863,11 +36877,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36899,11 +36913,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
@@ -36935,11 +36949,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a"
+              "title": "Alt a c e f g s t &"
             },
             {
               "tag": "ss02",
-              "title": "Alt g"
+              "title": "Alt a f &"
             }
           ],
           "isDefaultStyle": false,
