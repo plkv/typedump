@@ -24702,8 +24702,7 @@
         "Tech"
       ],
       "languages": [
-        "Latin",
-        "Greek"
+        "Latin"
       ],
       "foundry": "Andrés Briganti, Evil Rabbit, Guillermo Rauch",
       "isVariable": true,
@@ -25015,7 +25014,6 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
         "Vietnamese"
       ],
       "foundry": "Helsinki Type Studio",
@@ -30092,7 +30090,9 @@
       "collection": "Text",
       "styleTags": [
         "Neutral",
-        "Multi Style"
+        "Multi Style",
+        "Narrow",
+        "Wide"
       ],
       "languages": [
         "Latin"
@@ -30169,7 +30169,7 @@
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
       "updatedAt": "2026-09-01T00:00:00.000Z",
-      "description": "Special Gothic is a variable grotesque by Alistair McCready. Two axes in one file — width 75–125 and weight 400–700 — cover condensed to expanded and regular to bold in any combination, on a plain American gothic skeleton. A free alternative to Trade Gothic. Latin and Latin Extended.",
+      "description": "Special Gothic is a variable grotesque by Alistair McCready. One file carries both axes — width 75 to 125 and weight 400 to 700 — so the condensed cut for a headline and the expanded cut for a single word come out of the same family rather than three separate downloads. Neutral enough to set at body size, with one stylistic set. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://openfontlicense.org"
@@ -30177,156 +30177,6 @@
       "publishedAt": "2026-09-01",
       "useCases": [
         "Interface",
-        "Brand Headline"
-      ],
-      "altPairs": []
-    },
-    {
-      "name": "Special Gothic Condensed One",
-      "collection": "Display",
-      "styleTags": [
-        "Narrow"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Alistair McCready",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
-      "id": "family_special_gothic_condensed_one_1756700022000",
-      "variants": [
-        {
-          "filename": "SpecialGothicCondensedOne-Regular.ttf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Case-Sensitive Forms",
-            "Glyph Composition/Decomposition",
-            "Discretionary Ligatures",
-            "Standard Ligatures",
-            "Denominators",
-            "Fractions",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Tabular Figures",
-            "Scientific Inferiors",
-            "Subscript",
-            "Superscript",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning",
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "ss01"
-            }
-          ],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-09-01T00:00:00.000Z",
-          "id": "variant_family_special_gothic_condensed_one_1756700022000_1756700022001",
-          "familyId": "family_special_gothic_condensed_one_1756700022000",
-          "url": "/fonts/SpecialGothicCondensedOne-Regular.woff2",
-          "originalUrl": "/fonts/SpecialGothicCondensedOne-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/SpecialGothicCondensedOne-Regular.woff2"
-        }
-      ],
-      "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
-      "description": "Special Gothic Condensed One is the fixed condensed cut of Alistair McCready's Special Gothic — one width, one weight, spaced for headlines rather than for the variable family's range. Tight, plain and built to be set large. Latin and Latin Extended.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://openfontlicense.org"
-      },
-      "publishedAt": "2026-09-01",
-      "useCases": [
-        "Poster",
-        "Brand Headline"
-      ],
-      "altPairs": []
-    },
-    {
-      "name": "Special Gothic Expanded One",
-      "collection": "Display",
-      "styleTags": [
-        "Wide"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Alistair McCready",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
-      "id": "family_special_gothic_expanded_one_1756700023000",
-      "variants": [
-        {
-          "filename": "SpecialGothicExpandedOne-Regular.ttf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Case-Sensitive Forms",
-            "Glyph Composition/Decomposition",
-            "Discretionary Ligatures",
-            "Standard Ligatures",
-            "Denominators",
-            "Fractions",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Tabular Figures",
-            "Scientific Inferiors",
-            "Subscript",
-            "Superscript",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning",
-            "ss01"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "ss01"
-            }
-          ],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-09-01T00:00:00.000Z",
-          "id": "variant_family_special_gothic_expanded_one_1756700023000_1756700023001",
-          "familyId": "family_special_gothic_expanded_one_1756700023000",
-          "url": "/fonts/SpecialGothicExpandedOne-Regular.woff2",
-          "originalUrl": "/fonts/SpecialGothicExpandedOne-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/SpecialGothicExpandedOne-Regular.woff2"
-        }
-      ],
-      "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
-      "description": "Special Gothic Expanded One is the fixed expanded cut of Alistair McCready's Special Gothic — one width, one weight, drawn wide enough that a single word fills a line. Latin and Latin Extended.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://openfontlicense.org"
-      },
-      "publishedAt": "2026-09-01",
-      "useCases": [
-        "Poster",
         "Brand Headline"
       ],
       "altPairs": []
@@ -32540,5 +32390,5 @@
       "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-01T13:27:43.982937Z"
+  "lastUpdated": "2026-09-18T08:42:21.910697Z"
 }

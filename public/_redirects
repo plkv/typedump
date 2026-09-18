@@ -1,0 +1,7 @@
+# Read by Cloudflare Pages. Special Gothic used to be three families — the
+# variable file plus the fixed Condensed One and Expanded One cuts. One file
+# carries both widths, so the two cuts were folded into it on 18.09.2026 and
+# their pages went away. They are indexed and linked, so send them somewhere
+# useful rather than to a 404.
+/font/special-gothic-condensed-one  /font/special-gothic  301
+/font/special-gothic-expanded-one   /font/special-gothic  301

@@ -32,7 +32,10 @@ KNOWN_FEATURES = {
 
 SCRIPT_PROBE = {
     "Cyrillic": 0x0416,   # Ж
-    "Greek": 0x03A9,      # Ω
+    # Γ, not Ω: U+03A9 turns up in fonts that carry no Greek at all, because
+    # it doubles as the ohm sign. Special Gothic has it and 43 of the 48 Greek
+    # letters missing.
+    "Greek": 0x0393,      # Γ
     "Vietnamese": 0x1EA1, # ạ
     "Arabic": 0x0627,     # ا
     "Hebrew": 0x05D0,     # א
