@@ -1175,16 +1175,33 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const getEffectiveStyle = (fontId: number) =>
     effectiveStyles.get(fontId) ?? computeEffectiveStyle(fontId)
 
+  // Which style a card shows before the reader touches its dropdown.
+  // Must match what computeEffectiveStyle renders, otherwise the label and the
+  // actual weight drift apart on fonts whose wght axis is not the 100-900 ladder.
+  function defaultStyleSelection(font: any, weightPref: number) {
+    const styles = (font?._availableStyles || []) as Array<{ weight: number; styleName: string; isItalic: boolean; cssFamily?: string }>
+    if (styles.length > 0) {
+      const upright = styles.filter(s => !s.isItalic)
+      const pool = upright.length ? upright : styles
+      const exact = pool.find(s => s.weight === weightPref)
+      const regular = weightPref === 400 ? pool.find(s => s.styleName === 'Regular') : undefined
+      const nearest = pool.reduce((a, b) => (Math.abs(b.weight - weightPref) < Math.abs(a.weight - weightPref) ? b : a))
+      const chosen = exact || regular || nearest
+      return { weight: chosen.weight, italic: chosen.isItalic, cssFamily: chosen.cssFamily, styleName: chosen.styleName }
+    }
+    return { weight: weightPref || 400, italic: false }
+  }
+
   function computeEffectiveStyle(fontId: number) {
     const font = fontById.get(fontId)
-    const fontSelection = fontWeightSelections[fontId] || { weight: 400, italic: false }
+    const fontSelection = fontWeightSelections[fontId] || defaultStyleSelection(font, previewWeight)
     const stateAxes = fontVariableAxes[fontId] || EMPTY_AXES
     const otFeatures = fontOTFeatures[fontId] || EMPTY_FEATURES
     const isFamilyVariable = (font?.type === 'Variable') || !!(font?.variableAxes && font.variableAxes.length)
 
     const axesOut: Record<string, number> = { ...stateAxes }
     if (isFamilyVariable && axesOut.wght === undefined) {
-      axesOut.wght = previewWeight
+      axesOut.wght = fontSelection.weight || previewWeight
     }
 
     const weight = isFamilyVariable ? (axesOut.wght ?? previewWeight) : (fontSelection.weight || previewWeight || 400)
@@ -1437,22 +1454,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
             </div>
           ) : (
             getFilteredFonts().map((font, idx) => {
-              const fontSelection = fontWeightSelections[font.id] || (() => {
-                if (font._availableStyles && font._availableStyles.length > 0) {
-                  const byWeight = font._availableStyles.find(s => s.weight === previewWeight && !s.isItalic)
-                    ?? font._availableStyles.find(s => s.weight === previewWeight)
-                  const regular = font._availableStyles.find(s => s.styleName === 'Regular' || (s.weight === 400 && !s.isItalic))
-                  const nonItalic = font._availableStyles.find(s => !s.isItalic)
-                  const defaultStyle = byWeight || regular || nonItalic || font._availableStyles[0]
-                  return {
-                    weight: defaultStyle.weight,
-                    italic: defaultStyle.isItalic,
-                    cssFamily: (defaultStyle as any).cssFamily,
-                    styleName: defaultStyle.styleName,
-                  }
-                }
-                return { weight: 400, italic: false }
-              })()
+              const fontSelection = fontWeightSelections[font.id] || defaultStyleSelection(font, previewWeight)
               const effectiveStyle = getEffectiveStyle(font.id)
               const staggerDelay = `${Math.min(idx * 0.05, 0.5)}s`
               return (

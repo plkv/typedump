@@ -50,6 +50,9 @@ function normalizeVariant(v: Record<string, unknown>): FontVariant {
     variableAxes: Array.isArray(v.variableAxes) ? (v.variableAxes as any[]).map(normalizeAxis) : [],
     openTypeFeatures: Array.isArray(v.openTypeFeatures) ? (v.openTypeFeatures as string[]) : [],
     openTypeFeatureTags: Array.isArray(v.openTypeFeatureTags) ? (v.openTypeFeatureTags as any[]) : [],
+    // The font's own names for the points on its axes — see
+    // scripts/record-named-instances.py.
+    namedInstances: Array.isArray(v.namedInstances) ? (v.namedInstances as any[]) : undefined,
     fontMetrics: (v.fontMetrics as any) ?? undefined,
     glyphCount: v.glyphCount != null ? Number(v.glyphCount) : undefined,
     uploadedAt: String(v.uploadedAt ?? new Date().toISOString()),

@@ -132,6 +132,37 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
     }
 
     if (isVariable && regularVar && wAxis) {
+      // The font's own named instances first. A variable font names the points
+      // on its axes that its designer treats as styles, and those names and
+      // numbers are what the family actually holds. The 100-900 ladder below is
+      // only right when a font happens to use the usual values: Sunday
+      // Collaborative Alphabet runs its weight axis 10 to 200 and calls 200
+      // Black, and the ladder listed 100 and 200 as Thin and ExtraLight.
+      const upright = (regularVar.namedInstances ?? []).filter(i => !i.isItalic)
+      const slanted = (italicVar?.namedInstances ?? []).filter(i => i.isItalic)
+
+      if (upright.length) {
+        const alts = toStyleAlts(regularVar)
+        const rows: RowSpec[] = upright.map(i => ({
+          key: `${i.weight}-false`,
+          label: i.name,
+          cssFamily: variantCssFamily(family, regularVar.id),
+          weight: i.weight, isItalic: false,
+          styleAlternates: alts, axesDef: toAxesDef(regularVar, i.weight),
+        }))
+        if (italicVar && slanted.length) {
+          const iAlts = toStyleAlts(italicVar)
+          rows.push(...slanted.map(i => ({
+            key: `${i.weight}-true`,
+            label: i.name,
+            cssFamily: variantCssFamily(family, italicVar.id),
+            weight: i.weight, isItalic: true,
+            styleAlternates: iAlts, axesDef: toAxesDef(italicVar, i.weight),
+          })))
+        }
+        return rows
+      }
+
       const weights = [100, 200, 300, 400, 500, 600, 700, 800, 900].filter(w => w >= wAxis.min && w <= wAxis.max)
       const alts = toStyleAlts(regularVar)
       const rows: RowSpec[] = weights.map(w => ({

@@ -47,19 +47,37 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
     if (isVariable && weightAxes.length > 0) {
       const min = Math.min(...weightAxes.map(a => a.min))
       const max = Math.max(...weightAxes.map(a => a.max))
+      // The weight filter in the sidebar is built from the common 100-900
+      // buttons, so this stays on that scale: a font whose axis runs 10 to 200
+      // should still answer a filter for 100.
       availableWeights = [100, 200, 300, 400, 500, 600, 700, 800, 900].filter(w => w >= min && w <= max)
-      availableStyles = availableWeights.map(weight => ({
-        weight,
-        styleName: styleNameFromWeight(weight, false),
-        isItalic: false,
-      }))
+
+      // The styles offered to a reader, though, come from the font's own named
+      // instances wherever it has them. Those names and values are the
+      // designer's account of what the family holds, and the ladder is only
+      // right when a font happens to use the usual numbers. Sunday
+      // Collaborative Alphabet runs 10 to 200 and calls 200 Black; the ladder
+      // offered 100 and 200 under the names Thin and ExtraLight, neither of
+      // which is a weight this font has a name for. Interpolation in between is
+      // still reachable through the axis slider.
+      const named = variants
+        .flatMap(v => ((v as any).namedInstances || []) as Array<{ name: string; weight: number; isItalic: boolean }>)
+        .filter(i => i && typeof i.weight === 'number')
+
+      availableStyles = named.length
+        ? named.map(i => ({ weight: i.weight, styleName: i.name, isItalic: !!i.isItalic }))
+        : availableWeights.map(weight => ({
+            weight,
+            styleName: styleNameFromWeight(weight, false),
+            isItalic: false,
+          }))
       const hasItalicAxis = variants.some(v =>
         (v.variableAxes || []).some(a => {
           const t = (a as any).tag ?? a.axis
           return t === 'ital' || t === 'slnt'
         })
       )
-      if (variants.some(v => v.isItalic) || hasItalicAxis) {
+      if (!named.length && (variants.some(v => v.isItalic) || hasItalicAxis)) {
         availableStyles = [
           ...availableStyles,
           ...availableWeights.map(weight => ({

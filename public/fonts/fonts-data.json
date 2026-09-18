@@ -110,7 +110,54 @@
           "url": "/fonts/Geist-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Geist-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Geist-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/Geist-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.957Z",
@@ -533,7 +580,54 @@
           "url": "/fonts/GeistMono-VariableFont_wght.woff2",
           "originalUrl": "/fonts/GeistMono-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/GeistMono-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/GeistMono-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.905Z",
@@ -737,7 +831,39 @@
           "url": "/fonts/HostGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/HostGrotesk-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/HostGrotesk-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/HostGrotesk-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "HostGrotesk-Italic-VariableFont_wght.ttf",
@@ -795,7 +921,39 @@
           "familyId": "family_host_grotesk_1757807925843",
           "url": "/fonts/HostGrotesk-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/HostGrotesk-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.843Z",
@@ -955,7 +1113,44 @@
           "url": "/fonts/JetBrainsMono-VariableFont_wght.woff2",
           "originalUrl": "/fonts/JetBrainsMono-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/JetBrainsMono-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/JetBrainsMono-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "JetBrainsMono-Italic-VariableFont_wght.ttf",
@@ -1008,7 +1203,44 @@
           "familyId": "family_jetbrains_mono_1757807925777",
           "url": "/fonts/JetBrainsMono-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.777Z",
@@ -1324,7 +1556,44 @@
           "url": "/fonts/PlusJakartaSans-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/PlusJakartaSans-VariableItalic FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/PlusJakartaSans-VariableItalic FREE.woff2"
+          "previewUrl": "/fonts/preview/PlusJakartaSans-VariableItalic FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "PlusJakartaSans-Variable FREE.ttf",
@@ -1395,7 +1664,44 @@
           "familyId": "family_plus_jakarta_sans_1757807925608",
           "url": "/fonts/PlusJakartaSans-Variable FREE.woff2",
           "originalUrl": "/fonts/PlusJakartaSans-Variable FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.608Z",
@@ -1582,7 +1888,54 @@
           "url": "/fonts/Switzer-VariableItalic.woff2",
           "originalUrl": "/fonts/Switzer-VariableItalic.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Switzer-VariableItalic.woff2"
+          "previewUrl": "/fonts/preview/Switzer-VariableItalic.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Extralight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Semibold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Extrabold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "Switzer-Variable.ttf",
@@ -1623,7 +1976,54 @@
           "familyId": "family_switzer_1757807925551",
           "url": "/fonts/Switzer-Variable.woff2",
           "originalUrl": "/fonts/Switzer-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.551Z",
@@ -1704,7 +2104,44 @@
           "url": "/fonts/Supreme-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/Supreme-VariableItalic FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Supreme-VariableItalic FREE.woff2"
+          "previewUrl": "/fonts/preview/Supreme-VariableItalic FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Extralight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Extrabold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "Supreme-Variable FREE.ttf",
@@ -1743,7 +2180,44 @@
           "familyId": "family_supreme_1757807925492",
           "url": "/fonts/Supreme-Variable FREE.woff2",
           "originalUrl": "/fonts/Supreme-Variable FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.492Z",
@@ -1831,7 +2305,39 @@
           "url": "/fonts/SchibstedGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SchibstedGrotesk-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SchibstedGrotesk-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/SchibstedGrotesk-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "SchibstedGrotesk-Italic-VariableFont_wght.ttf",
@@ -1880,7 +2386,39 @@
           "familyId": "family_schibsted_grotesk_1757807925434",
           "url": "/fonts/SchibstedGrotesk-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SchibstedGrotesk-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.434Z",
@@ -1989,7 +2527,29 @@
           "url": "/fonts/SpaceGrotesk-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SpaceGrotesk-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SpaceGrotesk-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/SpaceGrotesk-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.384Z",
@@ -2499,7 +3059,54 @@
           "url": "/fonts/Outfit[wght] FREE.woff2",
           "originalUrl": "/fonts/Outfit[wght] FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Outfit[wght] FREE.woff2"
+          "previewUrl": "/fonts/preview/Outfit[wght] FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Light",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semi Bold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Bold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.253Z",
@@ -2634,7 +3241,34 @@
           "url": "/fonts/Satoshi-VariableItalic.woff2",
           "originalUrl": "/fonts/Satoshi-VariableItalic.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Satoshi-VariableItalic.woff2"
+          "previewUrl": "/fonts/preview/Satoshi-VariableItalic.woff2",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "Satoshi-Variable.ttf",
@@ -2698,7 +3332,34 @@
           "familyId": "family_satoshi_1757807925184",
           "url": "/fonts/Satoshi-Variable.woff2",
           "originalUrl": "/fonts/Satoshi-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.184Z",
@@ -2960,7 +3621,39 @@
           "url": "/fonts/Zodiak-VariableItalic FREE.woff2",
           "originalUrl": "/fonts/Zodiak-VariableItalic FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Zodiak-VariableItalic FREE.woff2"
+          "previewUrl": "/fonts/preview/Zodiak-VariableItalic FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 541,
+              "isItalic": true
+            },
+            {
+              "name": "Extrabold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "Zodiak-Variable FREE.ttf",
@@ -2998,7 +3691,39 @@
           "familyId": "family_zodiak_1757807925069",
           "url": "/fonts/Zodiak-Variable FREE.woff2",
           "originalUrl": "/fonts/Zodiak-Variable FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 541,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:45.069Z",
@@ -3257,7 +3982,49 @@
           "url": "/fonts/MonaSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/MonaSans-VariableFont_wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MonaSans-VariableFont_wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/MonaSans-VariableFont_wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "MonaSans-Italic-VariableFont_wdth,wght.ttf",
@@ -3342,7 +4109,49 @@
           "familyId": "family_mona_sans_1757807924916",
           "url": "/fonts/MonaSans-Italic-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/MonaSans-Italic-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.916Z",
@@ -3612,7 +4421,89 @@
           "url": "/fonts/OverusedGrotesk-VF.woff2",
           "originalUrl": "/fonts/OverusedGrotesk-VF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/OverusedGrotesk-VF.woff2"
+          "previewUrl": "/fonts/preview/OverusedGrotesk-VF.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Book",
+              "weight": 350,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Book Italic",
+              "weight": 350,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.864Z",
@@ -4603,7 +5494,39 @@
           "url": "/fonts/GeneralSans-VariableItalic.woff2",
           "originalUrl": "/fonts/GeneralSans-VariableItalic.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/GeneralSans-VariableItalic.woff2"
+          "previewUrl": "/fonts/preview/GeneralSans-VariableItalic.woff2",
+          "namedInstances": [
+            {
+              "name": "Extralight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Semibold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "GeneralSans-Variable.ttf",
@@ -4660,7 +5583,39 @@
           "familyId": "family_general_sans_1757807924272",
           "url": "/fonts/GeneralSans-Variable.woff2",
           "originalUrl": "/fonts/GeneralSans-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.272Z",
@@ -4793,7 +5748,29 @@
           "url": "/fonts/LCTIptex-VF FREE.woff2",
           "originalUrl": "/fonts/LCTIptex-VF FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/LCTIptex-VF FREE.woff2"
+          "previewUrl": "/fonts/preview/LCTIptex-VF FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.229Z",
@@ -4958,7 +5935,39 @@
           "familyId": "family_sprat_1757807924122",
           "url": "/fonts/Sprat-Variable.woff2",
           "originalUrl": "/fonts/Sprat-Variable.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Condensed Thin",
+              "weight": 10,
+              "isItalic": false
+            },
+            {
+              "name": "Condensed Light",
+              "weight": 40,
+              "isItalic": false
+            },
+            {
+              "name": "Condesed Regular",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Condensed Medium",
+              "weight": 120,
+              "isItalic": false
+            },
+            {
+              "name": "Condensed Bold",
+              "weight": 175,
+              "isItalic": false
+            },
+            {
+              "name": "Condensed Black",
+              "weight": 200,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.122Z",
@@ -6073,7 +7082,49 @@
           "url": "/fonts/Uncut-Sans-VF.woff2",
           "originalUrl": "/fonts/Uncut-Sans-VF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Uncut-Sans-VF.woff2"
+          "previewUrl": "/fonts/preview/Uncut-Sans-VF.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Regular Oblique",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Medium Oblique",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold Oblique",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Bold Oblique",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:43.638Z",
@@ -7022,7 +8073,34 @@
           "url": "/fonts/Sharpie-Variable FREE.woff2",
           "originalUrl": "/fonts/Sharpie-Variable FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Sharpie-Variable FREE.woff2"
+          "previewUrl": "/fonts/preview/Sharpie-Variable FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 541,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:43.079Z",
@@ -7578,7 +8656,44 @@
           "url": "/fonts/BDOGrotesk-VF FREE.woff2",
           "originalUrl": "/fonts/BDOGrotesk-VF FREE.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/BDOGrotesk-VF FREE.woff2"
+          "previewUrl": "/fonts/preview/BDOGrotesk-VF FREE.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "DemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:42.712Z",
@@ -7765,7 +8880,54 @@
           "url": "/fonts/BDLifelessGrotesk_Variable_sm01.woff2",
           "originalUrl": "/fonts/BDLifelessGrotesk_Variable_sm01.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/BDLifelessGrotesk_Variable_sm01.woff2"
+          "previewUrl": "/fonts/preview/BDLifelessGrotesk_Variable_sm01.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:42.664Z",
@@ -7943,7 +9105,39 @@
           "url": "/fonts/FunnelSans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/FunnelSans-Italic-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/FunnelSans-Italic-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/FunnelSans-Italic-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         },
         {
           "filename": "FunnelSans-VariableFont_wght.ttf",
@@ -7985,7 +9179,39 @@
           "familyId": "family_funnel_sans_1757807922601",
           "url": "/fonts/FunnelSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/FunnelSans-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:42.601Z",
@@ -8379,7 +9605,49 @@
           "url": "/fonts/HubotSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/HubotSans-VariableFont_wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/HubotSans-VariableFont_wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/HubotSans-VariableFont_wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "HubotSans-Italic-VariableFont_wdth,wght.ttf",
@@ -8444,7 +9712,49 @@
           "familyId": "family_hubot_sans_1757807922381",
           "url": "/fonts/HubotSans-Italic-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/HubotSans-Italic-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:42.381Z",
@@ -8637,7 +9947,24 @@
           "url": "/fonts/SligoilVF.woff2",
           "originalUrl": "/fonts/SligoilVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SligoilVF.woff2"
+          "previewUrl": "/fonts/preview/SligoilVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Micro",
+              "weight": 90,
+              "isItalic": false
+            },
+            {
+              "name": "Micro Medium",
+              "weight": 110,
+              "isItalic": false
+            },
+            {
+              "name": "Micro Bold",
+              "weight": 120,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:42.332Z",
@@ -9988,7 +11315,99 @@
           "familyId": "family_thunder_1757807921678",
           "url": "/fonts/Thunder-VF.woff2",
           "originalUrl": "/fonts/Thunder-VF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin LC",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Thin LC Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Extra Light LC",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Light LC Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light LC",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Light LC Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "LC",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "LC Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium LC",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Medium LC Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Semi Bold LC",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Semi Bold LC Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold LC",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Bold LC Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Extra Bold LC",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Bold LC Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black LC",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Black LC Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:41.678Z",
@@ -10492,7 +11911,14 @@
           "url": "/fonts/Baskervville[wght].woff2",
           "originalUrl": "/fonts/Baskervville[wght].ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Baskervville[wght].woff2"
+          "previewUrl": "/fonts/preview/Baskervville[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "Baskervville-Italic[wght].ttf",
@@ -10523,7 +11949,14 @@
           "familyId": "family_baskervville_1757807921243",
           "url": "/fonts/Baskervville-Italic[wght].woff2",
           "originalUrl": "/fonts/Baskervville-Italic[wght].ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:41.243Z",
@@ -10994,7 +12427,54 @@
           "familyId": "family_handjet_1757807920894",
           "url": "/fonts/Handjet[EGRD,ESHP,wght].woff2",
           "originalUrl": "/fonts/Handjet[EGRD,ESHP,wght].ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:40.894Z",
@@ -11371,7 +12851,39 @@
           "url": "/fonts/Chillax-Variable.woff2",
           "originalUrl": "/fonts/Chillax-Variable.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Chillax-Variable.woff2"
+          "previewUrl": "/fonts/preview/Chillax-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:40.693Z",
@@ -11634,7 +13146,89 @@
           "url": "/fonts/AzeretMonoVF_sm01.woff2",
           "originalUrl": "/fonts/AzeretMonoVF_sm01.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/AzeretMonoVF_sm01.woff2"
+          "previewUrl": "/fonts/preview/AzeretMonoVF_sm01.woff2",
+          "namedInstances": [
+            {
+              "name": "Mono Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Light",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Mono SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Mono ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Black",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Mono Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Mono Light Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Mono Regular Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Mono Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Mono SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Mono Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Mono ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Mono Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:40.641Z",
@@ -13503,7 +15097,19 @@
           "url": "/fonts/KobataGX.woff2",
           "originalUrl": "/fonts/KobataGX.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/KobataGX.woff2"
+          "previewUrl": "/fonts/preview/KobataGX.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 150,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:39.934Z",
@@ -13850,7 +15456,49 @@
           "url": "/fonts/CabinetGrotesk-Variable.woff2",
           "originalUrl": "/fonts/CabinetGrotesk-Variable.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/CabinetGrotesk-Variable.woff2"
+          "previewUrl": "/fonts/preview/CabinetGrotesk-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:39.726Z",
@@ -14221,7 +15869,29 @@
           "url": "/fonts/InstrumentSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/InstrumentSans-VariableFont_wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/InstrumentSans-VariableFont_wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/InstrumentSans-VariableFont_wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "InstrumentSans-Italic-VariableFont_wdth,wght.ttf",
@@ -14331,7 +16001,29 @@
           "familyId": "family_instrument_sans_1757807919561",
           "url": "/fonts/InstrumentSans-Italic-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/InstrumentSans-Italic-VariableFont_wdth,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:39.561Z",
@@ -14909,7 +16601,24 @@
           "url": "/fonts/GalgoVF.woff2",
           "originalUrl": "/fonts/GalgoVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/GalgoVF.woff2"
+          "previewUrl": "/fonts/preview/GalgoVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:39.152Z",
@@ -15287,7 +16996,34 @@
           "familyId": "family_tasa_explorer_1757807919034",
           "url": "/fonts/TASAExplorer-VariableFont_wght.woff2",
           "originalUrl": "/fonts/TASAExplorer-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:39.034Z",
@@ -15740,7 +17476,14 @@
           "url": "/fonts/AspektaVF.woff2",
           "originalUrl": "/fonts/AspektaVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/AspektaVF.woff2"
+          "previewUrl": "/fonts/preview/AspektaVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:38.773Z",
@@ -16536,7 +18279,54 @@
           "id": "variant_family_micro_grotesk_1757807918302_1757807918344",
           "familyId": "family_micro_grotesk_1757807918302",
           "url": "/fonts/MicroGrotesk[wght].ttf",
-          "previewUrl": "/fonts/preview/MicroGrotesk[wght].ttf"
+          "previewUrl": "/fonts/preview/MicroGrotesk[wght].ttf",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:38.302Z",
@@ -16824,7 +18614,24 @@
           "url": "/fonts/SinistreVF.woff2",
           "originalUrl": "/fonts/SinistreVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SinistreVF.woff2"
+          "previewUrl": "/fonts/preview/SinistreVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 72,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 142,
+              "isItalic": false
+            },
+            {
+              "name": "Dark",
+              "weight": 200,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:38.100Z",
@@ -17856,7 +19663,44 @@
           "url": "/fonts/KnackVF.woff2",
           "originalUrl": "/fonts/KnackVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/KnackVF.woff2"
+          "previewUrl": "/fonts/preview/KnackVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 450,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 725,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Ultra",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:37.577Z",
@@ -18191,7 +20035,39 @@
           "url": "/fonts/Oswald-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Oswald-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Oswald-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/Oswald-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:37.476Z",
@@ -18295,7 +20171,44 @@
           "url": "/fonts/MontaguSlab-VariableFont_opsz,wght.woff2",
           "originalUrl": "/fonts/MontaguSlab-VariableFont_opsz,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MontaguSlab-VariableFont_opsz,wght.woff2"
+          "previewUrl": "/fonts/preview/MontaguSlab-VariableFont_opsz,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:37.426Z",
@@ -18829,7 +20742,49 @@
           "url": "/fonts/PlaypenSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/PlaypenSans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/PlaypenSans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/PlaypenSans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:37.046Z",
@@ -19049,7 +21004,39 @@
           "url": "/fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.woff2",
           "originalUrl": "/fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.woff2"
+          "previewUrl": "/fonts/preview/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf",
@@ -19144,7 +21131,39 @@
           "familyId": "family_shantell_sans_1757807916987",
           "url": "/fonts/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.woff2",
           "originalUrl": "/fonts/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:36.987Z",
@@ -19342,7 +21361,79 @@
           "url": "/fonts/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2",
           "originalUrl": "/fonts/TikTokSans-VariableFont_opsz,slnt,wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/TikTokSans-VariableFont_opsz,slnt,wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:36.938Z",
@@ -19586,7 +21677,39 @@
           "url": "/fonts/GranturismoGX.woff2",
           "originalUrl": "/fonts/GranturismoGX.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/GranturismoGX.woff2"
+          "previewUrl": "/fonts/preview/GranturismoGX.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "ital",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold ital",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Bold ital",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:36.836Z",
@@ -19919,7 +22042,99 @@
           "url": "/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2",
           "originalUrl": "/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20142,7 +22357,44 @@
           "url": "/fonts/MomoTrustSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/MomoTrustSans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MomoTrustSans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/MomoTrustSans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20256,7 +22508,49 @@
           "url": "/fonts/SNPro-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SNPro-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SNPro-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/SNPro-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "SNPro-Italic-VariableFont_wght.ttf",
@@ -20317,7 +22611,49 @@
           "familyId": "family_sn_pro_1747180805000",
           "url": "/fonts/SNPro-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/SNPro-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20495,7 +22831,39 @@
           "url": "/fonts/StackSansHeadline-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansHeadline-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/StackSansHeadline-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/StackSansHeadline-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20677,7 +23045,39 @@
           "url": "/fonts/StackSansNotch-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansNotch-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/StackSansNotch-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/StackSansNotch-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -20859,7 +23259,39 @@
           "url": "/fonts/StackSansText-VariableFont_wght.woff2",
           "originalUrl": "/fonts/StackSansText-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/StackSansText-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/StackSansText-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
@@ -21028,7 +23460,44 @@
           "format": "woff2",
           "url": "/fonts/Figtree[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
-          "previewUrl": "/fonts/preview/Figtree[wght].woff2"
+          "previewUrl": "/fonts/preview/Figtree[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "id": "v_1778941055167_07fr1u",
@@ -21051,7 +23520,44 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Figtree-Italic[wght].woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -21310,7 +23816,44 @@
           "format": "woff2",
           "url": "/fonts/LinealVF.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
-          "previewUrl": "/fonts/preview/LinealVF.woff2"
+          "previewUrl": "/fonts/preview/LinealVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 0,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 900,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 1000,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 1200,
+              "isItalic": false
+            },
+            {
+              "name": "Heavy",
+              "weight": 1500,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -21463,7 +24006,44 @@
           "format": "woff2",
           "url": "/fonts/NationalPark-VariableVF.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
-          "previewUrl": "/fonts/preview/NationalPark-VariableVF.woff2"
+          "previewUrl": "/fonts/preview/NationalPark-VariableVF.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -21668,7 +24248,54 @@
           "format": "woff2",
           "url": "/fonts/MuseoModerno-VariableFont_wght.woff2",
           "uploadedAt": "2026-05-16T18:00:00.000Z",
-          "previewUrl": "/fonts/preview/MuseoModerno-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/MuseoModerno-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "id": "v_1778960003000_4mj2qn",
@@ -21691,7 +24318,54 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/MuseoModerno-Italic-VariableFont_wght.woff2",
-          "uploadedAt": "2026-05-16T18:00:00.000Z"
+          "uploadedAt": "2026-05-16T18:00:00.000Z",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -22612,7 +25286,44 @@
           "format": "woff2",
           "url": "/fonts/Perun-VF.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Perun-VF.woff2"
+          "previewUrl": "/fonts/preview/Perun-VF.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "id": "v_per_qshf07",
@@ -22635,7 +25346,44 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Perun-Italic-VF.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -24314,7 +27062,54 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PretendardVariable.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -24532,7 +27327,54 @@
           "format": "woff2",
           "url": "/fonts/Akt[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Akt[wght].woff2"
+          "previewUrl": "/fonts/preview/Akt[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -24685,7 +27527,44 @@
           "format": "woff2",
           "url": "/fonts/Geomini[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Geomini[wght].woff2"
+          "previewUrl": "/fonts/preview/Geomini[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -24906,7 +27785,54 @@
           "format": "woff2",
           "url": "/fonts/Pliant[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Pliant[wdth,wght].woff2"
+          "previewUrl": "/fonts/preview/Pliant[wdth,wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "id": "v_pliant_it_000008",
@@ -24938,7 +27864,54 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/Pliant-Italic[wdth,wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -25052,7 +28025,54 @@
           "format": "woff2",
           "url": "/fonts/FinlandicaText[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/FinlandicaText[wght].woff2"
+          "previewUrl": "/fonts/preview/FinlandicaText[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "id": "v_finlandicatext_it_000011",
@@ -25076,7 +28096,54 @@
           "openTypeFeatures": [],
           "format": "woff2",
           "url": "/fonts/FinlandicaText-Italic[wght].woff2",
-          "uploadedAt": "2026-07-12T20:00:00.000Z"
+          "uploadedAt": "2026-07-12T20:00:00.000Z",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -25240,7 +28307,39 @@
           "format": "woff2",
           "url": "/fonts/StrichpunktSans[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/StrichpunktSans[wdth,wght].woff2"
+          "previewUrl": "/fonts/preview/StrichpunktSans[wdth,wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -25358,7 +28457,54 @@
           "originalUrl": "/fonts/Doto-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/Doto-Variable.woff2"
+          "previewUrl": "/fonts/preview/Doto-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -25450,7 +28596,44 @@
           "originalUrl": "/fonts/Sono-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/Sono-Variable.woff2"
+          "previewUrl": "/fonts/preview/Sono-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -25666,7 +28849,29 @@
           "originalUrl": "/fonts/LibreCaslonCondensed-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/LibreCaslonCondensed-Variable.woff2"
+          "previewUrl": "/fonts/preview/LibreCaslonCondensed-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "LibreCaslonCondensed-Italic-Variable.ttf",
@@ -25698,7 +28903,29 @@
           "url": "/fonts/LibreCaslonCondensed-Italic-Variable.woff2",
           "originalUrl": "/fonts/LibreCaslonCondensed-Italic-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -25780,7 +29007,54 @@
           "originalUrl": "/fonts/Anybody-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/Anybody-Variable.woff2"
+          "previewUrl": "/fonts/preview/Anybody-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "Anybody-Italic-Variable.ttf",
@@ -25819,7 +29093,54 @@
           "url": "/fonts/Anybody-Italic-Variable.woff2",
           "originalUrl": "/fonts/Anybody-Italic-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -26106,7 +29427,44 @@
           "originalUrl": "/fonts/Newsreader-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/Newsreader-Variable.woff2"
+          "previewUrl": "/fonts/preview/Newsreader-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "Newsreader-Italic-Variable.ttf",
@@ -26142,7 +29500,44 @@
           "url": "/fonts/Newsreader-Italic-Variable.woff2",
           "originalUrl": "/fonts/Newsreader-Italic-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -27288,7 +30683,39 @@
           "originalUrl": "/fonts/Besley-Variable.ttf",
           "format": "woff2",
           "published": true,
-          "previewUrl": "/fonts/preview/Besley-Variable.woff2"
+          "previewUrl": "/fonts/preview/Besley-Variable.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "Besley-Italic-Variable.ttf",
@@ -27327,7 +30754,39 @@
           "url": "/fonts/Besley-Italic-Variable.woff2",
           "originalUrl": "/fonts/Besley-Italic-Variable.ttf",
           "format": "woff2",
-          "published": true
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [],
@@ -27451,7 +30910,54 @@
           "url": "/fonts/MuternVF.woff2",
           "originalUrl": "/fonts/MuternVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MuternVF.woff2"
+          "previewUrl": "/fonts/preview/MuternVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Text Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Text ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Text Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Text Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Text Medium",
+              "weight": 511,
+              "isItalic": false
+            },
+            {
+              "name": "Text SemiBold",
+              "weight": 633,
+              "isItalic": false
+            },
+            {
+              "name": "Text Bold",
+              "weight": 745,
+              "isItalic": false
+            },
+            {
+              "name": "Text ExtraBold",
+              "weight": 867,
+              "isItalic": false
+            },
+            {
+              "name": "Text Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-07-31T00:00:00.000Z",
@@ -27555,7 +31061,14 @@
           "url": "/fonts/Aboreto-Regular.woff2",
           "originalUrl": "/fonts/Aboreto-Regular.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Aboreto-Regular.woff2"
+          "previewUrl": "/fonts/preview/Aboreto-Regular.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
@@ -27647,7 +31160,54 @@
           "url": "/fonts/ValleySans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ValleySans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/ValleySans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/ValleySans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "ValleySans-Italic-VariableFont_wght.ttf",
@@ -27705,7 +31265,54 @@
           "familyId": "family_valley_sans_1756400010000",
           "url": "/fonts/ValleySans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ValleySans-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
@@ -27852,7 +31459,44 @@
           "url": "/fonts/ScoutieSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ScoutieSans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/ScoutieSans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/ScoutieSans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "ScoutieSans-Italic-VariableFont_wght.ttf",
@@ -27939,7 +31583,44 @@
           "familyId": "family_scoutie_sans_1756400020000",
           "url": "/fonts/ScoutieSans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/ScoutieSans-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
@@ -28706,7 +32387,49 @@
           "url": "/fonts/LilGroteskVF.woff2",
           "originalUrl": "/fonts/LilGroteskVF.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/LilGroteskVF.woff2"
+          "previewUrl": "/fonts/preview/LilGroteskVF.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Heavy",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -28867,7 +32590,44 @@
           "url": "/fonts/Lilex-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Lilex-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Lilex-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/Lilex-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "Lilex-Italic-VariableFont_wght.ttf",
@@ -28989,7 +32749,44 @@
           "familyId": "family_lilex_1756700009000",
           "url": "/fonts/Lilex-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Lilex-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -29338,7 +33135,29 @@
           "url": "/fonts/MirandaSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/MirandaSans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MirandaSans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/MirandaSans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "MirandaSans-Italic-VariableFont_wght.ttf",
@@ -29376,7 +33195,29 @@
           "familyId": "family_miranda_sans_1756700013000",
           "url": "/fonts/MirandaSans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/MirandaSans-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -29747,7 +33588,44 @@
           "url": "/fonts/Ojuju-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Ojuju-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Ojuju-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/Ojuju-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -29849,7 +33727,49 @@
           "url": "/fonts/PaperMono[wght].woff2",
           "originalUrl": "/fonts/PaperMono[wght].ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/PaperMono[wght].woff2"
+          "previewUrl": "/fonts/preview/PaperMono[wght].woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -29987,7 +33907,44 @@
           "url": "/fonts/Phudu-VariableFont_wght.woff2",
           "originalUrl": "/fonts/Phudu-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Phudu-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/Phudu-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -30164,7 +34121,29 @@
           "url": "/fonts/SpecialGothic-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/SpecialGothic-VariableFont_wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SpecialGothic-VariableFont_wdth,wght.woff2"
+          "previewUrl": "/fonts/preview/SpecialGothic-VariableFont_wdth,wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -30659,7 +34638,34 @@
           "url": "/fonts/VendSans-VariableFont_wght.woff2",
           "originalUrl": "/fonts/VendSans-VariableFont_wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/VendSans-VariableFont_wght.woff2"
+          "previewUrl": "/fonts/preview/VendSans-VariableFont_wght.woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ]
         },
         {
           "filename": "VendSans-Italic-VariableFont_wght.ttf",
@@ -30716,7 +34722,34 @@
           "familyId": "family_vend_sans_1756700025000",
           "url": "/fonts/VendSans-Italic-VariableFont_wght.woff2",
           "originalUrl": "/fonts/VendSans-Italic-VariableFont_wght.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -30839,7 +34872,29 @@
           "familyId": "family_sunday_collaborative_alphabet_1756700027000",
           "url": "/fonts/SundayCollaborativeAlphabetVF.woff2",
           "originalUrl": "/fonts/SundayCollaborativeAlphabetVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Hairline",
+              "weight": 10,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 60,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 130,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 200,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -31438,7 +35493,19 @@
           "familyId": "family_golden_goose_uppercase_1756800000000",
           "url": "/fonts/GoldenGooseUppercase-VariableVF.woff2",
           "originalUrl": "/fonts/GoldenGooseUppercase-VariableVF.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",

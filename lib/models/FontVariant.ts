@@ -28,6 +28,8 @@ export interface FontVariant {
   variableAxes?: VariableAxis[]
   openTypeFeatures: string[]
   openTypeFeatureTags?: Array<{ tag: string; title: string }>
+  /** The font's own names for points on its axes, from its fvar table. */
+  namedInstances?: Array<{ name: string; weight: number; isItalic: boolean }>
 
   // Font metrics
   fontMetrics?: FontMetrics
