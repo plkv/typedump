@@ -799,22 +799,23 @@
 /* Font detail — reading sizes accordion. The size label sits in its own column
    beside the sample so the samples share a left edge whatever the size. On a
    phone that column would eat a third of the line, so it moves above. */
+/* Padding rather than a min-height, so the closed section is as tall as the
+   preset and case rows above it and the dropdown has room to sit centred
+   instead of hanging below the title. */
 .font-detail-sizes-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 8px 8px 8px 16px;
-  min-height: 48px;
+  padding: 16px 12px 16px 16px;
 }
 
 .font-detail-sizes-toggle {
   display: flex;
   align-items: center;
-  gap: 8px;
   flex: 1;
   min-width: 0;
-  padding: 6px 0;
+  padding: 0;
   background: none;
   border: none;
   color: inherit;
@@ -896,4 +897,17 @@
 /* The hint itself is hidden below 767px, so below that the row is just tags. */
 @media (max-width: 767px) {
   .card-tags-row { display: block; }
+}
+
+/* The style picker sits on the title's own line. Height comes from the
+   control, not from the row, so it cannot drift below the heading. */
+.font-detail-sizes-style {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.font-detail-sizes-style select {
+  display: block;
 }

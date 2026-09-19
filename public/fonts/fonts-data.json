@@ -21935,7 +21935,8 @@
         "Rounded"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -22225,7 +22226,8 @@
         "Bauhaus"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -22302,7 +22304,8 @@
         "Bauhaus"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -22437,7 +22440,9 @@
         "Neutral"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Cyrillic",
+        "Vietnamese"
       ],
       "category": [
         "Sans"
@@ -23704,7 +23709,8 @@
         "Narrow"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "foundry": "Dennis Grauel",
       "isVariable": false,
@@ -23980,7 +23986,8 @@
         "Neutral"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "foundry": "Jeremy Shellhorn",
       "isVariable": true,
@@ -24223,7 +24230,8 @@
         "Geometry"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "foundry": "Omnibus Type",
       "isVariable": true,
@@ -24684,7 +24692,8 @@
         "Narrow"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "foundry": "bBox Type GmbH",
       "isVariable": false,
@@ -24747,7 +24756,8 @@
         "Neutral"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Vietnamese"
       ],
       "foundry": "Olivia King",
       "isVariable": false,
@@ -25262,7 +25272,9 @@
         "Old Face"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Cyrillic",
+        "Greek"
       ],
       "foundry": "Stefan Peev",
       "isVariable": true,
@@ -25414,7 +25426,9 @@
         "Transitional"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Cyrillic",
+        "Vietnamese"
       ],
       "foundry": "Jean-Baptiste Levée",
       "isVariable": false,
@@ -26257,7 +26271,9 @@
         "Transitional"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Greek",
+        "Vietnamese"
       ],
       "foundry": "Peter S. Baker",
       "isVariable": false,
@@ -27039,6 +27055,9 @@
       ],
       "languages": [
         "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese",
         "Korean"
       ],
       "foundry": "Kil Hyung-jin",
@@ -27751,8 +27770,7 @@
       "languages": [
         "Latin",
         "Cyrillic",
-        "Greek",
-        "Vietnamese"
+        "Greek"
       ],
       "foundry": "Non Foundry, Jona Saucedo",
       "isVariable": true,
@@ -30636,7 +30654,9 @@
         "Slab"
       ],
       "languages": [
-        "Latin"
+        "Latin",
+        "Cyrillic",
+        "Greek"
       ],
       "category": [
         "Serif"
@@ -32021,8 +32041,7 @@
       ],
       "languages": [
         "Latin",
-        "Greek",
-        "Vietnamese"
+        "Greek"
       ],
       "category": [
         "Serif"
@@ -35543,8 +35562,7 @@
         "Neutral"
       ],
       "languages": [
-        "Latin",
-        "Cyrillic"
+        "Latin"
       ],
       "category": [
         "Sans"
@@ -37750,5 +37768,5 @@
       "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-19T11:31:38.219803Z"
+  "lastUpdated": "2026-09-19T12:23:06.503070Z"
 }

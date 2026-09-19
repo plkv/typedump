@@ -449,11 +449,10 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                 aria-expanded={sizesOpen}
                 className="text-author font-detail-sizes-toggle"
               >
-                <span>Reading sizes</span>
-                <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: sizesOpen ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
+                Reading sizes
               </button>
               {variantRows.length > 1 && (
-                <div className="relative v2-dropdown" style={{ height: 32 }}>
+                <div className="relative v2-dropdown font-detail-sizes-style">
                   <select
                     aria-label="Style for the reading samples"
                     value={sampleKey ?? ''}
@@ -495,7 +494,12 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                         fontFamily: `"${sampleRow.cssFamily}", system-ui, sans-serif`,
                         fontWeight: sampleRow.weight,
                         fontStyle: sampleRow.isItalic ? 'italic' : 'normal',
-                        fontVariationSettings: getFontVariationSettings({ wght: sampleRow.weight }) ?? undefined,
+                        // Same rule as the specimen rows: state every axis, or
+                        // CSS resolves the unstated ones somewhere else.
+                        fontVariationSettings: getFontVariationSettings({
+                          ...Object.fromEntries(sampleRow.axesDef.filter(a => a.tag !== 'wght').map(a => [a.tag, a.default])),
+                          wght: sampleRow.weight,
+                        }) ?? undefined,
                         fontSize: sample.size,
                         lineHeight: sample.size >= 36 ? 1.15 : 1.4,
                         letterSpacing: sample.size >= 36 ? '-0.01em' : 0,

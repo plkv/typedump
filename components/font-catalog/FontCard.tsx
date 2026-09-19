@@ -200,14 +200,37 @@ function FontCardImpl({
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
 
+  // A pointer that went down inside this card. Buttons are not focused on
+  // click in every browser, so the blur that leaves the preview arrives with a
+  // relatedTarget of null — indistinguishable from clicking away. The card
+  // folded on that blur, and the alternate the reader was clicking never got
+  // its click: the button unmounted underneath the pointer. Scoutie Sans has
+  // nine alternates and not one of them worked; every card with alternates or
+  // an axis slider had the same fault.
+  // A timestamp rather than a flag: a flag set by a pointerdown that never
+  // produced a blur would sit there and swallow the next genuine collapse.
+  const pointerInsideAt = useRef(0)
+
   const handleBlur = (e: React.FocusEvent<HTMLDivElement>) => {
-    if (isExpanded && !e.currentTarget.contains(e.relatedTarget as Node)) {
+    if (!isExpanded) return
+    const card = e.currentTarget
+    if (card.contains(e.relatedTarget as Node)) return
+    // Decide a frame later, once the click has landed and focus has settled.
+    requestAnimationFrame(() => {
+      if (Date.now() - pointerInsideAt.current < 300) return
+      if (!card.isConnected) return
+      if (card.contains(document.activeElement)) return
       onToggleExpand()
-    }
+    })
   }
 
   return (
-    <div className="transition-colors v2-card card-shimmer-host" onBlur={handleBlur} data-card-id={font.id}>
+    <div
+      className="transition-colors v2-card card-shimmer-host"
+      onPointerDown={() => { pointerInsideAt.current = Date.now() }}
+      onBlur={handleBlur}
+      data-card-id={font.id}
+    >
       {/* While the face is still arriving the whole card carries the shimmer,
           not the line of text: the card is the thing that is not ready yet, and
           a sweep over one line read as a defect in the specimen rather than as

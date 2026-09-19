@@ -114,6 +114,7 @@ node scripts/check-taxonomy.mjs
 python3.13 scripts/check-glyphs.py
 python3.13 scripts/check-font-claims.py
 python3.13 scripts/check-feature-titles.py
+python3.13 scripts/check-languages.py
 python3.13 scripts/drop-blank-mappings.py --dry-run
 ```
 
@@ -130,6 +131,12 @@ own name.
 label names a glyph the feature actually substitutes. ZT Talk shipped with
 ss02 labelled "Alt g" while the feature changes a, f and the ampersand,
 because the label was a guess. Never write one without looking.
+
+`check-languages.py` compares the language tags with the glyphs the font
+actually draws, both ways. Spectral carried a full Cyrillic and said Latin
+only, so nobody filtering for Cyrillic ever saw it; THICCCBOI said Cyrillic
+and maps all 66 letters while 49 of them are empty. Never take the cmap's
+word for coverage.
 
 `drop-blank-mappings.py` finds characters mapped to an empty glyph. A browser
 believes the cmap, so it runs no fallback and the character vanishes from the
