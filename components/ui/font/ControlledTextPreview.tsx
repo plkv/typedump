@@ -14,6 +14,9 @@ interface ControlledTextPreviewProps {
   onClick?: () => void
   onFocus?: () => void
   onBlur?: () => void
+  /** Escape was pressed while the caret was in here. The field blurs itself
+   *  first, so a handler only has to decide what the page does next. */
+  onEscape?: () => void
   className?: string
   style?: React.CSSProperties
   placeholder?: string
@@ -36,6 +39,7 @@ export const ControlledTextPreview = forwardRef<
   onClick,
   onFocus,
   onBlur,
+  onEscape,
   className = '',
   style = {},
   placeholder = '',
@@ -145,12 +149,28 @@ export const ControlledTextPreview = forwardRef<
     setIsFocused(false)
     onBlur?.()
   }
+
+  // Escape now belongs to the field, so any page that renders a preview gets it
+  // by asking for it. The font page had nothing at all before, while the
+  // catalogue answered the key from a document listener — the same preview
+  // behaving differently on two screens.
+  //
+  // Only when a handler is passed, though. The catalogue's listener has to fire
+  // after focus has already left a card, which a field can no longer see, and
+  // blurring here first would clear the state that listener reads and leave the
+  // card expanded.
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    if (e.key !== 'Escape' || !onEscape) return
+    e.currentTarget.blur()
+    onEscape()
+  }
   
   const baseProps = {
     value,
     onChange: handleChange,
     onSelect: handleSelect,
     onKeyUp: handleKeyUp,
+    onKeyDown: handleKeyDown,
     onClick,
     onFocus: handleFocus,
     onBlur: handleBlur,

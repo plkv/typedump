@@ -81,6 +81,7 @@ const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
   { size: 24, text: 'Most of the type anyone meets in a day sits between 16 and 24 pixels: the body of an article, a form label, the terms nobody reads. A face that survives down there is worth more than one that only photographs well at 200.' },
   { size: 20, text: 'Read a few lines rather than a few words. Rhythm only shows up over a paragraph, and so do the things that get tiring: a narrow e, an ambiguous l and 1, an italic that leans harder than the roman, numerals that sit too high against lowercase. None of it is visible in a single word set large.' },
   { size: 16, text: 'This is the size where a typeface either works or quietly does not. Stems thin out, terminals blunt, and the spacing decides how fast anyone gets through a sentence. Check the punctuation while you are here, because commas and quotes carry more of the reading than their size suggests, and check a number or two: 0 against O, 1 against l, 3 against 8. If the paragraph still reads easily at this size, the rest of the family will usually take care of itself.' },
+  { size: 14, text: 'Below sixteen the decisions stop being yours. Hinting, the screen and the reader\u2019s own settings take over, strokes land between pixels, and a face that looked crisp one size up can go soft. Set a caption here, or a table, or the legal line nobody reads, and see whether the words still separate cleanly.' },
 ]
 
 interface FontSearchItem { name: string; author: string }
@@ -95,6 +96,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   const [align, setAlign] = useState<'left' | 'center' | 'right'>('left')
   const [expandedRowKey, setExpandedRowKey] = useState<string | null>(null)
   const [sizesOpen, setSizesOpen] = useState(false)
+  const [sampleKey, setSampleKey] = useState<string | null>(null)
   const [rowOtFeatures, setRowOtFeatures] = useState<Record<string, Record<string, boolean>>>({})
   const [rowVarAxes, setRowVarAxes] = useState<Record<string, Record<string, number>>>({})
   const isVariable = family.isVariable || family.variants.some(v => v.isVariable)
@@ -211,10 +213,11 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   // The samples are set in the style the page opens on, so the accordion shows
   // the face as someone would actually meet it rather than in whatever weight
   // happens to sort first.
-  const sampleRow =
+  const defaultSampleRow =
     variantRows.find(r => !r.isItalic && /^regular\b/i.test(r.label)) ??
     variantRows.find(r => !r.isItalic) ??
     variantRows[0]
+  const sampleRow = variantRows.find(r => r.key === sampleKey) ?? defaultSampleRow
 
   const defaultVariant = family.variants.find(v => v.isDefaultStyle) ?? sorted[0]
   const heroFont = defaultVariant ? variantCssFamily(family, defaultVariant.id) : 'system-ui'
@@ -433,42 +436,70 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
       {sampleRow && (
         <div style={{ padding: '0 16px 12px' }}>
           <div className="v2-card" style={{ overflow: 'hidden' }}>
-            <button
-              onClick={() => setSizesOpen(o => !o)}
-              aria-expanded={sizesOpen}
-              className="text-author"
-              style={{
-                width: '100%', padding: '14px 16px', background: 'none', border: 'none',
-                cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                font: 'inherit', color: 'inherit', textAlign: 'left',
-              }}
-            >
-              <span>Reading sizes · {sampleRow.label}</span>
-              <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: sizesOpen ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
-            </button>
-            {sizesOpen && SIZE_SAMPLES.map((sample, i) => (
-              <div
-                key={sample.size}
-                className="font-detail-size-row"
-                style={{ borderTop: '1px solid var(--gray-brd-prim)', padding: '20px 16px' }}
+            <div className="font-detail-sizes-head">
+              <button
+                onClick={() => setSizesOpen(o => !o)}
+                aria-expanded={sizesOpen}
+                className="text-author font-detail-sizes-toggle"
               >
-                <div className="text-author" style={{ color: 'var(--gray-cont-tert)', paddingTop: 2 }}>
-                  {sample.size}px
+                <span>Reading sizes</span>
+                <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: sizesOpen ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
+              </button>
+              {variantRows.length > 1 && (
+                <div className="relative v2-dropdown" style={{ height: 32 }}>
+                  <select
+                    aria-label="Style for the reading samples"
+                    value={sampleKey ?? ''}
+                    onChange={e => setSampleKey(e.target.value)}
+                    className="appearance-none cursor-pointer"
+                    style={{
+                      height: '100%', width: '100%', padding: '0 36px 0 12px',
+                      backgroundColor: 'transparent', border: 'none', outline: 'none',
+                      fontFamily: '"Instrument Sans UI", sans-serif',
+                      fontSize: 14, fontWeight: 500, color: 'var(--gray-cont-prim)',
+                    }}
+                  >
+                    {variantRows.map(r => (
+                      <option key={r.key} value={r.key}>{r.label}</option>
+                    ))}
+                  </select>
+                  <IconChevronDown size={16} style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none', color: 'var(--gray-cont-tert)' }} />
                 </div>
-                <p style={{
-                  margin: 0,
-                  fontFamily: `"${sampleRow.cssFamily}", system-ui, sans-serif`,
-                  fontWeight: sampleRow.weight,
-                  fontStyle: sampleRow.isItalic ? 'italic' : 'normal',
-                  fontVariationSettings: getFontVariationSettings({ wght: sampleRow.weight }) ?? undefined,
-                  fontSize: sample.size,
-                  lineHeight: sample.size >= 36 ? 1.15 : 1.4,
-                  letterSpacing: sample.size >= 36 ? '-0.01em' : 0,
-                }}>
-                  {sample.text}
-                </p>
+              )}
+            </div>
+
+            {/* Always mounted, height animated: a section that unmounts cannot
+                transition, and max-height guesses a number that is wrong for
+                every font. The 0fr-to-1fr row does it on the real height. */}
+            <div className="font-detail-sizes-wrap" data-open={sizesOpen}>
+              <div className="font-detail-sizes-inner">
+                <div className="font-detail-sizes">
+                  {SIZE_SAMPLES.map(sample => (
+                    <div
+                      key={sample.size}
+                      className="font-detail-size-row"
+                      data-wide={sample.size >= 30 ? 'true' : 'false'}
+                    >
+                      <div className="text-author" style={{ color: 'var(--gray-cont-tert)', paddingTop: 2 }}>
+                        {sample.size}px
+                      </div>
+                      <p style={{
+                        margin: 0,
+                        fontFamily: `"${sampleRow.cssFamily}", system-ui, sans-serif`,
+                        fontWeight: sampleRow.weight,
+                        fontStyle: sampleRow.isItalic ? 'italic' : 'normal',
+                        fontVariationSettings: getFontVariationSettings({ wght: sampleRow.weight }) ?? undefined,
+                        fontSize: sample.size,
+                        lineHeight: sample.size >= 36 ? 1.15 : 1.4,
+                        letterSpacing: sample.size >= 36 ? '-0.01em' : 0,
+                      }}>
+                        {sample.text}
+                      </p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       )}
@@ -701,6 +732,7 @@ function VariantRow({
         onChange={(v, pos) => { onChange(v); setCursor(pos) }}
         onCursorChange={setCursor}
         onFocus={() => { if (hasSettings && !isExpanded) onToggleExpand?.() }}
+        onEscape={() => { if (isExpanded) onToggleExpand?.() }}
         multiline
         highlightMissingGlyphs
         style={{

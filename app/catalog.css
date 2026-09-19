@@ -799,11 +799,75 @@
 /* Font detail — reading sizes accordion. The size label sits in its own column
    beside the sample so the samples share a left edge whatever the size. On a
    phone that column would eat a third of the line, so it moves above. */
+.font-detail-sizes-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 8px 8px 16px;
+  min-height: 48px;
+}
+
+.font-detail-sizes-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+  padding: 6px 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* 0fr to 1fr animates the row against the content's real height, so the
+   section opens at whatever size the samples happen to need. */
+.font-detail-sizes-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.28s ease;
+}
+
+.font-detail-sizes-wrap[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+
+.font-detail-sizes-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.font-detail-sizes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .font-detail-size-row {
   display: grid;
   grid-template-columns: 56px minmax(0, 1fr);
   column-gap: 16px;
   align-items: start;
+  border-top: 1px solid var(--gray-brd-prim);
+  padding: 20px 16px;
+}
+
+/* A 16px paragraph leaves most of a desktop card empty, so the small sizes
+   pair up while the large ones keep the full width they need. */
+@media (min-width: 900px) {
+  .font-detail-sizes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .font-detail-size-row[data-wide="true"] {
+    grid-column: 1 / -1;
+  }
+
+  .font-detail-size-row[data-wide="false"]:nth-of-type(even) {
+    border-left: 1px solid var(--gray-brd-prim);
+  }
 }
 
 @media (max-width: 599px) {
