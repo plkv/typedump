@@ -384,7 +384,14 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
             const hasSettings = vr.styleAlternates.length > 0 || vr.axesDef.length > 0
             const otFeatures = rowOtFeatures[vr.key] ?? {}
             const varAxes = rowVarAxes[vr.key] ?? {}
-            const varSettings = getFontVariationSettings({ wght: vr.weight, ...varAxes })
+            // Axis defaults first, then the row's weight, then whatever the
+            // reader has moved. An axis left unstated is decided by CSS
+            // instead: font-stretch: normal lands on 100 and gets clamped into
+            // the axis range, which is not where the font rests.
+            const axisDefaults = Object.fromEntries(
+              vr.axesDef.filter(a => a.tag !== 'wght').map(a => [a.tag, a.default])
+            )
+            const varSettings = getFontVariationSettings({ ...axisDefaults, wght: vr.weight, ...varAxes })
             // 'normal' resets the body-level UI stylistic sets on the specimen.
             const rowFeatures = getFontFeatureSettings(otFeatures) ?? 'normal'
             // Small caps rides on the same property as the row's own feature

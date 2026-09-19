@@ -1206,6 +1206,23 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     const isFamilyVariable = (font?.type === 'Variable') || !!(font?.variableAxes && font.variableAxes.length)
 
     const axesOut: Record<string, number> = { ...stateAxes }
+
+    // Every axis the reader has not touched is pinned to the font's own
+    // default. Left unstated, CSS decides instead: font-stretch defaults to
+    // normal, the browser reads that as 100 on the wdth axis and clamps it
+    // into range, and Riottosa — whose width axis runs 0 to 100 and rests at
+    // 0 — rendered fully wide while its Width slider sat at zero. Aujournuit
+    // was worse: an axis of 1 to 9 has no 100 in it, so it rendered at 9.
+    if (isFamilyVariable) {
+      for (const axis of font?.variableAxes ?? []) {
+        const tag = (axis as any).tag ?? (axis as any).axis
+        if (!tag || tag === 'wght') continue
+        if (axesOut[tag] === undefined && isFinite(Number(axis.default))) {
+          axesOut[tag] = Number(axis.default)
+        }
+      }
+    }
+
     if (isFamilyVariable && axesOut.wght === undefined) {
       // ?? not ||: Riottosa's regular sits at wght 0, and a falsy zero here
       // fell through to the slider's 400, which the axis clamps to bold.
