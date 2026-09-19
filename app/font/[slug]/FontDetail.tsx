@@ -452,10 +452,13 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                 Reading sizes
               </button>
               {variantRows.length > 1 && (
-                <div className="relative v2-dropdown font-detail-sizes-style">
+                <div className="relative v2-dropdown">
                   <select
                     aria-label="Style for the reading samples"
-                    value={sampleKey ?? ''}
+                    // The row actually in use, not the untouched state: with an
+                    // empty value the browser showed the first option, so the
+                    // picker said Thin while the samples were set in Regular.
+                    value={sampleRow.key}
                     onChange={e => setSampleKey(e.target.value)}
                     className="appearance-none cursor-pointer"
                     style={{
@@ -469,7 +472,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                       <option key={r.key} value={r.key}>{r.label}</option>
                     ))}
                   </select>
-                  <IconChevronDown size={16} style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none', color: 'var(--gray-cont-tert)' }} />
+                  <IconChevronDown size={20} style={{ position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none', color: 'var(--gray-cont-tert)' }} />
                 </div>
               )}
             </div>
