@@ -795,3 +795,41 @@
 @media (max-width: 767px) {
   .card-edit-hint { display: none; }
 }
+
+/* Font detail — reading sizes accordion. The size label sits in its own column
+   beside the sample so the samples share a left edge whatever the size. On a
+   phone that column would eat a third of the line, so it moves above. */
+.font-detail-size-row {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
+}
+
+@media (max-width: 599px) {
+  .font-detail-size-row {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 6px;
+  }
+}
+
+/* Card tags row. The editing hint sits at its right end on cards with nothing
+   to expand, so those cards do not grow a line to hold a note that could not
+   have overlapped anything. */
+.card-tags-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card-edit-hint-inline {
+  margin-top: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* The hint itself is hidden below 767px, so below that the row is just tags. */
+@media (max-width: 767px) {
+  .card-tags-row { display: block; }
+}

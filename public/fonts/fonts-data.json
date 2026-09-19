@@ -17599,7 +17599,7 @@
     },
     {
       "name": "Cooper",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Vintage",
         "Old Face"
@@ -18541,7 +18541,7 @@
     },
     {
       "name": "Sinistre",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Contrast",
         "Fatface"
@@ -24171,7 +24171,7 @@
     },
     {
       "name": "P-ACR-AGON",
-      "collection": "Display",
+      "collection": "Brutal",
       "category": [
         "Serif"
       ],
@@ -27586,7 +27586,7 @@
     },
     {
       "name": "Geist Pixel",
-      "collection": "Display",
+      "collection": "Brutal",
       "category": [
         "Pixel"
       ],
@@ -33249,7 +33249,7 @@
     },
     {
       "name": "Modelo",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Modular",
         "Geometry"
@@ -35476,7 +35476,7 @@
       ],
       "foundry": "Unio Designs",
       "isVariable": true,
-      "published": true,
+      "published": false,
       "downloadLink": "https://uniodesign.eu",
       "id": "family_golden_goose_uppercase_1756800000000",
       "variants": [
@@ -35537,7 +35537,7 @@
     },
     {
       "name": "THICCCBOI",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Geometry",
         "Neutral"
@@ -36471,90 +36471,6 @@
       "altPairs": []
     },
     {
-      "name": "Memoir",
-      "collection": "Display",
-      "styleTags": [
-        "Banded",
-        "Humanist",
-        "Vintage"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Daniel Gremme",
-      "isVariable": false,
-      "published": true,
-      "npmMirror": false,
-      "downloadLink": "https://danielgremme.com/type/",
-      "id": "family_memoir_1758190000000",
-      "variants": [
-        {
-          "filename": "Memoir-Regular.ttf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "Kerning",
-            "Discretionary Ligatures",
-            "Localized Forms",
-            "Stylistic Alternates",
-            "Alt Y",
-            "Alt R",
-            "Alt A"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Alt Y"
-            },
-            {
-              "tag": "ss02",
-              "title": "Alt R"
-            },
-            {
-              "tag": "ss03",
-              "title": "Alt A"
-            },
-            {
-              "tag": "dlig",
-              "title": "RA ligature"
-            },
-            {
-              "tag": "salt",
-              "title": "Stylistic Alternates"
-            }
-          ],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-09-18T00:00:00.000Z",
-          "id": "variant_family_memoir_1758190000000_1758190000001",
-          "familyId": "family_memoir_1758190000000",
-          "url": "/fonts/Memoir-Regular.woff2",
-          "originalUrl": "/fonts/Memoir-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
-        }
-      ],
-      "createdAt": "2026-09-18T00:00:00.000Z",
-      "updatedAt": "2026-09-18T00:00:00.000Z",
-      "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
-      "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://danielgremme.com/type/"
-      },
-      "publishedAt": "2026-09-18",
-      "useCases": [
-        "Brand Headline",
-        "Poster",
-        "Culture"
-      ],
-      "altPairs": []
-    },
-    {
       "name": "Humane",
       "collection": "Display",
       "styleTags": [
@@ -37128,7 +37044,711 @@
         "Experimental"
       ],
       "altPairs": []
+    },
+    {
+      "name": "Ambidexter",
+      "collection": "Brutal",
+      "styleTags": [
+        "Contrast",
+        "Wavy",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Egor Belozerov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/egaindahouse/Ambidexter",
+      "id": "family_ambidexter_1758290000001",
+      "variants": [
+        {
+          "filename": "Ambidexter-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Contextual Alternates",
+            "Stylistic Alternates",
+            "Alt X, Х, б",
+            "Alt б"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt X, Х, б"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt б"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_ambidexter_1758290000001_1",
+          "familyId": "family_ambidexter_1758290000001",
+          "url": "/fonts/Ambidexter-Regular.woff2",
+          "originalUrl": "/fonts/Ambidexter-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Ambidexter-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Ambidexter is drawn as if with a broad-nib pen held at two angles at once, so the strokes swell and thin along their length and every letter leans a little differently from its neighbour. The contrast is extreme and the rhythm deliberately uneven, which makes it a headline face and nothing else. Latin and Cyrillic, under the Open Font License, with the Glyphs source in the repository.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/egaindahouse/Ambidexter"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Mirra",
+      "collection": "Display",
+      "styleTags": [
+        "Modern",
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Oxana Tkachenko",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/oxanatkach",
+      "id": "family_mirra_1758290000002",
+      "variants": [
+        {
+          "filename": "Mirra-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_mirra_1758290000002_1",
+          "familyId": "family_mirra_1758290000002",
+          "url": "/fonts/Mirra-Regular.woff2",
+          "originalUrl": "/fonts/Mirra-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Mirra-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Mirra is a hairline display serif from the HSE Art and Design School: vertical stress, contrast pushed as far as it goes, and serifs reduced to small wedges that catch the eye at poster size and disappear at text size. Capitals and lowercase share one height, so a line sets as an even band. One weight, Latin and Cyrillic. The author asks for a credit rather than a fee.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/oxanatkach"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Novelist",
+      "collection": "Display",
+      "styleTags": [
+        "Modern",
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Alena Krachkovskaya",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/krachkovskaya",
+      "id": "family_novelist_1758290000003",
+      "variants": [
+        {
+          "filename": "Novelist-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_novelist_1758290000003_1",
+          "familyId": "family_novelist_1758290000003",
+          "url": "/fonts/Novelist-Regular.woff2",
+          "originalUrl": "/fonts/Novelist-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Novelist-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Novelist is built from Lev Zbarsky's lettering for a 1963 Russian edition of Ovid's love elegies, and it keeps the source's thin strokes and small flared serifs. Stress is vertical, contrast is extreme, and the widths vary from letter to letter the way hand-drawn titling does. Meant for a book cover or a headline, not a paragraph. Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "CC BY",
+        "url": "https://www.behance.net/krachkovskaya"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Editorial"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Trezybec",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Sharp",
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ekaterina Nikolaeva",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://type-department.com/products/trezybec-free",
+      "id": "family_trezybec_1758290000004",
+      "variants": [
+        {
+          "filename": "Trezybec-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_trezybec_1758290000004_1",
+          "familyId": "family_trezybec_1758290000004",
+          "url": "/fonts/Trezybec-Regular.woff2",
+          "originalUrl": "/fonts/Trezybec-Regular.ttf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Trezybec-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Trezybec is assembled from the same few angular parts over and over: every stroke ends in a point and the joints are cut rather than curved, which gives a line of it the look of a row of blades. Latin and Cyrillic, one weight. Use it big, on a poster or a cover, where the repetition reads as a pattern.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://type-department.com/products/trezybec-free"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Baymax",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Fatface",
+        "Inktrap"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ilona Kuzina",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/149238959/Baymax-(Free-Font)",
+      "id": "family_baymax_1758290000005",
+      "variants": [
+        {
+          "filename": "Baymax-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_baymax_1758290000005_1",
+          "familyId": "family_baymax_1758290000005",
+          "url": "/fonts/Baymax-Regular.woff2",
+          "originalUrl": "/fonts/Baymax-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Baymax-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Baymax is soft and very heavy: every terminal is rounded, the counters shrink to slots, and where two fat strokes meet the designer cut an ink trap to keep the joint from filling in. The result stays readable at sizes where a fat face usually turns into a blob. Latin and Cyrillic, one weight.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/gallery/149238959/Baymax-(Free-Font)"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Zyablik",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Geometry",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ivan Pivovarov",
+      "isVariable": false,
+      "published": true,
+      "npmMirror": false,
+      "downloadLink": "https://www.fonts.uprock.ru/fonts/zyablik",
+      "id": "family_zyablik_1758290000006",
+      "variants": [
+        {
+          "filename": "Zyablik-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_zyablik_1758290000006_1",
+          "familyId": "family_zyablik_1758290000006",
+          "url": "/fonts/Zyablik-Regular.woff2",
+          "originalUrl": "/fonts/Zyablik-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Zyablik-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Zyablik is drawn from a small kit of geometric parts — a circle, a straight, a diagonal — so the letters share their curves and the line comes out evenly spaced without much kerning. Capitals and lowercase are the same height. Latin and Cyrillic, one weight. The licence covers desktop and web but not passing the file on, so it is on the site and not in the npm package.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fonts.uprock.ru/fonts/zyablik"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "ft anima",
+      "collection": "Display",
+      "styleTags": [
+        "Futura",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Igor Kosinsky",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/60455927/ft-anima-free-typeface",
+      "id": "family_ft_anima_1758290000007",
+      "variants": [
+        {
+          "filename": "FtAnima-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_ft_anima_1758290000007_1",
+          "familyId": "family_ft_anima_1758290000007",
+          "url": "/fonts/FtAnima-Regular.woff2",
+          "originalUrl": "/fonts/FtAnima-Regular.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "FtAnima-Medium.otf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_ft_anima_1758290000007_2",
+          "familyId": "family_ft_anima_1758290000007",
+          "url": "/fonts/FtAnima-Medium.woff2",
+          "originalUrl": "/fonts/FtAnima-Medium.otf",
+          "format": "woff2",
+          "namedInstances": []
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "ft anima goes back to Futura before it was tidied up: the arches on m and n come to a point instead of curving, the g drops a V-shaped tail, and the circles are near-perfect. Two weights, regular and medium, which is the whole family. Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Freeware",
+        "url": "https://www.behance.net/gallery/60455927/ft-anima-free-typeface"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Gothic №60",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alina Molchanova",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/202244137/Gothic-60-(FREE-font)",
+      "id": "family_gothic60_1758290000009",
+      "variants": [
+        {
+          "filename": "Gothic60-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Localized Forms",
+            "Alt Ж, К, г, ж, к"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt Ж, К, г, ж, к"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_gothic60_1758290000009_1",
+          "familyId": "family_gothic60_1758290000009",
+          "url": "/fonts/Gothic60-Regular.woff2",
+          "originalUrl": "/fonts/Gothic60-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Gothic60-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Gothic №60 revives Lining Gothic No. 60, cut by Barnhart Bros. & Spindler in 1907, by way of the unicase lettering on a Soviet photography magazine. Lowercase shapes stand at cap height beside the capitals, the curves are almost compass-drawn, and the Cyrillic carries alternates for Ж, К, г, ж and к. Latin and Cyrillic, one weight.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/gallery/202244137/Gothic-60-(FREE-font)"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Abraxas",
+      "collection": "Brutal",
+      "styleTags": [
+        "Geometry",
+        "Vintage",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Anna Drozd",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/84549517/Free-Abraxas-Grotesque-Font",
+      "id": "family_abraxas_1758290000010",
+      "variants": [
+        {
+          "filename": "Abraxas-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_abraxas_1758290000010_1",
+          "familyId": "family_abraxas_1758290000010",
+          "url": "/fonts/Abraxas-Regular.woff2",
+          "originalUrl": "/fonts/Abraxas-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Abraxas-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Abraxas is a unicase display sans where the letters refuse to line up: some sit at cap height, some stop short, and a few reach above, so a word comes out with a deliberately ragged top edge. The skeletons underneath are geometric and the mood is nineteen-twenties. Latin and Cyrillic, one weight.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.behance.net/gallery/84549517/Free-Abraxas-Grotesque-Font"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Droid",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Grotesque",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ray Larabie",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://typodermicfonts.com/public-domain/",
+      "id": "family_droid_1758290000011",
+      "variants": [
+        {
+          "filename": "Droid-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Subscript"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T00:00:00.000Z",
+          "id": "variant_family_droid_1758290000011_1",
+          "familyId": "family_droid_1758290000011",
+          "url": "/fonts/Droid-Regular.woff2",
+          "originalUrl": "/fonts/Droid-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Droid-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T00:00:00.000Z",
+      "updatedAt": "2026-09-19T00:00:00.000Z",
+      "description": "Ray Larabie drew Droid in 1997 after seeing a narrow unicase sign on Queen Street East in Toronto. Lowercase and capitals share one set of shapes and the whole thing is squeezed hard, so a headline stacks into a tall block. Cyrillic was added by Sergiy Tkachenko. Typodermic put it in the public domain in 2024 under CC0, which means no conditions at all.",
+      "licenseInfo": {
+        "type": "CC0",
+        "url": "https://typodermicfonts.com/public-domain/"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Memoir",
+      "collection": "Display",
+      "styleTags": [
+        "Banded",
+        "Humanist",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Daniel Gremme",
+      "isVariable": false,
+      "published": true,
+      "npmMirror": false,
+      "downloadLink": "https://danielgremme.com/type/",
+      "id": "family_memoir_1758190000000",
+      "variants": [
+        {
+          "filename": "Memoir-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Discretionary Ligatures",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Alt Y",
+            "Alt R",
+            "Alt A"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt Y"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt A"
+            },
+            {
+              "tag": "dlig",
+              "title": "RA ligature"
+            },
+            {
+              "tag": "salt",
+              "title": "Stylistic Alternates"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-19T12:00:00.000Z",
+          "id": "variant_family_memoir_1758190000000_1758190000001",
+          "familyId": "family_memoir_1758190000000",
+          "url": "/fonts/Memoir-Regular.woff2",
+          "originalUrl": "/fonts/Memoir-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-19T12:00:00.000Z",
+      "updatedAt": "2026-09-19T12:00:00.000Z",
+      "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://danielgremme.com/type/"
+      },
+      "publishedAt": "2026-09-19",
+      "useCases": [
+        "Brand Headline",
+        "Poster",
+        "Culture"
+      ],
+      "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-18T12:03:48.303622Z"
+  "lastUpdated": "2026-09-19T11:31:38.219803Z"
 }

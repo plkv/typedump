@@ -67,13 +67,23 @@ def inputs(font):
     return found
 
 
-def touches(glyphs, claimed):
+def touches(glyphs, claimed, cmap=None):
     """True when the feature changes that glyph, an accented form of it, or a
-    suffixed variant. Adieresis is an A; zero.tf is a zero."""
+    suffixed variant. Adieresis is an A; zero.tf is a zero.
+
+    A Cyrillic or Greek letter in a title is a character, while the font names
+    its glyph uniXXXX, so the character is resolved through the cmap first —
+    otherwise every non-Latin label looks like a lie."""
+    wanted = {claimed}
+    if len(claimed) == 1 and cmap:
+        name = cmap.get(ord(claimed))
+        if name:
+            wanted.add(name)
     for name in glyphs:
         base = name.split(".")[0]
-        if base == claimed or base.startswith(claimed) and base[len(claimed):].isalpha():
-            return True
+        for w in wanted:
+            if base == w or base.startswith(w) and base[len(w):].isalpha():
+                return True
     return False
 
 
@@ -116,7 +126,9 @@ def main():
             if not os.path.exists(src):
                 continue
             try:
-                available = inputs(TTFont(src))
+                font = TTFont(src)
+                available = inputs(font)
+                cmap = font.getBestCmap()
             except Exception:
                 continue
             for entry in tags:
@@ -132,7 +144,7 @@ def main():
                 wanted = {g for g in wanted if not (len(g) == 1 and g.lower() in ("a", "i") and f" {g} " not in f" {title} ")}
                 if not wanted:
                     continue
-                missing = sorted(g for g in wanted if not touches(available[tag], g))
+                missing = sorted(g for g in wanted if not touches(available[tag], g, cmap))
                 if missing and len(missing) == len(wanted):
                     got = sorted(x for x in available[tag] if len(x) <= 12)[:10]
                     problems.append((family["name"], tag, title, missing, got))

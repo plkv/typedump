@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import type { FontFamily } from '@/lib/models/FontFamily'
 import { variantCssFamily } from '@/lib/font-face-css'
 import { Navbar } from '@/components/font-catalog/Navbar'
-import { IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from '@/components/icons'
+import { IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight, IconChevronDown } from '@/components/icons'
 import { Slider } from '@/components/ui/slider'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
 import { cleanAuthor } from '@/lib/author'
@@ -70,6 +70,19 @@ function getPresetContent(preset: TextPreset, fontName: string): string {
   }
 }
 
+// Reading samples for the size accordion. Each is roughly as long as its size
+// can carry on one screen, so the block shortens as the type grows. They talk
+// about type on purpose: a sample nobody wants to read teaches nothing about
+// whether a face is readable.
+const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
+  { size: 48, text: 'A face earns its keep at the size you actually set it.' },
+  { size: 36, text: 'Set the same sentence twice, once large and once small. The small setting is the one that tells you whether a typeface will hold up.' },
+  { size: 30, text: 'Counters close, joints thicken, and the gaps between letters start doing more work than the letters. What looked confident in a headline can turn muddy three sizes down.' },
+  { size: 24, text: 'Most of the type anyone meets in a day sits between 16 and 24 pixels: the body of an article, a form label, the terms nobody reads. A face that survives down there is worth more than one that only photographs well at 200.' },
+  { size: 20, text: 'Read a few lines rather than a few words. Rhythm only shows up over a paragraph, and so do the things that get tiring: a narrow e, an ambiguous l and 1, an italic that leans harder than the roman, numerals that sit too high against lowercase. None of it is visible in a single word set large.' },
+  { size: 16, text: 'This is the size where a typeface either works or quietly does not. Stems thin out, terminals blunt, and the spacing decides how fast anyone gets through a sentence. Check the punctuation while you are here, because commas and quotes carry more of the reading than their size suggests, and check a number or two: 0 against O, 1 against l, 3 against 8. If the paragraph still reads easily at this size, the rest of the family will usually take care of itself.' },
+]
+
 interface FontSearchItem { name: string; author: string }
 
 export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?: FontSearchItem[] }) {
@@ -81,6 +94,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   const [letterSpacing, setLetterSpacing] = useState(0)
   const [align, setAlign] = useState<'left' | 'center' | 'right'>('left')
   const [expandedRowKey, setExpandedRowKey] = useState<string | null>(null)
+  const [sizesOpen, setSizesOpen] = useState(false)
   const [rowOtFeatures, setRowOtFeatures] = useState<Record<string, Record<string, boolean>>>({})
   const [rowVarAxes, setRowVarAxes] = useState<Record<string, Record<string, number>>>({})
   const isVariable = family.isVariable || family.variants.some(v => v.isVariable)
@@ -193,6 +207,14 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
       styleAlternates: toStyleAlts(v), axesDef: toAxesDef(v),
     }))
   })()
+
+  // The samples are set in the style the page opens on, so the accordion shows
+  // the face as someone would actually meet it rather than in whatever weight
+  // happens to sort first.
+  const sampleRow =
+    variantRows.find(r => !r.isItalic && /^regular\b/i.test(r.label)) ??
+    variantRows.find(r => !r.isItalic) ??
+    variantRows[0]
 
   const defaultVariant = family.variants.find(v => v.isDefaultStyle) ?? sorted[0]
   const heroFont = defaultVariant ? variantCssFamily(family, defaultVariant.id) : 'system-ui'
@@ -406,6 +428,50 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           })}
         </div>
       </div>
+
+      {/* ── Reading sizes ── */}
+      {sampleRow && (
+        <div style={{ padding: '0 16px 12px' }}>
+          <div className="v2-card" style={{ overflow: 'hidden' }}>
+            <button
+              onClick={() => setSizesOpen(o => !o)}
+              aria-expanded={sizesOpen}
+              className="text-author"
+              style={{
+                width: '100%', padding: '14px 16px', background: 'none', border: 'none',
+                cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                font: 'inherit', color: 'inherit', textAlign: 'left',
+              }}
+            >
+              <span>Reading sizes · {sampleRow.label}</span>
+              <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: sizesOpen ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
+            </button>
+            {sizesOpen && SIZE_SAMPLES.map((sample, i) => (
+              <div
+                key={sample.size}
+                className="font-detail-size-row"
+                style={{ borderTop: '1px solid var(--gray-brd-prim)', padding: '20px 16px' }}
+              >
+                <div className="text-author" style={{ color: 'var(--gray-cont-tert)', paddingTop: 2 }}>
+                  {sample.size}px
+                </div>
+                <p style={{
+                  margin: 0,
+                  fontFamily: `"${sampleRow.cssFamily}", system-ui, sans-serif`,
+                  fontWeight: sampleRow.weight,
+                  fontStyle: sampleRow.isItalic ? 'italic' : 'normal',
+                  fontVariationSettings: getFontVariationSettings({ wght: sampleRow.weight }) ?? undefined,
+                  fontSize: sample.size,
+                  lineHeight: sample.size >= 36 ? 1.15 : 1.4,
+                  letterSpacing: sample.size >= 36 ? '-0.01em' : 0,
+                }}>
+                  {sample.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* ── Info section ── */}
       <div className="font-detail-info-grid" style={{
@@ -624,7 +690,7 @@ function VariantRow({
       >
         <span>{showsWeightNumber ? `${label} · ${weight}` : label}</span>
         {hasSettings && (
-          <span style={{ color: 'var(--gray-cont-tert)', fontSize: 12, transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', display: 'inline-block' }}>▾</span>
+          <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
         )}
       </div>
 

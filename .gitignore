@@ -27,3 +27,7 @@ yarn-error.log*
 next-env.d.ts
 # Machine-specific: the preview config carries an absolute path.
 .claude/launch.json
+
+# Python bytecode from the scripts/ helpers
+__pycache__/
+*.pyc

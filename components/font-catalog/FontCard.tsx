@@ -139,6 +139,11 @@ function FontCardImpl({
     fontSelection.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
   const [fontReady, setFontReady] = useState(true)
 
+  // Whether the card has anything that opens below the specimen. Only such a
+  // card can have the editing hint land on top of something, and only such a
+  // card gets the hint on a line of its own.
+  const hasExpandedControls = styleAlternates.length > 0 || variableAxesDef.length > 0
+
   useEffect(() => {
     if (!previewFamily || typeof document === 'undefined' || !document.fonts) return
     // Read FontFace.status directly rather than document.fonts.check(): check()
@@ -403,7 +408,8 @@ function FontCardImpl({
           ]
           if (!tags.length) return null
           return (
-            <div className="flex flex-wrap gap-1.5 mt-2">
+            <div className="card-tags-row mt-2">
+              <div className="flex flex-wrap gap-1.5">
               {tags.map(({ kind, value }) => {
                 const active = isTagActive?.(kind, value)
                 return (
@@ -417,6 +423,15 @@ function FontCardImpl({
                   </button>
                 )
               })}
+              </div>
+              {/* With nothing expanded there is nothing for the hint to cover,
+                  so it rides the tags row instead of adding a line to every
+                  card that has no axes and no alternates. */}
+              {isEditing && !hasExpandedControls && (
+                <div className="card-edit-hint card-edit-hint-inline" aria-hidden="true">
+                  <kbd className="card-edit-key">Esc</kbd> or click outside to apply everywhere
+                </div>
+              )}
             </div>
           )
         })()}
@@ -496,7 +511,7 @@ function FontCardImpl({
             alternates the moment a card was expanded — and an expanded card is
             exactly when a reader is most likely to be typing. Below everything
             it can overlap nothing. */}
-        {isEditing && (
+        {isEditing && hasExpandedControls && (
           <div className="card-edit-hint" aria-hidden="true">
             <kbd className="card-edit-key">Esc</kbd> or click outside to apply everywhere
           </div>
