@@ -37117,7 +37117,6 @@
           "url": "/fonts/Ambidexter-Regular.woff2",
           "originalUrl": "/fonts/Ambidexter-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Ambidexter-Regular.woff2"
         }
       ],
@@ -37175,7 +37174,6 @@
           "url": "/fonts/Mirra-Regular.woff2",
           "originalUrl": "/fonts/Mirra-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Mirra-Regular.woff2"
         }
       ],
@@ -37233,7 +37231,6 @@
           "url": "/fonts/Novelist-Regular.woff2",
           "originalUrl": "/fonts/Novelist-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Novelist-Regular.woff2"
         }
       ],
@@ -37291,7 +37288,6 @@
           "url": "/fonts/Trezybec-Regular.woff2",
           "originalUrl": "/fonts/Trezybec-Regular.ttf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Trezybec-Regular.woff2"
         }
       ],
@@ -37349,7 +37345,6 @@
           "url": "/fonts/Baymax-Regular.woff2",
           "originalUrl": "/fonts/Baymax-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Baymax-Regular.woff2"
         }
       ],
@@ -37407,7 +37402,6 @@
           "url": "/fonts/Zyablik-Regular.woff2",
           "originalUrl": "/fonts/Zyablik-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Zyablik-Regular.woff2"
         }
       ],
@@ -37462,8 +37456,7 @@
           "familyId": "family_ft_anima_1758290000007",
           "url": "/fonts/FtAnima-Regular.woff2",
           "originalUrl": "/fonts/FtAnima-Regular.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "FtAnima-Medium.otf",
@@ -37482,8 +37475,7 @@
           "familyId": "family_ft_anima_1758290000007",
           "url": "/fonts/FtAnima-Medium.woff2",
           "originalUrl": "/fonts/FtAnima-Medium.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         }
       ],
       "createdAt": "2026-09-19T00:00:00.000Z",
@@ -37545,7 +37537,6 @@
           "url": "/fonts/Gothic60-Regular.woff2",
           "originalUrl": "/fonts/Gothic60-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Gothic60-Regular.woff2"
         }
       ],
@@ -37603,7 +37594,6 @@
           "url": "/fonts/Abraxas-Regular.woff2",
           "originalUrl": "/fonts/Abraxas-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Abraxas-Regular.woff2"
         }
       ],
@@ -37665,7 +37655,6 @@
           "url": "/fonts/Droid-Regular.woff2",
           "originalUrl": "/fonts/Droid-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Droid-Regular.woff2"
         }
       ],
@@ -37729,7 +37718,6 @@
           "url": "/fonts/LTRemark-Regular.woff2",
           "originalUrl": "/fonts/LTRemark-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/LTRemark-Regular.woff2"
         },
         {
@@ -37755,8 +37743,7 @@
           "familyId": "family_lt_remark_1758440000000",
           "url": "/fonts/LTRemark-Italic.woff2",
           "originalUrl": "/fonts/LTRemark-Italic.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "LTRemark-Bold.otf",
@@ -37781,8 +37768,7 @@
           "familyId": "family_lt_remark_1758440000000",
           "url": "/fonts/LTRemark-Bold.woff2",
           "originalUrl": "/fonts/LTRemark-Bold.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "LTRemark-BoldItalic.otf",
@@ -37807,8 +37793,7 @@
           "familyId": "family_lt_remark_1758440000000",
           "url": "/fonts/LTRemark-BoldItalic.woff2",
           "originalUrl": "/fonts/LTRemark-BoldItalic.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "LTRemark-Black.otf",
@@ -37833,8 +37818,7 @@
           "familyId": "family_lt_remark_1758440000000",
           "url": "/fonts/LTRemark-Black.woff2",
           "originalUrl": "/fonts/LTRemark-Black.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "LTRemark-BlackItalic.otf",
@@ -37859,8 +37843,7 @@
           "familyId": "family_lt_remark_1758440000000",
           "url": "/fonts/LTRemark-BlackItalic.woff2",
           "originalUrl": "/fonts/LTRemark-BlackItalic.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         }
       ],
       "createdAt": "2026-09-21T10:00:00.000Z",
@@ -37915,8 +37898,7 @@
           "familyId": "family_tape_1758450000001",
           "url": "/fonts/Tape-Light.woff2",
           "originalUrl": "/fonts/Tape-Light.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         },
         {
           "filename": "Tape-Regular.otf",
@@ -37936,7 +37918,6 @@
           "url": "/fonts/Tape-Regular.woff2",
           "originalUrl": "/fonts/Tape-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Tape-Regular.woff2"
         },
         {
@@ -37956,8 +37937,7 @@
           "familyId": "family_tape_1758450000001",
           "url": "/fonts/Tape-Bold.woff2",
           "originalUrl": "/fonts/Tape-Bold.otf",
-          "format": "woff2",
-          "namedInstances": []
+          "format": "woff2"
         }
       ],
       "createdAt": "2026-09-21T11:00:00.000Z",
@@ -38013,7 +37993,6 @@
           "url": "/fonts/Bups-Regular.woff2",
           "originalUrl": "/fonts/Bups-Regular.otf",
           "format": "woff2",
-          "namedInstances": [],
           "previewUrl": "/fonts/preview/Bups-Regular.woff2"
         }
       ],
@@ -38028,6 +38007,225 @@
       "useCases": [
         "Poster",
         "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Cal Sans",
+      "collection": "Text",
+      "styleTags": [
+        "New Face",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "WORDMARK",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/calcom/sans",
+      "id": "family_cal_sans_1758460000000",
+      "variants": [
+        {
+          "filename": "CalSansVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical size",
+              "tag": "opsz",
+              "axis": "opsz",
+              "min": 8.0,
+              "max": 45.0,
+              "default": 14.0
+            },
+            {
+              "name": "Geometric Form",
+              "tag": "GEOM",
+              "axis": "GEOM",
+              "min": 0.0,
+              "max": 100.0,
+              "default": 25.0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            },
+            {
+              "name": "Ascender Height",
+              "tag": "YTAS",
+              "axis": "YTAS",
+              "min": 1440.0,
+              "max": 1600.0,
+              "default": 1440.0
+            },
+            {
+              "name": "Sharp",
+              "tag": "SHRP",
+              "axis": "SHRP",
+              "min": 0.0,
+              "max": 100.0,
+              "default": 0.0
+            },
+            {
+              "name": "Italic",
+              "tag": "ital",
+              "axis": "ital",
+              "min": 0.0,
+              "max": 1.0,
+              "default": 0.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Discretionary Ligatures",
+            "Contextual Alternates",
+            "Fractions",
+            "Superscript",
+            "Subscript",
+            "Ordinals",
+            "Tabular Figures",
+            "Proportional Figures",
+            "Slashed Zero",
+            "Titling",
+            "Localized Forms",
+            "Geometric a",
+            "Humanist a",
+            "Tailed a",
+            "Geometric g",
+            "Gothic g",
+            "Geometric G",
+            "Humanist G",
+            "Constructed j and y",
+            "Humanist j and y",
+            "Futura alternatives",
+            "Futura alternatives and ligations",
+            "Angular M",
+            "Square M",
+            "Constructed f and t",
+            "Humanist f and t",
+            "Humanist/Grotesk 6 and 9",
+            "Geometric/legible 6 and 9",
+            "A11Y I l a",
+            "Constructed l",
+            "Horizontal Sharps"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Geometric a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Humanist a"
+            },
+            {
+              "tag": "ss03",
+              "title": "Tailed a"
+            },
+            {
+              "tag": "ss04",
+              "title": "Geometric g"
+            },
+            {
+              "tag": "ss05",
+              "title": "Gothic g"
+            },
+            {
+              "tag": "ss06",
+              "title": "Geometric G"
+            },
+            {
+              "tag": "ss07",
+              "title": "Humanist G"
+            },
+            {
+              "tag": "ss08",
+              "title": "Constructed j and y"
+            },
+            {
+              "tag": "ss09",
+              "title": "Humanist j and y"
+            },
+            {
+              "tag": "ss10",
+              "title": "Futura alternatives"
+            },
+            {
+              "tag": "ss11",
+              "title": "Futura alternatives and ligations"
+            },
+            {
+              "tag": "ss12",
+              "title": "Angular M"
+            },
+            {
+              "tag": "ss13",
+              "title": "Square M"
+            },
+            {
+              "tag": "ss14",
+              "title": "Constructed f and t"
+            },
+            {
+              "tag": "ss15",
+              "title": "Humanist f and t"
+            },
+            {
+              "tag": "ss16",
+              "title": "Humanist/Grotesk 6 and 9"
+            },
+            {
+              "tag": "ss17",
+              "title": "Geometric/legible 6 and 9"
+            },
+            {
+              "tag": "ss18",
+              "title": "A11Y I l a"
+            },
+            {
+              "tag": "ss19",
+              "title": "Constructed l"
+            },
+            {
+              "tag": "ss20",
+              "title": "Horizontal Sharps"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-21T14:00:00.000Z",
+          "id": "variant_family_cal_sans_1758460000000_1",
+          "familyId": "family_cal_sans_1758460000000",
+          "url": "/fonts/CalSansVF.woff2",
+          "originalUrl": "/fonts/CalSansVF.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CalSansVF.woff2"
+        }
+      ],
+      "createdAt": "2026-09-21T14:00:00.000Z",
+      "updatedAt": "2026-09-21T14:00:00.000Z",
+      "description": "Cal Sans was drawn by Mark Davis at WORDMARK for Cal.com, and version two is one file with six axes. Optical size runs 8 to 45 and redraws the proportions as it goes, so the same font sets a footnote and a hero line. Geometric Form slides the alphabet from an accessibility-first humanist at zero through the UI default to fully geometric at a hundred — the a, g and G change construction as you move it. Weight, ascender height, corner sharpness and a real italic fill out the rest. Twenty stylistic sets name what they do, from a Futura alternative set to a pair of legible sixes and nines. Latin and Vietnamese, under the Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/calcom/sans/blob/main/OFL.txt"
+      },
+      "publishedAt": "2026-09-21",
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce",
+        "Brand Headline",
+        "Tech / Digital"
       ],
       "altPairs": []
     },
@@ -38091,7 +38289,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-09-21T13:00:00.000Z",
+          "uploadedAt": "2026-09-21T15:00:00.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -38100,8 +38298,8 @@
           "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
         }
       ],
-      "createdAt": "2026-09-21T13:00:00.000Z",
-      "updatedAt": "2026-09-21T13:00:00.000Z",
+      "createdAt": "2026-09-21T15:00:00.000Z",
+      "updatedAt": "2026-09-21T15:00:00.000Z",
       "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
       "licenseInfo": {
         "type": "Free for commercial use",
@@ -38116,5 +38314,5 @@
       "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-21T09:17:08.884420Z"
+  "lastUpdated": "2026-09-21T11:12:01.697794Z"
 }
