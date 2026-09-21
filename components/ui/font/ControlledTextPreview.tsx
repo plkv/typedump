@@ -222,6 +222,45 @@ export const ControlledTextPreview = forwardRef<
       } catch {}
     }, [fontEpoch])
 
+    // Width changes reflow the text, and nothing above notices them: the full
+    // re-measure keys on the value and the type styles, and the grow-only pass
+    // keys on font loads. Resize the window — or open a card, which narrows
+    // every specimen — and a preview that now needs three lines keeps the box
+    // it measured for two, so the last line is clipped by the card. Watched
+    // rather than listened for on window, because the box can change width
+    // without the window doing so.
+    useLayoutEffect(() => {
+      const el = taRef.current
+      if (!el || typeof ResizeObserver === 'undefined') return
+      let lastWidth = el.clientWidth
+      const ro = new ResizeObserver(() => {
+        const w = el.clientWidth
+        if (w === lastWidth) return
+        lastWidth = w
+        try {
+          el.style.height = 'auto'
+          el.style.height = `${el.scrollHeight}px`
+        } catch {}
+      })
+      ro.observe(el)
+      return () => ro.disconnect()
+    }, [])
+
+    // One more grow after the webfonts have actually settled. font-display is
+    // swap, so the first measurement can be of the fallback; the swap reflows
+    // the text without firing a React update, and if the face was already in
+    // the document no 'loadingdone' follows either.
+    useEffect(() => {
+      if (typeof document === 'undefined' || !document.fonts?.ready) return
+      let cancelled = false
+      document.fonts.ready.then(() => {
+        const el = taRef.current
+        if (cancelled || !el) return
+        if (el.scrollHeight > el.clientHeight) el.style.height = `${el.scrollHeight}px`
+      }).catch(() => {})
+      return () => { cancelled = true }
+    }, [value])
+
     // Mirror the textarea's exact box (UA/Tailwind padding + border) onto the
     // overlay so glyphs line up pixel-for-pixel regardless of default styles.
     useLayoutEffect(() => {

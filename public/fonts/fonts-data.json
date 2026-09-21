@@ -37685,7 +37685,7 @@
     },
     {
       "name": "LT Remark",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Transitional",
         "Neutral"
@@ -37977,7 +37977,7 @@
     },
     {
       "name": "BUPS",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Rounded",
         "Fatface"
