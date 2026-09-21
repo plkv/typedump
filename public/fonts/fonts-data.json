@@ -35542,7 +35542,7 @@
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
       "updatedAt": "2026-09-01T00:00:00.000Z",
-      "description": "Golden Goose Uppercase is a display serif by Bruno Pierini for Unio Designs: flared stems, spurred capitals and a weight axis that runs only from extra light to regular, so the drawing never thickens past elegant. A–Z only — no lowercase, no figures, so anything else falls back. Latin.",
+      "description": "Golden Goose Uppercase is a display serif by Bruno Pierini for Unio Designs: flared stems, spurred capitals and a weight axis that runs only from extra light to regular, so the drawing never thickens past elegant. A to Z with a full set of punctuation — quotes, dashes, guillemets, brackets — but no lowercase and no figures, so a digit falls back to another face. Latin.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://uniodesign.eu"
@@ -37684,6 +37684,354 @@
       "altPairs": []
     },
     {
+      "name": "LT Remark",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "LyonsType",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://lyonstype4.wixsite.com/lyonstype-beta",
+      "id": "family_lt_remark_1758440000000",
+      "variants": [
+        {
+          "filename": "LTRemark-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_1",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-Regular.woff2",
+          "originalUrl": "/fonts/LTRemark-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/LTRemark-Regular.woff2"
+        },
+        {
+          "filename": "LTRemark-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_2",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-Italic.woff2",
+          "originalUrl": "/fonts/LTRemark-Italic.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "LTRemark-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_3",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-Bold.woff2",
+          "originalUrl": "/fonts/LTRemark-Bold.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "LTRemark-BoldItalic.otf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_4",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-BoldItalic.woff2",
+          "originalUrl": "/fonts/LTRemark-BoldItalic.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "LTRemark-Black.otf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_5",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-Black.woff2",
+          "originalUrl": "/fonts/LTRemark-Black.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "LTRemark-BlackItalic.otf",
+          "weight": 900,
+          "styleName": "Black Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning",
+            "Standard Ligatures",
+            "Fractions",
+            "Superscript",
+            "Ordinals",
+            "Historical Forms",
+            "Localized Forms"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T10:00:00.000Z",
+          "id": "variant_family_lt_remark_1758440000000_6",
+          "familyId": "family_lt_remark_1758440000000",
+          "url": "/fonts/LTRemark-BlackItalic.woff2",
+          "originalUrl": "/fonts/LTRemark-BlackItalic.otf",
+          "format": "woff2",
+          "namedInstances": []
+        }
+      ],
+      "createdAt": "2026-09-21T10:00:00.000Z",
+      "updatedAt": "2026-09-21T10:00:00.000Z",
+      "description": "LT Remark is a text serif in the transitional manner: stress close to vertical, contrast moderate enough to hold at paragraph size, and serifs bracketed rather than hairline. The italic is drawn rather than slanted, with its own narrower forms. Three weights from regular to black, each with that italic, and the character set reaches past Latin into Cyrillic, Greek and Vietnamese. Daniel Lyons released it under the Open Font License.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "publishedAt": "2026-09-21",
+      "useCases": [
+        "Editorial / Ecommerce",
+        "Editorial",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Tape",
+      "collection": "Brutal",
+      "styleTags": [
+        "Geometry",
+        "Cut"
+      ],
+      "languages": [
+        "Latin",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "backpacker.gr",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://backpacker.gr/fonts",
+      "id": "family_tape_1758450000001",
+      "variants": [
+        {
+          "filename": "Tape-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T11:00:00.000Z",
+          "id": "variant_family_tape_1758450000001_1",
+          "familyId": "family_tape_1758450000001",
+          "url": "/fonts/Tape-Light.woff2",
+          "originalUrl": "/fonts/Tape-Light.otf",
+          "format": "woff2",
+          "namedInstances": []
+        },
+        {
+          "filename": "Tape-Regular.otf",
+          "weight": 500,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-21T11:00:00.000Z",
+          "id": "variant_family_tape_1758450000001_2",
+          "familyId": "family_tape_1758450000001",
+          "url": "/fonts/Tape-Regular.woff2",
+          "originalUrl": "/fonts/Tape-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Tape-Regular.woff2"
+        },
+        {
+          "filename": "Tape-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-21T11:00:00.000Z",
+          "id": "variant_family_tape_1758450000001_3",
+          "familyId": "family_tape_1758450000001",
+          "url": "/fonts/Tape-Bold.woff2",
+          "originalUrl": "/fonts/Tape-Bold.otf",
+          "format": "woff2",
+          "namedInstances": []
+        }
+      ],
+      "createdAt": "2026-09-21T11:00:00.000Z",
+      "updatedAt": "2026-09-21T11:00:00.000Z",
+      "description": "Tape is a geometric sans whose outlines look torn rather than drawn: the skeletons are clean and almost compass-built, but every contour is chipped, as if the letters had been cut from adhesive tape and pressed down. Three weights, and the roughness grows with them — the light is nearly tidy, the bold is ragged. Latin and Greek. George Triantafyllakos asks for a credit rather than a fee.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://backpacker.gr/fonts"
+      },
+      "publishedAt": "2026-09-21",
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Experimental"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "BUPS",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Anastasia Meloch",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fontesk.com/bups-font/",
+      "id": "family_bups_1758450000003",
+      "variants": [
+        {
+          "filename": "Bups-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "variableAxes": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-21T11:00:00.000Z",
+          "id": "variant_family_bups_1758450000003_1",
+          "familyId": "family_bups_1758450000003",
+          "url": "/fonts/Bups-Regular.woff2",
+          "originalUrl": "/fonts/Bups-Regular.otf",
+          "format": "woff2",
+          "namedInstances": [],
+          "previewUrl": "/fonts/preview/Bups-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-21T11:00:00.000Z",
+      "updatedAt": "2026-09-21T11:00:00.000Z",
+      "description": "BUPS is a fat unicase display face drawn with a marker: every stroke ends round, the counters shrink to slits, and the lowercase keys give you the same bulbous capitals a size smaller. It is built for a single loud line and nothing else. Latin and Cyrillic, one weight.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://fontesk.com/bups-font/"
+      },
+      "publishedAt": "2026-09-21",
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "altPairs": []
+    },
+    {
       "name": "Memoir",
       "collection": "Display",
       "styleTags": [
@@ -37743,7 +38091,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-09-19T12:00:00.000Z",
+          "uploadedAt": "2026-09-21T13:00:00.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -37752,14 +38100,14 @@
           "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
         }
       ],
-      "createdAt": "2026-09-19T12:00:00.000Z",
-      "updatedAt": "2026-09-19T12:00:00.000Z",
+      "createdAt": "2026-09-21T13:00:00.000Z",
+      "updatedAt": "2026-09-21T13:00:00.000Z",
       "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://danielgremme.com/type/"
       },
-      "publishedAt": "2026-09-19",
+      "publishedAt": "2026-09-21",
       "useCases": [
         "Brand Headline",
         "Poster",
@@ -37768,5 +38116,5 @@
       "altPairs": []
     }
   ],
-  "lastUpdated": "2026-09-19T12:23:06.503070Z"
+  "lastUpdated": "2026-09-21T09:17:08.884420Z"
 }
