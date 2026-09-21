@@ -3485,8 +3485,7 @@
       "name": "Departure Mono",
       "collection": "Display",
       "styleTags": [
-        "Narrow",
-        "Neutral"
+        "Narrow"
       ],
       "languages": [
         "Latin",
@@ -4682,7 +4681,6 @@
       "name": "Alpha Lyrae",
       "collection": "Display",
       "styleTags": [
-        "Neutral",
         "Tech"
       ],
       "languages": [
@@ -7251,7 +7249,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans"
+        "Decorative"
       ],
       "foundry": "Alexey Atapin",
       "isVariable": false,
@@ -9232,7 +9230,6 @@
       "name": "Terminal Grotesque",
       "collection": "Brutal",
       "styleTags": [
-        "Neutral",
         "Pixel"
       ],
       "languages": [
@@ -21617,8 +21614,7 @@
         "Latin"
       ],
       "category": [
-        "Sans",
-        "Script"
+        "Decorative"
       ],
       "foundry": "Nathan Laurent",
       "isVariable": true,
@@ -29882,9 +29878,8 @@
       "name": "Lack Line",
       "collection": "Display",
       "styleTags": [
-        "Contrast",
-        "Banded",
-        "Stroked"
+        "Stroked",
+        "Geometry"
       ],
       "languages": [
         "Latin",
@@ -35378,7 +35373,7 @@
         "Latin"
       ],
       "category": [
-        "Sans"
+        "Decorative"
       ],
       "foundry": "yar.yav",
       "isVariable": false,
@@ -37262,7 +37257,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans"
+        "Decorative"
       ],
       "foundry": "Ekaterina Nikolaeva",
       "isVariable": false,
@@ -37676,8 +37671,7 @@
       "name": "LT Remark",
       "collection": "Display",
       "styleTags": [
-        "Transitional",
-        "Neutral"
+        "Transitional"
       ],
       "languages": [
         "Latin",

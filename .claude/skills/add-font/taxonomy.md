@@ -5,7 +5,16 @@ misleading, which is why this file exists.
 
 ## Categories
 
-`Sans` · `Serif` · `Semi Serif` · `Script` · `Mono` · `Pixel`
+`Sans` · `Serif` · `Semi Serif` · `Script` · `Mono` · `Pixel` · `Decorative`
+
+A category answers **what the letters are built on**, not what the font is for —
+that is the collection's job. `Decorative` is for a face built on none of the
+other skeletons: letters assembled from shapes, blades or runes rather than
+written or drawn. Trezybec sat under `Sans` for months and the word did no
+work there; a reader filtering for a sans did not want it, and a reader
+looking at it learned nothing. Reach for it only after looking at the
+letterforms — Gap Sans, Kulturë and LCT Ciburial are all tagged `Modular` or
+`Squared` and are still plainly sanses.
 
 **Semi Serif** means exactly two things and nothing else: some glyphs carry
 serifs and some do not, or the family runs from sans to serif (a variable axis,

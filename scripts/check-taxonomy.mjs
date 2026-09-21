@@ -23,7 +23,10 @@ const TAGS = new Set(['Banded', 'Bauhaus', 'Calligraphy', 'Handwritten', 'Contra
   'Modern', 'Transitional', 'Slab', 'Modular', 'Multi Style', 'Narrow', 'Neutral', 'New Face',
   'Old Face', 'Pixel', 'Rounded', 'Sharp', 'Squared', 'Stencil', 'Stroked', 'Tech', 'Vintage',
   'Wavy', 'Wide'])
-const CATEGORIES = new Set(['Sans', 'Serif', 'Semi Serif', 'Script', 'Mono', 'Pixel'])
+// Decorative is the honest answer for a face whose letters are assembled from
+// shapes rather than built on any of the other skeletons — calling Trezybec a
+// sans told a reader nothing and put it under a filter it does not belong to.
+const CATEGORIES = new Set(['Sans', 'Serif', 'Semi Serif', 'Script', 'Mono', 'Pixel', 'Decorative'])
 const COLLECTIONS = new Set(['Text', 'Display', 'Brutal'])
 const SERIF_ONLY = new Set(['Modern', 'Transitional', 'Slab'])
 const SERIF_CLASS = new Set(['Old Face', 'Transitional', 'Modern', 'Slab'])
