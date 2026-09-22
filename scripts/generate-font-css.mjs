@@ -67,6 +67,11 @@ for (const fam of data.families) {
     // The app hashes the variant's blobUrl, which is this same `url` value.
     chunks.push(buildFontFace(variantAlias(fam.name, v.url || v.filename || v.id || ''), v))
   }
+
+  // Some licences make the @font-face conditional on a credit sitting with it.
+  // Jean-Luc's asks for this text immediately under the declaration block, and
+  // the permission to web-embed at all depends on it being there.
+  if (fam.cssNotice) chunks.push(`/*\n${fam.cssNotice}\n*/`)
 }
 
 const css = chunks.join('\n')

@@ -71,6 +71,12 @@ SCRIPT_RANGES = {
 # 14,000 glyphs, which is the honest reason to be slow.
 UNCUTTABLE = {"Korean", "Japanese", "Chinese", "Arabic", "Hebrew"}
 
+# A licence can forbid modification outright, and cutting glyphs out is a
+# modification. Jean-Luc's does: it permits @font-face only with the webfont
+# files the foundry publishes, unaltered. Such a family keeps its full file.
+def uncuttable_by_licence(family):
+    return family.get("noSubset") is True
+
 
 def preview_charset(families):
     """Characters every preview needs, whatever the font."""
@@ -138,7 +144,7 @@ def main():
         variant = default_variant(family)
         if not variant:
             continue
-        if set(family.get("languages") or []) & UNCUTTABLE:
+        if set(family.get("languages") or []) & UNCUTTABLE or uncuttable_by_licence(family):
             variant.pop("previewUrl", None)
             skipped += 1
             continue

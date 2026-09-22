@@ -29,9 +29,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -508,9 +508,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -784,9 +784,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "min": 300,
+              "max": 800,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -875,9 +875,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "min": 300,
+              "max": 800,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -1074,9 +1074,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 400.0
+              "min": 100,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -1162,9 +1162,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 400.0
+              "min": 100,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -1302,7 +1302,6 @@
           "styleName": "Medium",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1325,7 +1324,6 @@
           "styleName": "Light",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1347,7 +1345,6 @@
           "styleName": "Extra Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1369,7 +1366,6 @@
           "styleName": "Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1391,7 +1387,6 @@
           "styleName": "Black",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1413,7 +1408,6 @@
           "styleName": "Semi Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1435,7 +1429,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -1453,7 +1446,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:45.667Z",
-      "updatedAt": "2025-09-13T23:58:45.773Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Open Sauce Sans is a compact grotesque superfamily developed by Alfredo Marco Pradil as the in-house typeface for Creative Sauce, then released open source. It excels in digital UI and print contexts through its generous clarity at small sizes, with ink-trap detailing in its Sans variant and rounded corners in the Two variant.",
       "licenseInfo": {
         "type": "OFL",
@@ -1496,9 +1489,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 400.0
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -1605,9 +1599,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 400.0
+              "axis": "wght",
+              "min": 200,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -1705,7 +1700,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:45.608Z",
-      "updatedAt": "2025-09-13T23:58:45.663Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Plus Jakarta Sans is a geometric sans-serif commissioned for Jakarta's City of Collaboration program in 2020, designed by Gumpita Rahayu at Tokotype. A fresh take on geometric grotesque traditions, it offers clean, versatile letterforms equally suited to UI, editorial, and brand identity work.",
       "licenseInfo": {
         "type": "OFL",
@@ -1858,9 +1853,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -1947,9 +1942,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -2076,9 +2071,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 800.0
+              "min": 100,
+              "max": 800,
+              "default": 800
             }
           ],
           "openTypeFeatures": [
@@ -2153,9 +2148,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 800.0
+              "min": 100,
+              "max": 800,
+              "default": 800
             }
           ],
           "openTypeFeatures": [
@@ -2271,9 +2266,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 400,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -2349,9 +2344,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 400,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -2473,9 +2468,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 700.0,
-              "default": 300.0
+              "min": 300,
+              "max": 700,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -3023,9 +3018,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -3049,7 +3045,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Stylistic Set 1"
+              "title": "ss01"
             }
           ],
           "isDefaultStyle": false,
@@ -3067,7 +3063,7 @@
               "isItalic": false
             },
             {
-              "name": "Extra Light",
+              "name": "ExtraLight",
               "weight": 200,
               "isItalic": false
             },
@@ -3087,7 +3083,7 @@
               "isItalic": false
             },
             {
-              "name": "Semi Bold",
+              "name": "SemiBold",
               "weight": 600,
               "isItalic": false
             },
@@ -3097,7 +3093,7 @@
               "isItalic": false
             },
             {
-              "name": "Extra Bold",
+              "name": "ExtraBold",
               "weight": 800,
               "isItalic": false
             },
@@ -3110,7 +3106,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:45.253Z",
-      "updatedAt": "2025-09-13T23:58:45.300Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Outfit is a clean geometric sans-serif designed by Rodrigo Fuenzalida for the brand automation platform Outfit.io. Its low-key geometric construction and broad weight range make it a versatile, approachable typeface suited to digital products, branding, and editorial use.",
       "licenseInfo": {
         "type": "OFL",
@@ -3188,9 +3184,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 300,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -3280,9 +3276,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 300,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -3593,9 +3589,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 100,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -3664,9 +3660,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 100,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -3907,16 +3903,26 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 100.0
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "axis": "wght",
+              "min": 200,
+              "max": 900,
+              "default": 200
+            },
+            {
+              "name": "Optical Size",
+              "tag": "opsz",
+              "axis": "opsz",
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -3967,11 +3973,19 @@
             },
             {
               "tag": "ss07",
-              "title": "Round G"
+              "title": "Square G"
             },
             {
               "tag": "ss08",
               "title": "Tabular zero with straight bar"
+            },
+            {
+              "tag": "ss09",
+              "title": "Q with diagonal arm"
+            },
+            {
+              "tag": "ss10",
+              "title": "J with bowl"
             }
           ],
           "isDefaultStyle": false,
@@ -3981,49 +3995,7 @@
           "url": "/fonts/MonaSans-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/MonaSans-VariableFont_wdth,wght.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/MonaSans-VariableFont_wdth,wght.woff2",
-          "namedInstances": [
-            {
-              "name": "ExtraLight",
-              "weight": 200,
-              "isItalic": false
-            },
-            {
-              "name": "Light",
-              "weight": 300,
-              "isItalic": false
-            },
-            {
-              "name": "Regular",
-              "weight": 400,
-              "isItalic": false
-            },
-            {
-              "name": "Medium",
-              "weight": 500,
-              "isItalic": false
-            },
-            {
-              "name": "SemiBold",
-              "weight": 600,
-              "isItalic": false
-            },
-            {
-              "name": "Bold",
-              "weight": 700,
-              "isItalic": false
-            },
-            {
-              "name": "ExtraBold",
-              "weight": 800,
-              "isItalic": false
-            },
-            {
-              "name": "Black",
-              "weight": 900,
-              "isItalic": false
-            }
-          ]
+          "previewUrl": "/fonts/preview/MonaSans-VariableFont_wdth,wght.woff2"
         },
         {
           "filename": "MonaSans-Italic-VariableFont_wdth,wght.ttf",
@@ -4035,16 +4007,26 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 100.0
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "axis": "wght",
+              "min": 200,
+              "max": 900,
+              "default": 200
+            },
+            {
+              "name": "Optical Size",
+              "tag": "opsz",
+              "axis": "opsz",
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -4095,11 +4077,19 @@
             },
             {
               "tag": "ss07",
-              "title": "Round G"
+              "title": "Square G"
             },
             {
               "tag": "ss08",
               "title": "Tabular zero with straight bar"
+            },
+            {
+              "tag": "ss09",
+              "title": "Q with diagonal arm"
+            },
+            {
+              "tag": "ss10",
+              "title": "J with bowl"
             }
           ],
           "isDefaultStyle": false,
@@ -4108,53 +4098,11 @@
           "familyId": "family_mona_sans_1757807924916",
           "url": "/fonts/MonaSans-Italic-VariableFont_wdth,wght.woff2",
           "originalUrl": "/fonts/MonaSans-Italic-VariableFont_wdth,wght.ttf",
-          "format": "woff2",
-          "namedInstances": [
-            {
-              "name": "ExtraLight Italic",
-              "weight": 200,
-              "isItalic": true
-            },
-            {
-              "name": "Light Italic",
-              "weight": 300,
-              "isItalic": true
-            },
-            {
-              "name": "Italic",
-              "weight": 400,
-              "isItalic": true
-            },
-            {
-              "name": "Medium Italic",
-              "weight": 500,
-              "isItalic": true
-            },
-            {
-              "name": "SemiBold Italic",
-              "weight": 600,
-              "isItalic": true
-            },
-            {
-              "name": "Bold Italic",
-              "weight": 700,
-              "isItalic": true
-            },
-            {
-              "name": "ExtraBold Italic",
-              "weight": 800,
-              "isItalic": true
-            },
-            {
-              "name": "Black Italic",
-              "weight": 900,
-              "isItalic": true
-            }
-          ]
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.916Z",
-      "updatedAt": "2025-09-13T23:58:44.972Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Mona Sans is a variable sans-serif designed by GitHub in collaboration with Degarism, inspired by industrial-era grotesques. Released in November 2022, it spans weight, width, and slant axes and includes an optical size axis, making it a powerful, flexible system typeface suited to product, web, and print contexts.",
       "licenseInfo": {
         "type": "OFL",
@@ -4302,16 +4250,18 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "axis": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 300
             },
             {
               "name": "Slant",
               "tag": "slnt",
-              "min": -10.0,
-              "max": 0.0,
-              "default": 0.0
+              "axis": "slnt",
+              "min": -10,
+              "max": 0,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -4411,6 +4361,10 @@
             {
               "tag": "ss11",
               "title": "Serif 'I'"
+            },
+            {
+              "tag": "ss12",
+              "title": "Bulgarian Localised"
             }
           ],
           "isDefaultStyle": false,
@@ -4506,7 +4460,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:44.864Z",
-      "updatedAt": "2025-09-13T23:58:44.912Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Overused Grotesk is an open-source variable sans-serif by RandomMaerks that began as a parody of the ubiquitous Swiss grotesque tradition — imitating Helvetica's most recognizable features — and evolved into a genuine multilingual workhorse. It wears its cynical origins lightly, delivering a familiar neutrality with an honest self-awareness.",
       "licenseInfo": {
         "type": "OFL",
@@ -4955,7 +4909,13 @@
           "url": "/fonts/Jakob-Semi-Condensed.woff2",
           "originalUrl": "/fonts/Jakob-Semi-Condensed.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Jakob-Semi-Condensed.woff2"
+          "previewUrl": "/fonts/preview/Jakob-Semi-Condensed.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.654Z",
@@ -5172,7 +5132,13 @@
           "url": "/fonts/NouvelleGrotesquerie-Regular.woff2",
           "originalUrl": "/fonts/NouvelleGrotesquerie-Regular.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/NouvelleGrotesquerie-Regular.woff2"
+          "previewUrl": "/fonts/preview/NouvelleGrotesquerie-Regular.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.462Z",
@@ -5446,9 +5412,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 700.0
+              "min": 200,
+              "max": 700,
+              "default": 700
             }
           ],
           "openTypeFeatures": [
@@ -5536,9 +5502,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 700.0
+              "min": 200,
+              "max": 700,
+              "default": 700
             }
           ],
           "openTypeFeatures": [
@@ -5710,9 +5676,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -5891,16 +5857,16 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 100.0,
-              "max": 200.0,
-              "default": 100.0
+              "min": 100,
+              "max": 200,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 10.0,
-              "max": 200.0,
-              "default": 10.0
+              "min": 10,
+              "max": 200,
+              "default": 10
             }
           ],
           "openTypeFeatures": [
@@ -6511,7 +6477,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6543,6 +6508,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6563,7 +6532,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6595,6 +6563,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6614,7 +6586,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6646,6 +6617,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6665,7 +6640,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6697,6 +6671,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6716,7 +6694,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6748,6 +6725,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6767,7 +6748,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6799,6 +6779,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6818,7 +6802,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6850,6 +6833,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6869,7 +6856,6 @@
           "styleName": "Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6901,6 +6887,10 @@
             "Bold Italic"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
             {
               "tag": "ss02",
               "title": "Stylistic Set 2"
@@ -6920,7 +6910,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -6953,6 +6942,10 @@
           ],
           "openTypeFeatureTags": [
             {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
               "tag": "ss02",
               "title": "Stylistic Set 2"
             }
@@ -6967,7 +6960,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.687Z",
-      "updatedAt": "2025-09-13T23:58:43.815Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Commissioner is a low-contrast humanist sans-serif designed by Kostas Bartsokas with three 'voices' built into a single variable font: a clean grotesque, a semi-glyphic flared style, and a wedge-serif variation. The continuous axes allow designers to dial in exactly the right personality for headings, body text, or UI.",
       "licenseInfo": {
         "type": "OFL",
@@ -7013,16 +7006,18 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "axis": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 400
             },
             {
-              "name": "Slant",
-              "tag": "slnt",
-              "min": 0.0,
-              "max": 10.0,
-              "default": 0.0
+              "name": "Italic",
+              "tag": "ital",
+              "axis": "ital",
+              "min": 0,
+              "max": 11,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -7058,19 +7053,39 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alernative Y and y"
+              "title": "Alternate R"
             },
             {
               "tag": "ss02",
-              "title": "Alernative 1 and 4"
+              "title": "Alternate Y and y"
             },
             {
               "tag": "ss03",
-              "title": "Alernative ! and ?"
+              "title": "Alernative Q, Ø, and ø"
             },
             {
               "tag": "ss04",
-              "title": "Alernative arrows"
+              "title": "Alernative a"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alernative 1, 2, and 4"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alternate !, ?, and *"
+            },
+            {
+              "tag": "ss07",
+              "title": "Round punctuation"
+            },
+            {
+              "tag": "ss08",
+              "title": "Alternate arrows"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alternate @"
             }
           ],
           "isDefaultStyle": false,
@@ -7088,8 +7103,28 @@
               "isItalic": false
             },
             {
-              "name": "Regular Oblique",
+              "name": "Regular Italic",
               "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Book",
+              "weight": 350,
+              "isItalic": false
+            },
+            {
+              "name": "Book Italic",
+              "weight": 350,
               "isItalic": true
             },
             {
@@ -7098,7 +7133,7 @@
               "isItalic": false
             },
             {
-              "name": "Medium Oblique",
+              "name": "Medium Italic",
               "weight": 500,
               "isItalic": true
             },
@@ -7108,7 +7143,7 @@
               "isItalic": false
             },
             {
-              "name": "Semibold Oblique",
+              "name": "Semibold Italic",
               "weight": 600,
               "isItalic": true
             },
@@ -7118,7 +7153,7 @@
               "isItalic": false
             },
             {
-              "name": "Bold Oblique",
+              "name": "Bold Italic",
               "weight": 700,
               "isItalic": true
             }
@@ -7126,7 +7161,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:43.638Z",
-      "updatedAt": "2025-09-13T23:58:43.684Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Uncut Sans is a slightly quirky, deliberately ahistorical sans-serif by Kasper Nordkvist, designed without reference to any particular era of typography. Created originally for the UNCUT.wtf free font catalogue, it embodies a kind of neutral peculiarity — familiar enough to use anywhere, distinctive enough to be noticed.",
       "licenseInfo": {
         "type": "OFL",
@@ -7460,6 +7495,10 @@
             {
               "tag": "ss01",
               "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -8045,9 +8084,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 300,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -8431,9 +8470,9 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -8581,9 +8620,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 300,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -8788,9 +8827,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -9068,9 +9107,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "axis": "wght",
+              "min": 300,
+              "max": 800,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -9147,9 +9187,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "axis": "wght",
+              "min": 300,
+              "max": 800,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -9213,7 +9254,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:42.601Z",
-      "updatedAt": "2025-09-13T23:58:42.661Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Funnel Sans is a contemporary neo-grotesque typeface designed by Kristian Möller for Stockholm brand agency NORD ID, maintained by Dicotype. Its functional yet personal character, balancing square and circular letterforms, pairs with the more eccentric Funnel Display in a 15-style family suited to modern product and web design.",
       "licenseInfo": {
         "type": "OFL",
@@ -9548,16 +9589,16 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 75.0
+              "min": 75,
+              "max": 125,
+              "default": 75
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "min": 200,
+              "max": 900,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -9656,16 +9697,16 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 75.0
+              "min": 75,
+              "max": 125,
+              "default": 75
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "min": 200,
+              "max": 900,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -9895,9 +9936,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 90.0,
-              "max": 120.0,
-              "default": 90.0
+              "min": 90,
+              "max": 120,
+              "default": 90
             }
           ],
           "openTypeFeatures": [
@@ -10371,7 +10412,13 @@
           "familyId": "family_jost_1757807922015",
           "url": "/fonts/Jost-900-Black.woff2",
           "originalUrl": "/fonts/Jost-900-Black.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         },
         {
           "filename": "Jost-700-Bold.otf",
@@ -11263,23 +11310,23 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 100,
+              "max": 900,
+              "default": 900
             },
             {
               "name": "Contrast",
               "tag": "CNTR",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Italic",
               "tag": "ital",
-              "min": 0.0,
-              "max": 14.0,
-              "default": 0.0
+              "min": 0,
+              "max": 14,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -11543,7 +11590,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -11566,7 +11612,6 @@
           "styleName": "Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Case-Sensitive Forms",
             "Standard Ligatures",
@@ -11584,7 +11629,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.543Z",
-      "updatedAt": "2025-09-13T23:58:41.599Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "downloadLink": "https://github.com/googlefonts/cossette-fonts",
       "description": "Cossette Titre is a condensed grotesque display typeface created by Cossette Communication, featuring a classic grotesque structure with a distinctive subtle inverted contrast. Designed to work as a tight-packed headline companion to Cossette Texte, it maximizes brand impact in constrained spaces.",
       "licenseInfo": {
@@ -11706,7 +11751,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Fractions",
@@ -11714,7 +11758,36 @@
             "Lining Figures",
             "Kerning"
           ],
-          "openTypeFeatureTags": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate Y"
+            },
+            {
+              "tag": "ss02",
+              "title": "Greek alternates"
+            },
+            {
+              "tag": "ss03",
+              "title": "Bulgarian alternates"
+            },
+            {
+              "tag": "ss04",
+              "title": "Serbian alternates"
+            },
+            {
+              "tag": "ss05",
+              "title": "Tamil Anusvara"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alternate g"
+            },
+            {
+              "tag": "ss07",
+              "title": "Alternate Eng"
+            }
+          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-08T21:04:52.317Z",
           "id": "variant_family_oi_1757807921421_1757807921471",
@@ -11726,7 +11799,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:41.421Z",
-      "updatedAt": "2025-09-13T23:58:41.477Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Oi is an ultra-fat display serif with its roots in grotesque slab serif traditions — most specifically the style that emerged from Caslon's Ionic. Its absurdly thick strokes, curling terminals, and high ornamental contrast make it one of the most theatrical typefaces on Google Fonts, built purely for maximum visual drama.",
       "licenseInfo": {
         "type": "OFL",
@@ -11871,7 +11944,7 @@
         "Serif"
       ],
       "foundry": "ANRT",
-      "isVariable": false,
+      "isVariable": true,
       "published": true,
       "id": "family_baskervville_1757807921243",
       "variants": [
@@ -11880,8 +11953,17 @@
           "weight": 400,
           "styleName": "Regular",
           "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
           "openTypeFeatures": [
             "Small Capitals From Capitals",
             "Case-Sensitive Forms",
@@ -11914,6 +11996,21 @@
               "name": "Regular",
               "weight": 400,
               "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
             }
           ]
         },
@@ -11922,8 +12019,17 @@
           "weight": 400,
           "styleName": "Italic",
           "isItalic": true,
-          "isVariable": false,
-          "variableAxes": [],
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -11952,12 +12058,45 @@
               "name": "Italic",
               "weight": 400,
               "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt J"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt Y"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt ae"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt ampersand"
             }
           ]
         }
       ],
       "createdAt": "2025-09-13T23:58:41.243Z",
-      "updatedAt": "2025-09-13T23:58:41.305Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "downloadLink": "https://github.com/anrt-type/ANRT-Baskervville",
       "description": "Baskervville is a revival of a transitional typeface by Jacob, the French punchcutter who distributed it from 1815 as 'Baskerwille' — bridging Baskerville's classical forms with Didot's emerging modernity. Developed by a workshop at ANRT in 2017–18, it's a rare document of French typographic history, now available as an open-source webfont.",
       "licenseInfo": {
@@ -12350,23 +12489,23 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             },
             {
               "name": "Element Shape",
               "tag": "ESHP",
-              "min": 0.0,
-              "max": 16.0,
-              "default": 2.0
+              "min": 0,
+              "max": 16,
+              "default": 2
             },
             {
               "name": "Element Grid",
               "tag": "EGRD",
-              "min": 1.0,
-              "max": 2.0,
-              "default": 1.0
+              "min": 1,
+              "max": 2,
+              "default": 1
             }
           ],
           "openTypeFeatures": [
@@ -12807,9 +12946,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 700.0
+              "min": 200,
+              "max": 700,
+              "default": 700
             }
           ],
           "openTypeFeatures": [
@@ -13021,17 +13160,11 @@
           "variableAxes": [
             {
               "name": "Weight",
+              "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
-            },
-            {
-              "name": "Italic",
-              "axis": "ital",
-              "min": 0.0,
-              "max": 12.0,
-              "default": 0.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -13071,7 +13204,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "(null)"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
@@ -13146,90 +13279,55 @@
           "previewUrl": "/fonts/preview/AzeretMonoVF_sm01.woff2",
           "namedInstances": [
             {
-              "name": "Mono Thin",
+              "name": "Thin",
               "weight": 100,
               "isItalic": false
             },
             {
-              "name": "Mono Light",
+              "name": "ExtraLight",
               "weight": 200,
               "isItalic": false
             },
             {
-              "name": "Mono Regular",
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
               "weight": 400,
               "isItalic": false
             },
             {
-              "name": "Mono Medium",
+              "name": "Medium",
               "weight": 500,
               "isItalic": false
             },
             {
-              "name": "Mono SemiBold",
+              "name": "SemiBold",
               "weight": 600,
               "isItalic": false
             },
             {
-              "name": "Mono Bold",
+              "name": "Bold",
               "weight": 700,
               "isItalic": false
             },
             {
-              "name": "Mono ExtraBold",
+              "name": "ExtraBold",
               "weight": 800,
               "isItalic": false
             },
             {
-              "name": "Mono Black",
+              "name": "Black",
               "weight": 900,
               "isItalic": false
-            },
-            {
-              "name": "Mono Thin Italic",
-              "weight": 100,
-              "isItalic": true
-            },
-            {
-              "name": "Mono Light Italic",
-              "weight": 200,
-              "isItalic": true
-            },
-            {
-              "name": "Mono Regular Italic",
-              "weight": 400,
-              "isItalic": true
-            },
-            {
-              "name": "Mono Medium Italic",
-              "weight": 500,
-              "isItalic": true
-            },
-            {
-              "name": "Mono SemiBold Italic",
-              "weight": 600,
-              "isItalic": true
-            },
-            {
-              "name": "Mono Bold Italic",
-              "weight": 700,
-              "isItalic": true
-            },
-            {
-              "name": "Mono ExtraBold Italic",
-              "weight": 800,
-              "isItalic": true
-            },
-            {
-              "name": "Mono Black Italic",
-              "weight": 900,
-              "isItalic": true
             }
           ]
         }
       ],
       "createdAt": "2025-09-13T23:58:40.641Z",
-      "updatedAt": "2025-09-13T23:58:40.690Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Azeret Mono is a monospace typeface designed by Martin Vácha at Displaay, emerging from an exploration of OCR fonts, past and futuristic operating systems, and 1990s computing interfaces. Its clean, mono-linear structure and slightly retro-futurist character make it versatile for coding environments, UI design, and tech aesthetics.",
       "licenseInfo": {
         "type": "OFL",
@@ -13496,7 +13594,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -13544,19 +13641,23 @@
             },
             {
               "tag": "ss12",
-              "title": "Stylistic Set 12"
+              "title": "Serifed Smallcaps e"
             },
             {
               "tag": "ss13",
-              "title": "Stylistic Set 13"
+              "title": "Steep Capital Accents"
             },
             {
               "tag": "ss14",
-              "title": "Stylistic Set 14"
+              "title": "Steep de/el"
             },
             {
               "tag": "ss15",
-              "title": "Stylistic Set 15"
+              "title": "The Clefmore"
+            },
+            {
+              "tag": "ss16",
+              "title": "Horizontal hyphen"
             }
           ],
           "isDefaultStyle": false,
@@ -13575,7 +13676,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -13623,19 +13723,23 @@
             },
             {
               "tag": "ss12",
-              "title": "Stylistic Set 12"
+              "title": "Serifed Smallcaps e"
             },
             {
               "tag": "ss13",
-              "title": "Stylistic Set 13"
+              "title": "Steep Capital Accents"
             },
             {
               "tag": "ss14",
-              "title": "Stylistic Set 14"
+              "title": "Steep de/el"
             },
             {
               "tag": "ss15",
-              "title": "Stylistic Set 15"
+              "title": "The Clefmore"
+            },
+            {
+              "tag": "ss16",
+              "title": "Horizontal hyphen"
             }
           ],
           "isDefaultStyle": true,
@@ -13655,7 +13759,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -13703,19 +13806,23 @@
             },
             {
               "tag": "ss12",
-              "title": "Stylistic Set 12"
+              "title": "Serifed Smallcaps e"
             },
             {
               "tag": "ss13",
-              "title": "Stylistic Set 13"
+              "title": "Steep Capital Accents"
             },
             {
               "tag": "ss14",
-              "title": "Stylistic Set 14"
+              "title": "Steep de/el"
             },
             {
               "tag": "ss15",
-              "title": "Stylistic Set 15"
+              "title": "The Clefmore"
+            },
+            {
+              "tag": "ss16",
+              "title": "Horizontal hyphen"
             }
           ],
           "isDefaultStyle": false,
@@ -13734,7 +13841,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -13782,19 +13888,23 @@
             },
             {
               "tag": "ss12",
-              "title": "Stylistic Set 12"
+              "title": "Serifed Smallcaps e"
             },
             {
               "tag": "ss13",
-              "title": "Stylistic Set 13"
+              "title": "Steep Capital Accents"
             },
             {
               "tag": "ss14",
-              "title": "Stylistic Set 14"
+              "title": "Steep de/el"
             },
             {
               "tag": "ss15",
-              "title": "Stylistic Set 15"
+              "title": "The Clefmore"
+            },
+            {
+              "tag": "ss16",
+              "title": "Horizontal hyphen"
             }
           ],
           "isDefaultStyle": false,
@@ -13813,7 +13923,6 @@
           "styleName": "Bold",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -13861,19 +13970,23 @@
             },
             {
               "tag": "ss12",
-              "title": "Stylistic Set 12"
+              "title": "Serifed Smallcaps e"
             },
             {
               "tag": "ss13",
-              "title": "Stylistic Set 13"
+              "title": "Steep Capital Accents"
             },
             {
               "tag": "ss14",
-              "title": "Stylistic Set 14"
+              "title": "Steep de/el"
             },
             {
               "tag": "ss15",
-              "title": "Stylistic Set 15"
+              "title": "The Clefmore"
+            },
+            {
+              "tag": "ss16",
+              "title": "Horizontal hyphen"
             }
           ],
           "isDefaultStyle": false,
@@ -13888,7 +14001,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:40.341Z",
-      "updatedAt": "2025-09-13T23:58:40.469Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Cormorant Unicase is a variant of Christian Thalmann's Cormorant family that mixes small-cap uppercase forms with selected lowercase letterforms, creating a distinctive futuristic and unified aesthetic. It draws on the same Garamond-inspired high contrast and delicate refinement as the main family, in a uniquely eyecatching presentation.",
       "licenseInfo": {
         "type": "OFL",
@@ -14028,9 +14141,9 @@
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 80.0,
-              "max": 100.0,
-              "default": 80.0
+              "min": 80,
+              "max": 100,
+              "default": 80
             }
           ],
           "openTypeFeatures": [
@@ -15072,9 +15185,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 150.0,
-              "default": 100.0
+              "min": 100,
+              "max": 150,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -15393,9 +15506,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 100,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [
@@ -15675,9 +15788,9 @@
             {
               "name": "Optical size",
               "axis": "opsz",
-              "min": 6.0,
-              "max": 72.0,
-              "default": 14.0
+              "min": 6,
+              "max": 72,
+              "default": 14
             }
           ],
           "openTypeFeatures": [
@@ -15767,16 +15880,16 @@
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 75,
+              "max": 100,
+              "default": 100
             },
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -15900,16 +16013,16 @@
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 75,
+              "max": 100,
+              "default": 100
             },
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -16403,11 +16516,12 @@
           "isVariable": true,
           "variableAxes": [
             {
-              "name": "Optical size",
+              "name": "Optical Size",
+              "tag": "opsz",
               "axis": "opsz",
-              "min": 12.0,
-              "max": 24.0,
-              "default": 24.0
+              "min": 12,
+              "max": 24,
+              "default": 24
             }
           ],
           "openTypeFeatures": [
@@ -16448,7 +16562,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:39.259Z",
-      "updatedAt": "2025-09-13T23:58:39.308Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Hedvig Letters Serif is part of the Hedvig typeface family created by Kanon Foundry for the Swedish insurance brand Hedvig. Designed in two optical sizes (Big and Small), it embraces small imperfections from drawing letters without optical corrections, reflecting Hedvig's brand philosophy of facing life without worry.",
       "licenseInfo": {
         "type": "OFL",
@@ -16485,7 +16599,6 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "variableAxes": [],
           "openTypeFeatures": [
             "Contextual Alternates",
             "Case-Sensitive Forms",
@@ -16516,7 +16629,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:39.204Z",
-      "updatedAt": "2025-09-13T23:58:39.255Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Hedvig Letters Sans is the sans-serif member of the Hedvig family by Kanon Foundry, sharing the same underlying skeleton as the optical-size serif cuts. Designed for the Swedish insurance company Hedvig alongside its serif companions, it provides a harmonious, imperfection-embracing voice suited to product and brand design.",
       "licenseInfo": {
         "type": "OFL",
@@ -16558,9 +16671,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 200.0
+              "min": 200,
+              "max": 700,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -16959,9 +17072,10 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 800.0,
-              "default": 400.0
+              "axis": "wght",
+              "min": 400,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -17024,7 +17138,7 @@
         }
       ],
       "createdAt": "2025-09-13T23:58:39.034Z",
-      "updatedAt": "2025-09-13T23:58:39.148Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "TASA Explorer is a geometric sans-serif designed by Weizhong Zhang at Local Remote, originally created for the rebranding of the Taiwan Space Agency. Inspired by Futura — the first font sent to space in 1969 — its vertically cut terminals, sharp corners, and subtle stroke contrast project adventure and institutional precision.",
       "licenseInfo": {
         "type": "OFL",
@@ -17380,9 +17494,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -18153,9 +18267,9 @@
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 1.0,
-              "max": 9.0,
-              "default": 1.0
+              "min": 1,
+              "max": 9,
+              "default": 1
             }
           ],
           "openTypeFeatures": [
@@ -18251,9 +18365,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -18566,9 +18680,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 72.0,
-              "max": 200.0,
-              "default": 72.0
+              "min": 72,
+              "max": 200,
+              "default": 72
             }
           ],
           "openTypeFeatures": [
@@ -19590,9 +19704,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "min": 300,
+              "max": 900,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -20002,9 +20116,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 200,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -20119,16 +20233,16 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 700.0
+              "min": 100,
+              "max": 700,
+              "default": 700
             },
             {
               "name": "Optical size",
               "axis": "opsz",
-              "min": 16.0,
-              "max": 144.0,
-              "default": 144.0
+              "min": 16,
+              "max": 144,
+              "default": 144
             }
           ],
           "openTypeFeatures": [
@@ -20691,9 +20805,9 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 400.0
+              "min": 100,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -20917,30 +21031,30 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "min": 300,
+              "max": 800,
+              "default": 300
             },
             {
               "name": "Informality",
               "axis": "INFM",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Bounce",
               "axis": "BNCE",
-              "min": -100.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": -100,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Spacing",
               "axis": "SPAC",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -21045,30 +21159,30 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 300.0,
-              "max": 800.0,
-              "default": 300.0
+              "min": 300,
+              "max": 800,
+              "default": 300
             },
             {
               "name": "Informality",
               "axis": "INFM",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Bounce",
               "axis": "BNCE",
-              "min": -100.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": -100,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Spacing",
               "axis": "SPAC",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -21264,30 +21378,30 @@
             {
               "name": "Optical size",
               "axis": "opsz",
-              "min": 12.0,
-              "max": 36.0,
-              "default": 36.0
+              "min": 12,
+              "max": 36,
+              "default": 36
             },
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 150.0,
-              "default": 100.0
+              "min": 75,
+              "max": 150,
+              "default": 100
             },
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "min": 300,
+              "max": 900,
+              "default": 300
             },
             {
               "name": "Slant",
               "axis": "slnt",
-              "min": -6.0,
-              "max": 0.0,
-              "default": 0.0
+              "min": -6,
+              "max": 0,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -21631,23 +21745,23 @@
             {
               "name": "Weight",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             },
             {
               "name": "Width",
               "axis": "wdth",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             },
             {
               "name": "Italic",
               "axis": "ital",
-              "min": 0.0,
-              "max": 900.0,
-              "default": 0.0
+              "min": 0,
+              "max": 900,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -21953,44 +22067,50 @@
             {
               "name": "Optical Size",
               "tag": "opsz",
-              "min": 6.0,
-              "max": 144.0,
-              "default": 18.0
+              "axis": "opsz",
+              "min": 6,
+              "max": 144,
+              "default": 18
             },
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 25.0,
-              "max": 151.0,
-              "default": 100.0
+              "axis": "wdth",
+              "min": 25,
+              "max": 151,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 1.0,
-              "max": 1000.0,
-              "default": 400.0
+              "axis": "wght",
+              "min": 1,
+              "max": 1000,
+              "default": 400
             },
             {
               "name": "Grade",
               "tag": "GRAD",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "axis": "GRAD",
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Roundness",
               "tag": "ROND",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "axis": "ROND",
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Slant",
               "tag": "slnt",
-              "min": -10.0,
-              "max": 0.0,
-              "default": 0.0
+              "axis": "slnt",
+              "min": -10,
+              "max": 0,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -22135,7 +22255,7 @@
         }
       ],
       "createdAt": "2026-05-13T00:00:00.000Z",
-      "updatedAt": "2026-05-13T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Google's most adaptable typeface — a geometric sans rebuilt with six variable axes: weight, width, optical size, slant, grade (GRAD), and roundness (ROND). Developed with Font Bureau's David Berlow, it powers Google's Material You adaptive design system. One file spans from sharp and condensed to round and wide, covering any interface scale from caption to display.",
       "licenseInfo": {
         "type": "OFL",
@@ -22322,9 +22442,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 400.0
+              "min": 200,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -22459,9 +22579,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "min": 200,
+              "max": 900,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -22563,9 +22683,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 900.0,
-              "default": 200.0
+              "min": 200,
+              "max": 900,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -22794,9 +22914,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 200.0
+              "min": 200,
+              "max": 700,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -23008,9 +23128,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 200.0
+              "min": 200,
+              "max": 700,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -23222,9 +23342,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 700.0,
-              "default": 200.0
+              "min": 200,
+              "max": 700,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -23446,22 +23566,12 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "min": 300,
+              "max": 900,
+              "default": 300
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Single-storey a"
-            },
-            {
-              "tag": "ss02",
-              "title": "Serifed I, tailed l"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/Figtree[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
@@ -23516,22 +23626,12 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "min": 300,
+              "max": 900,
+              "default": 300
             }
           ],
           "openTypeFeatures": [],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Single-storey a"
-            },
-            {
-              "tag": "ss02",
-              "title": "Serifed I, tailed l"
-            }
-          ],
           "format": "woff2",
           "url": "/fonts/Figtree-Italic[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
@@ -23821,9 +23921,9 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 0.0,
-              "max": 1500.0,
-              "default": 0.0
+              "min": 0,
+              "max": 1500,
+              "default": 0
             }
           ],
           "openTypeFeatures": [],
@@ -23997,7 +24097,7 @@
       "description": "National Park is a variable sans serif typeface inspired by the signage lettering used in US national parks. Friendly and legible with a distinct rounded warmth.",
       "id": "family_nationalpark_1778941055167",
       "createdAt": "2026-05-16T14:17:35.166Z",
-      "updatedAt": "2026-05-16T14:17:35.166Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "publishedAt": "2020-01-01",
       "variants": [
         {
@@ -24011,10 +24111,12 @@
           "isDefaultStyle": true,
           "variableAxes": [
             {
+              "name": "Weight",
+              "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -24255,9 +24357,9 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -24326,9 +24428,9 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -25283,7 +25385,7 @@
       },
       "id": "family_perun_3092041038131",
       "createdAt": "2026-05-16T20:00:00.000Z",
-      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "variants": [
         {
           "id": "v_per_8e84rf",
@@ -25296,10 +25398,12 @@
           "isDefaultStyle": true,
           "variableAxes": [
             {
+              "name": "Weight",
+              "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 100,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -25357,10 +25461,12 @@
           "isDefaultStyle": false,
           "variableAxes": [
             {
+              "name": "Weight",
+              "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 100,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -26272,7 +26378,7 @@
         "Vietnamese"
       ],
       "foundry": "Peter S. Baker",
-      "isVariable": false,
+      "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/psb1558/Junicode-font",
       "sourceUrl": "https://github.com/psb1558/Junicode-font",
@@ -26282,72 +26388,146 @@
       },
       "id": "family_junicode_9910451256524",
       "createdAt": "2026-05-16T20:00:00.000Z",
-      "updatedAt": "2026-05-16T20:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "variants": [
         {
-          "id": "v_jun_bsmhb6",
-          "familyId": "family_junicode_9910451256524",
-          "filename": "Junicode-Regular.woff2",
+          "filename": "JunicodeVF-Roman.woff2",
           "weight": 400,
           "styleName": "Regular",
           "isItalic": false,
-          "isVariable": false,
-          "isDefaultStyle": true,
-          "variableAxes": [],
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
+            },
+            {
+              "name": "Enlarge",
+              "tag": "ENLA",
+              "axis": "ENLA",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            }
+          ],
           "openTypeFeatures": [],
           "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_junicode_9910451256524_v2_1",
+          "familyId": "family_junicode_9910451256524",
+          "url": "/fonts/JunicodeVF-Roman.woff2",
+          "originalUrl": "/fonts/JunicodeVF-Roman.woff2",
           "format": "woff2",
-          "url": "/fonts/Junicode-Regular.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Junicode-Regular.woff2"
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SmBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/JunicodeVF-Roman.woff2"
         },
         {
-          "id": "v_jun_vbsz7f",
-          "familyId": "family_junicode_9910451256524",
-          "filename": "Junicode-Italic.woff2",
+          "filename": "JunicodeVF-Italic.woff2",
           "weight": 400,
           "styleName": "Italic",
           "isItalic": true,
-          "isVariable": false,
-          "isDefaultStyle": false,
-          "variableAxes": [],
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 75,
+              "max": 125,
+              "default": 100
+            },
+            {
+              "name": "Enlarge",
+              "tag": "ENLA",
+              "axis": "ENLA",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            }
+          ],
           "openTypeFeatures": [],
           "openTypeFeatureTags": [],
-          "format": "woff2",
-          "url": "/fonts/Junicode-Italic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
-        },
-        {
-          "id": "v_jun_gg3qij",
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_junicode_9910451256524_v2_2",
           "familyId": "family_junicode_9910451256524",
-          "filename": "Junicode-Bold.woff2",
-          "weight": 700,
-          "styleName": "Bold",
-          "isItalic": false,
-          "isVariable": false,
-          "isDefaultStyle": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
+          "url": "/fonts/JunicodeVF-Italic.woff2",
+          "originalUrl": "/fonts/JunicodeVF-Italic.woff2",
           "format": "woff2",
-          "url": "/fonts/Junicode-Bold.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
-        },
-        {
-          "id": "v_jun_2i1ywe",
-          "familyId": "family_junicode_9910451256524",
-          "filename": "Junicode-BoldItalic.woff2",
-          "weight": 700,
-          "styleName": "Bold Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "isDefaultStyle": false,
-          "variableAxes": [],
-          "openTypeFeatures": [],
-          "openTypeFeatureTags": [],
-          "format": "woff2",
-          "url": "/fonts/Junicode-BoldItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SmBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
         }
       ],
       "altPairs": [
@@ -26806,21 +26986,21 @@
           "variableAxes": [
             {
               "axis": "HORZ",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "axis": "CHNK",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "axis": "SPED",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [],
@@ -27081,9 +27261,9 @@
           "variableAxes": [
             {
               "axis": "wght",
-              "min": 45.0,
-              "max": 930.0,
-              "default": 400.0
+              "min": 45,
+              "max": 930,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -27346,9 +27526,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -27545,9 +27725,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 800,
+              "default": 200
             }
           ],
           "openTypeFeatures": [],
@@ -27638,9 +27818,9 @@
               "name": "Element Shape",
               "tag": "ELSH",
               "axis": "ELSH",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [],
@@ -27795,17 +27975,17 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 100.0,
-              "max": 125.0,
-              "default": 100.0
+              "min": 100,
+              "max": 125,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -27875,17 +28055,17 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 100.0,
-              "max": 125.0,
-              "default": 100.0
+              "min": 100,
+              "max": 125,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -28043,9 +28223,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 500.0
+              "min": 100,
+              "max": 900,
+              "default": 500
             }
           ],
           "openTypeFeatures": [],
@@ -28115,9 +28295,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 500.0
+              "min": 100,
+              "max": 900,
+              "default": 500
             }
           ],
           "openTypeFeatures": [],
@@ -28316,17 +28496,17 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 400.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 400,
+              "max": 900,
+              "default": 400
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 100.0,
-              "max": 200.0,
-              "default": 100.0
+              "min": 100,
+              "max": 200,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -28461,16 +28641,16 @@
             {
               "name": "Roundness",
               "tag": "ROND",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 900.0
+              "min": 100,
+              "max": 900,
+              "default": 900
             }
           ],
           "openTypeFeatures": [],
@@ -28579,16 +28759,16 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 800,
+              "default": 200
             },
             {
               "name": "Monospace",
               "tag": "MONO",
-              "min": 0.0,
-              "max": 1.0,
-              "default": 1.0
+              "min": 0,
+              "max": 1,
+              "default": 1
             }
           ],
           "openTypeFeatures": [],
@@ -28860,9 +29040,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -28910,9 +29090,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [],
@@ -29006,16 +29186,16 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 50.0,
-              "max": 150.0,
-              "default": 100.0
+              "min": 50,
+              "max": 150,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -29093,16 +29273,16 @@
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 50.0,
-              "max": 150.0,
-              "default": 100.0
+              "min": 50,
+              "max": 150,
+              "default": 100
             },
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -29430,17 +29610,17 @@
               "name": "Optical Size",
               "axis": "opsz",
               "tag": "opsz",
-              "min": 6.0,
-              "default": 18.0,
-              "max": 72.0
+              "min": 6,
+              "default": 18,
+              "max": 72
             },
             {
               "name": "Weight",
               "axis": "wght",
               "tag": "wght",
-              "min": 200.0,
-              "default": 400.0,
-              "max": 800.0
+              "min": 200,
+              "default": 400,
+              "max": 800
             }
           ],
           "openTypeFeatures": [],
@@ -29504,17 +29684,17 @@
               "name": "Optical Size",
               "axis": "opsz",
               "tag": "opsz",
-              "min": 6.0,
-              "default": 18.0,
-              "max": 72.0
+              "min": 6,
+              "default": 18,
+              "max": 72
             },
             {
               "name": "Weight",
               "axis": "wght",
               "tag": "wght",
-              "min": 200.0,
-              "default": 400.0,
-              "max": 800.0
+              "min": 200,
+              "default": 400,
+              "max": 800
             }
           ],
           "openTypeFeatures": [],
@@ -29607,7 +29787,7 @@
       "description": "JeanLuc is a high-contrast display serif drawn by Atelier Carvalho Bernau (with Bernd Volmer) for the 80th birthday of Jean-Luc Godard. Its hairline strokes snap against heavy stems in a sharp, cinematic Didone voice that comes alive at poster scale, shipping in a delicate Thin and an emphatic Bold. Free of charge from the studio under its freeware licence.",
       "licenseInfo": {
         "type": "Freeware",
-        "url": "https://www.carvalho-bernau.com/jlg/licence.html"
+        "url": "https://www.carvalho-bernau.com/jlg/"
       },
       "publishedAt": "2010-01-01",
       "useCases": [
@@ -29616,7 +29796,7 @@
       ],
       "variants": [
         {
-          "filename": "JeanLuc-Thin.otf",
+          "filename": "jeanlucweb-thin.woff",
           "weight": 300,
           "styleName": "Thin",
           "isItalic": false,
@@ -29629,13 +29809,13 @@
           "uploadedAt": "2026-07-16T00:00:00.000Z",
           "id": "variant_family_jeanluc_new_JeanLuc-Thin_otf",
           "familyId": "family_jeanluc_new",
-          "url": "/fonts/JeanLuc-Thin.woff2",
-          "originalUrl": "/fonts/JeanLuc-Thin.otf",
-          "format": "woff2",
+          "url": "/fonts/jeanlucweb-thin.woff",
+          "originalUrl": "/fonts/jeanlucweb-thin.woff",
+          "format": "woff",
           "published": true
         },
         {
-          "filename": "JeanLuc-Bold.otf",
+          "filename": "jeanlucweb-bold.woff",
           "weight": 700,
           "styleName": "Bold",
           "isItalic": false,
@@ -29648,15 +29828,17 @@
           "uploadedAt": "2026-07-16T00:00:00.000Z",
           "id": "variant_family_jeanluc_new_JeanLuc-Bold_otf",
           "familyId": "family_jeanluc_new",
-          "url": "/fonts/JeanLuc-Bold.woff2",
-          "originalUrl": "/fonts/JeanLuc-Bold.otf",
-          "format": "woff2",
-          "published": true,
-          "previewUrl": "/fonts/preview/JeanLuc-Bold.woff2"
+          "url": "/fonts/jeanlucweb-bold.woff",
+          "originalUrl": "/fonts/jeanlucweb-bold.woff",
+          "format": "woff",
+          "published": true
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥¢°×÷≠«»“”‘’"
+      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥¢°×÷≠«»“”‘’",
+      "npmMirror": false,
+      "cssNotice": "The Jean-Luc typeface was designed and made by Atelier Carvalho Bernau on the occasion of the 80th birthday of Jean-Luc Godard. It is available free of charge from http://www.carvalho-bernau.com/jlg/\n\nJean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau",
+      "noSubset": true
     },
     {
       "name": "Lack",
@@ -29705,10 +29887,6 @@
           ],
           "openTypeFeatureTags": [
             {
-              "tag": "salt",
-              "title": "Alternates"
-            },
-            {
               "tag": "ss01",
               "title": "Altenate"
             },
@@ -29747,12 +29925,8 @@
           ],
           "openTypeFeatureTags": [
             {
-              "tag": "salt",
-              "title": "Alternates"
-            },
-            {
               "tag": "ss01",
-              "title": "Altenate"
+              "title": "Alternate"
             },
             {
               "tag": "ss02",
@@ -29922,10 +30096,6 @@
           ],
           "openTypeFeatureTags": [
             {
-              "tag": "salt",
-              "title": "Alternates"
-            },
-            {
               "tag": "ss01",
               "title": "Stylistic Set 1"
             },
@@ -29963,10 +30133,6 @@
             "ss03"
           ],
           "openTypeFeatureTags": [
-            {
-              "tag": "salt",
-              "title": "Alternates"
-            },
             {
               "tag": "ss01",
               "title": "Stylistic Set 1"
@@ -30138,10 +30304,6 @@
           ],
           "openTypeFeatureTags": [
             {
-              "tag": "salt",
-              "title": "Alternates"
-            },
-            {
               "tag": "ss01",
               "title": "Stylistic Set 1"
             },
@@ -30189,10 +30351,6 @@
             "ss05"
           ],
           "openTypeFeatureTags": [
-            {
-              "tag": "salt",
-              "title": "Alternates"
-            },
             {
               "tag": "ss01",
               "title": "Stylistic Set 1"
@@ -30562,10 +30720,6 @@
           ],
           "openTypeFeatureTags": [
             {
-              "tag": "salt",
-              "title": "Alternates"
-            },
-            {
               "tag": "ss01",
               "title": "Stylistic Set 1"
             },
@@ -30598,10 +30752,6 @@
             "ss02"
           ],
           "openTypeFeatureTags": [
-            {
-              "tag": "salt",
-              "title": "Alternates"
-            },
             {
               "tag": "ss01",
               "title": "Stylistic Set 1"
@@ -30683,16 +30833,16 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 400,
+              "max": 900,
+              "default": 400
             },
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 75,
+              "max": 100,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -30755,16 +30905,16 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 400,
+              "max": 900,
+              "default": 400
             },
             {
               "name": "Width",
               "tag": "wdth",
-              "min": 75.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 75,
+              "max": 100,
+              "default": 100
             }
           ],
           "openTypeFeatures": [],
@@ -30861,25 +31011,25 @@
               "name": "Optical size",
               "tag": "opsz",
               "axis": "opsz",
-              "min": 14.0,
-              "max": 32.0,
-              "default": 14.0
+              "min": 14,
+              "max": 32,
+              "default": 14
             },
             {
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 100.0
+              "min": 75,
+              "max": 125,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -30908,11 +31058,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alternate digits"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alternate l"
+              "title": "Stylistic Set 2"
             },
             {
               "tag": "ss03",
@@ -31142,9 +31292,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -31170,15 +31320,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alternate K, R, k"
+              "title": "K R k"
             },
             {
               "tag": "ss02",
-              "title": "Single-storey g"
+              "title": "g"
             },
             {
               "tag": "ss03",
-              "title": "Single-storey a, d"
+              "title": "a d"
             }
           ],
           "isDefaultStyle": true,
@@ -31248,9 +31398,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -31276,15 +31426,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alternate K, R, k"
+              "title": "K R k"
             },
             {
               "tag": "ss02",
-              "title": "Single-storey g"
+              "title": "g"
             },
             {
               "tag": "ss03",
-              "title": "Single-storey a, d"
+              "title": "a d"
             }
           ],
           "isDefaultStyle": false,
@@ -31412,9 +31562,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 800,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -31445,39 +31595,39 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alternate ampersand"
+              "title": "ss01 - alt ampersand"
             },
             {
               "tag": "ss02",
-              "title": "Underscore with space"
+              "title": "ss02 - underscore with space"
             },
             {
               "tag": "ss03",
-              "title": "I without crossbars"
+              "title": "ss03 - I no crossbars"
             },
             {
               "tag": "ss04",
-              "title": "R straight leg"
+              "title": "ss04 - R straight leg"
             },
             {
               "tag": "ss05",
-              "title": "Slashed zero"
+              "title": "ss05 - zero slashed"
             },
             {
               "tag": "ss06",
-              "title": "Skinny J"
+              "title": "ss06 - J skinny"
             },
             {
               "tag": "ss07",
-              "title": "Single-storey g"
+              "title": "ss07 - g singles-storey"
             },
             {
               "tag": "ss08",
-              "title": "Straight y"
+              "title": "ss08 - y straight"
             },
             {
               "tag": "ss09",
-              "title": "Single-storey a"
+              "title": "ss09 - a single-storey"
             }
           ],
           "isDefaultStyle": true,
@@ -31537,9 +31687,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 800,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -31570,39 +31720,39 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alternate ampersand"
+              "title": "ss01 - alt ampersand"
             },
             {
               "tag": "ss02",
-              "title": "Underscore with space"
+              "title": "ss02 - underscore with space"
             },
             {
               "tag": "ss03",
-              "title": "I without crossbars"
+              "title": "ss03 - I no crossbars"
             },
             {
               "tag": "ss04",
-              "title": "R straight leg"
+              "title": "ss04 - R straight leg"
             },
             {
               "tag": "ss05",
-              "title": "Slashed zero"
+              "title": "ss05 - zero slashed"
             },
             {
               "tag": "ss06",
-              "title": "Skinny J"
+              "title": "ss06 - J skinny"
             },
             {
               "tag": "ss07",
-              "title": "Single-storey g"
+              "title": "ss07 - g singles-storey"
             },
             {
               "tag": "ss08",
-              "title": "Straight y"
+              "title": "ss08 - y straight"
             },
             {
               "tag": "ss09",
-              "title": "Single-storey a"
+              "title": "ss09 - a single-storey"
             }
           ],
           "isDefaultStyle": false,
@@ -31924,40 +32074,40 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             },
             {
-              "name": "Element Expansion",
+              "name": "ELXP",
               "tag": "ELXP",
               "axis": "ELXP",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
-              "name": "Element Shape",
+              "name": "ELSH",
               "tag": "ELSH",
               "axis": "ELSH",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Slant",
               "tag": "slnt",
               "axis": "slnt",
-              "min": -8.0,
-              "max": 0.0,
-              "default": 0.0
+              "min": -8,
+              "max": 0,
+              "default": 0
             },
             {
-              "name": "Cursive",
+              "name": "CRSV",
               "tag": "CRSV",
               "axis": "CRSV",
-              "min": 0.0,
-              "max": 1.0,
+              "min": 0,
+              "max": 1,
               "default": 0.5
             }
           ],
@@ -32013,7 +32163,7 @@
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Bitcount is a modular monospace by Petr van Blokland: every glyph is assembled from identical elements on a fixed grid, so the whole alphabet is counted in bits. Five axes — weight, element shape, element expansion, slant and a cursive axis that swaps in connected forms — make one file behave like a whole pixel type library. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
@@ -32362,9 +32512,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 400.0
+              "min": 100,
+              "max": 900,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -32506,9 +32656,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 100,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -32594,6 +32744,18 @@
               "title": "Character Variant 12"
             },
             {
+              "tag": "cv13",
+              "title": "Character Variant 13"
+            },
+            {
+              "tag": "cv14",
+              "title": "Character Variant 14"
+            },
+            {
+              "tag": "cv15",
+              "title": "Character Variant 15"
+            },
+            {
               "tag": "ss01",
               "title": "Restore logical operations as arrows"
             },
@@ -32667,9 +32829,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 100,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -32754,6 +32916,18 @@
               "title": "Character Variant 12"
             },
             {
+              "tag": "cv13",
+              "title": "Character Variant 13"
+            },
+            {
+              "tag": "cv14",
+              "title": "Character Variant 14"
+            },
+            {
+              "tag": "cv15",
+              "title": "Character Variant 15"
+            },
+            {
               "tag": "ss01",
               "title": "Restore logical operations as arrows"
             },
@@ -32817,7 +32991,7 @@
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Lilex is a monospace for code by Mikhael Khrustik, built on IBM Plex Mono and extended with programming ligatures — arrows, comparison operators and comment markers resolve into single marks as you type. Weight axis 100–700 with a matching italic. A free alternative to Operator Mono or JetBrains Mono in an editor. Latin, Latin Extended, Cyrillic, Greek and Vietnamese.",
       "licenseInfo": {
         "type": "OFL",
@@ -33136,9 +33310,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -33197,9 +33371,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -33583,9 +33757,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 200.0
+              "min": 200,
+              "max": 900,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -33651,12 +33825,17 @@
               "name": "ExtraBold",
               "weight": 800,
               "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
             }
           ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Ojuju is a variable display sans by Chisaokwu Joboson and Mirko Velimirović for UDI Foundry, with a weight axis from extra light to extra bold. Near-geometric shapes with rounded corners and narrow apertures give it a bouncy, spoken quality at large sizes. Latin, Latin Extended and Vietnamese.",
       "licenseInfo": {
         "type": "OFL",
@@ -33699,9 +33878,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 800.0,
-              "default": 400.0
+              "min": 100,
+              "max": 800,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -33800,7 +33979,7 @@
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "Paper Mono is a monospace by Guido Ferreyra and Javier Quintana Godoy, drawn for Paper. A weight axis from thin to extra bold on an even, low-contrast rhythm — plain enough for terminals and tables, with enough drawing left in it for interface labels. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
@@ -33848,7 +34027,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss06",
-              "title": "alt J"
+              "title": "Stylistic Set 6"
             }
           ],
           "isDefaultStyle": true,
@@ -33906,9 +34085,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 300.0,
-              "max": 900.0,
-              "default": 300.0
+              "min": 300,
+              "max": 900,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -34101,17 +34280,17 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 125.0,
-              "default": 100.0
+              "min": 75,
+              "max": 125,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -34620,9 +34799,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 300.0,
-              "max": 700.0,
-              "default": 300.0
+              "min": 300,
+              "max": 700,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -34705,9 +34884,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 300.0,
-              "max": 700.0,
-              "default": 300.0
+              "min": 300,
+              "max": 700,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -34867,7 +35046,7 @@
         "Latin"
       ],
       "category": [
-        "Sans"
+        "Decorative"
       ],
       "foundry": "The Sunday Paper",
       "isVariable": true,
@@ -34886,9 +35065,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 10.0,
-              "max": 200.0,
-              "default": 10.0
+              "min": 10,
+              "max": 200,
+              "default": 10
             }
           ],
           "openTypeFeatures": [],
@@ -35329,9 +35508,9 @@
               "name": "Contrast",
               "tag": "CNTR",
               "axis": "CNTR",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 0,
+              "max": 100,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -35505,9 +35684,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 400.0,
-              "default": 200.0
+              "min": 200,
+              "max": 400,
+              "default": 200
             }
           ],
           "openTypeFeatures": [
@@ -35877,7 +36056,7 @@
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-22T00:00:00.000Z",
       "description": "THICCCBOI is a geometric sans by Charles Forman for Wonder Unit — wide, open and near-circular in the bowls. Nine weights from Thin to ThicccAF, the last of which closes the counters down to slits and stops being a text face entirely. Latin, Latin Extended and Cyrillic.",
       "licenseInfo": {
         "type": "OFL",
@@ -36417,25 +36596,25 @@
               "name": "Optical Size",
               "tag": "opsz",
               "axis": "opsz",
-              "min": 12.0,
-              "max": 96.0,
-              "default": 96.0
+              "min": 12,
+              "max": 96,
+              "default": 96
             },
             {
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 200.0,
-              "max": 800.0,
-              "default": 800.0
+              "min": 200,
+              "max": 800,
+              "default": 800
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 75.0,
-              "max": 100.0,
-              "default": 100.0
+              "min": 75,
+              "max": 100,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -36513,9 +36692,9 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 100.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 100,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -36625,11 +36804,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": true,
@@ -36662,11 +36841,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36698,11 +36877,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36734,11 +36913,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36770,11 +36949,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36806,11 +36985,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36842,11 +37021,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36878,11 +37057,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt a c e f g s t &"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt a f &"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": false,
@@ -36946,7 +37125,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt forms"
+              "title": "Stylistic Set 1"
             }
           ],
           "isDefaultStyle": true,
@@ -37004,17 +37183,17 @@
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Width",
               "tag": "wdth",
               "axis": "wdth",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -37098,11 +37277,11 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt X, Х, б"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt б"
+              "title": "Stylistic Set 2"
             }
           ],
           "isDefaultStyle": true,
@@ -37485,7 +37664,15 @@
         "Poster",
         "Brand Headline"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "alternativeTo": [
+        {
+          "name": "Futura",
+          "foundry": "Neufville / Paratype",
+          "motive": "paid",
+          "gets": "Renner's original pointed arches and V-tailed g, the forms the released Futura dropped, plus Cyrillic"
+        }
+      ]
     },
     {
       "name": "Gothic №60",
@@ -37522,7 +37709,7 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt Ж, К, г, ж, к"
+              "title": "Cyrillic alternates"
             }
           ],
           "isDefaultStyle": true,
@@ -38035,49 +38222,49 @@
               "name": "Optical size",
               "tag": "opsz",
               "axis": "opsz",
-              "min": 8.0,
-              "max": 45.0,
-              "default": 14.0
+              "min": 8,
+              "max": 45,
+              "default": 14
             },
             {
               "name": "Geometric Form",
               "tag": "GEOM",
               "axis": "GEOM",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 25.0
+              "min": 0,
+              "max": 100,
+              "default": 25
             },
             {
               "name": "Weight",
               "tag": "wght",
               "axis": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             },
             {
               "name": "Ascender Height",
               "tag": "YTAS",
               "axis": "YTAS",
-              "min": 1440.0,
-              "max": 1600.0,
-              "default": 1440.0
+              "min": 1440,
+              "max": 1600,
+              "default": 1440
             },
             {
               "name": "Sharp",
               "tag": "SHRP",
               "axis": "SHRP",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             },
             {
               "name": "Italic",
               "tag": "ital",
               "axis": "ital",
-              "min": 0.0,
-              "max": 1.0,
-              "default": 0.0
+              "min": 0,
+              "max": 1,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -38116,6 +38303,174 @@
             "Horizontal Sharps"
           ],
           "openTypeFeatureTags": [
+            {
+              "tag": "cv01",
+              "title": "Character Variant 1"
+            },
+            {
+              "tag": "cv02",
+              "title": "Character Variant 2"
+            },
+            {
+              "tag": "cv03",
+              "title": "Character Variant 3"
+            },
+            {
+              "tag": "cv04",
+              "title": "Character Variant 4"
+            },
+            {
+              "tag": "cv05",
+              "title": "Character Variant 5"
+            },
+            {
+              "tag": "cv06",
+              "title": "Character Variant 6"
+            },
+            {
+              "tag": "cv07",
+              "title": "Character Variant 7"
+            },
+            {
+              "tag": "cv08",
+              "title": "Character Variant 8"
+            },
+            {
+              "tag": "cv09",
+              "title": "Character Variant 9"
+            },
+            {
+              "tag": "cv10",
+              "title": "Character Variant 10"
+            },
+            {
+              "tag": "cv11",
+              "title": "Character Variant 11"
+            },
+            {
+              "tag": "cv12",
+              "title": "Character Variant 12"
+            },
+            {
+              "tag": "cv13",
+              "title": "Character Variant 13"
+            },
+            {
+              "tag": "cv14",
+              "title": "Character Variant 14"
+            },
+            {
+              "tag": "cv15",
+              "title": "Character Variant 15"
+            },
+            {
+              "tag": "cv16",
+              "title": "Character Variant 16"
+            },
+            {
+              "tag": "cv17",
+              "title": "Character Variant 17"
+            },
+            {
+              "tag": "cv18",
+              "title": "Character Variant 18"
+            },
+            {
+              "tag": "cv19",
+              "title": "Character Variant 19"
+            },
+            {
+              "tag": "cv20",
+              "title": "Character Variant 20"
+            },
+            {
+              "tag": "cv21",
+              "title": "Character Variant 21"
+            },
+            {
+              "tag": "cv22",
+              "title": "Character Variant 22"
+            },
+            {
+              "tag": "cv23",
+              "title": "Character Variant 23"
+            },
+            {
+              "tag": "cv24",
+              "title": "Character Variant 24"
+            },
+            {
+              "tag": "cv25",
+              "title": "Character Variant 25"
+            },
+            {
+              "tag": "cv26",
+              "title": "Character Variant 26"
+            },
+            {
+              "tag": "cv27",
+              "title": "Character Variant 27"
+            },
+            {
+              "tag": "cv28",
+              "title": "Character Variant 28"
+            },
+            {
+              "tag": "cv29",
+              "title": "Character Variant 29"
+            },
+            {
+              "tag": "cv30",
+              "title": "Character Variant 30"
+            },
+            {
+              "tag": "cv31",
+              "title": "Character Variant 31"
+            },
+            {
+              "tag": "cv32",
+              "title": "Character Variant 32"
+            },
+            {
+              "tag": "cv33",
+              "title": "Character Variant 33"
+            },
+            {
+              "tag": "cv34",
+              "title": "Character Variant 34"
+            },
+            {
+              "tag": "cv35",
+              "title": "Character Variant 35"
+            },
+            {
+              "tag": "cv36",
+              "title": "Character Variant 36"
+            },
+            {
+              "tag": "cv37",
+              "title": "Character Variant 37"
+            },
+            {
+              "tag": "cv38",
+              "title": "Character Variant 38"
+            },
+            {
+              "tag": "cv39",
+              "title": "Character Variant 39"
+            },
+            {
+              "tag": "cv40",
+              "title": "Character Variant 40"
+            },
+            {
+              "tag": "cv41",
+              "title": "Character Variant 41"
+            },
+            {
+              "tag": "cv42",
+              "title": "Character Variant 42"
+            },
             {
               "tag": "ss01",
               "title": "Geometric a"
@@ -38221,7 +38576,15 @@
         "Brand Headline",
         "Tech / Digital"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "alternativeTo": [
+        {
+          "name": "Futura",
+          "foundry": "Neufville / Paratype",
+          "motive": "paid",
+          "gets": "a GEOM axis that runs humanist to fully geometric, opsz 8–45, a real italic, Vietnamese"
+        }
+      ]
     },
     {
       "name": "Memoir",
@@ -38263,23 +38626,15 @@
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
-              "title": "Alt Y"
+              "title": "Stylistic Set 1"
             },
             {
               "tag": "ss02",
-              "title": "Alt R"
+              "title": "Stylistic Set 2"
             },
             {
               "tag": "ss03",
-              "title": "Alt A"
-            },
-            {
-              "tag": "dlig",
-              "title": "RA ligature"
-            },
-            {
-              "tag": "salt",
-              "title": "Stylistic Alternates"
+              "title": "Stylistic Set 3"
             }
           ],
           "isDefaultStyle": true,
@@ -38292,8 +38647,8 @@
           "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
         }
       ],
-      "createdAt": "2026-09-21T15:00:00.000Z",
-      "updatedAt": "2026-09-21T15:00:00.000Z",
+      "createdAt": "2026-09-22T20:00:00.000Z",
+      "updatedAt": "2026-09-22T20:00:00.000Z",
       "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
       "licenseInfo": {
         "type": "Free for commercial use",
@@ -38306,7 +38661,1294 @@
         "Culture"
       ],
       "altPairs": []
+    },
+    {
+      "name": "Asta Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Korean"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "42dot",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/42dot/Asta-Sans",
+      "id": "family_asta_sans_1790075385023",
+      "variants": [
+        {
+          "filename": "AstaSans[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 300,
+              "max": 800,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Normal figure"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_asta_sans_1790075385023_1",
+          "familyId": "family_asta_sans_1790075385023",
+          "url": "/fonts/AstaSans[wght].woff2",
+          "originalUrl": "/fonts/AstaSans[wght].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-22T01:00:00.000Z",
+      "updatedAt": "2026-09-22T01:00:00.000Z",
+      "description": "A corporate typeface 42dot released openly and later renamed from 42dot Sans to Asta Sans. It is a quiet grotesque with square-ish counters, drawn to stay legible at interface sizes, and the weight axis runs 300 to 800. The reason to reach for it is the Korean: the file carries the full set of 11,172 modern Hangul syllables alongside the Latin, built to the same weights, which very few open families do.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/42dot/Asta-Sans/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Interface",
+        "Editorial"
+      ]
+    },
+    {
+      "name": "NKDuy Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Tech"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "NKDuy",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://nkduy-cloud.web.app",
+      "id": "family_nkduy_mono_1790075385073",
+      "variants": [
+        {
+          "filename": "NKDuyMono[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_nkduy_mono_1790075385073_1",
+          "familyId": "family_nkduy_mono_1790075385073",
+          "url": "/fonts/NKDuyMono[wght].woff2",
+          "originalUrl": "/fonts/NKDuyMono[wght].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/NKDuyMono[wght].woff2"
+        },
+        {
+          "filename": "NKDuyMono-Italic[wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_nkduy_mono_1790075385073_2",
+          "familyId": "family_nkduy_mono_1790075385073",
+          "url": "/fonts/NKDuyMono-Italic[wght].woff2",
+          "originalUrl": "/fonts/NKDuyMono-Italic[wght].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-22T02:00:00.000Z",
+      "updatedAt": "2026-09-22T02:00:00.000Z",
+      "description": "A monospace for code with a tall lowercase: the x-height is pushed as far as the fixed width allows, which is what makes it readable at the small sizes an editor actually uses. Eight weights from Thin to ExtraBold on a variable axis, each with a true italic rather than a slant, and the character set covers Cyrillic and Greek as well as Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Code / Data",
+        "Interface"
+      ]
+    },
+    {
+      "name": "MFEK Sans",
+      "collection": "Display",
+      "styleTags": [
+        "Grotesque",
+        "Narrow",
+        "Rounded",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Owen Earl, Indestructible Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/indestructible-type/MFEK-Sans",
+      "id": "family_mfek_sans_1790075385089",
+      "variants": [
+        {
+          "filename": "MFEK-Sans[TRMA,wght,wdth].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Terminal",
+              "tag": "TRMA",
+              "axis": "TRMA",
+              "min": 0,
+              "max": 1000,
+              "default": 0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 50,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_mfek_sans_1790075385089_1",
+          "familyId": "family_mfek_sans_1790075385089",
+          "url": "/fonts/MFEK-Sans[TRMA,wght,wdth].woff2",
+          "originalUrl": "/fonts/MFEK-Sans[TRMA,wght,wdth].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/MFEK-Sans[TRMA,wght,wdth].woff2"
+        },
+        {
+          "filename": "MFEK-Sans-Italic[TRMA,wght,wdth].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Terminal",
+              "tag": "TRMA",
+              "axis": "TRMA",
+              "min": 0,
+              "max": 1000,
+              "default": 0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 50,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_mfek_sans_1790075385089_2",
+          "familyId": "family_mfek_sans_1790075385089",
+          "url": "/fonts/MFEK-Sans-Italic[TRMA,wght,wdth].woff2",
+          "originalUrl": "/fonts/MFEK-Sans-Italic[TRMA,wght,wdth].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-09-22T03:00:00.000Z",
+      "updatedAt": "2026-09-22T03:00:00.000Z",
+      "description": "Owen Earl's sans after 1800s wood type, drawn as a three-axis variable font for the MFEK editor project. Weight runs 100 to 900, width only narrows (100 down to 50), and a third axis, TRMA, rounds the terminals off by degrees — so the ninety named instances include a rounded counterpart to nearly every weight and width. Still early, at version 0.001, and Latin only.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/indestructible-type/MFEK-Sans/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "Mozilla Text",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Humanist"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Studio DRAMA for Mozilla",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/mozilla/mozilla-text-type",
+      "id": "family_mozilla_text_1790075385094",
+      "variants": [
+        {
+          "filename": "MozillaText[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 200,
+              "max": 700,
+              "default": 200
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Single-storey -a-"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_mozilla_text_1790075385094_1",
+          "familyId": "family_mozilla_text_1790075385094",
+          "url": "/fonts/MozillaText[wght].woff2",
+          "originalUrl": "/fonts/MozillaText[wght].ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/MozillaText[wght].woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T04:00:00.000Z",
+      "updatedAt": "2026-09-22T04:00:00.000Z",
+      "description": "The text face from Mozilla's 2025 identity, drawn by Studio DRAMA and released under the OFL alongside the display cut. Humanist proportions with open apertures and a slightly narrow set, meant to carry running copy under the brand's louder headline face. One variable axis, 200 to 700, with a stylistic set and the usual figure variants.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/mozilla/mozilla-text-type/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Interface",
+        "Editorial"
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "collection": "Brutal",
+      "styleTags": [
+        "Squared",
+        "Tech",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Dima Grenev",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://grenev.com/work/werkzeug",
+      "id": "family_werkzeug_1790075385098",
+      "variants": [
+        {
+          "filename": "Werkzeug.ttf",
+          "weight": 400,
+          "styleName": "Mono",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "axis": "wdth",
+              "min": 0,
+              "max": 1000,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_werkzeug_1790075385098_1",
+          "familyId": "family_werkzeug_1790075385098",
+          "url": "/fonts/Werkzeug.woff2",
+          "originalUrl": "/fonts/Werkzeug.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Werkzeug.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T05:00:00.000Z",
+      "updatedAt": "2026-09-22T05:00:00.000Z",
+      "description": "An industrial monospace from Dima Grenev, the designer of Akt: narrow proportions, fused joints, soft corners, and counters deliberately overfilled so the black shapes close up at weight. The width axis runs between the two cuts the font names itself — Mono at one end, Sexa at the other — rather than between a condensed and an extended. Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://openfontlicense.org"
+      },
+      "useCases": [
+        "Poster",
+        "Tech / Digital",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "Coaster Sans",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Rounded",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "printer_scanner, Mother Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/mother-type/CoasterSans",
+      "id": "family_coaster_sans_1790075385102",
+      "variants": [
+        {
+          "filename": "CoasterSans-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_coaster_sans_1790075385102_1",
+          "familyId": "family_coaster_sans_1790075385102",
+          "url": "/fonts/CoasterSans-Regular.woff2",
+          "originalUrl": "/fonts/CoasterSans-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/CoasterSans-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T06:00:00.000Z",
+      "updatedAt": "2026-09-22T06:00:00.000Z",
+      "description": "A chunky display sans with the swing of 1970s lettering: heavy rounded strokes, tight joins, and a lowercase s and r that break the rhythm on purpose. One weight, Latin only, and no attempt at running text — it is drawn for a word or two at size.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/mother-type/CoasterSans/blob/main/LICENSE.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "BVLLET",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Cut",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Decorative"
+      ],
+      "foundry": "Insomnia Arts",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://ko-fi.com/insomniarts40",
+      "id": "family_bvllet_1790075385121",
+      "variants": [
+        {
+          "filename": "BVLLET.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_bvllet_1790075385121_1",
+          "familyId": "family_bvllet_1790075385121",
+          "url": "/fonts/BVLLET.woff2",
+          "originalUrl": "/fonts/BVLLET.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BVLLET.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T07:00:00.000Z",
+      "updatedAt": "2026-09-22T07:00:00.000Z",
+      "description": "Letters built from bullet-shaped strokes that taper to a point and fold back on themselves, so the alphabet reads as a set of assembled marks rather than as writing. Over 120 alternates sit on salt and aalt, which is the point of it: the same word can be redrawn several ways for a logotype. Uppercase and lowercase, Latin only.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Poster",
+        "Experimental",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "CC Accidenz Grotesk",
+      "collection": "Text",
+      "styleTags": [
+        "Grotesque",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Archetypo for Creative Commons",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://creativecommons.org/2019/10/28/accidenz-commons-open-licensed-font/",
+      "id": "family_cc_accidenz_grotesk_1790075385122",
+      "variants": [
+        {
+          "filename": "AccidenzGrotesk-medium.otf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_cc_accidenz_grotesk_1790075385122_1",
+          "familyId": "family_cc_accidenz_grotesk_1790075385122",
+          "url": "/fonts/AccidenzGrotesk-medium.woff2",
+          "originalUrl": "/fonts/AccidenzGrotesk-medium.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/AccidenzGrotesk-medium.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T08:00:00.000Z",
+      "updatedAt": "2026-09-22T08:00:00.000Z",
+      "description": "A revival of Akzidenz-Grotesk drawn by Joaquín Contreras and Miguel Hernández Montoya of Archetypo and given to Creative Commons for its own identity. One medium weight, a small character set, and the flat even colour of the original nineteenth-century grotesque. Licensed CC BY-SA, so a derivative has to carry the same licence — unusual for a typeface and the reason it exists.",
+      "licenseInfo": {
+        "type": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "useCases": [
+        "Editorial",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "Mistral SingleLine",
+      "collection": "Display",
+      "styleTags": [
+        "Handwritten",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "isdaT, François Chastanet",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/isdat-type/Mistral-SingleLine",
+      "id": "family_mistral_singleline_1790075385124",
+      "variants": [
+        {
+          "filename": "MistralSingleLineOutline-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            },
+            {
+              "tag": "ss05",
+              "title": "Stylistic Set 5"
+            },
+            {
+              "tag": "ss06",
+              "title": "Stylistic Set 6"
+            },
+            {
+              "tag": "ss07",
+              "title": "Stylistic Set 7"
+            },
+            {
+              "tag": "ss08",
+              "title": "Stylistic Set 8"
+            },
+            {
+              "tag": "ss09",
+              "title": "Stylistic Set 9"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_mistral_singleline_1790075385124_1",
+          "familyId": "family_mistral_singleline_1790075385124",
+          "url": "/fonts/MistralSingleLineOutline-Regular.woff2",
+          "originalUrl": "/fonts/MistralSingleLineOutline-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/MistralSingleLineOutline-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T09:00:00.000Z",
+      "updatedAt": "2026-09-22T09:00:00.000Z",
+      "description": "Roger Excoffon's 1953 Mistral redrawn monolinear, as if written with a ballpoint instead of a brush. The project exists for CNC and engraving — there is an open-paths OTF-SVG version for a pen or milling tool to follow — and this is the outline cut for print and web. Nine stylistic sets carry the things the metal face had and the digitisations dropped: the interchangeable paraphe for ff, pp and ss, the ll, on, qu, st and th ligatures, and longer-tailed finals.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/isdat-type/Mistral-SingleLine/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Handwritten / Script",
+        "Culture",
+        "Poster"
+      ]
+    },
+    {
+      "name": "Orbit",
+      "collection": "Display",
+      "styleTags": [
+        "Squared",
+        "Tech",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Korean"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Sooun Cho",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://jamo.works",
+      "id": "family_orbit_1790075385129",
+      "variants": [
+        {
+          "filename": "Orbit-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_orbit_1790075385129_1",
+          "familyId": "family_orbit_1790075385129",
+          "url": "/fonts/Orbit-Regular.woff2",
+          "originalUrl": "/fonts/Orbit-Regular.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T10:00:00.000Z",
+      "updatedAt": "2026-09-22T10:00:00.000Z",
+      "description": "A Hangul face built on the impression of a Latin coding font: right-angle serifs, perfectly circular bowls, and a symmetry that makes the syllable blocks read as orbits. Sooun Cho drew the complete set of 11,172 modern Hangul syllables plus the KS X 1001 punctuation and a Latin alphabet to match. One weight, and it is meant to be set light on dark.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Tech / Digital",
+        "Poster",
+        "Experimental"
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Gearbox",
+      "collection": "Brutal",
+      "styleTags": [
+        "Fatface",
+        "Squared",
+        "Modular"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "frongile",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fontstruct.com/fontstructions/show/2152001",
+      "id": "family_gearbox_1790075385140",
+      "variants": [
+        {
+          "filename": "Gearbox-Regular.otf",
+          "weight": 800,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_gearbox_1790075385140_1",
+          "familyId": "family_gearbox_1790075385140",
+          "url": "/fonts/Gearbox-Regular.woff2",
+          "originalUrl": "/fonts/Gearbox-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Gearbox-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T11:00:00.000Z",
+      "updatedAt": "2026-09-22T11:00:00.000Z",
+      "description": "Built in FontStruct out of a fixed grid of shapes, which is why the weight lands so heavy and the spurs on the r and the t sit where a drawn face would never put them. Black only, 83 glyphs, Latin. Useful at poster size where the grid is the point.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Poster",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "Lectus",
+      "collection": "Brutal",
+      "styleTags": [
+        "Rounded",
+        "Modular",
+        "Squared"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "George Arnold",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://fontstruct.com/fontstructions/show/2480493",
+      "id": "family_lectus_1790075385142",
+      "variants": [
+        {
+          "filename": "Lectus-Regular.otf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_lectus_1790075385142_1",
+          "familyId": "family_lectus_1790075385142",
+          "url": "/fonts/Lectus-Regular.woff2",
+          "originalUrl": "/fonts/Lectus-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Lectus-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z",
+      "description": "Another FontStruct build: blocks with rounded corners set on a wide fixed rhythm, so the line reads almost as a pattern. The lowercase keeps a squared skeleton while the terminals stay round, and the whole thing covers Latin and little else. For headlines and stickers rather than text.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Poster",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "Tilda Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Geometry",
+        "Futura",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "ParaType for Tilda",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://tilda.cc/ru/tildasans/",
+      "id": "family_tilda_sans_1790075385144",
+      "variants": [
+        {
+          "filename": "TildaSans-VF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 250,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_tilda_sans_1790075385144_1",
+          "familyId": "family_tilda_sans_1790075385144",
+          "url": "/fonts/TildaSans-VF.woff2",
+          "originalUrl": "/fonts/TildaSans-VF.ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extra Bold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/TildaSans-VF.woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T13:00:00.000Z",
+      "updatedAt": "2026-09-22T13:00:00.000Z",
+      "description": "ParaType drew this for Tilda and released it openly: a geometric sans with a single-storey a and circular bowls, close enough to Futura to stand in for it, but with the x-height raised and the ascenders shortened so it holds up at interface sizes. Seven weights from 250 to 900 on one variable axis, two stylistic sets, and a full Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Interface",
+        "Editorial",
+        "Brand Headline"
+      ],
+      "alternativeTo": [
+        {
+          "name": "Futura",
+          "foundry": "Paratype / Neufville",
+          "motive": "paid",
+          "gets": "wght 250–900 variable, Cyrillic, raised x-height"
+        }
+      ]
+    },
+    {
+      "name": "Bona Nova",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese",
+        "Arabic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Capitalics, Mateusz Machalski",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/kosmynkab/Bona-Nova",
+      "id": "family_bona_nova_1790075385151",
+      "variants": [
+        {
+          "filename": "BonaNova-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_bona_nova_1790075385151_1",
+          "familyId": "family_bona_nova_1790075385151",
+          "url": "/fonts/BonaNova-Regular.woff2",
+          "originalUrl": "/fonts/BonaNova-Regular.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "BonaNova-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_bona_nova_1790075385151_2",
+          "familyId": "family_bona_nova_1790075385151",
+          "url": "/fonts/BonaNova-Italic.woff2",
+          "originalUrl": "/fonts/BonaNova-Italic.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "BonaNova-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            }
+          ],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-09-22T00:00:00.000Z",
+          "id": "variant_family_bona_nova_1790075385151_3",
+          "familyId": "family_bona_nova_1790075385151",
+          "url": "/fonts/BonaNova-Bold.woff2",
+          "originalUrl": "/fonts/BonaNova-Bold.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-09-22T14:00:00.000Z",
+      "updatedAt": "2026-09-22T14:00:00.000Z",
+      "description": "Mateusz Machalski's revision of Bona, the 1971 antiqua Andrzej Heidrich drew for Polish banknotes and book covers. The old-style figures, the tapering bracketed serifs and the slightly narrow set all come from the original; what is new is the range — Latin, Cyrillic, Greek and Arabic in one file, with small caps and four stylistic sets. Regular, Italic and Bold.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/google/fonts/blob/main/ofl/bonanova/OFL.txt"
+      },
+      "useCases": [
+        "Editorial",
+        "Culture",
+        "Brand Headline"
+      ],
+      "hasSmallCaps": true
     }
   ],
-  "lastUpdated": "2026-09-21T11:12:01.697794Z"
+  "lastUpdated": "2026-09-22T11:18:05.271160Z"
 }
