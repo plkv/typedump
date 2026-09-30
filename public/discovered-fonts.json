@@ -1,9 +1,45 @@
 {
-  "generatedAt": "2026-09-29T06:10:33.377Z",
+  "generatedAt": "2026-09-30T05:01:11.952Z",
   "months": 3,
   "since": "2026-01-01",
-  "count": 101,
+  "count": 104,
   "fonts": [
+    {
+      "name": "Clarity City",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Clarity+City",
+      "date": "2026-09-28",
+      "image": null,
+      "googleFamily": "Clarity City",
+      "category": "Sans Serif",
+      "license": null
+    },
+    {
+      "name": "Isometra",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Isometra",
+      "date": "2026-09-28",
+      "image": null,
+      "googleFamily": "Isometra",
+      "category": "Serif",
+      "license": null
+    },
+    {
+      "name": "Kripa",
+      "author": "",
+      "source": "fonts.google.com",
+      "sourceLabel": "Google Fonts",
+      "url": "https://fonts.google.com/specimen/Kripa",
+      "date": "2026-09-28",
+      "image": null,
+      "googleFamily": "Kripa",
+      "category": "Sans Serif",
+      "license": null
+    },
     {
       "name": "Asap Sharp",
       "author": "",
@@ -407,7 +443,7 @@
       "sourceLabel": "Collletttivo",
       "url": "https://www.collletttivo.it/typefaces/borges",
       "date": "2026-03-11",
-      "image": "https://www.collletttivo.it/_og/d/c_Typeface,svgPath_~PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTAwIDkwMCI-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDYwMEw2MDAgNjAwTDYwMCA1MDBMNDAwIDUwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMNDAwIDcwMFpNNDAwIC0yMDBMODAwIC0yMDBMODAwIC0xMDBMNzAwIC0xMDBMNzAwIDEwMEw0MDAgMTAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDQwMCAtMTAwWk00MDAgMjAwTDcwMCAyMDBMNzAwIDMwMEw0MDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgMzAwTDEwMCAzMDBMMTAwIDQwMEw4MDAgNDAwTDgwMCAzMDBMOTAwIDMwMEw5MDAgNTAwTDAgNTAwWk0wIDIwMEwwIDBMOTAwIDBMOTAwIDIwMEw4MDAgMjAwTDgwMCAxMDBMMTAwIDEwMEwxMDAgMjAwWk0yMDAgMjAwTDcwMCAyMDBMNzAwIDMwMEwyMDAgMzAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjAwLDcwMCkgc2NhbGUoMSwtMSkiPjxwYXRoIGQ9Ik0xMDAgNjAwTDYwMCA2MDBMNjAwIDMwMEw0MDAgMzAwTDQwMCAwTDYwMCAwTDYwMCAtMTAwTDUwMCAtMTAwTDUwMCAtMjAwTDgwMCAtMjAwTDgwMCAtMTAwTDcwMCAtMTAwTDcwMCAxMDBMNTAwIDEwMEw1MDAgMjAwTDcwMCAyMDBMNzAwIDYwMEw4MDAgNjAwTDgwMCA3MDBMMTAwIDcwMFpNMTAwIC0yMDBMNDAwIC0yMDBMNDAwIC0xMDBMMzAwIC0xMDBMMzAwIDQwMEw1MDAgNDAwTDUwMCA1MDBMMjAwIDUwMEwyMDAgLTEwMEwxMDAgLTEwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMCAwTDEwMCAwTDEwMCA1MDBMMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTIwMCAzMDBMMjAwIDBMOTAwIDBMOTAwIDMwMEw0MDAgMzAwTDQwMCAyMDBMODAwIDIwMEw4MDAgMTAwTDMwMCAxMDBMMzAwIDMwMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIgLz48L2c-PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzIwMCw3MDApIHNjYWxlKDEsLTEpIj48cGF0aCBkPSJNMTAwIDYwMEwyMDAgNjAwTDIwMCAtMTAwTDEwMCAtMTAwTDEwMCAtMjAwTDMwMCAtMjAwTDMwMCA3MDBMMTAwIDcwMFpNNDAwIDcwMEw0MDAgNDAwTDcwMCA0MDBMNzAwIDUwMEw1MDAgNTAwTDUwMCA2MDBMODAwIDYwMEw4MDAgNzAwWk00MDAgLTIwMEw4MDAgLTIwMEw4MDAgLTEwMEw1MDAgLTEwMEw1MDAgMEw3MDAgMEw3MDAgMTAwTDQwMCAxMDBaTTQwMCAyMDBMNzAwIDIwMEw3MDAgMzAwTDQwMCAzMDBaIiBmaWxsPSJjdXJyZW50Q29sb3IiIC8-PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMDAsNzAwKSBzY2FsZSgxLC0xKSI-PHBhdGggZD0iTTAgNTAwTDAgMjAwTDgwMCAyMDBMODAwIDBMOTAwIDBMOTAwIDMwMEwxMDAgMzAwTDEwMCA1MDBaTTIwMCA0MDBMOTAwIDQwMEw5MDAgNTAwTDIwMCA1MDBaTTAgMEw3MDAgMEw3MDAgMTAwTDAgMTAwWiIgZmlsbD0iY3VycmVudENvbG9yIiAvPjwvZz48L3N2Zz4,p_Ii90eXBlZmFjZXMvYm9yZ2VzIg,s_Md4BXJDXiTuiq-D7.png",
+      "image": null,
       "googleFamily": null,
       "category": null,
       "license": null
@@ -734,18 +770,6 @@
       "image": null,
       "googleFamily": "LINE Seed JP",
       "category": "Sans Serif",
-      "license": null
-    },
-    {
-      "name": "Clarity City",
-      "author": "",
-      "source": "bestfreefonts.com",
-      "sourceLabel": "BestFreeFonts",
-      "url": "https://bestfreefonts.com/clarity-city",
-      "date": null,
-      "image": "https://bestfreefonts.com/clarity-city/opengraph-image?05f7a8514b6e85e7",
-      "googleFamily": null,
-      "category": null,
       "license": null
     },
     {
@@ -1079,7 +1103,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/superior-serif",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/superior-serif/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1091,7 +1115,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/superior",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/superior/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1103,7 +1127,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/faustina",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/faustina/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1115,7 +1139,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/sansita-swashed",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/sansita-swashed/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1127,7 +1151,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/fraunces",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/fraunces/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1139,7 +1163,7 @@
       "sourceLabel": "BestFreeFonts",
       "url": "https://bestfreefonts.com/gulax",
       "date": null,
-      "image": null,
+      "image": "https://bestfreefonts.com/gulax/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
@@ -1212,6 +1236,18 @@
       "url": "https://bestfreefonts.com/kulim-park",
       "date": null,
       "image": "https://bestfreefonts.com/kulim-park/opengraph-image?05f7a8514b6e85e7",
+      "googleFamily": null,
+      "category": null,
+      "license": null
+    },
+    {
+      "name": "Atkinson Hyperlegible",
+      "author": "",
+      "source": "bestfreefonts.com",
+      "sourceLabel": "BestFreeFonts",
+      "url": "https://bestfreefonts.com/atkinson-hyperlegible",
+      "date": null,
+      "image": "https://bestfreefonts.com/atkinson-hyperlegible/opengraph-image?05f7a8514b6e85e7",
       "googleFamily": null,
       "category": null,
       "license": null
