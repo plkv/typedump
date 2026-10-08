@@ -292,8 +292,8 @@
 @font-face{font-family:"Cossette Texte-9ba954__v_f7ee68";src:url("/fonts/preview/CossetteTexte-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cossette Texte-9ba954";src:url("/fonts/CossetteTexte-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cossette Texte-9ba954__v_2fbebb";src:url("/fonts/CossetteTexte-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Oi-000009";src:url("/fonts/preview/Oi-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Oi-000009__v_78c531";src:url("/fonts/preview/Oi-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Oi-000009";src:url("/fonts/Oi-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Oi-000009__v_78c531";src:url("/fonts/Oi-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Ultra-04e0a7";src:url("/fonts/preview/Ultra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Ultra-04e0a7__v_0cebea";src:url("/fonts/preview/Ultra-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Chaumont Script-731718";src:url("/fonts/preview/ChaumontScript-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -1127,8 +1127,8 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Werkzeug-f500e9__v_257626";src:url("/fonts/preview/Werkzeug.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Coaster Sans-7289d5";src:url("/fonts/preview/CoasterSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Coaster Sans-7289d5__v_bf8b8d";src:url("/fonts/preview/CoasterSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"BVLLET-757f70";src:url("/fonts/preview/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"BVLLET-757f70__v_2e1429";src:url("/fonts/preview/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"BVLLET-757f70";src:url("/fonts/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"BVLLET-757f70__v_2e1429";src:url("/fonts/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"CC Accidenz Grotesk-5e0d2c";src:url("/fonts/preview/AccidenzGrotesk-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
 @font-face{font-family:"CC Accidenz Grotesk-5e0d2c__v_54e42e";src:url("/fonts/preview/AccidenzGrotesk-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
 @font-face{font-family:"Mistral SingleLine-beb45e";src:url("/fonts/preview/MistralSingleLineOutline-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -1147,3 +1147,55 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Bona Nova-a6a2b1__v_e2204e";src:url("/fonts/BonaNova-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
 @font-face{font-family:"Bona Nova-a6a2b1";src:url("/fonts/BonaNova-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Bona Nova-a6a2b1__v_1c4dc0";src:url("/fonts/BonaNova-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Dispater-14d3a8";src:url("/fonts/preview/Dispater-VF.woff2") format("woff2");font-weight:400 700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Dispater-14d3a8__v_46e91d";src:url("/fonts/preview/Dispater-VF.woff2") format("woff2");font-weight:400 700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Modulord-dfd653";src:url("/fonts/preview/Modulord-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Modulord-dfd653__v_40427e";src:url("/fonts/preview/Modulord-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637";src:url("/fonts/DatCub-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637__v_1ebb7b";src:url("/fonts/DatCub-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637";src:url("/fonts/DatCub-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637__v_d71267";src:url("/fonts/DatCub-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637";src:url("/fonts/DatCub-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"DatCub-799637__v_f22523";src:url("/fonts/DatCub-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Fliege Mono-884fc2";src:url("/fonts/preview/FliegeMonoVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Fliege Mono-884fc2__v_b84b66";src:url("/fonts/preview/FliegeMonoVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Cakra-03ddde";src:url("/fonts/preview/Cakra-Normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Cakra-03ddde__v_cfdd76";src:url("/fonts/preview/Cakra-Normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Gerhaus-5eab1e";src:url("/fonts/Gerhaus-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Gerhaus-5eab1e__v_b3cac5";src:url("/fonts/Gerhaus-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"The Crooker-352040";src:url("/fonts/preview/Crooker-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"The Crooker-352040__v_ef463f";src:url("/fonts/preview/Crooker-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"the WEEKEND-a4885b";src:url("/fonts/Weekend-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"the WEEKEND-a4885b__v_2d37fa";src:url("/fonts/Weekend-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Kucheryavy-b13fb6";src:url("/fonts/preview/Kucheryavy-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Kucheryavy-b13fb6__v_d3c551";src:url("/fonts/preview/Kucheryavy-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Defectica-23c2ab";src:url("/fonts/preview/Defectica-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Defectica-23c2ab__v_c2fd01";src:url("/fonts/preview/Defectica-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"ST-Brigantina-982922";src:url("/fonts/preview/STBrigantina-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"ST-Brigantina-982922__v_20d7e2";src:url("/fonts/preview/STBrigantina-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Theater-12c08f";src:url("/fonts/preview/Theater-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Theater-12c08f__v_9d9895";src:url("/fonts/preview/Theater-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Mephisto-e299aa";src:url("/fonts/preview/Mephisto-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Mephisto-e299aa__v_c0bb1b";src:url("/fonts/preview/Mephisto-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"TOYZ-002762";src:url("/fonts/preview/TOYZ-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"TOYZ-002762__v_1078d8";src:url("/fonts/preview/TOYZ-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Foglihten No.06-2755fc";src:url("/fonts/preview/FoglihtenNo06-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Foglihten No.06-2755fc__v_9a176c";src:url("/fonts/preview/FoglihtenNo06-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f";src:url("/fonts/preview/FlankerSteampunk-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f__v_9ca8f8";src:url("/fonts/preview/FlankerSteampunk-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f";src:url("/fonts/FlankerSteampunk-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f__v_1166b1";src:url("/fonts/FlankerSteampunk-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f";src:url("/fonts/FlankerSteampunk-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Flanker Steampunk-91145f__v_f2436f";src:url("/fonts/FlankerSteampunk-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Badeen Display-33d731";src:url("/fonts/BadeenDisplay-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Badeen Display-33d731__v_4998b8";src:url("/fonts/BadeenDisplay-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Ramp-0026c0";src:url("/fonts/preview/Ramp-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Ramp-0026c0__v_8b8727";src:url("/fonts/preview/Ramp-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Slinkee-e4ebdc";src:url("/fonts/preview/Slinkee-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Slinkee-e4ebdc__v_2455ff";src:url("/fonts/preview/Slinkee-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa";src:url("/fonts/PVFSurvivor-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa__v_bd9dc6";src:url("/fonts/PVFSurvivor-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa";src:url("/fonts/preview/PVFSurvivor-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa__v_468f7c";src:url("/fonts/preview/PVFSurvivor-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa";src:url("/fonts/PVFSurvivor-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"PVF Survivor-656dfa__v_ff8747";src:url("/fonts/PVFSurvivor-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}

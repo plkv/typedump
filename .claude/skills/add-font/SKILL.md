@@ -32,6 +32,12 @@ inventing fields. Required: `name`, `collection`, `category`, `styleTags`,
 `repository_url` / `minisite_url` in METADATA.pb when the font comes from Google
 Fonts. Never a Google Fonts URL.
 
+**The feed is ordered by the newest `uploadedAt` among a family's variants**,
+not by the family's `createdAt`. Memoir is pinned to the top on Stas's
+instruction; after a batch, set its variants' `uploadedAt` later than anything
+just added. Bumping only `createdAt` once left Junicode at the top of the live
+site for two weeks.
+
 ## 3. Tag it
 
 Read `taxonomy.md` next to this file. It carries the definitions; they are not

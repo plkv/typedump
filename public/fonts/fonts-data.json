@@ -4229,7 +4229,8 @@
       ],
       "languages": [
         "Latin",
-        "Vietnamese"
+        "Vietnamese",
+        "Cyrillic"
       ],
       "category": [
         "Sans"
@@ -11734,7 +11735,8 @@
         "Latin",
         "Cyrillic",
         "Greek",
-        "Vietnamese"
+        "Vietnamese",
+        "Arabic"
       ],
       "category": [
         "Serif"
@@ -11794,8 +11796,7 @@
           "familyId": "family_oi_1757807921421",
           "url": "/fonts/Oi-Regular.woff2",
           "originalUrl": "/fonts/Oi-Regular.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/Oi-Regular.woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.421Z",
@@ -23571,7 +23572,20 @@
               "default": 300
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/Figtree[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
@@ -23631,7 +23645,20 @@
               "default": 300
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/Figtree-Italic[wght].woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
@@ -23833,7 +23860,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Frick0.3-Regular.woff2",
@@ -23850,7 +23880,10 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Frick0.3-Condensed.woff2",
@@ -23926,7 +23959,15 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Required Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LinealVF.woff2",
@@ -24119,7 +24160,23 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/NationalPark-VariableVF.woff2",
@@ -24304,7 +24361,9 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Standard Ligatures"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/P-ACR-AGON-Regular.woff2",
@@ -24362,7 +24421,23 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/MuseoModerno-VariableFont_wght.woff2",
@@ -24433,7 +24508,23 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/MuseoModerno-Italic-VariableFont_wght.woff2",
@@ -24623,7 +24714,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTDumplingDisplay-Regular.woff2",
@@ -24671,7 +24765,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTGetaiGroteskDisplay-Black.woff2",
@@ -24720,7 +24817,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTNightingale-Light.woff2",
@@ -24767,7 +24867,11 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/DTWorldTour-Regular.woff2",
@@ -24816,7 +24920,13 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/FFF_tuoi-tre-Black.woff2",
@@ -24833,7 +24943,13 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/FFF_tuoi-tre-Text.woff2",
@@ -24880,7 +24996,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Light.woff2",
@@ -24896,7 +25017,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-LightItalic.woff2",
@@ -24912,7 +25038,12 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Regular.woff2",
@@ -24929,7 +25060,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Italic.woff2",
@@ -24945,7 +25081,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Medium.woff2",
@@ -24961,7 +25102,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-MediumItalic.woff2",
@@ -24977,7 +25123,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Bold.woff2",
@@ -24993,7 +25144,12 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-BoldItalic.woff2",
@@ -25097,7 +25253,9 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueGothic-Regular.woff2",
@@ -25114,7 +25272,9 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueGothic-Italic.woff2",
@@ -25130,7 +25290,9 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueGothic-Condensed.woff2",
@@ -25146,7 +25308,9 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueGothic-CondensedItalic.woff2",
@@ -25192,7 +25356,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/LeagueScriptNumberOne.woff2",
@@ -25239,7 +25406,13 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paysage-Regular.woff2",
@@ -25256,7 +25429,13 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paysage-Medium.woff2",
@@ -25272,7 +25451,13 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paysage-Bold.woff2",
@@ -25288,7 +25473,13 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Paysage-Black.woff2",
@@ -25406,7 +25597,14 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Perun-VF.woff2",
@@ -25469,7 +25667,14 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Perun-Italic-VF.woff2",
@@ -25555,7 +25760,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraLight.woff2",
@@ -25571,7 +25797,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraLightItalic.woff2",
@@ -25587,7 +25834,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Light.woff2",
@@ -25603,7 +25871,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-LightItalic.woff2",
@@ -25619,7 +25908,28 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Regular.woff2",
@@ -25636,7 +25946,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Italic.woff2",
@@ -25652,7 +25983,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Medium.woff2",
@@ -25668,7 +26020,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-MediumItalic.woff2",
@@ -25684,7 +26057,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-SemiBold.woff2",
@@ -25700,7 +26094,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-SemiBoldItalic.woff2",
@@ -25716,7 +26131,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Bold.woff2",
@@ -25732,7 +26168,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-BoldItalic.woff2",
@@ -25748,7 +26205,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraBold.woff2",
@@ -25764,7 +26242,28 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraBoldItalic.woff2",
@@ -25924,7 +26423,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Standard Ligatures"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Affigere-Regular.woff2",
@@ -25981,7 +26483,22 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Absans-Regular.woff2",
@@ -26097,7 +26614,9 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Bajaderka-Regular.woff2",
@@ -26144,7 +26663,14 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Coconat-Regular.woff2",
@@ -26161,7 +26687,14 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Coconat-Demi.woff2",
@@ -26177,7 +26710,14 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Coconat-Bold.woff2",
@@ -26224,7 +26764,14 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InstrumentSerif-Regular.woff2",
@@ -26241,7 +26788,14 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InstrumentSerif-Italic.woff2",
@@ -26422,7 +26976,30 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Ligatures",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -26492,7 +27069,31 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Historical Ligatures",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Swash",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": false,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -26668,7 +27269,16 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Initial Forms",
+            "Isolated Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-12-24Caption.woff2",
@@ -26684,7 +27294,16 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Initial Forms",
+            "Isolated Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-24-36Subtitle.woff2",
@@ -26700,7 +27319,16 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Initial Forms",
+            "Isolated Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-36-48Title.woff2",
@@ -26717,7 +27345,16 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Initial Forms",
+            "Isolated Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-48-72Header.woff2",
@@ -26733,7 +27370,16 @@
           "isVariable": false,
           "isDefaultStyle": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Initial Forms",
+            "Isolated Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Luperca-72-96Banner.woff2",
@@ -26876,7 +27522,13 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Manosque-Regular.woff2",
@@ -27003,7 +27655,9 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/OpeningHoursMonoVF.woff2",
@@ -27147,7 +27801,12 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/OpeningHoursSans-Regular.woff2",
@@ -27266,7 +27925,26 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PretendardVariable.woff2",
@@ -27471,7 +28149,10 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Zarathustra-Regular.woff2",
@@ -27531,7 +28212,22 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/Akt[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -27730,7 +28426,9 @@
               "default": 200
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Geomini[wght].woff2",
@@ -27823,7 +28521,17 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/GeistPixel[ELSH].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -27988,7 +28696,21 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/Pliant[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -28068,7 +28790,21 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/Pliant-Italic[wdth,wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -28228,7 +28964,24 @@
               "default": 500
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/FinlandicaText[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -28300,7 +29053,24 @@
               "default": 500
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "format": "woff2",
           "url": "/fonts/FinlandicaText-Italic[wght].woff2",
           "uploadedAt": "2026-07-12T20:00:00.000Z",
@@ -28509,7 +29279,20 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/StrichpunktSans[wdth,wght].woff2",
@@ -28588,7 +29371,9 @@
           "isVariable": false,
           "isDefaultStyle": true,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/PirateQuest-Regular.woff2",
@@ -28771,7 +29556,25 @@
               "default": 1
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Capital Spacing",
+            "Kerning",
+            "Alternate I, l and r",
+            "Alternate c and g",
+            "Alternate a, t and y",
+            "Alternate M and m",
+            "Alternate numbers"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -28981,7 +29784,9 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 157,
           "isDefaultStyle": true,
@@ -29045,7 +29850,18 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 568,
           "isDefaultStyle": true,
@@ -29095,7 +29911,23 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Ampersand"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -29198,7 +30030,21 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -29285,7 +30131,21 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -29486,7 +30346,14 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 2549,
           "isDefaultStyle": true,
@@ -29506,7 +30373,14 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 2549,
           "isDefaultStyle": false,
@@ -29525,7 +30399,14 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 2549,
           "isDefaultStyle": false,
@@ -29544,7 +30425,14 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Slashed Zero",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 2549,
           "isDefaultStyle": false,
@@ -29623,7 +30511,16 @@
               "max": 800
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 658,
           "isDefaultStyle": true,
@@ -29697,7 +30594,16 @@
               "max": 800
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Proportional Figures",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 658,
           "isDefaultStyle": false,
@@ -29802,7 +30708,10 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 351,
           "isDefaultStyle": false,
@@ -29821,7 +30730,10 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 357,
           "isDefaultStyle": true,
@@ -30493,7 +31405,10 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 273,
           "isDefaultStyle": true,
@@ -30549,7 +31464,10 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 253,
           "isDefaultStyle": true,
@@ -30603,7 +31521,10 @@
           "isItalic": false,
           "isVariable": false,
           "variableAxes": [],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "glyphCount": 253,
           "isDefaultStyle": true,
@@ -30845,7 +31766,16 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Oldstyle Figures",
+            "Small Capitals",
+            "Tabular Figures",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -30917,7 +31847,16 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Oldstyle Figures",
+            "Small Capitals",
+            "Tabular Figures",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -31802,7 +32741,7 @@
         }
       ],
       "createdAt": "2026-08-29T00:00:00.000Z",
-      "updatedAt": "2026-08-29T00:00:00.000Z",
+      "updatedAt": "2026-10-08T00:00:00.000Z",
       "description": "Scoutie Sans is a warm grotesque by Tyler Finck. The weight axis runs from extra light to extra bold, with a true italic. Nine stylistic sets cover a single-storey a and g, a slashed zero, a straight-leg R, an alternate ampersand and more. A free alternative to Helvetica or Inter for interfaces and text. Latin, Latin Extended and Vietnamese.",
       "licenseInfo": {
         "type": "OFL",
@@ -38638,7 +39577,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-09-21T15:00:00.000Z",
+          "uploadedAt": "2026-10-08T23:00:00.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -38647,8 +39586,8 @@
           "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
         }
       ],
-      "createdAt": "2026-09-22T20:00:00.000Z",
-      "updatedAt": "2026-09-22T20:00:00.000Z",
+      "createdAt": "2026-10-08T23:00:00.000Z",
+      "updatedAt": "2026-10-08T23:00:00.000Z",
       "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
       "licenseInfo": {
         "type": "Free for commercial use",
@@ -38698,7 +39637,18 @@
               "default": 300
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Fractions",
+            "Standard Ligatures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Normal figure"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -38796,7 +39746,17 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -38865,7 +39825,17 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": false,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -38983,7 +39953,9 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39073,7 +40045,9 @@
               "default": 100
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": false,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39178,7 +40152,19 @@
               "default": 200
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Single-storey -a-"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39276,7 +40262,9 @@
               "default": 0
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Ordinals"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39327,7 +40315,9 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39378,7 +40368,10 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Stylistic Alternates",
+            "Kerning"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39386,8 +40379,7 @@
           "familyId": "family_bvllet_1790075385121",
           "url": "/fonts/BVLLET.woff2",
           "originalUrl": "/fonts/BVLLET.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/BVLLET.woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2026-09-22T07:00:00.000Z",
@@ -39428,7 +40420,11 @@
           "styleName": "Medium",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Stylistic Alternates",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39482,7 +40478,31 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Terminal Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 8",
+            "Stylistic Set 9"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39571,7 +40591,14 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Small Capitals"
+          ],
           "openTypeFeatureTags": [],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
@@ -39733,7 +40760,24 @@
               "default": 400
             }
           ],
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Stylistic Alternates",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39824,7 +40868,8 @@
         "Cyrillic",
         "Greek",
         "Vietnamese",
-        "Arabic"
+        "Arabic",
+        "Hebrew"
       ],
       "category": [
         "Serif"
@@ -39841,7 +40886,36 @@
           "styleName": "Regular",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Terminal Forms",
+            "Fractions",
+            "Initial Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Medial Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Capital Spacing",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39874,7 +40948,37 @@
           "styleName": "Italic",
           "isItalic": true,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Terminal Forms",
+            "Fractions",
+            "Initial Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Medial Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Swash",
+            "Tabular Figures",
+            "Capital Spacing",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39907,7 +41011,36 @@
           "styleName": "Bold",
           "isItalic": false,
           "isVariable": false,
-          "openTypeFeatures": [],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Terminal Forms",
+            "Fractions",
+            "Initial Forms",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Medial Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Required Ligatures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Capital Spacing",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4"
+          ],
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -39948,7 +41081,1352 @@
         "Brand Headline"
       ],
       "hasSmallCaps": true
+    },
+    {
+      "name": "Dispater",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Contrast",
+        "Curly",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Decorative"
+      ],
+      "foundry": "Liubov Volkova",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/224982027/Dispater-Free-Font-for-Personal-and-Commercial-Use",
+      "id": "family_dispater_1791480048753",
+      "variants": [
+        {
+          "filename": "Dispater-VF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Alternative Eth"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alternative Eth"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T01:00:00.000Z",
+          "id": "variant_family_dispater_1791480048753_1",
+          "familyId": "family_dispater_1791480048753",
+          "url": "/fonts/Dispater-VF.woff2",
+          "originalUrl": "/fonts/Dispater-VF.ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Dispater-VF.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T01:00:00.000Z",
+      "updatedAt": "2026-10-08T01:00:00.000Z",
+      "description": "A narrow unicase face after Lombardic capitals and dark medieval lettering. The long terminals on T, F, L and Г end in large teardrops, and with a single case the line reads as one winding pattern. A weight axis runs 400 to 700, with ligatures in both Latin and Cyrillic. Type design by Liubov Volkova, art direction by Dmitry Goloub.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Modulord",
+      "collection": "Brutal",
+      "styleTags": [
+        "Modular",
+        "Squared",
+        "Cut"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Artem Grigorev",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/157387195/Modulord-free-font",
+      "id": "family_modulord_1791480048790",
+      "variants": [
+        {
+          "filename": "Modulord-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T02:00:00.000Z",
+          "id": "variant_family_modulord_1791480048790_1",
+          "familyId": "family_modulord_1791480048790",
+          "url": "/fonts/Modulord-Regular.woff2",
+          "originalUrl": "/fonts/Modulord-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Modulord-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T02:00:00.000Z",
+      "updatedAt": "2026-10-08T02:00:00.000Z",
+      "description": "Square forms with pieces missing, after the look of infrastructure and analogue electronics: each letter reads as blocks butted against one another, and the gaps where a stroke should close are the whole idea. Drawn in Illustrator and built in Fontself, Latin and Cyrillic, one weight. Meant for headlines at size, not for text.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/157387195/Modulord-free-font"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "DatCub",
+      "collection": "Brutal",
+      "styleTags": [
+        "Pixel",
+        "Modular",
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Pixel"
+      ],
+      "foundry": "GGBotNet",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://ggbot.itch.io/datcub-font",
+      "id": "family_datcub_1791480048813",
+      "variants": [
+        {
+          "filename": "DatCub-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T03:00:00.000Z",
+          "id": "variant_family_datcub_1791480048813_1",
+          "familyId": "family_datcub_1791480048813",
+          "url": "/fonts/DatCub-Light.woff2",
+          "originalUrl": "/fonts/DatCub-Light.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "DatCub-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T03:00:00.000Z",
+          "id": "variant_family_datcub_1791480048813_2",
+          "familyId": "family_datcub_1791480048813",
+          "url": "/fonts/DatCub-Regular.woff2",
+          "originalUrl": "/fonts/DatCub-Regular.ttf",
+          "format": "woff2"
+        },
+        {
+          "filename": "DatCub-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T03:00:00.000Z",
+          "id": "variant_family_datcub_1791480048813_3",
+          "familyId": "family_datcub_1791480048813",
+          "url": "/fonts/DatCub-Bold.woff2",
+          "originalUrl": "/fonts/DatCub-Bold.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T03:00:00.000Z",
+      "updatedAt": "2026-10-08T03:00:00.000Z",
+      "description": "The square sibling of GGBotNet's DatDot: the same dot-matrix logic, built from square cells instead of round ones. Three weights, Light to Bold, with Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://ggbot.itch.io/datcub-font"
+      },
+      "useCases": [
+        "Tech / Digital",
+        "Poster",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "Fliege Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Inktrap"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Pavel Laptev",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/PavelLaptev/Fliege-mono",
+      "id": "family_fliege_mono_1791480048819",
+      "variants": [
+        {
+          "filename": "FliegeMonoVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "axis": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Required Ligatures"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T04:00:00.000Z",
+          "id": "variant_family_fliege_mono_1791480048819_1",
+          "familyId": "family_fliege_mono_1791480048819",
+          "url": "/fonts/FliegeMonoVF.woff2",
+          "originalUrl": "/fonts/FliegeMonoVF.ttf",
+          "format": "woff2",
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/FliegeMonoVF.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T04:00:00.000Z",
+      "updatedAt": "2026-10-08T04:00:00.000Z",
+      "description": "A monospace by Pavel Laptev that loosens the usual rigidity: ink traps at the joints, and lowercase ascenders that rise slightly above the capitals. Nine weights from Thin to Black on one axis, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/PavelLaptev/Fliege-mono/blob/main/LICENSE.txt"
+      },
+      "useCases": [
+        "Code / Data",
+        "Interface",
+        "Editorial"
+      ]
+    },
+    {
+      "name": "Cakra",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Bauhaus",
+        "Wide"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "OoM Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://oomtype.com/fonts/cakra.php",
+      "id": "family_cakra_1791480048827",
+      "variants": [
+        {
+          "filename": "Cakra-Normal.otf",
+          "weight": 400,
+          "styleName": "Normal",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            },
+            {
+              "tag": "ss02",
+              "title": "Stylistic Set 2"
+            },
+            {
+              "tag": "ss03",
+              "title": "Stylistic Set 3"
+            },
+            {
+              "tag": "ss04",
+              "title": "Stylistic Set 4"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T05:00:00.000Z",
+          "id": "variant_family_cakra_1791480048827_1",
+          "familyId": "family_cakra_1791480048827",
+          "url": "/fonts/Cakra-Normal.woff2",
+          "originalUrl": "/fonts/Cakra-Normal.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Cakra-Normal.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T05:00:00.000Z",
+      "updatedAt": "2026-10-08T05:00:00.000Z",
+      "description": "A geometric display sans by Lucia and Vojtech Kollert of OoM Type. Four stylistic sets, old-style and tabular figures, fractions and discretionary ligatures, and a character set far wider than most display faces: Latin, Cyrillic, Greek and Vietnamese in about 2,300 glyphs.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Brand Headline",
+        "Poster",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Gerhaus",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Bauhaus",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "GGBotNet",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://ggbot.itch.io/gerhaus-font",
+      "id": "family_gerhaus_1791480048844",
+      "variants": [
+        {
+          "filename": "Gerhaus-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Fractions",
+            "Historical Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T06:00:00.000Z",
+          "id": "variant_family_gerhaus_1791480048844_1",
+          "familyId": "family_gerhaus_1791480048844",
+          "url": "/fonts/Gerhaus-Regular.woff2",
+          "originalUrl": "/fonts/Gerhaus-Regular.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T06:00:00.000Z",
+      "updatedAt": "2026-10-08T06:00:00.000Z",
+      "description": "A Bauhaus-style geometric display face from GGBotNet, built from circles and single-weight strokes. It carries historical ligatures, fractions and localised forms, and covers Latin, Cyrillic and Greek in one weight.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://ggbot.itch.io/gerhaus-font"
+      },
+      "useCases": [
+        "Brand Headline",
+        "Poster",
+        "Culture"
+      ]
+    },
+    {
+      "name": "The Crooker",
+      "collection": "Brutal",
+      "styleTags": [
+        "Rounded",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Mitya Vilson",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/195346155/The-Crooker-font",
+      "id": "family_the_crooker_1791480048853",
+      "variants": [
+        {
+          "filename": "Crooker-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T07:00:00.000Z",
+          "id": "variant_family_the_crooker_1791480048853_1",
+          "familyId": "family_the_crooker_1791480048853",
+          "url": "/fonts/Crooker-Regular.woff2",
+          "originalUrl": "/fonts/Crooker-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Crooker-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T07:00:00.000Z",
+      "updatedAt": "2026-10-08T07:00:00.000Z",
+      "description": "Mitya Vilson's take on Comic Sans, which grew out of the signatures he drew on his sketches. Capitals and lowercase stand at the same height but are drawn differently, so mixing cases changes the texture rather than the size. Rounded, a little wobbly, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/195346155/The-Crooker-font"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Handwritten / Script"
+      ]
+    },
+    {
+      "name": "the WEEKEND",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Mitya Vilson",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/186284057/the-WEEKEND-font",
+      "id": "family_the_weekend_1791480048863",
+      "variants": [
+        {
+          "filename": "Weekend-Regular.otf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T08:00:00.000Z",
+          "id": "variant_family_the_weekend_1791480048863_1",
+          "familyId": "family_the_weekend_1791480048863",
+          "url": "/fonts/Weekend-Regular.woff2",
+          "originalUrl": "/fonts/Weekend-Regular.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T08:00:00.000Z",
+      "updatedAt": "2026-10-08T08:00:00.000Z",
+      "description": "A heavy rounded display sans by Mitya Vilson, meant for posters and expressive branding where a word or two carries the layout. One weight, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/186284057/the-WEEKEND-font"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Kucheryavy",
+      "collection": "Display",
+      "styleTags": [
+        "Wavy",
+        "Curly",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Decorative"
+      ],
+      "foundry": "Maria Zaraeva",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://dprofile.ru/case/82550/kucheryavy-font",
+      "id": "family_kucheryavy_1791480048869",
+      "variants": [
+        {
+          "filename": "Kucheryavy-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Small Capitals"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T09:00:00.000Z",
+          "id": "variant_family_kucheryavy_1791480048869_1",
+          "familyId": "family_kucheryavy_1791480048869",
+          "url": "/fonts/Kucheryavy-Regular.woff2",
+          "originalUrl": "/fonts/Kucheryavy-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Kucheryavy-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T09:00:00.000Z",
+      "updatedAt": "2026-10-08T09:00:00.000Z",
+      "description": "Maria Zaraeva's alphabet of curls: strokes coil where a plainer letter would simply end, and the result sets dense and ornamental. She drew two styles, a calmer Regular and a Wavy cut for headlines; this is the Regular. It has real small caps, and covers Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Freeware",
+        "url": "https://dprofile.ru/case/82550/kucheryavy-font"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Defectica",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Cut",
+        "Multi Style"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alina Molchanova, HSE School of Design",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://portfolio.hse.ru/Project/127856",
+      "id": "family_defectica_1791480048875",
+      "variants": [
+        {
+          "filename": "Defectica-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T10:00:00.000Z",
+          "id": "variant_family_defectica_1791480048875_1",
+          "familyId": "family_defectica_1791480048875",
+          "url": "/fonts/Defectica-Regular.woff2",
+          "originalUrl": "/fonts/Defectica-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Defectica-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T10:00:00.000Z",
+      "updatedAt": "2026-10-08T10:00:00.000Z",
+      "description": "Two faces in one file. The lowercase slot holds a clean geometric grotesque; the capital slot holds the same alphabet with its strokes shifted out of joint, so pressing Caps Lock breaks the type rather than enlarging it. Alina Molchanova drew it at the HSE School of Design under Vladimir Anosov. Latin and Cyrillic. The licence asks for a credit: Defectica by Alina Molchanova, HSE School of Design.",
+      "licenseInfo": {
+        "type": "CC BY",
+        "url": "https://portfolio.hse.ru/Project/127856"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "ST-Brigantina",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Vintage",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alexander Shimanov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://shimanov.pro/st-brigantina",
+      "id": "family_st_brigantina_1791480048879",
+      "variants": [
+        {
+          "filename": "STBrigantina-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T11:00:00.000Z",
+          "id": "variant_family_st_brigantina_1791480048879_1",
+          "familyId": "family_st_brigantina_1791480048879",
+          "url": "/fonts/STBrigantina-Regular.woff2",
+          "originalUrl": "/fonts/STBrigantina-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/STBrigantina-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T11:00:00.000Z",
+      "updatedAt": "2026-10-08T11:00:00.000Z",
+      "description": "Alexander Shimanov drew this for Vladimir Krapivin, the Soviet children's writer, and it carries that register: narrow, slightly uneven, the romance of a 1970s adventure paperback. Extended Cyrillic and Latin across twenty-odd languages, with ligatures. The author recommends setting it in lowercase and not in long blocks.",
+      "licenseInfo": {
+        "type": "Free for any use, resale prohibited",
+        "url": "https://shimanov.pro/st-brigantina"
+      },
+      "useCases": [
+        "Culture",
+        "Poster",
+        "Editorial"
+      ]
+    },
+    {
+      "name": "Theater",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Grotesque",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Adrian Jordanov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/102849337/THEATER-FREE-FONT",
+      "id": "family_theater_1791480048886",
+      "variants": [
+        {
+          "filename": "Theater-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T12:00:00.000Z",
+          "id": "variant_family_theater_1791480048886_1",
+          "familyId": "family_theater_1791480048886",
+          "url": "/fonts/Theater-Bold.woff2",
+          "originalUrl": "/fonts/Theater-Bold.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Theater-Bold.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T12:00:00.000Z",
+      "updatedAt": "2026-10-08T12:00:00.000Z",
+      "description": "A condensed bold grotesque by Adrian Jordanov, drawn mainly for posters and social media. One weight, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/102849337/THEATER-FREE-FONT"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "Mephisto",
+      "collection": "Display",
+      "styleTags": [
+        "Modern",
+        "Sharp",
+        "Narrow",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Daniel Ripli",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "/fonts/Mephisto-Regular.otf",
+      "id": "family_mephisto_1791480614548",
+      "variants": [
+        {
+          "filename": "Mephisto-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Stylistic Alternates",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T13:00:00.000Z",
+          "id": "variant_family_mephisto_1791480614548_1",
+          "familyId": "family_mephisto_1791480614548",
+          "url": "/fonts/Mephisto-Regular.woff2",
+          "originalUrl": "/fonts/Mephisto-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Mephisto-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T13:00:00.000Z",
+      "updatedAt": "2026-10-08T13:00:00.000Z",
+      "description": "A condensed display serif named after Goethe's Mephistopheles: high contrast, razor-sharp serifs and pointed terminals. It has a single case, so lowercase input sets in capitals. Latin and Cyrillic, released by Daniel Ripli under CC BY 4.0, which asks for a credit to the author.",
+      "licenseInfo": {
+        "type": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "TOYZ",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "2DFUNS",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/152669957/FUNNY-FONTS-COLLECTION",
+      "id": "family_toyz_1791480614570",
+      "variants": [
+        {
+          "filename": "TOYZ-Regular.ttf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T14:00:00.000Z",
+          "id": "variant_family_toyz_1791480614570_1",
+          "familyId": "family_toyz_1791480614570",
+          "url": "/fonts/TOYZ-Regular.woff2",
+          "originalUrl": "/fonts/TOYZ-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/TOYZ-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T14:00:00.000Z",
+      "updatedAt": "2026-10-08T14:00:00.000Z",
+      "description": "A chunky cartoon face from 2DFUNS, drawn for children's books, game interfaces and toy-like branding. Heavy rounded letters that sit at one height, one weight, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/152669957/FUNNY-FONTS-COLLECTION"
+      },
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "Foglihten No.06",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Semi Serif"
+      ],
+      "foundry": "gluk",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.glukfonts.pl/font.php?font=FoglihtenNo06",
+      "id": "family_foglihten_no.06_1791480614581",
+      "variants": [
+        {
+          "filename": "FoglihtenNo06-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T15:00:00.000Z",
+          "id": "variant_family_foglihten_no.06_1791480614581_1",
+          "familyId": "family_foglihten_no.06_1791480614581",
+          "url": "/fonts/FoglihtenNo06-Regular.woff2",
+          "originalUrl": "/fonts/FoglihtenNo06-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/FoglihtenNo06-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T15:00:00.000Z",
+      "updatedAt": "2026-10-08T15:00:00.000Z",
+      "description": "A high-contrast display face from the Polish designer gluk. It is unicase in spirit: most letters are capitals, but a few lowercase shapes such as a and e stand among them at cap height, and some letters carry serifs while others do not. Still marked as a work in progress (version 0.76). Latin and Cyrillic, under the OFL.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Flanker Steampunk",
+      "collection": "Text",
+      "styleTags": [
+        "Modern",
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Leonardo Di Lena, Alexey Kryukov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.studiodilena.com/en/steampunk_font.html",
+      "id": "family_flanker_steampunk_1791480614588",
+      "variants": [
+        {
+          "filename": "FlankerSteampunk-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T16:00:00.000Z",
+          "id": "variant_family_flanker_steampunk_1791480614588_1",
+          "familyId": "family_flanker_steampunk_1791480614588",
+          "url": "/fonts/FlankerSteampunk-Regular.woff2",
+          "originalUrl": "/fonts/FlankerSteampunk-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/FlankerSteampunk-Regular.woff2"
+        },
+        {
+          "filename": "FlankerSteampunk-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T16:00:00.000Z",
+          "id": "variant_family_flanker_steampunk_1791480614588_2",
+          "familyId": "family_flanker_steampunk_1791480614588",
+          "url": "/fonts/FlankerSteampunk-Italic.woff2",
+          "originalUrl": "/fonts/FlankerSteampunk-Italic.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "FlankerSteampunk-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T16:00:00.000Z",
+          "id": "variant_family_flanker_steampunk_1791480614588_3",
+          "familyId": "family_flanker_steampunk_1791480614588",
+          "url": "/fonts/FlankerSteampunk-Bold.woff2",
+          "originalUrl": "/fonts/FlankerSteampunk-Bold.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T16:00:00.000Z",
+      "updatedAt": "2026-10-08T16:00:00.000Z",
+      "description": "Leonardo Di Lena's reworking of Old Standard, Alexey Kryukov's revival of the modern-classicistic serif that filled late nineteenth-century books and was dropped in the twentieth. He redrew most of the letters, converted the outlines to PostScript curves and extended the set with Latin Extended, Greek, Cyrillic and mathematical symbols. Regular, Italic and Bold.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://scripts.sil.org/OFL"
+      },
+      "useCases": [
+        "Editorial",
+        "Culture",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "Badeen Display",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Arabic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Hani Adnan",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/haniadnansd/Badeen-Display",
+      "id": "family_badeen_display_1791480614603",
+      "variants": [
+        {
+          "filename": "BadeenDisplay-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Terminal Forms",
+            "Initial Forms",
+            "Localized Forms",
+            "Medial Forms",
+            "Ordinals",
+            "Required Ligatures",
+            "Small Capitals"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T17:00:00.000Z",
+          "id": "variant_family_badeen_display_1791480614603_1",
+          "familyId": "family_badeen_display_1791480614603",
+          "url": "/fonts/BadeenDisplay-Regular.woff2",
+          "originalUrl": "/fonts/BadeenDisplay-Regular.ttf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T17:00:00.000Z",
+      "updatedAt": "2026-10-08T17:00:00.000Z",
+      "description": "A retro display face drawn from youth and Arab pop culture. The strokes swing between thick and thin and the edges between soft and hard, which is unusual for Arabic type and gives the face its loud, youthful character. Arabic and Latin, with initial, medial and final forms and small caps.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/haniadnansd/Badeen-Display/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Ramp",
+      "collection": "Display",
+      "styleTags": [
+        "Slab",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Ksenia Bakushkina, HSE Art and Design School",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/142732557/Ramp-Free-Display-Font",
+      "id": "family_ramp_1791480614607",
+      "variants": [
+        {
+          "filename": "Ramp-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T18:00:00.000Z",
+          "id": "variant_family_ramp_1791480614607_1",
+          "familyId": "family_ramp_1791480614607",
+          "url": "/fonts/Ramp-Regular.woff2",
+          "originalUrl": "/fonts/Ramp-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Ramp-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T18:00:00.000Z",
+      "updatedAt": "2026-10-08T18:00:00.000Z",
+      "description": "A display serif built on skateboarding: every letter takes the silhouette of a ramp, the springboard riders launch from, so the serifs curve up like a skate bowl. Ksenia Bakushkina drew it at the HSE Art and Design School. One weight, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/142732557/Ramp-Free-Display-Font"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Slinkee",
+      "collection": "Display",
+      "styleTags": [
+        "Curly",
+        "Wavy",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Decorative"
+      ],
+      "foundry": "Kimchi Lee",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.kimchilee.me/slinkee-typeface/",
+      "id": "family_slinkee_1791480614610",
+      "variants": [
+        {
+          "filename": "Slinkee-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T19:00:00.000Z",
+          "id": "variant_family_slinkee_1791480614610_1",
+          "familyId": "family_slinkee_1791480614610",
+          "url": "/fonts/Slinkee-Regular.woff2",
+          "originalUrl": "/fonts/Slinkee-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Slinkee-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T19:00:00.000Z",
+      "updatedAt": "2026-10-08T19:00:00.000Z",
+      "description": "Letters drawn after the bounce of a Slinky toy: monoline loops that coil and spring back, from an experimental phase in Kimchi Lee's work. A small Latin set without accents, under the OFL.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://www.kimchilee.me/slinkee-typeface/"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Experimental"
+      ]
+    },
+    {
+      "name": "PVF Survivor",
+      "collection": "Display",
+      "styleTags": [
+        "Stencil",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Petros Vasiadis",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://cynfonts.blogspot.com/2020/06/free-survivor-geometric-sans-stencil.html",
+      "id": "family_pvf_survivor_1791480614612",
+      "variants": [
+        {
+          "filename": "PVFSurvivor-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T19:30:00.000Z",
+          "id": "variant_family_pvf_survivor_1791480614612_1",
+          "familyId": "family_pvf_survivor_1791480614612",
+          "url": "/fonts/PVFSurvivor-Light.woff2",
+          "originalUrl": "/fonts/PVFSurvivor-Light.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "PVFSurvivor-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-08T19:30:00.000Z",
+          "id": "variant_family_pvf_survivor_1791480614612_2",
+          "familyId": "family_pvf_survivor_1791480614612",
+          "url": "/fonts/PVFSurvivor-Regular.woff2",
+          "originalUrl": "/fonts/PVFSurvivor-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/PVFSurvivor-Regular.woff2"
+        },
+        {
+          "filename": "PVFSurvivor-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-08T19:30:00.000Z",
+          "id": "variant_family_pvf_survivor_1791480614612_3",
+          "familyId": "family_pvf_survivor_1791480614612",
+          "url": "/fonts/PVFSurvivor-Bold.woff2",
+          "originalUrl": "/fonts/PVFSurvivor-Bold.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-08T19:30:00.000Z",
+      "updatedAt": "2026-10-08T19:30:00.000Z",
+      "description": "A geometric stencil sans from the Athens designer Petros Vasiadis, published through his CYN Fonts under CC BY 4.0. Light, Regular and Bold, with Greek alongside Latin.",
+      "licenseInfo": {
+        "type": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Tech / Digital"
+      ]
     }
   ],
-  "lastUpdated": "2026-09-22T11:18:05.271160Z"
+  "lastUpdated": "2026-10-08T17:34:49.246531Z"
 }
