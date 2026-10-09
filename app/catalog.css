@@ -294,8 +294,10 @@
 .v2-card-reveal {
   /* Every family is in the DOM at once, so the browser laid out all 207 cards
      and therefore counted all 207 webfonts as used — scrolling a third of the
-     list fetched the whole 16MB. Skipping layout for what is off-screen means
-     a font is fetched when its card is actually near the viewport.
+     list fetched the whole 16MB. Skipping layout for what is off-screen keeps
+     scrolling cheap, but it does not hold fonts back: the first frame lays out
+     every card before the browser knows which are off-screen, and that frame
+     alone fetched 238 fonts. Fonts are held back by isNear in FontCard.
 
      No entry animation here any more. Leaving the viewport puts a card back
      into skipped content, and coming back re-runs its animations from the

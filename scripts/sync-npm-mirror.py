@@ -119,6 +119,18 @@ def main():
         copy["variants"] = variants
         out.append(copy)
 
+    # A family taken off the site has to leave the package too, or its file
+    # ships forever: ST-Brigantina and the WEEKEND stayed in fonts/ after
+    # both were removed from the catalogue.
+    referenced = {os.path.basename(v["url"]) for f in out for v in f["variants"]}
+    orphans = sorted(
+        n for n in (os.listdir(PKG_FONTS) if os.path.isdir(PKG_FONTS) else [])
+        if n.lower().endswith((".woff2", ".woff", ".ttf", ".otf")) and n not in referenced
+    )
+    if orphans and not dry_run:
+        for n in orphans:
+            os.remove(os.path.join(PKG_FONTS, n))
+
     payload = {"families": out, "lastUpdated": site.get("lastUpdated")}
     before = len(json.load(open(PKG_DATA, encoding="utf-8"))["families"]) if os.path.exists(PKG_DATA) else 0
 
@@ -128,6 +140,9 @@ def main():
 
     print(f"families {before} -> {len(out)}")
     print("font files: " + ", ".join(f"{v} {k}" for k, v in sorted(actions.items())))
+    if orphans:
+        verb = "would remove" if dry_run else "removed"
+        print(f"{verb} {len(orphans)} files no family uses: " + ", ".join(orphans[:10]))
     if missing:
         print(f"\n{len(missing)} variants had no source file and were dropped:")
         for m in missing[:10]:

@@ -133,6 +133,10 @@ type EffectiveStyleValue = {
 const CASE_MODES = ['Default', 'Uppercase', 'Lowercase', 'Small caps'] as const
 type CaseMode = typeof CASE_MODES[number]
 
+// Cards rendered with their own face before any script runs, so the first
+// screen paints in the right fonts. Everything below waits for the observer.
+const EAGER_CARDS = 4
+
 export default function CatalogPage({ initialFonts, initialFilters }: { initialFonts: FontData[], initialFilters?: InitialFilters }) {
   const toArr = (v: string | string[] | undefined) => v ? (Array.isArray(v) ? v : [v]) : []
   // UI State
@@ -148,6 +152,11 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   // skeleton branch it guards stays as a defensive no-op.
   const isLoadingFonts = initialFonts.length === 0
   const [loadedFonts, setLoadedFonts] = useState<Set<number>>(new Set())
+  // Cards that have come near the viewport. Only these name their webfont;
+  // the rest set in the system face. content-visibility alone was not enough:
+  // the browser lays out every card on the first frame, before it knows which
+  // are off-screen, and fetched all 238 fonts (6.8MB) for a page showing three.
+  const [nearFonts, setNearFonts] = useState<Set<number>>(new Set())
   const [animatedFonts, setAnimatedFonts] = useState<Set<number>>(new Set()) // Track fonts that have been animated once
   const [customText, setCustomText] = useState("")
   // What is being typed right now, and where. Committing a letter to
@@ -1257,6 +1266,17 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
     const reveal = (id: number) => setLoadedFonts(prev => new Set(prev).add(id))
     const observer = new IntersectionObserver((entries) => {
+      const near = entries
+        .filter(e => e.isIntersecting)
+        .map(e => Number((e.target as HTMLElement).dataset.cardId))
+      if (near.length) {
+        setNearFonts(prev => {
+          if (near.every(id => prev.has(id))) return prev
+          const next = new Set(prev)
+          near.forEach(id => next.add(id))
+          return next
+        })
+      }
       for (const entry of entries) {
         if (!entry.isIntersecting) continue
         const fontId = Number((entry.target as HTMLElement).dataset.cardId)
@@ -1274,7 +1294,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
           reveal(font.id)
         }
       }
-    }, { rootMargin: '400px 0px', threshold: 0 })
+      // The list scrolls inside <main>, not the window. With the viewport as
+      // root the margin never applied: <main> clips every card below the fold,
+      // so nothing counted as near until it was already on screen.
+    }, { root: mainRef.current, rootMargin: '800px 0px', threshold: 0 })
 
     fontObserverRef.current = observer
     document.querySelectorAll('[data-card-id]').forEach(el => {
@@ -1492,6 +1515,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   caseMode={caseMode}
                   isEditing={focusedFontId === font.id}
                   isLoaded={loadedFonts.has(font.id)}
+                  isNear={idx < EAGER_CARDS || nearFonts.has(font.id)}
                   isAnimated={animatedFonts.has(font.id)}
                   isExpanded={expandedCards.has(font.id)}
                   previewContent={getPreviewContent(font.name, font.id)}

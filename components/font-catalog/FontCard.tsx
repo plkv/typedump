@@ -82,6 +82,9 @@ export interface FontCardProps {
   isMobile: boolean
   fontSelection: { weight: number; italic: boolean; cssFamily?: string; styleName?: string }
   isLoaded: boolean
+  /** Near the viewport. Until then the specimen sets in the system face, so
+   *  the browser has no reason to fetch this card's font. */
+  isNear: boolean
   isAnimated: boolean
   isExpanded: boolean
   /** The caret is in this card's preview, so the hint about publishing applies. */
@@ -116,7 +119,7 @@ export interface FontCardProps {
 // ─── Component ───────────────────────────────────────────────────────────────
 
 function FontCardImpl({
-  font, isMobile, fontSelection, isLoaded, isAnimated, isExpanded, isEditing = false,
+  font, isMobile, fontSelection, isLoaded, isNear, isAnimated, isExpanded, isEditing = false,
   previewContent, alternatesMode, cursorPosition, otFeatures, variableAxesState,
   styleAlternates, variableAxesDef, effectiveStyle,
   textSize, lineHeight, textAlign, caseMode = 'Default',
@@ -138,6 +141,11 @@ function FontCardImpl({
   const previewFamily =
     fontSelection.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
   const [fontReady, setFontReady] = useState(true)
+  const specimenFamily = !isNear
+    ? 'system-ui, sans-serif'
+    : fontSelection.cssFamily
+      ? `"${fontSelection.cssFamily}", system-ui, sans-serif`
+      : font.fontFamily
 
   // Whether the card has anything that opens below the specimen. Only such a
   // card can have the editing hint land on top of something, and only such a
@@ -146,6 +154,9 @@ function FontCardImpl({
 
   useEffect(() => {
     if (!previewFamily || typeof document === 'undefined' || !document.fonts) return
+    // A card that is not near is off-screen and not asking for its font; a
+    // shimmer there would only be three hundred timers and re-renders at load.
+    if (!isNear) { setFontReady(true); return }
     // Read FontFace.status directly rather than document.fonts.check(): check()
     // answers "would this family be used", which is true the moment the
     // @font-face is declared, loaded or not — measured returning true for a
@@ -154,8 +165,8 @@ function FontCardImpl({
     // And status only, never load(). Asking to load would start fetching all
     // 207 faces the moment the cards mount, which is the 16MB this catalogue
     // was pulled back from — the browser fetches a face when rendered content
-    // actually uses it, and content-visibility keeps off-screen cards out of
-    // that.
+    // actually uses it, and a card only names its face once it is near (see
+    // isNear).
     const recheck = () => {
       let declared = false
       let loaded = false
@@ -170,7 +181,7 @@ function FontCardImpl({
     }
     recheck()
     return onFontsChanged(recheck)
-  }, [previewFamily, textSize])
+  }, [previewFamily, textSize, isNear])
 
   // The shimmer waits before it appears and stays a beat once it has. A cut
   // preview lands in about 76ms, so tying the sweep straight to `fontReady`
@@ -324,9 +335,7 @@ function FontCardImpl({
         {/* ── Preview ── */}
         {alternatesMode ? (() => {
           const sharedFont: React.CSSProperties = {
-            fontFamily: fontSelection.cssFamily
-              ? `"${fontSelection.cssFamily}", system-ui, sans-serif`
-              : font.fontFamily,
+            fontFamily: specimenFamily,
             fontWeight: effectiveStyle.weight,
             fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
             fontVariationSettings: getFontVariationSettings(effectiveStyle.variableAxes),
@@ -398,9 +407,7 @@ function FontCardImpl({
               lineHeight: `${lineHeight}%`,
               paddingTop: `${textSize * 0.2}px`,
               paddingBottom: `${textSize * 0.2}px`,
-              fontFamily: fontSelection.cssFamily
-                ? `"${fontSelection.cssFamily}", system-ui, sans-serif`
-                : font.fontFamily,
+              fontFamily: specimenFamily,
               fontWeight: effectiveStyle.weight,
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
               color: 'var(--gray-cont-prim)',
@@ -427,7 +434,11 @@ function FontCardImpl({
           const tags: Array<{ kind: 'collection' | 'category' | 'style'; value: string }> = [
             { kind: 'collection', value: font.collection },
             ...(font.categories || []).map(v => ({ kind: 'category' as const, value: v })),
-            ...(font.styleTags || []).map(v => ({ kind: 'style' as const, value: v })),
+            // Pixel is both a category and a style tag; a family filed under
+            // both showed the same word twice on its card.
+            ...(font.styleTags || [])
+              .filter(v => !(font.categories || []).includes(v))
+              .map(v => ({ kind: 'style' as const, value: v })),
           ]
           if (!tags.length) return null
           return (
@@ -565,6 +576,7 @@ export const FontCard = memo(FontCardImpl, (a, b) =>
   a.isMobile === b.isMobile &&
   a.fontSelection === b.fontSelection &&
   a.isLoaded === b.isLoaded &&
+  a.isNear === b.isNear &&
   a.isAnimated === b.isAnimated &&
   a.isExpanded === b.isExpanded &&
   a.isEditing === b.isEditing &&

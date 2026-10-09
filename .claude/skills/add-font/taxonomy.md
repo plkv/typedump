@@ -69,14 +69,18 @@ literally grotesque: protruding elements on the `a`, a little curlier.
   are high-contrast fatfaces and both are Sans.
 - `Futura` — Futura-like geometric sans. `Geometry` — geometric generally.
 - `Gill` — Gill-like humanist sharp grotesque.
-- `Inktrap` — notches at the stroke junctions.
+- `Inktrap` — notches at the stroke junctions. Never `Text`: an ink trap is
+  a display device, so the family goes to `Display` (Stas, 09.10.2026, on
+  Fliege Mono).
 - `Low Poly` — low-polygon roundings.
 - `Modular` — assembled from modules, usually geometric or brutal.
 - `Multi Style` — several styles at once within one family. Two words.
 - `Narrow` / `Wide` — narrower or wider than usual.
 - `Neutral` — improved legibility, minimal character, good for text.
 - `New Face` — neutral geometry without grotesque play, Inter-like.
-- `Pixel` — pixelised glyphs in some styles. Always Display or Brutal.
+- `Pixel` — pixelised glyphs in some styles. Always Display or Brutal. When
+  the category is already `Pixel`, the tag adds nothing; the card hides the
+  repeat, but do not add it.
 - `Rounded` — the stroke **end** is rounded. About terminals, not geometry.
 - `Sharp` — pointed, triangular terminals or serifs.
 - `Squared` — squared-off letters, usually Display or Brutal.

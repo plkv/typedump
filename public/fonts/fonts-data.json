@@ -5251,7 +5251,7 @@
     },
     {
       "name": "N27",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Inktrap",
         "Tech",
@@ -7626,7 +7626,7 @@
     },
     {
       "name": "Space Mono",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Inktrap",
         "Tech"
@@ -38182,7 +38182,8 @@
       "styleTags": [
         "Contrast",
         "Wavy",
-        "Curly"
+        "Curly",
+        "Inktrap"
       ],
       "languages": [
         "Latin",
@@ -40122,7 +40123,8 @@
       "collection": "Text",
       "styleTags": [
         "Neutral",
-        "Humanist"
+        "Humanist",
+        "Tech"
       ],
       "languages": [
         "Latin"
@@ -41087,6 +41089,7 @@
       "name": "Dispater",
       "collection": "Display",
       "styleTags": [
+        "Modern",
         "Narrow",
         "Contrast",
         "Curly",
@@ -41097,7 +41100,8 @@
         "Cyrillic"
       ],
       "category": [
-        "Decorative"
+        "Decorative",
+        "Serif"
       ],
       "foundry": "Liubov Volkova",
       "isVariable": true,
@@ -41254,7 +41258,6 @@
       "name": "DatCub",
       "collection": "Brutal",
       "styleTags": [
-        "Pixel",
         "Modular",
         "Squared"
       ],
@@ -41335,9 +41338,8 @@
     },
     {
       "name": "Fliege Mono",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
-        "Neutral",
         "Inktrap"
       ],
       "languages": [
@@ -41597,6 +41599,7 @@
       "name": "The Crooker",
       "collection": "Brutal",
       "styleTags": [
+        "Handwritten",
         "Rounded",
         "Curly"
       ],
@@ -41605,7 +41608,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans"
+        "Script"
       ],
       "foundry": "Mitya Vilson",
       "isVariable": false,
@@ -41647,60 +41650,8 @@
       ]
     },
     {
-      "name": "the WEEKEND",
-      "collection": "Display",
-      "styleTags": [
-        "Rounded",
-        "Fatface"
-      ],
-      "languages": [
-        "Latin",
-        "Cyrillic"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Mitya Vilson",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://www.behance.net/gallery/186284057/the-WEEKEND-font",
-      "id": "family_the_weekend_1791480048863",
-      "variants": [
-        {
-          "filename": "Weekend-Regular.otf",
-          "weight": 700,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-10-08T08:00:00.000Z",
-          "id": "variant_family_the_weekend_1791480048863_1",
-          "familyId": "family_the_weekend_1791480048863",
-          "url": "/fonts/Weekend-Regular.woff2",
-          "originalUrl": "/fonts/Weekend-Regular.otf",
-          "format": "woff2"
-        }
-      ],
-      "createdAt": "2026-10-08T08:00:00.000Z",
-      "updatedAt": "2026-10-08T08:00:00.000Z",
-      "description": "A heavy rounded display sans by Mitya Vilson, meant for posters and expressive branding where a word or two carries the layout. One weight, Latin and Cyrillic.",
-      "licenseInfo": {
-        "type": "Free for personal and commercial use",
-        "url": "https://www.behance.net/gallery/186284057/the-WEEKEND-font"
-      },
-      "useCases": [
-        "Poster",
-        "Brand Headline",
-        "Culture"
-      ]
-    },
-    {
       "name": "Kucheryavy",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Wavy",
         "Curly",
@@ -41758,7 +41709,7 @@
     },
     {
       "name": "Defectica",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Geometry",
         "Cut",
@@ -41808,62 +41759,6 @@
         "Poster",
         "Brand Headline",
         "Experimental"
-      ]
-    },
-    {
-      "name": "ST-Brigantina",
-      "collection": "Display",
-      "styleTags": [
-        "Narrow",
-        "Vintage",
-        "Curly"
-      ],
-      "languages": [
-        "Latin",
-        "Cyrillic"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Alexander Shimanov",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://shimanov.pro/st-brigantina",
-      "id": "family_st_brigantina_1791480048879",
-      "variants": [
-        {
-          "filename": "STBrigantina-Regular.otf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Discretionary Ligatures",
-            "Standard Ligatures",
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-10-08T11:00:00.000Z",
-          "id": "variant_family_st_brigantina_1791480048879_1",
-          "familyId": "family_st_brigantina_1791480048879",
-          "url": "/fonts/STBrigantina-Regular.woff2",
-          "originalUrl": "/fonts/STBrigantina-Regular.otf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/STBrigantina-Regular.woff2"
-        }
-      ],
-      "createdAt": "2026-10-08T11:00:00.000Z",
-      "updatedAt": "2026-10-08T11:00:00.000Z",
-      "description": "Alexander Shimanov drew this for Vladimir Krapivin, the Soviet children's writer, and it carries that register: narrow, slightly uneven, the romance of a 1970s adventure paperback. Extended Cyrillic and Latin across twenty-odd languages, with ligatures. The author recommends setting it in lowercase and not in long blocks.",
-      "licenseInfo": {
-        "type": "Free for any use, resale prohibited",
-        "url": "https://shimanov.pro/st-brigantina"
-      },
-      "useCases": [
-        "Culture",
-        "Poster",
-        "Editorial"
       ]
     },
     {
@@ -41980,6 +41875,7 @@
       "name": "TOYZ",
       "collection": "Display",
       "styleTags": [
+        "Handwritten",
         "Rounded",
         "Fatface"
       ],
@@ -41988,7 +41884,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans"
+        "Script"
       ],
       "foundry": "2DFUNS",
       "isVariable": false,
@@ -42241,7 +42137,7 @@
     },
     {
       "name": "Ramp",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Slab",
         "Curly"
@@ -42294,11 +42190,10 @@
     },
     {
       "name": "Slinkee",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Curly",
-        "Wavy",
-        "Rounded"
+        "Wavy"
       ],
       "languages": [
         "Latin"
@@ -42347,10 +42242,11 @@
     },
     {
       "name": "PVF Survivor",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Stencil",
-        "Geometry"
+        "Geometry",
+        "Modular"
       ],
       "languages": [
         "Latin",
@@ -42486,189 +42382,10 @@
       "npmMirror": false
     },
     {
-      "name": "Vremena Grotesk",
-      "collection": "Text",
-      "styleTags": [
-        "Grotesque",
-        "Neutral"
-      ],
-      "languages": [
-        "Latin",
-        "Cyrillic"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "abstrkt",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://www.fontspring.com/fonts/abstrkt/vremena",
-      "id": "family_vremena_grotesk_1791549198542",
-      "variants": [
-        {
-          "filename": "VremenaGrotesk-Book.woff2",
-          "weight": 300,
-          "styleName": "Book",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_1",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-Book.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-Book.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-BookItalic.woff2",
-          "weight": 300,
-          "styleName": "Book Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_2",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-BookItalic.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-BookItalic.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-Regular.woff2",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_3",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-Regular.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-Regular.woff2",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/VremenaGrotesk-Regular.woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-Italic.woff2",
-          "weight": 400,
-          "styleName": "Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_4",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-Italic.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-Italic.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-Medium.woff2",
-          "weight": 500,
-          "styleName": "Medium",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_5",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-Medium.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-Medium.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-MediumItalic.woff2",
-          "weight": 500,
-          "styleName": "Medium Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_6",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-MediumItalic.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-MediumItalic.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-Bold.woff2",
-          "weight": 700,
-          "styleName": "Bold",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_7",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-Bold.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-Bold.woff2",
-          "format": "woff2"
-        },
-        {
-          "filename": "VremenaGrotesk-BoldItalic.woff2",
-          "weight": 700,
-          "styleName": "Bold Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-10-09T02:00:00.000Z",
-          "id": "variant_family_vremena_grotesk_1791549198542_8",
-          "familyId": "family_vremena_grotesk_1791549198542",
-          "url": "/fonts/VremenaGrotesk-BoldItalic.woff2",
-          "originalUrl": "/fonts/VremenaGrotesk-BoldItalic.woff2",
-          "format": "woff2"
-        }
-      ],
-      "createdAt": "2026-10-09T02:00:00.000Z",
-      "updatedAt": "2026-10-09T02:00:00.000Z",
-      "description": "A plain neo-grotesque from the Moscow studio abstrkt, released in 2009 and free on Fontspring under its Worry-Free licence, which covers desktop, web, apps and ebooks. Four weights from Book to Bold, each with an italic, Latin and Cyrillic.",
-      "licenseInfo": {
-        "type": "Fontspring Worry-Free",
-        "url": "https://www.fontspring.com/fonts/abstrkt/vremena"
-      },
-      "useCases": [
-        "Editorial",
-        "Interface",
-        "Brand Headline"
-      ],
-      "npmMirror": false
-    },
-    {
       "name": "Comic Helvetic",
       "collection": "Display",
       "styleTags": [
+        "Handwritten",
         "Rounded",
         "Curly"
       ],
@@ -42677,7 +42394,7 @@
         "Cyrillic"
       ],
       "category": [
-        "Sans"
+        "Script"
       ],
       "foundry": "Alexander Pravdin",
       "isVariable": false,
@@ -42915,7 +42632,7 @@
     },
     {
       "name": "Kontrabanda",
-      "collection": "Brutal",
+      "collection": "Display",
       "styleTags": [
         "Handwritten"
       ],

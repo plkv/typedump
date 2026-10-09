@@ -604,7 +604,9 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               const tags = [
                 ...(family.collection ? [{ label: family.collection, param: 'collection' }] : []),
                 ...(family.category || []).map(c => ({ label: c, param: 'category' })),
-                ...(family.styleTags || []).map(s => ({ label: s, param: 'style' })),
+                ...(family.styleTags || [])
+                  .filter(s => !(family.category || []).includes(s))
+                  .map(s => ({ label: s, param: 'style' })),
               ]
               if (!tags.length) return null
               return (
