@@ -702,10 +702,10 @@
   transition: transform 0.2s ease-out;
 }
 
-/* A 40px frame, blurred — only for a clip that is actually downloading.
-   HeroReel asks the HTTP cache first and adds .is-waiting on a miss, so a clip
-   already on disk appears at once instead of being blurred and faded in on
-   every visit. */
+/* A 40px frame, blurred — only for a clip that is actually downloading, or
+   coming back after HeroReel unloaded it. HeroReel asks the HTTP cache first
+   and adds .is-waiting on a miss, so a clip already on disk appears at once
+   instead of being blurred and faded in on every visit. */
 .hero-reel-poster {
   position: absolute;
   inset: 0;

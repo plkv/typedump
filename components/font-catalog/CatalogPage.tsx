@@ -1444,7 +1444,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
               <div className="hero-main-copy hero-copy-reveal">
                 {/* Two paragraphs: what the catalogue is, then what you can do
                     in it. Five had broken the column into fragments; one was a
-                    wall. */}
+                    wall. The credit line stands apart after them. */}
                 <p className="catalog-hero-text">
                   <span className="hero-name">TypeDump</span> — a curated index of open-source
                   typefaces, hand-picked for designers, vibe coders, and developers. Text fonts
@@ -1455,7 +1455,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   Type designers put more into a font than most apps ever show: variable axes,
                   alternate letterforms, ligatures, whole scripts. You can try all of it here, in
                   the browser.
-                  <br />
+                </p>
+                <p className="catalog-hero-text">
                   Totally free. Curated by{' '}
                   <a
                     className="hero-muted hero-credit-link"

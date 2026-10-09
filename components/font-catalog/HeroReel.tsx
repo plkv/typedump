@@ -101,6 +101,8 @@ const GAP = 8
 const AUTO_DRIFT = -0.4 // px per 60fps frame, as on plkv.works
 const FRICTION = 0.95
 const CLICK_SLOP = 5
+// How long the hero may stay out of sight before its clips are unloaded.
+const UNLOAD_AFTER_MS = 15000
 
 const canHover = () =>
   typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches
@@ -158,14 +160,42 @@ export function HeroReel() {
     return () => q.removeEventListener("change", sync)
   }, [])
 
+  // Where each cell sits along the track, unshifted, and the length of the
+  // whole strip — every copy of the set laid end to end.
+  const lefts = useRef<number[]>([])
+  const shifts = useRef<number[]>([])
+  const total = useRef(1)
+
+  // The offset only needs to stay a manageable number: a shift of a whole
+  // strip puts every cell back on the same spot, so nothing moves.
   const wrap = useCallback((x: number) => {
-    const p = period.current || 1
-    const m = x % p
-    return m > 0 ? m - p : m
+    const t = total.current || 1
+    const m = x % t
+    return m > 0 ? m - t : m
   }, [])
 
+  // The track moves as one, and each cell that slides out past the left edge
+  // is carried, on its own, to the far end of the strip, out of sight on the
+  // right. Moving the whole track back by a set instead put other copies of
+  // the clips on screen at once — copies that had been far off, paused or not
+  // yet loaded — and the row blinked until they caught up.
   const paint = useCallback(() => {
-    if (trackRef.current) trackRef.current.style.transform = `translate3d(${offset.current}px,0,0)`
+    const track = trackRef.current
+    if (!track) return
+    const x = offset.current
+    track.style.transform = `translate3d(${x}px,0,0)`
+    const t = total.current
+    const lead = period.current
+    const cells = track.children as HTMLCollectionOf<HTMLElement>
+    for (let i = 0; i < lefts.current.length && i < cells.length; i++) {
+      const shift = -Math.floor((lefts.current[i] + x + lead) / t) * t
+      if (shift !== shifts.current[i]) {
+        shifts.current[i] = shift
+        // The individual translate property, not transform: transform is the
+        // hover tilt's.
+        cells[i].style.translate = shift ? `${shift}px 0` : ""
+      }
+    }
   }, [])
 
   // Cells carry their aspect ratio in CSS, so one set's width is known as soon
@@ -174,13 +204,21 @@ export function HeroReel() {
     const vp = viewportRef.current
     const track = trackRef.current
     if (!vp || !track) return
-    const first = (Array.from(track.children) as HTMLElement[]).slice(0, N)
-    const p = first.reduce((s, c) => s + c.offsetWidth + GAP, 0)
+    const cells = Array.from(track.children) as HTMLElement[]
+    const p = cells.slice(0, N).reduce((s, c) => s + c.offsetWidth + GAP, 0)
     if (p > 0) period.current = p
+    // A cell leaves at one set's width past the left edge and comes back that
+    // far before the right one, so the strip must outrun the screen by two.
     setSets(Math.max(2, Math.ceil(vp.clientWidth / period.current) + 2))
+    lefts.current = cells.map(c => c.offsetLeft)
+    shifts.current = cells.map(() => NaN)
+    total.current = period.current * (cells.length / N)
     offset.current = wrap(offset.current)
     paint()
   }, [paint, wrap])
+
+  // Again after a change in the number of sets, once the new cells exist.
+  useEffect(() => { measure() }, [sets, measure])
 
   useEffect(() => {
     measure()
@@ -242,24 +280,33 @@ export function HeroReel() {
       return
     }
     const hero = root.closest<HTMLElement>(".catalog-hero")
+    let hiddenSince = 0
     const sync = () => {
-      const heroShown = !document.hidden && (!hero || Number(getComputedStyle(hero).opacity) > 0.05)
+      // Any opacity at all counts: the clips start as the hero begins to come
+      // back, not once it is nearly whole.
+      const heroShown = !document.hidden && (!hero || Number(getComputedStyle(hero).opacity) > 0)
       if (heroShown !== active.current) {
         active.current = heroShown
         if (heroShown) startLoop.current()
+        hiddenSince = heroShown ? 0 : performance.now()
       }
       if (!heroShown) {
-        // Not paused but switched off: a paused <video> keeps its decoder and
-        // buffers, and the reader may browse the catalogue for an hour. Taking
-        // the source away releases them; coming back, the files are in the
-        // HTTP cache and the blurred poster covers the reload.
+        // Paused first, switched off only later. A paused <video> keeps its
+        // decoder and buffers, and the reader may browse the catalogue for an
+        // hour, so after a while the source is taken away to release them. But
+        // not at once: a reader who scrolls down and straight back up found a
+        // row of empty cells while every clip loaded again.
+        const unload = performance.now() - hiddenSince > UNLOAD_AFTER_MS
         for (const v of videos) {
           if (!v.getAttribute("src")) continue
           v.pause()
+          if (!unload) continue
           v.removeAttribute("src")
           v.load()
           v.classList.remove("is-ready")
-          v.parentElement?.classList.remove("is-waiting")
+          // The file is still in memory and comes back in a moment; until it
+          // does, the cell shows the blurred frame rather than nothing.
+          v.parentElement?.classList.add("is-waiting")
         }
         return
       }
@@ -294,10 +341,20 @@ export function HeroReel() {
     }
     const first = requestAnimationFrame(sync)
     const timer = window.setInterval(sync, 400)
+    // The timer alone noticed a return to the top up to 400ms late, the row
+    // still stopped while the copy was back. Scrolling of any scroller —
+    // the catalogue scrolls inside <main> — checks again on the next frame.
+    let pending = 0
+    const onScroll = () => {
+      if (!pending) pending = requestAnimationFrame(() => { pending = 0; sync() })
+    }
+    document.addEventListener("scroll", onScroll, { capture: true, passive: true })
     document.addEventListener("visibilitychange", sync)
     return () => {
       cancelAnimationFrame(first)
+      cancelAnimationFrame(pending)
       clearInterval(timer)
+      document.removeEventListener("scroll", onScroll, { capture: true })
       document.removeEventListener("visibilitychange", sync)
     }
   }, [sets, reduceMotion])
