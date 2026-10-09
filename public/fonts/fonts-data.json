@@ -33346,7 +33346,7 @@
     },
     {
       "name": "LCT Ciburial",
-      "collection": "Display",
+      "collection": "Brutal",
       "styleTags": [
         "Tech",
         "Squared"
@@ -33422,9 +33422,8 @@
     },
     {
       "name": "Lil Grotesk",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
-        "Neutral",
         "Rounded"
       ],
       "languages": [
@@ -36267,7 +36266,7 @@
     },
     {
       "name": "Azimut",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Contrast",
         "Old Face"

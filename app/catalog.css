@@ -541,70 +541,71 @@
 }
 
 .catalog-hero-content {
-  /* One column the width of the menu island above it (.navbar-container is
-     440px), so the first screen reads as one stack: menu, intro, TypeTray. */
+  /* The whole first screen under the menu: the intro at the top, the reel of
+     font videos along the foot. */
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   width: 100%;
-  max-width: 440px;
-  margin-inline: auto;
-  /* dvh too, so a collapsing mobile address bar cannot push the last section
-     below the fold. */
+  /* dvh too, so a collapsing mobile address bar cannot push the reel below
+     the fold. */
   height: calc(100vh - 80px);
   height: calc(100dvh - 80px);
-  /* Deliberately uneven, because the two edges answer to different things.
-
-     Below, the card ends on the same line as the filter panel, which floats
-     16px off the bottom — at 8 it hung lower than the bar itself.
-
-     Above, the neighbour is the menu, and everything under it runs on the
-     page's 8px rhythm: 8px side gutters, 8px between catalogue cards. A 16
-     there read as a hole. This box starts at 80 and the menu ends at 70, so
-     zero padding leaves 10 — the closest to 8 available without shimming the
-     sticky offset for two pixels. */
+  /* The reel ends 16px off the bottom, the same as the filter panel. */
   padding: 0 0 16px;
 }
 
+/* The intro, set straight on the page — no card behind it any more. It takes
+   whatever height the reel leaves; the buttons stay whole and the copy gives
+   way first. On a tablet and below it fills the width, inside the page's
+   16px gutters (the px-2 wrapper gives 8, this the other 8). */
 .hero-main {
-  /* Takes whatever height the TypeTray card below does not need. The copy sits
-     at the top, the two actions at the foot. */
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 24px;
-  min-height: 0;
+  gap: 28px;
+  padding: 20px 8px 0;
   overflow: hidden;
+}
+
+/* Wider than a tablet, the column hangs off the menu: its left edge on the
+   menu's left edge, its right edge halfway from the menu's right edge to the
+   screen's. The menu is 440px and centred, so on a viewport w the left edge is
+   (w − 440)/2 and the right edge (3w + 440)/4 — a width of (w + 1320)/4. The
+   left offset gives back the 8px of the px-2 wrapper the hero sits in. */
+@media (min-width: 1025px) {
+  .hero-main {
+    margin-left: calc((100vw - 440px) / 2 - 8px);
+    width: calc((100vw + 1320px) / 4);
+    /* Past 1560px wide the formula gives a measure too long to read
+       comfortably; the column stops at 720. */
+    max-width: 720px;
+    padding: 24px 0 0;
+  }
 }
 
 .hero-main-copy {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  /* Whatever does not fit comes out of the copy, never out of the buttons.
-     Without this the text kept its full height, pushed the buttons past the
-     card, and the card's own overflow:hidden cut "Install MCP" in half on a
-     640-tall phone. */
+  gap: 14px;
+  /* Whatever does not fit comes out of the copy, never out of the buttons. */
   min-height: 0;
   overflow: hidden;
 }
 
-/* Stacked, not side by side, and each one the full width of the card. */
+/* Side by side now that there is no card to span. */
 .hero-buttons {
   display: flex;
-  flex-direction: column;
   gap: 8px;
   flex-shrink: 0;
 }
 
 .hero-buttons .v2-button {
-  width: 100%;
   height: 44px;
   font-size: 15px;
   line-height: 44px;
-  padding: 0 16px;
+  padding: 0 20px;
   /* One of the two is an <a> and the other a <button>: without this the link
      sits left while the button centres, and they stop reading as a pair. */
   display: block;
@@ -612,18 +613,15 @@
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .hero-main { padding: 20px 16px; }
-}
-
 .catalog-hero-text {
   margin: 0;
   font-family: "Instrument Sans UI", sans-serif;
-  /* The column is now the width of the menu, 440px. At the old 28px that left
-     about five words a line; 18/26 is the size this measure actually wants.
-     The width is set by the column, so no max-width here any more. */
-  font-size: 18px;
-  line-height: 26px;
+  /* Sized off the screen's height as well as its width: the copy shares the
+     first screen with a reel a third of its height, so a short laptop has to
+     set it smaller than a tall monitor of the same width. */
+  font-size: clamp(20px, 2.7vh, 30px);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
   /* Both axes set off the register: the face is declared 400-700 on weight and
      75%-100% on width (see the @font-face at the top of this file), so 450 and
      97% land inside its range instead of snapping to a named instance. */
@@ -631,32 +629,154 @@
   font-stretch: 97%;
   color: var(--gray-cont-prim);
   font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
+  /* No single word left alone on the last line. */
+  text-wrap: pretty;
 }
 
-/* Side gutters on a phone are 16px, as everywhere else on the site. The hero
-   sits inside a `px-2` wrapper (8px), so the content adds the other 8 rather
-   than its desktop 24 — which was putting the text 32px off the edge. */
-@media (max-width: 768px) {
-  .catalog-hero-content {
-    padding-inline: 8px;
-  }
-
-  .catalog-hero-text {
-    font-size: 17px;
-    line-height: 25px;
-  }
+@media (max-width: 1024px) {
+  .catalog-hero-text { font-size: clamp(18px, 2.6vh, 24px); }
 }
 
-/* Short phones — 640 tall and under. The five paragraphs ran 39px past the
-   card there, and the two buttons are the part that must survive, so the copy
-   gives up the difference rather than being clipped for it. */
-@media (max-height: 700px) {
-  .catalog-hero-text {
-    font-size: 16px;
-    line-height: 23px;
-  }
+@media (max-width: 600px) {
+  .catalog-hero-text { font-size: 17px; line-height: 24px; }
   .hero-main-copy { gap: 10px; }
-  .hero-main { padding: 16px; gap: 16px; }
+  .hero-main { gap: 20px; }
+}
+
+@media (max-height: 700px) {
+  .catalog-hero-text { font-size: 16px; line-height: 22px; }
+  .hero-main-copy { gap: 8px; }
+  .hero-main { gap: 16px; padding-top: 12px; }
+}
+
+/* ── Hero reel ─────────────────────────────────────────────────────────────
+   Full bleed: it steps out of the px-2 wrapper to the screen's edges. A third
+   of the screen tall, as on plkv.works, and less on a phone, where the copy
+   needs the room. */
+.hero-reel {
+  flex-shrink: 0;
+  height: calc(100vh / 3);
+  height: calc(100dvh / 3);
+  margin-inline: -8px;
+  /* Clip sideways only: a hovered cell lifts and grows past the row's top and
+     bottom, and overflow: hidden cut that off. */
+  overflow-x: clip;
+  overflow-y: visible;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.hero-reel.is-dragging { cursor: grabbing; }
+
+@media (max-width: 600px) {
+  .hero-reel { height: calc(100dvh / 4); }
+}
+
+/* A phone on its side, or a squeezed window: under 560px there is no room for
+   the copy, the buttons and a reel at once, and the copy is the one that has to
+   be read. The reel steps out; its clips, measuring nothing on screen, stop. */
+@media (max-height: 560px) {
+  .hero-reel { display: none; }
+}
+
+.hero-reel-track {
+  display: flex;
+  gap: 8px;
+  width: max-content;
+  height: 100%;
+  will-change: transform;
+}
+
+.hero-reel-cell {
+  position: relative;
+  display: block;
+  height: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+  background: var(--gray-surface-prim);
+  -webkit-user-drag: none;
+  z-index: 0;
+  transition: transform 0.2s ease-out;
+}
+
+/* A 40px frame, blurred — only for a clip that is actually downloading.
+   HeroReel asks the HTTP cache first and adds .is-waiting on a miss, so a clip
+   already on disk appears at once instead of being blurred and faded in on
+   every visit. */
+.hero-reel-poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(14px);
+  transform: scale(1.1);
+  pointer-events: none;
+  opacity: 0;
+}
+.hero-reel-cell.is-waiting .hero-reel-poster { opacity: 1; }
+
+.hero-reel-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+}
+.hero-reel-video.is-ready { opacity: 1; }
+/* The fade belongs to the slow path only: over the blur it reads as loading
+   finishing; on a cached clip it would just be a delay. */
+.hero-reel-cell.is-waiting .hero-reel-video { transition: opacity 0.4s ease; }
+
+/* The font's name and a "View", on hover only, over an eased scrim — the
+   stops from plkv.works. A plain two-stop ramp reads as a grey band with a
+   hard top edge; these build the darkening from nothing. */
+.hero-reel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 32px 12px 12px;
+  font-family: "Instrument Sans UI", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgb(0 0 0 / 0.52) 0%,
+    rgb(0 0 0 / 0.42) 20%,
+    rgb(0 0 0 / 0.3) 40%,
+    rgb(0 0 0 / 0.18) 60%,
+    rgb(0 0 0 / 0.08) 78%,
+    rgb(0 0 0 / 0.02) 92%,
+    rgb(0 0 0 / 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+  pointer-events: none;
+}
+.hero-reel-view {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  color: rgb(255 255 255 / 0.7);
+}
+.hero-reel-cell:hover .hero-reel-caption,
+.hero-reel-cell:focus-visible .hero-reel-caption { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-reel-cell.is-waiting .hero-reel-video { transition: none; }
 }
 
 /* The two named things in the intro — the product at the start, the curator at
@@ -672,6 +792,13 @@
      WCAG does not count as large text. Mixed from the tokens rather than
      hardcoded, so it inverts with the theme on its own. */
   color: color-mix(in srgb, var(--gray-cont-prim) 58%, var(--gray-surface-sec));
+  font-weight: 600;
+}
+
+/* The product's own name opens the intro in the text colour, a step heavier
+   than the sentence; only the curator's link stays grey. */
+.hero-name {
+  color: var(--gray-cont-prim);
   font-weight: 600;
 }
 

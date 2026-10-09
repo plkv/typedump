@@ -10,3 +10,9 @@
 # Hashed build output is safe to cache forever.
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
+
+# The hero reel's clips and posters. Requested as /hero/<name>.mp4?v=<n>, and
+# HeroReel bumps n whenever a clip is re-rendered, so a year is safe; without a
+# rule here every visit revalidated each clip before it could play.
+/hero/*
+  Cache-Control: public, max-age=31536000, immutable

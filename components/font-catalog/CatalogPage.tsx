@@ -4,6 +4,7 @@ import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } fr
 import { Slider } from "@/components/ui/slider"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
+import { HeroReel } from "@/components/font-catalog/HeroReel"
 import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
 // catalog.css is imported globally in layout.tsx
 
@@ -1437,27 +1438,25 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
         {/* Hero section */}
         <div ref={heroRef} className="catalog-hero px-2">
           <div className="catalog-hero-content">
-            {/* One section, the width of the menu above it: the intro, with its
-                two actions at the foot. */}
-            <section className="hero-main v2-card">
+            {/* The intro, set straight on the page: left edge on the menu's,
+                right edge halfway from the menu's to the screen's. */}
+            <section className="hero-main">
               <div className="hero-main-copy hero-copy-reveal">
+                {/* Two paragraphs: what the catalogue is, then what you can do
+                    in it. Five had broken the column into fragments; one was a
+                    wall. */}
                 <p className="catalog-hero-text">
-                  <span className="hero-muted">TypeDump</span> is a curated index of open-source
-                  typefaces, hand-picked for designers, vibe coders, and developers.
-                </p>
-                <p className="catalog-hero-text">
-                  Text fonts built for interfaces and long reads; display faces with a strong point
-                  of view; fresh type for identity and culture.
+                  <span className="hero-name">TypeDump</span> — a curated index of open-source
+                  typefaces, hand-picked for designers, vibe coders, and developers. Text fonts
+                  built for interfaces and long reads; display faces with a strong point of view;
+                  fresh type for identity and culture.
                 </p>
                 <p className="catalog-hero-text">
                   Type designers put more into a font than most apps ever show: variable axes,
-                  alternate letterforms, ligatures, whole scripts.
-                </p>
-                <p className="catalog-hero-text">
-                  You can try all of it here, in the browser. Totally free.
-                </p>
-                <p className="catalog-hero-text">
-                  Curated by{' '}
+                  alternate letterforms, ligatures, whole scripts. You can try all of it here, in
+                  the browser.
+                  <br />
+                  Totally free. Curated by{' '}
                   <a
                     className="hero-muted hero-credit-link"
                     href="https://plkv.works/"
@@ -1466,6 +1465,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   >
                     Stas Polyakov
                   </a>
+                  .
                 </p>
               </div>
 
@@ -1483,6 +1483,8 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 </a>
               </div>
             </section>
+
+            <HeroReel />
           </div>
         </div>
 
