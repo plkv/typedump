@@ -302,6 +302,27 @@ export function HeroReel() {
     }
   }, [sets, reduceMotion])
 
+  // A sideways swipe on a trackpad, or Shift with a mouse wheel, moves the row
+  // like a drag. Vertical scrolling is left alone: the page scrolls past the
+  // hero with it. The trackpad brings its own momentum, so no inertia is added.
+  // Registered by hand because React's wheel listener is passive and cannot
+  // stop the browser's back/forward swipe.
+  useEffect(() => {
+    const vp = viewportRef.current
+    if (!vp) return
+    const onWheel = (e: WheelEvent) => {
+      const dx = e.shiftKey && e.deltaX === 0 ? e.deltaY : e.deltaX
+      if (Math.abs(dx) <= Math.abs(e.shiftKey ? 0 : e.deltaY)) return
+      e.preventDefault()
+      const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? vp.clientWidth : 1
+      inertia.current = 0
+      offset.current = wrap(offset.current - dx * unit)
+      paint()
+    }
+    vp.addEventListener("wheel", onWheel, { passive: false })
+    return () => vp.removeEventListener("wheel", onWheel)
+  }, [paint, wrap])
+
   const onPointerDown = (e: React.PointerEvent) => {
     try { e.currentTarget.setPointerCapture(e.pointerId) } catch {}
     const d = drag.current
@@ -367,6 +388,7 @@ export function HeroReel() {
               href={`/font/${c.slug}`}
               data-slug={c.slug}
               className="hero-reel-cell"
+              aria-label={c.font}
               style={{ aspectRatio: String(c.ratio) }}
               // A pointer tap is routed in onPointerUp; a keyboard Enter
               // (detail 0) is left to follow the link.
@@ -387,17 +409,8 @@ export function HeroReel() {
                 playsInline
                 preload="auto"
                 onLoadedData={e => e.currentTarget.classList.add("is-ready")}
-                aria-label={c.font}
+                aria-hidden
               />
-              <span className="hero-reel-caption">
-                <span>{c.font}</span>
-                <span className="hero-reel-view">
-                  View
-                  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
-                    <path d="M5 11 11 5M6 5h5v5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </span>
-              </span>
             </a>
           ))
         )}

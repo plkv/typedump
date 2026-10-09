@@ -694,7 +694,8 @@
   height: 100%;
   flex-shrink: 0;
   overflow: hidden;
-  border-radius: var(--radius-card);
+  /* Softer than a card: at 24px the corner crowded the lines printed in each clip's corners. */
+  border-radius: 12px;
   background: var(--gray-surface-prim);
   -webkit-user-drag: none;
   z-index: 0;
@@ -731,49 +732,6 @@
 /* The fade belongs to the slow path only: over the blur it reads as loading
    finishing; on a cached clip it would just be a delay. */
 .hero-reel-cell.is-waiting .hero-reel-video { transition: opacity 0.4s ease; }
-
-/* The font's name and a "View", on hover only, over an eased scrim — the
-   stops from plkv.works. A plain two-stop ramp reads as a grey band with a
-   hard top edge; these build the darkening from nothing. */
-.hero-reel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 32px 12px 12px;
-  font-family: "Instrument Sans UI", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 500;
-  letter-spacing: -0.14px;
-  color: #fff;
-  background: linear-gradient(
-    to top,
-    rgb(0 0 0 / 0.52) 0%,
-    rgb(0 0 0 / 0.42) 20%,
-    rgb(0 0 0 / 0.3) 40%,
-    rgb(0 0 0 / 0.18) 60%,
-    rgb(0 0 0 / 0.08) 78%,
-    rgb(0 0 0 / 0.02) 92%,
-    rgb(0 0 0 / 0) 100%
-  );
-  opacity: 0;
-  transition: opacity 0.3s ease-out;
-  pointer-events: none;
-}
-.hero-reel-view {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-shrink: 0;
-  color: rgb(255 255 255 / 0.7);
-}
-.hero-reel-cell:hover .hero-reel-caption,
-.hero-reel-cell:focus-visible .hero-reel-caption { opacity: 1; }
 
 @media (prefers-reduced-motion: reduce) {
   .hero-reel-cell.is-waiting .hero-reel-video { transition: none; }
