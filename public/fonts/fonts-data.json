@@ -39577,7 +39577,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-10-08T23:00:00.000Z",
+          "uploadedAt": "2026-10-09T23:00:00.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -39586,8 +39586,8 @@
           "previewUrl": "/fonts/preview/Memoir-Regular.woff2"
         }
       ],
-      "createdAt": "2026-10-08T23:00:00.000Z",
-      "updatedAt": "2026-10-08T23:00:00.000Z",
+      "createdAt": "2026-10-09T23:00:00.000Z",
+      "updatedAt": "2026-10-09T23:00:00.000Z",
       "description": "Memoir is a free unicase sans by Daniel Gremme, built on Roman capital proportions: the stems waist and flare toward their ends, the joints melt into the curves, and what sits on the lowercase keys is a set of small capitals rather than a true minuscule, so everything you type comes out in capitals of two sizes. One weight, with alternates for Y, R and A, an RA ligature and Polish localised forms. Latin only.",
       "licenseInfo": {
         "type": "Free for commercial use",
@@ -40379,7 +40379,8 @@
           "familyId": "family_bvllet_1790075385121",
           "url": "/fonts/BVLLET.woff2",
           "originalUrl": "/fonts/BVLLET.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BVLLET.woff2"
         }
       ],
       "createdAt": "2026-09-22T07:00:00.000Z",
@@ -42426,7 +42427,603 @@
         "Brand Headline",
         "Tech / Digital"
       ]
+    },
+    {
+      "name": "Oks",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Narrow",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ilya Zherikov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/40353261/Oks-free-typeface",
+      "id": "family_oks_1791549198502",
+      "variants": [
+        {
+          "filename": "Oks-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Stylistic Alternates",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T01:00:00.000Z",
+          "id": "variant_family_oks_1791549198502_1",
+          "familyId": "family_oks_1791549198502",
+          "url": "/fonts/Oks-Regular.woff2",
+          "originalUrl": "/fonts/Oks-Regular.woff2",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Oks-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T01:00:00.000Z",
+      "updatedAt": "2026-10-09T01:00:00.000Z",
+      "description": "A rough, naive geometric grotesque that started from 1960s Soviet lettering, such as the station names at Taganskaya and Kolomenskaya on the Moscow metro, and drifted a long way from it. Capitals only, Latin and Cyrillic, and still in beta: the author suggests sizes from 36 up, or extra tracking below that. He asks that the font be shared by link rather than as a file, so the download goes to his page.",
+      "licenseInfo": {
+        "type": "Free for personal and commercial use",
+        "url": "https://www.behance.net/gallery/40353261/Oks-free-typeface"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ],
+      "npmMirror": false
+    },
+    {
+      "name": "Vremena Grotesk",
+      "collection": "Text",
+      "styleTags": [
+        "Grotesque",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "abstrkt",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.fontspring.com/fonts/abstrkt/vremena",
+      "id": "family_vremena_grotesk_1791549198542",
+      "variants": [
+        {
+          "filename": "VremenaGrotesk-Book.woff2",
+          "weight": 300,
+          "styleName": "Book",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_1",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-Book.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-Book.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-BookItalic.woff2",
+          "weight": 300,
+          "styleName": "Book Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_2",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-BookItalic.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-BookItalic.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_3",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-Regular.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-Regular.woff2",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/VremenaGrotesk-Regular.woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-Italic.woff2",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_4",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-Italic.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-Italic.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-Medium.woff2",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_5",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-Medium.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-Medium.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-MediumItalic.woff2",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_6",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-MediumItalic.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-MediumItalic.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_7",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-Bold.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-Bold.woff2",
+          "format": "woff2"
+        },
+        {
+          "filename": "VremenaGrotesk-BoldItalic.woff2",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T02:00:00.000Z",
+          "id": "variant_family_vremena_grotesk_1791549198542_8",
+          "familyId": "family_vremena_grotesk_1791549198542",
+          "url": "/fonts/VremenaGrotesk-BoldItalic.woff2",
+          "originalUrl": "/fonts/VremenaGrotesk-BoldItalic.woff2",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T02:00:00.000Z",
+      "updatedAt": "2026-10-09T02:00:00.000Z",
+      "description": "A plain neo-grotesque from the Moscow studio abstrkt, released in 2009 and free on Fontspring under its Worry-Free licence, which covers desktop, web, apps and ebooks. Four weights from Book to Bold, each with an italic, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Fontspring Worry-Free",
+        "url": "https://www.fontspring.com/fonts/abstrkt/vremena"
+      },
+      "useCases": [
+        "Editorial",
+        "Interface",
+        "Brand Headline"
+      ],
+      "npmMirror": false
+    },
+    {
+      "name": "Comic Helvetic",
+      "collection": "Display",
+      "styleTags": [
+        "Rounded",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alexander Pravdin",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.dafont.com/comic-helvetic.font",
+      "id": "family_comic_helvetic_1791549198557",
+      "variants": [
+        {
+          "filename": "ComicHelvetic-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T03:00:00.000Z",
+          "id": "variant_family_comic_helvetic_1791549198557_1",
+          "familyId": "family_comic_helvetic_1791549198557",
+          "url": "/fonts/ComicHelvetic-Light.woff2",
+          "originalUrl": "/fonts/ComicHelvetic-Light.otf",
+          "format": "woff2"
+        },
+        {
+          "filename": "ComicHelvetic-Medium.otf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T03:00:00.000Z",
+          "id": "variant_family_comic_helvetic_1791549198557_2",
+          "familyId": "family_comic_helvetic_1791549198557",
+          "url": "/fonts/ComicHelvetic-Medium.woff2",
+          "originalUrl": "/fonts/ComicHelvetic-Medium.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ComicHelvetic-Medium.woff2"
+        },
+        {
+          "filename": "ComicHelvetic-Heavy.otf",
+          "weight": 900,
+          "styleName": "Heavy",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-09T03:00:00.000Z",
+          "id": "variant_family_comic_helvetic_1791549198557_3",
+          "familyId": "family_comic_helvetic_1791549198557",
+          "url": "/fonts/ComicHelvetic-Heavy.woff2",
+          "originalUrl": "/fonts/ComicHelvetic-Heavy.otf",
+          "format": "woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T03:00:00.000Z",
+      "updatedAt": "2026-10-09T03:00:00.000Z",
+      "description": "An experiment crossing Comic Sans with Helvetica, made for a cartoon dog called Hover: a Helvetica skeleton with soft, slightly wobbly comic terminals. Light, Medium and Heavy, with extended Latin and Cyrillic. The author states the fonts are free for commercial use.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.dafont.com/comic-helvetic.font"
+      },
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "Lighthaus",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Semi Serif"
+      ],
+      "foundry": "Jerak Durzan",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "/fonts/Lighthaus-Regular.otf",
+      "id": "family_lighthaus_1791549198568",
+      "variants": [
+        {
+          "filename": "Lighthaus-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T04:00:00.000Z",
+          "id": "variant_family_lighthaus_1791549198568_1",
+          "familyId": "family_lighthaus_1791549198568",
+          "url": "/fonts/Lighthaus-Regular.woff2",
+          "originalUrl": "/fonts/Lighthaus-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Lighthaus-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T04:00:00.000Z",
+      "updatedAt": "2026-10-09T04:00:00.000Z",
+      "description": "A high-contrast display face by Jerak Durzan from 2012. It mixes cases on purpose: lowercase a and e stand among capitals at cap height, and some letters carry small serifs while others are bare. Latin and Cyrillic, one weight.",
+      "licenseInfo": {
+        "type": "Free"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Koreshok",
+      "collection": "Brutal",
+      "styleTags": [
+        "Narrow",
+        "Fatface",
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Alevtina Yakovleva, HSE Art and Design School",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://hsedesign.ru/project/f3fdc6ec39e3417dbaa74f189641c6d5",
+      "id": "family_koreshok_1791549198578",
+      "variants": [
+        {
+          "filename": "Koreshok-Regular.ttf",
+          "weight": 800,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T05:00:00.000Z",
+          "id": "variant_family_koreshok_1791549198578_1",
+          "familyId": "family_koreshok_1791549198578",
+          "url": "/fonts/Koreshok-Regular.woff2",
+          "originalUrl": "/fonts/Koreshok-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Koreshok-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T05:00:00.000Z",
+      "updatedAt": "2026-10-09T05:00:00.000Z",
+      "description": "Named after the spine of a book. Each letter is a heavy block that fills its rectangle, with counters cut down to slits, the way spines stand pressed together on a shelf; books differ in thickness, so the letters come in two widths, the capitals narrow and the lowercase wide. Alevtina Yakovleva drew it at the HSE Art and Design School, curated by Artyom Rulev. Latin and Cyrillic, for headlines at size.",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://hsedesign.ru/project/f3fdc6ec39e3417dbaa74f189641c6d5"
+      },
+      "useCases": [
+        "Poster",
+        "Experimental",
+        "Brand Headline"
+      ]
+    },
+    {
+      "name": "YUNGA",
+      "collection": "Brutal",
+      "styleTags": [
+        "Wavy",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Decorative"
+      ],
+      "foundry": "Artem Voroshnin",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/160445507/YUNGA-Free-Font",
+      "id": "family_yunga_1791549198590",
+      "variants": [
+        {
+          "filename": "YUNGA-Display.otf",
+          "weight": 700,
+          "styleName": "Display",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T06:00:00.000Z",
+          "id": "variant_family_yunga_1791549198590_1",
+          "familyId": "family_yunga_1791549198590",
+          "url": "/fonts/YUNGA-Display.woff2",
+          "originalUrl": "/fonts/YUNGA-Display.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/YUNGA-Display.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T06:00:00.000Z",
+      "updatedAt": "2026-10-09T06:00:00.000Z",
+      "description": "Letters melted into liquid blobs and spikes, closer to a set of shapes than to a written alphabet. One weight, Latin and Cyrillic, built in Fontself and given away by Artem Voroshnin on Behance.",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://www.behance.net/gallery/160445507/YUNGA-Free-Font"
+      },
+      "useCases": [
+        "Poster",
+        "Experimental",
+        "Culture"
+      ]
+    },
+    {
+      "name": "Kontrabanda",
+      "collection": "Brutal",
+      "styleTags": [
+        "Handwritten"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Anastasia Vinokurova, Olga Petrova",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/221611885/Kontrabanda-New-Font-Free-font",
+      "id": "family_kontrabanda_1791549198600",
+      "variants": [
+        {
+          "filename": "Kontrabanda-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T07:00:00.000Z",
+          "id": "variant_family_kontrabanda_1791549198600_1",
+          "familyId": "family_kontrabanda_1791549198600",
+          "url": "/fonts/Kontrabanda-Regular.woff2",
+          "originalUrl": "/fonts/Kontrabanda-Regular.ttf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Kontrabanda-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T07:00:00.000Z",
+      "updatedAt": "2026-10-09T07:00:00.000Z",
+      "description": "A raw hand-drawn print face with jagged, uneven strokes and a mix of capital and lowercase shapes, closer to marker on a wall than to a pen. One weight, Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://www.behance.net/gallery/221611885/Kontrabanda-New-Font-Free-font"
+      },
+      "useCases": [
+        "Poster",
+        "Culture",
+        "Handwritten / Script"
+      ]
+    },
+    {
+      "name": "Hellenica",
+      "collection": "Display",
+      "styleTags": [
+        "Geometry",
+        "Wide"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "George Triantafyllakos, backpacker",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://backpacker.gr/fonts/32",
+      "id": "family_hellenica_1791549198608",
+      "variants": [
+        {
+          "filename": "Hellenica-Regular.otf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Localized Forms",
+            "Kerning",
+            "Stylistic Set 1"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ],
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-09T08:00:00.000Z",
+          "id": "variant_family_hellenica_1791549198608_1",
+          "familyId": "family_hellenica_1791549198608",
+          "url": "/fonts/Hellenica-Regular.woff2",
+          "originalUrl": "/fonts/Hellenica-Regular.otf",
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Hellenica-Regular.woff2"
+        }
+      ],
+      "createdAt": "2026-10-09T08:00:00.000Z",
+      "updatedAt": "2026-10-09T08:00:00.000Z",
+      "description": "George Triantafyllakos's 2017 remake of one of his first attempts at a geometric typeface, from 2003. Wide and playful, with idiosyncratic figures and a Cyrillic that keeps the same circles and flat joins. Latin, Greek and Cyrillic. Free for any use; the author asks for a mention of backpacker.gr where possible.",
+      "licenseInfo": {
+        "type": "Free for any use",
+        "url": "https://backpacker.gr/fonts/32"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline",
+        "Culture"
+      ]
     }
   ],
-  "lastUpdated": "2026-10-08T17:34:49.246531Z"
+  "lastUpdated": "2026-10-09T12:37:30.088265Z"
 }

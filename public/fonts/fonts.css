@@ -1127,8 +1127,8 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Werkzeug-f500e9__v_257626";src:url("/fonts/preview/Werkzeug.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Coaster Sans-7289d5";src:url("/fonts/preview/CoasterSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Coaster Sans-7289d5__v_bf8b8d";src:url("/fonts/preview/CoasterSans-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"BVLLET-757f70";src:url("/fonts/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"BVLLET-757f70__v_2e1429";src:url("/fonts/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"BVLLET-757f70";src:url("/fonts/preview/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"BVLLET-757f70__v_2e1429";src:url("/fonts/preview/BVLLET.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"CC Accidenz Grotesk-5e0d2c";src:url("/fonts/preview/AccidenzGrotesk-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
 @font-face{font-family:"CC Accidenz Grotesk-5e0d2c__v_54e42e";src:url("/fonts/preview/AccidenzGrotesk-medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
 @font-face{font-family:"Mistral SingleLine-beb45e";src:url("/fonts/preview/MistralSingleLineOutline-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -1199,3 +1199,37 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"PVF Survivor-656dfa__v_468f7c";src:url("/fonts/preview/PVFSurvivor-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"PVF Survivor-656dfa";src:url("/fonts/PVFSurvivor-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"PVF Survivor-656dfa__v_ff8747";src:url("/fonts/PVFSurvivor-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Oks-000135";src:url("/fonts/preview/Oks-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Oks-000135__v_08f3b2";src:url("/fonts/preview/Oks-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-Book.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_8c03f7";src:url("/fonts/VremenaGrotesk-Book.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-BookItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_2c5be3";src:url("/fonts/VremenaGrotesk-BookItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/preview/VremenaGrotesk-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_7bf911";src:url("/fonts/preview/VremenaGrotesk-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_526946";src:url("/fonts/VremenaGrotesk-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_c764d4";src:url("/fonts/VremenaGrotesk-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_9badc7";src:url("/fonts/VremenaGrotesk-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_e214d2";src:url("/fonts/VremenaGrotesk-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d";src:url("/fonts/VremenaGrotesk-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
+@font-face{font-family:"Vremena Grotesk-79609d__v_012d59";src:url("/fonts/VremenaGrotesk-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2";src:url("/fonts/ComicHelvetic-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2__v_fb4aae";src:url("/fonts/ComicHelvetic-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2";src:url("/fonts/preview/ComicHelvetic-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2__v_c9fef2";src:url("/fonts/preview/ComicHelvetic-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2";src:url("/fonts/ComicHelvetic-Heavy.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Comic Helvetic-b664d2__v_13c721";src:url("/fonts/ComicHelvetic-Heavy.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Lighthaus-a0599b";src:url("/fonts/preview/Lighthaus-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Lighthaus-a0599b__v_0bf935";src:url("/fonts/preview/Lighthaus-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Koreshok-27196e";src:url("/fonts/preview/Koreshok-Regular.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Koreshok-27196e__v_ff0d11";src:url("/fonts/preview/Koreshok-Regular.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"YUNGA-050dfd";src:url("/fonts/preview/YUNGA-Display.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"YUNGA-050dfd__v_3d86a4";src:url("/fonts/preview/YUNGA-Display.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Kontrabanda-8be7aa";src:url("/fonts/preview/Kontrabanda-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Kontrabanda-8be7aa__v_513398";src:url("/fonts/preview/Kontrabanda-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Hellenica-be452c";src:url("/fonts/preview/Hellenica-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Hellenica-be452c__v_8caf7b";src:url("/fonts/preview/Hellenica-Regular.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
