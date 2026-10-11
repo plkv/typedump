@@ -32,6 +32,21 @@ inventing fields. Required: `name`, `collection`, `category`, `styleTags`,
 `repository_url` / `minisite_url` in METADATA.pb when the font comes from Google
 Fonts. Never a Google Fonts URL.
 
+**Never an aggregator either** — Fontesk, DaFont, Uncut, Use & Modify, befonts
+and the like, even though `/new` finds most fonts through them. FontStruct and
+FontBob are different: they are editors, a font drawn there lives only there,
+so its page there is the upstream. Follow the aggregator page to the designer:
+their repository, their site, their Behance or Gumroad. When the designer has no
+page that offers the file, serve the original yourself —
+`downloadLink: "/fonts/<original>.otf"` — but only if the licence allows
+redistribution.
+
+**The licence comes from the designer, not from the listing.** Read the font's
+own `name` table (IDs 13 and 14) and the designer's page; `licenseInfo.url`
+points at their licence file or their page. Aggregators get it wrong: Fontesk
+called Crédible OFL while the file says WTFPL, and Knack free for commercial use
+while its designer says personal only.
+
 **The feed is ordered by the newest `uploadedAt` among a family's variants**,
 not by the family's `createdAt`. Memoir is pinned to the top on Stas's
 instruction; after a batch, set its variants' `uploadedAt` later than anything

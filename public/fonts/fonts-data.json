@@ -3853,8 +3853,8 @@
       "updatedAt": "2025-09-13T23:58:45.066Z",
       "description": "New Century Schoolbook is a URW digitization of Morris Fuller Benton's landmark 1919 design for the American Type Foundry, created specifically for improved legibility in schoolbooks and print media. Its generous x-height, open counters, and strong stroke contrast have made it a durable workhorse for editorial and academic typesetting.",
       "licenseInfo": {
-        "type": "OFL",
-        "url": "https://fontesk.com/century-schoolbook-typeface/"
+        "type": "AGPL 3.0",
+        "url": "https://github.com/ArtifexSoftware/urw-base35-fonts/blob/master/LICENSE"
       },
       "publishedAt": "2000-01-01",
       "useCases": [
@@ -4622,13 +4622,13 @@
       "description": "FA-1 is a wide, monospace-flavored display typeface by Tokyo-based designer Sora Sagano, evoking the look of data terminals and early computer fonts with square, structured letterforms. It occupies an unusual space between monospaced utility and display expressiveness, suited to sci-fi branding, coding aesthetics, and futuristic UI.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://usemodify.com/authors/sora-sagano/"
+        "url": "https://www.dotcolon.net/fonts/fa_1/"
       },
       "publishedAt": "2020-01-01",
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/FA-1-Regular.otf",
+      "downloadLink": "https://www.dotcolon.net/fonts/fa_1/",
       "altPairs": [],
       "specialChars": "&@#%‰€£¥¢±×÷≠“”‘’…–—∞"
     },
@@ -6058,7 +6058,7 @@
       "description": "Crozet (also known as Crozet·te) is an experimental typeface inspired by cross-stitch embroidery, designed by Thaïs Cuny. Its pixel-like, grid-based construction gives text the texture of handmade needlework, bridging craft tradition with digital type design in an unusually tactile way.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://uncut.wtf/display/crozet/"
+        "url": "https://github.com/thaiscy/crozet_te/blob/main/Licence.txt"
       },
       "publishedAt": "2023-01-01",
       "useCases": [
@@ -6151,8 +6151,8 @@
       "downloadLink": "https://gitlab.com/Clarasambot/dindong",
       "description": "DINdong is a reworking of DIN 1451 Breitschrift after Peter Wiegel's digitization, created by Clara Sambot with inclusive and non-binary glyph features. It retains the functional, industrial character of the classic German standards typeface while expanding its cultural scope for contemporary use.",
       "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://uncut.wtf/sans-serif/dindong/"
+        "type": "OFL",
+        "url": "https://gitlab.com/Clarasambot/dindong"
       },
       "publishedAt": "2021-01-01",
       "useCases": [
@@ -7290,7 +7290,7 @@
       "foundry": "Alexey Atapin",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/Block-font.otf",
+      "downloadLink": "https://greenchay.gumroad.com/l/block-font",
       "id": "family_block_1757807923524",
       "variants": [
         {
@@ -7319,8 +7319,8 @@
       "updatedAt": "2025-09-13T23:58:43.572Z",
       "description": "Block is a bold geometric display sans by Alexey Atapin, constructed with sharp, modular precision and a futuristic sensibility. Its heavy, squared letterforms are built for maximum visual weight in headlines, game graphics, and branding that wants to project strength and technological confidence.",
       "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://fontesk.com/designer/alexey-atapin/"
+        "type": "Free",
+        "url": "https://greenchay.gumroad.com/l/block-font"
       },
       "publishedAt": "2020-01-01",
       "useCases": [
@@ -7449,8 +7449,7 @@
       "updatedAt": "2025-09-13T23:58:43.412Z",
       "description": "Frankinity is a modern serif typeface crafted by Diana N, combining contemporary elegance with classical charm through carefully handcrafted letterforms. Its clean construction and refined character make it a go-to for branding, editorial design, and packaging where sophisticated personality matters.",
       "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://befonts.com/frankinity-font.html"
+        "type": "Free for commercial use"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -7516,8 +7515,7 @@
       "updatedAt": "2025-09-13T23:58:43.362Z",
       "description": "P95-CYR is a condensed pixel typeface with Cyrillic support, constructed on a modular grid with high contrast between thick and thin elements. Its narrow, tightly-packed letterforms and sharp aesthetic make it well-suited to game graphics, edgy posters, and digital art that references retro-computational culture.",
       "licenseInfo": {
-        "type": "OFL",
-        "url": "https://fontesk.com/p95-cyr-font/"
+        "type": "OFL"
       },
       "publishedAt": "2021-01-01",
       "useCases": [
@@ -8316,8 +8314,7 @@
       "updatedAt": "2025-09-13T23:58:43.028Z",
       "description": "ARK-ES Dense is the densely-set variant of Eddie Stuart's ARK-ES gridface — a quirky, experimental all-caps pixel typeface built on a strict geometric grid. Released in 2020, it comes in multiple weights and suits game graphics, retro-digital design, and any creative project that wants constructivist letterform energy.",
       "licenseInfo": {
-        "type": "OFL",
-        "url": "https://usemodify.com/fonts/ark-typeface/"
+        "type": "OFL"
       },
       "publishedAt": "2020-01-01",
       "useCases": [
@@ -8430,8 +8427,7 @@
       "updatedAt": "2025-09-13T23:58:42.949Z",
       "description": "ARK-ES Solid is the solid-fill companion to ARK-ES Dense in Eddie Stuart's experimental gridface family. Its modular, all-caps construction in four weights (Light through Bold) gives it a bold, structural personality ideal for game UI, posters, and futuristic brand identities.",
       "licenseInfo": {
-        "type": "OFL",
-        "url": "https://usemodify.com/fonts/ark-typeface/"
+        "type": "OFL"
       },
       "publishedAt": "2020-01-01",
       "useCases": [
@@ -8972,8 +8968,7 @@
       "updatedAt": "2025-09-13T23:58:42.709Z",
       "description": "BD Lifeless Grotesk is a neutral, unadorned grotesque by Harry Dinh, intentionally crafted for clarity and universal appeal without stylistic pretension. Its 9 weights from Thin to Black, with Vietnamese language support, make it a quietly dependable tool for corporate communications, websites, and print projects.",
       "licenseInfo": {
-        "type": "CC BY",
-        "url": "https://fontesk.com/bd-lifeless-grotesk-typeface/"
+        "type": "CC BY"
       },
       "publishedAt": "2023-01-01",
       "useCases": [
@@ -14129,7 +14124,7 @@
       "foundry": "Ariel Martín Pérez",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://www.tunera.xyz/",
+      "downloadLink": "https://www.tunera.xyz/fonts/tanklager/",
       "id": "family_tanklager_kompakt_1757807920293",
       "variants": [
         {
@@ -14171,7 +14166,7 @@
       "description": "Tanklager Kompakt is a narrow display sans by Ariel Martín Pérez, inspired by a hand-painted sign discovered on the side of an oil storage tank in Visp, Switzerland. A DIN-grotesque hybrid where uppercase and lowercase structures sometimes diverge, it comes in two cuts with variable support for flexible headline use.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://uncut.wtf/sans-serif/tanklager/"
+        "url": "https://www.tunera.xyz/fonts/tanklager/"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -16370,7 +16365,7 @@
       "description": "Saint is a dramatic decorative display typeface by Liza Dushnota, blending Gothic, ribbon, and wild plant motifs into a striking multi-style system. Drawing inspiration from punk aesthetics and Gothic letterforms, its 135-glyph character delivers maximum personality for editorial titles, posters, and expressive visual identities.",
       "licenseInfo": {
         "type": "Free for commercial use",
-        "url": "https://uncut.wtf/display/saint/"
+        "url": "https://www.behance.net/gallery/150260489/Saint-Free-Display-Typeface-Free-font-Typography"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -16425,7 +16420,7 @@
       "description": "Kulturë is a geometric grotesque typeface by Leonit Gashi, founder of the mini type foundry Kulturë Type based in Pristina, Kosovo. It embodies the foundry's signature approach — 'not too serious' fonts with strong geometric construction — delivering a versatile sans for branding and digital work with a quietly confident personality.",
       "licenseInfo": {
         "type": "Free for commercial use",
-        "url": "https://uncut.wtf/display/kulture-type/"
+        "url": "https://www.behance.net/gallery/193553069/Kulture-Grotesk-Typeface"
       },
       "publishedAt": "2021-01-01",
       "useCases": [
@@ -16451,7 +16446,7 @@
       "foundry": "Jeanne Saliou",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://uncut.wtf/display/phosphene/",
+      "downloadLink": "/fonts/PhospheneFont-Regular.ttf",
       "id": "family_phosph_ne_font_1757807919311",
       "variants": [
         {
@@ -16481,8 +16476,7 @@
       "updatedAt": "2025-09-13T23:58:39.357Z",
       "description": "Phosphène is an experimental display typeface by Jeanne Saliou, combining pixel and script qualities in an unusual hybrid form. Its visual language draws from perceptual phenomena — phosphenes are the shapes you see when you press on your closed eyes — giving the font an ethereal, almost hallucinatory quality for avant-garde typography.",
       "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://uncut.wtf/display/phosphene/"
+        "type": "Free for commercial use"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -16737,7 +16731,7 @@
       "description": "Galgo Condensed is a geometric variable sans-serif by Giulia Boggio, originally released in a single condensed weight in 2021 and expanded to include additional weights and a variable version. Its neutral, structured letterforms in a narrow format make it a practical and modern headline and display companion.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://usemodify.com/fonts/galgo-condensed/"
+        "url": "https://www.giuliaboggio.xyz/fonts/galgo-condensed"
       },
       "publishedAt": "2021-01-01",
       "useCases": [
@@ -19819,8 +19813,8 @@
       "updatedAt": "2025-09-13T23:58:37.621Z",
       "description": "Knack is a contemporary sans-serif by KnackStudio, built for clean, flexible use across UI, branding, and editorial contexts. Its balanced proportions and honest construction occupy the growing space of independent foundry grotesques — typefaces designed with a considered neutrality that still has something to say.",
       "licenseInfo": {
-        "type": "Free for commercial use",
-        "url": "https://fontesk.com/designer/knack/"
+        "type": "Free for personal use",
+        "url": "https://adamnac.com/knack-sans"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -19979,8 +19973,8 @@
       "updatedAt": "2025-09-13T23:58:37.573Z",
       "description": "Crédible is a script typeface from the JLFC collective, with flowing letterforms that carry a formal, script-inspired energy. Its open-source availability and OFL licensing align with the French independent type scene's commitment to making quality typography freely accessible for cultural and creative projects.",
       "licenseInfo": {
-        "type": "OFL",
-        "url": "https://fontesk.com/credible-font/"
+        "type": "WTFPL",
+        "url": "https://fonderie.download/credible.html"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -21829,7 +21823,7 @@
       "description": "Granturismo is a dynamic variable display family by Nathan Laurent, inspired by the excitement of speed and sound with variable reverse contrast that shifts its personality across weights. Its seven cuts — including variable — give designers a bold, striking voice for posters, headlines, and album artwork demanding impact.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://uncut.wtf/display/granturismo/"
+        "url": "https://nathanlaurent.github.io/granturismo.html"
       },
       "publishedAt": "2021-01-01",
       "useCases": [
@@ -28133,7 +28127,7 @@
       "sourceUrl": "https://uncut.wtf/serif/zarathustra/",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://uncut.wtf/serif/zarathustra/"
+        "url": "https://github.com/lorene-cn/zarathustra-typeface/blob/master/LICENSE.md"
       },
       "id": "family_zarathustra_5041052975029",
       "createdAt": "2026-05-16T20:00:00.000Z",
@@ -28397,11 +28391,11 @@
       "foundry": "FontBob",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://fontbob.com/geomini",
+      "downloadLink": "https://github.com/fontbob/geomini",
       "sourceUrl": "https://fontbob.com/geomini",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://fontbob.com/geomini"
+        "url": "https://github.com/fontbob/geomini/blob/main/OFL.txt"
       },
       "id": "family_geomini_7200000000002",
       "createdAt": "2026-07-12T20:00:00.000Z",
@@ -39092,7 +39086,7 @@
       "foundry": "Anastasia Meloch",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://fontesk.com/bups-font/",
+      "downloadLink": "https://www.behance.net/gallery/240360687/Font-BUPS",
       "id": "family_bups_1758450000003",
       "variants": [
         {
@@ -39121,7 +39115,7 @@
       "description": "BUPS is a fat unicase display face drawn with a marker: every stroke ends round, the counters shrink to slits, and the lowercase keys give you the same bulbous capitals a size smaller. It is built for a single loud line and nothing else. Latin and Cyrillic, one weight.",
       "licenseInfo": {
         "type": "Free for commercial use",
-        "url": "https://fontesk.com/bups-font/"
+        "url": "https://www.behance.net/gallery/240360687/Font-BUPS"
       },
       "publishedAt": "2026-09-21",
       "useCases": [
@@ -42398,7 +42392,7 @@
       "foundry": "Alexander Pravdin",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.dafont.com/comic-helvetic.font",
+      "downloadLink": "/fonts/ComicHelvetic.zip",
       "id": "family_comic_helvetic_1791549198557",
       "variants": [
         {
@@ -42462,7 +42456,7 @@
       "description": "An experiment crossing Comic Sans with Helvetica, made for a cartoon dog called Hover: a Helvetica skeleton with soft, slightly wobbly comic terminals. Light, Medium and Heavy, with extended Latin and Cyrillic. The author states the fonts are free for commercial use.",
       "licenseInfo": {
         "type": "Free for commercial use",
-        "url": "https://www.dafont.com/comic-helvetic.font"
+        "url": "https://www.behance.net/gallery/86895479/Comic-Helvetic-(Lat-Cyr)"
       },
       "useCases": [
         "Poster",

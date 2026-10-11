@@ -30,6 +30,24 @@ const CATEGORIES = new Set(['Sans', 'Serif', 'Semi Serif', 'Script', 'Mono', 'Pi
 const COLLECTIONS = new Set(['Text', 'Display', 'Brutal'])
 const SERIF_ONLY = new Set(['Modern', 'Transitional', 'Slab'])
 const SERIF_CLASS = new Set(['Old Face', 'Transitional', 'Modern', 'Slab'])
+// Sites that list other people's fonts. The discover crawler finds fonts
+// through them, so their pages kept ending up behind "Get font" and the
+// licence link — and their licence labels are not the designer's: Fontesk
+// called Crédible OFL while the file says WTFPL. Link the designer's
+// own page or repository; when there is none, serve the original from /fonts/.
+// FontStruct and FontBob are not on the list: they are editors, and a font
+// drawn there has no other home.
+const AGGREGATORS = ['fontesk.com', 'dafont.com', 'uncut.wtf', 'usemodify.com', 'befonts.com',
+  'bestfreefonts.org', 'fontspace.com', '1001fonts.com', '1001freefonts.com', 'fontsquirrel.com',
+  'freefaces.gallery']
+const aggregator = url => {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '')
+    return AGGREGATORS.find(a => host === a || host.endsWith('.' + a))
+  } catch {
+    return undefined
+  }
+}
 
 const data = JSON.parse(readFileSync(DATA, 'utf8'))
 let families = data.families
@@ -75,6 +93,8 @@ for (const f of families) {
 
   if (!(f.downloadLink || '').trim()) note(f.name, 'no downloadLink')
   else if (/fonts\.google\.com/.test(f.downloadLink)) note(f.name, 'downloadLink points at Google Fonts, not upstream')
+  else if (aggregator(f.downloadLink)) note(f.name, `downloadLink points at ${aggregator(f.downloadLink)}, not upstream`)
+  if (aggregator(f.licenseInfo?.url)) note(f.name, `licence link points at ${aggregator(f.licenseInfo.url)}, not the designer`)
 
   for (const v of f.variants || []) {
     for (const key of ['url', 'previewUrl']) {
