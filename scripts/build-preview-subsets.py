@@ -63,13 +63,14 @@ SCRIPT_RANGES = {
     "Greek": [(0x0370, 0x03FF)],
     "Vietnamese": [(0x1EA0, 0x1EF9), (0x0300, 0x0341)],
 }
-# A family that carries one of these is left alone entirely — no cut file, the
-# card loads the real thing. They are the heavy ones (Pretendard is 2MB of
-# Korean, Dela Gothic One 1.16MB of Japanese) and cutting them would have been
-# the whole saving, but someone who filters the catalogue to Korean and types
-# Korean must see Korean. Those cards stay slow because the font genuinely holds
-# 14,000 glyphs, which is the honest reason to be slow.
-UNCUTTABLE = {"Korean", "Japanese", "Chinese", "Arabic", "Hebrew"}
+# Scripts too big to keep in a preview. Pretendard is 2MB of Korean, Dela Gothic
+# One 1.16MB of Japanese, and on a phone one of them held up every card around
+# it. They get a preview like any other face, plus `previewRange`: the
+# characters that preview holds. fonts.css then declares both files under one
+# name, the preview for that range and the full file for the rest, so a Latin
+# line fetches only the cut and the full file comes down the moment someone
+# types Korean — CSS picks the face per character, nothing is swapped by hand.
+FULL_FALLBACK = {"Korean", "Japanese", "Chinese", "Arabic", "Hebrew"}
 
 # A licence can forbid modification outright, and cutting glyphs out is a
 # modification. Jean-Luc's does: it permits @font-face only with the webfont
@@ -94,6 +95,17 @@ def charset_for(family, base):
         for start, end in SCRIPT_RANGES.get(language, []):
             chars.update(chr(c) for c in range(start, end + 1))
     return "".join(sorted(chars))
+
+
+def unicode_range(codepoints):
+    """`U+20-7E,U+A0-17F,…` for a set of code points."""
+    spans = []
+    for cp in sorted(codepoints):
+        if spans and cp == spans[-1][1] + 1:
+            spans[-1][1] = cp
+        else:
+            spans.append([cp, cp])
+    return ",".join(f"U+{a:X}" if a == b else f"U+{a:X}-{b:X}" for a, b in spans)
 
 
 def default_variant(family):
@@ -127,7 +139,7 @@ def build(font_path, text):
     buf = io.BytesIO()
     font.flavor = "woff2"
     font.save(buf)
-    return buf.getvalue()
+    return buf.getvalue(), set(font.getBestCmap())
 
 
 def main():
@@ -144,10 +156,11 @@ def main():
         variant = default_variant(family)
         if not variant:
             continue
-        if set(family.get("languages") or []) & UNCUTTABLE or uncuttable_by_licence(family):
+        if uncuttable_by_licence(family):
             variant.pop("previewUrl", None)
             skipped += 1
             continue
+        variant.pop("previewRange", None)
         src_url = variant.get("url") or ""
         src = os.path.join(ROOT, "public" + src_url)
         if not src_url.startswith("/fonts/") or not os.path.exists(src):
@@ -156,7 +169,7 @@ def main():
         name = os.path.basename(src_url)
         out = os.path.join(OUT_DIR, name)
         try:
-            payload = build(src, charset_for(family, text))
+            payload, kept = build(src, charset_for(family, text))
         except Exception as exc:  # a font we cannot cut still works at full size
             failures.append((family["name"], str(exc)[:60]))
             variant.pop("previewUrl", None)
@@ -170,6 +183,8 @@ def main():
         with open(out, "wb") as fh:
             fh.write(payload)
         variant["previewUrl"] = f"/fonts/preview/{name}"
+        if set(family.get("languages") or []) & FULL_FALLBACK:
+            variant["previewRange"] = unicode_range(kept)
         before += original
         after += len(payload)
         built += 1

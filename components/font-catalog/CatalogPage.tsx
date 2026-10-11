@@ -138,6 +138,11 @@ type CaseMode = typeof CASE_MODES[number]
 // screen paints in the right fonts. Everything below waits for the observer.
 const EAGER_CARDS = 4
 
+// The specimen size until the reader picks one. 80px is wider than a phone's
+// card for most names — Hellenica broke as "Hellenic / a" — so a phone starts
+// smaller.
+const DEFAULT_TEXT_SIZE = { desktop: 80, mobile: 56 }
+
 export default function CatalogPage({ initialFonts, initialFilters }: { initialFonts: FontData[], initialFilters?: InitialFilters }) {
   const toArr = (v: string | string[] | undefined) => v ? (Array.isArray(v) ? v : [v]) : []
   // UI State
@@ -179,7 +184,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   const [fontWeightSelections, setFontWeightSelections] = useState<Record<number, { weight: number; italic: boolean; cssFamily?: string; styleName?: string }>>(
     {},
   )
-  const [textSize, setTextSize] = useState([80])
+  // null until the reader moves the slider or picks a preset that sets a size,
+  // so the default follows the screen rather than whichever one loaded first.
+  const [chosenTextSize, setTextSize] = useState<number[] | null>(null)
+  const textSize = chosenTextSize ?? [isMobile ? DEFAULT_TEXT_SIZE.mobile : DEFAULT_TEXT_SIZE.desktop]
   const [lineHeight, setLineHeight] = useState([120])
   const [textAlign, setTextAlign] = useState<'left' | 'center' | 'right'>('center')
 
@@ -733,7 +741,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     selectedFeatures.length > 0 ||
     previewWeight !== 400 ||
     sortBy !== 'Date' ||
-    textSize[0] !== 80 ||
+    chosenTextSize !== null ||
     lineHeight[0] !== 120 ||
     textAlign !== 'center' ||
     selectedPreset !== 'Names' ||
@@ -753,7 +761,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     setSelectedFeatures([])
     setSortBy("Date") // Reset sort to default (New)
     setFontWeightSelections({})
-    setTextSize([80])
+    setTextSize(null)
     setLineHeight([120])
     setTextAlign('center')
     setExpandedCards(new Set())
@@ -1718,7 +1726,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                       <h3 className="text-sidebar-title">Text size</h3>
                       <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
                     </div>
-                    <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} onReset={() => setTextSize([80])} />
+                    <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} onReset={() => setTextSize(null)} />
                   </div>
 
                   <div>
@@ -1760,7 +1768,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                           key={preset}
                           onClick={() => {
                             setSelectedPreset(preset)
-                            if (preset === "Paragraph") setTextSize([20]); else setTextSize([80])
+                            if (preset === "Paragraph") setTextSize([20]); else setTextSize(null)
                             // Names & Alternates are per-font (empty customText → each card
                             // renders its own name / its own alt+special showcase).
                             if (preset === "Names" || preset === "Alternates") setCustomText("")

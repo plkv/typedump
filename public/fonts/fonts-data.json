@@ -11505,7 +11505,9 @@
           "familyId": "family_libertinus_sans_1757807921611",
           "url": "/fonts/LibertinusSans-Italic.woff2",
           "originalUrl": "/fonts/LibertinusSans-Italic.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/LibertinusSans-Italic.woff2",
+          "previewRange": "U+20-7E,U+A0-17F,U+300-331,U+338,U+374-375,U+37A-37E,U+384-38A,U+38C,U+38E-3A1,U+3A3-3CE,U+3D0-3E1,U+3F0-3F6,U+3F8-3F9,U+3FB,U+3FD-477,U+47C-47F,U+483,U+48C-4C4,U+4C7-4CC,U+4D0-4F9,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B"
         },
         {
           "filename": "LibertinusSans-Bold.ttf",
@@ -11791,7 +11793,9 @@
           "familyId": "family_oi_1757807921421",
           "url": "/fonts/Oi-Regular.woff2",
           "originalUrl": "/fonts/Oi-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Oi-Regular.woff2",
+          "previewRange": "U+20-7E,U+A0-17E,U+300-304,U+306-30D,U+30F-313,U+31B,U+323-329,U+32D-332,U+334,U+374-375,U+37E,U+384-38A,U+38C,U+38E-3A1,U+3A3-3CF,U+3D7,U+400-45F,U+462-463,U+46A-46B,U+472-475,U+490-49D,U+4A0-4A5,U+4AA-4AB,U+4AE-4B1,U+4B6-4BB,U+4C0-4C2,U+4CB-4CC,U+4CF-4D9,U+4DC-4DF,U+4E2-4E9,U+4EE-4F9,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116"
         }
       ],
       "createdAt": "2025-09-13T23:58:41.421Z",
@@ -12606,7 +12610,9 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "previewUrl": "/fonts/preview/Handjet[EGRD,ESHP,wght].woff2",
+          "previewRange": "U+20-7E,U+A0-17E,U+300-304,U+306-30C,U+30F,U+311-313,U+31B,U+323-324,U+326-328,U+32E,U+331,U+335,U+374-375,U+37E,U+384-38A,U+38C,U+38E-3A1,U+3A3-3CF,U+3D7,U+400-45F,U+462-463,U+46A-46B,U+472-475,U+490-49D,U+4A0-4A5,U+4AA-4AB,U+4AE-4B3,U+4B6-4BB,U+4C0-4C2,U+4CB-4CC,U+4CF-4D9,U+4DC-4DF,U+4E2-4E9,U+4EE-4F9,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.894Z",
@@ -12762,7 +12768,9 @@
           "familyId": "family_bagel_fat_one_1757807920845",
           "url": "/fonts/BagelFatOne-Regular.woff2",
           "originalUrl": "/fonts/BagelFatOne-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BagelFatOne-Regular.woff2",
+          "previewRange": "U+20-7E,U+A0-AC,U+AE-FF,U+131,U+152-153,U+174-178,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.845Z",
@@ -12896,7 +12904,9 @@
           "familyId": "family_dela_gothic_one_1757807920744",
           "url": "/fonts/DelaGothicOne-Regular.woff2",
           "originalUrl": "/fonts/DelaGothicOne-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DelaGothicOne-Regular.woff2",
+          "previewRange": "U+20-7E,U+A0-107,U+10A-113,U+116-11B,U+11E-123,U+126-12B,U+12E-131,U+136-137,U+139-13E,U+141-148,U+14A-14D,U+150-15B,U+15E-16B,U+16E-17E,U+300-304,U+306-30C,U+312,U+31B,U+323,U+326-328,U+335,U+374-375,U+37E,U+384-38A,U+38C,U+38E-3A1,U+3A3-3CF,U+3D7,U+400-40D,U+40F-45D,U+45F,U+490-491,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B"
         }
       ],
       "createdAt": "2025-09-13T23:58:40.744Z",
@@ -27989,7 +27999,9 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "previewUrl": "/fonts/preview/PretendardVariable.woff2",
+          "previewRange": "U+20-7E,U+A0-148,U+14A-17F,U+300-31E,U+321-341,U+370-377,U+37A-37F,U+384-38A,U+38C,U+38E-3A1,U+3A3-3E1,U+3F0-49D,U+4A0-4FF,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B"
         }
       ],
       "altPairs": [
@@ -39687,7 +39699,9 @@
               "weight": 800,
               "isItalic": false
             }
-          ]
+          ],
+          "previewUrl": "/fonts/preview/AstaSans[wght].woff2",
+          "previewRange": "U+20-7E,U+A0,U+A2-A5,U+A9,U+AB-AC,U+AE,U+B0-B3,U+B6-B7,U+B9,U+BB-BE,U+C5,U+D7,U+E5,U+F7,U+131,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B"
         }
       ],
       "createdAt": "2026-09-22T01:00:00.000Z",
@@ -40602,7 +40616,9 @@
           "familyId": "family_orbit_1790075385129",
           "url": "/fonts/Orbit-Regular.woff2",
           "originalUrl": "/fonts/Orbit-Regular.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Orbit-Regular.woff2",
+          "previewRange": "U+20-7B,U+7D-7E,U+A0-A3,U+A5,U+A7-A8,U+AA-AB,U+AD,U+AF-B1,U+B4,U+B6-B8,U+BA-BB,U+BF-13E,U+141-17E,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC"
         }
       ],
       "createdAt": "2026-09-22T10:00:00.000Z",
@@ -40936,7 +40952,9 @@
           "familyId": "family_bona_nova_1790075385151",
           "url": "/fonts/BonaNova-Regular.woff2",
           "originalUrl": "/fonts/BonaNova-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BonaNova-Regular.woff2",
+          "previewRange": "U+20-7E,U+A0-148,U+14A-17E,U+300-30C,U+30F,U+311,U+31B,U+323-328,U+32C,U+32E,U+330-331,U+335-336,U+374-375,U+37E,U+384-38A,U+38C,U+38E-3A1,U+3A3-3CE,U+400-45F,U+462-463,U+46A-46B,U+490-491,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116"
         },
         {
           "filename": "BonaNova-Italic.ttf",
@@ -42111,7 +42129,9 @@
           "familyId": "family_badeen_display_1791480614603",
           "url": "/fonts/BadeenDisplay-Regular.woff2",
           "originalUrl": "/fonts/BadeenDisplay-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/BadeenDisplay-Regular.woff2",
+          "previewRange": "U+20-7E,U+A0-A3,U+A5,U+A7-AB,U+AE-B0,U+B4,U+B6-B8,U+BA-BB,U+BF-107,U+10A-113,U+116-11B,U+11E-123,U+126-127,U+12A-12B,U+12E-131,U+136-137,U+139-13E,U+141-148,U+14A-14D,U+150-15B,U+15E-161,U+164-165,U+16A-17E,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC"
         }
       ],
       "createdAt": "2026-10-08T17:00:00.000Z",
@@ -42735,5 +42755,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-09T12:37:30.088265Z"
+  "lastUpdated": "2026-10-11T13:04:47.978977Z"
 }

@@ -592,6 +592,10 @@
   /* Whatever does not fit comes out of the copy, never out of the buttons. */
   min-height: 0;
   overflow: hidden;
+  /* Set in from the menu's edges. The menu and the buttons are pills, so
+     their rims line up with each other; text flush with a rounded rim looks
+     like it sticks out past it. */
+  padding-inline: 12px;
 }
 
 /* Side by side now that there is no card to span. */

@@ -32,13 +32,10 @@ function buildFontFace(familyName, v) {
     weight = String(v.weight || 400)
   }
 
-  return fontFaceRule({
+  const face = (src, unicodeRange) => fontFaceRule({
     family: familyName,
-    // The cut-down preview file when there is one. This sheet declares every
-    // face in the catalogue, so it — not the per-card injection — is what the
-    // browser actually fetches while scrolling. Pointing it at the full files
-    // was the 16MB.
-    src: v.previewUrl || v.url || `/fonts/${v.filename}`,
+    src,
+    unicodeRange,
     weight,
     isItalic: v.isItalic,
     format: v.format,
@@ -51,6 +48,32 @@ function buildFontFace(familyName, v) {
     // provisional, which is the point of showing it at all.
     fontDisplay: 'swap',
   })
+  const full = v.url || `/fonts/${v.filename}`
+  // The cut-down preview file when there is one. This sheet declares every
+  // face in the catalogue, so it — not the per-card injection — is what the
+  // browser actually fetches while scrolling. Pointing it at the full files
+  // was the 16MB.
+  if (!v.previewUrl) return face(full)
+  if (!v.previewRange) return face(v.previewUrl)
+  // A script too big for the preview (see build-preview-subsets.py): the cut
+  // for what it holds, the full file for everything else. The two ranges must
+  // not overlap. document.fonts.load() fetches every face covering its text,
+  // not just the one that would draw it, so a full file declared for all of
+  // Unicode came down for a Latin card — Pretendard's 2MB on every visit.
+  return face(full, complement(v.previewRange)) + '\n' + face(v.previewUrl, v.previewRange)
+}
+
+// `U+20-7E,U+A0-17F` → everything else in Unicode, in the same notation.
+function complement(range) {
+  const spans = range.split(',').map(r => r.replace('U+', '').split('-').map(h => parseInt(h, 16)))
+  const out = []
+  let next = 0
+  for (const [a, b = a] of spans) {
+    if (a > next) out.push([next, a - 1])
+    next = b + 1
+  }
+  if (next <= 0x10FFFF) out.push([next, 0x10FFFF])
+  return out.map(([a, b]) => a === b ? `U+${a.toString(16).toUpperCase()}` : `U+${a.toString(16).toUpperCase()}-${b.toString(16).toUpperCase()}`).join(',')
 }
 
 const chunks = []
