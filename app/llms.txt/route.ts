@@ -66,6 +66,10 @@ claude mcp add typedump -- npx typedump-mcp
 
 Tools: \`search_fonts\`, \`get_font\`, \`suggest_font\` (natural language → matches), \`find_similar\`, \`pair_fonts\` (headline + body pairings), \`get_code\` (ready CSS / Next.js localFont / Tailwind snippets). The npm package (\`npm install typedump\`) bundles all fonts as woff2 with metadata. No CDN, works offline.
 
+## The same fonts on a Mac
+
+TypeTray (https://typetray.plkv.works) is a macOS app by the same author. It reads font folders without installing anything and shows the variable axes, alternates, OpenType features, language coverage and duplicates of every family in them. The typedump collection is built into it as a source, so everything listed here can be opened in it next to a person's own fonts.
+
 ## Key pages
 
 - [All free fonts](${SITE}): the full catalogue with live preview

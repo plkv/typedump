@@ -1462,7 +1462,16 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 <p className="catalog-hero-text">
                   Type designers put more into a font than most apps ever show: variable axes,
                   alternate letterforms, ligatures, whole scripts. You can try all of it here, in
-                  the browser.
+                  the browser. For the fonts already on your Mac there is{' '}
+                  <a
+                    className="hero-muted hero-credit-link"
+                    href="https://typetray.plkv.works/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    TypeTray
+                  </a>
+                  , which reads a folder the same way without installing any of it.
                 </p>
                 <p className="catalog-hero-text">
                   Totally free. Curated by{' '}

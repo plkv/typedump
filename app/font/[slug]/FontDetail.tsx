@@ -632,6 +632,9 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         <span style={{ fontFamily: '"Instrument Sans UI", sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
           © 2026 TypeDump. Built and curated by{' '}
           <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>
+          , who also makes{' '}
+          <a href="https://typetray.plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>TypeTray</a>
+          , a font viewer for the Mac
         </span>
       </footer>
 
