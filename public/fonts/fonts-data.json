@@ -39583,7 +39583,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-10-09T23:00:00.000Z",
+          "uploadedAt": "2026-10-22T11:24:53.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -42753,7 +42753,2105 @@
         "Brand Headline",
         "Culture"
       ]
+    },
+    {
+      "name": "Akaya Telivigala",
+      "collection": "Display",
+      "styleTags": [
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Vaishnavi Murthy, Juan Luis Blanco",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/vaishnavimurthy/Akaya-Telivigala",
+      "id": "family_akaya_telivigala_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Akaya Telivigala is a tidy upright hand script by Vaishnavi Murthy and Juan Luis Blanco, a Telugu and Latin family whose two scripts share the same stroke. The letters stand apart rather than join, and the marker-like stroke keeps them friendly without getting loose. One weight; ss01 swaps in an alternate ampersand. Use it for packaging, headings and short lines, especially where Telugu and Latin have to sit together.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/vaishnavimurthy/Akaya-Telivigala/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Handwritten / Script",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "AkayaTelivigala-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt ampersand"
+            }
+          ],
+          "glyphCount": 1036,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_akaya_telivigala_1792668292000_regular",
+          "familyId": "family_akaya_telivigala_1792668292000",
+          "url": "/fonts/AkayaTelivigala-Regular.woff2",
+          "originalUrl": "/fonts/AkayaTelivigala-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/AkayaTelivigala-Regular.woff2"
+        }
+      ],
+      "altPairs": [
+        [
+          "&",
+          "ss01"
+        ]
+      ]
+    },
+    {
+      "name": "Allan",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Anton Koovit",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/allan",
+      "id": "family_allan_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Allan is Anton Koovit's condensed, slanted hand lettering in Regular and Bold. The letters are tall and narrow, written with a firm brush that keeps an even stroke, so a long word fits in a short measure. It belongs on posters, menus and headings, not in running text.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/google/fonts/blob/main/ofl/allan/OFL.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Handwritten / Script"
+      ],
+      "variants": [
+        {
+          "filename": "Allan-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Titling",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 236,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_allan_1792668292000_regular",
+          "familyId": "family_allan_1792668292000",
+          "url": "/fonts/Allan-Regular.woff2",
+          "originalUrl": "/fonts/Allan-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Allan-Regular.woff2"
+        },
+        {
+          "filename": "Allan-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 240,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_allan_1792668292000_bold",
+          "familyId": "family_allan_1792668292000",
+          "url": "/fonts/Allan-Bold.woff2",
+          "originalUrl": "/fonts/Allan-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Archivo Narrow",
+      "collection": "Text",
+      "styleTags": [
+        "Narrow",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Omnibus-Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/Omnibus-Type/ArchivoNarrow",
+      "id": "family_archivo_narrow_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Archivo Narrow is the condensed member of Omnibus-Type's Archivo, a grotesque built for both print and screen. It is variable in weight from 400 to 700, with a matching italic, and carries tabular and oldstyle figures, fractions and a slashed zero. Good for tables, data-heavy layouts and anywhere a regular grotesque runs out of room.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/Omnibus-Type/ArchivoNarrow/blob/master/LICENSE.md"
+      },
+      "useCases": [
+        "Interface",
+        "Editorial / Ecommerce"
+      ],
+      "variants": [
+        {
+          "filename": "ArchivoNarrow[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 798,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_archivo_narrow_1792668292000_regular",
+          "familyId": "family_archivo_narrow_1792668292000",
+          "url": "/fonts/ArchivoNarrow[wght].woff2",
+          "originalUrl": "/fonts/ArchivoNarrow[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/ArchivoNarrow[wght].woff2"
+        },
+        {
+          "filename": "ArchivoNarrow-Italic[wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 798,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_archivo_narrow_1792668292000_italic",
+          "familyId": "family_archivo_narrow_1792668292000",
+          "url": "/fonts/ArchivoNarrow-Italic[wght].woff2",
+          "originalUrl": "/fonts/ArchivoNarrow-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Asul",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Mariela Monsalve",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/asul",
+      "id": "family_asul_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Asul is a text serif by Mariela Monsalve with low contrast and short wedge serifs that end in points. The diagonal stress and open shapes keep it calm in paragraphs, while the sharp terminals give it more bite at headline sizes. Regular and Bold, Latin only.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/google/fonts/blob/main/ofl/asul/OFL.txt"
+      },
+      "useCases": [
+        "Editorial"
+      ],
+      "variants": [
+        {
+          "filename": "Asul-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 244,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_asul_1792668292000_regular",
+          "familyId": "family_asul_1792668292000",
+          "url": "/fonts/Asul-Regular.woff2",
+          "originalUrl": "/fonts/Asul-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Asul-Regular.woff2"
+        },
+        {
+          "filename": "Asul-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 244,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_asul_1792668292000_bold",
+          "familyId": "family_asul_1792668292000",
+          "url": "/fonts/Asul-Bold.woff2",
+          "originalUrl": "/fonts/Asul-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "BBH Hegarty",
+      "collection": "Display",
+      "styleTags": [
+        "Wide",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Studio DRAMA",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/Studio-DRAMA/BBH",
+      "id": "family_bbh_hegarty_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "BBH Hegarty is a very heavy, wide grotesque from Studio DRAMA's BBH family. One weight with tight counters, made for big short headlines. Two stylistic sets cut zigzag notches into the capitals, and two more swap the a and the ampersand. It sits alongside BBH Bogle and BBH Sans Bartle in this catalogue.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/Studio-DRAMA/BBH/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "BBHHegarty-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Zigzag capitals"
+            },
+            {
+              "tag": "ss02",
+              "title": "Zigzag E, J, Z and comma"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt ampersand"
+            }
+          ],
+          "glyphCount": 157,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_bbh_hegarty_1792668292000_regular",
+          "familyId": "family_bbh_hegarty_1792668292000",
+          "url": "/fonts/BBHHegarty-Regular.woff2",
+          "originalUrl": "/fonts/BBHHegarty-Regular.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": [
+        [
+          "A",
+          "ss01"
+        ],
+        [
+          "B",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss01"
+        ],
+        [
+          "G",
+          "ss01"
+        ],
+        [
+          "H",
+          "ss01"
+        ],
+        [
+          "J",
+          "ss01"
+        ],
+        [
+          "K",
+          "ss01"
+        ],
+        [
+          "M",
+          "ss01"
+        ],
+        [
+          "N",
+          "ss01"
+        ],
+        [
+          "U",
+          "ss01"
+        ],
+        [
+          "V",
+          "ss01"
+        ],
+        [
+          "W",
+          "ss01"
+        ],
+        [
+          "X",
+          "ss01"
+        ],
+        [
+          "Y",
+          "ss01"
+        ],
+        [
+          "Z",
+          "ss01"
+        ],
+        [
+          ",",
+          "ss01"
+        ],
+        [
+          "E",
+          "ss02"
+        ],
+        [
+          "J",
+          "ss02"
+        ],
+        [
+          "Z",
+          "ss02"
+        ],
+        [
+          ",",
+          "ss02"
+        ],
+        [
+          "a",
+          "ss03"
+        ],
+        [
+          "&",
+          "ss04"
+        ]
+      ]
+    },
+    {
+      "name": "Chivo Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Omnibus-Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/Omnibus-Type/Chivo",
+      "id": "family_chivo_mono_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Chivo Mono is the monospaced companion to Omnibus-Type's Chivo grotesque. It is variable in weight from 100 to 900 with italics, so one family covers everything from hairline labels to heavy headings. Tabular figures, fractions and a slashed zero come with it. It reads as a grotesque first and a code font second, which suits interfaces, tables and technical writing.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/Omnibus-Type/Chivo/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Code / Data",
+        "Interface"
+      ],
+      "variants": [
+        {
+          "filename": "ChivoMono[wght].ttf",
+          "weight": 500,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100.0,
+              "max": 900.0,
+              "default": 500.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 873,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_chivo_mono_1792668292000_regular",
+          "familyId": "family_chivo_mono_1792668292000",
+          "url": "/fonts/ChivoMono[wght].woff2",
+          "originalUrl": "/fonts/ChivoMono[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/ChivoMono[wght].woff2"
+        },
+        {
+          "filename": "ChivoMono-Italic[wght].ttf",
+          "weight": 500,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100.0,
+              "max": 900.0,
+              "default": 500.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 872,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_chivo_mono_1792668292000_italic",
+          "familyId": "family_chivo_mono_1792668292000",
+          "url": "/fonts/ChivoMono-Italic[wght].woff2",
+          "originalUrl": "/fonts/ChivoMono-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Comic Neue",
+      "collection": "Text",
+      "styleTags": [
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Craig Rozynski, Hrant Papazian",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/crozynski/comicneue",
+      "id": "family_comic_neue_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Comic Neue is Craig Rozynski's reworking of Comic Sans, made, in the project's own words, to fix its shortcomings. It keeps the casual comic-lettering shapes and round stroke ends but evens out the spacing and the weights, so it can actually set a paragraph. Light, Regular and Bold, each with an italic. Use it where Comic Sans would be right in spirit and wrong in execution: children's material, friendly interfaces, informal signage.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/crozynski/comicneue/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Interface",
+        "Culture"
+      ],
+      "variants": [
+        {
+          "filename": "ComicNeue-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 328,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_light",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-Light.woff2",
+          "originalUrl": "/fonts/ComicNeue-Light.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "ComicNeue-LightItalic.otf",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 344,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_light_italic",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-LightItalic.woff2",
+          "originalUrl": "/fonts/ComicNeue-LightItalic.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "ComicNeue-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 328,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_regular",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-Regular.woff2",
+          "originalUrl": "/fonts/ComicNeue-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/ComicNeue-Regular.woff2"
+        },
+        {
+          "filename": "ComicNeue-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 344,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_italic",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-Italic.woff2",
+          "originalUrl": "/fonts/ComicNeue-Italic.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "ComicNeue-Bold.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 328,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_bold",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-Bold.woff2",
+          "originalUrl": "/fonts/ComicNeue-Bold.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "ComicNeue-BoldItalic.otf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 344,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_comic_neue_1792668292000_bold_italic",
+          "familyId": "family_comic_neue_1792668292000",
+          "url": "/fonts/ComicNeue-BoldItalic.woff2",
+          "originalUrl": "/fonts/ComicNeue-BoldItalic.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": [],
+      "alternativeTo": [
+        {
+          "name": "Comic Sans MS",
+          "foundry": "Microsoft",
+          "motive": "original",
+          "gets": "Light, Regular and Bold with italics, tidier spacing"
+        }
+      ]
+    },
+    {
+      "name": "Crimson Text",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Sebastian Kosch",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/Crimson",
+      "id": "family_crimson_text_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Crimson Text is Sebastian Kosch's book face in the old-style tradition: diagonal stress, modest contrast and bracketed serifs. It comes in Regular, SemiBold and Bold with italics, plus discretionary ligatures and fractions. It is at its best in long reading, essays, books and academic writing.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/Crimson/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Editorial"
+      ],
+      "variants": [
+        {
+          "filename": "CrimsonText-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 718,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_regular",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-Regular.woff2",
+          "originalUrl": "/fonts/CrimsonText-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/CrimsonText-Regular.woff2"
+        },
+        {
+          "filename": "CrimsonText-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 720,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_italic",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-Italic.woff2",
+          "originalUrl": "/fonts/CrimsonText-Italic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CrimsonText-SemiBold.ttf",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 718,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_semibold",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-SemiBold.woff2",
+          "originalUrl": "/fonts/CrimsonText-SemiBold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CrimsonText-SemiBoldItalic.ttf",
+          "weight": 600,
+          "styleName": "SemiBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 720,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_semibold_italic",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-SemiBoldItalic.woff2",
+          "originalUrl": "/fonts/CrimsonText-SemiBoldItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CrimsonText-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 718,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_bold",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-Bold.woff2",
+          "originalUrl": "/fonts/CrimsonText-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "CrimsonText-BoldItalic.ttf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 720,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_crimson_text_1792668292000_bold_italic",
+          "familyId": "family_crimson_text_1792668292000",
+          "url": "/fonts/CrimsonText-BoldItalic.woff2",
+          "originalUrl": "/fonts/CrimsonText-BoldItalic.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Fontdiner Swanky",
+      "collection": "Display",
+      "styleTags": [
+        "Old Face",
+        "Sharp",
+        "Vintage",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Font Diner",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/apache/fontdinerswanky",
+      "id": "family_fontdiner_swanky_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Fontdiner Swanky is Font Diner's bouncy retro serif: wedge serifs that end in sharp points, letters that hop off the baseline and a playful curl on the f and g. It looks like a 1950s diner menu or a cartoon title card. One weight, Latin only; keep it to headings and short lines.",
+      "licenseInfo": {
+        "type": "Apache 2.0",
+        "url": "https://github.com/google/fonts/blob/main/apache/fontdinerswanky/LICENSE.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Culture"
+      ],
+      "variants": [
+        {
+          "filename": "FontdinerSwanky-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 231,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_fontdiner_swanky_1792668292000_regular",
+          "familyId": "family_fontdiner_swanky_1792668292000",
+          "url": "/fonts/FontdinerSwanky-Regular.woff2",
+          "originalUrl": "/fonts/FontdinerSwanky-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/FontdinerSwanky-Regular.woff2"
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Libre Baskerville",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Impallari Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/impallari/Libre-Baskerville",
+      "id": "family_libre_baskerville_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Libre Baskerville is Impallari Type's Baskerville for the screen. Per its README it is based on American Type Founders' Baskerville of 1941, with a taller x-height, wider counters and less contrast so it holds up as body text at around 16px. Variable in weight from 400 to 700 with an italic. A good default when you want a classic book serif that does not fall apart on a display.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/impallari/Libre-Baskerville/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Editorial"
+      ],
+      "variants": [
+        {
+          "filename": "LibreBaskerville[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 861,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_libre_baskerville_1792668292000_regular",
+          "familyId": "family_libre_baskerville_1792668292000",
+          "url": "/fonts/LibreBaskerville[wght].woff2",
+          "originalUrl": "/fonts/LibreBaskerville[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/LibreBaskerville[wght].woff2"
+        },
+        {
+          "filename": "LibreBaskerville-Italic[wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt A, V, W"
+            }
+          ],
+          "glyphCount": 864,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_libre_baskerville_1792668292000_italic",
+          "familyId": "family_libre_baskerville_1792668292000",
+          "url": "/fonts/LibreBaskerville-Italic[wght].woff2",
+          "originalUrl": "/fonts/LibreBaskerville-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "altPairs": [],
+      "alternativeTo": [
+        {
+          "name": "Baskerville",
+          "foundry": "ATF",
+          "motive": "original",
+          "gets": "wght 400–700 with italics, a taller x-height for 16px body text"
+        }
+      ]
+    },
+    {
+      "name": "Mynerve",
+      "collection": "Display",
+      "styleTags": [
+        "Handwritten"
+      ],
+      "languages": [
+        "Latin",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Carolina Short",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/carolinashort/MyNerve",
+      "id": "family_mynerve_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Mynerve is Carolina Short's quick handwriting, printed rather than joined, with the slight wobble of a real pen. It covers Latin, Greek and Vietnamese, which is rare for a hand face. Use it for notes, annotations and informal headings.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/carolinashort/MyNerve/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Handwritten / Script"
+      ],
+      "variants": [
+        {
+          "filename": "Mynerve-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 1015,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_mynerve_1792668292000_regular",
+          "familyId": "family_mynerve_1792668292000",
+          "url": "/fonts/Mynerve-Regular.woff2",
+          "originalUrl": "/fonts/Mynerve-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Mynerve-Regular.woff2"
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Old Standard TT",
+      "collection": "Text",
+      "styleTags": [
+        "Modern",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Alexey Kryukov",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://git.sr.ht/~ralessi/oldstandard",
+      "id": "family_old_standard_tt_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Old Standard TT is Alexey Kryukov's revival of the high-contrast serif common in late nineteenth-century books: vertical stress, thin hairlines and flat serifs. Regular, Italic and Bold, with Latin and an extensive Cyrillic. It gives text an old printed-page feel, especially in scholarly and literary settings.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/google/fonts/blob/main/ofl/oldstandardtt/OFL.txt"
+      },
+      "useCases": [
+        "Editorial"
+      ],
+      "variants": [
+        {
+          "filename": "OldStandard-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Ordinals",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 940,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_old_standard_tt_1792668292000_regular",
+          "familyId": "family_old_standard_tt_1792668292000",
+          "url": "/fonts/OldStandard-Regular.woff2",
+          "originalUrl": "/fonts/OldStandard-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/OldStandard-Regular.woff2"
+        },
+        {
+          "filename": "OldStandard-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Ordinals",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 938,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_old_standard_tt_1792668292000_italic",
+          "familyId": "family_old_standard_tt_1792668292000",
+          "url": "/fonts/OldStandard-Italic.woff2",
+          "originalUrl": "/fonts/OldStandard-Italic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "OldStandard-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Ordinals",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 940,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_old_standard_tt_1792668292000_bold",
+          "familyId": "family_old_standard_tt_1792668292000",
+          "url": "/fonts/OldStandard-Bold.woff2",
+          "originalUrl": "/fonts/OldStandard-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Pinyon Script",
+      "collection": "Display",
+      "styleTags": [
+        "Calligraphy",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Nicole Fally",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/SorkinType/Pinyon",
+      "id": "family_pinyon_script_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Pinyon Script is Nicole Fally's formal copperplate, written with a pointed pen at a steep slant with looping capitals. It covers Latin and Vietnamese. Suited to invitations, certificates and elegant signage, set large enough for the hairlines to survive.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/SorkinType/Pinyon/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Handwritten / Script",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "PinyonScript-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 836,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_pinyon_script_1792668292000_regular",
+          "familyId": "family_pinyon_script_1792668292000",
+          "url": "/fonts/PinyonScript-Regular.woff2",
+          "originalUrl": "/fonts/PinyonScript-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/PinyonScript-Regular.woff2"
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Pixelify Sans",
+      "collection": "Display",
+      "styleTags": [
+        "Squared"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek"
+      ],
+      "category": [
+        "Pixel"
+      ],
+      "foundry": "Stefie Justprince",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/eifetx/Pixelify-Sans",
+      "id": "family_pixelify_sans_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Pixelify Sans is Stefie Justprince's pixel sans, built on a square grid and variable in weight from 400 to 700. It covers Latin and Cyrillic. Clean enough for game interfaces and retro tech branding; keep it at sizes where the pixels read as a choice.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/eifetx/Pixelify-Sans/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Tech / Digital",
+        "Poster"
+      ],
+      "variants": [
+        {
+          "filename": "PixelifySans[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400.0,
+              "max": 700.0,
+              "default": 400.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 576,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_pixelify_sans_1792668292000_regular",
+          "familyId": "family_pixelify_sans_1792668292000",
+          "url": "/fonts/PixelifySans[wght].woff2",
+          "originalUrl": "/fonts/PixelifySans[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/PixelifySans[wght].woff2"
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Send Flowers",
+      "collection": "Display",
+      "styleTags": [
+        "Calligraphy"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Robert Leuschke",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/send-flowers",
+      "id": "family_send_flowers_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Send Flowers is Robert Leuschke's light monoline script with rounded loops and a gentle slant, closer to neat handwriting than to calligraphy. It covers Latin and Vietnamese. Greeting cards, invitations and soft brand marks.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/send-flowers/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Handwritten / Script"
+      ],
+      "variants": [
+        {
+          "filename": "SendFlowers-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Ordinals",
+            "Superscript",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 617,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_send_flowers_1792668292000_regular",
+          "familyId": "family_send_flowers_1792668292000",
+          "url": "/fonts/SendFlowers-Regular.woff2",
+          "originalUrl": "/fonts/SendFlowers-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/SendFlowers-Regular.woff2"
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Stardos Stencil",
+      "collection": "Display",
+      "styleTags": [
+        "Stencil",
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Vernon Adams",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/stardosstencil",
+      "id": "family_stardos_stencil_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Stardos Stencil is Vernon Adams's stencil serif: a moderate-contrast bracketed serif with the bridges of a cut stencil. Regular and Bold. It reads like a crate stamp or a military sign, and works on posters and packaging.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/google/fonts/blob/main/ofl/stardosstencil/OFL.txt"
+      },
+      "useCases": [
+        "Poster",
+        "Culture"
+      ],
+      "variants": [
+        {
+          "filename": "StardosStencil-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 305,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_stardos_stencil_1792668292000_regular",
+          "familyId": "family_stardos_stencil_1792668292000",
+          "url": "/fonts/StardosStencil-Regular.woff2",
+          "originalUrl": "/fonts/StardosStencil-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/StardosStencil-Regular.woff2"
+        },
+        {
+          "filename": "StardosStencil-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "openTypeFeatureTags": [],
+          "glyphCount": 306,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_stardos_stencil_1792668292000_bold",
+          "familyId": "family_stardos_stencil_1792668292000",
+          "url": "/fonts/StardosStencil-Bold.woff2",
+          "originalUrl": "/fonts/StardosStencil-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Young Serif",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Bastien Sozeau",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/noirblancrouge/YoungSerif",
+      "id": "family_young_serif_1792668292000",
+      "createdAt": "2026-10-22T11:24:52.000Z",
+      "updatedAt": "2026-10-22T11:24:52.000Z",
+      "publishedAt": "2026-10-22T11:24:52.000Z",
+      "description": "Young Serif is Bastien Sozeau's old-style serif with soft bracketed serifs, ball terminals and oldstyle figures. The upstream release is variable in weight from 300 to 700 with italics, more than the single weight on Google Fonts. Real small caps, an alternate a and circled letters are in the font. Warm enough for editorial text and characterful enough for headlines.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/noirblancrouge/YoungSerif/blob/master/OFL.txt"
+      },
+      "useCases": [
+        "Editorial",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "Young-Serif[wght].ttf",
+          "weight": 300,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300.0,
+              "max": 700.0,
+              "default": 300.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Stylistic Set 1",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss03",
+              "title": "Circled letters"
+            },
+            {
+              "tag": "ss04",
+              "title": "Black circled letters"
+            }
+          ],
+          "glyphCount": 1363,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_young_serif_1792668292000_regular",
+          "familyId": "family_young_serif_1792668292000",
+          "url": "/fonts/Young-Serif[wght].woff2",
+          "originalUrl": "/fonts/Young-Serif[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Young-Serif[wght].woff2"
+        },
+        {
+          "filename": "Young-Serif-Italic[wght].ttf",
+          "weight": 300,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300.0,
+              "max": 700.0,
+              "default": 300.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Stylistic Set 1",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss03",
+              "title": "Circled letters"
+            },
+            {
+              "tag": "ss04",
+              "title": "Black circled letters"
+            },
+            {
+              "tag": "ss05",
+              "title": "Oblique s, x, y"
+            }
+          ],
+          "glyphCount": 1518,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_young_serif_1792668292000_italic",
+          "familyId": "family_young_serif_1792668292000",
+          "url": "/fonts/Young-Serif-Italic[wght].woff2",
+          "originalUrl": "/fonts/Young-Serif-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ]
+      ],
+      "hasSmallCaps": true
     }
   ],
-  "lastUpdated": "2026-10-11T13:04:47.978977Z"
+  "lastUpdated": "2026-10-22T11:34:24.705183Z"
 }
