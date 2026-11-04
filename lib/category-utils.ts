@@ -1,4 +1,4 @@
-export type Collection = 'Text' | 'Display' | 'Brutal'
+export type { FontCollection as Collection } from './types'
 
 const canonicalMap: Record<string, string> = {
   // Core

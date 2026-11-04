@@ -4,7 +4,8 @@
  */
 
 // Font organization types
-export type FontCollection = 'Text' | 'Display' | 'Brutal'
+export const COLLECTIONS = ['Text', 'Display', 'Brutal'] as const
+export type FontCollection = (typeof COLLECTIONS)[number]
 
 // Core font data model - simplified and consistent
 export interface Font {

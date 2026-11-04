@@ -6,6 +6,7 @@ import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPrevie
 import { familyToSlug } from '@/lib/font-slug'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
 import { IconReset, IconChevronDown } from '@/components/icons'
+import type { FontCollection } from '@/lib/types'
 
 // Display-only case for the specimen. Small caps asks for the OpenType feature
 // rather than font-variant-caps, which browsers fake by shrinking capitals.
@@ -60,7 +61,7 @@ export interface FontData {
   openTypeFeatures?: string[]
   _familyFonts?: any[]
   _availableStyles?: Array<{ weight: number; styleName: string; isItalic: boolean; font?: any }>
-  collection: 'Text' | 'Display' | 'Brutal'
+  collection: FontCollection
   styleTags: string[]
   categories: string[]
   languages?: string[]

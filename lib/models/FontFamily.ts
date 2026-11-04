@@ -4,6 +4,7 @@
  */
 
 import { FontVariant } from './FontVariant'
+import { COLLECTIONS, type FontCollection } from '../types'
 
 export interface FontFamily {
   // Core identity
@@ -11,7 +12,7 @@ export interface FontFamily {
   name: string
   
   // Global family settings (inherited by all variants)
-  collection: 'Text' | 'Display' | 'Brutal'
+  collection: FontCollection
   styleTags: string[]
   languages: string[]
   category: string[]
@@ -68,7 +69,7 @@ export interface FontFamily {
 
 export interface CreateFontFamilyInput {
   name: string
-  collection?: 'Text' | 'Display' | 'Brutal'
+  collection?: FontCollection
   foundry?: string
   styleTags?: string[]
   languages?: string[]
@@ -81,7 +82,7 @@ export interface CreateFontFamilyInput {
 export interface UpdateFontFamilyInput {
   id: string
   name?: string
-  collection?: 'Text' | 'Display' | 'Brutal'
+  collection?: FontCollection
   foundry?: string
   styleTags?: string[]
   languages?: string[]
@@ -200,7 +201,7 @@ export class FontFamilyUtils {
       errors.push('Family ID is required')
     }
     
-    if (!['Text', 'Display', 'Brutal'].includes(family.collection)) {
+    if (!(COLLECTIONS as readonly string[]).includes(family.collection)) {
       errors.push('Invalid collection type')
     }
     

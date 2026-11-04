@@ -6,6 +6,7 @@ import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
 import { HeroReel } from "@/components/font-catalog/HeroReel"
 import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
+import { COLLECTIONS, type FontCollection } from "@/lib/types"
 // catalog.css is imported globally in layout.tsx
 
 
@@ -42,7 +43,7 @@ interface FontData {
     isItalic: boolean
     font?: any // Reference to original font for static fonts
   }> // Structured style data for style selection
-  collection: 'Text' | 'Display' | 'Brutal'
+  collection: FontCollection
   styleTags: string[]
   categories: string[]
   languages?: string[]
@@ -231,14 +232,12 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   // of decoration. The pick now happens after mount, so the first client render
   // matches the HTML exactly, and the fonts appear a frame later.
   const FALLBACK_PREVIEW = '"Instrument Sans UI", system-ui, sans-serif'
-  const [collectionPreviewFonts, setCollectionPreviewFonts] =
-    useState<Record<'Text' | 'Display' | 'Brutal', string>>({
-      Text: FALLBACK_PREVIEW, Display: FALLBACK_PREVIEW, Brutal: FALLBACK_PREVIEW,
-    })
+  const [collectionPreviewFonts, setCollectionPreviewFonts] = useState(() =>
+    Object.fromEntries(COLLECTIONS.map(c => [c, FALLBACK_PREVIEW])) as Record<FontCollection, string>)
 
   useEffect(() => {
     if (!fonts.length) return
-    const pickFor = (collection: 'Text' | 'Display' | 'Brutal') => {
+    const pickFor = (collection: FontCollection) => {
       const candidates = fonts.filter(f => f.collection === collection)
       if (!candidates.length) return FALLBACK_PREVIEW
       // Prefer variable fonts — only they get a family-level @font-face
@@ -248,14 +247,13 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       const from = pool.length ? pool : candidates
       return from[Math.floor(Math.random() * from.length)]?.fontFamily || FALLBACK_PREVIEW
     }
-    setCollectionPreviewFonts({
-      Text: pickFor('Text'), Display: pickFor('Display'), Brutal: pickFor('Brutal'),
-    })
+    setCollectionPreviewFonts(
+      Object.fromEntries(COLLECTIONS.map(c => [c, pickFor(c)])) as Record<FontCollection, string>)
     // Once per visit: the buttons should not reshuffle as the catalogue filters.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fonts.length])
 
-  const getStablePreviewFontForCollection = (collection: "Text" | "Display" | "Brutal") =>
+  const getStablePreviewFontForCollection = (collection: FontCollection) =>
     collectionPreviewFonts[collection]
   const [fontOTFeatures, setFontOTFeatures] = useState<Record<number, Record<string, boolean>>>({})
   const [fontVariableAxes, setFontVariableAxes] = useState<Record<number, Record<string, number>>>({})
@@ -1667,7 +1665,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
           }}>
             <div style={{ overflow: 'hidden' }}>
               <div className="flex gap-2 px-4 pt-4 pb-1">
-                {(["Text", "Display", "Brutal"] as const).map((mode) => (
+                {COLLECTIONS.map((mode) => (
                   <button
                     key={mode}
                     disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
@@ -1707,7 +1705,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 <div className="px-4 py-4 space-y-8" style={{ paddingBottom: '40px' }}>
 
                   <div className="flex gap-2">
-                    {(["Text", "Display", "Brutal"] as const).map((mode) => (
+                    {COLLECTIONS.map((mode) => (
                       <button
                         key={mode}
                         disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
