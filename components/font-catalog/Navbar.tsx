@@ -18,6 +18,7 @@ interface NavbarProps {
 
 const EASE_OPEN  = 'cubic-bezier(0.34, 1.12, 0.64, 1)'
 const EASE_CLOSE = 'cubic-bezier(0.4, 0, 0.6, 1)'
+const TYPETRAY_URL = 'https://typetray.plkv.works/'
 
 export function Navbar({ fonts = [], back = false }: NavbarProps) {
   const [searchOpen, setSearchOpen] = useState(false)
@@ -35,10 +36,10 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
     }
   }
 
-  // When back is present, back island (54px) + gap (6px) = 60px offset from left
+  // Each island is 54px + 6px gap. Back sits left; TypeTray and search sit right
   const leftOffset = back ? 60 : 0
   const logoLeft = back ? '60px' : '0'
-  const logoWidthClosed = back ? 'calc(100% - 120px)' : 'calc(100% - 60px)'
+  const logoWidthClosed = back ? 'calc(100% - 180px)' : 'calc(100% - 120px)'
   const searchWidthOpen = back ? 'calc(100% - 120px)' : 'calc(100% - 60px)'
 
   const results = query.trim().length > 0
@@ -134,7 +135,28 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           </a>
         </header>
 
-        {/* Island 2: Search — icon always visible, expands leftward */}
+        {/* Island 2: TypeTray — fades out while search takes the row */}
+        <a
+          href={TYPETRAY_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="TypeTray, a font manager for macOS"
+          title="TypeTray, a font manager for macOS"
+          className="navbar-tray-island"
+          tabIndex={searchOpen ? -1 : 0}
+          style={{
+            opacity: searchOpen ? 0 : 1,
+            transform: `scale(${searchOpen ? 0.75 : 1})`,
+            pointerEvents: searchOpen ? 'none' : 'auto',
+            transition: searchOpen
+              ? `opacity 0.15s, transform 0.15s ${EASE_CLOSE}`
+              : `opacity 0.15s 0.15s, transform 0.2s ${EASE_OPEN} 0.15s`,
+          }}
+        >
+          <img src="/typetray-icon.svg" alt="" width={54} height={54} />
+        </a>
+
+        {/* Island 3: Search — icon always visible, expands leftward */}
         <div
           className={`navbar-search-island v2-card v2-overlay${!searchOpen ? ' navbar-search-island-btn' : ''}`}
           style={{
@@ -182,7 +204,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           />
         </div>
 
-        {/* Island 3: Close — scale+fade, width handles layout */}
+        {/* Island 4: Close — scale+fade, width handles layout */}
         <button
           aria-label="Close search"
           className="navbar-close-island v2-card v2-overlay"

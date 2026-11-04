@@ -345,6 +345,24 @@
   bottom: 0;
 }
 
+/* TypeTray island: the app icon itself, edge to edge, between logo and search */
+.navbar-tray-island {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 60px;
+  width: 54px;
+}
+
+.navbar-tray-island img {
+  display: block;
+  transition: filter 0.2s;
+}
+
+.navbar-tray-island:hover img {
+  filter: brightness(0.9);
+}
+
 /* Close island: right edge, width controlled via React */
 .navbar-close-island {
   position: absolute;
