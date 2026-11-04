@@ -48,8 +48,12 @@ PRESET_CHARS = (
 
 # Alternates the "Alternates" preset shows without expanding a card. Keeping
 # them costs little and losing them would silently empty that preset.
+#
+# rvrn and rclt carry a font's feature variations: an axis that swaps glyphs
+# rather than moving points. Geist Serif's Element Shape axis is nothing but
+# that, so without them the card's slider moved and nothing changed.
 KEEP_FEATURES = [
-    "kern", "liga", "calt", "salt", "ccmp", "locl",
+    "kern", "liga", "calt", "salt", "ccmp", "locl", "rvrn", "rclt",
     *[f"ss{n:02d}" for n in range(1, 21)],
     *[f"cv{n:02d}" for n in range(1, 21)],
 ]

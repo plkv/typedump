@@ -39244,7 +39244,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-10-22T11:24:53.000Z",
+          "uploadedAt": "2026-11-04T00:38:10.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -44512,7 +44512,148 @@
         ]
       ],
       "hasSmallCaps": true
+    },
+    {
+      "name": "Geist Serif",
+      "collection": "Display",
+      "styleTags": [
+        "Transitional",
+        "Contrast",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "WORDMARK, Vercel, Mark Davis, Andrés Briganti, Evil Rabbit",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://vercel.com/font",
+      "sourceUrl": "https://vercel.com/blog/introducing-geist-serif",
+      "id": "family_geist_serif_1793752689000",
+      "createdAt": "2026-11-04T00:38:09.000Z",
+      "updatedAt": "2026-11-04T00:38:09.000Z",
+      "publishedAt": "2026-11-04T00:38:09.000Z",
+      "description": "Geist Serif is the display serif of Vercel's Geist family, sketched by Evil Rabbit and drawn by Mark Davis and Andrés Briganti at WORDMARK. Vercel aimed it at magazine and fashion headlines: every downstroke is thinned to push the contrast, and each serif is a wedge on one side and a curve on the other, sharp enough to need a modern screen. One weight, with an Element Shape axis that swaps the dots on i, j and the punctuation between round, square, triangle and heart; the same shapes are also in stylistic sets, next to alternate a, k and R and rounder O and Q. Built for headlines and posters, not for running text.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/vercel/geist-font/blob/main/OFL.txt"
+      },
+      "useCases": [
+        "Editorial",
+        "Brand Headline",
+        "Poster"
+      ],
+      "alternativeTo": [
+        {
+          "name": "Victor Serif",
+          "foundry": "Kontour",
+          "motive": "paid",
+          "gets": "free under OFL, with a dot-shape axis"
+        },
+        {
+          "name": "Stanley",
+          "foundry": "Optimo",
+          "motive": "paid",
+          "gets": "free under OFL, with a dot-shape axis"
+        }
+      ],
+      "variants": [
+        {
+          "filename": "GeistSerif[ELSH].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Element Shape",
+              "tag": "ELSH",
+              "min": 0.0,
+              "max": 100.0,
+              "default": 0.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Proportional Figures",
+            "Tabular Figures",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Kerning"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a k R"
+            },
+            {
+              "tag": "ss02",
+              "title": "Square dots"
+            },
+            {
+              "tag": "ss03",
+              "title": "Triangle dots"
+            },
+            {
+              "tag": "ss04",
+              "title": "Heart dots"
+            },
+            {
+              "tag": "ss05",
+              "title": "Transitional round letters"
+            }
+          ],
+          "glyphCount": 896,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-04T00:38:09.000Z",
+          "id": "variant_family_geist_serif_1793752689000_regular",
+          "familyId": "family_geist_serif_1793752689000",
+          "url": "/fonts/GeistSerif[ELSH].woff2",
+          "originalUrl": "/fonts/GeistSerif[ELSH].ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/GeistSerif[ELSH].woff2"
+        }
+      ],
+      "altPairs": [
+        [
+          "a",
+          "ss01"
+        ],
+        [
+          "k",
+          "ss01"
+        ],
+        [
+          "R",
+          "ss01"
+        ],
+        [
+          "O",
+          "ss05"
+        ],
+        [
+          "Q",
+          "ss05"
+        ],
+        [
+          "0",
+          "ss05"
+        ]
+      ]
     }
   ],
-  "lastUpdated": "2026-10-22T11:34:24.705183Z"
+  "lastUpdated": "2026-11-04T00:52:41.260112Z"
 }
