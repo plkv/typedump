@@ -47,7 +47,7 @@ const CLIPS: Clip[] = [
   // dot axis swaps glyphs through feature variations, which only a browser
   // shaper applies. Its yellow splits America XIX and Coconat, the closest
   // pair of grounds in the loop before it.
-  { src: "GeistSerif", font: "Geist Serif", slug: "geist-serif", ratio: 6 / 5 },
+  { src: "GeistSerif", font: "Geist Serif", slug: "geist-serif", ratio: 4 / 5 },
   { src: "Coconat", font: "Coconat", slug: "coconat", ratio: 4 / 5 },
   { src: "MomoTrust", font: "Momo Trust Sans", slug: "momo-trust-sans", ratio: 6 / 5 },
 ]
@@ -55,7 +55,7 @@ const CLIPS: Clip[] = [
 // Bump when any clip in public/hero is re-rendered: the files are served with a
 // year's immutable caching (see public/_headers), so the query is what tells a
 // returning browser that a clip changed.
-const MEDIA_VERSION = 2
+const MEDIA_VERSION = 3
 const clipUrl = (src: string) => `/hero/${src}.mp4?v=${MEDIA_VERSION}`
 const posterUrl = (src: string) => `/hero/${src}.jpg?v=${MEDIA_VERSION}`
 

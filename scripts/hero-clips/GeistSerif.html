@@ -3,28 +3,34 @@
 @font-face { font-family: "Geist Serif"; src: url("../../public/fonts/GeistSerif[ELSH].ttf"); }
 @font-face { font-family: "Instrument Sans UI"; src: url("../../public/fonts/InstrumentSans-VariableFont_wdth,wght.woff2"); font-weight: 400 700; }
 :root { --bg: #f2d21b; --ink: #16140f; }
-html, body { margin: 0; width: 768px; height: 640px; overflow: hidden; background: var(--bg); color: var(--ink); }
+html, body { margin: 0; width: 512px; height: 640px; overflow: hidden; background: var(--bg); color: var(--ink); }
 .label { position: absolute; font: 500 12px/1 "Instrument Sans UI", sans-serif; opacity: .62; }
 .tl { left: 16px; top: 16px; } .bl { left: 16px; bottom: 16px; } .br { right: 16px; bottom: 16px; }
 .stage { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; font-family: "Geist Serif"; }
-.big { font-size: 212px; line-height: .95; letter-spacing: -0.02em; }
-.line { font-size: 46px; line-height: 1.1; margin-top: 18px; }
+[data-s="0"]{font-variation-settings:"ELSH" 0} [data-s="1"]{font-variation-settings:"ELSH" 25} [data-s="2"]{font-variation-settings:"ELSH" 50} [data-s="3"]{font-variation-settings:"ELSH" 100}
+.line { font-size: 104px; line-height: 1.04; letter-spacing: -0.015em; }
 </style>
-<div class="label tl">Geist Serif</div>
-<div class="label bl">WORDMARK, Vercel</div>
-<div class="label br">typedump.com</div>
-<div class="stage" id="stage">
-  <div class="big">Bijoux!</div>
-  <div class="line">Fine hairlines, <span id="word">round</span> dots.</div>
+<div class="label tl">Geist Serif</div><div class="label bl">WORDMARK, Vercel</div><div class="label br">typedump.com</div>
+<div class="stage">
+  <div class="line">Bijoux!</div>
+  <div class="line">Fiji?</div>
+  <div class="line">Jiujitsu;</div>
+  <div class="line">Bikini!</div>
 </div>
 <script>
-const STATES = [[0, 'round'], [25, 'square'], [50, 'triangle'], [100, 'heart']];
-const PER = 24;
-window.FRAMES = STATES.length * PER;
+// Every dotted glyph flips on its own, one after another in reading order, so
+// a shape runs through the text like a ripple instead of switching all at once.
+const DOTTED = /[ij!?;]/;
+const dots = [];
+document.querySelectorAll('.line').forEach(line => {
+  line.innerHTML = [...line.textContent].map(ch => DOTTED.test(ch) ? `<span>${ch}</span>` : ch).join('');
+  dots.push(...line.querySelectorAll('span'));
+});
+const STEP = 2, HOLD = 8, CYCLE = dots.length * STEP + HOLD;
+window.FRAMES = 4 * CYCLE;
 window.setFrame = n => {
-  const [elsh, word] = STATES[Math.floor(n / PER) % STATES.length];
-  document.getElementById('stage').style.fontVariationSettings = `"ELSH" ${elsh}`;
-  document.getElementById('word').textContent = word;
+  const k = Math.floor(n / CYCLE), t = n % CYCLE;
+  dots.forEach((el, i) => { el.dataset.s = (t >= i * STEP ? k + 1 : k) % 4 });
 };
 setFrame(0);
 </script>
