@@ -48,10 +48,10 @@ called Crédible OFL while the file says WTFPL, and Knack free for commercial us
 while its designer says personal only.
 
 **The feed is ordered by the newest `uploadedAt` among a family's variants**,
-not by the family's `createdAt`. Memoir is pinned to the top on Stas's
-instruction; after a batch, set its variants' `uploadedAt` later than anything
-just added. Bumping only `createdAt` once left Junicode at the top of the live
-site for two weeks.
+not by the family's `createdAt`. Bumping only `createdAt` once left Junicode
+at the top of the live site for two weeks. The order is plain chronology: a new
+family gets the time it was added and nothing is pinned. Memoir used to be kept
+on top by re-bumping its dates after every batch; Stas ended that on 2026-11-04.
 
 ## 3. Tag it
 

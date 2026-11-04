@@ -39244,7 +39244,7 @@
             }
           ],
           "isDefaultStyle": true,
-          "uploadedAt": "2026-11-04T00:38:10.000Z",
+          "uploadedAt": "2026-09-18T00:00:00.000Z",
           "id": "variant_family_memoir_1758190000000_1758190000001",
           "familyId": "family_memoir_1758190000000",
           "url": "/fonts/Memoir-Regular.woff2",
@@ -44653,7 +44653,66 @@
           "ss05"
         ]
       ]
+    },
+    {
+      "name": "Super Nugget",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Rounded",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "All Super Font",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "/fonts/SuperNugget-Regular.ttf",
+      "id": "family_super_nugget_1793803200000",
+      "createdAt": "2026-11-04T14:40:00.000Z",
+      "updatedAt": "2026-11-04T14:40:00.000Z",
+      "publishedAt": "2026-11-04T14:40:00.000Z",
+      "description": "Super Nugget is a heavy 1970s-style display face by All Super Font. Every stroke swells toward a soft, blobby end, the counters close up small, and the letters sit packed tight, so a word reads as one chunky shape. One weight with Latin Extended-A, so Polish, Czech or Turkish set without fallbacks, plus fractions and superiors. Made for packaging, posters, kids' brands and anything that should look like a sticker; it is too dense for anything below headline size.",
+      "licenseInfo": {
+        "type": "Free for commercial use"
+      },
+      "useCases": [
+        "Poster",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "SuperNugget-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Fractions",
+            "Kerning",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript"
+          ],
+          "openTypeFeatureTags": [],
+          "glyphCount": 439,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-04T14:40:00.000Z",
+          "id": "variant_family_super_nugget_1793803200000_regular",
+          "familyId": "family_super_nugget_1793803200000",
+          "url": "/fonts/SuperNugget-Regular.woff2",
+          "originalUrl": "/fonts/SuperNugget-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/SuperNugget-Regular.woff2"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-04T00:52:41.260112Z"
+  "lastUpdated": "2026-11-04T13:34:42.648125Z"
 }
