@@ -1,19 +1,21 @@
 /* V2 Catalog Design System */
 
-/* Interface font: Instrument Sans (variable). Named "Instrument Sans UI" so it
-   can't collide with the catalogue's hashed preview aliases. Its stylistic sets
-   are applied on body: ss01 round dots, ss02 single-storey a, ss06 alt M,
-   ss08 alt J. */
+/* Interface font: ABC Areal (variable), the same file as its catalogue entry.
+   Named "Areal UI" so it can't collide with the catalogue's hashed preview
+   aliases. Everything in the interface reads --font-ui and --font-ui-features,
+   so swapping the face is this block and nothing else. Stylistic sets: ss01-ss07
+   alt a t u y G R M/W/w, ss10 Schoolbook, ss11 round punctuation. */
 @font-face {
-  font-family: "Instrument Sans UI";
-  src: url("/fonts/InstrumentSans-VariableFont_wdth,wght.woff2") format("woff2");
+  font-family: "Areal UI";
+  src: url("/fonts/ABCArealVariable.woff2") format("woff2");
   font-weight: 400 700;
-  font-stretch: 75% 100%;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
+  --font-ui: "Areal UI", sans-serif;
+  --font-ui-features: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "ss05" 1, "ss06" 1, "ss07" 1, "ss10" 1, "ss11" 1;
   /* Primary action colors — reference gray tokens, no hardcoded hex */
   --v2-active-bg: var(--gray-cont-prim);
   --v2-active-fg: var(--gray-surface-prim);
@@ -115,7 +117,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -152,7 +154,7 @@
   border-radius: var(--radius-component);
   padding: 10px 12px;
   height: 40px;
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -163,7 +165,7 @@
   padding: 3px 8px;
   border-radius: var(--radius-component);
   border: 1px solid var(--gray-brd-prim);
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
@@ -207,7 +209,7 @@
   border-radius: var(--radius-component);
   border: none;
   cursor: pointer;
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
@@ -637,20 +639,19 @@
 
 .catalog-hero-text {
   margin: 0;
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   /* Sized off the screen's height as well as its width: the copy shares the
      first screen with a reel a third of its height, so a short laptop has to
      set it smaller than a tall monitor of the same width. */
   font-size: clamp(20px, 2.7vh, 30px);
   line-height: 1.3;
   letter-spacing: -0.01em;
-  /* Both axes set off the register: the face is declared 400-700 on weight and
-     75%-100% on width (see the @font-face at the top of this file), so 450 and
-     97% land inside its range instead of snapping to a named instance. */
+  /* Off the register: the face is declared 400-700 on weight (see the
+     @font-face at the top of this file), so 450 lands inside its range instead
+     of snapping to a named instance. */
   font-weight: 450;
-  font-stretch: 97%;
   color: var(--gray-cont-prim);
-  font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
+  font-feature-settings: var(--font-ui-features);
   /* No single word left alone on the last line. */
   text-wrap: pretty;
 }
@@ -885,11 +886,11 @@
   /* Same face, size and colour as the author line in the same card — 14/20 at
      weight 500 on the tertiary token — rather than a smaller, paler thing of
      its own. It is a note inside the card, not a separate widget. */
-  font-family: "Instrument Sans UI", sans-serif;
+  font-family: var(--font-ui);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  font-feature-settings: "ss01" 1, "ss02" 1, "ss06" 1, "ss08" 1;
+  font-feature-settings: var(--font-ui-features);
   color: var(--gray-cont-tert);
   animation: fadeIn 0.2s ease;
 }

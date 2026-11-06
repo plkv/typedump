@@ -124,7 +124,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               width: '100%', height: '100%',
-              fontFamily: '"Instrument Sans UI", system-ui, -apple-system, sans-serif',
+              fontFamily: 'var(--font-ui)',
               fontSize: '22px', fontWeight: 900, lineHeight: '100%',
               textTransform: 'lowercase',
               color: 'var(--gray-cont-prim)',
@@ -193,7 +193,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
             style={{
               flex: 1, minWidth: 0, paddingRight: '16px',
               background: 'transparent', border: 'none', outline: 'none',
-              fontFamily: '"Instrument Sans UI", sans-serif',
+              fontFamily: 'var(--font-ui)',
               fontSize: '16px', fontWeight: 500,
               color: 'var(--gray-cont-prim)',
               caretColor: 'var(--gray-cont-prim)',
@@ -248,15 +248,15 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
                   borderBottom: '1px solid var(--gray-brd-prim)', gap: '2px',
                 }}
               >
-                <span style={{ fontFamily: '"Instrument Sans UI", sans-serif', fontSize: '14px', fontWeight: 500 }}>
+                <span style={{ fontFamily: 'var(--font-ui)', fontSize: '14px', fontWeight: 500 }}>
                   {font.name}
                 </span>
-                <span style={{ fontFamily: '"Instrument Sans UI", sans-serif', fontSize: '14px', fontWeight: 400, color: 'var(--gray-cont-tert)' }}>
+                <span style={{ fontFamily: 'var(--font-ui)', fontSize: '14px', fontWeight: 400, color: 'var(--gray-cont-tert)' }}>
                   {font.author}
                 </span>
               </a>
             )) : (
-              <div style={{ padding: '16px', color: 'var(--gray-cont-tert)', fontSize: '14px', fontFamily: '"Instrument Sans UI", sans-serif' }}>
+              <div style={{ padding: '16px', color: 'var(--gray-cont-tert)', fontSize: '14px', fontFamily: 'var(--font-ui)' }}>
                 No results for «{query}»
               </div>
             )}

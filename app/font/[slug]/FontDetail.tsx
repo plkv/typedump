@@ -280,7 +280,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           <HeroName name={family.name} family={heroFont} />
         </h1>
         <div style={{
-          fontFamily: '"Instrument Sans UI", sans-serif',
+          fontFamily: 'var(--font-ui)',
           fontSize: '14px',
           fontWeight: 500,
           color: 'var(--gray-cont-tert)',
@@ -464,7 +464,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                     style={{
                       height: '100%', width: '100%', padding: '0 36px 0 12px',
                       backgroundColor: 'transparent', border: 'none', outline: 'none',
-                      fontFamily: '"Instrument Sans UI", sans-serif',
+                      fontFamily: 'var(--font-ui)',
                       fontSize: 14, fontWeight: 500, color: 'var(--gray-cont-prim)',
                     }}
                   >
@@ -529,7 +529,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         <div className="v2-card" style={{ padding: '20px 24px 24px' }}>
           <div className="text-author" style={{ marginBottom: 12 }}>About</div>
           <p style={{
-            fontFamily: '"Instrument Sans UI", sans-serif',
+            fontFamily: 'var(--font-ui)',
             // 450, not 400: every other word on this page — the labels, the
             // table values, the buttons — is 500, so body copy at 400 was the
             // one light thing on the page and read as washed out.
@@ -548,7 +548,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               the words people search. */}
           {(family.alternativeTo || []).length > 0 && (
             <p style={{
-              fontFamily: '"Instrument Sans UI", sans-serif',
+              fontFamily: 'var(--font-ui)',
               // 450, not 400: every other word on this page — the labels, the
             // table values, the buttons — is 500, so body copy at 400 was the
             // one light thing on the page and read as washed out.
@@ -629,7 +629,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
 
       {/* ── Footer ── */}
       <footer style={{ padding: '16px 24px' }}>
-        <span style={{ fontFamily: '"Instrument Sans UI", sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
+        <span style={{ fontFamily: 'var(--font-ui)', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
           © 2026 TypeDump. Built and curated by{' '}
           <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>
           , who also makes{' '}

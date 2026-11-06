@@ -288,7 +288,7 @@ function FontCardImpl({
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
-                      fontFamily: '"Instrument Sans UI", sans-serif',
+                      fontFamily: 'var(--font-ui)',
                       fontSize: '14px',
                       fontWeight: 500,
                       color: 'var(--gray-cont-prim)',
