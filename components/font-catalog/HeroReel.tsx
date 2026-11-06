@@ -61,7 +61,7 @@ const CLIPS: Clip[] = [
 // Bump when any clip in public/hero is re-rendered: the files are served with a
 // year's immutable caching (see public/_headers), so the query is what tells a
 // returning browser that a clip changed.
-const MEDIA_VERSION = 3
+const MEDIA_VERSION = 4
 const clipUrl = (src: string) => `/hero/${src}.mp4?v=${MEDIA_VERSION}`
 const posterUrl = (src: string) => `/hero/${src}.jpg?v=${MEDIA_VERSION}`
 
