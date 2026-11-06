@@ -26,6 +26,12 @@ type Clip = { src: string; font: string; slug: string; ratio: number }
 // the first screen opens on the brightest grounds.
 const CLIPS: Clip[] = [
   { src: "Anthony", font: "Anthony", slug: "anthony", ratio: 6 / 5 },
+  // Rendered from scripts/hero-clips like Geist Serif below, and put second
+  // and third on Stas's call so the newest faces open the reel. In this order
+  // their grounds stay far from their neighbours (ΔE 92, 79, 97); Areal next
+  // to Anthony would drop to 41.
+  { src: "HappyTimes", font: "Happy Times at the IKOB", slug: "happy-times-at-the-ikob", ratio: 4 / 5 },
+  { src: "ABCAreal", font: "ABC Areal", slug: "abc-areal", ratio: 4 / 5 },
   { src: "Lineal", font: "Lineal", slug: "lineal", ratio: 6 / 5 },
   { src: "GeneralSans", font: "General Sans", slug: "general-sans", ratio: 6 / 5 },
   { src: "FtAnima", font: "ft anima", slug: "ft-anima", ratio: 4 / 5 },
@@ -43,10 +49,6 @@ const CLIPS: Clip[] = [
   { src: "PicNic", font: "PicNic", slug: "picnic", ratio: 4 / 5 },
   { src: "Director", font: "Director", slug: "director", ratio: 6 / 5 },
   { src: "AmericaXIX", font: "America XIX", slug: "america-xix", ratio: 4 / 5 },
-  // Rendered from scripts/hero-clips like Geist Serif below. Placed where they
-  // raise the closest pair of neighbouring grounds the most (ΔE 67 -> 74).
-  { src: "HappyTimes", font: "Happy Times at the IKOB", slug: "happy-times-at-the-ikob", ratio: 4 / 5 },
-  { src: "ABCAreal", font: "ABC Areal", slug: "abc-areal", ratio: 4 / 5 },
   // Rendered in a headless Chrome rather than with the promo-video picks: its
   // dot axis swaps glyphs through feature variations, which only a browser
   // shaper applies. Its yellow splits America XIX and Coconat, the closest
