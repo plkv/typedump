@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@font-face { font-family: "Happy Times"; src: url("../../public/fonts/happy-times-NG_regular_master.otf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Happy Times"; src: url("../../public/fonts/happy-times-NG_italic_master.otf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Happy Times"; src: url("../../public/fonts/happy-times-NG_bold_master.otf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Instrument Sans UI"; src: url("../../public/fonts/InstrumentSans-VariableFont_wdth,wght.woff2"); font-weight: 400 700; }
+:root { --bg: #5b1a1a; --ink: #f3e7d3; }
+html, body { margin: 0; width: 512px; height: 640px; overflow: hidden; background: var(--bg); color: var(--ink); }
+.label { position: absolute; font: 500 12px/1 "Instrument Sans UI", sans-serif; opacity: .62; }
+.tl { left: 16px; top: 16px; } .bl { left: 16px; bottom: 16px; } .br { right: 16px; bottom: 16px; }
+.stage { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; font-family: "Happy Times"; }
+[data-s="0"] { font-weight: 400; font-style: normal; }
+[data-s="1"] { font-weight: 400; font-style: italic; }
+[data-s="2"] { font-weight: 700; font-style: normal; }
+.line { font-size: 112px; line-height: 1.02; letter-spacing: -0.01em; }
+</style>
+<div class="label tl">Happy Times at the IKOB</div><div class="label bl">Lucas Le Bihan</div><div class="label br">typedump.com</div>
+<div class="stage">
+  <div class="line"><span>Happy</span></div>
+  <div class="line"><span>times</span></div>
+  <div class="line"><span>at</span> <span>the</span></div>
+  <div class="line"><span>IKOB</span></div>
+</div>
+<script>
+// The family's three styles, one word at a time: each word steps from roman to
+// italic to bold in reading order, so the change travels down the stack.
+const words = [...document.querySelectorAll('.line span')];
+const STEP = 4, HOLD = 18, CYCLE = words.length * STEP + HOLD;
+window.FRAMES = 3 * CYCLE;
+window.setFrame = n => {
+  const k = Math.floor(n / CYCLE), t = n % CYCLE;
+  words.forEach((el, i) => { el.dataset.s = (t >= i * STEP ? k + 1 : k) % 3 });
+};
+setFrame(0);
+</script>

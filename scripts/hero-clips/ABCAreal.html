@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@font-face { font-family: "ABC Areal"; src: url("../../public/fonts/ABCArealVariable.ttf"); font-weight: 400 700; }
+@font-face { font-family: "Instrument Sans UI"; src: url("../../public/fonts/InstrumentSans-VariableFont_wdth,wght.woff2"); font-weight: 400 700; }
+:root { --bg: #dfe4e8; --ink: #101214; }
+body.dark { --bg: #101214; --ink: #dfe4e8; }
+html, body { margin: 0; width: 512px; height: 640px; overflow: hidden; background: var(--bg); color: var(--ink); }
+.label { position: absolute; font: 500 12px/1 "Instrument Sans UI", sans-serif; opacity: .62; }
+.tl { left: 16px; top: 16px; } .bl { left: 16px; bottom: 16px; } .br { right: 16px; bottom: 16px; }
+.stage { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; font-family: "ABC Areal"; font-weight: 500; }
+body.dark .stage { font-variation-settings: "DRKM" 1; }
+.line { font-size: 108px; line-height: 1.04; letter-spacing: -0.02em; }
+</style>
+<div class="label tl">ABC Areal</div><div class="label bl">Dinamo</div><div class="label br">typedump.com</div>
+<div class="stage">
+  <div class="line">Gravity</div>
+  <div class="line">Mutual</div>
+  <div class="line">Twenty</div>
+  <div class="line">Rewrite</div>
+</div>
+<script>
+// Each glyph that has an alternate swaps on its own, in reading order, so the
+// change runs through the words like a ripple. Every other pass the page goes
+// dark and the Darkmode axis takes the weight back, as it does on a screen.
+const SETS = { a: 'ss01', t: 'ss02', u: 'ss03', y: 'ss04', G: 'ss05', R: 'ss06', M: 'ss07', W: 'ss07', w: 'ss07' };
+const alts = [];
+document.querySelectorAll('.line').forEach(line => {
+  line.innerHTML = [...line.textContent].map(ch => SETS[ch] ? `<span data-f="${SETS[ch]}">${ch}</span>` : ch).join('');
+  alts.push(...line.querySelectorAll('span'));
+});
+const STEP = 2, HOLD = 14, CYCLE = alts.length * STEP + HOLD;
+window.FRAMES = 4 * CYCLE;
+window.setFrame = n => {
+  const k = Math.floor(n / CYCLE), t = n % CYCLE;
+  document.body.classList.toggle('dark', k % 2 === 1);
+  alts.forEach((el, i) => {
+    const on = (t >= i * STEP ? k + 1 : k) % 2 === 1;
+    el.style.fontFeatureSettings = on ? `"${el.dataset.f}" 1` : 'normal';
+  });
+};
+setFrame(0);
+</script>

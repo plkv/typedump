@@ -43,6 +43,10 @@ const CLIPS: Clip[] = [
   { src: "PicNic", font: "PicNic", slug: "picnic", ratio: 4 / 5 },
   { src: "Director", font: "Director", slug: "director", ratio: 6 / 5 },
   { src: "AmericaXIX", font: "America XIX", slug: "america-xix", ratio: 4 / 5 },
+  // Rendered from scripts/hero-clips like Geist Serif below. Placed where they
+  // raise the closest pair of neighbouring grounds the most (ΔE 67 -> 74).
+  { src: "HappyTimes", font: "Happy Times at the IKOB", slug: "happy-times-at-the-ikob", ratio: 4 / 5 },
+  { src: "ABCAreal", font: "ABC Areal", slug: "abc-areal", ratio: 4 / 5 },
   // Rendered in a headless Chrome rather than with the promo-video picks: its
   // dot axis swaps glyphs through feature variations, which only a browser
   // shaper applies. Its yellow splits America XIX and Coconat, the closest
