@@ -44715,7 +44715,280 @@
           "previewUrl": "/fonts/preview/SuperNugget-Regular.woff2"
         }
       ]
+    },
+    {
+      "name": "BL Orchid",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Boulevard LAB",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.boulevardtype.com/",
+      "id": "family_bl_orchid_1794054600000",
+      "createdAt": "2026-11-06T12:30:00.000Z",
+      "updatedAt": "2026-11-06T12:30:00.000Z",
+      "publishedAt": "2023-01-01",
+      "description": "BL Orchid is Samuel Glen Hughes's text serif for Boulevard LAB. The serifs are short flared wedges that end in points, the contrast is low and the figures are old-style by default, so it sits calmly in a paragraph and still has an edge at headline size. Seven upright weights from ExtraLight to Bold, no italics. Two stylistic sets: ss01 swaps the ampersand and the bullet, ss02 gives b, d, h, i, j, k and l flat top serifs instead of slanted ones. Latin with Extended-A. The foundry gives the full family away for free under a perpetual licence that allows commercial use; it may not be passed on or modified, so the files are only downloadable from Boulevard LAB.",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.boulevardtype.com/"
+      },
+      "useCases": [
+        "Editorial",
+        "Brand Headline"
+      ],
+      "variants": [
+        {
+          "filename": "BLOrchid-ExtraLight.woff2",
+          "weight": 200,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_extralight",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-ExtraLight.woff2",
+          "originalUrl": "/fonts/BLOrchid-ExtraLight.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-Light.woff2",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_light",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Light.woff2",
+          "originalUrl": "/fonts/BLOrchid-Light.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-Book.woff2",
+          "weight": 350,
+          "styleName": "Book",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_book",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Book.woff2",
+          "originalUrl": "/fonts/BLOrchid-Book.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-Regular.woff2",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_regular",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Regular.woff2",
+          "originalUrl": "/fonts/BLOrchid-Regular.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-Medium.woff2",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_medium",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Medium.woff2",
+          "originalUrl": "/fonts/BLOrchid-Medium.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-SemiBold.woff2",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_semibold",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-SemiBold.woff2",
+          "originalUrl": "/fonts/BLOrchid-SemiBold.woff2",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "BLOrchid-Bold.woff2",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Kerning",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2"
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate ampersand and bullet"
+            },
+            {
+              "tag": "ss02",
+              "title": "Flat serifs on b d h i j k l"
+            }
+          ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_bold",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Bold.woff2",
+          "originalUrl": "/fonts/BLOrchid-Bold.woff2",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
     }
   ],
-  "lastUpdated": "2026-11-04T13:34:42.648125Z"
+  "lastUpdated": "2026-11-06T12:30:00.000Z"
 }
