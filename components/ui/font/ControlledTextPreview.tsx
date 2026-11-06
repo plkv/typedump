@@ -69,7 +69,10 @@ export const ControlledTextPreview = forwardRef<
   const [hydrated, setHydrated] = useState(false)
   useEffect(() => { setHydrated(true) }, [])
 
-  const family = highlightMissingGlyphs ? firstFamily(String(style.fontFamily || '')) : ''
+  // The preview's own face. Its load decides both coverage and the textarea's
+  // final height, so it is tracked whether or not coverage is highlighted.
+  const ownFamily = firstFamily(String(style.fontFamily || ''))
+  const family = highlightMissingGlyphs ? ownFamily : ''
 
   // Coverage is measured by comparing advance widths against a generic, so an
   // unloaded face — which the browser draws with that same generic — reads as
@@ -80,18 +83,18 @@ export const ControlledTextPreview = forwardRef<
   // the user had to click again about half a second later. Measure only once
   // the face is actually loaded.
   const familyLoaded = useMemo(() => {
-    if (!family || typeof document === 'undefined' || !document.fonts) return false
+    if (!ownFamily || typeof document === 'undefined' || !document.fonts) return false
     let declared = false
     let loaded = false
     document.fonts.forEach(f => {
-      if (f.family.replace(/^["']|["']$/g, '') !== family) return
+      if (f.family.replace(/^["']|["']$/g, '') !== ownFamily) return
       declared = true
       if (f.status === 'loaded') loaded = true
     })
     // A family we do not declare (a system stack) has nothing to wait for.
     return !declared || loaded
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [family, fontEpoch, hydrated])
+  }, [ownFamily, fontEpoch, hydrated])
 
   const segments = useMemo(
     () => (highlightMissingGlyphs && hydrated && familyLoaded
@@ -191,7 +194,10 @@ export const ControlledTextPreview = forwardRef<
       else if (ref && 'current' in ref) (ref as any).current = el
     }
     // User-driven changes (text, size, family…) get a full re-measure that can
-    // shrink OR grow — reset to auto, read scrollHeight, apply.
+    // shrink OR grow — reset to auto, read scrollHeight, apply. So does this
+    // preview's own face landing: the box was first measured in the fallback,
+    // and a condensed face set in a wide fallback kept four lines' height for
+    // two lines of text, because the global pass below only ever grows.
     useLayoutEffect(() => {
       const el = taRef.current
       if (!el) return
@@ -201,7 +207,7 @@ export const ControlledTextPreview = forwardRef<
         el.style.resize = 'none'
         el.style.height = `${el.scrollHeight}px`
       } catch {}
-    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings])
+    }, [value, style?.fontSize, style?.lineHeight, style?.fontFamily, style?.fontWeight, style?.fontVariationSettings, familyLoaded])
 
     // Font load (global 'loadingdone') → GROW-ONLY. A lazily-loaded real font can
     // be taller than the fallback we first measured, which would clip the text.
