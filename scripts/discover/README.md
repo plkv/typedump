@@ -41,6 +41,7 @@ Add or remove a source by editing the `SOURCES` array in `index.mjs`.
 | Collletttivo | `sitemap.xml` `<lastmod>` | ✅ real | small, pristine OFL; quiet since early 2026 |
 | Fontshare | v2 API, `is_new` flag | ❌ none | no reliable date; contributes only when the foundry flags "new" |
 | Uncut.wtf | `fonts.json`, `date` YYMMDD | ⚠️ frozen | dormant since Aug 2024 + intermittent JS firewall; best-effort |
+| Tunera | homepage once, then each font's repo API (Codeberg/GitHub/GitLab) `created_at` | ⚠️ repo date | small French OFL foundry; the site has no dates and asks for a 10s crawl delay. Fonts moved to Codeberg all read 2025-04-03 |
 
 ### Reality notes (July 2026)
 
