@@ -834,16 +834,21 @@
 /* ─── Preview preloader ─────────────────────────────────────────────────────
    While a specimen's face is still downloading the text paints in the system
    fallback (font-display: swap). That fallback is not the answer to the
-   question the card is asking, so it is dimmed and swept with a shimmer: the
-   line is legible, and legibly provisional. Cleared the moment the browser
-   reports the face loaded — see onFontsChanged in FontCard.tsx. */
+   question the card is asking, so it is drawn grey from the first frame and,
+   if the wait is long enough to notice, swept with a shimmer: the line is
+   legible, and legibly provisional. Cleared the moment the browser reports
+   the face loaded — see onFontsChanged in FontCard.tsx. */
 
+/* Coming out it fades, so the swap to the real face is not a hard cut. */
+.card-specimen textarea,
+.card-specimen [contenteditable] {
+  transition: color 0.25s ease;
+}
+
+/* No transition on the way in — the grey state is the first frame. */
 .preview-loading textarea,
 .preview-loading [contenteditable] {
-  opacity: 0.32;
-  /* No transition on the way in — the dim state is the first frame. Coming out
-     it fades, so the swap to the real face is not a hard cut. */
-  transition: opacity 0.25s ease;
+  transition: none;
 }
 
 .card-shimmer-host { position: relative; }

@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useEffect, useState, memo } from 'react'
+import { useRef, useEffect, useLayoutEffect, useState, memo } from 'react'
 import { Slider } from '@/components/ui/slider'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { familyToSlug } from '@/lib/font-slug'
@@ -133,15 +133,19 @@ function FontCardImpl({
     onInputRef(inputRef.current)
   })
 
-  // True until proven otherwise, so the server-rendered card and the first
-  // client frame agree and nothing flashes a shimmer that was never needed.
   // The same alias the preview's own fontFamily resolves to. font.family is the
   // human name ("Geist"); the sheet declares hashed aliases ("Geist-4b3734"),
   // so matching on the human name found no declared face and every card
   // reported itself ready.
   const previewFamily =
     fontSelection.cssFamily || font.fontFamily?.match(/"([^"]+)"/)?.[1] || font.family
-  const [fontReady, setFontReady] = useState(true)
+  // False until the face is confirmed, so the server-rendered card already
+  // draws its fallback grey. Starting at true painted the system font in the
+  // specimen colour, indistinguishable from the real face until it swapped.
+  const [faceLoaded, setFaceLoaded] = useState(false)
+  // A card that is not near draws system-ui as a placeholder: not the face
+  // either, so it is not ready.
+  const fontReady = isNear && faceLoaded
   const specimenFamily = !isNear
     ? 'system-ui, sans-serif'
     : fontSelection.cssFamily
@@ -153,11 +157,12 @@ function FontCardImpl({
   // card gets the hint on a line of its own.
   const hasExpandedControls = styleAlternates.length > 0 || variableAxesDef.length > 0
 
-  useEffect(() => {
+  // Before paint, so a face already in the cache never shows a grey frame.
+  useLayoutEffect(() => {
     if (!previewFamily || typeof document === 'undefined' || !document.fonts) return
     // A card that is not near is off-screen and not asking for its font; a
     // shimmer there would only be three hundred timers and re-renders at load.
-    if (!isNear) { setFontReady(true); return }
+    if (!isNear) return
     // Read FontFace.status directly rather than document.fonts.check(): check()
     // answers "would this family be used", which is true the moment the
     // @font-face is declared, loaded or not — measured returning true for a
@@ -178,7 +183,7 @@ function FontCardImpl({
       })
       // A family this sheet does not declare is somebody else's problem — a
       // system stack, say — and has nothing to wait for.
-      setFontReady(!declared || loaded)
+      setFaceLoaded(!declared || loaded)
     }
     recheck()
     return onFontsChanged(recheck)
@@ -195,7 +200,7 @@ function FontCardImpl({
   const shimmerShownAt = useRef(0)
 
   useEffect(() => {
-    if (!fontReady) {
+    if (isNear && !faceLoaded) {
       const t = setTimeout(() => {
         shimmerShownAt.current = Date.now()
         setShowShimmer(true)
@@ -207,7 +212,7 @@ function FontCardImpl({
     if (left <= 0) { setShowShimmer(false); return }
     const t = setTimeout(() => setShowShimmer(false), left)
     return () => clearTimeout(t)
-  }, [fontReady, showShimmer])
+  }, [isNear, faceLoaded, showShimmer])
 
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
@@ -391,7 +396,7 @@ function FontCardImpl({
           )
         })() : (
         <div
-          className={`relative${showShimmer ? ' preview-loading' : ''}`}
+          className={`relative card-specimen${fontReady ? '' : ' preview-loading'}`}
           style={{ paddingTop: '16px', paddingBottom: '16px' }}
         >
           <ControlledTextPreview
@@ -411,8 +416,9 @@ function FontCardImpl({
               fontFamily: specimenFamily,
               fontWeight: effectiveStyle.weight,
               fontStyle: effectiveStyle.italic ? 'italic' : 'normal',
-              color: 'var(--gray-cont-prim)',
-              // No opacity gate or reveal — see the note on the other preview.
+              // Grey while the line is in a fallback face, so it is never taken
+              // for the font itself; see .preview-loading in catalog.css.
+              color: fontReady ? 'var(--gray-cont-prim)' : 'var(--gray-cont-tert)',
               textAlign,
               // 'normal' resets the body-level UI stylistic sets so they never
               // bleed into the font specimen.
