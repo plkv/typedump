@@ -41751,7 +41751,8 @@
       "styleTags": [
         "Fatface",
         "Contrast",
-        "Vintage"
+        "Vintage",
+        "Squared"
       ],
       "languages": [
         "Latin",
@@ -42419,7 +42420,8 @@
       "name": "Akaya Telivigala",
       "collection": "Display",
       "styleTags": [
-        "Calligraphy"
+        "Calligraphy",
+        "Rounded"
       ],
       "languages": [
         "Latin"
@@ -42734,16 +42736,17 @@
     },
     {
       "name": "Asul",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
         "Old Face",
-        "Sharp"
+        "Sharp",
+        "Banded"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Serif"
+        "Semi Serif"
       ],
       "foundry": "Mariela Monsalve",
       "isVariable": false,
@@ -43188,7 +43191,8 @@
       "name": "Comic Neue",
       "collection": "Text",
       "styleTags": [
-        "Rounded"
+        "Rounded",
+        "Handwritten"
       ],
       "languages": [
         "Latin"
@@ -43593,8 +43597,7 @@
       "styleTags": [
         "Old Face",
         "Sharp",
-        "Vintage",
-        "Curly"
+        "Vintage"
       ],
       "languages": [
         "Latin"
@@ -44220,7 +44223,7 @@
       "collection": "Display",
       "styleTags": [
         "Stencil",
-        "Transitional"
+        "Modern"
       ],
       "languages": [
         "Latin"
@@ -44517,9 +44520,9 @@
       "name": "Geist Serif",
       "collection": "Display",
       "styleTags": [
-        "Transitional",
         "Contrast",
-        "Sharp"
+        "Sharp",
+        "Modern"
       ],
       "languages": [
         "Latin",
