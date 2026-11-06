@@ -577,16 +577,8 @@
 
 /* The intro, set straight on the page — no card behind it any more. It takes
    whatever height the reel leaves; the buttons stay whole and the copy gives
-   way first. On a tablet and below it sits inside the page's 16px gutters (the
-   px-2 wrapper gives 8, this the other 8).
-
-   The copy's size is set here rather than on the paragraphs, so the column can
-   be measured in the copy's own characters: about 65 a line, which in Areal is
-   48ch (its zero, which a ch is, runs 10px against an average letter's 7.4 at
-   17px). Filling the width ran a tablet's lines past ninety. The column is
-   centred under the menu, the text inside it still ranged left, and the
-   buttons keep the copy's left edge. Where the screen is narrower than the
-   measure the column simply fills it: at 16px, below about 480px, a phone. */
+   way first. On a phone it fills the page's 16px gutters (the px-2 wrapper
+   gives 8, this the other 8); wider, it hangs off the menu, below. */
 .hero-main {
   flex: 1;
   min-height: 0;
@@ -599,17 +591,16 @@
      first screen with a reel a third of its height, so a short laptop has to
      set it smaller than a tall monitor of the same width. */
   font-size: clamp(18px, 2.3vh, 24px);
-  width: 100%;
-  max-width: 48ch;
-  margin-inline: auto;
 }
 
-/* Wider than a tablet, the column hangs off the menu: its left edge on the
+/* Wider than a phone, the column hangs off the menu: its left edge on the
    menu's left edge, its right edge halfway from the menu's right edge to the
-   screen's. The menu is 440px and centred, so on a viewport w the left edge is
-   (w − 440)/2 and the right edge (3w + 440)/4 — a width of (w + 1320)/4. The
-   left offset gives back the 8px of the px-2 wrapper the hero sits in. */
-@media (min-width: 1025px) {
+   screen's. The menu is 440px and centred at every width above a phone, so on
+   a viewport w the left edge is (w − 440)/2 and the right edge (3w + 440)/4 —
+   a width of (w + 1320)/4. The left offset gives back the 8px of the px-2
+   wrapper the hero sits in. A tablet used to fill the width instead, which
+   ran its lines past ninety characters; this keeps them about 60. */
+@media (min-width: 601px) {
   .hero-main {
     margin-left: calc((100vw - 440px) / 2 - 8px);
     width: calc((100vw + 1320px) / 4);
