@@ -577,8 +577,9 @@
 
 /* The intro, set straight on the page — no card behind it any more. It takes
    whatever height the reel leaves; the buttons stay whole and the copy gives
-   way first. On a tablet and below it fills the width, inside the page's
-   16px gutters (the px-2 wrapper gives 8, this the other 8). */
+   way first. On a tablet and below it sits inside the page's 16px gutters (the
+   px-2 wrapper gives 8, this the other 8); how wide the lines run is the
+   copy's own measure, see .catalog-hero-text. */
 .hero-main {
   flex: 1;
   min-height: 0;
@@ -639,8 +640,15 @@
   /* Sized off the screen's height as well as its width: the copy shares the
      first screen with a reel a third of its height, so a short laptop has to
      set it smaller than a tall monitor of the same width. */
-  font-size: clamp(20px, 2.7vh, 30px);
+  font-size: clamp(18px, 2.3vh, 24px);
   line-height: 1.3;
+  /* A readable line, about 65 characters. Filling the width ran a tablet's
+     lines past ninety. A ch is Areal's zero, wider than its average letter
+     (10px against 7.4 at 17px), so 65 letters come to 48ch. Capped in ch
+     rather than at a breakpoint, the full width is simply what is left
+     wherever the screen is narrower than the measure: at 16px, below about
+     480px, which is a phone. */
+  max-width: 48ch;
   letter-spacing: -0.01em;
   /* Off the register: the face is declared 400-700 on weight (see the
      @font-face at the top of this file), so 450 lands inside its range instead
@@ -653,17 +661,17 @@
 }
 
 @media (max-width: 1024px) {
-  .catalog-hero-text { font-size: clamp(18px, 2.6vh, 24px); }
+  .catalog-hero-text { font-size: clamp(17px, 2.2vh, 20px); }
 }
 
 @media (max-width: 600px) {
-  .catalog-hero-text { font-size: 17px; line-height: 24px; }
+  .catalog-hero-text { font-size: 16px; line-height: 23px; }
   .hero-main-copy { gap: 10px; }
   .hero-main { gap: 20px; }
 }
 
 @media (max-height: 700px) {
-  .catalog-hero-text { font-size: 16px; line-height: 22px; }
+  .catalog-hero-text { font-size: 15px; line-height: 21px; }
   .hero-main-copy { gap: 8px; }
   .hero-main { gap: 16px; padding-top: 12px; }
 }
