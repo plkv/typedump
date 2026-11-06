@@ -578,8 +578,15 @@
 /* The intro, set straight on the page — no card behind it any more. It takes
    whatever height the reel leaves; the buttons stay whole and the copy gives
    way first. On a tablet and below it sits inside the page's 16px gutters (the
-   px-2 wrapper gives 8, this the other 8); how wide the lines run is the
-   copy's own measure, see .catalog-hero-text. */
+   px-2 wrapper gives 8, this the other 8).
+
+   The copy's size is set here rather than on the paragraphs, so the column can
+   be measured in the copy's own characters: about 65 a line, which in Areal is
+   48ch (its zero, which a ch is, runs 10px against an average letter's 7.4 at
+   17px). Filling the width ran a tablet's lines past ninety. The column is
+   centred under the menu, the text inside it still ranged left, and the
+   buttons keep the copy's left edge. Where the screen is narrower than the
+   measure the column simply fills it: at 16px, below about 480px, a phone. */
 .hero-main {
   flex: 1;
   min-height: 0;
@@ -588,6 +595,13 @@
   gap: 28px;
   padding: 20px 8px 0;
   overflow: hidden;
+  /* Sized off the screen's height as well as its width: the copy shares the
+     first screen with a reel a third of its height, so a short laptop has to
+     set it smaller than a tall monitor of the same width. */
+  font-size: clamp(18px, 2.3vh, 24px);
+  width: 100%;
+  max-width: 48ch;
+  margin-inline: auto;
 }
 
 /* Wider than a tablet, the column hangs off the menu: its left edge on the
@@ -637,18 +651,8 @@
 .catalog-hero-text {
   margin: 0;
   font-family: var(--font-ui);
-  /* Sized off the screen's height as well as its width: the copy shares the
-     first screen with a reel a third of its height, so a short laptop has to
-     set it smaller than a tall monitor of the same width. */
-  font-size: clamp(18px, 2.3vh, 24px);
+  /* Size comes from .hero-main, which measures the column in it. */
   line-height: 1.3;
-  /* A readable line, about 65 characters. Filling the width ran a tablet's
-     lines past ninety. A ch is Areal's zero, wider than its average letter
-     (10px against 7.4 at 17px), so 65 letters come to 48ch. Capped in ch
-     rather than at a breakpoint, the full width is simply what is left
-     wherever the screen is narrower than the measure: at 16px, below about
-     480px, which is a phone. */
-  max-width: 48ch;
   letter-spacing: -0.01em;
   /* Off the register: the face is declared 400-700 on weight (see the
      @font-face at the top of this file), so 450 lands inside its range instead
@@ -661,19 +665,19 @@
 }
 
 @media (max-width: 1024px) {
-  .catalog-hero-text { font-size: clamp(17px, 2.2vh, 20px); }
+  .hero-main { font-size: clamp(17px, 2.2vh, 20px); }
 }
 
 @media (max-width: 600px) {
-  .catalog-hero-text { font-size: 16px; line-height: 23px; }
+  .catalog-hero-text { line-height: 23px; }
   .hero-main-copy { gap: 10px; }
-  .hero-main { gap: 20px; }
+  .hero-main { gap: 20px; font-size: 16px; }
 }
 
 @media (max-height: 700px) {
-  .catalog-hero-text { font-size: 15px; line-height: 21px; }
+  .catalog-hero-text { line-height: 21px; }
   .hero-main-copy { gap: 8px; }
-  .hero-main { gap: 16px; padding-top: 12px; }
+  .hero-main { gap: 16px; padding-top: 12px; font-size: 15px; }
 }
 
 /* ── Hero reel ─────────────────────────────────────────────────────────────
