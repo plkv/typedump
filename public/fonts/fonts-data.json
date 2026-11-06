@@ -422,7 +422,8 @@
           "familyId": "family_datdot_1757807926010",
           "url": "/fonts/DatDot-Light.woff2",
           "originalUrl": "/fonts/DatDot-Light.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DatDot-Light.woff2"
         },
         {
           "filename": "DatDot-Bold.otf",
@@ -7365,7 +7366,8 @@
           "familyId": "family_elevatia_1757807923416",
           "url": "/fonts/ElevatiaItalic FREE.woff2",
           "originalUrl": "/fonts/ElevatiaItalic FREE.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/ElevatiaItalic FREE.woff2"
         },
         {
           "filename": "Elevatia FREE.ttf",
@@ -16367,7 +16369,8 @@
           "familyId": "family_saint_1757807919410",
           "url": "/fonts/Saint Regular.woff2",
           "originalUrl": "/fonts/Saint Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Saint Regular.woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:39.410Z",
@@ -40976,7 +40979,8 @@
           "familyId": "family_datcub_1791480048813",
           "url": "/fonts/DatCub-Regular.woff2",
           "originalUrl": "/fonts/DatCub-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/DatCub-Regular.woff2"
         },
         {
           "filename": "DatCub-Bold.ttf",
@@ -41251,7 +41255,8 @@
           "familyId": "family_gerhaus_1791480048844",
           "url": "/fonts/Gerhaus-Regular.woff2",
           "originalUrl": "/fonts/Gerhaus-Regular.ttf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Gerhaus-Regular.woff2"
         }
       ],
       "createdAt": "2026-10-08T06:00:00.000Z",
@@ -44988,7 +44993,2512 @@
       ],
       "npmMirror": false,
       "noSubset": true
+    },
+    {
+      "name": "Onick",
+      "collection": "Brutal",
+      "styleTags": [
+        "Fatface",
+        "Wide",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ryoichi Tsunekawa, Dharma Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://dharmatype.com/onick",
+      "id": "family_onick_1794002400000",
+      "createdAt": "2026-11-06T22:00:00.000Z",
+      "updatedAt": "2026-11-06T22:00:00.000Z",
+      "publishedAt": "2026-11-06T22:00:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://dharmatype.com/onick"
+      },
+      "variants": [
+        {
+          "filename": "Onick.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Alternates",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "glyphCount": 422,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:00:00.000Z",
+          "id": "variant_family_onick_1794002400000_onick",
+          "familyId": "family_onick_1794002400000",
+          "url": "/fonts/Onick.woff2",
+          "originalUrl": "/fonts/Onick.otf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate C K c k"
+            }
+          ]
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "The Neue Black",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Tré Seals, Vocal Type, The League of Moveable Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/theleagueof/the-neue-black",
+      "id": "family_the_neue_black_1794002520000",
+      "createdAt": "2026-11-06T22:02:00.000Z",
+      "updatedAt": "2026-11-06T22:02:00.000Z",
+      "publishedAt": "2026-11-06T22:02:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/theleagueof/the-neue-black"
+      },
+      "variants": [
+        {
+          "filename": "TheNeueBlackVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Glyph Composition/Decomposition",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 606,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:02:00.000Z",
+          "id": "variant_family_the_neue_black_1794002520000_theneueblackvf",
+          "familyId": "family_the_neue_black_1794002520000",
+          "url": "/fonts/TheNeueBlackVF.woff2",
+          "originalUrl": "/fonts/TheNeueBlackVF.ttf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a b d e g h m n p q r u w y 5 6 9"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate J Y f r t"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alternate y"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alternate t"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate r"
+            }
+          ],
+          "previewUrl": "/fonts/preview/TheNeueBlackVF.woff2"
+        }
+      ]
+    },
+    {
+      "name": "ABC Areal",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Dinamo",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://abcdinamo.com/free/areal",
+      "id": "family_abc_areal_1794002580000",
+      "createdAt": "2026-11-06T22:38:00.000Z",
+      "updatedAt": "2026-11-06T22:38:00.000Z",
+      "publishedAt": "2026-11-06T22:38:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://abcdinamo.com/free/areal"
+      },
+      "variants": [
+        {
+          "filename": "ABCArealVariable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Slant",
+              "tag": "slnt",
+              "min": -12,
+              "max": 0,
+              "default": 0
+            },
+            {
+              "name": "Darkmode",
+              "tag": "DRKM",
+              "min": 0,
+              "max": 1,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 8",
+            "Stylistic Set 9",
+            "Stylistic Set 10",
+            "Stylistic Set 11",
+            "Stylistic Set 12",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 1010,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:38:00.000Z",
+          "id": "variant_family_abc_areal_1794002580000_abcarealvariable",
+          "familyId": "family_abc_areal_1794002580000",
+          "url": "/fonts/ABCArealVariable.woff2",
+          "originalUrl": "/fonts/ABCArealVariable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Regular Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt t"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt u"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt y"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alt G"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss07",
+              "title": "Alt M W w"
+            },
+            {
+              "tag": "ss08",
+              "title": "Alt i j I l 1"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alt Ampersand"
+            },
+            {
+              "tag": "ss10",
+              "title": "Schoolbook Set"
+            },
+            {
+              "tag": "ss11",
+              "title": "Round Punctuation"
+            },
+            {
+              "tag": "ss12",
+              "title": "Black Circled Numbers"
+            }
+          ]
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "ABC Areal Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Dinamo",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://abcdinamo.com/free/areal",
+      "id": "family_abc_areal_mono_1794002640000",
+      "createdAt": "2026-11-06T22:37:00.000Z",
+      "updatedAt": "2026-11-06T22:37:00.000Z",
+      "publishedAt": "2026-11-06T22:37:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://abcdinamo.com/free/areal"
+      },
+      "variants": [
+        {
+          "filename": "ABCArealMonoVariable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Slant",
+              "tag": "slnt",
+              "min": -12,
+              "max": 0,
+              "default": 0
+            },
+            {
+              "name": "Darkmode",
+              "tag": "DRKM",
+              "min": 0,
+              "max": 1,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 8",
+            "Stylistic Set 9",
+            "Stylistic Set 10",
+            "Stylistic Set 11",
+            "Stylistic Set 12",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 1016,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:37:00.000Z",
+          "id": "variant_family_abc_areal_mono_1794002640000_abcarealmonovariable",
+          "familyId": "family_abc_areal_mono_1794002640000",
+          "url": "/fonts/ABCArealMonoVariable.woff2",
+          "originalUrl": "/fonts/ABCArealMonoVariable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Regular Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt t"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt u"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt y"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alt G"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss07",
+              "title": "Alt M W w"
+            },
+            {
+              "tag": "ss08",
+              "title": "Alt i j I l 1"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alt Ampersand"
+            },
+            {
+              "tag": "ss10",
+              "title": "Schoolbook Set"
+            },
+            {
+              "tag": "ss11",
+              "title": "Round Punctuation"
+            },
+            {
+              "tag": "ss12",
+              "title": "Black Circled Numbers"
+            }
+          ]
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Bonny",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Semi Serif"
+      ],
+      "foundry": "Barbara Bigosinska, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/bonny",
+      "id": "family_bonny_1794002760000",
+      "createdAt": "2026-11-06T22:06:00.000Z",
+      "updatedAt": "2026-11-06T22:06:00.000Z",
+      "publishedAt": "2026-11-06T22:06:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/bonny"
+      },
+      "variants": [
+        {
+          "filename": "Bonny-Variable.ttf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 700
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 400,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:06:00.000Z",
+          "id": "variant_family_bonny_1794002760000_bonny_variable",
+          "familyId": "family_bonny_1794002760000",
+          "url": "/fonts/Bonny-Variable.woff2",
+          "originalUrl": "/fonts/Bonny-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Bonny-Variable.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Bouuuuuh",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Banded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Romain Oudin, Lift Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
+      "id": "family_bouuuuuh_1794002820000",
+      "createdAt": "2026-11-06T22:07:00.000Z",
+      "updatedAt": "2026-11-06T22:07:00.000Z",
+      "publishedAt": "2026-11-06T22:07:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.lift-type.fr/licence"
+      },
+      "variants": [
+        {
+          "filename": "Bouuuuuh-Light.otf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "glyphCount": 179,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_bouuuuuh_light",
+          "familyId": "family_bouuuuuh_1794002820000",
+          "url": "/fonts/Bouuuuuh-Light.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Light.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Bouuuuuh-regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "glyphCount": 179,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_bouuuuuh_regular",
+          "familyId": "family_bouuuuuh_1794002820000",
+          "url": "/fonts/Bouuuuuh-regular.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Bouuuuuh-Black.otf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 326,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_bouuuuuh_black",
+          "familyId": "family_bouuuuuh_1794002820000",
+          "url": "/fonts/Bouuuuuh-Black.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Black.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Gambarino",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Théo Guillard, Indian Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/gambarino",
+      "id": "family_gambarino_1794002880000",
+      "createdAt": "2026-11-06T22:08:00.000Z",
+      "updatedAt": "2026-11-06T22:08:00.000Z",
+      "publishedAt": "2026-11-06T22:08:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/gambarino"
+      },
+      "variants": [
+        {
+          "filename": "Gambarino-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning"
+          ],
+          "glyphCount": 399,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:08:00.000Z",
+          "id": "variant_family_gambarino_1794002880000_gambarino_regular",
+          "familyId": "family_gambarino_1794002880000",
+          "url": "/fonts/Gambarino-Regular.woff2",
+          "originalUrl": "/fonts/Gambarino-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Gambarino-Regular.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Gambetta",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Paul Troppmair, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/gambetta",
+      "id": "family_gambetta_1794002940000",
+      "createdAt": "2026-11-06T22:09:00.000Z",
+      "updatedAt": "2026-11-06T22:09:00.000Z",
+      "publishedAt": "2026-11-06T22:09:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/gambetta"
+      },
+      "variants": [
+        {
+          "filename": "Gambetta-Variable.ttf",
+          "weight": 300,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 368,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:09:00.000Z",
+          "id": "variant_family_gambetta_1794002940000_gambetta_variable",
+          "familyId": "family_gambetta_1794002940000",
+          "url": "/fonts/Gambetta-Variable.woff2",
+          "originalUrl": "/fonts/Gambetta-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Gambetta-Variable.woff2"
+        },
+        {
+          "filename": "Gambetta-VariableItalic.ttf",
+          "weight": 700,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 700
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 369,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:09:00.000Z",
+          "id": "variant_family_gambetta_1794002940000_gambetta_variableitalic",
+          "familyId": "family_gambetta_1794002940000",
+          "url": "/fonts/Gambetta-VariableItalic.woff2",
+          "originalUrl": "/fonts/Gambetta-VariableItalic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Semibold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Happy Times at the IKOB",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Lucas Le Bihan, Velvetyne Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://velvetyne.fr/fonts/happy-times/",
+      "id": "family_happy_times_at_the_ikob_1794003000000",
+      "createdAt": "2026-11-06T22:32:00.000Z",
+      "updatedAt": "2026-11-06T22:32:00.000Z",
+      "publishedAt": "2026-11-06T22:32:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://velvetyne.fr/fonts/happy-times/"
+      },
+      "variants": [
+        {
+          "filename": "happy-times-NG_regular_master.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Ordinals",
+            "Kerning"
+          ],
+          "glyphCount": 226,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:32:00.000Z",
+          "id": "variant_family_happy_times_at_the_ikob_1794003000000_happy_times_ng_regular_master",
+          "familyId": "family_happy_times_at_the_ikob_1794003000000",
+          "url": "/fonts/happy-times-NG_regular_master.woff2",
+          "originalUrl": "/fonts/happy-times-NG_regular_master.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/happy-times-NG_regular_master.woff2"
+        },
+        {
+          "filename": "happy-times-NG_italic_master.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Ordinals",
+            "Kerning"
+          ],
+          "glyphCount": 226,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:32:00.000Z",
+          "id": "variant_family_happy_times_at_the_ikob_1794003000000_happy_times_ng_italic_master",
+          "familyId": "family_happy_times_at_the_ikob_1794003000000",
+          "url": "/fonts/happy-times-NG_italic_master.woff2",
+          "originalUrl": "/fonts/happy-times-NG_italic_master.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "happy-times-NG_bold_master.otf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Ordinals",
+            "Kerning"
+          ],
+          "glyphCount": 226,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:32:00.000Z",
+          "id": "variant_family_happy_times_at_the_ikob_1794003000000_happy_times_ng_bold_master",
+          "familyId": "family_happy_times_at_the_ikob_1794003000000",
+          "url": "/fonts/happy-times-NG_bold_master.woff2",
+          "originalUrl": "/fonts/happy-times-NG_bold_master.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Neco",
+      "collection": "Display",
+      "styleTags": [
+        "Inktrap",
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Jitka Janečková, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/neco",
+      "id": "family_neco_1794003240000",
+      "createdAt": "2026-11-06T22:14:00.000Z",
+      "updatedAt": "2026-11-06T22:14:00.000Z",
+      "publishedAt": "2026-11-06T22:14:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/neco"
+      },
+      "variants": [
+        {
+          "filename": "Neco-Variable.ttf",
+          "weight": 900,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 900,
+              "default": 900
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 615,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:14:00.000Z",
+          "id": "variant_family_neco_1794003240000_neco_variable",
+          "familyId": "family_neco_1794003240000",
+          "url": "/fonts/Neco-Variable.woff2",
+          "originalUrl": "/fonts/Neco-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Neco-Variable.woff2"
+        },
+        {
+          "filename": "Neco-VariableItalic.ttf",
+          "weight": 900,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 900,
+              "default": 900
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 615,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:14:00.000Z",
+          "id": "variant_family_neco_1794003240000_neco_variableitalic",
+          "familyId": "family_neco_1794003240000",
+          "url": "/fonts/Neco-VariableItalic.woff2",
+          "originalUrl": "/fonts/Neco-VariableItalic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ]
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "New Title",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Grotesque"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Jérémie Hornus, Julie Soudanne, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/new-title",
+      "id": "family_new_title_1794003300000",
+      "createdAt": "2026-11-06T22:15:00.000Z",
+      "updatedAt": "2026-11-06T22:15:00.000Z",
+      "publishedAt": "2026-11-06T22:15:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/new-title"
+      },
+      "variants": [
+        {
+          "filename": "NewTitle-Variable.ttf",
+          "weight": 200,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 200,
+              "max": 700,
+              "default": 200
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning"
+          ],
+          "glyphCount": 392,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:15:00.000Z",
+          "id": "variant_family_new_title_1794003300000_newtitle_variable",
+          "familyId": "family_new_title_1794003300000",
+          "url": "/fonts/NewTitle-Variable.woff2",
+          "originalUrl": "/fonts/NewTitle-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/NewTitle-Variable.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Sentient",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Noopur Choksi, Barbara Bigosinska, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/sentient",
+      "id": "family_sentient_1794003360000",
+      "createdAt": "2026-11-06T22:16:00.000Z",
+      "updatedAt": "2026-11-06T22:16:00.000Z",
+      "publishedAt": "2026-11-06T22:16:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/sentient"
+      },
+      "variants": [
+        {
+          "filename": "Sentient-Variable.ttf",
+          "weight": 700,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 200,
+              "max": 700,
+              "default": 700
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 423,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:16:00.000Z",
+          "id": "variant_family_sentient_1794003360000_sentient_variable",
+          "familyId": "family_sentient_1794003360000",
+          "url": "/fonts/Sentient-Variable.woff2",
+          "originalUrl": "/fonts/Sentient-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate M"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate Q"
+            }
+          ],
+          "previewUrl": "/fonts/preview/Sentient-Variable.woff2"
+        },
+        {
+          "filename": "Sentient-VariableItalic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 200,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 423,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:16:00.000Z",
+          "id": "variant_family_sentient_1794003360000_sentient_variableitalic",
+          "familyId": "family_sentient_1794003360000",
+          "url": "/fonts/Sentient-VariableItalic.woff2",
+          "originalUrl": "/fonts/Sentient-VariableItalic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Extralight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate M"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate Q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Server Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Internet Development Studio, Caidan Williams",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/internet-development/www-server-mono",
+      "id": "family_server_mono_1794003420000",
+      "createdAt": "2026-11-06T22:17:00.000Z",
+      "updatedAt": "2026-11-06T22:17:00.000Z",
+      "publishedAt": "2026-11-06T22:17:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/internet-development/www-server-mono"
+      },
+      "variants": [
+        {
+          "filename": "ServerMono-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 604,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:17:00.000Z",
+          "id": "variant_family_server_mono_1794003420000_servermono_regular",
+          "familyId": "family_server_mono_1794003420000",
+          "url": "/fonts/ServerMono-Regular.woff2",
+          "originalUrl": "/fonts/ServerMono-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate 'a' 'g'"
+            },
+            {
+              "tag": "ss02",
+              "title": "Sharp 'M' 'W'"
+            }
+          ],
+          "previewUrl": "/fonts/preview/ServerMono-Regular.woff2"
+        },
+        {
+          "filename": "ServerMono-RegularOblique.otf",
+          "weight": 400,
+          "styleName": "Regular Oblique",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Localized Forms",
+            "Numerators",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Subscript",
+            "Superscript",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 604,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:17:00.000Z",
+          "id": "variant_family_server_mono_1794003420000_servermono_regularoblique",
+          "familyId": "family_server_mono_1794003420000",
+          "url": "/fonts/ServerMono-RegularOblique.woff2",
+          "originalUrl": "/fonts/ServerMono-RegularOblique.otf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate 'a' 'g'"
+            },
+            {
+              "tag": "ss02",
+              "title": "Sharp 'M' 'W'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Styro",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Aarya Purohit, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/styro",
+      "id": "family_styro_1794003480000",
+      "createdAt": "2026-11-06T22:18:00.000Z",
+      "updatedAt": "2026-11-06T22:18:00.000Z",
+      "publishedAt": "2026-11-06T22:18:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/styro"
+      },
+      "variants": [
+        {
+          "filename": "Styro-Variable.ttf",
+          "weight": 900,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 200,
+              "max": 900,
+              "default": 900
+            }
+          ],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "glyphCount": 275,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:18:00.000Z",
+          "id": "variant_family_styro_1794003480000_styro_variable",
+          "familyId": "family_styro_1794003480000",
+          "url": "/fonts/Styro-Variable.woff2",
+          "originalUrl": "/fonts/Styro-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Extralight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 243,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Semibold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Extrabold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Styro-Variable.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Tanker",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Ruosi Huang, Indian Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/tanker",
+      "id": "family_tanker_1794003540000",
+      "createdAt": "2026-11-06T22:19:00.000Z",
+      "updatedAt": "2026-11-06T22:19:00.000Z",
+      "publishedAt": "2026-11-06T22:19:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/tanker"
+      },
+      "variants": [
+        {
+          "filename": "Tanker-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Fractions",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning"
+          ],
+          "glyphCount": 390,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:19:00.000Z",
+          "id": "variant_family_tanker_1794003540000_tanker_regular",
+          "familyId": "family_tanker_1794003540000",
+          "url": "/fonts/Tanker-Regular.woff2",
+          "originalUrl": "/fonts/Tanker-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Tanker-Regular.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Teko",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Squared"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Manushi Parikh, Jonny Pinhorn, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/itfoundry/teko",
+      "id": "family_teko_1794003600000",
+      "createdAt": "2026-11-06T22:20:00.000Z",
+      "updatedAt": "2026-11-06T22:20:00.000Z",
+      "publishedAt": "2026-11-06T22:20:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/itfoundry/teko"
+      },
+      "variants": [
+        {
+          "filename": "Teko-Variable.ttf",
+          "weight": 300,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300,
+              "max": 700,
+              "default": 300
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Superscript"
+          ],
+          "glyphCount": 340,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:20:00.000Z",
+          "id": "variant_family_teko_1794003600000_teko_variable",
+          "familyId": "family_teko_1794003600000",
+          "url": "/fonts/Teko-Variable.woff2",
+          "originalUrl": "/fonts/Teko-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Teko-Variable.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Telma",
+      "collection": "Display",
+      "styleTags": [
+        "Calligraphy",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "Jitka Janečková, Indian Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://www.fontshare.com/fonts/telma",
+      "id": "family_telma_1794003660000",
+      "createdAt": "2026-11-06T22:21:00.000Z",
+      "updatedAt": "2026-11-06T22:21:00.000Z",
+      "publishedAt": "2026-11-06T22:21:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.fontshare.com/fonts/telma"
+      },
+      "variants": [
+        {
+          "filename": "Telma-Variable.ttf",
+          "weight": 900,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 300,
+              "max": 900,
+              "default": 900
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Contextual Alternates",
+            "Discretionary Ligatures",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Superscript",
+            "Kerning"
+          ],
+          "glyphCount": 530,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:21:00.000Z",
+          "id": "variant_family_telma_1794003660000_telma_variable",
+          "familyId": "family_telma_1794003660000",
+          "url": "/fonts/Telma-Variable.woff2",
+          "originalUrl": "/fonts/Telma-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/Telma-Variable.woff2"
+        }
+      ]
+    },
+    {
+      "name": "FOSS Serif",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Samuel Glen Hughes, Boulevard LAB, FOSS Projects",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.foss-projects.com/foss-serif",
+      "id": "family_foss_serif_1794003720000",
+      "createdAt": "2026-11-06T22:22:00.000Z",
+      "updatedAt": "2026-11-06T22:22:00.000Z",
+      "publishedAt": "2026-11-06T22:22:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Open source, free to use and remix",
+        "url": "https://www.foss-projects.com/foss-serif"
+      },
+      "variants": [
+        {
+          "filename": "FOSSSERIF-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "glyphCount": 148,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:22:00.000Z",
+          "id": "variant_family_foss_serif_1794003720000_fossserif_regular",
+          "familyId": "family_foss_serif_1794003720000",
+          "url": "/fonts/FOSSSERIF-Regular.woff2",
+          "originalUrl": "/fonts/FOSSSERIF-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate bullet"
+            }
+          ],
+          "previewUrl": "/fonts/preview/FOSSSERIF-Regular.woff2"
+        }
+      ],
+      "npmMirror": false
+    },
+    {
+      "name": "SCHABO Condensed",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Tom Robin Karlsson",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.behance.net/gallery/156647815/SCHABO-CONDENSED-(free-font)",
+      "id": "family_schabo_condensed_1794003780000",
+      "createdAt": "2026-11-06T22:23:00.000Z",
+      "updatedAt": "2026-11-06T22:23:00.000Z",
+      "publishedAt": "2026-11-06T22:23:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free",
+        "url": "https://www.behance.net/gallery/156647815/SCHABO-CONDENSED-(free-font)"
+      },
+      "variants": [
+        {
+          "filename": "SCHABO-Condensed.otf",
+          "weight": 400,
+          "styleName": "Condensed",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Kerning"
+          ],
+          "glyphCount": 333,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:23:00.000Z",
+          "id": "variant_family_schabo_condensed_1794003780000_schabo_condensed",
+          "familyId": "family_schabo_condensed_1794003780000",
+          "url": "/fonts/SCHABO-Condensed.woff2",
+          "originalUrl": "/fonts/SCHABO-Condensed.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Garamon(d/t)",
+      "collection": "Brutal",
+      "styleTags": [
+        "Old Face",
+        "Handwritten"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Paul Tubert, fonderie.download",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "http://fonderie.download/",
+      "id": "family_garamon_d_t_1794003840000",
+      "createdAt": "2026-11-06T22:24:00.000Z",
+      "updatedAt": "2026-11-06T22:24:00.000Z",
+      "publishedAt": "2026-11-06T22:24:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "WTFPL",
+        "url": "http://fonderie.download/"
+      },
+      "variants": [
+        {
+          "filename": "Garamondt-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Fractions",
+            "Standard Ligatures",
+            "Superscript",
+            "Kerning"
+          ],
+          "glyphCount": 180,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:24:00.000Z",
+          "id": "variant_family_garamon_d_t_1794003840000_garamondt_regular",
+          "familyId": "family_garamon_d_t_1794003840000",
+          "url": "/fonts/Garamondt-Regular.woff2",
+          "originalUrl": "/fonts/Garamondt-Regular.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Garamondt-Italic.otf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures",
+            "Kerning"
+          ],
+          "glyphCount": 141,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:24:00.000Z",
+          "id": "variant_family_garamon_d_t_1794003840000_garamondt_italic",
+          "familyId": "family_garamon_d_t_1794003840000",
+          "url": "/fonts/Garamondt-Italic.woff2",
+          "originalUrl": "/fonts/Garamondt-Italic.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "xx Dopamine",
+      "collection": "Brutal",
+      "styleTags": [
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "studio muchogusto",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.studiomuchogusto.ch/",
+      "id": "family_xx_dopamine_1794003960000",
+      "createdAt": "2026-11-06T22:26:00.000Z",
+      "updatedAt": "2026-11-06T22:26:00.000Z",
+      "publishedAt": "2026-11-06T22:26:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://www.studiomuchogusto.ch/"
+      },
+      "variants": [
+        {
+          "filename": "xxDopamine-Mono.ttf",
+          "weight": 400,
+          "styleName": "Mono",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "glyphCount": 114,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:26:00.000Z",
+          "id": "variant_family_xx_dopamine_1794003960000_xxdopamine_mono",
+          "familyId": "family_xx_dopamine_1794003960000",
+          "url": "/fonts/xxDopamine-Mono.woff2",
+          "originalUrl": "/fonts/xxDopamine-Mono.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/xxDopamine-Mono.woff2"
+        }
+      ]
+    },
+    {
+      "name": "xx Queen",
+      "collection": "Brutal",
+      "styleTags": [
+        "Handwritten",
+        "Wavy"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Script"
+      ],
+      "foundry": "studio muchogusto",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.studiomuchogusto.ch/",
+      "id": "family_xx_queen_1794004020000",
+      "createdAt": "2026-11-06T22:27:00.000Z",
+      "updatedAt": "2026-11-06T22:27:00.000Z",
+      "publishedAt": "2026-11-06T22:27:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://www.studiomuchogusto.ch/"
+      },
+      "variants": [
+        {
+          "filename": "xxQueen-basic.ttf",
+          "weight": 400,
+          "styleName": "basic",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures"
+          ],
+          "glyphCount": 113,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:27:00.000Z",
+          "id": "variant_family_xx_queen_1794004020000_xxqueen_basic",
+          "familyId": "family_xx_queen_1794004020000",
+          "url": "/fonts/xxQueen-basic.woff2",
+          "originalUrl": "/fonts/xxQueen-basic.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/xxQueen-basic.woff2"
+        },
+        {
+          "filename": "xxQueen-juicy.ttf",
+          "weight": 400,
+          "styleName": "juicy",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Standard Ligatures"
+          ],
+          "glyphCount": 113,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:27:00.000Z",
+          "id": "variant_family_xx_queen_1794004020000_xxqueen_juicy",
+          "familyId": "family_xx_queen_1794004020000",
+          "url": "/fonts/xxQueen-juicy.woff2",
+          "originalUrl": "/fonts/xxQueen-juicy.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Salsa BT",
+      "collection": "Display",
+      "styleTags": [
+        "Fatface",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Jason Guzmán, Seb Castellanos de la Hoz, Bastarda Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://bastardatype.com/font/salsa-bt-2/",
+      "id": "family_salsa_bt_1794004020000",
+      "createdAt": "2026-11-06T22:27:00.000Z",
+      "updatedAt": "2026-11-06T22:27:00.000Z",
+      "publishedAt": "2026-11-06T22:27:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://bastardatype.com/font/salsa-bt-2/"
+      },
+      "variants": [
+        {
+          "filename": "Salsa-BT-Regular-12.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 292,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:27:00.000Z",
+          "id": "variant_family_salsa_bt_1794004020000_salsa_bt_regular_12",
+          "familyId": "family_salsa_bt_1794004020000",
+          "url": "/fonts/Salsa-BT-Regular-12.woff2",
+          "originalUrl": "/fonts/Salsa-BT-Regular-12.otf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Salsa-BT-Rounded-11.otf",
+          "weight": 500,
+          "styleName": "Rounded",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 292,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:27:00.000Z",
+          "id": "variant_family_salsa_bt_1794004020000_salsa_bt_rounded_11",
+          "familyId": "family_salsa_bt_1794004020000",
+          "url": "/fonts/Salsa-BT-Rounded-11.woff2",
+          "originalUrl": "/fonts/Salsa-BT-Rounded-11.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Bouuuuuh Spell",
+      "collection": "Brutal",
+      "styleTags": [
+        "Curly",
+        "Vintage",
+        "Contrast"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Romain Oudin, Lift Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
+      "id": "family_bouuuuuh_1794002820000_spell",
+      "createdAt": "2026-11-06T22:07:00.000Z",
+      "updatedAt": "2026-11-06T22:07:00.000Z",
+      "publishedAt": "2026-11-06T22:07:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.lift-type.fr/licence"
+      },
+      "variants": [
+        {
+          "filename": "Bouuuuuh-Spell.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 228,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_spell_spell",
+          "familyId": "family_bouuuuuh_1794002820000_spell",
+          "url": "/fonts/Bouuuuuh-Spell.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Spell.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Bouuuuuh Revenge",
+      "collection": "Display",
+      "styleTags": [
+        "Contrast",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Romain Oudin, Lift Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
+      "id": "family_bouuuuuh_1794002820000_revenge",
+      "createdAt": "2026-11-06T22:07:00.000Z",
+      "updatedAt": "2026-11-06T22:07:00.000Z",
+      "publishedAt": "2026-11-06T22:07:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.lift-type.fr/licence"
+      },
+      "variants": [
+        {
+          "filename": "Bouuuuuh-Revenge.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "glyphCount": 218,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_revenge_revenge",
+          "familyId": "family_bouuuuuh_1794002820000_revenge",
+          "url": "/fonts/Bouuuuuh-Revenge.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Revenge.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Bouuuuuh Carnage",
+      "collection": "Brutal",
+      "styleTags": [
+        "Wavy"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Romain Oudin, Morgane Vantorre, Lift Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
+      "id": "family_bouuuuuh_1794002820000_carnage",
+      "createdAt": "2026-11-06T22:07:00.000Z",
+      "updatedAt": "2026-11-06T22:07:00.000Z",
+      "publishedAt": "2026-11-06T22:07:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.lift-type.fr/licence"
+      },
+      "variants": [
+        {
+          "filename": "Bouuuuuh-Carnage.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Kerning"
+          ],
+          "glyphCount": 218,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_carnage_carnage",
+          "familyId": "family_bouuuuuh_1794002820000_carnage",
+          "url": "/fonts/Bouuuuuh-Carnage.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Carnage.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Bouuuuuh Villain",
+      "collection": "Display",
+      "styleTags": [
+        "Narrow",
+        "Vintage"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Romain Oudin, Manuel de Lignières, Lift Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
+      "id": "family_bouuuuuh_1794002820000_villain",
+      "createdAt": "2026-11-06T22:07:00.000Z",
+      "updatedAt": "2026-11-06T22:07:00.000Z",
+      "publishedAt": "2026-11-06T22:07:00.000Z",
+      "description": "",
+      "licenseInfo": {
+        "type": "Free for commercial use",
+        "url": "https://www.lift-type.fr/licence"
+      },
+      "variants": [
+        {
+          "filename": "Bouuuuuh-Villain.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 382,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:07:00.000Z",
+          "id": "variant_family_bouuuuuh_1794002820000_villain_villain",
+          "familyId": "family_bouuuuuh_1794002820000_villain",
+          "url": "/fonts/Bouuuuuh-Villain.woff2",
+          "originalUrl": "/fonts/Bouuuuuh-Villain.otf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
     }
   ],
-  "lastUpdated": "2026-11-06T12:30:00.000Z"
+  "lastUpdated": "2026-11-06T22:42:33.581259Z"
 }
