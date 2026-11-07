@@ -7,6 +7,7 @@ import { FontCard } from "@/components/font-catalog/FontCard"
 import { HeroReel } from "@/components/font-catalog/HeroReel"
 import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
 import { COLLECTIONS, type FontCollection } from "@/lib/types"
+import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 // catalog.css is imported globally in layout.tsx
 
 
@@ -1463,9 +1464,10 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                   the browser. For the fonts already on your Mac there is{' '}
                   <a
                     className="hero-muted hero-credit-link"
-                    href="https://typetray.plkv.works/"
+                    href={TYPETRAY_URL}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackTypeTrayClick('hero')}
                   >
                     TypeTray
                   </a>

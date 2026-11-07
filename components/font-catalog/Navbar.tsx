@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { familyToSlug } from '@/lib/font-slug'
 import { IconSearch, IconXMark, IconChevronLeft } from '@/components/icons'
+import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 
 interface FontSearchItem {
   name: string
@@ -18,7 +19,6 @@ interface NavbarProps {
 
 const EASE_OPEN  = 'cubic-bezier(0.34, 1.12, 0.64, 1)'
 const EASE_CLOSE = 'cubic-bezier(0.4, 0, 0.6, 1)'
-const TYPETRAY_URL = 'https://typetray.plkv.works/'
 
 export function Navbar({ fonts = [], back = false }: NavbarProps) {
   const [searchOpen, setSearchOpen] = useState(false)
@@ -141,8 +141,8 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="TypeTray, a font manager for macOS"
-          title="TypeTray, a font manager for macOS"
           className="navbar-tray-island"
+          onClick={() => trackTypeTrayClick('navbar')}
           tabIndex={searchOpen ? -1 : 0}
           style={{
             opacity: searchOpen ? 0 : 1,
@@ -154,6 +154,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           }}
         >
           <img src="/typetray-icon.svg" alt="" width={54} height={54} />
+          <span className="navbar-tray-label v2-overlay" aria-hidden="true">TypeTray</span>
         </a>
 
         {/* Island 3: Search — icon always visible, expands leftward */}

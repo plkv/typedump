@@ -10,6 +10,7 @@ import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-sty
 import { cleanAuthor } from '@/lib/author'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { segmentByCoverage } from '@/lib/glyph-coverage'
+import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 
 
 function weightLabel(w: number) {
@@ -633,7 +634,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           © 2026 TypeDump. Built and curated by{' '}
           <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>
           , who also makes{' '}
-          <a href="https://typetray.plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>TypeTray</a>
+          <a href={TYPETRAY_URL} target="_blank" rel="noopener noreferrer" onClick={() => trackTypeTrayClick('font_page')} style={{ color: 'var(--gray-cont-prim)' }}>TypeTray</a>
           , a font viewer for the Mac
         </span>
       </footer>

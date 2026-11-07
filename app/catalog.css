@@ -365,6 +365,36 @@
   filter: brightness(0.9);
 }
 
+/* The app's name on a frosted pill under the icon, on hover or keyboard focus.
+   The icon alone does not say what it opens. */
+.navbar-tray-label {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translate(-50%, -4px);
+  padding: 7px 12px;
+  border-radius: 999px;
+  font: 500 13px/1 var(--font-ui);
+  font-feature-settings: var(--font-ui-features);
+  color: var(--gray-cont-prim);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+@media (hover: hover) {
+  .navbar-tray-island:hover .navbar-tray-label {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.navbar-tray-island:focus-visible .navbar-tray-label {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
 /* Close island: right edge, width controlled via React */
 .navbar-close-island {
   position: absolute;
