@@ -361,8 +361,12 @@
   transition: filter 0.2s;
 }
 
-.navbar-tray-island:hover img {
-  filter: brightness(0.9);
+/* Mouse only: a tap leaves :hover stuck on a phone, and a CSS filter makes
+   Safari redraw the icon at 1x, which blurred it on a retina screen. */
+@media (hover: hover) {
+  .navbar-tray-island:hover img {
+    filter: brightness(0.9);
+  }
 }
 
 /* The app's name on a frosted pill under the icon, on hover or keyboard focus.
