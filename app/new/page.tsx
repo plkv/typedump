@@ -131,7 +131,7 @@ function Gallery() {
             New fonts
           </h1>
           <p style={{ fontSize: 14, color: 'var(--gray-cont-tert)', marginTop: 6 }}>
-            {data.count} not in the catalog · since {data.since ?? `${data.months}mo ago`} · updated{' '}
+            {data.count} not in the catalog, released since {data.since ?? `${data.months}mo ago`}, updated{' '}
             {new Date(data.generatedAt).toLocaleDateString()}
           </p>
         </header>
@@ -203,8 +203,8 @@ function Card({ font }: { font: DiscoveredFont }) {
         )}
         <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 4, flexWrap: 'wrap' }}>
           <span style={{ fontSize: 12, color: 'var(--gray-cont-sec)' }}>{font.sourceLabel}</span>
-          {font.date && <span style={{ fontSize: 12, color: 'var(--gray-cont-quart)' }}>· {font.date}</span>}
-          {font.license && <span style={{ fontSize: 12, color: 'var(--gray-cont-quart)' }}>· {font.license}</span>}
+          {font.date && <span style={{ fontSize: 12, color: 'var(--gray-cont-quart)' }}>{font.date}</span>}
+          {font.license && <span style={{ fontSize: 12, color: 'var(--gray-cont-quart)' }}>{font.license}</span>}
         </div>
       </div>
     </a>

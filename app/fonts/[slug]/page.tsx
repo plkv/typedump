@@ -173,7 +173,7 @@ export default async function FontsLandingPage({ params }: { params: Promise<{ s
         </p>
 
         <p style={{ fontSize: 14, color: 'var(--gray-cont-tert)', marginTop: 12 }}>
-          {families.length} famil{families.length === 1 ? 'y' : 'ies'} · free to download ·{' '}
+          {families.length} famil{families.length === 1 ? 'y' : 'ies'}, all free to download.{' '}
           <a href={landing.catalogHref} style={{ color: 'var(--gray-cont-prim)' }}>
             open in the catalogue to preview and filter →
           </a>
@@ -197,10 +197,11 @@ export default async function FontsLandingPage({ params }: { params: Promise<{ s
                 >
                   <span style={{ display: 'block', fontSize: 16, fontWeight: 600 }}>{f.name}</span>
                   <span style={{ display: 'block', fontSize: 13, color: 'var(--gray-cont-tert)', marginTop: 2 }}>
-                    {f.foundry !== 'Unknown' ? `${f.foundry} · ` : ''}
-                    {styles} style{styles !== 1 ? 's' : ''}
-                    {isVariable(f) ? ' · variable' : ''}
-                    {f.licenseInfo?.type ? ` · ${f.licenseInfo.type}` : ''}
+                    {[
+                      f.foundry !== 'Unknown' && f.foundry,
+                      `${styles} style${styles !== 1 ? 's' : ''}${isVariable(f) ? ', variable' : ''}`,
+                      f.licenseInfo?.type,
+                    ].filter(Boolean).join(', ')}
                   </span>
                 </a>
               </li>

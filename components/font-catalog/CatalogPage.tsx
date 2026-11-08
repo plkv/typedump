@@ -1905,7 +1905,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                 >
                   {(() => {
                     const count = selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)
-                    return count > 0 ? <>More filters · {count}</> : <>More filters</>
+                    return count > 0 ? <>More filters <span style={{ opacity: 0.56 }}>{count}</span></> : <>More filters</>
                   })()}
                 </button>
                 {hasActiveFilters && (

@@ -85,13 +85,17 @@ const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
   { size: 14, text: 'Below sixteen the decisions stop being yours. Hinting, the screen and the reader\u2019s own settings take over, strokes land between pixels, and a face that looked crisp one size up can go soft. Set a caption here, or a table, or the legal line nobody reads, and see whether the words still separate cleanly.' },
 ]
 
+// The size the specimens open at, and the one reset returns to; reset used to
+// set 80 while the page opened at 40.
+const DEFAULT_FONT_SIZE = 40
+
 interface FontSearchItem { name: string; author: string }
 
 export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?: FontSearchItem[] }) {
   const [selectedPreset, setSelectedPreset] = useState<TextPreset>('Names')
   const [caseMode, setCaseMode] = useState<CaseMode>('Default')
   const [previewText, setPreviewText] = useState(() => family.name)
-  const [fontSize, setFontSize] = useState(40)
+  const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE)
   const [lineHeight, setLineHeight] = useState(1.2)
   const [letterSpacing, setLetterSpacing] = useState(0)
   const [align, setAlign] = useState<'left' | 'center' | 'right'>('left')
@@ -343,7 +347,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               </div>
               <button
                 aria-label="Reset preview settings"
-                onClick={() => { setFontSize(80); setLineHeight(1.2); setLetterSpacing(0); setAlign('left'); setSelectedPreset('Names'); setCaseMode('Default'); setPreviewText(family.name); setRowOtFeatures({}); setRowVarAxes({}); setExpandedRowKey(null) }}
+                onClick={() => { setFontSize(DEFAULT_FONT_SIZE); setLineHeight(1.2); setLetterSpacing(0); setAlign('left'); setSelectedPreset('Names'); setCaseMode('Default'); setPreviewText(family.name); setRowOtFeatures({}); setRowVarAxes({}); setExpandedRowKey(null) }}
                 className="v2-button v2-button-inactive"
                 style={{ padding: 0, width: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}
               >
@@ -354,27 +358,23 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
 
           {/* Case row */}
           <div style={{ padding: '12px 16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-            {CASE_MODES.map(mode => {
-              const unavailable = mode === 'Small caps' && !family.hasSmallCaps
-              return (
-                <button
-                  key={mode}
-                  onClick={() => !unavailable && setCaseMode(mode)}
-                  disabled={unavailable}
-                  title={unavailable ? 'This font has no small caps of its own' : undefined}
-                  className={`v2-button ${caseMode === mode ? 'v2-button-active' : 'v2-button-inactive'}`}
-                  style={unavailable ? { opacity: 0.35, cursor: 'not-allowed' } : undefined}
-                >
-                  {mode}
-                </button>
-              )
-            })}
+            {/* Small caps only where the font draws them; a disabled chip for a
+                feature the font lacks was noise on most pages. */}
+            {CASE_MODES.filter(mode => mode !== 'Small caps' || family.hasSmallCaps).map(mode => (
+              <button
+                key={mode}
+                onClick={() => setCaseMode(mode)}
+                className={`v2-button ${caseMode === mode ? 'v2-button-active' : 'v2-button-inactive'}`}
+              >
+                {mode}
+              </button>
+            ))}
           </div>
 
           {/* Controls row */}
           <div className="font-detail-controls">
             <SliderControl label="Size" value={fontSize} min={12} max={200} step={1}
-              format={v => `${v}px`} onChange={setFontSize} onReset={() => setFontSize(80)} />
+              format={v => `${v}px`} onChange={setFontSize} onReset={() => setFontSize(DEFAULT_FONT_SIZE)} />
             <SliderControl label="Letter Space" value={letterSpacing} min={-5} max={20} step={0.5}
               format={v => `${v > 0 ? '+' : ''}${v}px`} onChange={setLetterSpacing} onReset={() => setLetterSpacing(0)} />
             <SliderControl label="Leading" value={lineHeight} min={0.8} max={3} step={0.1}
@@ -717,7 +717,7 @@ function VariantRow({
 
   // The number after the style name is only a weight when the family's weight
   // axis uses the usual ladder. Riottosa numbers its axis 0-100, where
-  // "Regular Condensed · 0" and "Bold Condensed · 100" read as mistakes.
+  // "Regular Condensed 0" and "Bold Condensed 100" read as mistakes.
   const wghtAxis = axesDef?.find(a => a.tag === 'wght')
   const showsWeightNumber = !wghtAxis || wghtAxis.min >= 100
 
@@ -739,7 +739,11 @@ function VariantRow({
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         }}
       >
-        <span>{showsWeightNumber ? `${label} · ${weight}` : label}</span>
+        {/* The weight is quieter than the name, not set off by a dot. */}
+        <span>
+          {label}
+          {showsWeightNumber && <span style={{ color: 'var(--gray-cont-quart)', marginLeft: 6 }}>{weight}</span>}
+        </span>
         {hasSettings && (
           <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
         )}
