@@ -45015,8 +45015,8 @@
       "id": "family_onick_1794002400000",
       "createdAt": "2026-11-06T22:00:00.000Z",
       "updatedAt": "2026-11-06T22:00:00.000Z",
-      "publishedAt": "2026-11-06T22:00:00.000Z",
-      "description": "",
+      "publishedAt": "2011-11-14T00:00:00.000Z",
+      "description": "Onick was drawn by Ryoichi Tsunekawa of Dharma Type for Onitsuka Tiger, after the lettering on the brand's ONICK ski boots from the 1970s, and given away free in 2011. A heavy, wide display face with round, squat letters that look like seventies sportswear the moment they are set. One weight, with a stylistic set that swaps C, K, c and k for alternate forms. Made for short, loud words: logos, packaging, posters.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://dharmatype.com/onick"
@@ -45078,8 +45078,8 @@
       "id": "family_the_neue_black_1794002520000",
       "createdAt": "2026-11-06T22:02:00.000Z",
       "updatedAt": "2026-11-06T22:02:00.000Z",
-      "publishedAt": "2026-11-06T22:02:00.000Z",
-      "description": "",
+      "publishedAt": "2020-01-01T00:00:00.000Z",
+      "description": "The Neue Black is Tré Seals' first open-source font, released with The League of Moveable Type in 2020. Like the rest of his Vocal Type library it starts from protest history: the placards of the Chicago Freedom Movement, the 1966 campaign that Martin Luther King Jr. and the SCLC led against housing discrimination. A heavy gothic on a width axis, with more than 25 ligatures and stylistic sets that swap in alternate and ink-trapped forms of a, r, t, y and the round lowercase. Made for headlines and placards.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/theleagueof/the-neue-black"
@@ -45174,8 +45174,7 @@
       "id": "family_abc_areal_1794002580000",
       "createdAt": "2026-11-06T22:38:00.000Z",
       "updatedAt": "2026-11-06T22:38:00.000Z",
-      "publishedAt": "2026-11-06T22:38:00.000Z",
-      "description": "",
+      "description": "ABC Areal is Dinamo's revival of Arial 2.82, the first web version of the typeface, rebuilt from archival screenshots for Are.na, who commissioned it to replace Arial and launched it in August 2025. Drawn by Fabiola Mejía, Fabian Harb and Johannes Breyer, spaced and kerned by Igino Marini. It adds what Arial never had: a Medium, ligatures, a slant axis for its italics and a Darkmode axis that compensates for light text on a dark ground. Twelve stylistic sets, among them a single-storey a, a straight t, a schoolbook set and round punctuation. TypeDump's own interface is set in it.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://abcdinamo.com/free/areal"
@@ -45338,7 +45337,8 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "publishedAt": "2025-08-27T00:00:00.000Z"
     },
     {
       "name": "ABC Areal Mono",
@@ -45360,8 +45360,7 @@
       "id": "family_abc_areal_mono_1794002640000",
       "createdAt": "2026-11-06T22:37:00.000Z",
       "updatedAt": "2026-11-06T22:37:00.000Z",
-      "publishedAt": "2026-11-06T22:37:00.000Z",
-      "description": "",
+      "description": "ABC Areal Mono is the monospaced member of Dinamo's Areal, the revival of Arial 2.82 commissioned by Are.na. It has the same three weights with slanted italics, the same Darkmode axis for light text on a dark ground and the same twelve stylistic sets as the proportional face, so code, tables and figures can sit next to Areal without a change of voice.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://abcdinamo.com/free/areal"
@@ -45523,14 +45522,16 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "publishedAt": "2025-08-27T00:00:00.000Z"
     },
     {
       "name": "Bonny",
       "collection": "Display",
       "styleTags": [
         "Narrow",
-        "Curly"
+        "Curly",
+        "Contrast"
       ],
       "languages": [
         "Latin"
@@ -45546,7 +45547,7 @@
       "createdAt": "2026-11-06T22:06:00.000Z",
       "updatedAt": "2026-11-06T22:06:00.000Z",
       "publishedAt": "2026-11-06T22:06:00.000Z",
-      "description": "",
+      "description": "Bonny is a condensed decorative serif by the Polish designer Barbara Bigosinska, published by the Indian Type Foundry on Fontshare. The capitals are top-heavy almost to caricature, thin strokes end in small flourishes, and v and w finish with a calligraphic swing on the right. Five weights from Thin to Bold on one variable axis, oldstyle figures by default and a contextual j that steps aside so it never collides with the letter before. Made for large sizes: packaging, greeting cards, book covers and posters.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/bonny"
@@ -45639,8 +45640,8 @@
       "id": "family_bouuuuuh_1794002820000",
       "createdAt": "2026-11-06T22:07:00.000Z",
       "updatedAt": "2026-11-06T22:07:00.000Z",
-      "publishedAt": "2026-11-06T22:07:00.000Z",
-      "description": "",
+      "publishedAt": "2017-10-01T00:00:00.000Z",
+      "description": "Bouuuuuh started in 2017 as a free Halloween font by Romain Oudin of Lift Type, the Montpellier foundry he founded in 2014: tall, condensed capitals whose strokes flare at the ends as if drawn with a brush. It opened a series that the foundry has added to every Halloween since; this family holds the original Light, Regular and Black, and the later designs, Revenge, Carnage, Spell and Villain, are listed on their own. Capitals only, for posters and titles.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.lift-type.fr/licence"
@@ -45710,9 +45711,10 @@
     },
     {
       "name": "Gambarino",
-      "collection": "Text",
+      "collection": "Display",
       "styleTags": [
-        "Transitional"
+        "Old Face",
+        "Narrow"
       ],
       "languages": [
         "Latin"
@@ -45727,8 +45729,8 @@
       "id": "family_gambarino_1794002880000",
       "createdAt": "2026-11-06T22:08:00.000Z",
       "updatedAt": "2026-11-06T22:08:00.000Z",
-      "publishedAt": "2026-11-06T22:08:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-12T00:00:00.000Z",
+      "description": "Gambarino is a single-weight condensed serif for headlines, drawn by Théo Guillard for Fontshare. It reads as a post-modern take on the Garalde: hairline serifs, teardrop terminals on a, f and y, top-heavy capitals whose upper bowls in B, E, P and R are larger than the lower ones, a tall x-height and descenders kept so short that only the g, with its two balanced bowls, really drops. Pair it with a classic text Garalde and let it carry the titles.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/gambarino"
@@ -45783,8 +45785,8 @@
       "id": "family_gambetta_1794002940000",
       "createdAt": "2026-11-06T22:09:00.000Z",
       "updatedAt": "2026-11-06T22:09:00.000Z",
-      "publishedAt": "2026-11-06T22:09:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-12T00:00:00.000Z",
+      "description": "Gambetta is a text serif by Paul Troppmair, made for books and magazines and published on Fontshare. Diagonal stress, contrast that grows with the weight, and wedge terminals on every vertical of the capitals, left off the a so its counter stays open. Five weights from Light to Bold, each with a true italic in which the g turns double-storey and the k gets an open loop. The 3 has a flat top.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/gambetta"
@@ -45942,8 +45944,8 @@
       "id": "family_happy_times_at_the_ikob_1794003000000",
       "createdAt": "2026-11-06T22:32:00.000Z",
       "updatedAt": "2026-11-06T22:32:00.000Z",
-      "publishedAt": "2026-11-06T22:32:00.000Z",
-      "description": "",
+      "publishedAt": "2018-06-15T00:00:00.000Z",
+      "description": "Happy Times at the IKOB began in December 2016, when Matthias Hübner pitched an identity for the IKOB museum of contemporary art in Eupen, Belgium, built on a contemporary Times New Roman. Lucas Le Bihan drew it while the posters were already being made: they were set in Times, and his glyphs replaced the originals one by one until the set was complete at the end of 2017. Released by Velvetyne in 2018 under the OFL as the New Game Plus Edition, in Regular, Italic and Bold.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://velvetyne.fr/fonts/happy-times/"
@@ -46041,8 +46043,8 @@
       "id": "family_neco_1794003240000",
       "createdAt": "2026-11-06T22:14:00.000Z",
       "updatedAt": "2026-11-06T22:14:00.000Z",
-      "publishedAt": "2026-11-06T22:14:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-12T00:00:00.000Z",
+      "description": "Neco is a serif by the Czech designer Jitka Janečková for Fontshare, built on chunky wedge serifs and a diagonal stress, with contrast that climbs from Regular to a lively Black. The italics are true cursives rather than slanted romans. Oldstyle figures by default, with lining, tabular and small-cap figures, real small caps and full fractions. Works for headlines and for short and medium texts: menus, invitations, editorial pages.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/neco"
@@ -46198,8 +46200,8 @@
       "id": "family_new_title_1794003300000",
       "createdAt": "2026-11-06T22:15:00.000Z",
       "updatedAt": "2026-11-06T22:15:00.000Z",
-      "publishedAt": "2026-11-06T22:15:00.000Z",
-      "description": "",
+      "publishedAt": "2022-04-25T00:00:00.000Z",
+      "description": "New Title is a narrow, almost monolinear sans by Julie Soudanne and Jérémie Hornus, drawn for film titles and credit sequences and published on Fontshare. Its most unusual letter is the capital J, which does not descend and ends in the same stroke as C, G, S and the round figures. Two forms of the lowercase g, a euro and a yen with a gap in the middle stroke, and five weights from Extralight to Bold on one variable axis.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/new-title"
@@ -46289,8 +46291,8 @@
       "id": "family_sentient_1794003360000",
       "createdAt": "2026-11-06T22:16:00.000Z",
       "updatedAt": "2026-11-06T22:16:00.000Z",
-      "publishedAt": "2026-11-06T22:16:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-17T00:00:00.000Z",
+      "description": "Sentient is a serif by Noopur Choksi with Barbara Bigosinska, made for long, immersive reading and published on Fontshare. The proportions are a little wide and the counters generous, so the capitals stand firmly and the text holds up on screen and on poor paper alike. Five weights from Extralight to Bold with italics; the italic g has a closed bowl and the italic ampersand a shape of its own. Oldstyle figures, fourteen f-ligatures and stylistic sets for a straight-sided M and a long-tailed Q.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/sentient"
@@ -46470,15 +46472,15 @@
       "category": [
         "Mono"
       ],
-      "foundry": "Internet Development Studio, Caidan Williams",
+      "foundry": "Tim Vanhille, Matthieu Salvaggio, Internet Development Studio",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://github.com/internet-development/www-server-mono",
       "id": "family_server_mono_1794003420000",
       "createdAt": "2026-11-06T22:17:00.000Z",
       "updatedAt": "2026-11-06T22:17:00.000Z",
-      "publishedAt": "2026-11-06T22:17:00.000Z",
-      "description": "",
+      "publishedAt": "2024-01-01T00:00:00.000Z",
+      "description": "Server Mono was drawn in 2024 by Tim Vanhille and Matthieu Salvaggio, with Jimmy Lee, at Internet Development Studio in Seattle, and released under the OFL. It borrows from typewriters, SF Mono, ASCII art and the command line, in one weight with an upright and an oblique. Stylistic sets swap in a single-storey a and g and sharper M and W, and numerators, denominators and inferiors are all there. Made for interfaces where things have to line up.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/internet-development/www-server-mono"
@@ -46576,9 +46578,9 @@
       "name": "Styro",
       "collection": "Display",
       "styleTags": [
-        "Fatface",
-        "Narrow",
-        "Curly"
+        "Stencil",
+        "Bauhaus",
+        "Narrow"
       ],
       "languages": [
         "Latin"
@@ -46593,8 +46595,8 @@
       "id": "family_styro_1794003480000",
       "createdAt": "2026-11-06T22:18:00.000Z",
       "updatedAt": "2026-11-06T22:18:00.000Z",
-      "publishedAt": "2026-11-06T22:18:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-12T00:00:00.000Z",
+      "description": "Styro is a condensed stencil family by Aarya Purohit at the Indian Type Foundry, released on Fontshare. Counters are reduced to thin lines running through each letter, as wide as the gaps between letters, so a word reads as a row of solid bars; terminals are cut to plain geometric shapes and the accents are hairlines. It recalls the stencil letters Josef Albers drew at the Bauhaus, with a full lowercase added. Nearly monospaced, in eight weights from Extralight to Black on one axis.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/styro"
@@ -46680,7 +46682,8 @@
       "collection": "Display",
       "styleTags": [
         "Fatface",
-        "Narrow"
+        "Narrow",
+        "Rounded"
       ],
       "languages": [
         "Latin"
@@ -46695,8 +46698,8 @@
       "id": "family_tanker_1794003540000",
       "createdAt": "2026-11-06T22:19:00.000Z",
       "updatedAt": "2026-11-06T22:19:00.000Z",
-      "publishedAt": "2026-11-06T22:19:00.000Z",
-      "description": "",
+      "publishedAt": "2021-08-22T00:00:00.000Z",
+      "description": "Tanker is a single-weight condensed sans by Ruosi Huang for Fontshare, and it is capitals only. The lowercase keys give a set of traditional capitals and the shift key a second, more experimental set, so a word can mix the two; a second set of figures sits in a stylistic set. All corners are softly rounded, which keeps a heavy face from feeling harsh. Made for posters, covers, banners and logos.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/tanker"
@@ -46743,15 +46746,15 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Manushi Parikh, Jonny Pinhorn, Indian Type Foundry",
+      "foundry": "Manushi Parikh, Indian Type Foundry",
       "isVariable": true,
       "published": true,
       "downloadLink": "https://github.com/itfoundry/teko",
       "id": "family_teko_1794003600000",
       "createdAt": "2026-11-06T22:20:00.000Z",
       "updatedAt": "2026-11-06T22:20:00.000Z",
-      "publishedAt": "2026-11-06T22:20:00.000Z",
-      "description": "",
+      "publishedAt": "2014-01-01T00:00:00.000Z",
+      "description": "Teko is a Devanagari and Latin family by Manushi Parikh at the Indian Type Foundry, from 2014. Squarish proportions and low contrast keep it clear in tight spaces, and the foundry made it for screen headlines, advertising and the news tickers that run along the bottom of a TV screen. Five weights from Light to Bold, on one variable axis since Marc Foley's 2023 update. Free under the OFL.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://github.com/itfoundry/teko"
@@ -46840,8 +46843,8 @@
       "id": "family_telma_1794003660000",
       "createdAt": "2026-11-06T22:21:00.000Z",
       "updatedAt": "2026-11-06T22:21:00.000Z",
-      "publishedAt": "2026-11-06T22:21:00.000Z",
-      "description": "",
+      "publishedAt": "2021-03-12T00:00:00.000Z",
+      "description": "Telma is an informal script by the Czech designer Jitka Janečková for Fontshare. The thick strokes grow through five weights, Light to Black, while the hairlines stay put, which gives the playful shapes a more formal finish. Swash descenders on G, K, Q and R, descending out-strokes on f, h, k and z, and ligatures and contextual alternates that switch in on their own. Oldstyle figures. For invitations, packaging, magazine headlines and small-business logos.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.fontshare.com/fonts/telma"
@@ -46926,15 +46929,14 @@
       "category": [
         "Serif"
       ],
-      "foundry": "Samuel Glen Hughes, Boulevard LAB, FOSS Projects",
+      "foundry": "Boulevard LAB, FOSS Projects",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://www.foss-projects.com/foss-serif",
       "id": "family_foss_serif_1794003720000",
       "createdAt": "2026-11-06T22:22:00.000Z",
       "updatedAt": "2026-11-06T22:22:00.000Z",
-      "publishedAt": "2026-11-06T22:22:00.000Z",
-      "description": "",
+      "description": "FOSS Serif is the first volume of FOSS Projects, an open serif released in 2025 by the collaborative practice Boulevard LAB as a blueprint to study, rebuild and remix rather than as a finished family. The core characters are drawn and free to use; designers are invited to add weights, stylistic sets and languages, and selected remixes go into the next release under their authors' names. An italic is announced. For now, one Regular with a basic Latin set.",
       "licenseInfo": {
         "type": "Open source, free to use and remix",
         "url": "https://www.foss-projects.com/foss-serif"
@@ -46969,7 +46971,8 @@
           "previewUrl": "/fonts/preview/FOSSSERIF-Regular.woff2"
         }
       ],
-      "npmMirror": false
+      "npmMirror": false,
+      "publishedAt": "2025-10-02T00:00:00.000Z"
     },
     {
       "name": "SCHABO Condensed",
@@ -46991,8 +46994,7 @@
       "id": "family_schabo_condensed_1794003780000",
       "createdAt": "2026-11-06T22:23:00.000Z",
       "updatedAt": "2026-11-06T22:23:00.000Z",
-      "publishedAt": "2026-11-06T22:23:00.000Z",
-      "description": "",
+      "description": "SCHABO Condensed is an ultra-condensed, ultra-heavy grotesque by the Stockholm designer Tom Robin Karlsson, released free in 2022. Uniform strokes, flat-sided rounds and a tall x-height fit a long word into a narrow column and keep it solid at a distance. One style, for headlines, posters and logos where the width is short.",
       "licenseInfo": {
         "type": "Free",
         "url": "https://www.behance.net/gallery/156647815/SCHABO-CONDENSED-(free-font)"
@@ -47022,7 +47024,8 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "publishedAt": "2022-01-01T00:00:00.000Z"
     },
     {
       "name": "Garamon(d/t)",
@@ -47044,8 +47047,7 @@
       "id": "family_garamon_d_t_1794003840000",
       "createdAt": "2026-11-06T22:24:00.000Z",
       "updatedAt": "2026-11-06T22:24:00.000Z",
-      "publishedAt": "2026-11-06T22:24:00.000Z",
-      "description": "",
+      "description": "Garamon(d/t) is Paul Tubert's joke revival of a revival, published by fonderie.download in 2020: he scanned the 1926 Garamond of the Deberny et Peignot foundry, itself a descendant of Claude Garamond's type, and smashed it on purpose. The old-style skeleton is still there under shaky, hand-traced contours. Regular and Italic, free under the WTFPL.",
       "licenseInfo": {
         "type": "WTFPL",
         "url": "http://fonderie.download/"
@@ -47094,7 +47096,8 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "publishedAt": "2020-01-01T00:00:00.000Z"
     },
     {
       "name": "xx Dopamine",
@@ -47115,8 +47118,8 @@
       "id": "family_xx_dopamine_1794003960000",
       "createdAt": "2026-11-06T22:26:00.000Z",
       "updatedAt": "2026-11-06T22:26:00.000Z",
-      "publishedAt": "2026-11-06T22:26:00.000Z",
-      "description": "",
+      "publishedAt": "2025-01-01T00:00:00.000Z",
+      "description": "xx Dopamine is a monospaced face from studio muchogusto, the queer-feminist design duo in Bern whose xx project explores gender-sensitive typography with support from the Berner Design Stiftung. Thin, typewriter-like strokes end in round dots. Released in 2025 under the OFL, with a licence clause that rules out discriminatory use.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://www.studiomuchogusto.ch/"
@@ -47162,8 +47165,8 @@
       "id": "family_xx_queen_1794004020000",
       "createdAt": "2026-11-06T22:27:00.000Z",
       "updatedAt": "2026-11-06T22:27:00.000Z",
-      "publishedAt": "2026-11-06T22:27:00.000Z",
-      "description": "",
+      "publishedAt": "2025-02-03T00:00:00.000Z",
+      "description": "xx Queen is part of studio muchogusto's xx project, the Bern duo's experiment in gender-sensitive typography supported by the Berner Design Stiftung. A wobbly handwritten script whose outlines tremble at every edge, in two styles: basic, and juicy, where the tremble is stronger. Released in 2025 under the OFL; the licence rules out discriminatory use.",
       "licenseInfo": {
         "type": "OFL",
         "url": "https://www.studiomuchogusto.ch/"
@@ -47231,8 +47234,7 @@
       "id": "family_salsa_bt_1794004020000",
       "createdAt": "2026-11-06T22:27:00.000Z",
       "updatedAt": "2026-11-06T22:27:00.000Z",
-      "publishedAt": "2026-11-06T22:27:00.000Z",
-      "description": "",
+      "description": "Salsa BT is a revival by Bastarda Type of Bogotá of the lettering Izzy Sanabria drew for Fania Records, built from three versions of the logo on the Fania All Stars Live at the Cheetah covers, which the foundry counts among the best logos of the disco era. Jason Guzmán and Seb Castellanos de la Hoz drew it, with Cyrillic by Nikita Lyubarshchuk, and the foundry gives it away to carry salsa's visual culture beyond Latin America. Heavy disco capitals in Regular and Rounded, covering Western and Central European Latin and basic Cyrillic.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://bastardatype.com/font/salsa-bt-2/"
@@ -47290,31 +47292,32 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "publishedAt": "2021-01-01T00:00:00.000Z"
     },
     {
       "name": "Bouuuuuh Spell",
       "collection": "Brutal",
       "styleTags": [
+        "Modern",
+        "Contrast",
         "Curly",
-        "Vintage",
-        "Contrast"
+        "Vintage"
       ],
       "languages": [
         "Latin"
       ],
       "category": [
-        "Sans"
+        "Serif"
       ],
-      "foundry": "Romain Oudin, Lift Type",
+      "foundry": "Manuel de Lignières, Romain Oudin, Lift Type",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
       "id": "family_bouuuuuh_1794002820000_spell",
       "createdAt": "2026-11-06T22:07:00.000Z",
       "updatedAt": "2026-11-06T22:07:00.000Z",
-      "publishedAt": "2026-11-06T22:07:00.000Z",
-      "description": "",
+      "description": "Bouuuuuh Spell is the light serif of Lift Type's Bouuuuuh series, the all-caps fonts the foundry gives away each Halloween, drawn by Manuel de Lignières and Romain Oudin for Halloween 2023. Hairline serifs, a vertical stress and strong contrast meet art nouveau curls in the S, R and E, closer to a witch's shop sign than to a horror poster. Capitals only, one style.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.lift-type.fr/licence"
@@ -47343,7 +47346,8 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "publishedAt": "2023-10-31T00:00:00.000Z"
     },
     {
       "name": "Bouuuuuh Revenge",
@@ -47365,8 +47369,8 @@
       "id": "family_bouuuuuh_1794002820000_revenge",
       "createdAt": "2026-11-06T22:07:00.000Z",
       "updatedAt": "2026-11-06T22:07:00.000Z",
-      "publishedAt": "2026-11-06T22:07:00.000Z",
-      "description": "",
+      "publishedAt": "2020-10-01T00:00:00.000Z",
+      "description": "Bouuuuuh Revenge, from 2020, is the second Halloween release in Romain Oudin's Bouuuuuh series at Lift Type: heavy condensed capitals with sharp, flared, high-contrast strokes, nearer to a horror film poster than to the brushy original. Capitals only, one style.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.lift-type.fr/licence"
@@ -47414,8 +47418,8 @@
       "id": "family_bouuuuuh_1794002820000_carnage",
       "createdAt": "2026-11-06T22:07:00.000Z",
       "updatedAt": "2026-11-06T22:07:00.000Z",
-      "publishedAt": "2026-11-06T22:07:00.000Z",
-      "description": "",
+      "publishedAt": "2021-10-01T00:00:00.000Z",
+      "description": "Bouuuuuh Carnage was drawn by Romain Oudin and Morgane Vantorre at Lift Type and given away before Halloween 2021. The capitals of the Bouuuuuh series get serrated, jagged edges, as if cut out with blunt scissors. Capitals only, one style, for posters and titles.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.lift-type.fr/licence"
@@ -47457,15 +47461,14 @@
       "category": [
         "Sans"
       ],
-      "foundry": "Romain Oudin, Manuel de Lignières, Lift Type",
+      "foundry": "Manuel de Lignières, Romain Oudin, Lift Type",
       "isVariable": false,
       "published": true,
       "downloadLink": "https://www.lift-type.fr/products/bouuuuuh",
       "id": "family_bouuuuuh_1794002820000_villain",
       "createdAt": "2026-11-06T22:07:00.000Z",
       "updatedAt": "2026-11-06T22:07:00.000Z",
-      "publishedAt": "2026-11-06T22:07:00.000Z",
-      "description": "",
+      "description": "Bouuuuuh Villain is a narrow design in Lift Type's Bouuuuuh series, the all-caps fonts the foundry gives away each Halloween, credited to Manuel de Lignières. Tall, compressed letters in a unicase mix where a, e and g keep lowercase shapes among the capitals, with art nouveau quirks throughout. One style, for titles and posters.",
       "licenseInfo": {
         "type": "Free for commercial use",
         "url": "https://www.lift-type.fr/licence"
