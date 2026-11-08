@@ -425,9 +425,11 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         </div>
       </section>
 
-      {/* ── Variant rows ── */}
-      <div className="font-detail-flat">
-        <div>
+      {/* ── Variant rows ──
+          The one part of the page that stays a card: it is the tool you type
+          into, the same object as a font card in the catalogue. */}
+      <div className="font-detail-flat" style={{ padding: '0 16px' }}>
+        <div className="v2-card" style={{ overflow: 'hidden' }}>
 
           {/* Presets row */}
           <div style={{ padding: '16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6 }}>
