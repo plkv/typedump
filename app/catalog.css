@@ -518,11 +518,10 @@
   margin-bottom: 80px;
 }
 
-/* Description first, the facts under it, until there is room beside the
-   menu: then the facts take the left and the description starts on the menu's
-   left edge, the same line the home page's copy hangs from. The menu is a
-   centred 440px bar, so that edge is (100vw - 440px) / 2; the facts need
-   about 180px plus the 16px gutter and a 32px gap, which first fits at 900px. */
+/* Description first, the facts under it, until there is room for two halves:
+   then the facts take the left half and the description starts on the page's
+   centre line. The left column is half the page less the 16px gutter and the
+   32px gap, so the second column begins exactly at 50vw. */
 .font-detail-about {
   /* The one rule between sections: it closes the hero and its buttons. */
   border-top: 1px solid var(--gray-brd-prim);
@@ -534,7 +533,7 @@
 
 @media (min-width: 900px) {
   .font-detail-about {
-    grid-template-columns: calc((100vw - 440px) / 2 - 48px) minmax(0, 1fr);
+    grid-template-columns: calc(50vw - 48px) minmax(0, 1fr);
   }
 
   .font-detail-facts {
@@ -579,9 +578,8 @@
 
 /* Glyph map: the glyph under the pointer large on the left, held in view while
    the grid scrolls past; every character the font draws on the right. On the
-   same lines as the description above it: the grid starts on the menu's left
-   edge where there is room beside it (see .font-detail-about), and below that
-   the preview sits in a row over the grid. */
+   same lines as the description above it: the grid starts on the page's
+   centre line where there is room for two halves (see .font-detail-about). */
 .font-detail-glyphs {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -592,12 +590,12 @@
 
 @media (min-width: 900px) {
   .font-detail-glyphs {
-    grid-template-columns: calc((100vw - 440px) / 2 - 48px) minmax(0, 1fr);
+    grid-template-columns: calc(50vw - 48px) minmax(0, 1fr);
   }
 
   /* Sized off the preview column, so a wide W never runs past its edge. */
   .font-detail-glyph-big {
-    font-size: clamp(120px, calc(((100vw - 440px) / 2 - 48px) * 0.7), 320px);
+    font-size: clamp(120px, calc((50vw - 48px) * 0.6), 320px);
   }
 }
 
@@ -644,20 +642,29 @@
   transition: background-color 0.15s;
 }
 
-.font-detail-glyph-grid button:hover,
-.font-detail-glyph-grid button[data-active="true"] {
+.font-detail-glyph-grid button:hover {
   background-color: var(--v2-inactive-bg);
 }
 
+/* The selected glyph is marked only where the preview showing it is on screen. */
+@media (min-width: 900px) {
+  .font-detail-glyph-grid button[data-active="true"] {
+    background-color: var(--v2-inactive-bg);
+  }
+}
+
+/* Below the two-halves layout there is no column for the preview, and a phone
+   has no pointer to drive it, so the grid takes the whole width, as on Family
+   Type's own phone layout: six glyphs a row on a phone. */
 @media (max-width: 899px) {
   .font-detail-glyph-preview {
-    position: static;
-    flex-direction: row;
-    align-items: center;
+    display: none;
   }
+}
 
-  .font-detail-glyph-big {
-    font-size: 120px;
+@media (max-width: 599px) {
+  .font-detail-glyph-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 

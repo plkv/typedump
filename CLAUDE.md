@@ -95,17 +95,18 @@ Key file: `app/font/[slug]/FontDetail.tsx` (client component).
    - `VariantRow` × N — each row: label · weight → textarea preview → animated settings panel
 5. Info section — 2-column grid: About card (description) + Details card (table)
 
-**Text presets** — same 5 presets as `CatalogPage`:
+**Text presets** — the 5 presets of `CatalogPage` plus Pangrams:
 ```ts
-['Names', 'Key Glyphs', 'Basic', 'Paragraph', 'Brands']
+['Pangrams', 'Names', 'Key Glyphs', 'Basic', 'Paragraph', 'Brands']
 ```
 - Names → `family.name`
+- Pangrams → a different pangram in each style row (`PANGRAMS`); an edit stays in its row
 - Key Glyphs → `'RKFJIGCQ aueoyrgsltf 0123469 ≪"(@&?;€$© ->…'`
 - Basic → full A-Z a-z 0-9 symbols string
 - Paragraph → random fashion/finance/tech paragraph
 - Brands → random luxury/tech brand list with • separators
 
-Default preset = **Names** (shows the font's own name as preview).
+Default preset = **Pangrams** (a different pangram per style row; the hero already shows the name).
 
 **Variant rows:**
 - Variable fonts: synthesized weight rows from wght axis range (100/200/…/900 filtered to axis min/max)
@@ -126,7 +127,7 @@ getFontVariationSettings({ wght: vr.weight, ...varAxes })
 // varAxes spread overrides nominal weight when user moves the slider
 ```
 
-**Reset button** resets: fontSize=48, lineHeight=1.2, letterSpacing=0, align=left, preset=Names, previewText=family.name, rowOtFeatures={}, rowVarAxes={}, expandedRowKey=null.
+**Reset button** resets: fontSize=48, lineHeight=1.2, letterSpacing=0, align=left, preset=Pangrams, previewText=PANGRAMS[0], rowTexts={}, rowOtFeatures={}, rowVarAxes={}, expandedRowKey=null.
 
 ### Filter logic in CatalogPage
 - **Collections** — OR logic

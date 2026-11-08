@@ -23,8 +23,28 @@ function weightLabel(w: number) {
 
 // ─── main component ──────────────────────────────────────────────────────────
 
-const TEXT_PRESETS = ['Names', 'Key Glyphs', 'Basic', 'Paragraph', 'Brands'] as const
+const TEXT_PRESETS = ['Pangrams', 'Names', 'Key Glyphs', 'Basic', 'Paragraph', 'Brands'] as const
 type TextPreset = typeof TEXT_PRESETS[number]
+
+// One pangram per style row, so every weight shows every letter in a different
+// sentence. They lean on the capitals and figures that carry alternates in the
+// most families here (R G Q M I J K, and 1 0 3 9 6 4 2 7, counted across the
+// catalogue's stylistic sets), with abbreviations for more capitals than prose
+// has, so a face's alternate shapes have somewhere to show.
+const PANGRAMS = [
+  'Grumpy DJ wizards make 10 toxic brews for the evil Queen and Jack.',
+  'In 1946 Mr. Jock, TV quiz PhD, bags few lynx.',
+  'Jackdaws love my big sphinx of quartz at 7:30.',
+  'Quick zephyrs blow, vexing daft Jim at 9 AM GMT.',
+  'Waltz, bad nymph, for quick jigs vex at the MIDI gig.',
+  'Glib jocks quiz nymph to vex dwarf in a WYSIWYG editor.',
+  'Five quacking zephyrs jolt my wax bed during an MRI.',
+  'Sphinx of black quartz, judge my vow in RGB 204.',
+  'Big July earthquakes confound zany experimental vow in 1962.',
+  'Kim and Rex watched 36 jumpy foxes zigzag over the quiet black creek in 4K.',
+  'Amazingly few discotheques provide JPEG jukeboxes, QED.',
+  'Six big devils from Japan quickly forgot how to waltz in 1983.',
+]
 
 // Case is applied for display only — the text the reader typed is untouched, so
 // switching back to Default returns exactly what they wrote.
@@ -50,6 +70,7 @@ function caseStyle(mode: CaseMode): React.CSSProperties {
 function getPresetContent(preset: TextPreset, fontName: string): string {
   switch (preset) {
     case 'Names': return fontName
+    case 'Pangrams': return PANGRAMS[0]
     case 'Key Glyphs': return 'RKFJIGCQ aueoyrgsltf 0123469 ≪"(@&?;€$© ->…'
     case 'Basic': return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 !@#$%^&*()_+-=[]{}|;\':",./<>?'
     case 'Paragraph': {
@@ -92,9 +113,14 @@ const DEFAULT_FONT_SIZE = 40
 interface FontSearchItem { name: string; author: string }
 
 export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?: FontSearchItem[] }) {
-  const [selectedPreset, setSelectedPreset] = useState<TextPreset>('Names')
+  // Pangrams by default: the hero already sets the name, and a stack of rows
+  // repeating it showed nothing the hero had not.
+  const [selectedPreset, setSelectedPreset] = useState<TextPreset>('Pangrams')
   const [caseMode, setCaseMode] = useState<CaseMode>('Default')
-  const [previewText, setPreviewText] = useState(() => family.name)
+  const [previewText, setPreviewText] = useState(PANGRAMS[0])
+  // Pangrams give each row its own sentence, so an edit there stays in its row
+  // instead of overwriting every style the way the shared presets do.
+  const [rowTexts, setRowTexts] = useState<Record<string, string>>({})
   const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE)
   const [lineHeight, setLineHeight] = useState(1.2)
   const [letterSpacing, setLetterSpacing] = useState(0)
@@ -407,7 +433,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           <div style={{ padding: '16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6 }}>
             {TEXT_PRESETS.map(preset => (
               <button key={preset}
-                onClick={() => { setSelectedPreset(preset); setPreviewText(getPresetContent(preset, family.name)) }}
+                onClick={() => { setSelectedPreset(preset); setPreviewText(getPresetContent(preset, family.name)); setRowTexts({}) }}
                 className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
               >
                 {preset}
@@ -430,7 +456,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
               </div>
               <button
                 aria-label="Reset preview settings"
-                onClick={() => { setFontSize(DEFAULT_FONT_SIZE); setLineHeight(1.2); setLetterSpacing(0); setAlign('left'); setSelectedPreset('Names'); setCaseMode('Default'); setPreviewText(family.name); setRowOtFeatures({}); setRowVarAxes({}); setExpandedRowKey(null) }}
+                onClick={() => { setFontSize(DEFAULT_FONT_SIZE); setLineHeight(1.2); setLetterSpacing(0); setAlign('left'); setSelectedPreset('Pangrams'); setCaseMode('Default'); setPreviewText(PANGRAMS[0]); setRowTexts({}); setRowOtFeatures({}); setRowVarAxes({}); setExpandedRowKey(null) }}
                 className="v2-button v2-button-inactive"
                 style={{ padding: 0, width: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}
               >
@@ -496,8 +522,8 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                 lineHeight={lineHeight}
                 letterSpacing={letterSpacing}
                 align={align}
-                text={previewText}
-                onChange={setPreviewText}
+                text={selectedPreset === 'Pangrams' ? (rowTexts[vr.key] ?? PANGRAMS[i % PANGRAMS.length]) : previewText}
+                onChange={t => selectedPreset === 'Pangrams' ? setRowTexts(prev => ({ ...prev, [vr.key]: t })) : setPreviewText(t)}
                 isLast={i === variantRows.length - 1}
                 fontVariationSettings={varSettings}
                 fontFeatureSettings={featureSettings}
@@ -522,6 +548,16 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           })}
         </div>
       </div>
+
+      {/* ── Glyphs ── */}
+      {defaultVariant && (
+        <GlyphMap
+          stem={defaultVariant.filename.replace(/\.[^.]+$/, '')}
+          fontFamily={`"${heroFont}", system-ui, sans-serif`}
+          weight={defaultVariant.weight ?? 400}
+          italic={!!defaultVariant.isItalic}
+        />
+      )}
 
       {/* ── Reading sizes ── */}
       {sampleRow && (
@@ -604,16 +640,6 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
             </div>
           </div>
         </div>
-      )}
-
-      {/* ── Glyphs ── */}
-      {defaultVariant && (
-        <GlyphMap
-          stem={defaultVariant.filename.replace(/\.[^.]+$/, '')}
-          fontFamily={`"${heroFont}", system-ui, sans-serif`}
-          weight={defaultVariant.weight ?? 400}
-          italic={!!defaultVariant.isItalic}
-        />
       )}
 
       {/* ── Footer ── */}
