@@ -578,13 +578,27 @@
 }
 
 /* Glyph map: the glyph under the pointer large on the left, held in view while
-   the grid scrolls past; every character the font draws on the right. */
+   the grid scrolls past; every character the font draws on the right. On the
+   same lines as the description above it: the grid starts on the menu's left
+   edge where there is room beside it (see .font-detail-about), and below that
+   the preview sits in a row over the grid. */
 .font-detail-glyphs {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-  gap: 24px 48px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
   padding: 0 16px;
   min-height: 200px;
+}
+
+@media (min-width: 900px) {
+  .font-detail-glyphs {
+    grid-template-columns: calc((100vw - 440px) / 2 - 48px) minmax(0, 1fr);
+  }
+
+  /* Sized off the preview column, so a wide W never runs past its edge. */
+  .font-detail-glyph-big {
+    font-size: clamp(120px, calc(((100vw - 440px) / 2 - 48px) * 0.7), 320px);
+  }
 }
 
 .font-detail-glyph-preview {
@@ -635,11 +649,7 @@
   background-color: var(--v2-inactive-bg);
 }
 
-@media (max-width: 767px) {
-  .font-detail-glyphs {
-    grid-template-columns: 1fr;
-  }
-
+@media (max-width: 899px) {
   .font-detail-glyph-preview {
     position: static;
     flex-direction: row;
