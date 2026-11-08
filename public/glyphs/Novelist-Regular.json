@@ -1,1 +1,1 @@
-[["Uppercase","ABCDEFGHIJKLMNOPQRSTUVWXYZЁЅІЇЈАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"],["Lowercase","abcdefghijklmnopqrstuvwxyzабвгдежзийклмнопрстуфхцчшщъыьэюяёѕіїј"],["Figures","0123456789"],["Punctuation","!\"#%&'()*,-./:;?[]_{}«»‐–—"],["Symbols","+="]]
+[["Latin uppercase","ABCDEFGHIJKLMNOPQRSTUVWXYZ"],["Latin lowercase","abcdefghijklmnopqrstuvwxyz"],["Cyrillic uppercase","ЁЅІЇЈАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"],["Cyrillic lowercase","абвгдежзийклмнопрстуфхцчшщъыьэюяёѕіїј"],["Figures","0123456789"],["Punctuation","!\"#%&'()*,-./:;?[]_{}«»‐–—"],["Symbols","+="]]
