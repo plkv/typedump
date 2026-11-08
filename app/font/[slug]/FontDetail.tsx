@@ -504,6 +504,10 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                           ...Object.fromEntries(sampleRow.axesDef.filter(a => a.tag !== 'wght').map(a => [a.tag, a.default])),
                           wght: sampleRow.weight,
                         }) ?? undefined,
+                        // The body carries the interface font's stylistic sets;
+                        // without this the samples inherited them and showed
+                        // whatever alternates the face keeps at those tags.
+                        fontFeatureSettings: 'normal',
                         fontSize: sample.size,
                         lineHeight: sample.size >= 36 ? 1.15 : 1.4,
                         letterSpacing: sample.size >= 36 ? '-0.01em' : 0,
