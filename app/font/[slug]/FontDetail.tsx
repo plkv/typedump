@@ -76,9 +76,9 @@ function getPresetContent(preset: TextPreset, fontName: string): string {
 // about type on purpose: a sample nobody wants to read teaches nothing about
 // whether a face is readable.
 const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
-  { size: 48, text: 'A face earns its keep at the size you actually set it.' },
+  { size: 56, text: 'A face earns its keep at the size you actually set it.' },
   { size: 36, text: 'Set the same sentence twice, once large and once small. The small setting is the one that tells you whether a typeface will hold up.' },
-  { size: 30, text: 'Counters close, joints thicken, and the gaps between letters start doing more work than the letters. What looked confident in a headline can turn muddy three sizes down.' },
+  { size: 28, text: 'Counters close, joints thicken, and the gaps between letters start doing more work than the letters. What looked confident in a headline can turn muddy three sizes down.' },
   { size: 24, text: 'Most of the type anyone meets in a day sits between 16 and 24 pixels: the body of an article, a form label, the terms nobody reads. A face that survives down there is worth more than one that only photographs well at 200.' },
   { size: 20, text: 'Read a few lines rather than a few words. Rhythm only shows up over a paragraph, and so do the things that get tiring: a narrow e, an ambiguous l and 1, an italic that leans harder than the roman, numerals that sit too high against lowercase. None of it is visible in a single word set large.' },
   { size: 16, text: 'This is the size where a typeface either works or quietly does not. Stems thin out, terminals blunt, and the spacing decides how fast anyone gets through a sentence. Check the punctuation while you are here, because commas and quotes carry more of the reading than their size suggests, and check a number or two: 0 against O, 1 against l, 3 against 8. If the paragraph still reads easily at this size, the rest of the family will usually take care of itself.' },
@@ -571,9 +571,9 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                     <div
                       key={sample.size}
                       className="font-detail-size-row"
-                      data-wide={sample.size >= 30 ? 'true' : 'false'}
+                      data-wide={sample.size >= 28 ? 'true' : 'false'}
                     >
-                      <div className="font-detail-pills" style={{ paddingTop: 2 }}>
+                      <div className="font-detail-pills">
                         <span className="font-detail-pill">{sample.size}px</span>
                       </div>
                       <p style={{
