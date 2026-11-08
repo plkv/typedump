@@ -499,19 +499,187 @@
   }
 }
 
-.font-detail-info-grid {
-  grid-template-columns: 1fr 1fr;
+/* Font detail — set on the page, no cards. Sections run the full width and
+   are told apart by air alone; hairlines stay inside a section, between its
+   rows. The content keeps the page's 16px gutters through its own padding. */
+
+/* Air between the logical sections (about, specimens, reading sizes). */
+.font-detail-flat + .font-detail-flat {
+  margin-top: 72px;
 }
 
-@media (max-width: 599px) {
-  .font-detail-info-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 767px) {
+  .font-detail-flat + .font-detail-flat {
+    margin-top: 48px;
   }
 }
 
-/* Font detail — info table: remove last row border */
-.info-table > div:last-child {
-  border-bottom: none !important;
+.font-detail-flat:last-of-type {
+  margin-bottom: 80px;
+}
+
+/* Description first, the facts under it, until there is room beside the
+   menu: then the facts take the left and the description starts on the menu's
+   left edge, the same line the home page's copy hangs from. The menu is a
+   centred 440px bar, so that edge is (100vw - 440px) / 2; the facts need
+   about 180px plus the 16px gutter and a 32px gap, which first fits at 900px. */
+.font-detail-about {
+  /* The one rule between sections: it closes the hero and its buttons. */
+  border-top: 1px solid var(--gray-brd-prim);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+  padding: 24px 16px 40px;
+}
+
+@media (min-width: 900px) {
+  .font-detail-about {
+    grid-template-columns: calc((100vw - 440px) / 2 - 48px) minmax(0, 1fr);
+  }
+
+  .font-detail-facts {
+    order: -1;
+  }
+}
+
+.font-detail-about-text p {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 22px;
+  font-weight: 450;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
+  color: var(--gray-cont-prim);
+  max-width: 34em;
+  text-wrap: pretty;
+}
+
+.font-detail-about-text p + p {
+  margin-top: 16px;
+}
+
+.info-table {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Label above value, no rules between them. */
+.info-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (max-width: 767px) {
+  .font-detail-about-text p {
+    font-size: 18px;
+  }
+}
+
+/* Glyph map: the glyph under the pointer large on the left, held in view while
+   the grid scrolls past; every character the font draws on the right. */
+.font-detail-glyphs {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 24px 48px;
+  padding: 0 16px;
+  min-height: 200px;
+}
+
+.font-detail-glyph-preview {
+  position: sticky;
+  top: 96px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.font-detail-glyph-big {
+  font-size: clamp(160px, 22vw, 320px);
+  line-height: 1;
+  color: var(--gray-cont-prim);
+}
+
+.font-detail-glyph-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.font-detail-glyph-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+}
+
+.font-detail-glyph-grid button {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 28px;
+  line-height: 1;
+  color: var(--gray-cont-prim);
+  background: none;
+  border: none;
+  border-radius: var(--radius-component);
+  cursor: default;
+  transition: background-color 0.15s;
+}
+
+.font-detail-glyph-grid button:hover,
+.font-detail-glyph-grid button[data-active="true"] {
+  background-color: var(--v2-inactive-bg);
+}
+
+@media (max-width: 767px) {
+  .font-detail-glyphs {
+    grid-template-columns: 1fr;
+  }
+
+  .font-detail-glyph-preview {
+    position: static;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .font-detail-glyph-big {
+    font-size: 120px;
+  }
+}
+
+/* Text links on the font page (the facts and the footer) answer the pointer
+   by fading. The menu and the buttons keep hovers of their own. */
+.info-row a,
+.font-detail-page footer a {
+  transition: opacity 0.15s;
+}
+
+.info-row a:hover,
+.font-detail-page footer a:hover {
+  opacity: 0.56;
+}
+
+/* Small outlined labels over a specimen: style, weight, size. */
+.font-detail-pills {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.font-detail-pill {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px solid var(--gray-brd-prim);
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: var(--gray-cont-tert);
 }
 
 /* Font detail — controls row */

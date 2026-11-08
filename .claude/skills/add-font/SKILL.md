@@ -106,6 +106,7 @@ under About, and both `llms.txt` files. Nothing is written by hand in those.
 ```bash
 node scripts/generate-font-css.mjs        # public/fonts/fonts.css
 python3.13 scripts/build-preview-subsets.py  # cut previews + bumps lastUpdated
+python3.13 scripts/build-glyph-maps.py        # public/glyphs, the font page's character set
 ```
 
 `lastUpdated` is the cache key for `fonts.css?v=`. If the subsets script does not

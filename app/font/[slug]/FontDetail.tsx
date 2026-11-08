@@ -100,7 +100,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   const [letterSpacing, setLetterSpacing] = useState(0)
   const [align, setAlign] = useState<'left' | 'center' | 'right'>('left')
   const [expandedRowKey, setExpandedRowKey] = useState<string | null>(null)
-  const [sizesOpen, setSizesOpen] = useState(false)
+  const [sizesOpen, setSizesOpen] = useState(true)
   const [sampleKey, setSampleKey] = useState<string | null>(null)
   const [rowOtFeatures, setRowOtFeatures] = useState<Record<string, Record<string, boolean>>>({})
   const [rowVarAxes, setRowVarAxes] = useState<Record<string, Record<string, number>>>({})
@@ -256,7 +256,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
   ].filter(Boolean).join(', ')
 
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: 'var(--gray-surface-sec)' }}>
+    <div className="font-detail-page" style={{ minHeight: '100vh', backgroundColor: 'var(--gray-surface-sec)' }}>
 
       <Navbar back fonts={fonts} />
 
@@ -316,9 +316,92 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         </div>
       </div>
 
+      {/* ── About and details ──
+          Straight after the hero, set on the page rather than in cards: the
+          description reads at reading size on the left, the facts stack in a
+          column on the right, as on a foundry's own specimen page. */}
+      <section className="font-detail-flat font-detail-about">
+        <div className="font-detail-about-text">
+          {family.description && <p>{family.description}</p>}
+          {/* Generated, not stored. The claim used to be a sentence appended to
+              each description by hand, which drifted: 37 families still carried
+              one that no source supported, and the rest named the faces in a
+              different order from the data. Built from `alternativeTo` there is
+              one claim per page and it cannot disagree with the row opposite.
+              Written as a full sentence so the family's own name sits beside
+              the words people search. */}
+          {(family.alternativeTo || []).length > 0 && (
+            <p>
+              {family.name} is a free alternative to {listPhrase((family.alternativeTo || []).map(a => a.name))}.
+            </p>
+          )}
+        </div>
+        <div className="font-detail-facts">
+          <div className="info-table">
+            {family.publishedAt && (
+              <InfoRow label="Released" value={new Date(family.publishedAt).getFullYear().toString()} />
+            )}
+            {typeInfo && <InfoRow label="Type" value={typeInfo} />}
+            {family.foundry && family.foundry !== 'Unknown' && (
+              <InfoRow label="Author" value={
+                <span>
+                  {family.foundry.split(', ').map(cleanAuthor).map((part, i, arr) => (
+                    <span key={part}>
+                      <a href={`/?author=${encodeURIComponent(part)}`} style={{ color: 'var(--gray-cont-prim)' }}>{part}</a>
+                      {i < arr.length - 1 && ', '}
+                    </span>
+                  ))}
+                </span>
+              } />
+            )}
+            {family.licenseInfo?.type && (
+              <InfoRow label="License" value={
+                family.licenseInfo.url
+                  ? <a href={family.licenseInfo.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>{family.licenseInfo.type}</a>
+                  : family.licenseInfo.type
+              } />
+            )}
+            {(family.languages || []).length > 0 && (
+              <InfoRow label="Languages" value={
+                <span>
+                  {(family.languages || []).map((lang, i, arr) => (
+                    <span key={lang}>
+                      <a href={`/?language=${encodeURIComponent(lang)}`} style={{ color: 'var(--gray-cont-prim)' }}>{lang}</a>
+                      {i < arr.length - 1 && ', '}
+                    </span>
+                  ))}
+                </span>
+              } />
+            )}
+            {(() => {
+              const tags = [
+                ...(family.collection ? [{ label: family.collection, param: 'collection' }] : []),
+                ...(family.category || []).map(c => ({ label: c, param: 'category' })),
+                ...(family.styleTags || [])
+                  .filter(s => !(family.category || []).includes(s))
+                  .map(s => ({ label: s, param: 'style' })),
+              ]
+              if (!tags.length) return null
+              return (
+                <InfoRow label="Tags" value={
+                  <span>
+                    {tags.map((t, i) => (
+                      <span key={`${t.param}-${t.label}`}>
+                        <a href={`/?${t.param}=${encodeURIComponent(t.label)}`} style={{ color: 'var(--gray-cont-prim)' }}>{t.label}</a>
+                        {i < tags.length - 1 && ', '}
+                      </span>
+                    ))}
+                  </span>
+                } />
+              )
+            })()}
+          </div>
+        </div>
+      </section>
+
       {/* ── Variant rows ── */}
-      <div style={{ padding: '0 16px 12px' }}>
-        <div className="v2-card" style={{ overflow: 'hidden' }}>
+      <div className="font-detail-flat">
+        <div>
 
           {/* Presets row */}
           <div style={{ padding: '16px', borderBottom: '1px solid var(--gray-brd-prim)', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6 }}>
@@ -442,8 +525,8 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
 
       {/* ── Reading sizes ── */}
       {sampleRow && (
-        <div style={{ padding: '0 16px 12px' }}>
-          <div className="v2-card" style={{ overflow: 'hidden' }}>
+        <div className="font-detail-flat">
+          <div>
             <div className="font-detail-sizes-head">
               <button
                 onClick={() => setSizesOpen(o => !o)}
@@ -490,8 +573,8 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
                       className="font-detail-size-row"
                       data-wide={sample.size >= 30 ? 'true' : 'false'}
                     >
-                      <div className="text-author" style={{ color: 'var(--gray-cont-tert)', paddingTop: 2 }}>
-                        {sample.size}px
+                      <div className="font-detail-pills" style={{ paddingTop: 2 }}>
+                        <span className="font-detail-pill">{sample.size}px</span>
                       </div>
                       <p style={{
                         margin: 0,
@@ -523,114 +606,15 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
         </div>
       )}
 
-      {/* ── Info section ── */}
-      <div className="font-detail-info-grid" style={{
-        padding: '0 16px 80px',
-        display: 'grid',
-        gap: 12,
-      }}>
-
-        {/* Left: About + description */}
-        <div className="v2-card" style={{ padding: '20px 24px 24px' }}>
-          <div className="text-author" style={{ marginBottom: 12 }}>About</div>
-          <p style={{
-            fontFamily: 'var(--font-ui)',
-            // 450, not 400: every other word on this page — the labels, the
-            // table values, the buttons — is 500, so body copy at 400 was the
-            // one light thing on the page and read as washed out.
-            fontSize: 14, fontWeight: 450, lineHeight: 1.6,
-            color: 'var(--gray-cont-prim)',
-            margin: 0,
-          }}>
-            {family.description || `${family.name} is a ${family.category.join(', ').toLowerCase()} typeface${family.foundry !== 'Unknown' ? ` by ${family.foundry}` : ''}. It includes ${sorted.length} style${sorted.length !== 1 ? 's' : ''}${isVariable ? ' and supports variable font axes' : ''}.`}
-          </p>
-          {/* Generated, not stored. The claim used to be a sentence appended to
-              each description by hand, which drifted: 37 families still carried
-              one that no source supported, and the rest named the faces in a
-              different order from the data. Built from `alternativeTo` there is
-              one claim per page and it cannot disagree with the row opposite.
-              Written as a full sentence so the family's own name sits beside
-              the words people search. */}
-          {(family.alternativeTo || []).length > 0 && (
-            <p style={{
-              fontFamily: 'var(--font-ui)',
-              // 450, not 400: every other word on this page — the labels, the
-            // table values, the buttons — is 500, so body copy at 400 was the
-            // one light thing on the page and read as washed out.
-            fontSize: 14, fontWeight: 450, lineHeight: 1.6,
-              color: 'var(--gray-cont-prim)',
-              margin: '12px 0 0',
-            }}>
-              {family.name} is a free alternative to {listPhrase((family.alternativeTo || []).map(a => a.name))}.
-            </p>
-          )}
-        </div>
-
-        {/* Right: Details table */}
-        <div className="v2-card" style={{ padding: '20px 24px 24px' }}>
-          <div className="text-author" style={{ marginBottom: 12 }}>Details</div>
-          <div className="info-table" style={{ display: 'flex', flexDirection: 'column' }}>
-            {family.publishedAt && (
-              <InfoRow label="Released" value={new Date(family.publishedAt).getFullYear().toString()} />
-            )}
-            {typeInfo && <InfoRow label="Type" value={typeInfo} />}
-            {family.foundry && family.foundry !== 'Unknown' && (
-              <InfoRow label="Author" value={
-                <span>
-                  {family.foundry.split(', ').map(cleanAuthor).map((part, i, arr) => (
-                    <span key={part}>
-                      <a href={`/?author=${encodeURIComponent(part)}`} style={{ color: 'var(--gray-cont-prim)' }}>{part}</a>
-                      {i < arr.length - 1 && ', '}
-                    </span>
-                  ))}
-                </span>
-              } />
-            )}
-            {family.licenseInfo?.type && (
-              <InfoRow label="License" value={
-                family.licenseInfo.url
-                  ? <a href={family.licenseInfo.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>{family.licenseInfo.type} ↗</a>
-                  : family.licenseInfo.type
-              } />
-            )}
-            {(family.languages || []).length > 0 && (
-              <InfoRow label="Languages" value={
-                <span>
-                  {(family.languages || []).map((lang, i, arr) => (
-                    <span key={lang}>
-                      <a href={`/?language=${encodeURIComponent(lang)}`} style={{ color: 'var(--gray-cont-prim)' }}>{lang}</a>
-                      {i < arr.length - 1 && ', '}
-                    </span>
-                  ))}
-                </span>
-              } />
-            )}
-            {(() => {
-              const tags = [
-                ...(family.collection ? [{ label: family.collection, param: 'collection' }] : []),
-                ...(family.category || []).map(c => ({ label: c, param: 'category' })),
-                ...(family.styleTags || [])
-                  .filter(s => !(family.category || []).includes(s))
-                  .map(s => ({ label: s, param: 'style' })),
-              ]
-              if (!tags.length) return null
-              return (
-                <InfoRow label="Tags" value={
-                  <span>
-                    {tags.map((t, i) => (
-                      <span key={`${t.param}-${t.label}`}>
-                        <a href={`/?${t.param}=${encodeURIComponent(t.label)}`} style={{ color: 'var(--gray-cont-prim)' }}>{t.label}</a>
-                        {i < tags.length - 1 && ', '}
-                      </span>
-                    ))}
-                  </span>
-                } />
-              )
-            })()}
-          </div>
-        </div>
-
-      </div>
+      {/* ── Glyphs ── */}
+      {defaultVariant && (
+        <GlyphMap
+          stem={defaultVariant.filename.replace(/\.[^.]+$/, '')}
+          fontFamily={`"${heroFont}", system-ui, sans-serif`}
+          weight={defaultVariant.weight ?? 400}
+          italic={!!defaultVariant.isItalic}
+        />
+      )}
 
       {/* ── Footer ── */}
       <footer style={{ padding: '16px 24px' }}>
@@ -678,6 +662,87 @@ function HeroName({ name, family }: { name: string; family: string }) {
           : <span key={i}>{s.text}</span>
       )}
     </>
+  )
+}
+
+// ─── Glyph map ─────────────────────────────────────────────────────────────
+
+// Every character the default style draws, grouped as on a foundry's specimen
+// page, with the one under the pointer shown large beside the grid. The list is
+// read from the font file at build time (scripts/build-glyph-maps.py), so it is
+// what the font holds rather than what a test string happens to contain, and it
+// is fetched only when the section is about to scroll into view.
+function GlyphMap({ stem, fontFamily, weight, italic }: {
+  stem: string
+  fontFamily: string
+  weight: number
+  italic: boolean
+}) {
+  const ref = useRef<HTMLElement | null>(null)
+  const [groups, setGroups] = useState<Array<[string, string]> | null>(null)
+  const [active, setActive] = useState<string | null>(null)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const io = new IntersectionObserver(entries => {
+      if (!entries.some(e => e.isIntersecting)) return
+      io.disconnect()
+      fetch(`/glyphs/${encodeURIComponent(stem)}.json`)
+        .then(r => (r.ok ? r.json() : null))
+        .then(g => { if (g) setGroups(g) })
+        .catch(() => {})
+    }, { rootMargin: '600px' })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [stem])
+
+  const shown = active ?? groups?.[0]?.[1]?.[0] ?? null
+  const glyphStyle: React.CSSProperties = {
+    fontFamily, fontWeight: weight, fontStyle: italic ? 'italic' : 'normal',
+    // The interface's stylistic sets must not reach the specimen.
+    fontFeatureSettings: 'normal',
+  }
+
+  return (
+    <section ref={ref} className="font-detail-flat font-detail-glyphs">
+      {groups && (
+        <>
+          <div className="font-detail-glyph-preview">
+            <div className="font-detail-glyph-big" style={glyphStyle}>{shown}</div>
+            {shown && (
+              <span className="font-detail-pill">
+                U+{shown.codePointAt(0)!.toString(16).toUpperCase().padStart(4, '0')}
+              </span>
+            )}
+          </div>
+          <div className="font-detail-glyph-groups">
+            {groups.map(([name, chars]) => (
+              <div key={name}>
+                <div className="font-detail-pills" style={{ marginBottom: 8 }}>
+                  <span className="font-detail-pill">{name}</span>
+                </div>
+                <div className="font-detail-glyph-grid" style={glyphStyle}>
+                  {[...chars].map(ch => (
+                    <button
+                      key={ch}
+                      type="button"
+                      aria-label={`U+${ch.codePointAt(0)!.toString(16).toUpperCase().padStart(4, '0')}`}
+                      data-active={ch === shown}
+                      onMouseEnter={() => setActive(ch)}
+                      onFocus={() => setActive(ch)}
+                      onClick={() => setActive(ch)}
+                    >
+                      {ch}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+    </section>
   )
 }
 
@@ -744,9 +809,9 @@ function VariantRow({
         }}
       >
         {/* The weight is quieter than the name, not set off by a dot. */}
-        <span>
-          {label}
-          {showsWeightNumber && <span style={{ color: 'var(--gray-cont-quart)', marginLeft: 6 }}>{weight}</span>}
+        <span className="font-detail-pills">
+          <span className="font-detail-pill">{label}</span>
+          {showsWeightNumber && <span className="font-detail-pill">{weight}</span>}
         </span>
         {hasSettings && (
           <IconChevronDown size={16} style={{ color: 'var(--gray-cont-tert)', transition: 'transform 0.2s', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }} />
@@ -887,16 +952,13 @@ function listPhrase(items: string[]) {
 // ─── Info row ────────────────────────────────────────────────────────────────
 
 function InfoRow({ label, value }: { label: string; value: React.ReactNode }) {
+  // The space after the label is real text, not layout. Drawn spacing is never
+  // written, so the two ran together when the row was read as text: "Free
+  // alternative toSF Pro". That is the exact phrase people search, and a
+  // crawler was seeing it welded shut.
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, borderBottom: '1px solid var(--gray-brd-prim)', padding: '10px 0' }}>
-      {/* 124px, not 80: "Free alternative to" is the longest label the table
-          carries and at 80 it wrapped to three lines, doubling the row height
-          and breaking the rhythm of the ones around it. */}
-      {/* The space after the label is real text, not the flex gap. The gap is
-          drawn, never written, so the two cells ran together when the row was
-          read as text: "Free alternative toSF Pro". That is the exact phrase
-          people search, and a crawler was seeing it welded shut. */}
-      <span className="text-author" style={{ minWidth: 124, flex: 'none' }}>{label}{' '}</span>
+    <div className="info-row">
+      <span className="text-author">{label}{' '}</span>
       <span className="text-sidebar-title">{value}</span>
     </div>
   )
