@@ -8,6 +8,7 @@ import { HeroReel } from "@/components/font-catalog/HeroReel"
 import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
 import { COLLECTIONS, type FontCollection } from "@/lib/types"
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
+import { randomBrandSet } from '@/lib/text-presets'
 // catalog.css is imported globally in layout.tsx
 
 
@@ -71,13 +72,7 @@ const getPresetContent = (preset: string, fontName: string) => {
       ]
       return paragraphs[Math.floor(Math.random() * paragraphs.length)]
     case "Brands":
-      const brandSets = [
-        "Maison Margiela • Off-White • Y/Project • Rimowa • A-Cold-Wall* • Figma • Balenciaga • OpenAI • Byredo",
-        "Figma • Arc'teryx • Rimowa • Aimé Leon Dore • Balenciaga • Klarna • Off-White • SpaceX • Notion",
-        "OpenAI • Arc'teryx • Maison Margiela • A-Cold-Wall* • Y/Project • Klarna • Byredo • Balenciaga • SpaceX",
-        "Byredo • Maison Margiela • Notion • Figma • Off-White • Rimowa • OpenAI • Balenciaga • Arc'teryx"
-      ]
-      return brandSets[Math.floor(Math.random() * brandSets.length)]
+      return randomBrandSet()
     default:
       return fontName
   }

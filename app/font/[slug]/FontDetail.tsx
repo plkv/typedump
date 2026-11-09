@@ -11,6 +11,7 @@ import { cleanAuthor } from '@/lib/author'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { segmentByCoverage } from '@/lib/glyph-coverage'
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
+import { randomBrandSet } from '@/lib/text-presets'
 
 
 function weightLabel(w: number) {
@@ -81,14 +82,7 @@ function getPresetContent(preset: TextPreset, fontName: string): string {
       ]
       return paragraphs[Math.floor(Math.random() * paragraphs.length)]
     }
-    case 'Brands': {
-      const brandSets = [
-        'Maison Margiela • Off-White • Y/Project • Rimowa • A-Cold-Wall* • Figma • Balenciaga • OpenAI • Byredo',
-        'Figma • Arc\'teryx • Rimowa • Aimé Leon Dore • Balenciaga • Klarna • Off-White • SpaceX • Notion',
-        'Byredo • Maison Margiela • Notion • Figma • Off-White • Rimowa • OpenAI • Balenciaga • Arc\'teryx',
-      ]
-      return brandSets[Math.floor(Math.random() * brandSets.length)]
-    }
+    case 'Brands': return randomBrandSet()
   }
 }
 

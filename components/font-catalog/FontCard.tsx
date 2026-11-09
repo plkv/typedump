@@ -161,12 +161,12 @@ function FontCardImpl({
   useLayoutEffect(() => {
     if (!previewFamily || typeof document === 'undefined' || !document.fonts) return
     // A card that is not near is off-screen and not asking for its font; a
-    // shimmer there would only be three hundred timers and re-renders at load.
+    // pulse there would only be three hundred timers and re-renders at load.
     if (!isNear) return
     // Read FontFace.status directly rather than document.fonts.check(): check()
     // answers "would this family be used", which is true the moment the
     // @font-face is declared, loaded or not — measured returning true for a
-    // face sitting at status 'unloaded', so the shimmer never once appeared.
+    // face sitting at status 'unloaded', so the pulse never once appeared.
     //
     // And status only, never load(). Asking to load would start fetching all
     // 207 faces the moment the cards mount, which is the 16MB this catalogue
@@ -189,30 +189,30 @@ function FontCardImpl({
     return onFontsChanged(recheck)
   }, [previewFamily, textSize, isNear])
 
-  // The shimmer waits before it appears and stays a beat once it has. A cut
-  // preview lands in about 76ms, so tying the sweep straight to `fontReady`
-  // flashed it on and off inside a couple of frames — which reads as a glitch,
-  // not as loading. Below the delay nothing is drawn at all; past it the card
-  // holds the sweep long enough to be seen as deliberate.
-  const SHIMMER_DELAY_MS = 220
-  const SHIMMER_MIN_MS = 420
-  const [showShimmer, setShowShimmer] = useState(false)
-  const shimmerShownAt = useRef(0)
+  // The pulse waits before it appears and stays a beat once it has. A cut
+  // preview lands in about 76ms, so tying it straight to `fontReady` flashed
+  // it on and off inside a couple of frames — which reads as a glitch, not as
+  // loading. Below the delay nothing is drawn at all; past it the card holds
+  // the pulse long enough to be seen as deliberate.
+  const PULSE_DELAY_MS = 220
+  const PULSE_MIN_MS = 1000
+  const [showPulse, setShowPulse] = useState(false)
+  const pulseShownAt = useRef(0)
 
   useEffect(() => {
     if (isNear && !faceLoaded) {
       const t = setTimeout(() => {
-        shimmerShownAt.current = Date.now()
-        setShowShimmer(true)
-      }, SHIMMER_DELAY_MS)
+        pulseShownAt.current = Date.now()
+        setShowPulse(true)
+      }, PULSE_DELAY_MS)
       return () => clearTimeout(t)
     }
-    if (!showShimmer) return
-    const left = SHIMMER_MIN_MS - (Date.now() - shimmerShownAt.current)
-    if (left <= 0) { setShowShimmer(false); return }
-    const t = setTimeout(() => setShowShimmer(false), left)
+    if (!showPulse) return
+    const left = PULSE_MIN_MS - (Date.now() - pulseShownAt.current)
+    if (left <= 0) { setShowPulse(false); return }
+    const t = setTimeout(() => setShowPulse(false), left)
     return () => clearTimeout(t)
-  }, [isNear, faceLoaded, showShimmer])
+  }, [isNear, faceLoaded, showPulse])
 
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
@@ -243,16 +243,16 @@ function FontCardImpl({
 
   return (
     <div
-      className="transition-colors v2-card card-shimmer-host"
+      className="transition-colors v2-card card-pulse-host"
       onPointerDown={() => { pointerInsideAt.current = Date.now() }}
       onBlur={handleBlur}
       data-card-id={font.id}
     >
-      {/* While the face is still arriving the whole card carries the shimmer,
+      {/* While the face is still arriving the whole card pulses in brightness,
           not the line of text: the card is the thing that is not ready yet, and
-          a sweep over one line read as a defect in the specimen rather than as
+          an effect on one line read as a defect in the specimen rather than as
           loading. Sits behind the content and takes no clicks. */}
-      {showShimmer && <div className="card-shimmer" aria-hidden="true" />}
+      {showPulse && <div className="card-pulse" aria-hidden="true" />}
       <div className="p-4">
 
         {/* ── Header row ── */}

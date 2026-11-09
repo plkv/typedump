@@ -1062,7 +1062,7 @@
    While a specimen's face is still downloading the text paints in the system
    fallback (font-display: swap). That fallback is not the answer to the
    question the card is asking, so it is drawn grey from the first frame and,
-   if the wait is long enough to notice, swept with a shimmer: the line is
+   if the wait is long enough to notice, the card pulses in brightness: the line is
    legible, and legibly provisional. Cleared the moment the browser reports
    the face loaded — see onFontsChanged in FontCard.tsx. */
 
@@ -1078,27 +1078,27 @@
   transition: none;
 }
 
-.card-shimmer-host { position: relative; }
+.card-pulse-host { position: relative; }
 
-.card-shimmer {
+/* A tint over the card that breathes in and out: one cycle is PULSE_MIN_MS in
+   FontCard.tsx, so a card that loads quickly still shows one whole breath. */
+@keyframes card-pulse {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.card-pulse {
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
   border-radius: var(--radius-card);
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    color-mix(in srgb, var(--gray-cont-prim) 7%, transparent) 20%,
-    transparent 40%,
-    transparent 100%
-  );
-  background-size: 1000px 100%;
-  animation: shimmer 1.4s infinite linear;
+  background: color-mix(in srgb, var(--gray-cont-prim) 6%, transparent);
+  animation: card-pulse 1s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .card-shimmer { animation: none; }
+  .card-pulse { animation: none; opacity: 0.5; }
 }
 
 /* Hint in the corner of the card being edited: typing stays in this card until

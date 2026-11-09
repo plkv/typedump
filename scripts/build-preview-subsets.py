@@ -44,6 +44,11 @@ PRESET_CHARS = (
     'CAGR ROI KPIs TAM CAC LTV SaaS 45° +5.6% $212.45'
     'Maison Margiela Off-White Y/Project Rimowa A-Cold-Wall* Figma Byredo '
     'Arc’teryx Aimé Leon Dore Notion OpenAI SpaceX Klarna •—’“”'
+    "1017 Alyx 9SM Porsche 911 Levi's 501 Dr. Martens 1460 Y-3 Boeing 747 032c "
+    'Chanel N°5 37signals New Balance 990 Roland TR-808 Leica M6 1Password '
+    'Dries Van Noten Kazimir Malevich Röyksopp Sébastien Tellier Man Ray '
+    'Depeche Mode László Moholy-Nagy Justice El Lissitzky Nôze Erlend Øye '
+    'Hannah Höch Marcel Duchamp Sonia Delaunay'
 )
 
 # Alternates the "Alternates" preset shows without expanding a card. Keeping
