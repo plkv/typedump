@@ -5214,12 +5214,6 @@
             "Stylistic Set 1",
             "Kerning"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": false,
           "uploadedAt": "2025-09-07T19:23:23.996Z",
           "id": "variant_family_excessive_extra_condensed_1757807924399_1757807924454",
@@ -5227,7 +5221,13 @@
           "url": "/fonts/Excessive-ExtraCondensed.woff2",
           "originalUrl": "/fonts/Excessive-ExtraCondensed.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Excessive-ExtraCondensed.woff2"
+          "previewUrl": "/fonts/preview/Excessive-ExtraCondensed.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2025-09-13T23:58:44.399Z",
@@ -36275,12 +36275,9 @@
     },
     {
       "name": "Azimut",
-      "collection": "Display",
+      "collection": "Text",
       "styleTags": [
-        "Contrast",
-        "Old Face",
-        "Stencil",
-        "Modular"
+        "Old Face"
       ],
       "languages": [
         "Latin"
@@ -36351,7 +36348,43 @@
           "originalUrl": "/fonts/Azimut-Regular.otf",
           "format": "woff2",
           "previewUrl": "/fonts/preview/Azimut-Regular.woff2"
-        },
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Azimut is the roman of a three-part type system drawn by Benjamin Blaess, Julien Priez and Mathieu Réguer for the city of Strasbourg, World Book Capital 2024, and released for anyone to use. It is a text serif with humanist proportions and pen-drawn stress, quiet enough for books and long reading. The family breaks the usual roman, italic and bold structure: the other two styles are separate faces with their own shapes and jobs, listed here as Azimut Italic and Azimut Bold. The roman carries the full toolkit, with small caps, oldstyle and lining figures, fractions and four sets of circled and squared figures. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "CC BY-ND",
+        "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial",
+        "Culture"
+      ],
+      "altPairs": [],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Azimut Italic",
+      "collection": "Display",
+      "styleTags": [
+        "Old Face",
+        "Calligraphy",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Benjamin Blaess, Julien Priez & Mathieu Reguer",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://azimut.strasbourg.eu",
+      "id": "family_azimut_italic_1756700032002",
+      "variants": [
         {
           "filename": "Azimut-Italic.otf",
           "weight": 400,
@@ -36378,14 +36411,50 @@
             "Mark to Mark Positioning"
           ],
           "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
+          "isDefaultStyle": true,
           "uploadedAt": "2026-09-01T00:00:00.000Z",
           "id": "variant_family_azimut_1756700032000_1756700032002",
-          "familyId": "family_azimut_1756700032000",
+          "familyId": "family_azimut_italic_1756700032002",
           "url": "/fonts/Azimut-Italic.woff2",
           "originalUrl": "/fonts/Azimut-Italic.otf",
-          "format": "woff2"
-        },
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Azimut-Italic.woff2"
+        }
+      ],
+      "createdAt": "2026-09-01T00:00:00.000Z",
+      "updatedAt": "2026-09-01T00:00:00.000Z",
+      "description": "Azimut Italic is the calligraphic member of the Azimut trio drawn by Benjamin Blaess, Julien Priez and Mathieu Réguer for the city of Strasbourg, World Book Capital 2024. It is not a slanted companion to the roman but a chancery hand of its own, with looped capitals, a swinging R and long entry strokes, closer to a written page than to a book italic. It still sets a few lines at reading size, but it is happiest in titles, pull quotes and anything that wants a signature. Latin and Latin Extended.",
+      "licenseInfo": {
+        "type": "CC BY-ND",
+        "url": "https://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      "publishedAt": "2026-09-01",
+      "useCases": [
+        "Editorial",
+        "Culture"
+      ],
+      "altPairs": []
+    },
+    {
+      "name": "Azimut Bold",
+      "collection": "Display",
+      "styleTags": [
+        "Stencil",
+        "Modular",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Benjamin Blaess, Julien Priez & Mathieu Reguer",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://azimut.strasbourg.eu",
+      "id": "family_azimut_bold_1756700032003",
+      "variants": [
         {
           "filename": "Azimut-Bold.otf",
           "weight": 700,
@@ -36403,18 +36472,19 @@
             "Mark to Mark Positioning"
           ],
           "openTypeFeatureTags": [],
-          "isDefaultStyle": false,
+          "isDefaultStyle": true,
           "uploadedAt": "2026-09-01T00:00:00.000Z",
           "id": "variant_family_azimut_1756700032000_1756700032003",
-          "familyId": "family_azimut_1756700032000",
+          "familyId": "family_azimut_bold_1756700032003",
           "url": "/fonts/Azimut-Bold.woff2",
           "originalUrl": "/fonts/Azimut-Bold.otf",
-          "format": "woff2"
+          "format": "woff2",
+          "previewUrl": "/fonts/preview/Azimut-Bold.woff2"
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
       "updatedAt": "2026-09-01T00:00:00.000Z",
-      "description": "Azimut is the typeface of the city of Strasbourg, drawn by Benjamin Blaess, Julien Priez and Mathieu Reguer and released for anyone to use. Regular and Italic are a text serif with humanist proportions and pen-drawn stress; the Bold is something else entirely, a modular stencil assembled from half-circles and blocks, made for headlines and signs. A large accented set covers civic signage and print. Latin and Latin Extended.",
+      "description": "Azimut Bold is the heavy member of the Azimut trio drawn by Benjamin Blaess, Julien Priez and Mathieu Réguer for the city of Strasbourg, World Book Capital 2024, and it shares nothing with the roman but the name. Every letter is assembled from blocks and half-circles with stencil gaps between them, so words turn into black patterns that still read at a distance. Made for headlines, posters and signage. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "CC BY-ND",
         "url": "https://creativecommons.org/licenses/by-nd/4.0/"
@@ -36424,8 +36494,7 @@
         "Editorial",
         "Culture"
       ],
-      "altPairs": [],
-      "hasSmallCaps": true
+      "altPairs": []
     },
     {
       "name": "RRR Climax",
@@ -36572,12 +36641,6 @@
             "Kerning",
             "Stylistic Set 1"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-01T00:00:00.000Z",
           "id": "variant_family_sfc_steal_deal_1756700036000_1756700036001",
@@ -36585,7 +36648,13 @@
           "url": "/fonts/SFC Steal Deal.woff2",
           "originalUrl": "/fonts/SFC Steal Deal.ttf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/SFC Steal Deal.woff2"
+          "previewUrl": "/fonts/preview/SFC Steal Deal.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -36976,12 +37045,6 @@
             "Mark Positioning",
             "Stylistic Set 1"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-01T00:00:00.000Z",
           "id": "variant_family_caramel_1756800004000_1756800004001",
@@ -36989,7 +37052,13 @@
           "url": "/fonts/Caramel-Regular.woff2",
           "originalUrl": "/fonts/Caramel-Regular.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Caramel-Regular.woff2"
+          "previewUrl": "/fonts/preview/Caramel-Regular.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -37142,12 +37211,6 @@
             "Tabular Figures",
             "Sans Serif"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Sans Serif"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-01T00:00:00.000Z",
           "id": "variant_family_toronto_1756800007000_1756800007001",
@@ -37155,7 +37218,13 @@
           "url": "/fonts/Toronto-Regular.woff2",
           "originalUrl": "/fonts/Toronto-Regular.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Toronto-Regular.woff2"
+          "previewUrl": "/fonts/preview/Toronto-Regular.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Sans Serif"
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-01T00:00:00.000Z",
@@ -38315,12 +38384,6 @@
             "Localized Forms",
             "Alt Ж, К, г, ж, к"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Cyrillic alternates"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-19T00:00:00.000Z",
           "id": "variant_family_gothic60_1758290000009_1",
@@ -38328,7 +38391,13 @@
           "url": "/fonts/Gothic60-Regular.woff2",
           "originalUrl": "/fonts/Gothic60-Regular.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/Gothic60-Regular.woff2"
+          "previewUrl": "/fonts/preview/Gothic60-Regular.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Cyrillic alternates"
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-19T00:00:00.000Z",
@@ -40099,12 +40168,6 @@
             "Kerning",
             "Stylistic Set 1"
           ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
           "isDefaultStyle": true,
           "uploadedAt": "2026-09-22T00:00:00.000Z",
           "id": "variant_family_cc_accidenz_grotesk_1790075385122_1",
@@ -40112,7 +40175,13 @@
           "url": "/fonts/AccidenzGrotesk-medium.woff2",
           "originalUrl": "/fonts/AccidenzGrotesk-medium.otf",
           "format": "woff2",
-          "previewUrl": "/fonts/preview/AccidenzGrotesk-medium.woff2"
+          "previewUrl": "/fonts/preview/AccidenzGrotesk-medium.woff2",
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Stylistic Set 1"
+            }
+          ]
         }
       ],
       "createdAt": "2026-09-22T08:00:00.000Z",
@@ -42613,9 +42682,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -42680,9 +42749,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -42858,6 +42927,15 @@
             "Stylistic Set 4",
             "Kerning"
           ],
+          "glyphCount": 157,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-10-22T11:24:52.000Z",
+          "id": "variant_family_bbh_hegarty_1792668292000_regular",
+          "familyId": "family_bbh_hegarty_1792668292000",
+          "url": "/fonts/BBHHegarty-Regular.woff2",
+          "originalUrl": "/fonts/BBHHegarty-Regular.ttf",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -42875,16 +42953,7 @@
               "tag": "ss04",
               "title": "Alt ampersand"
             }
-          ],
-          "glyphCount": 157,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-10-22T11:24:52.000Z",
-          "id": "variant_family_bbh_hegarty_1792668292000_regular",
-          "familyId": "family_bbh_hegarty_1792668292000",
-          "url": "/fonts/BBHHegarty-Regular.woff2",
-          "originalUrl": "/fonts/BBHHegarty-Regular.ttf",
-          "format": "woff2",
-          "published": true
+          ]
         }
       ],
       "altPairs": [
@@ -43020,9 +43089,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 500.0
+              "min": 100,
+              "max": 900,
+              "default": 500
             }
           ],
           "openTypeFeatures": [
@@ -43110,9 +43179,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 500.0
+              "min": 100,
+              "max": 900,
+              "default": 500
             }
           ],
           "openTypeFeatures": [
@@ -43689,9 +43758,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -43749,9 +43818,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -44111,9 +44180,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 400.0,
-              "max": 700.0,
-              "default": 400.0
+              "min": 400,
+              "max": 700,
+              "default": 400
             }
           ],
           "openTypeFeatures": [
@@ -44336,9 +44405,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 700.0,
-              "default": 300.0
+              "min": 300,
+              "max": 700,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -44427,9 +44496,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 300.0,
-              "max": 700.0,
-              "default": 300.0
+              "min": 300,
+              "max": 700,
+              "default": 300
             }
           ],
           "openTypeFeatures": [
@@ -44580,9 +44649,9 @@
             {
               "name": "Element Shape",
               "tag": "ELSH",
-              "min": 0.0,
-              "max": 100.0,
-              "default": 0.0
+              "min": 0,
+              "max": 100,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -44766,6 +44835,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_extralight",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-ExtraLight.woff2",
+          "originalUrl": "/fonts/BLOrchid-ExtraLight.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44775,16 +44853,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_extralight",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-ExtraLight.woff2",
-          "originalUrl": "/fonts/BLOrchid-ExtraLight.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-Light.woff2",
@@ -44800,6 +44869,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_light",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Light.woff2",
+          "originalUrl": "/fonts/BLOrchid-Light.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44809,16 +44887,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_light",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-Light.woff2",
-          "originalUrl": "/fonts/BLOrchid-Light.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-Book.woff2",
@@ -44834,6 +44903,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_book",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Book.woff2",
+          "originalUrl": "/fonts/BLOrchid-Book.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44843,16 +44921,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_book",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-Book.woff2",
-          "originalUrl": "/fonts/BLOrchid-Book.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-Regular.woff2",
@@ -44868,6 +44937,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_regular",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Regular.woff2",
+          "originalUrl": "/fonts/BLOrchid-Regular.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44877,16 +44955,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_regular",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-Regular.woff2",
-          "originalUrl": "/fonts/BLOrchid-Regular.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-Medium.woff2",
@@ -44902,6 +44971,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_medium",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Medium.woff2",
+          "originalUrl": "/fonts/BLOrchid-Medium.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44911,16 +44989,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_medium",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-Medium.woff2",
-          "originalUrl": "/fonts/BLOrchid-Medium.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-SemiBold.woff2",
@@ -44936,6 +45005,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_semibold",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-SemiBold.woff2",
+          "originalUrl": "/fonts/BLOrchid-SemiBold.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44945,16 +45023,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_semibold",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-SemiBold.woff2",
-          "originalUrl": "/fonts/BLOrchid-SemiBold.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         },
         {
           "filename": "BLOrchid-Bold.woff2",
@@ -44970,6 +45039,15 @@
             "Stylistic Set 1",
             "Stylistic Set 2"
           ],
+          "glyphCount": 379,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T12:30:00.000Z",
+          "id": "variant_family_bl_orchid_1794054600000_bold",
+          "familyId": "family_bl_orchid_1794054600000",
+          "url": "/fonts/BLOrchid-Bold.woff2",
+          "originalUrl": "/fonts/BLOrchid-Bold.woff2",
+          "format": "woff2",
+          "published": true,
           "openTypeFeatureTags": [
             {
               "tag": "ss01",
@@ -44979,16 +45057,7 @@
               "tag": "ss02",
               "title": "Flat serifs on b d h i j k l"
             }
-          ],
-          "glyphCount": 379,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T12:30:00.000Z",
-          "id": "variant_family_bl_orchid_1794054600000_bold",
-          "familyId": "family_bl_orchid_1794054600000",
-          "url": "/fonts/BLOrchid-Bold.woff2",
-          "originalUrl": "/fonts/BLOrchid-Bold.woff2",
-          "format": "woff2",
-          "published": true
+          ]
         }
       ],
       "npmMirror": false,
@@ -47501,7 +47570,1766 @@
       ],
       "npmMirror": false,
       "noSubset": true
+    },
+    {
+      "name": "Daubenton",
+      "collection": "Brutal",
+      "styleTags": [
+        "Old Face",
+        "Vintage",
+        "Sharp"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Olivier Dolbeau, Velvetyne Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/velvetyne/Daubenton",
+      "id": "family_daubenton_1794004080000",
+      "createdAt": "2026-11-06T22:28:00.000Z",
+      "updatedAt": "2026-11-06T22:28:00.000Z",
+      "publishedAt": "2012-04-01T00:00:00.000Z",
+      "description": "Daubenton is Olivier Dolbeau's revival of the letters engraved on the façade of the Grande Galerie de l'Évolution at the Natural History Museum in Paris, named after the museum's first director. A single style of capitals with sharp, small wedge serifs and a slightly Art Nouveau swing in the R, S and G, published by Velvetyne in 2012. Lowercase keys set the same capitals. For titles, signage and anything that wants to look carved in stone.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/velvetyne/Daubenton"
+      },
+      "variants": [
+        {
+          "filename": "Daubenton.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [],
+          "glyphCount": 162,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:00.000Z",
+          "id": "variant_family_daubenton_1794004080000_daubenton",
+          "familyId": "family_daubenton_1794004080000",
+          "url": "/fonts/Daubenton.woff2",
+          "originalUrl": "/fonts/Daubenton.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Daubenton.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Zinzin VF",
+      "collection": "Display",
+      "styleTags": [
+        "Old Face",
+        "Vintage",
+        "Curly"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Adam Twardoch, after Natanael Gama",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/twardoch/varfonts-ofl/tree/master/ZinzinVF-OFL",
+      "id": "family_zinzin_vf_1794004090000",
+      "createdAt": "2026-11-06T22:28:10.000Z",
+      "updatedAt": "2026-11-06T22:28:10.000Z",
+      "publishedAt": "2017-05-04T00:00:00.000Z",
+      "description": "Zinzin VF is Adam Twardoch's 2017 test font built on Natanael Gama's Cinzel, the Roman inscriptional capitals. It has one axis, Swash, and no outline interpolation at all: as the value rises it switches on 350 substitutions, so capitals turn into their swash forms and lowercase letters into larger capitals. It was made to test feature variations when only Chrome Canary could show them; every current browser does now. A curiosity, and a handsome set of classical capitals for titles.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/twardoch/varfonts-ofl/tree/master/ZinzinVF-OFL"
+      },
+      "variants": [
+        {
+          "filename": "ZinzinVF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Swash",
+              "tag": "SWSH",
+              "min": 0,
+              "max": 1000,
+              "default": 0
+            }
+          ],
+          "openTypeFeatures": [
+            "Swash",
+            "Kerning"
+          ],
+          "glyphCount": 701,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:10.000Z",
+          "id": "variant_family_zinzin_vf_1794004090000_zinzinvf",
+          "familyId": "family_zinzin_vf_1794004090000",
+          "url": "/fonts/ZinzinVF.woff2",
+          "originalUrl": "/fonts/ZinzinVF.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "npmMirror": false,
+      "noSubset": true
+    },
+    {
+      "name": "Amstelvar",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "David Berlow, Font Bureau",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/amstelvar-beta",
+      "id": "family_amstelvar_1794004100000",
+      "createdAt": "2026-11-06T22:28:20.000Z",
+      "updatedAt": "2026-11-06T22:28:20.000Z",
+      "publishedAt": "2017-03-27T00:00:00.000Z",
+      "description": "Amstelvar is David Berlow's showcase for parametric variable fonts, made at Font Bureau and Type Network with Google and first released as an alpha in 2017. Beyond weight, width, optical size and grade it exposes the parameters a type designer actually works with: stem and hairline thickness, counter width, and the heights of capitals, lowercase, ascenders and descenders, each on its own axis. The design draws on Dutch and Belgian types from the sixteenth century to the Times Roman of the 1930s. Greek by Irene Vlachou, Cyrillic by Ilya Ruderman.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/amstelvar-beta"
+      },
+      "variants": [
+        {
+          "filename": "Amstelvar-Roman.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "wght",
+              "tag": "wght",
+              "min": 100,
+              "max": 1000,
+              "default": 400
+            },
+            {
+              "name": "wdth",
+              "tag": "wdth",
+              "min": 50,
+              "max": 125,
+              "default": 100
+            },
+            {
+              "name": "opsz",
+              "tag": "opsz",
+              "min": 8,
+              "max": 144,
+              "default": 14
+            },
+            {
+              "name": "GRAD",
+              "tag": "GRAD",
+              "min": -300,
+              "max": 500,
+              "default": 0
+            },
+            {
+              "name": "XTRA",
+              "tag": "XTRA",
+              "min": 324,
+              "max": 640,
+              "default": 562
+            },
+            {
+              "name": "XOPQ",
+              "tag": "XOPQ",
+              "min": 18,
+              "max": 263,
+              "default": 176
+            },
+            {
+              "name": "YOPQ",
+              "tag": "YOPQ",
+              "min": 15,
+              "max": 132,
+              "default": 124
+            },
+            {
+              "name": "YTLC",
+              "tag": "YTLC",
+              "min": 420,
+              "max": 570,
+              "default": 500
+            },
+            {
+              "name": "YTUC",
+              "tag": "YTUC",
+              "min": 500,
+              "max": 1000,
+              "default": 750
+            },
+            {
+              "name": "YTAS",
+              "tag": "YTAS",
+              "min": 500,
+              "max": 983,
+              "default": 767
+            },
+            {
+              "name": "YTDE",
+              "tag": "YTDE",
+              "min": -500,
+              "max": -138,
+              "default": -240
+            },
+            {
+              "name": "YTFI",
+              "tag": "YTFI",
+              "min": 425,
+              "max": 1000,
+              "default": 760
+            }
+          ],
+          "openTypeFeatures": [
+            "Proportional Figures",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 962,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:20.000Z",
+          "id": "variant_family_amstelvar_1794004100000_amstelvar_roman",
+          "familyId": "family_amstelvar_1794004100000",
+          "url": "/fonts/Amstelvar-Roman.woff2",
+          "originalUrl": "/fonts/Amstelvar-Roman.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Amstelvar-Roman.woff2"
+        },
+        {
+          "filename": "Amstelvar-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "wght",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "wdth",
+              "tag": "wdth",
+              "min": 50,
+              "max": 125,
+              "default": 100
+            },
+            {
+              "name": "opsz",
+              "tag": "opsz",
+              "min": 8,
+              "max": 144,
+              "default": 14
+            },
+            {
+              "name": "GRAD",
+              "tag": "GRAD",
+              "min": -300,
+              "max": 500,
+              "default": 0
+            },
+            {
+              "name": "YOPQ",
+              "tag": "YOPQ",
+              "min": 18,
+              "max": 263,
+              "default": 54
+            },
+            {
+              "name": "YTLC",
+              "tag": "YTLC",
+              "min": 420,
+              "max": 570,
+              "default": 500
+            },
+            {
+              "name": "YTUC",
+              "tag": "YTUC",
+              "min": 500,
+              "max": 1000,
+              "default": 750
+            },
+            {
+              "name": "YTAS",
+              "tag": "YTAS",
+              "min": 500,
+              "max": 983,
+              "default": 767
+            },
+            {
+              "name": "YTDE",
+              "tag": "YTDE",
+              "min": -500,
+              "max": -138,
+              "default": -240
+            }
+          ],
+          "openTypeFeatures": [
+            "Proportional Figures",
+            "Tabular Figures",
+            "Kerning"
+          ],
+          "glyphCount": 945,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:20.000Z",
+          "id": "variant_family_amstelvar_1794004100000_amstelvar_italic",
+          "familyId": "family_amstelvar_1794004100000",
+          "url": "/fonts/Amstelvar-Italic.woff2",
+          "originalUrl": "/fonts/Amstelvar-Italic.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ]
+    },
+    {
+      "name": "Barlow",
+      "collection": "Text",
+      "styleTags": [
+        "Grotesque",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Jeremy Tribby, Tribby Type",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/jpt/barlow",
+      "id": "family_barlow_1794004110000",
+      "createdAt": "2026-11-06T22:28:30.000Z",
+      "updatedAt": "2026-11-06T22:28:30.000Z",
+      "publishedAt": "2017-10-26T00:00:00.000Z",
+      "description": "Barlow is Jeremy Tribby's slightly rounded, low contrast grotesk drawn from the public visual language of California: licence plates, highway signs, buses and trains. It is named after John Perry Barlow, a founder of the EFF. The full superfamily runs to 54 styles across three widths; this is the normal width, nine weights from Thin to Black, each with an italic. Plain enough for interfaces and long text, with just enough rounding at the corners to feel warm. Latin and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/jpt/barlow"
+      },
+      "variants": [
+        {
+          "filename": "Barlow-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_regular",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Regular.woff2",
+          "originalUrl": "/fonts/Barlow-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Barlow-Regular.woff2"
+        },
+        {
+          "filename": "Barlow-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_italic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Italic.woff2",
+          "originalUrl": "/fonts/Barlow-Italic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-Thin.ttf",
+          "weight": 100,
+          "styleName": "Thin",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_thin",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Thin.woff2",
+          "originalUrl": "/fonts/Barlow-Thin.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-ThinItalic.ttf",
+          "weight": 100,
+          "styleName": "Thin Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_thinitalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-ThinItalic.woff2",
+          "originalUrl": "/fonts/Barlow-ThinItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-ExtraLight.ttf",
+          "weight": 200,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_extralight",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-ExtraLight.woff2",
+          "originalUrl": "/fonts/Barlow-ExtraLight.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-ExtraLightItalic.ttf",
+          "weight": 200,
+          "styleName": "ExtraLight Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_extralightitalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-ExtraLightItalic.woff2",
+          "originalUrl": "/fonts/Barlow-ExtraLightItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_light",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Light.woff2",
+          "originalUrl": "/fonts/Barlow-Light.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-LightItalic.ttf",
+          "weight": 300,
+          "styleName": "Light Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_lightitalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-LightItalic.woff2",
+          "originalUrl": "/fonts/Barlow-LightItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-Medium.ttf",
+          "weight": 500,
+          "styleName": "Medium",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_medium",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Medium.woff2",
+          "originalUrl": "/fonts/Barlow-Medium.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-MediumItalic.ttf",
+          "weight": 500,
+          "styleName": "Medium Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_mediumitalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-MediumItalic.woff2",
+          "originalUrl": "/fonts/Barlow-MediumItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-SemiBold.ttf",
+          "weight": 600,
+          "styleName": "SemiBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_semibold",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-SemiBold.woff2",
+          "originalUrl": "/fonts/Barlow-SemiBold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-SemiBoldItalic.ttf",
+          "weight": 600,
+          "styleName": "SemiBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_semibolditalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-SemiBoldItalic.woff2",
+          "originalUrl": "/fonts/Barlow-SemiBoldItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_bold",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Bold.woff2",
+          "originalUrl": "/fonts/Barlow-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-BoldItalic.ttf",
+          "weight": 700,
+          "styleName": "Bold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_bolditalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-BoldItalic.woff2",
+          "originalUrl": "/fonts/Barlow-BoldItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-ExtraBold.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_extrabold",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-ExtraBold.woff2",
+          "originalUrl": "/fonts/Barlow-ExtraBold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-ExtraBoldItalic.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_extrabolditalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-ExtraBoldItalic.woff2",
+          "originalUrl": "/fonts/Barlow-ExtraBoldItalic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-Black.ttf",
+          "weight": 900,
+          "styleName": "Black",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_black",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-Black.woff2",
+          "originalUrl": "/fonts/Barlow-Black.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Barlow-BlackItalic.ttf",
+          "weight": 900,
+          "styleName": "Black Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Small Capitals",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 695,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:30.000Z",
+          "id": "variant_family_barlow_1794004110000_barlow_blackitalic",
+          "familyId": "family_barlow_1794004110000",
+          "url": "/fonts/Barlow-BlackItalic.woff2",
+          "originalUrl": "/fonts/Barlow-BlackItalic.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Minipax",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Raphaël Ronot, Velvetyne Type Foundry",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/ronotypo/Minipax",
+      "id": "family_minipax_1794004120000",
+      "createdAt": "2026-11-06T22:28:40.000Z",
+      "updatedAt": "2026-11-06T22:28:40.000Z",
+      "publishedAt": "2019-03-03T00:00:00.000Z",
+      "description": "Minipax is a serif by Raphaël Ronot, a product designer by day, published through Velvetyne. Its skeleton comes from the type of the edition of Orwell's 1984 Ronot read, printed in 1984, and its name is Newspeak for the novel's Ministry of Peace. It is a bookish text face with diagonal stress and small, tapering serifs, in four weights from Regular to Bold, with small caps, oldstyle figures and a generous supply of alternates: A, G, J, M, N and W, a and g, and two further sets of figures.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/ronotypo/Minipax"
+      },
+      "variants": [
+        {
+          "filename": "Minipax-Variable.ttf",
+          "weight": 100,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 600,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning"
+          ],
+          "glyphCount": 943,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:40.000Z",
+          "id": "variant_family_minipax_1794004120000_minipax_variable",
+          "familyId": "family_minipax_1794004120000",
+          "url": "/fonts/Minipax-Variable.woff2",
+          "originalUrl": "/fonts/Minipax-Variable.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Semi Bold",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 600,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate A G J M N W"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate figures"
+            },
+            {
+              "tag": "ss03",
+              "title": "Second alternate figures"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alternate a g"
+            }
+          ],
+          "previewUrl": "/fonts/preview/Minipax-Variable.woff2"
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Hepta Slab",
+      "collection": "Text",
+      "styleTags": [
+        "Slab"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Michael LaGattuta",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/mjlagattuta/Hepta-Slab",
+      "id": "family_hepta_slab_1794004130000",
+      "createdAt": "2026-11-06T22:28:50.000Z",
+      "updatedAt": "2026-11-06T22:28:50.000Z",
+      "publishedAt": "2018-09-19T00:00:00.000Z",
+      "description": "Hepta Slab is Mike LaGattuta's revival of the nineteenth century antiques of Bruce and Co., built mainly on their Antique No. 307. The weight axis runs from a near-invisible hairline at 1 to a heavy black at 900, with the extremes meant for headlines and the middle for reading. It comes with oldstyle and small cap figures, ligatures for Th, ct and st, and stylistic sets for alternate W, f and t, a and g, the figures 1, 2 and 7, and E and F.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/mjlagattuta/Hepta-Slab"
+      },
+      "variants": [
+        {
+          "filename": "HeptaSlab-VF.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 1,
+              "max": 900,
+              "default": 200
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 1327,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:50.000Z",
+          "id": "variant_family_hepta_slab_1794004130000_heptaslab_vf",
+          "familyId": "family_hepta_slab_1794004130000",
+          "url": "/fonts/HeptaSlab-VF.woff2",
+          "originalUrl": "/fonts/HeptaSlab-VF.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Hairline",
+              "weight": 1,
+              "isItalic": false
+            },
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate W f t"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate a g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alternate 1 2 7"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alternate E F"
+            }
+          ],
+          "previewUrl": "/fonts/preview/HeptaSlab-VF.woff2"
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Tilt Prism",
+      "collection": "Brutal",
+      "styleTags": [
+        "Stroked",
+        "Futura"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Andy Clymer",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/Tilt-Fonts",
+      "id": "family_tilt_prism_1794004190000",
+      "createdAt": "2026-11-06T22:29:50.000Z",
+      "updatedAt": "2026-11-06T22:29:50.000Z",
+      "publishedAt": "2022-12-01T00:00:00.000Z",
+      "description": "Tilt Prism is the cast-metal member of Andy Clymer's Tilt trio: the same sign painter's geometric skeleton, cut into faceted prismatic letters made of parallel outlines. It sets capitals with small capitals in place of a lowercase, the way dimensional shop signs were made. Two rotation axes swing the letters up to 45 degrees horizontally and vertically, so a word can look like it is mounted on a wall you are walking past. For signage, posters and anything that should catch the light.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/Tilt-Fonts"
+      },
+      "variants": [
+        {
+          "filename": "TiltPrism[XROT,YROT].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Rotation in X",
+              "tag": "XROT",
+              "min": -45.0,
+              "max": 45.0,
+              "default": 0.0
+            },
+            {
+              "name": "Rotation in Y",
+              "tag": "YROT",
+              "min": -45.0,
+              "max": 45.0,
+              "default": 0.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Discretionary Ligatures",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 654,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:29:50.000Z",
+          "id": "variant_family_tilt_prism_1794004190000_tiltprism_hrot_vrot",
+          "familyId": "family_tilt_prism_1794004190000",
+          "url": "/fonts/TiltPrism[XROT,YROT].woff2",
+          "originalUrl": "/fonts/TiltPrism[XROT,YROT].ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/TiltPrism[XROT,YROT].woff2"
+        }
+      ]
+    },
+    {
+      "name": "Tilt Warp",
+      "collection": "Brutal",
+      "styleTags": [
+        "Fatface",
+        "Futura"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Andy Clymer",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/Tilt-Fonts",
+      "id": "family_tilt_warp_1794004200000",
+      "createdAt": "2026-11-06T22:30:00.000Z",
+      "updatedAt": "2026-11-06T22:30:00.000Z",
+      "publishedAt": "2022-12-01T00:00:00.000Z",
+      "description": "Tilt Warp is the heaviest of Andy Clymer's Tilt families, a bold geometric sans that imitates vinyl lettering peeling off a shop window. Like its siblings it carries two rotation axes, up to 45 degrees in either direction, which bend the letters as if seen from an angle. Stylistic sets add a two-storey a, an asymmetric t, a simpler u and a set of enclosed arrows. Big, friendly and loud; best for headlines and storefront signs.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/Tilt-Fonts"
+      },
+      "variants": [
+        {
+          "filename": "TiltWarp[XROT,YROT].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Rotation in X",
+              "tag": "XROT",
+              "min": -45.0,
+              "max": 45.0,
+              "default": 0.0
+            },
+            {
+              "name": "Rotation in Y",
+              "tag": "YROT",
+              "min": -45.0,
+              "max": 45.0,
+              "default": 0.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Discretionary Ligatures",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 720,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:30:00.000Z",
+          "id": "variant_family_tilt_warp_1794004200000_tiltwarp_hrot_vrot",
+          "familyId": "family_tilt_warp_1794004200000",
+          "url": "/fonts/TiltWarp[XROT,YROT].woff2",
+          "originalUrl": "/fonts/TiltWarp[XROT,YROT].ttf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Double Storey a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Asymmetric t"
+            },
+            {
+              "tag": "ss03",
+              "title": "Simplified u"
+            },
+            {
+              "tag": "ss04",
+              "title": "Enclosed arrows"
+            }
+          ],
+          "previewUrl": "/fonts/preview/TiltWarp[XROT,YROT].woff2"
+        }
+      ]
+    },
+    {
+      "name": "Fraunces",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face",
+        "Vintage",
+        "Curly"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Phaedra Charles, Flavia Zimbardi, Undercase Type",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://fraunces.undercase.xyz/",
+      "id": "family_fraunces_1794004210000",
+      "createdAt": "2026-11-06T22:30:10.000Z",
+      "updatedAt": "2026-11-06T22:30:10.000Z",
+      "publishedAt": "2020-07-23T00:00:00.000Z",
+      "description": "Fraunces is a soft Old Style display serif by Phaedra Charles and Flavia Zimbardi of Undercase Type, commissioned by Google Fonts in 2018 and modelled on the friendly faces of the early twentieth century: Windsor most of all, with Souvenir and the Cooper series behind it. Four axes do the work. Optical size runs from 9 to 144, so the same family sets a caption and a masthead; Soft rounds every corner; Wonk tilts the h, n and m in the roman and gives the italic its bulbous flags, and switches itself off below 18 points where the quirks would only get in the way. One stylistic set swaps in calmer h, m, n, s and ampersand.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://fraunces.undercase.xyz/"
+      },
+      "variants": [
+        {
+          "filename": "Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical Size",
+              "tag": "opsz",
+              "min": 9,
+              "max": 144,
+              "default": 9
+            },
+            {
+              "name": "Softness",
+              "tag": "SOFT",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 900
+            },
+            {
+              "name": "Wonky",
+              "tag": "WONK",
+              "min": 0,
+              "max": 1,
+              "default": 1
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "glyphCount": 698,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:30:10.000Z",
+          "id": "variant_family_fraunces_1794004210000_fraunces_soft_wonk_opsz_wght",
+          "familyId": "family_fraunces_1794004210000",
+          "url": "/fonts/Fraunces[SOFT,WONK,opsz,wght].woff2",
+          "originalUrl": "/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate h m n s &"
+            }
+          ],
+          "previewUrl": "/fonts/preview/Fraunces[SOFT,WONK,opsz,wght].woff2"
+        },
+        {
+          "filename": "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical Size",
+              "tag": "opsz",
+              "min": 9,
+              "max": 144,
+              "default": 9
+            },
+            {
+              "name": "Softness",
+              "tag": "SOFT",
+              "min": 0,
+              "max": 100,
+              "default": 0
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 900
+            },
+            {
+              "name": "Wonky",
+              "tag": "WONK",
+              "min": 0,
+              "max": 1,
+              "default": 1
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Stylistic Set 1",
+            "Kerning"
+          ],
+          "glyphCount": 698,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:30:10.000Z",
+          "id": "variant_family_fraunces_1794004210000_fraunces_italic_soft_wonk_opsz_wght",
+          "familyId": "family_fraunces_1794004210000",
+          "url": "/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2",
+          "originalUrl": "/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate h m n s &"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mixal",
+      "collection": "Display",
+      "styleTags": [
+        "Stencil",
+        "Modular",
+        "Narrow"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Adrien Midzic, Ne-Po",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "/fonts/MixalGX.ttf",
+      "id": "family_mixal_1794004230000",
+      "createdAt": "2026-11-06T22:30:30.000Z",
+      "updatedAt": "2026-11-06T22:30:30.000Z",
+      "publishedAt": "2017-01-01T00:00:00.000Z",
+      "description": "Mixal is Adrien Midzic's all-caps stencil sans, which Luc Devroye calls a piano key typeface: every letter is built from tall bars and the gaps between them. It began as a single weight for a photography exhibition and grew into a variable font of eleven styles, from a hairline so condensed the letters turn into barcodes to a Heavy where the bars swell into black blocks. The counters keep their size across the axis, so the weight changes the black and leaves the white alone. The designer's site is gone, so the download here is the original file from the 2017 release, under the Open Font License. Latin only.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://web.archive.org/web/20240807181520/http://adrienmidzic.fr/en/projects/mixal-font-family"
+      },
+      "variants": [
+        {
+          "filename": "MixalGX.ttf",
+          "weight": 178,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100.0,
+              "max": 900.0,
+              "default": 100.0
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Localized Forms",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 355,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:30:30.000Z",
+          "id": "variant_family_mixal_1794004230000_mixalgx",
+          "familyId": "family_mixal_1794004230000",
+          "url": "/fonts/MixalGX.woff2",
+          "originalUrl": "/fonts/MixalGX.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Hair",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 111,
+              "isItalic": false
+            },
+            {
+              "name": "UltraLight",
+              "weight": 133,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 156,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 178,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 224,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 256,
+              "isItalic": false
+            },
+            {
+              "name": "UltraBold",
+              "weight": 411,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 522,
+              "isItalic": false
+            },
+            {
+              "name": "Heavy",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/MixalGX.woff2"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-06T22:42:33.581259Z"
+  "lastUpdated": "2026-11-09T11:04:10.621804Z"
 }

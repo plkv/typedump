@@ -97,7 +97,7 @@ function getPresetContent(preset: TextPreset, fontName: string): string {
 // about type on purpose: a sample nobody wants to read teaches nothing about
 // whether a face is readable.
 const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
-  { size: 56, text: 'A face earns its keep at the size you actually set it.' },
+  { size: 64, text: 'A face earns its keep at the size you actually set it.' },
   { size: 36, text: 'Set the same sentence twice, once large and once small. The small setting is the one that tells you whether a typeface will hold up.' },
   { size: 28, text: 'Counters close, joints thicken, and the gaps between letters start doing more work than the letters. What looked confident in a headline can turn muddy three sizes down.' },
   { size: 24, text: 'Most of the type anyone meets in a day sits between 16 and 24 pixels: the body of an article, a form label, the terms nobody reads. A face that survives down there is worth more than one that only photographs well at 200.' },
@@ -645,7 +645,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
       )}
 
       {/* ── Footer ── */}
-      <footer style={{ padding: '16px 24px' }}>
+      <footer className="font-detail-footer">
         <span style={{ fontFamily: 'var(--font-ui)', fontSize: 13, fontWeight: 500, color: 'var(--gray-cont-tert)' }}>
           © 2026 TypeDump. Built and curated by{' '}
           <a href="https://plkv.works/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gray-cont-prim)' }}>Stas Polyakov</a>

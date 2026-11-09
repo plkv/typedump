@@ -668,6 +668,14 @@
   }
 }
 
+/* The footer sits in the menu's column, the same width as .navbar-container. */
+.font-detail-footer {
+  width: calc(100% - 32px);
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
 /* Text links on the font page (the facts and the footer) answer the pointer
    by fading. The menu and the buttons keep hovers of their own. */
 .info-row a,

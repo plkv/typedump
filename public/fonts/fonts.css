@@ -997,10 +997,10 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Midgame-a21e26__v_d45f87";src:url("/fonts/preview/Midgame Std.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Azimut-75d396";src:url("/fonts/preview/Azimut-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Azimut-75d396__v_50d79d";src:url("/fonts/preview/Azimut-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Azimut-75d396";src:url("/fonts/Azimut-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
-@font-face{font-family:"Azimut-75d396__v_d52622";src:url("/fonts/Azimut-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
-@font-face{font-family:"Azimut-75d396";src:url("/fonts/Azimut-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Azimut-75d396__v_c3d958";src:url("/fonts/Azimut-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Azimut Italic-443890";src:url("/fonts/preview/Azimut-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Azimut Italic-443890__v_d52622";src:url("/fonts/preview/Azimut-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Azimut Bold-3910c9";src:url("/fonts/preview/Azimut-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Azimut Bold-3910c9__v_c3d958";src:url("/fonts/preview/Azimut-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"RRR Climax-18d18e";src:url("/fonts/preview/RRRClimaxVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"RRR Climax-18d18e__v_ec23f3";src:url("/fonts/preview/RRRClimaxVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Runefa-9291a9";src:url("/fonts/preview/Runefa.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -1381,3 +1381,61 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Bouuuuuh Carnage-4c7899__v_b38505";src:url("/fonts/Bouuuuuh-Carnage.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Bouuuuuh Villain-46e04f";src:url("/fonts/Bouuuuuh-Villain.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Bouuuuuh Villain-46e04f__v_eab708";src:url("/fonts/Bouuuuuh-Villain.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Daubenton-98b686";src:url("/fonts/preview/Daubenton.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Daubenton-98b686__v_a4e20d";src:url("/fonts/preview/Daubenton.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Zinzin VF-4c8147";src:url("/fonts/ZinzinVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Zinzin VF-4c8147__v_b750d2";src:url("/fonts/ZinzinVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Amstelvar-6f6135";src:url("/fonts/preview/Amstelvar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Amstelvar-6f6135__v_de9f65";src:url("/fonts/preview/Amstelvar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Amstelvar-6f6135";src:url("/fonts/Amstelvar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Amstelvar-6f6135__v_f42cee";src:url("/fonts/Amstelvar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/preview/Barlow-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_7f7408";src:url("/fonts/preview/Barlow-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_ef6d3e";src:url("/fonts/Barlow-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Thin.woff2") format("woff2");font-weight:100;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_ccc5fc";src:url("/fonts/Barlow-Thin.woff2") format("woff2");font-weight:100;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ThinItalic.woff2") format("woff2");font-weight:100;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_16bf6a";src:url("/fonts/Barlow-ThinItalic.woff2") format("woff2");font-weight:100;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_38c785";src:url("/fonts/Barlow-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraLightItalic.woff2") format("woff2");font-weight:200;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_a36735";src:url("/fonts/Barlow-ExtraLightItalic.woff2") format("woff2");font-weight:200;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_7c24ce";src:url("/fonts/Barlow-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_1525b5";src:url("/fonts/Barlow-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_6468cb";src:url("/fonts/Barlow-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_198845";src:url("/fonts/Barlow-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_c93a68";src:url("/fonts/Barlow-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-SemiBoldItalic.woff2") format("woff2");font-weight:600;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_cfcd73";src:url("/fonts/Barlow-SemiBoldItalic.woff2") format("woff2");font-weight:600;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_d42047";src:url("/fonts/Barlow-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_03f8d4";src:url("/fonts/Barlow-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_c16fd9";src:url("/fonts/Barlow-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraBoldItalic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_7c2c7d";src:url("/fonts/Barlow-ExtraBoldItalic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_2af996";src:url("/fonts/Barlow-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-BlackItalic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Barlow-762c36__v_ac23fb";src:url("/fonts/Barlow-BlackItalic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Minipax-a2ac30";src:url("/fonts/preview/Minipax-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Minipax-a2ac30__v_9bdb82";src:url("/fonts/preview/Minipax-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Hepta Slab-45ee77";src:url("/fonts/preview/HeptaSlab-VF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Hepta Slab-45ee77__v_882489";src:url("/fonts/preview/HeptaSlab-VF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tilt Prism-feb444";src:url("/fonts/preview/TiltPrism[XROT,YROT].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tilt Prism-feb444__v_52d488";src:url("/fonts/preview/TiltPrism[XROT,YROT].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tilt Warp-5acef2";src:url("/fonts/preview/TiltWarp[XROT,YROT].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Tilt Warp-5acef2__v_e48b2c";src:url("/fonts/preview/TiltWarp[XROT,YROT].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Fraunces-a242fb";src:url("/fonts/preview/Fraunces[SOFT,WONK,opsz,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Fraunces-a242fb__v_bbb809";src:url("/fonts/preview/Fraunces[SOFT,WONK,opsz,wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Fraunces-a242fb";src:url("/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Fraunces-a242fb__v_da915f";src:url("/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Mixal-046e9b";src:url("/fonts/preview/MixalGX.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Mixal-046e9b__v_893cf5";src:url("/fonts/preview/MixalGX.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
