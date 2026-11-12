@@ -1,7 +1,56 @@
 {
-  "generatedAt": "2026-11-12T12:35:52.474Z",
-  "count": 143,
+  "generatedAt": "2026-11-12T12:47:43.147Z",
+  "count": 205,
   "fonts": [
+    {
+      "name": "Altera",
+      "url": "https://pangrampangram.com/products/altera",
+      "date": "2026-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/95d7ead113a7d03b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/efd2c8e7240a3bd7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c23dbd3d6de8fb1f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f74afaaa4d7454e5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a15f7df5df873796.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d588abbb49bcfaa.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4ec624c40d43dcf5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/33b810efcebbff8e.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
     {
       "name": "ABC Areal",
       "url": "https://abcdinamo.com/typefaces/areal",
@@ -62,6 +111,55 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Neue Gstaad",
+      "url": "https://pangrampangram.com/products/neue-gstaad",
+      "date": "2026-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/1653925becacacbe.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/22f0525b4357a2c8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/add91e4a8a15d064.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/46df21f85ca93916.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6ed334ad0a1473ff.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e041a8bc431f78a1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bc41ce1f41937e3e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cfe23bc5488e50d0.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "GT Mechanik",
       "url": "https://www.grillitype.com/typeface/gt-mechanik",
       "date": "2026-04-09",
@@ -79,6 +177,237 @@
       ],
       "foundry": "Grilli Type",
       "foundryUrl": "https://www.grillitype.com"
+    },
+    {
+      "name": "Neue York",
+      "url": "https://pangrampangram.com/products/neue-york",
+      "date": "2026-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/6addf411e0ffbe59.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f6a25f6cfa89c4af.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/358c236246fedc06.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ae39a4e2fd772af7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/76d2dca6023fee8a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ca5356ff081036f7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cadea9defec0f47f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ede01a83960f3f34.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/db75ddce3fa107a3.webp",
+          "width": 1080,
+          "height": 608
+        },
+        {
+          "src": "/foundry-images/c965c4430abd89aa.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Valve",
+      "url": "https://pangrampangram.com/products/valve",
+      "date": "2026-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/6ed1d252ac3091ed.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2766a3c973b87c52.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8fc992e81394e92b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ec27c63fdb409c82.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c51db264dd89254b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/45f38e6c325fb5f9.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Neue Montreal",
+      "url": "https://pangrampangram.com/products/neue-montreal",
+      "date": "2026-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/ed491dc4ff64cc77.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c63f5fcc6439be6d.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3480506c8a033524.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9ec4f04e9096f8e0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9faa5d4c47d258a6.webp",
+          "width": 509,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b7d0734dda805194.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f4f30b68e42eeff2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ef80a72a8950020c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0e75cdd79a083680.webp",
+          "width": 518,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/84e4f075c6eb913e.webp",
+          "width": 829,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bfea7208578dfd85.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c6d961f3b78cd0f8.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ea6f1319f2b3100b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d924b24c81c6e380.webp",
+          "width": 929,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Palma",
+      "url": "https://pangrampangram.com/products/palma",
+      "date": "2026-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/753352ea03bc3d80.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e9505c3fc583fb70.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9101e6cfe8921394.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fcb7929965f0de84.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0b4a2b9bebdd95fc.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ec3b12a0e914306e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fbee234283e0cf33.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/92d8d693b4ee9a24.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8e8161f4ed310849.webp",
+          "width": 924,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "ABC Schengen",
@@ -357,6 +686,90 @@
       "foundryUrl": "https://www.grillitype.com"
     },
     {
+      "name": "Mori",
+      "url": "https://pangrampangram.com/products/mori",
+      "date": "2026-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/1549b85c5f50b482.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0534e0aaac95df94.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f25c34dcc0fc76d2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/66dc859652529fad.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/54c600664529de8c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2a640552729d3897.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3e5bf9f3276ba212.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/023225c6cefd5e53.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/790e2f615ce72dfe.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10012a078a0a321c.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a7aea3b6ea5d1e60.webp",
+          "width": 893,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57cb6a1edbfce92f.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/631dddee0793e876.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d97204899ee75d86.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a787418c9880c627.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Fonema",
       "url": "https://brownfox.org/fonts/fonema",
       "date": "2025-12-08",
@@ -435,6 +848,109 @@
       "foundryUrl": "https://ohnotype.co"
     },
     {
+      "name": "Frama",
+      "url": "https://pangrampangram.com/products/frama",
+      "date": "2025-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/943c7294d0663c89.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cc68cf46e4d9fdc8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fe64fa68afe123bd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bda5f1fbc8fe46f9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3f4433757ea4d340.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e6174c3fd5dbb25f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9afad4eacb8f821.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aa38b362a480ddaa.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e050ac198d64794d.webp",
+          "width": 1003,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Neue Corp",
+      "url": "https://pangrampangram.com/products/neue-corp",
+      "date": "2025-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/26c85480d418550d.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/85fc0fc0015699f7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/302a64ecfa30796c.webp",
+          "width": 388,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/52da79bcbc986f8e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2c8aeb84c243df51.webp",
+          "width": 427,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0a93d942de3937a6.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bc41339934a48593.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/606434e4ca057a49.webp",
+          "width": 461,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "GT Era",
       "url": "https://www.grillitype.com/typeface/gt-era",
       "date": "2025-09-11",
@@ -498,6 +1014,60 @@
       "foundryUrl": "https://brownfox.org"
     },
     {
+      "name": "Right Serif Mono",
+      "url": "https://pangrampangram.com/products/right-serif-mono",
+      "date": "2025-07-01",
+      "images": [
+        {
+          "src": "/foundry-images/168ba8a0359b3051.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/78464400c9b09860.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/94b695909b5daea9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6c5d25b352da53ea.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1c25d8b72c49658f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2748ee800780cbd3.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/945f5022c64b5b91.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a45aed6519925dde.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/447a5c9e45b20c34.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Honeymoon",
       "url": "https://abcdinamo.com/typefaces/honeymoon",
       "date": "2025-06-10",
@@ -510,6 +1080,144 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Acma",
+      "url": "https://pangrampangram.com/products/acma",
+      "date": "2025-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/86af03b8dccf8731.webp",
+          "width": 590,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6ebd39f82d0dc562.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/daf4f8777679b806.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b164ed32fe3082ee.webp",
+          "width": 595,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1aa6826432f64886.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ddc0d4eb41dbff57.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8a5c52094bad046a.webp",
+          "width": 580,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/de1305d99c820673.webp",
+          "width": 628,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/adbf350db4cd872a.webp",
+          "width": 929,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/109ff9a5350e5132.webp",
+          "width": 866,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/358abcc285c80cb3.webp",
+          "width": 962,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10971ace2439907a.webp",
+          "width": 853,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Monument",
+      "url": "https://pangrampangram.com/products/monument",
+      "date": "2025-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/0c552a599e714310.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/537a11b27a0ca644.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d28abb6a723ae142.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6cb1e1226076e84b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/54a373baf85379fd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1cb067a7c4116849.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7983e55edb64a60a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/060d9b7188f11cff.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b10f6637700100d4.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7a58bb4a9277d0d3.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ef4300c4548c2dc7.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0789f698aa7b2c19.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Only",
@@ -664,6 +1372,70 @@
       "foundryUrl": "https://www.grillitype.com"
     },
     {
+      "name": "Kyoto",
+      "url": "https://pangrampangram.com/products/kyoto",
+      "date": "2025-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/342ce89a6e371b4d.webp",
+          "width": 590,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b919fc562ca4c076.webp",
+          "width": 547,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/74a4e26f7d90f76d.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7ff4366a77e2748b.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ec0100914bdab67a.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a63e85082b4a690a.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fad19eb75ab0627a.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a7d388e0a351a50d.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/96bea91ce9a1a59b.webp",
+          "width": 524,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b8875fb48afc4940.webp",
+          "width": 964,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/85647dbec4b85983.webp",
+          "width": 836,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Stefan",
       "url": "https://abcdinamo.com/typefaces/stefan-marx",
       "date": "2025-04-25",
@@ -753,6 +1525,124 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Watch",
+      "url": "https://pangrampangram.com/products/watch",
+      "date": "2025-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/21382305ae88e9d3.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1e835dc54678680e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5d17f4c4d37f6ea8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bf6a6e270db59657.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cdfc39626be888d1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/de4868f119b9b782.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fd1dd7d27cedc544.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/86c07c284d26b24b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8c44008efa038945.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d4311514edb4f42f.webp",
+          "width": 1200,
+          "height": 518
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Museum",
+      "url": "https://pangrampangram.com/products/museum",
+      "date": "2025-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/5656363f285069b3.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d8c25f63e2dd3ec3.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2027cc2e750c4a92.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/80b7459b603919c6.webp",
+          "width": 529,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/15bbc620c91cab88.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c7bf1077e8a362de.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5e9af45d52c8a8ee.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c5ec0b02880f9151.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/76582a3d00921b8a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6deefde60882d580.webp",
+          "width": 918,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Solar",
       "url": "https://abcdinamo.com/typefaces/solar",
       "date": "2025-01-07",
@@ -810,6 +1700,114 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Model",
+      "url": "https://pangrampangram.com/products/model",
+      "date": "2024-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/8dbc5752fc937748.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/605b58479febb410.webp",
+          "width": 477,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/870ae4a73a5bfe79.webp",
+          "width": 477,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f2a767665b9ae938.webp",
+          "width": 477,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bcf9104dc3eb5514.webp",
+          "width": 477,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3cc8b5d1fc29881e.webp",
+          "width": 477,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3337b8a0b8172158.webp",
+          "width": 477,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Lettra Mono",
+      "url": "https://pangrampangram.com/products/lettra-mono",
+      "date": "2024-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/942abaf92aa27656.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5a5bfec55d42429e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/74f0d914bb50033d.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0bdf662169b2db06.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8400731779979127.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1c5aa26f4e27f76b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1c678ca6343ceada.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cdb4fbd8ed2ada78.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cf339d637b72bba0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d476ffd2a07fcb40.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/adbf350db4cd872a.webp",
+          "width": 929,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "ABC Otto",
@@ -1127,6 +2125,60 @@
       "foundryUrl": "https://ohnotype.co"
     },
     {
+      "name": "Gatwick",
+      "url": "https://pangrampangram.com/products/gatwick",
+      "date": "2024-08-01",
+      "images": [
+        {
+          "src": "/foundry-images/35bc00dc74646056.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/413825b68452d064.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/21c7b92ab2a500f6.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95128f4afcb574e9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4a4cb1404194898d.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/985a2d9d6fcc87de.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/84c17cdff02619fa.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fc9d3207a077b5cf.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c4e6e71422766543.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Booklet Sans",
       "url": "https://brownfox.org/fonts/booklet",
       "date": "2024-07-31",
@@ -1235,6 +2287,50 @@
       "foundryUrl": "https://brownfox.org"
     },
     {
+      "name": "Editorial Sans",
+      "url": "https://pangrampangram.com/products/editorial-sans",
+      "date": "2024-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/80e41308b63e9f6c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5a4a1dfe5e4f4022.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/eb0f7e44448748e5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/28af1ccff8b5a6a0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b4a24793940f30ca.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a04a40f4e180cd57.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9275faf07614891e.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Polymath",
       "url": "https://ohnotype.co/fonts/polymath",
       "date": "2024-04-16",
@@ -1336,6 +2432,70 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Playground",
+      "url": "https://pangrampangram.com/products/playground",
+      "date": "2024-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/cfe476d959385efd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/577044bd6608f47a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e03f79140df4ad05.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/83a28ef5d893ea73.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c4f247ecc989bde5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cf5c8aa47fbdb6ad.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d3effb05a0597e6a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8fffdc14fbcc86fd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8e8161f4ed310849.webp",
+          "width": 924,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/adbf350db4cd872a.webp",
+          "width": 929,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/63bb746614dfe402.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Yumex",
@@ -1441,6 +2601,65 @@
       "foundryUrl": "https://ohnotype.co"
     },
     {
+      "name": "Nikkei",
+      "url": "https://pangrampangram.com/products/nikkei",
+      "date": "2024-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/5a1551d91a32e87d.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f6088b7e479c77ff.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0ed98a2c0f0aaa13.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/664be0808c8383c1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3f2aa98b86a65e80.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/20cbbf658d86890e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cb8d6449dcc9f0af.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dd96fe6c0c9f6f22.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c144f3ce79a0add.webp",
+          "width": 866,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1ee6cb6fabccf31b.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Ginto Rounded",
       "url": "https://abcdinamo.com/typefaces/ginto-rounded",
       "date": "2024-02-06",
@@ -1530,6 +2749,109 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Talisman",
+      "url": "https://pangrampangram.com/products/talisman",
+      "date": "2024-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/8154f7a6d391ec47.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1651c988e88b216d.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f2beeb9d5f316ca2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d7b872c1721fde91.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/698d0e7f63750cbe.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/135269d4b6bb1345.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/daffb1e78b53e973.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6804d7eebe544e13.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Right Grotesk Mono",
+      "url": "https://pangrampangram.com/products/right-grotesk-mono",
+      "date": "2023-12-01",
+      "images": [
+        {
+          "src": "/foundry-images/83daec51ec1af26d.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/286e96faa3052736.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f62f355919626382.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/40d66c6e8a136b30.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57af98aa6baf9beb.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c35fba1788c0418c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dfb1b58287061654.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a3e8b22c6048ea20.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0b144d42c89239dd.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Connect",
       "url": "https://abcdinamo.com/typefaces/connect",
       "date": "2023-10-23",
@@ -1572,6 +2894,139 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Pangaia",
+      "url": "https://pangrampangram.com/products/pangaia",
+      "date": "2023-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/2974649ea3bcc991.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0b2f4cf6ea354aa0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9c39d3bf3ff698ea.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e6bda2ff55214ae2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/418e85fd84d194e8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/28cb09faf6ec785e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e00e90b27530e1b0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9bc13ead9b9c951.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9accb1c05b0cc48a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/66aab451fbb19c7e.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e5633002018aaa6b.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fa9f55e6ef99a6df.webp",
+          "width": 912,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Neue Montreal Mono",
+      "url": "https://pangrampangram.com/products/neue-montreal-mono",
+      "date": "2023-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/011edfc6d7729da9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/457360a7e1bd7d26.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b43bca91ee58afcc.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e6c66c90509f8ead.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a6d60b7e6185e061.webp",
+          "width": 454,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/922c86cc651ef96f.webp",
+          "width": 488,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c49d79a2097d1cdd.webp",
+          "width": 467,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/70d270d10951103f.webp",
+          "width": 488,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0756568ccfaf78ed.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f613c2ac9f5c01c9.webp",
+          "width": 546,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/78acae04c9ac7161.webp",
+          "width": 1193,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "ABC Diatype Rounded",
@@ -1663,6 +3118,70 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Hatton",
+      "url": "https://pangrampangram.com/products/hatton",
+      "date": "2023-08-01",
+      "images": [
+        {
+          "src": "/foundry-images/b8b47dc37a1e4990.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b413c1b8bfee5b8f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8f3c26b8e405f26b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/186f938d065d5d7f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57448c65c98c5d3e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/06d0921efc6dde2a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6376b42dedaacc41.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6b5ca474e1cd6fa5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3ae98575286f64d1.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57601d03a5502390.webp",
+          "width": 1151,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8140baf18415384d.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Gaisyr",
       "url": "https://abcdinamo.com/typefaces/gaisyr",
       "date": "2023-07-04",
@@ -1752,6 +3271,50 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Air",
+      "url": "https://pangrampangram.com/products/air",
+      "date": "2023-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/5e917d045aa7853b.webp",
+          "width": 500,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aa17528954f2795c.webp",
+          "width": 416,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dcf7c5996169e3c0.webp",
+          "width": 469,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8037ebdf976ec9b5.webp",
+          "width": 469,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6bfdab32553316eb.webp",
+          "width": 457,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/318ac433dd7220fb.webp",
+          "width": 437,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a31350373e32f96d.webp",
+          "width": 500,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Regrets",
       "url": "https://ohnotype.co/fonts/regrets",
       "date": "2023-04-03",
@@ -1779,6 +3342,129 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Fragment",
+      "url": "https://pangrampangram.com/products/fragment",
+      "date": "2023-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/cbd229ef967feaee.webp",
+          "width": 464,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3278b23cdcb63480.webp",
+          "width": 490,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c8874fc3189778b0.webp",
+          "width": 423,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d4a7348bf1bb26a4.webp",
+          "width": 481,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d27331ab94fb0f1b.webp",
+          "width": 555,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/952b1da64252f08e.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4275e2d48ddcabba.webp",
+          "width": 447,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/80de3c77643088f1.webp",
+          "width": 1034,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/54c7d8e79e3ca514.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/18803f4b948a909b.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f6e6c09e1044f301.webp",
+          "width": 896,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/45cb6a97a4c4447a.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Editorial Old",
+      "url": "https://pangrampangram.com/products/editorial-old",
+      "date": "2023-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/c22d882d6f1dc3df.webp",
+          "width": 382,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/76f7e60dcede1e54.webp",
+          "width": 454,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/60798f92897a8b45.webp",
+          "width": 333,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/423568f11a36c0ee.webp",
+          "width": 402,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b059e38848bffdfa.webp",
+          "width": 465,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d2517a2809ea29fb.webp",
+          "width": 454,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6f1a864ad37d5e50.webp",
+          "width": 1043,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6dbf6fbddfd6d523.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6deefde60882d580.webp",
+          "width": 918,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Dear Sir Madam",
@@ -1893,6 +3579,197 @@
       "foundryUrl": "https://brownfox.org"
     },
     {
+      "name": "Telegraf",
+      "url": "https://pangrampangram.com/products/telegraf",
+      "date": "2023-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/8ca288fe48902324.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95de73cdb576378e.webp",
+          "width": 487,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b77180d7d7bc149b.webp",
+          "width": 425,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ee0477de4c32fd3e.webp",
+          "width": 554,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2eac06da8fac93a.webp",
+          "width": 552,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/941d0267afa3f9b8.webp",
+          "width": 519,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57f4603aa1a6c316.webp",
+          "width": 672,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8ab393d92e6176e2.webp",
+          "width": 554,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cee28b2d17a5d2e3.webp",
+          "width": 1097,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1e2daaf65b7b9cb7.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2b3608405c460c8.webp",
+          "width": 495,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6c4a62160361a7bf.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/49834fa2639a7501.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Right Didone",
+      "url": "https://pangrampangram.com/products/right-didone",
+      "date": "2022-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/c06dd926c83a3afe.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95a746f46f58f5b6.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/928fb9a64d6b1e29.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fa0dea0a0ed7a7bc.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c5ae908d8cda4a5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/78acae04c9ac7161.webp",
+          "width": 1193,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Right Serif",
+      "url": "https://pangrampangram.com/products/right-serif",
+      "date": "2022-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/2875ce03409e7e25.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ccf61b6fb7b36597.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e0e117a6fd383d95.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/83f0e466ad280d92.webp",
+          "width": 1171,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1c4544d1fe5b7f9b.webp",
+          "width": 1108,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Right Slab",
+      "url": "https://pangrampangram.com/products/right-slab",
+      "date": "2022-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/e013914771f55161.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a879581e118587d9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9e1ef0283f41ec12.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a0b963835ac3a4db.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7fd506a3438c3443.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/44bcd898451ef699.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0c98a4ae75a15644.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "GT Pressura",
       "url": "https://www.grillitype.com/typeface/gt-pressura",
       "date": "2022-09-12",
@@ -1980,6 +3857,60 @@
       ],
       "foundry": "Grilli Type",
       "foundryUrl": "https://www.grillitype.com"
+    },
+    {
+      "name": "Writer",
+      "url": "https://pangrampangram.com/products/writer",
+      "date": "2022-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/07ae7df9c11c6805.webp",
+          "width": 479,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/73c1d0fbfe9ee189.webp",
+          "width": 450,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/211124412469f307.webp",
+          "width": 509,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/09819fe93c7ee4df.webp",
+          "width": 450,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6aa7a644ef37f5c7.webp",
+          "width": 497,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fef7def5c29f4405.webp",
+          "width": 521,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6ecaf5cb71905bec.webp",
+          "width": 496,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/472892a4bfd03101.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1025832f9d1d46de.webp",
+          "width": 809,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Ohno Casual",
@@ -2251,6 +4182,163 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Neue World",
+      "url": "https://pangrampangram.com/products/neue-world",
+      "date": "2022-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/f9cb54f925d546a0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ee545c9ebd80b02b.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/06b8bca0f54dcfd2.webp",
+          "width": 475,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4ba2cec32f8ab720.webp",
+          "width": 385,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7adbc4d7fb3558b1.webp",
+          "width": 716,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e3626cdd0261f89f.webp",
+          "width": 523,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dae6bb1b886386f0.webp",
+          "width": 496,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5285f16ebdbd7536.webp",
+          "width": 1059,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5e8a4c5a6335f06f.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c1c962dd1ba5082.webp",
+          "width": 996,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/19956a524745cdfa.webp",
+          "width": 725,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Neue Machina",
+      "url": "https://pangrampangram.com/products/neue-machina-collection",
+      "date": "2022-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/12c0bb2bfef9ecbe.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5486551eeb46f352.webp",
+          "width": 493,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/da61c9284301658e.webp",
+          "width": 572,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3ac4bdf0abb2c672.webp",
+          "width": 493,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/985b7ac9889a74f0.webp",
+          "width": 572,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Radio Grotesk",
+      "url": "https://pangrampangram.com/products/radio-grotesk",
+      "date": "2022-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/bb1fa62066b0e9cb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/40b16966460336f5.webp",
+          "width": 407,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/35a6b5b801adfa0e.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad11e1e1b6aec4ec.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/034a6563005fd61a.webp",
+          "width": 431,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a2a20e8bb51250b8.webp",
+          "width": 491,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/85c1916e1fa42d49.webp",
+          "width": 447,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/76270056d1571ab4.webp",
+          "width": 447,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/18e714c254b02530.webp",
+          "width": 407,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/78acae04c9ac7161.webp",
+          "width": 1193,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "ABC Grow",
@@ -2762,6 +4850,119 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Right Sans",
+      "url": "https://pangrampangram.com/products/right-sans",
+      "date": "2022-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/b7ebc3195bbfabed.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57bd8e12d5b5f1ac.webp",
+          "width": 411,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c63bb49f4376184d.webp",
+          "width": 420,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/37cf98be2e8781d2.webp",
+          "width": 437,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b30a73ce8687445c.webp",
+          "width": 411,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/963959c42637d8c8.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/73642a67c5a2000a.webp",
+          "width": 403,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4817e02ddb3ab3a8.webp",
+          "width": 435,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Formula",
+      "url": "https://pangrampangram.com/products/formula",
+      "date": "2022-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/c7553623b0f51129.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/37e212ea74e9da2b.webp",
+          "width": 857,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/54047e35913c3f5f.webp",
+          "width": 371,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4f0f32f60ded0eca.webp",
+          "width": 453,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/62a6bc4b96e5ea7b.webp",
+          "width": 688,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/74baa30fcdf95385.webp",
+          "width": 449,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0c9fee794787d57e.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a3b1a1c6304978f2.webp",
+          "width": 929,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e488d00f1b7bebaa.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e2b9241b4e85c90c.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aa78535918a8cb9d.webp",
+          "width": 1049,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Camera",
       "url": "https://abcdinamo.com/typefaces/camera",
       "date": "2022-01-14",
@@ -2940,6 +5141,65 @@
       "foundryUrl": "https://brownfox.org"
     },
     {
+      "name": "Rader",
+      "url": "https://pangrampangram.com/products/rader",
+      "date": "2022-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/a599012810c43d64.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/62aa0788be0284e5.webp",
+          "width": 381,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/af1c0e5323ba6f1d.webp",
+          "width": 423,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/93939729de004cfb.webp",
+          "width": 418,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fc1bf926caec4d8d.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c1c12f3bb6cb2ff.webp",
+          "width": 385,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a45d621a35f59bba.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cc4a83948920c6df.webp",
+          "width": 455,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0775c869bb5ca736.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad026892d71286dc.webp",
+          "width": 1058,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Retail",
       "url": "https://ohnotype.co/fonts/retail",
       "date": "2021-11-25",
@@ -2967,6 +5227,65 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Supply",
+      "url": "https://pangrampangram.com/products/supply",
+      "date": "2021-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/003637be89d438c6.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9220e459ffe81040.webp",
+          "width": 409,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/034197aef578d32e.webp",
+          "width": 489,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/15bbd54cce6e956b.webp",
+          "width": 430,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7b95327388239631.webp",
+          "width": 635,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/81ff34fb1025fa39.webp",
+          "width": 431,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2b7d2666a66bee37.webp",
+          "width": 812,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bf708621b54cc4b0.webp",
+          "width": 868,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cee28b2d17a5d2e3.webp",
+          "width": 1097,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d5ce1a119cc82df2.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Suisse",
@@ -3303,6 +5622,60 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Right Gothic",
+      "url": "https://pangrampangram.com/products/right-gothic",
+      "date": "2021-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/95a35633818d8bcd.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2af8cb3a9f851052.webp",
+          "width": 364,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aed8ac07196f1186.webp",
+          "width": 441,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aeefc640f1a2cf13.webp",
+          "width": 486,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7ac9ebcef545f253.webp",
+          "width": 437,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8c52965fd5fa06fd.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/16aacf913248910c.webp",
+          "width": 400,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fb52d52916d807e9.webp",
+          "width": 441,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/916b63c313fcb8e4.webp",
+          "width": 1110,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "GT Ultra",
@@ -3892,6 +6265,65 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Eiko",
+      "url": "https://pangrampangram.com/products/eiko",
+      "date": "2021-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/f0eabea920ac5ef0.webp",
+          "width": 538,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d8344cc5a34b30e0.webp",
+          "width": 666,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/488a8da40b4714ee.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/890497eebb909a31.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/47df4c196ea574f3.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c6118e3723cee01.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/993dfda608362bfc.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4da169a57a39d1ec.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fffbb2f1d16d2a79.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3f76478fa633ea7d.webp",
+          "width": 945,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Irregardless",
       "url": "https://ohnotype.co/fonts/irregardless",
       "date": "2021-05-17",
@@ -4030,6 +6462,60 @@
       "foundryUrl": "https://www.grillitype.com"
     },
     {
+      "name": "Pangram Sans Rounded",
+      "url": "https://pangrampangram.com/products/pangram-sans-rounded",
+      "date": "2021-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/7821190bbbc95f94.webp",
+          "width": 466,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/91351a638ad37f4b.webp",
+          "width": 352,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3708e6c909bcbbe3.webp",
+          "width": 668,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5cfc1c088e82a363.webp",
+          "width": 514,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c531dd5fadb6407a.webp",
+          "width": 484,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6d1a4ac329bb2d9e.webp",
+          "width": 515,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4d57ad758bad28ca.webp",
+          "width": 468,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8c3e4169b812d3bf.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10971ace2439907a.webp",
+          "width": 853,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "ABC Arizona",
       "url": "https://abcdinamo.com/typefaces/arizona",
       "date": "2021-03-17",
@@ -4117,6 +6603,65 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com"
+    },
+    {
+      "name": "Pangram Sans",
+      "url": "https://pangrampangram.com/products/pangram-sans",
+      "date": "2021-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/2b9bf2731c030633.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/98eb05c1b0e5bb9e.webp",
+          "width": 441,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/60eedd341ad4879c.webp",
+          "width": 443,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3bf3ff78da425956.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fefbfe375aba37ec.webp",
+          "width": 484,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/913fefdbbcc1895f.webp",
+          "width": 362,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/94bd36c49286d487.webp",
+          "width": 535,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fda67930ba6c00ee.webp",
+          "width": 898,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/37c4cd7f6e47179e.webp",
+          "width": 962,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3ae98575286f64d1.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Euclid Mono",
@@ -4248,6 +6793,55 @@
       ],
       "foundry": "Florian Karsten",
       "foundryUrl": "https://fonts.floriankarsten.com"
+    },
+    {
+      "name": "Fraktion",
+      "url": "https://pangrampangram.com/products/fraktion",
+      "date": "2020-12-01",
+      "images": [
+        {
+          "src": "/foundry-images/22804b79b9430b22.webp",
+          "width": 693,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1a5c36ad56fd3538.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95e45dca90b06451.webp",
+          "width": 483,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1abdbbb039381bd9.webp",
+          "width": 777,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10012a078a0a321c.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/67730c96e6af2c65.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d1a2f529e3f62be1.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6062dfaaad78dfb4.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Swear",
@@ -4391,6 +6985,80 @@
       ],
       "foundry": "Grilli Type",
       "foundryUrl": "https://www.grillitype.com"
+    },
+    {
+      "name": "Migra",
+      "url": "https://pangrampangram.com/products/migra",
+      "date": "2020-07-01",
+      "images": [
+        {
+          "src": "/foundry-images/29ea35778bf08f0c.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1282afba35da6811.webp",
+          "width": 454,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/eec9c9173db8055a.webp",
+          "width": 280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/974d5813b372e4cd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2e8d5cde8167e305.webp",
+          "width": 774,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bea2a05300f2e0fa.webp",
+          "width": 583,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/393d2d53d463c02b.webp",
+          "width": 523,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/27db3e28ec634347.webp",
+          "width": 544,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c36eaf2a51f88857.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10971ace2439907a.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9b718fd05c34427.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/310035771e6669ae.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/77e37041bb7bbade.webp",
+          "width": 808,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "ABC Maxi",
@@ -5000,6 +7668,45 @@
       "foundryUrl": "https://abcdinamo.com"
     },
     {
+      "name": "Bitmap Font Pack",
+      "url": "https://pangrampangram.com/products/bitmap-fonts",
+      "date": "2020-04-01",
+      "images": [
+        {
+          "src": "/foundry-images/9e0b7518102e2826.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ef753876852cbfd4.webp",
+          "width": 382,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a68823421c65f47a.webp",
+          "width": 498,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ac5f775ffd77f69d.webp",
+          "width": 469,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/af2f2e2c928b7416.webp",
+          "width": 787,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3a1e13286607a7ef.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Degular",
       "url": "https://ohnotype.co/fonts/degular",
       "date": "2020-03-31",
@@ -5061,6 +7768,85 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Right Grotesk",
+      "url": "https://pangrampangram.com/products/right-grotesk",
+      "date": "2020-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/f54e75ba2ad92591.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7e1fcec294e75f66.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f226d429bb603246.webp",
+          "width": 662,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/77bbe1a964b39f17.webp",
+          "width": 635,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3054e84d54fba252.webp",
+          "width": 486,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b9006a113981f196.webp",
+          "width": 451,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fb7043ad766f6142.webp",
+          "width": 475,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a570d47053636f8b.webp",
+          "width": 435,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/420e468671472c49.webp",
+          "width": 829,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6b80d0934d02e968.webp",
+          "width": 836,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/62d51cb57af997b1.webp",
+          "width": 836,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/361f22f00fea739f.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cb1b177f71f0ff6c.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0acb0eb1afc4f227.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Cheee",
@@ -5673,6 +8459,154 @@
       "foundryUrl": "https://ohnotype.co"
     },
     {
+      "name": "Editorial New",
+      "url": "https://pangrampangram.com/products/editorial-new",
+      "date": "2019-07-01",
+      "images": [
+        {
+          "src": "/foundry-images/1ba3fe7d9edce3cb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3556cc5b843d98f3.webp",
+          "width": 454,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/711c4a4d4c19c1df.webp",
+          "width": 435,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a345695949170b5c.webp",
+          "width": 538,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ded25f44773c9931.webp",
+          "width": 774,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b08bead3f7f1d873.webp",
+          "width": 583,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cddd1e7caae15c98.webp",
+          "width": 449,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a6c4748aad764780.webp",
+          "width": 634,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ba871ec37346f876.webp",
+          "width": 563,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/420e468671472c49.webp",
+          "width": 829,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0756568ccfaf78ed.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4516a2f44245f215.webp",
+          "width": 1151,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/adbf350db4cd872a.webp",
+          "width": 929,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/49e0006878788b9e.webp",
+          "width": 929,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a3b1a1c6304978f2.webp",
+          "width": 929,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Woodland",
+      "url": "https://pangrampangram.com/products/woodland",
+      "date": "2019-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/70512038b9780c90.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2ca20af9e9970c42.webp",
+          "width": 576,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2c067b82fbf88137.webp",
+          "width": 400,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a87fc659515aa671.webp",
+          "width": 491,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ed7c4208d47e9f9e.webp",
+          "width": 683,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8eaae251d1217ae8.webp",
+          "width": 1150,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5c9c4b1e43a45cc3.webp",
+          "width": 449,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c5584827ad16f268.webp",
+          "width": 522,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/319ec8cf8db74cc9.webp",
+          "width": 522,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/89fc98d7e421e09c.webp",
+          "width": 914,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/22d9a5526e12ad44.webp",
+          "width": 924,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Coniferous",
       "url": "https://ohnotype.co/fonts/coniferous",
       "date": "2019-04-21",
@@ -5705,6 +8639,90 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Cirka",
+      "url": "https://pangrampangram.com/products/cirka",
+      "date": "2019-02-01",
+      "images": [
+        {
+          "src": "/foundry-images/f9d1d2a1763c7eb2.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c13be063065fa60e.webp",
+          "width": 530,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2f8c224706dbf95b.webp",
+          "width": 357,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2205dcd9db0c3bf.webp",
+          "width": 652,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2b7dedab73981f60.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d3320ddc13031d6.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5b0aa80580b8f55e.webp",
+          "width": 572,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6a4056bc33af19da.webp",
+          "width": 669,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0648d5a319a17436.webp",
+          "width": 669,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/08387968bd579b44.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/59a3c7633a7e56e9.webp",
+          "width": 864,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a1cd10ecd264eb5d.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/739fb15e8c97accd.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/11c5a6c59c244328.webp",
+          "width": 891,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f85e9ff0363afa79.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "FK Screamer",
@@ -5854,6 +8872,124 @@
       ],
       "foundry": "Swiss Typefaces",
       "foundryUrl": "https://www.swisstypefaces.com"
+    },
+    {
+      "name": "Object Sans",
+      "url": "https://pangrampangram.com/products/object-sans",
+      "date": "2018-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/91408c2448ec1c7b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e2464dc93c22eab4.webp",
+          "width": 498,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/05afd952fdb48924.webp",
+          "width": 394,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b6d4984e682fe85e.webp",
+          "width": 783,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/25aa4f1184a75e75.webp",
+          "width": 1052,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5e8633a956428063.webp",
+          "width": 583,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/92d41e5191fd4e7b.webp",
+          "width": 449,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/08d7ed3b090c6696.webp",
+          "width": 642,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/da8f6c1c0dcb648e.webp",
+          "width": 731,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/532db89ee41637ea.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f70c5e14e5bcb20f.webp",
+          "width": 921,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Grafier",
+      "url": "https://pangrampangram.com/products/grafier",
+      "date": "2018-11-01",
+      "images": [
+        {
+          "src": "/foundry-images/cfb6326ef010f83c.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4251fbe90c81367e.webp",
+          "width": 498,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8518d4df76544630.webp",
+          "width": 382,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c1a1ab098af6f4a5.webp",
+          "width": 609,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e8b882f9292934ce.webp",
+          "width": 469,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9018c97e244aa1fb.webp",
+          "width": 644,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/86de30d8d19e64c1.webp",
+          "width": 593,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/67a80452fa585e18.webp",
+          "width": 642,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/617435f22441fbcd.webp",
+          "width": 642,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "NewParis",
@@ -6324,6 +9460,124 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Agrandir",
+      "url": "https://pangrampangram.com/products/agrandir",
+      "date": "2018-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/c27abf15692ab405.webp",
+          "width": 594,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7c4753f6485deedc.webp",
+          "width": 538,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f2ea4cc8fb69c7f5.webp",
+          "width": 538,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9b9eb3737aab16b5.webp",
+          "width": 627,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6d83e8d648e80cc3.webp",
+          "width": 777,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b8875fb48afc4940.webp",
+          "width": 964,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8c3e4169b812d3bf.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9883b58846af2650.webp",
+          "width": 905,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0eed633768912f56.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f77125d68f5d225c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/274ce5813d453a41.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Gosha Sans",
+      "url": "https://pangrampangram.com/products/gosha-sans",
+      "date": "2018-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/315963a1609a7a8a.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4461b39d23e24370.webp",
+          "width": 565,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6fe83c03c4dbf315.webp",
+          "width": 483,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/316bca574e805d43.webp",
+          "width": 785,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/39defd3759d14625.webp",
+          "width": 785,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b0b6df7c03d8e460.webp",
+          "width": 360,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9dc0487ac58985d9.webp",
+          "width": 669,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2ccf1bf5a3d820af.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0dbb379eb95eceac.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "GT Super",
@@ -7397,6 +10651,50 @@
       "foundryUrl": "https://www.grillitype.com"
     },
     {
+      "name": "Stellar Sans",
+      "url": "https://pangrampangram.com/products/stellar-sans",
+      "date": "2016-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/4204586b52583e20.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/886030731ff7d597.webp",
+          "width": 457,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9800dc7637d95920.webp",
+          "width": 471,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2097bcba9a220f04.webp",
+          "width": 494,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/214d81a5fb4f0961.webp",
+          "width": 530,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dd3167cc4bf37aa8.webp",
+          "width": 405,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e6ab3e7df904262d.webp",
+          "width": 424,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
       "name": "Hobeaux Rococeaux",
       "url": "https://ohnotype.co/fonts/hobeaux-rococeaux",
       "date": "2016-06-14",
@@ -7414,6 +10712,114 @@
       ],
       "foundry": "Oh No Type Co.",
       "foundryUrl": "https://ohnotype.co"
+    },
+    {
+      "name": "Pier Sans",
+      "url": "https://pangrampangram.com/products/pier-sans",
+      "date": "2016-06-01",
+      "images": [
+        {
+          "src": "/foundry-images/466b5a597575819b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c24c23124d8d1ac.webp",
+          "width": 409,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad8a4a00a94ef4ac.webp",
+          "width": 516,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/18858ec3ec8c0a11.webp",
+          "width": 533,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/708cf9e7b5256927.webp",
+          "width": 574,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/59234e0badaba7d6.webp",
+          "width": 611,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2582307f1c2543bf.webp",
+          "width": 425,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/13af6225be5285c0.webp",
+          "width": 845,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95a5fb24a69bbb6c.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Fuji Sans",
+      "url": "https://pangrampangram.com/products/fuji-sans",
+      "date": "2016-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/d86a8ce8a2a9a2c1.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/08ed79d5f2db4309.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b00eb2f201cdbd2e.webp",
+          "width": 495,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dd9188f565a6955c.webp",
+          "width": 976,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d5e59c872aaf7614.webp",
+          "width": 551,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aa3aa2d83f43e849.webp",
+          "width": 506,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/eee7e8b94d2d60ce.webp",
+          "width": 492,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/49b48cce92682d9b.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/27a3515a3e50e101.webp",
+          "width": 715,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Wermut",
@@ -7527,6 +10933,94 @@
       ],
       "foundry": "Brownfox",
       "foundryUrl": "https://brownfox.org"
+    },
+    {
+      "name": "Chronos Serif",
+      "url": "https://pangrampangram.com/products/chronos-serif",
+      "date": "2016-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/b4b1d4a675452ef0.webp",
+          "width": 349,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/71b31a753c1c983c.webp",
+          "width": 675,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e3e5cb2c07ef56c7.webp",
+          "width": 605,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a0985a17e1ccf6e0.webp",
+          "width": 563,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/051d448bba788e08.webp",
+          "width": 420,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/09ce742147283309.webp",
+          "width": 752,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
+    },
+    {
+      "name": "Charlevoix Pro",
+      "url": "https://pangrampangram.com/products/charlevoix-pro",
+      "date": "2015-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/5fdeb59ff11fbc8d.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0c0d674521dd4697.webp",
+          "width": 424,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fc5be1923848e47f.webp",
+          "width": 320,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dc42b2db561396c7.webp",
+          "width": 954,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d3da9152780714ef.webp",
+          "width": 762,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9c4d7499700a5b59.webp",
+          "width": 323,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/42ce41818cc30056.webp",
+          "width": 470,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1f2884dc2b9f62cd.webp",
+          "width": 616,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     },
     {
       "name": "Hobeaux",
@@ -8238,6 +11732,40 @@
       ],
       "foundry": "Radim Peško",
       "foundryUrl": "https://radimpesko.com"
+    },
+    {
+      "name": "Casa Stencil",
+      "url": "https://pangrampangram.com/products/casa-stencil",
+      "date": null,
+      "images": [
+        {
+          "src": "/foundry-images/fe8373d63fc09647.webp",
+          "width": 533,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0f2bc9f9595460b4.webp",
+          "width": 649,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/78a9f70015f64234.webp",
+          "width": 530,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/16d82a0bb28d85ed.webp",
+          "width": 625,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d77d7a5b86491bf6.webp",
+          "width": 515,
+          "height": 640
+        }
+      ],
+      "foundry": "Pangram Pangram",
+      "foundryUrl": "https://pangrampangram.com"
     }
   ]
 }

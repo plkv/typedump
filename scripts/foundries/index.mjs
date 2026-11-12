@@ -29,8 +29,9 @@ import brownfox from './sources/brownfox.mjs'
 import ohno from './sources/ohno.mjs'
 import radimpesko from './sources/radim-pesko.mjs'
 import swisstypefaces from './sources/swiss-typefaces.mjs'
+import pangrampangram from './sources/pangram-pangram.mjs'
 
-const SOURCES = [grilli, dinamo, floriankarsten, brownfox, ohno, radimpesko, swisstypefaces]
+const SOURCES = [grilli, dinamo, floriankarsten, brownfox, ohno, radimpesko, swisstypefaces, pangrampangram]
 const MAX_IMAGES = 16 // per typeface on the page
 const CANDIDATES = 40 // per typeface before the text check; photos without type drop out
 
