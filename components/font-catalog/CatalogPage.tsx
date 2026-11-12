@@ -9,6 +9,7 @@ import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } 
 import { COLLECTIONS, type FontCollection } from "@/lib/types"
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 import { randomBrandSet } from '@/lib/text-presets'
+import { compareByStyle } from '@/lib/style-order'
 // catalog.css is imported globally in layout.tsx
 
 
@@ -592,8 +593,12 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     }))
   }
 
-  const handleSort = (sortType: "Random" | "Date" | "Alphabetical") => {
-    if (sortBy === sortType) {
+  const handleSort = (sortType: "Random" | "Date" | "Alphabetical" | "Style") => {
+    if (sortType === "Style") {
+      // One fixed order, a specimen book's; reading it backwards means nothing.
+      setSortBy(sortType)
+      setSortDirection("asc")
+    } else if (sortBy === sortType) {
       // Toggle direction if same sort type
       setSortDirection(sortDirection === "asc" ? "desc" : "asc")
     } else {
@@ -701,6 +706,9 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     // Apply sorting based on sortBy and sortDirection
     if (sortBy === "Random") {
       return filtered.sort((a, b) => seeded(a.id) - seeded(b.id))
+    }
+    if (sortBy === "Style") {
+      return filtered.sort(compareByStyle)
     }
     return filtered.sort((a, b) => {
       let result = 0
@@ -1808,6 +1816,9 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
                       </button>
                       <button onClick={() => handleSort("Random")} className={`v2-button ${sortBy === "Random" ? 'v2-button-active' : 'v2-button-inactive'}`}>
                         Random
+                      </button>
+                      <button onClick={() => handleSort("Style")} className={`v2-button ${sortBy === "Style" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+                        Style
                       </button>
                     </div>
                   </div>
