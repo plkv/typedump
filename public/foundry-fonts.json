@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:07:06.955Z",
+  "generatedAt": "2026-11-12T12:22:50.227Z",
   "count": 143,
   "fonts": [
     {
@@ -1235,13 +1235,18 @@
       "date": "2024-04-16",
       "images": [
         {
-          "src": "/foundry-images/e00a932f99c84b05.webp",
-          "width": 640,
+          "src": "/foundry-images/e9175cf1b6eda529.webp",
+          "width": 759,
           "height": 640
         },
         {
-          "src": "/foundry-images/e9175cf1b6eda529.webp",
-          "width": 759,
+          "src": "/foundry-images/60290d71e6cc78d5.webp",
+          "width": 636,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e00a932f99c84b05.webp",
+          "width": 640,
           "height": 640
         },
         {
@@ -1252,11 +1257,6 @@
         {
           "src": "/foundry-images/99ff2cff8099c387.webp",
           "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/60290d71e6cc78d5.webp",
-          "width": 636,
           "height": 640
         }
       ],
@@ -1407,11 +1407,6 @@
       "date": "2024-03-05",
       "images": [
         {
-          "src": "/foundry-images/7e8abf7cf06a9360.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/bade7272bb766575.webp",
           "width": 640,
           "height": 640
@@ -1425,6 +1420,11 @@
           "src": "/foundry-images/94ee442fe1995c12.webp",
           "width": 563,
           "height": 563
+        },
+        {
+          "src": "/foundry-images/7e8abf7cf06a9360.webp",
+          "width": 640,
+          "height": 640
         },
         {
           "src": "/foundry-images/c98fad63076150bc.webp",
@@ -1757,7 +1757,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/80527d983adfc685.webp",
+          "src": "/foundry-images/8df60d278d118fe0.webp",
           "width": 640,
           "height": 640
         },
@@ -1767,7 +1767,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/8df60d278d118fe0.webp",
+          "src": "/foundry-images/80527d983adfc685.webp",
           "width": 640,
           "height": 640
         }
@@ -1815,22 +1815,7 @@
       "date": "2023-02-12",
       "images": [
         {
-          "src": "/foundry-images/a98686bb28a8aa41.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2308835b2a1fd367.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/00fed6eeebde8578.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/34c5861f84c3dc1a.webp",
           "width": 640,
           "height": 640
         },
@@ -1840,7 +1825,22 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/34c5861f84c3dc1a.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a98686bb28a8aa41.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/a99d5266dac8881e.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2308835b2a1fd367.webp",
           "width": 640,
           "height": 640
         }
@@ -2194,12 +2194,7 @@
       "date": "2022-06-20",
       "images": [
         {
-          "src": "/foundry-images/108bceec0e7504da.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6726a3642562d3f3.webp",
+          "src": "/foundry-images/73ddbe02eb712a58.webp",
           "width": 640,
           "height": 640
         },
@@ -2214,7 +2209,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/de771d966cb029d8.webp",
+          "src": "/foundry-images/6726a3642562d3f3.webp",
           "width": 640,
           "height": 640
         },
@@ -2224,7 +2219,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/7fa30535678eb7c0.webp",
+          "src": "/foundry-images/de771d966cb029d8.webp",
           "width": 640,
           "height": 640
         },
@@ -2234,12 +2229,17 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/73ddbe02eb712a58.webp",
+          "src": "/foundry-images/7810eff8c563e72f.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/7810eff8c563e72f.webp",
+          "src": "/foundry-images/7fa30535678eb7c0.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/108bceec0e7504da.webp",
           "width": 640,
           "height": 640
         }
@@ -2940,6 +2940,11 @@
       "date": "2021-11-25",
       "images": [
         {
+          "src": "/foundry-images/a8659dc145ce13f7.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/5b83825e4abc91f0.webp",
           "width": 629,
           "height": 640
@@ -2948,11 +2953,6 @@
           "src": "/foundry-images/b74b7fcb24f6d45e.webp",
           "width": 629,
           "height": 605
-        },
-        {
-          "src": "/foundry-images/a8659dc145ce13f7.webp",
-          "width": 640,
-          "height": 640
         },
         {
           "src": "/foundry-images/4906ce670334e1c6.webp",
@@ -3892,21 +3892,6 @@
       "date": "2021-05-17",
       "images": [
         {
-          "src": "/foundry-images/5bcba28a76c0ef1c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/01f5f9c99c6b9d1d.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/042ce6c38b7478c6.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/61e8fafb15cea763.webp",
           "width": 640,
           "height": 640
@@ -3917,7 +3902,22 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/5bcba28a76c0ef1c.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/1d98723b932ad70b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/042ce6c38b7478c6.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/01f5f9c99c6b9d1d.webp",
           "width": 640,
           "height": 640
         },
@@ -4255,12 +4255,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/7266aa5bba84fb93.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a1616b27abe517c6.webp",
+          "src": "/foundry-images/aa8692261fb87455.webp",
           "width": 640,
           "height": 640
         },
@@ -4270,12 +4265,17 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/7266aa5bba84fb93.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/e79485b4002ebeba.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/aa8692261fb87455.webp",
+          "src": "/foundry-images/a1616b27abe517c6.webp",
           "width": 640,
           "height": 640
         },
@@ -5000,7 +5000,12 @@
       "date": "2020-03-31",
       "images": [
         {
-          "src": "/foundry-images/eb93a55b7a2ff65f.webp",
+          "src": "/foundry-images/fe59f2902bbc7efb.webp",
+          "width": 620,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/43a550af9e20662c.webp",
           "width": 640,
           "height": 640
         },
@@ -5015,18 +5020,13 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/eb93a55b7a2ff65f.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/670057260bedfe18.webp",
           "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/43a550af9e20662c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/fe59f2902bbc7efb.webp",
-          "width": 620,
           "height": 640
         },
         {
@@ -5068,12 +5068,12 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/6f63b4b0bc1a0f63.webp",
+          "src": "/foundry-images/e285a73783ac410f.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/e285a73783ac410f.webp",
+          "src": "/foundry-images/6f63b4b0bc1a0f63.webp",
           "width": 640,
           "height": 640
         }
@@ -5176,7 +5176,7 @@
       "date": "2020-01-06",
       "images": [
         {
-          "src": "/foundry-images/17c25c572af39af9.webp",
+          "src": "/foundry-images/79ffa7719a855517.webp",
           "width": 640,
           "height": 640
         },
@@ -5186,7 +5186,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/79ffa7719a855517.webp",
+          "src": "/foundry-images/17c25c572af39af9.webp",
           "width": 640,
           "height": 640
         },
@@ -5599,27 +5599,17 @@
       "date": "2019-09-23",
       "images": [
         {
-          "src": "/foundry-images/00af8a0b4bf95f8e.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/eeaffcaf93cc1062.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/8bd599219c662c61.webp",
           "width": 639,
           "height": 640
         },
         {
-          "src": "/foundry-images/a319d6ed17405a92.webp",
+          "src": "/foundry-images/34022e9276fb6b4e.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/a8a38c2fa6dd465c.webp",
+          "src": "/foundry-images/a319d6ed17405a92.webp",
           "width": 640,
           "height": 640
         },
@@ -5629,27 +5619,12 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/14ed97ddbb150dab.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/34022e9276fb6b4e.webp",
+          "src": "/foundry-images/eeaffcaf93cc1062.webp",
           "width": 640,
           "height": 640
         },
         {
           "src": "/foundry-images/cd8950e41da6b9ae.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/baf51388b2c67772.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a6555a077f807fcb.webp",
           "width": 640,
           "height": 640
         },
@@ -5660,6 +5635,31 @@
         },
         {
           "src": "/foundry-images/4d42da0eb04bc37a.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a6555a077f807fcb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/baf51388b2c67772.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/14ed97ddbb150dab.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a8a38c2fa6dd465c.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/00af8a0b4bf95f8e.webp",
           "width": 640,
           "height": 640
         }
@@ -5678,22 +5678,22 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/7b68e1ba076e5bf4.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/ec1ffebe63e0d301.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/f0e94ce3d3662cd2.webp",
+          "src": "/foundry-images/7b68e1ba076e5bf4.webp",
           "width": 640,
           "height": 640
         },
         {
           "src": "/foundry-images/0430d1532f496112.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f0e94ce3d3662cd2.webp",
           "width": 640,
           "height": 640
         }
@@ -5974,17 +5974,12 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/c12e07dc5724a3d3.webp",
+          "src": "/foundry-images/7bd94f2e88a5df13.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/22168e05848586c3.webp",
-          "width": 641,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4f893837952ccdb7.webp",
+          "src": "/foundry-images/c12e07dc5724a3d3.webp",
           "width": 640,
           "height": 640
         },
@@ -5994,17 +5989,22 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/22168e05848586c3.webp",
+          "width": 641,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/42beb2b0bf6d41c6.webp",
           "width": 493,
           "height": 494
         },
         {
-          "src": "/foundry-images/5f711a2c203f5216.webp",
+          "src": "/foundry-images/4f893837952ccdb7.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/7bd94f2e88a5df13.webp",
+          "src": "/foundry-images/5f711a2c203f5216.webp",
           "width": 640,
           "height": 640
         }
@@ -6185,7 +6185,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/cd0945eac0af43f3.webp",
+          "src": "/foundry-images/4e2a1daa108cb3f2.webp",
           "width": 640,
           "height": 640
         },
@@ -6195,7 +6195,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/4e2a1daa108cb3f2.webp",
+          "src": "/foundry-images/cd0945eac0af43f3.webp",
           "width": 640,
           "height": 640
         }
@@ -6209,12 +6209,12 @@
       "date": "2018-07-02",
       "images": [
         {
-          "src": "/foundry-images/1009dcfd8927922b.webp",
+          "src": "/foundry-images/8b73b51104902131.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/60bf0b94103cf6d7.webp",
+          "src": "/foundry-images/1009dcfd8927922b.webp",
           "width": 640,
           "height": 640
         },
@@ -6224,12 +6224,12 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/8b73b51104902131.webp",
+          "src": "/foundry-images/210abc73cef4a4b5.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/210abc73cef4a4b5.webp",
+          "src": "/foundry-images/60bf0b94103cf6d7.webp",
           "width": 640,
           "height": 640
         }
@@ -6243,32 +6243,12 @@
       "date": "2018-06-28",
       "images": [
         {
-          "src": "/foundry-images/edeb4b6def6a3514.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e005cea89f05445e.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a3e66840f4a3f0d5.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/8ef97b0c34191164.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/70f2e62012857326.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9a0af811f04c6a5d.webp",
+          "src": "/foundry-images/e005cea89f05445e.webp",
           "width": 640,
           "height": 640
         },
@@ -6286,6 +6266,26 @@
           "src": "/foundry-images/f2d3b5c828fd7485.webp",
           "width": 640,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/a3e66840f4a3f0d5.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/edeb4b6def6a3514.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/70f2e62012857326.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9a0af811f04c6a5d.webp",
+          "width": 640,
+          "height": 640
         }
       ],
       "foundry": "Oh No Type Co.",
@@ -6297,12 +6297,12 @@
       "date": "2018-06-01",
       "images": [
         {
-          "src": "/foundry-images/a5fd9507fe8638da.webp",
+          "src": "/foundry-images/c12e07dc5724a3d3.webp",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/19f355d01f331f7b.webp",
+          "src": "/foundry-images/a5fd9507fe8638da.webp",
           "width": 640,
           "height": 640
         },
@@ -6312,7 +6312,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/c12e07dc5724a3d3.webp",
+          "src": "/foundry-images/19f355d01f331f7b.webp",
           "width": 640,
           "height": 640
         }
@@ -7524,12 +7524,7 @@
       "date": "2015-08-24",
       "images": [
         {
-          "src": "/foundry-images/5266b660d758c126.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f066490cee622c8f.webp",
+          "src": "/foundry-images/37c045a11acc6c48.webp",
           "width": 640,
           "height": 640
         },
@@ -7539,22 +7534,17 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/f066490cee622c8f.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5266b660d758c126.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/4eb46b64b942759a.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/87c16b7279fbcc97.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/37c045a11acc6c48.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6c7043a5a1e5b0e1.webp",
           "width": 640,
           "height": 640
         },
@@ -7565,6 +7555,16 @@
         },
         {
           "src": "/foundry-images/4513542ae1c66d21.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/87c16b7279fbcc97.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6c7043a5a1e5b0e1.webp",
           "width": 640,
           "height": 640
         }
@@ -7578,19 +7578,14 @@
       "date": "2015-08-24",
       "images": [
         {
-          "src": "/foundry-images/2855d671aa5b7723.webp",
-          "width": 479,
-          "height": 480
-        },
-        {
-          "src": "/foundry-images/bad37c1cef4808aa.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/1970c902e20f89d0.webp",
           "width": 640,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/2855d671aa5b7723.webp",
+          "width": 479,
+          "height": 480
         },
         {
           "src": "/foundry-images/c643b3476954f15c.webp",
@@ -7599,6 +7594,11 @@
         },
         {
           "src": "/foundry-images/8b09110740a8c2b5.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bad37c1cef4808aa.webp",
           "width": 640,
           "height": 640
         }
