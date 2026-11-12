@@ -88,7 +88,9 @@ async function localCopies(fonts, held) {
     if (!existsSync(file)) {
       const res = await fetch(img.src)
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
-      await sharp(Buffer.from(await res.arrayBuffer()), { animated: true })
+      // sharp's pixel limit counts every frame; long GIFs of a few hundred
+      // frames pass it and still come out near 2 MB at this height.
+      await sharp(Buffer.from(await res.arrayBuffer()), { animated: true, limitInputPixels: false })
         .resize({ height: HEIGHT, withoutEnlargement: true })
         .webp({ quality: 75 })
         .toFile(file)
@@ -132,6 +134,8 @@ async function main() {
 
   const kept = fonts.reduce((n, f) => n + f.images.length, 0)
   log(`kept ${kept} images with type across ${fonts.length} typefaces`)
+  // Rewritten only when the rows change, so a quiet day is not a commit.
+  if (JSON.stringify(fonts) === JSON.stringify(previous)) return log('no change')
   const out = { generatedAt: new Date().toISOString(), count: fonts.length, fonts }
   writeFileSync(OUTPUT, JSON.stringify(out, null, 2))
   log(`wrote ${out.count} typefaces → public/foundry-fonts.json`)

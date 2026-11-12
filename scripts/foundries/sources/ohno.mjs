@@ -18,11 +18,13 @@ import { imageSize } from '../lib.mjs'
 const SITE = 'https://ohnotype.co'
 const RASTER = /\.(jpe?g|png|gif|webp)$/i
 
+// The site shuffles a page's gallery on every load, so the pictures are sorted
+// here; otherwise every run would reorder the row and look like a change.
 function pictures(html) {
   const srcs = [...html.matchAll(/<img\b[^>]*?\s(?:data-)?src="([^"]+)"/g)]
     .map(m => m[1])
     .filter(src => RASTER.test(src) && !src.includes('/_transforms/'))
-  return [...new Set(srcs)]
+  return [...new Set(srcs)].sort()
 }
 
 async function processPosts() {
