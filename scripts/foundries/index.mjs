@@ -6,7 +6,10 @@
 //   node scripts/foundries/index.mjs
 //
 // Reading the type in a picture takes macOS Vision (text-count.swift), so this
-// runs on a Mac. Verdicts are cached by URL in text-cache.json.
+// runs on a Mac: locally, or daily on GitHub's macOS runner
+// (.github/workflows/foundries.yml). Verdicts are cached by URL in
+// text-cache.json; both it and the image copies are committed, so a build on
+// any machine has every picture.
 //
 // The pictures the page shows are our own copies in public/foundry-images/,
 // cut to twice the carousel's height as WebP. Foundries serve originals of up
@@ -35,6 +38,7 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
 const CACHE = join(HERE, 'text-cache.json')
 const IMAGES = join(ROOT, 'public', 'foundry-images')
+const OUTPUT = join(ROOT, 'public', 'foundry-fonts.json')
 const HEIGHT = 640 // the carousel is 320px tall; twice that for dense screens
 
 const log = (...a) => console.log('[foundries]', ...a)
@@ -60,17 +64,23 @@ function measureText(srcs) {
       // An image that failed to load is not cached, so the next run tries it again.
       if (row.line >= 0) cache[row.src] = { line: row.line, area: row.area }
     }
-    writeFileSync(CACHE, JSON.stringify(cache))
+    // One image per line, sorted, so a day's new verdicts are a small diff.
+    const sorted = Object.keys(cache).sort().map(src => `${JSON.stringify(src)}: ${JSON.stringify(cache[src])}`)
+    writeFileSync(CACHE, `{\n${sorted.join(',\n')}\n}\n`)
   }
   return cache
 }
 
 // Each copy is named by a hash of its source URL, so a rerun only fetches new
-// pictures, and copies no longer on the page are removed.
-async function localCopies(fonts) {
+// pictures, and copies no longer on the page are removed. `held` are rows
+// carried over from the last run whose copies must stay.
+async function localCopies(fonts, held) {
   mkdirSync(IMAGES, { recursive: true })
   const name = src => `${createHash('sha1').update(src).digest('hex').slice(0, 16)}.webp`
-  const wanted = new Set(fonts.flatMap(f => f.images.map(i => name(i.src))))
+  const wanted = new Set([
+    ...fonts.flatMap(f => f.images.map(i => name(i.src))),
+    ...held.flatMap(f => f.images.map(i => i.src.split('/').pop())),
+  ])
   for (const file of readdirSync(IMAGES)) if (!wanted.has(file)) rmSync(join(IMAGES, file))
 
   const copy = async img => {
@@ -92,32 +102,38 @@ async function localCopies(fonts) {
 }
 
 async function main() {
+  // A foundry whose site fails or comes back empty keeps its rows from the last
+  // run, so an outage or a block on the runner's address does not wipe it.
+  const previous = existsSync(OUTPUT) ? JSON.parse(readFileSync(OUTPUT, 'utf8')).fonts : []
+  const held = []
   const results = await Promise.all(
     SOURCES.map(async s => {
+      let fonts = []
       try {
-        const fonts = (await s.run({ maxImages: CANDIDATES })).filter(f => f && f.images.length)
+        fonts = (await s.run({ maxImages: CANDIDATES })).filter(f => f && f.images.length)
         log(`${s.id}: ${fonts.length} typefaces, ${fonts.reduce((n, f) => n + f.images.length, 0)} images`)
-        return fonts.map(f => ({ ...f, foundry: s.label, foundryUrl: s.url }))
       } catch (e) {
         log(`${s.id}: FAILED (${e.message})`)
-        return []
       }
+      if (!fonts.length) held.push(...previous.filter(f => f.foundry === s.label))
+      return fonts.map(f => ({ ...f, foundry: s.label, foundryUrl: s.url }))
     })
   )
+  if (held.length) log(`holding ${held.length} typefaces from the last run`)
 
   const all = results.flat()
   const text = measureText([...new Set(all.flatMap(f => f.images.map(i => i.src)))])
   const withType = all
     .map(f => ({ ...f, images: f.images.filter(i => text[i.src] && showsType(text[i.src])).slice(0, MAX_IMAGES) }))
     .filter(f => f.images.length)
-  const fonts = (await localCopies(withType))
+  const fonts = [...(await localCopies(withType, held)), ...held]
     .filter(f => f.images.length)
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
 
   const kept = fonts.reduce((n, f) => n + f.images.length, 0)
   log(`kept ${kept} images with type across ${fonts.length} typefaces`)
   const out = { generatedAt: new Date().toISOString(), count: fonts.length, fonts }
-  writeFileSync(join(ROOT, 'public', 'foundry-fonts.json'), JSON.stringify(out, null, 2))
+  writeFileSync(OUTPUT, JSON.stringify(out, null, 2))
   log(`wrote ${out.count} typefaces → public/foundry-fonts.json`)
 }
 
