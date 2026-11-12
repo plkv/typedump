@@ -31,3 +31,9 @@ next-env.d.ts
 # Python bytecode from the scripts/ helpers
 __pycache__/
 *.pyc
+
+# OCR verdicts for the foundry crawler, rebuilt on demand.
+/scripts/foundries/text-cache.json
+# The foundry crawler's WebP copies; it rebuilds them, and the site deploys from
+# a local build.
+/public/foundry-images/

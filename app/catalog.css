@@ -1235,3 +1235,112 @@
   .card-tags-row { display: block; }
 }
 
+
+
+/* ── Foundries ───────────────────────────────────────
+   One card per typeface, the same stack as the catalogue: name and foundry on
+   one line, its pictures below in a row that scrolls sideways. Every picture
+   keeps the height of the row and its own proportions, reserved from the width
+   and height the crawler recorded, so nothing shifts as they arrive. */
+.foundries-page {
+  min-height: 100vh;
+  background-color: var(--gray-surface-sec);
+}
+
+.foundries-list {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.foundry-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  /* Off-screen rows skip layout and paint; the size stands in for them until
+     they are first drawn, then the browser remembers the real one. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 408px;
+}
+
+/* Name, foundry and date, and the button at the far end, always on one line.
+   When the line runs short the foundry and the date stack instead, two 20px
+   lines in the height of the 40px buttons beside them. */
+.foundry-row-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.foundry-row-name {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.foundry-row-meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  padding: 0 4px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--gray-cont-tert);
+  white-space: nowrap;
+}
+
+.foundry-row-foundry {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.foundry-row-foundry:hover {
+  color: var(--gray-cont-prim);
+}
+
+.foundry-row-get {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.foundry-carousel {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  border-radius: var(--radius-component);
+}
+
+.foundry-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.foundry-shot {
+  flex: none;
+  height: 320px;
+  width: auto;
+  object-fit: cover;
+  border-radius: var(--radius-component);
+  background-color: var(--gray-fill-prim);
+  scroll-snap-align: start;
+}
+
+@media (max-width: 767px) {
+  .foundry-row {
+    contain-intrinsic-size: auto 308px;
+  }
+
+  .foundry-shot {
+    height: 220px;
+  }
+}

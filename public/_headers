@@ -16,3 +16,8 @@
 # rule here every visit revalidated each clip before it could play.
 /hero/*
   Cache-Control: public, max-age=31536000, immutable
+
+# The foundry page's pictures. Each file is named by a hash of its source, so
+# a new picture is a new name.
+/foundry-images/*
+  Cache-Control: public, max-age=31536000, immutable
