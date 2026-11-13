@@ -1345,66 +1345,72 @@
   }
 }
 
-/* The filter bar: a frosted island at the foot of the screen, the navbar's
-   twin. Three pickers on one line, sharing the width on a phone. */
-.foundries-filters {
+/* ── Filter bar ──────────────────────────────────────
+   The frosted card at the foot of the catalogue and the foundries feed
+   (components/font-catalog/FilterBar.tsx). Each fold is a grid row that
+   animates 0fr↔1fr on its real height. */
+.filter-bar {
   position: fixed;
   bottom: 16px;
   left: 50%;
-  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 440px;
   z-index: 50;
-  display: flex;
-  gap: 8px;
-  padding: 7px;
-  width: max-content;
-  max-width: calc(100% - 32px);
 }
 
-.foundries-filter {
-  min-width: 0;
-  flex: 0 1 auto;
-}
-
-.foundries-filter-select {
-  appearance: none;
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
-  max-width: 220px;
-  padding: 0 36px 0 12px;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  font-family: var(--font-ui);
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--gray-cont-prim);
-  text-overflow: ellipsis;
-}
-
-.foundries-filter-chevron {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+.filter-bar-dim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: var(--v2-dim);
+  opacity: 0;
   pointer-events: none;
-  color: var(--gray-cont-tert);
+  transition: opacity 0.3s;
 }
 
-@media (max-width: 767px) {
-  .foundries-filters {
-    width: calc(100% - 32px);
-  }
+.filter-bar-dim[data-open="true"] {
+  opacity: 1;
+  pointer-events: auto;
+}
 
-  .foundries-filter {
-    flex: 1 1 0;
-  }
+.filter-bar-card {
+  overflow: hidden;
+  max-height: calc(100vh - 94px);
+}
 
-  .foundries-filter-select {
-    padding-right: 28px;
-  }
+.filter-bar-fold {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .foundries-filter-chevron {
-    right: 6px;
-  }
+.filter-bar-fold[data-shown="true"] {
+  grid-template-rows: 1fr;
+}
+
+.filter-bar-fold > div {
+  overflow: hidden;
+}
+
+.filter-bar-scroll {
+  max-height: calc(100vh - 150px);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.filter-bar-body {
+  padding-bottom: 40px;
+}
+
+.filter-bar-icon {
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.filter-bar-count {
+  opacity: 0.56;
 }

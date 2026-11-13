@@ -5,7 +5,8 @@ import { Slider } from "@/components/ui/slider"
 import { Navbar } from "@/components/font-catalog/Navbar"
 import { FontCard } from "@/components/font-catalog/FontCard"
 import { HeroReel } from "@/components/font-catalog/HeroReel"
-import { IconXMark, IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
+import { IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight } from "@/components/icons"
+import { FilterBar } from "@/components/font-catalog/FilterBar"
 import { COLLECTIONS, type FontCollection } from "@/lib/types"
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 import { randomBrandSet } from '@/lib/text-presets'
@@ -1602,329 +1603,221 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
       </main>
 
 
-      {/* Invisible click-outside handler */}
-      <div
-        onClick={() => setSidebarOpen(false)}
-        style={{
-          position: 'fixed', inset: 0, zIndex: 40,
-          background: 'var(--v2-dim)',
-          opacity: sidebarOpen ? 1 : 0,
-          pointerEvents: sidebarOpen ? 'auto' : 'none',
-          transition: 'opacity 0.3s',
-        }}
-      />
-
-      {/* Bottom bar — expands upward */}
-      <div
-        className={catalogVisible ? 'v2-nav-enter-bottom' : 'v2-nav-pre-bottom'}
-        style={{
-          position: 'fixed',
-          bottom: '16px',
-          left: '50%',
-          width: 'calc(100% - 32px)',
-          maxWidth: '440px',
-          zIndex: 50,
-        }}
+      <FilterBar
+        open={sidebarOpen}
+        onOpenChange={setSidebarOpen}
+        visible={catalogVisible}
+        title={`${getFilteredFonts().length} font families`}
+        trigger="More filters"
+        activeCount={selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)}
+        canReset={hasActiveFilters}
+        onReset={resetFilters}
+        calm={<>
+          {COLLECTIONS.map((mode) => (
+            <button
+              key={mode}
+              disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
+              onClick={() => {
+                setSelectedCollections(prev =>
+                  prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
+                )
+                setTimeout(scrollToCatalog, 100)
+              }}
+              className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
+            >
+              <span style={{
+                // reset the body UI stylistic sets — this previews a catalogue font
+                fontFeatureSettings: 'normal',
+                fontFamily: getStablePreviewFontForCollection(mode),
+                fontSize: "24px", fontWeight: 500, lineHeight: "24px",
+              }}>Ag</span>
+              <span>{mode}</span>
+            </button>
+          ))}
+        </>}
       >
-        {/*
-          BOTTOM BAR STRUCTURE — DO NOT REORDER
-          Card is position:fixed bottom:16px → grows upward → DOM order = visual top→bottom
-
-          1. Header        (grid 0fr→1fr)  visible when OPEN   — count + reset + close
-          2. Collections-A (grid 1fr→0fr)  visible when CLOSED — collapses on open
-          3. Filter body   (grid 0fr→1fr)  visible when OPEN   — collections-B is first item inside scroll
-          4. Trigger       (grid 1fr→0fr)  visible when CLOSED — "More filters" button
-
-          Collections are duplicated: A shows in calm state, B scrolls with filters when open.
-        */}
-        <div className="v2-card v2-overlay" style={{ overflow: 'hidden', maxHeight: 'calc(100vh - 94px)' }}>
-
-          {/* Header — appears above when open */}
-          <div style={{
-            display: 'grid',
-            gridTemplateRows: sidebarOpen ? '1fr' : '0fr',
-            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
-          }}>
-            <div style={{ overflow: 'hidden' }}>
-              <div className="flex items-center p-4" style={{ gap: '12px' }}>
-                <span className="text-sidebar-title flex-1">{getFilteredFonts().length} font families</span>
-                <div className="flex gap-2">
-                  {hasActiveFilters && (
-                    <button aria-label="Reset all filters" onClick={resetFilters} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                      <IconReset size={20} />
-                    </button>
-                  )}
-                  <button onClick={() => setSidebarOpen(false)} className="v2-button v2-button-inactive" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <IconXMark size={20} />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Collections — visible in closed state, collapses when open */}
-          <div style={{
-            display: 'grid',
-            gridTemplateRows: sidebarOpen ? '0fr' : '1fr',
-            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
-          }}>
-            <div style={{ overflow: 'hidden' }}>
-              <div className="flex gap-2 px-4 pt-4 pb-1">
-                {COLLECTIONS.map((mode) => (
-                  <button
-                    key={mode}
-                    disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
-                    onClick={() => {
-                      setSelectedCollections(prev =>
-                        prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
-                      )
-                      setTimeout(scrollToCatalog, 100)
-                    }}
-                    className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
-                  >
-                    <span style={{
-                      // reset the body UI stylistic sets — this previews a catalogue font
-                      fontFeatureSettings: 'normal',
-                      fontFamily: getStablePreviewFontForCollection(mode),
-                      fontSize: "24px", fontWeight: 500, lineHeight: "24px",
-                    }}>Ag</span>
-                    <span>{mode}</span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Filter body — appears when open, collections first inside scroll */}
-          <div style={{
-            display: 'grid',
-            gridTemplateRows: sidebarOpen ? '1fr' : '0fr',
-            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
-          }}>
-            <div style={{ overflow: 'hidden' }}>
-              {/* Own GPU layer + translateZ so scrolling this list repaints on its
-                  own plane instead of dirtying the frosted panel's backdrop-filter
-                  layer above it — otherwise the blur re-rasterizes every scroll
-                  frame and the filters flicker. */}
-              <div className="overflow-y-auto scrollbar-hide" style={{ maxHeight: 'calc(100vh - 150px)', transform: 'translateZ(0)', willChange: 'transform' }}>
-                <div className="px-4 py-4 space-y-8" style={{ paddingBottom: '40px' }}>
-
-                  <div className="flex gap-2">
-                    {COLLECTIONS.map((mode) => (
-                      <button
-                        key={mode}
-                        disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
-                        onClick={() => {
-                          setSelectedCollections(prev =>
-                            prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
-                          )
-                          setTimeout(scrollToCatalog, 100)
-                        }}
-                        className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
-                      >
-                        <span style={{
-                          // reset the body UI stylistic sets — this previews a catalogue font
-                          fontFeatureSettings: 'normal',
-                          fontFamily: getStablePreviewFontForCollection(mode),
-                          fontSize: "24px", fontWeight: 500, lineHeight: "24px",
-                        }}>Ag</span>
-                        <span>{mode}</span>
-                      </button>
-                    ))}
-                  </div>
-
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sidebar-title">Text size</h3>
-                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
-                    </div>
-                    <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} onReset={() => setTextSize(null)} />
-                  </div>
-
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sidebar-title">Line height</h3>
-                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{lineHeight[0]}%</span>
-                    </div>
-                    <Slider value={lineHeight} onValueChange={setLineHeight} max={160} min={90} step={10} onReset={() => setLineHeight([120])} />
-                  </div>
-
-                  <div>
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="text-sidebar-title">Weight</h3>
-                      <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{previewWeight}</span>
-                    </div>
-                    <Slider value={[previewWeight]} onValueChange={([v]) => setPreviewWeight(v)} min={100} max={900} step={100} onReset={() => setPreviewWeight(400)} />
-                  </div>
-
-                  <div className="flex gap-2">
-                    {(['left', 'center', 'right'] as const).map((a) => (
-                      <button
-                        key={a}
-                        aria-label={`Align ${a}`}
-                        aria-pressed={textAlign === a}
-                        onClick={() => setTextAlign(a)}
-                        className={`v2-button flex-1 ${textAlign === a ? 'v2-button-active' : 'v2-button-inactive'}`}
-                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                      >
-                        {a === 'left' ? <IconAlignLeft size={20} /> : a === 'center' ? <IconAlignCenter size={20} /> : <IconAlignRight size={20} />}
-                      </button>
-                    ))}
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Text presets</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {textPresets.map((preset) => (
-                        <button
-                          key={preset}
-                          onClick={() => {
-                            setSelectedPreset(preset)
-                            if (preset === "Paragraph") setTextSize([20]); else setTextSize(null)
-                            // Names & Alternates are per-font (empty customText → each card
-                            // renders its own name / its own alt+special showcase).
-                            if (preset === "Names" || preset === "Alternates") setCustomText("")
-                            else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
-                          }}
-                          className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
-                        >{preset}</button>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Case</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {CASE_MODES.map(mode => (
-                        <button
-                          key={mode}
-                          onClick={() => setCaseMode(mode)}
-                          className={`v2-button ${caseMode === mode ? 'v2-button-active' : 'v2-button-inactive'}`}
-                        >{mode}</button>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Sort by</h3>
-                    <div className="flex gap-2">
-                      <button onClick={() => handleSort("Date")} className={`v2-button ${sortBy === "Date" ? 'v2-button-active' : 'v2-button-inactive'}`}>
-                        {sortBy === "Date" && sortDirection === "desc" ? "New" : "Old"}
-                      </button>
-                      <button onClick={() => handleSort("Alphabetical")} className={`v2-button ${sortBy === "Alphabetical" ? 'v2-button-active' : 'v2-button-inactive'}`}>
-                        {sortBy === "Alphabetical" && sortDirection === "asc" ? "A–Z" : "Z–A"}
-                      </button>
-                      <button onClick={() => handleSort("Random")} className={`v2-button ${sortBy === "Random" ? 'v2-button-active' : 'v2-button-inactive'}`}>
-                        Random
-                      </button>
-                      <button onClick={() => handleSort("Style")} className={`v2-button ${sortBy === "Style" ? 'v2-button-active' : 'v2-button-inactive'}`}>
-                        Style
-                      </button>
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Font categories</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {getCollectionCategories().map((category) => {
-                        const isActive = selectedCategories.includes(category)
-                        const isAvail = isActive || filterAvailability.categories.has(category)
-                        return (
-                          <button key={category} disabled={!isAvail} onClick={() => toggleCategory(category)}
-                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                          >{category}</button>
-                        )
-                      })}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Appearance</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => {
-                        const isActive = selectedStyles.includes(style)
-                        const isAvail = isActive || filterAvailability.styles.has(style)
-                        return (
-                          <button key={style} disabled={!isAvail} onClick={() => toggleStyle(style)}
-                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                          >{style}</button>
-                        )
-                      }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>No style tags available</span>}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Language support</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => {
-                        const isActive = selectedLanguages.includes(language)
-                        const isAvail = isActive || filterAvailability.languages.has(language)
-                        return (
-                          <button key={language} disabled={!isAvail}
-                            onClick={() => setSelectedLanguages(prev =>
-                              prev.includes(language) ? prev.filter(l => l !== language) : [...prev, language]
-                            )}
-                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                          >{language}</button>
-                        )
-                      }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
-                        No languages available{selectedCollections.length > 0 ? ` in ${selectedCollections.join(', ')}` : ''}
-                      </span>}
-                    </div>
-                  </div>
-
-                  <div>
-                    <h3 className="text-sidebar-title mb-3">Features</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {(['Variable', 'Variable width', 'Alternates'] as const).map(feature => {
-                        const isActive = selectedFeatures.includes(feature)
-                        const isAvail = isActive || filterAvailability.features.has(feature)
-                        return (
-                          <button key={feature} disabled={!isAvail}
-                            onClick={() => setSelectedFeatures(prev =>
-                              prev.includes(feature) ? prev.filter(f => f !== feature) : [...prev, feature]
-                            )}
-                            className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
-                          >{feature}</button>
-                        )
-                      })}
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Trigger row — collapses when open */}
-          <div style={{
-            display: 'grid',
-            gridTemplateRows: sidebarOpen ? '0fr' : '1fr',
-            transition: 'grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
-          }}>
-            <div style={{ overflow: 'hidden' }}>
-              <div className="flex items-center gap-2 px-4 pt-1 pb-4">
-                <button
-                  onClick={() => setSidebarOpen(true)}
-                  className="v2-button v2-button-inactive flex items-center gap-2 flex-1"
-                  style={{ cursor: 'pointer', justifyContent: 'center' }}
-                >
-                  {(() => {
-                    const count = selectedCategories.length + selectedStyles.length + selectedLanguages.length + selectedFeatures.length + (previewWeight !== 400 ? 1 : 0)
-                    return count > 0 ? <>More filters <span style={{ opacity: 0.56 }}>{count}</span></> : <>More filters</>
-                  })()}
-                </button>
-                {hasActiveFilters && (
-                  <button aria-label="Reset all filters" onClick={resetFilters} className="v2-button v2-button-inactive" title="Reset all filters" style={{ width: '40px', padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <IconReset size={20} />
-                  </button>
-                )}
-              </div>
-            </div>
-          </div>
-
+        <div className="flex gap-2">
+          {COLLECTIONS.map((mode) => (
+            <button
+              key={mode}
+              disabled={!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode)}
+              onClick={() => {
+                setSelectedCollections(prev =>
+                  prev.includes(mode) ? prev.filter(c => c !== mode) : [...prev, mode]
+                )
+                setTimeout(scrollToCatalog, 100)
+              }}
+              className={`v2-approach-button ${selectedCollections.includes(mode) ? 'v2-button-active' : 'v2-button-inactive'}${!selectedCollections.includes(mode) && !filterAvailability.collections.has(mode) ? ' v2-filter-disabled' : ''}`}
+            >
+              <span style={{
+                // reset the body UI stylistic sets — this previews a catalogue font
+                fontFeatureSettings: 'normal',
+                fontFamily: getStablePreviewFontForCollection(mode),
+                fontSize: "24px", fontWeight: 500, lineHeight: "24px",
+              }}>Ag</span>
+              <span>{mode}</span>
+            </button>
+          ))}
         </div>
-      </div>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sidebar-title">Text size</h3>
+            <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{textSize[0]}px</span>
+          </div>
+          <Slider value={textSize} onValueChange={setTextSize} max={120} min={12} step={1} onReset={() => setTextSize(null)} />
+        </div>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sidebar-title">Line height</h3>
+            <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{lineHeight[0]}%</span>
+          </div>
+          <Slider value={lineHeight} onValueChange={setLineHeight} max={160} min={90} step={10} onReset={() => setLineHeight([120])} />
+        </div>
+
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sidebar-title">Weight</h3>
+            <span className="text-sidebar-title" style={{ color: "var(--gray-cont-tert)" }}>{previewWeight}</span>
+          </div>
+          <Slider value={[previewWeight]} onValueChange={([v]) => setPreviewWeight(v)} min={100} max={900} step={100} onReset={() => setPreviewWeight(400)} />
+        </div>
+
+        <div className="flex gap-2">
+          {(['left', 'center', 'right'] as const).map((a) => (
+            <button
+              key={a}
+              aria-label={`Align ${a}`}
+              aria-pressed={textAlign === a}
+              onClick={() => setTextAlign(a)}
+              className={`v2-button flex-1 ${textAlign === a ? 'v2-button-active' : 'v2-button-inactive'}`}
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+              {a === 'left' ? <IconAlignLeft size={20} /> : a === 'center' ? <IconAlignCenter size={20} /> : <IconAlignRight size={20} />}
+            </button>
+          ))}
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Text presets</h3>
+          <div className="flex flex-wrap gap-2">
+            {textPresets.map((preset) => (
+              <button
+                key={preset}
+                onClick={() => {
+                  setSelectedPreset(preset)
+                  if (preset === "Paragraph") setTextSize([20]); else setTextSize(null)
+                  // Names & Alternates are per-font (empty customText → each card
+                  // renders its own name / its own alt+special showcase).
+                  if (preset === "Names" || preset === "Alternates") setCustomText("")
+                  else if (fonts[0]) setCustomText(getPresetContent(preset, fonts[0].name))
+                }}
+                className={`v2-button ${selectedPreset === preset ? 'v2-button-active' : 'v2-button-inactive'}`}
+              >{preset}</button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Case</h3>
+          <div className="flex flex-wrap gap-2">
+            {CASE_MODES.map(mode => (
+              <button
+                key={mode}
+                onClick={() => setCaseMode(mode)}
+                className={`v2-button ${caseMode === mode ? 'v2-button-active' : 'v2-button-inactive'}`}
+              >{mode}</button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Sort by</h3>
+          <div className="flex gap-2">
+            <button onClick={() => handleSort("Date")} className={`v2-button ${sortBy === "Date" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+              {sortBy === "Date" && sortDirection === "desc" ? "New" : "Old"}
+            </button>
+            <button onClick={() => handleSort("Alphabetical")} className={`v2-button ${sortBy === "Alphabetical" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+              {sortBy === "Alphabetical" && sortDirection === "asc" ? "A–Z" : "Z–A"}
+            </button>
+            <button onClick={() => handleSort("Random")} className={`v2-button ${sortBy === "Random" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+              Random
+            </button>
+            <button onClick={() => handleSort("Style")} className={`v2-button ${sortBy === "Style" ? 'v2-button-active' : 'v2-button-inactive'}`}>
+              Style
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Font categories</h3>
+          <div className="flex flex-wrap gap-2">
+            {getCollectionCategories().map((category) => {
+              const isActive = selectedCategories.includes(category)
+              const isAvail = isActive || filterAvailability.categories.has(category)
+              return (
+                <button key={category} disabled={!isAvail} onClick={() => toggleCategory(category)}
+                  className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                >{category}</button>
+              )
+            })}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Appearance</h3>
+          <div className="flex flex-wrap gap-2">
+            {getAvailableStyleTags().length > 0 ? getAvailableStyleTags().map((style) => {
+              const isActive = selectedStyles.includes(style)
+              const isAvail = isActive || filterAvailability.styles.has(style)
+              return (
+                <button key={style} disabled={!isAvail} onClick={() => toggleStyle(style)}
+                  className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                >{style}</button>
+              )
+            }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>No style tags available</span>}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Language support</h3>
+          <div className="flex flex-wrap gap-2">
+            {getCollectionLanguages().length > 0 ? getCollectionLanguages().map((language) => {
+              const isActive = selectedLanguages.includes(language)
+              const isAvail = isActive || filterAvailability.languages.has(language)
+              return (
+                <button key={language} disabled={!isAvail}
+                  onClick={() => setSelectedLanguages(prev =>
+                    prev.includes(language) ? prev.filter(l => l !== language) : [...prev, language]
+                  )}
+                  className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                >{language}</button>
+              )
+            }) : <span className="text-sm" style={{ color: "var(--gray-cont-tert)" }}>
+              No languages available{selectedCollections.length > 0 ? ` in ${selectedCollections.join(', ')}` : ''}
+            </span>}
+          </div>
+        </div>
+
+        <div>
+          <h3 className="text-sidebar-title mb-3">Features</h3>
+          <div className="flex flex-wrap gap-2">
+            {(['Variable', 'Variable width', 'Alternates'] as const).map(feature => {
+              const isActive = selectedFeatures.includes(feature)
+              const isAvail = isActive || filterAvailability.features.has(feature)
+              return (
+                <button key={feature} disabled={!isAvail}
+                  onClick={() => setSelectedFeatures(prev =>
+                    prev.includes(feature) ? prev.filter(f => f !== feature) : [...prev, feature]
+                  )}
+                  className={`v2-button ${isActive ? 'v2-button-active' : 'v2-button-inactive'}${!isAvail ? ' v2-filter-disabled' : ''}`}
+                >{feature}</button>
+              )
+            })}
+          </div>
+        </div>
+      </FilterBar>
 
     </div>
   )

@@ -1,59 +1,44 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { IconChevronDown } from '@/components/icons'
+import { FilterBar, FilterChip, FilterGroup } from '@/components/font-catalog/FilterBar'
 import { FoundryRow, type FoundryFont } from './FoundryRow'
 
-const ALL = ''
+const newest = (a: FoundryFont, b: FoundryFont) => (b.date || '').localeCompare(a.date || '')
 
 const SORTS = {
-  newest: { label: 'Newest', compare: (a: FoundryFont, b: FoundryFont) => (b.date || '').localeCompare(a.date || '') },
-  foundry: {
-    label: 'Foundry A–Z',
-    compare: (a: FoundryFont, b: FoundryFont) =>
-      a.foundry.localeCompare(b.foundry) || (b.date || '').localeCompare(a.date || ''),
-  },
+  New: newest,
+  'Foundry A–Z': (a: FoundryFont, b: FoundryFont) => a.foundry.localeCompare(b.foundry) || newest(a, b),
 }
 type Sort = keyof typeof SORTS
+const DEFAULT_SORT: Sort = 'New'
 
-function Select({ label, value, onChange, children }: {
-  label: string
-  value: string
-  onChange: (value: string) => void
-  children: React.ReactNode
-}) {
-  return (
-    <div className="relative v2-dropdown foundries-filter">
-      <select aria-label={label} value={value} onChange={e => onChange(e.target.value)} className="foundries-filter-select">
-        {children}
-      </select>
-      <IconChevronDown size={20} className="foundries-filter-chevron" />
-    </div>
-  )
-}
+const toggle = (list: string[], item: string) => (list.includes(item) ? list.filter(x => x !== item) : [...list, item])
+const sorted = (values: Iterable<string>) => [...new Set(values)].sort((a, b) => a.localeCompare(b))
 
-// Counted on the whole feed, not the filtered one: picking a foundry should not
-// make the other foundries vanish from the list you would switch to.
-const count = (fonts: FoundryFont[], key: (f: FoundryFont) => string[]) => {
-  const n = new Map<string, number>()
-  for (const f of fonts) for (const k of key(f)) n.set(k, (n.get(k) || 0) + 1)
-  return [...n].sort(([a], [b]) => a.localeCompare(b))
-}
-
+// The same rules as the catalogue: foundries are OR (any of those picked),
+// categories AND (all of them). An OR group offers what the other groups
+// leave; an AND group offers what the current result still holds.
 export function FoundryFeed({ fonts }: { fonts: FoundryFont[] }) {
-  const [foundry, setFoundry] = useState(ALL)
-  const [category, setCategory] = useState(ALL)
-  const [sort, setSort] = useState<Sort>('newest')
+  const [open, setOpen] = useState(false)
+  const [foundries, setFoundries] = useState<string[]>([])
+  const [categories, setCategories] = useState<string[]>([])
+  const [sort, setSort] = useState<Sort>(DEFAULT_SORT)
 
-  const foundries = useMemo(() => count(fonts, f => [f.foundry]), [fonts])
-  const categories = useMemo(() => count(fonts, f => f.category), [fonts])
-  const shown = useMemo(
-    () =>
-      fonts
-        .filter(f => (foundry === ALL || f.foundry === foundry) && (category === ALL || f.category.includes(category)))
-        .sort(SORTS[sort].compare),
-    [fonts, foundry, category, sort],
-  )
+  const inFoundries = (f: FoundryFont) => !foundries.length || foundries.includes(f.foundry)
+  const inCategories = (f: FoundryFont) => categories.every(c => f.category.includes(c))
+
+  const shown = fonts.filter(f => inFoundries(f) && inCategories(f)).sort(SORTS[sort])
+  const allFoundries = useMemo(() => sorted(fonts.map(f => f.foundry)), [fonts])
+  const allCategories = useMemo(() => sorted(fonts.flatMap(f => f.category)), [fonts])
+  const foundriesLeft = new Set(fonts.filter(inCategories).map(f => f.foundry))
+  const categoriesLeft = new Set(shown.flatMap(f => f.category))
+
+  const reset = () => {
+    setFoundries([])
+    setCategories([])
+    setSort(DEFAULT_SORT)
+  }
 
   return (
     <>
@@ -62,25 +47,35 @@ export function FoundryFeed({ fonts }: { fonts: FoundryFont[] }) {
           <FoundryRow key={font.url} font={font} />
         ))}
       </main>
-      <div className="foundries-filters v2-card v2-overlay">
-        <Select label="Foundry" value={foundry} onChange={setFoundry}>
-          <option value={ALL}>Foundry</option>
-          {foundries.map(([name, n]) => (
-            <option key={name} value={name}>{`${name} (${n})`}</option>
+      <FilterBar
+        open={open}
+        onOpenChange={setOpen}
+        title={`${shown.length} typefaces`}
+        trigger="Filters"
+        activeCount={foundries.length + categories.length}
+        canReset={foundries.length + categories.length > 0 || sort !== DEFAULT_SORT}
+        onReset={reset}
+      >
+        <FilterGroup title="Sort by">
+          {(Object.keys(SORTS) as Sort[]).map(s => (
+            <FilterChip key={s} active={sort === s} onClick={() => setSort(s)}>{s}</FilterChip>
           ))}
-        </Select>
-        <Select label="Category" value={category} onChange={setCategory}>
-          <option value={ALL}>Category</option>
-          {categories.map(([name, n]) => (
-            <option key={name} value={name}>{`${name} (${n})`}</option>
+        </FilterGroup>
+        <FilterGroup title="Font categories">
+          {allCategories.map(c => (
+            <FilterChip key={c} active={categories.includes(c)} available={categoriesLeft.has(c)} onClick={() => setCategories(prev => toggle(prev, c))}>
+              {c}
+            </FilterChip>
           ))}
-        </Select>
-        <Select label="Order" value={sort} onChange={v => setSort(v as Sort)}>
-          {Object.entries(SORTS).map(([key, s]) => (
-            <option key={key} value={key}>{s.label}</option>
+        </FilterGroup>
+        <FilterGroup title="Foundries">
+          {allFoundries.map(f => (
+            <FilterChip key={f} active={foundries.includes(f)} available={foundriesLeft.has(f)} onClick={() => setFoundries(prev => toggle(prev, f))}>
+              {f}
+            </FilterChip>
           ))}
-        </Select>
-      </div>
+        </FilterGroup>
+      </FilterBar>
     </>
   )
 }
