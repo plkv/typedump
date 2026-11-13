@@ -1,6 +1,5 @@
-import { inflateSync } from 'node:zlib'
 import { fetchText, mapLimit } from '../../discover/lib.mjs'
-import { imageSize } from '../lib.mjs'
+import { imageSize, woffDates } from '../lib.mjs'
 
 // Camelot's site is server-rendered PHP. The desktop menu lists the families,
 // each tagged with the folder its files live in (mf-graebenbach-roman for
@@ -67,19 +66,7 @@ const uploaded = src => {
 }
 
 function fontCreated(html) {
-  const dates = [...html.matchAll(/base64,(d09GRg[A-Za-z0-9+/=]+)/g)].map(m => {
-    const woff = Buffer.from(m[1], 'base64')
-    for (let i = 0; i < woff.readUInt16BE(12); i++) {
-      const entry = 44 + i * 20
-      if (woff.toString('ascii', entry, entry + 4) !== 'head') continue
-      const [offset, length, origLength] = [4, 8, 12].map(k => woff.readUInt32BE(entry + k))
-      let head = woff.subarray(offset, offset + length)
-      if (length < origLength) head = inflateSync(head)
-      // LONGDATETIME, seconds since 1904-01-01.
-      return new Date((Number(head.readBigUInt64BE(20)) - 2082844800) * 1000).toISOString().slice(0, 10)
-    }
-    return null
-  })
+  const dates = [...html.matchAll(/base64,(d09GRg[A-Za-z0-9+/=]+)/g)].map(m => woffDates(Buffer.from(m[1], 'base64'))?.created)
   return dates.filter(Boolean).sort()[0] ?? null
 }
 

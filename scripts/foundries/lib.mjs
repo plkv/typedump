@@ -1,3 +1,5 @@
+import { inflateSync } from 'node:zlib'
+
 // Image dimensions from the first bytes of the file, so the carousel can
 // reserve each slot before the picture arrives. PNG, GIF, JPEG, WebP and SVG
 // (its width and height, else its viewBox); anything else comes back null and
@@ -49,6 +51,22 @@ function parseSize(b) {
       }
       i += 2 + be16(i + 2)
     }
+  }
+  return null
+}
+
+// The two dates in a WOFF file's head table: when the font was first made and
+// when it was last built, as YYYY-MM-DD. Null for a file without one.
+export function woffDates(woff) {
+  for (let i = 0; i < woff.readUInt16BE(12); i++) {
+    const entry = 44 + i * 20
+    if (woff.toString('ascii', entry, entry + 4) !== 'head') continue
+    const [offset, length, origLength] = [4, 8, 12].map(k => woff.readUInt32BE(entry + k))
+    let head = woff.subarray(offset, offset + length)
+    if (length < origLength) head = inflateSync(head)
+    // LONGDATETIME, seconds since 1904-01-01.
+    const day = at => new Date((Number(head.readBigUInt64BE(at)) - 2082844800) * 1000).toISOString().slice(0, 10)
+    return { created: day(20), modified: day(28) }
   }
   return null
 }

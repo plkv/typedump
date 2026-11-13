@@ -93,6 +93,9 @@ const CANDIDATES = 40 // per typeface before the text check; photos without type
 // A strip wider than this (an OpenType figures demo, a one-line banner) turns
 // into a band thousands of pixels long at the carousel's height.
 const MAX_ASPECT = 4
+// Crawled all at once, the sites' own fan-out of pages and picture probes
+// outruns the timeouts, and a foundry comes back with a few of its faces.
+const SOURCES_AT_ONCE = 4
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(HERE, '..', '..')
@@ -208,19 +211,17 @@ async function main() {
   // run, so an outage or a block on the runner's address does not wipe it.
   const previous = existsSync(OUTPUT) ? JSON.parse(readFileSync(OUTPUT, 'utf8')).fonts : []
   const held = []
-  const results = await Promise.all(
-    SOURCES.map(async s => {
-      let fonts = []
-      try {
-        fonts = (await s.run({ maxImages: CANDIDATES })).filter(f => f && f.images.length)
-        log(`${s.id}: ${fonts.length} typefaces, ${fonts.reduce((n, f) => n + f.images.length, 0)} images`)
-      } catch (e) {
-        log(`${s.id}: FAILED (${e.message})`)
-      }
-      if (!fonts.length) held.push(...previous.filter(f => f.foundry === s.label))
-      return fonts.map(f => ({ ...f, foundry: s.label, foundryUrl: s.url }))
-    })
-  )
+  const results = await mapLimit(SOURCES, SOURCES_AT_ONCE, async s => {
+    let fonts = []
+    try {
+      fonts = (await s.run({ maxImages: CANDIDATES })).filter(f => f && f.images.length)
+      log(`${s.id}: ${fonts.length} typefaces, ${fonts.reduce((n, f) => n + f.images.length, 0)} images`)
+    } catch (e) {
+      log(`${s.id}: FAILED (${e.message})`)
+    }
+    if (!fonts.length) held.push(...previous.filter(f => f.foundry === s.label))
+    return fonts.map(f => ({ ...f, foundry: s.label, foundryUrl: s.url }))
+  })
   if (held.length) log(`holding ${held.length} typefaces from the last run`)
 
   const overrides = existsSync(OVERRIDES) ? JSON.parse(readFileSync(OVERRIDES, 'utf8')) : {}
