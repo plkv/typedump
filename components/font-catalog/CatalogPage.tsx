@@ -828,14 +828,20 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
   // also covers tabbing away.
   useEffect(() => {
     const onDown = (e: MouseEvent) => {
-      const current = draftRef.current
-      if (!current) return
       // Find the card under the pointer at the moment of the click. Holding on
       // to the node instead went wrong: cards re-render, the captured element
       // detaches, and every click then counted as a click outside — including
       // clicks on the card's own controls.
       const card = (e.target as HTMLElement | null)?.closest?.('[data-card-id]')
-      if (Number(card?.getAttribute('data-card-id')) !== current.fontId) commitDraft()
+      const id = Number(card?.getAttribute('data-card-id'))
+      const current = draftRef.current
+      if (current && id !== current.fontId) commitDraft()
+      // A click outside also ends the editing. The effects below put the caret
+      // back into the focused card on every state change, so a card that stayed
+      // "focused" pulled focus out of the search field the moment its draft was
+      // published: the search caret blinked while the letters went to the card.
+      const focused = focusedFontIdRef.current
+      if (focused !== null && id !== focused) setFocusedFontId(null)
     }
     // Escape leaves the card: publish whatever was typed, drop the caret, and
     // fold the card back up.

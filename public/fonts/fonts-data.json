@@ -304,87 +304,6 @@
       ]
     },
     {
-      "name": "Boldonse",
-      "collection": "Brutal",
-      "styleTags": [
-        "Narrow",
-        "Fatface"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Universitype Foundry",
-      "isVariable": false,
-      "published": true,
-      "id": "family_boldonse_1757807926091",
-      "variants": [
-        {
-          "filename": "Boldonse-Regular FREE.ttf",
-          "weight": 700,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "Case-Sensitive Forms",
-            "Discretionary Ligatures",
-            "Fractions",
-            "Historical Ligatures",
-            "Standard Ligatures",
-            "Ordinals",
-            "Stylistic Alternates",
-            "Boldonse Regular",
-            "Superscript",
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Stylistic Set 1"
-            }
-          ],
-          "isDefaultStyle": false,
-          "uploadedAt": "2025-09-06T12:55:29.422Z",
-          "id": "variant_family_boldonse_1757807926091_1757807926136",
-          "familyId": "family_boldonse_1757807926091",
-          "url": "/fonts/Boldonse-Regular FREE.woff2",
-          "originalUrl": "/fonts/Boldonse-Regular FREE.ttf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/Boldonse-Regular FREE.woff2"
-        }
-      ],
-      "createdAt": "2025-09-13T23:58:46.091Z",
-      "updatedAt": "2025-09-13T23:58:46.143Z",
-      "downloadLink": "https://github.com/googlefonts/boldonse",
-      "description": "Boldonse is a bold, condensed display sans-serif from Universitype, built around eye-catching inktrap details that add depth and character to its heavy letterforms. Designed for headlines, posters, and branding that demand immediate impact, it wears its personality on its sleeve with a playful yet authoritative presence.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://github.com/googlefonts/boldonse"
-      },
-      "publishedAt": "2024-01-01",
-      "useCases": [
-        "Poster"
-      ],
-      "altPairs": [
-        [
-          "Q",
-          "ss01"
-        ],
-        [
-          "f",
-          "ss01"
-        ],
-        [
-          "t",
-          "ss01"
-        ]
-      ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
-    },
-    {
       "name": "DatDot",
       "collection": "Display",
       "styleTags": [
@@ -5965,7 +5884,7 @@
       "category": [
         "Serif"
       ],
-      "foundry": "Fanny Coulez, Julien Saurin",
+      "foundry": "Marie Godefroy, Bye Bye Binary",
       "isVariable": false,
       "published": true,
       "id": "family_insolente_1757807924072",
@@ -5988,24 +5907,24 @@
           "familyId": "family_insolente_1757807924072",
           "url": "/fonts/Insolente-Regular.woff2",
           "originalUrl": "/fonts/Insolente-Regular.otf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/Insolente-Regular.woff2"
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:44.072Z",
       "updatedAt": "2025-09-13T23:58:44.119Z",
-      "description": "Insolente is a realistic human script typeface by Fanny Coulez and Julien Saurin, designed to feel as if handwritten personally. The family includes regular and alternate cuts with extensive ligature and ornament support, ideal for invitations, certificates, and any design that calls for warmth and personal touch.",
+      "description": "Insolente is Marie Godefroy's display face drawn from her own calligraphy after the Gothic bastarda, released in 2024 through the Bye Bye Binary typothèque. It is sharp and cutting on purpose, made in part for her diploma project on the archives of parties and gatherings of the lesbian and queer community. Its ligatures carry a set of inclusive glyphs for post-binary French, such as i·e, eur·ice and x·se, so a text can speak outside the grammatical binary. Published under the CUTE licence: the file may be shared only whole, never with glyphs removed, and the authors ask for a donation scaled to the user.",
       "licenseInfo": {
-        "type": "Proprietary",
-        "url": "https://www.fontspring.com/fonts/sc-type/insolente"
+        "type": "CUTE",
+        "url": "https://genderfluid.space/documents/2024_BBB_CUTE_FR.pdf"
       },
-      "publishedAt": "2015-01-01",
+      "publishedAt": "2024-01-01",
       "useCases": [
         "Experimental"
       ],
-      "downloadLink": "https://typotes.lacambretypo.be/home/insolente",
+      "downloadLink": "https://typotheque.genderfluid.space/fr/fontes/insolent-e",
       "altPairs": [],
-      "specialChars": "«»’…—"
+      "specialChars": "«»’…—",
+      "noSubset": true
     },
     {
       "name": "Crozet",
@@ -33369,7 +33288,7 @@
       "foundry": "Lokal Container",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.lokalcontainer.org",
+      "downloadLink": "https://github.com/LCTipografi/LCT-Ciburial",
       "id": "family_lct_ciburial_1756700007000",
       "variants": [
         {
@@ -33420,7 +33339,7 @@
       "description": "LCT Ciburial is an industrial sans by Deni Anggara for Lokal Container. Near-monolinear strokes, squared-off curves and optical corrections that hold it together at both poster and interface sizes. One weight, with a technical, slightly raw character. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://openfontlicense.org"
+        "url": "https://github.com/LCTipografi/LCT-Ciburial"
       },
       "publishedAt": "2026-09-01",
       "useCases": [
@@ -35936,7 +35855,7 @@
       "foundry": "Julienne Richard",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.juliennerichard.com",
+      "downloadLink": "https://gitlab.com/velvetyne/feroniapi",
       "id": "family_feroniapi_1756700026000",
       "variants": [
         {
@@ -35973,7 +35892,7 @@
       "description": "Feroniapi is Julienne Richard's rework of Feronia, Peter Wiegel's calligraphic serif from the Velvetyne library. It ships as a single medium italic: broad-nib contrast, long extenders and a steep slant that reads as written rather than drawn. Latin and Latin Extended.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://openfontlicense.org"
+        "url": "https://gitlab.com/velvetyne/feroniapi"
       },
       "publishedAt": "2026-09-01",
       "useCases": [
@@ -40325,7 +40244,7 @@
       "foundry": "Sooun Cho",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://jamo.works",
+      "downloadLink": "https://github.com/JAMO-TYPEFACE/Orbit",
       "id": "family_orbit_1790075385129",
       "variants": [
         {
@@ -40359,7 +40278,7 @@
       "description": "A Hangul face built on the impression of a Latin coding font: right-angle serifs, perfectly circular bowls, and a symmetry that makes the syllable blocks read as orbits. Sooun Cho drew the complete set of 11,172 modern Hangul syllables plus the KS X 1001 punctuation and a Latin alphabet to match. One weight, and it is meant to be set light on dark.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://scripts.sil.org/OFL"
+        "url": "https://github.com/JAMO-TYPEFACE/Orbit"
       },
       "useCases": [
         "Tech / Digital",
@@ -40486,7 +40405,7 @@
       "foundry": "ParaType for Tilda",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://tilda.cc/ru/tildasans/",
+      "downloadLink": "https://tilda.cc/lp/tildasans/",
       "id": "family_tilda_sans_1790075385144",
       "variants": [
         {
@@ -40585,7 +40504,7 @@
       "description": "ParaType drew this for Tilda and released it openly: a geometric sans with a single-storey a and circular bowls, close enough to Futura to stand in for it, but with the x-height raised and the ascenders shortened so it holds up at interface sizes. Seven weights from 250 to 900 on one variable axis, two stylistic sets, and a full Cyrillic.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://scripts.sil.org/OFL"
+        "url": "https://tilda.cc/lp/tildasans/"
       },
       "useCases": [
         "Interface",
@@ -47908,650 +47827,6 @@
       ]
     },
     {
-      "name": "Barlow",
-      "collection": "Text",
-      "styleTags": [
-        "Grotesque",
-        "Neutral"
-      ],
-      "languages": [
-        "Latin",
-        "Vietnamese"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Jeremy Tribby, Tribby Type",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "https://github.com/jpt/barlow",
-      "id": "family_barlow_1794004110000",
-      "createdAt": "2026-11-06T22:28:30.000Z",
-      "updatedAt": "2026-11-06T22:28:30.000Z",
-      "publishedAt": "2017-10-26T00:00:00.000Z",
-      "description": "Barlow is Jeremy Tribby's slightly rounded, low contrast grotesk drawn from the public visual language of California: licence plates, highway signs, buses and trains. It is named after John Perry Barlow, a founder of the EFF. The full superfamily runs to 54 styles across three widths; this is the normal width, nine weights from Thin to Black, each with an italic. Plain enough for interfaces and long text, with just enough rounding at the corners to feel warm. Latin and Vietnamese.",
-      "licenseInfo": {
-        "type": "OFL",
-        "url": "https://github.com/jpt/barlow"
-      },
-      "variants": [
-        {
-          "filename": "Barlow-Regular.ttf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": true,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_regular",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Regular.woff2",
-          "originalUrl": "/fonts/Barlow-Regular.ttf",
-          "format": "woff2",
-          "published": true,
-          "previewUrl": "/fonts/preview/Barlow-Regular.woff2"
-        },
-        {
-          "filename": "Barlow-Italic.ttf",
-          "weight": 400,
-          "styleName": "Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_italic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Italic.woff2",
-          "originalUrl": "/fonts/Barlow-Italic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-Thin.ttf",
-          "weight": 100,
-          "styleName": "Thin",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_thin",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Thin.woff2",
-          "originalUrl": "/fonts/Barlow-Thin.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-ThinItalic.ttf",
-          "weight": 100,
-          "styleName": "Thin Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_thinitalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-ThinItalic.woff2",
-          "originalUrl": "/fonts/Barlow-ThinItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-ExtraLight.ttf",
-          "weight": 200,
-          "styleName": "ExtraLight",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_extralight",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-ExtraLight.woff2",
-          "originalUrl": "/fonts/Barlow-ExtraLight.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-ExtraLightItalic.ttf",
-          "weight": 200,
-          "styleName": "ExtraLight Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_extralightitalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-ExtraLightItalic.woff2",
-          "originalUrl": "/fonts/Barlow-ExtraLightItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-Light.ttf",
-          "weight": 300,
-          "styleName": "Light",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_light",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Light.woff2",
-          "originalUrl": "/fonts/Barlow-Light.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-LightItalic.ttf",
-          "weight": 300,
-          "styleName": "Light Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_lightitalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-LightItalic.woff2",
-          "originalUrl": "/fonts/Barlow-LightItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-Medium.ttf",
-          "weight": 500,
-          "styleName": "Medium",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_medium",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Medium.woff2",
-          "originalUrl": "/fonts/Barlow-Medium.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-MediumItalic.ttf",
-          "weight": 500,
-          "styleName": "Medium Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_mediumitalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-MediumItalic.woff2",
-          "originalUrl": "/fonts/Barlow-MediumItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-SemiBold.ttf",
-          "weight": 600,
-          "styleName": "SemiBold",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_semibold",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-SemiBold.woff2",
-          "originalUrl": "/fonts/Barlow-SemiBold.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-SemiBoldItalic.ttf",
-          "weight": 600,
-          "styleName": "SemiBold Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_semibolditalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-SemiBoldItalic.woff2",
-          "originalUrl": "/fonts/Barlow-SemiBoldItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-Bold.ttf",
-          "weight": 700,
-          "styleName": "Bold",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_bold",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Bold.woff2",
-          "originalUrl": "/fonts/Barlow-Bold.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-BoldItalic.ttf",
-          "weight": 700,
-          "styleName": "Bold Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_bolditalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-BoldItalic.woff2",
-          "originalUrl": "/fonts/Barlow-BoldItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-ExtraBold.ttf",
-          "weight": 800,
-          "styleName": "ExtraBold",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_extrabold",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-ExtraBold.woff2",
-          "originalUrl": "/fonts/Barlow-ExtraBold.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-ExtraBoldItalic.ttf",
-          "weight": 800,
-          "styleName": "ExtraBold Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_extrabolditalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-ExtraBoldItalic.woff2",
-          "originalUrl": "/fonts/Barlow-ExtraBoldItalic.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-Black.ttf",
-          "weight": 900,
-          "styleName": "Black",
-          "isItalic": false,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_black",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-Black.woff2",
-          "originalUrl": "/fonts/Barlow-Black.ttf",
-          "format": "woff2",
-          "published": true
-        },
-        {
-          "filename": "Barlow-BlackItalic.ttf",
-          "weight": 900,
-          "styleName": "Black Italic",
-          "isItalic": true,
-          "isVariable": false,
-          "openTypeFeatures": [
-            "Access All Alternates",
-            "Small Capitals From Capitals",
-            "Glyph Composition/Decomposition",
-            "Denominators",
-            "Fractions",
-            "Standard Ligatures",
-            "Localized Forms",
-            "Numerators",
-            "Ordinals",
-            "Proportional Figures",
-            "Small Capitals",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning",
-            "Mark Positioning",
-            "Mark to Mark Positioning"
-          ],
-          "glyphCount": 695,
-          "isDefaultStyle": false,
-          "uploadedAt": "2026-11-06T22:28:30.000Z",
-          "id": "variant_family_barlow_1794004110000_barlow_blackitalic",
-          "familyId": "family_barlow_1794004110000",
-          "url": "/fonts/Barlow-BlackItalic.woff2",
-          "originalUrl": "/fonts/Barlow-BlackItalic.ttf",
-          "format": "woff2",
-          "published": true
-        }
-      ],
-      "hasSmallCaps": true
-    },
-    {
       "name": "Minipax",
       "collection": "Text",
       "styleTags": [
@@ -51056,5 +50331,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-13T11:20:19.675135Z"
+  "lastUpdated": "2026-11-13T12:26:11.812896Z"
 }

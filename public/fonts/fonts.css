@@ -1,7 +1,5 @@
 @font-face{font-family:"Geist-041806";src:url("/fonts/preview/Geist-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Geist-041806__v_483a6f";src:url("/fonts/preview/Geist-VariableFont_wght.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Boldonse-75e1f4";src:url("/fonts/preview/Boldonse-Regular FREE.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Boldonse-75e1f4__v_9e7485";src:url("/fonts/preview/Boldonse-Regular FREE.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"DatDot-79963a";src:url("/fonts/preview/DatDot-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"DatDot-79963a__v_f29aa0";src:url("/fonts/preview/DatDot-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
 @font-face{font-family:"DatDot-79963a";src:url("/fonts/DatDot-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
@@ -114,8 +112,8 @@
 @font-face{font-family:"PicNic-8e7988__v_509d0b";src:url("/fonts/preview/PicNic-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Sprat-04c640";src:url("/fonts/Sprat-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Sprat-04c640__v_7fe34a";src:url("/fonts/Sprat-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Insolente-713cf9";src:url("/fonts/preview/Insolente-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Insolente-713cf9__v_4c9f51";src:url("/fonts/preview/Insolente-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Insolente-713cf9";src:url("/fonts/Insolente-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Insolente-713cf9__v_4c9f51";src:url("/fonts/Insolente-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Crozet-78cf74";src:url("/fonts/preview/Crozet-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Crozet-78cf74__v_4db5f1";src:url("/fonts/preview/Crozet-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"DINdong-8e33cf";src:url("/fonts/preview/DINdong.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -1389,42 +1387,6 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Amstelvar-6f6135__v_de9f65";src:url("/fonts/preview/Amstelvar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Amstelvar-6f6135";src:url("/fonts/Amstelvar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
 @font-face{font-family:"Amstelvar-6f6135__v_f42cee";src:url("/fonts/Amstelvar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/preview/Barlow-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_7f7408";src:url("/fonts/preview/Barlow-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_ef6d3e";src:url("/fonts/Barlow-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Thin.woff2") format("woff2");font-weight:100;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_ccc5fc";src:url("/fonts/Barlow-Thin.woff2") format("woff2");font-weight:100;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ThinItalic.woff2") format("woff2");font-weight:100;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_16bf6a";src:url("/fonts/Barlow-ThinItalic.woff2") format("woff2");font-weight:100;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_38c785";src:url("/fonts/Barlow-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraLightItalic.woff2") format("woff2");font-weight:200;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_a36735";src:url("/fonts/Barlow-ExtraLightItalic.woff2") format("woff2");font-weight:200;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_7c24ce";src:url("/fonts/Barlow-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_1525b5";src:url("/fonts/Barlow-LightItalic.woff2") format("woff2");font-weight:300;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_6468cb";src:url("/fonts/Barlow-Medium.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_198845";src:url("/fonts/Barlow-MediumItalic.woff2") format("woff2");font-weight:500;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_c93a68";src:url("/fonts/Barlow-SemiBold.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-SemiBoldItalic.woff2") format("woff2");font-weight:600;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_cfcd73";src:url("/fonts/Barlow-SemiBoldItalic.woff2") format("woff2");font-weight:600;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_d42047";src:url("/fonts/Barlow-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_03f8d4";src:url("/fonts/Barlow-BoldItalic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_c16fd9";src:url("/fonts/Barlow-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-ExtraBoldItalic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_7c2c7d";src:url("/fonts/Barlow-ExtraBoldItalic.woff2") format("woff2");font-weight:800;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_2af996";src:url("/fonts/Barlow-Black.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Barlow-762c36";src:url("/fonts/Barlow-BlackItalic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap;}
-@font-face{font-family:"Barlow-762c36__v_ac23fb";src:url("/fonts/Barlow-BlackItalic.woff2") format("woff2");font-weight:900;font-style:italic;font-display:swap;}
 @font-face{font-family:"Minipax-a2ac30";src:url("/fonts/preview/Minipax-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Minipax-a2ac30__v_9bdb82";src:url("/fonts/preview/Minipax-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Hepta Slab-45ee77";src:url("/fonts/preview/HeptaSlab-VF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
