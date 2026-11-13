@@ -31,3 +31,6 @@ next-env.d.ts
 # Python bytecode from the scripts/ helpers
 __pycache__/
 *.pyc
+
+# wrangler pages dev state
+.wrangler/

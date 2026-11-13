@@ -38062,7 +38062,7 @@
       "foundry": "Alena Krachkovskaya",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://www.behance.net/krachkovskaya",
+      "downloadLink": "/fonts/Novelist-Regular.otf",
       "id": "family_novelist_1758290000003",
       "variants": [
         {
@@ -38091,7 +38091,7 @@
       "description": "Novelist is built from Lev Zbarsky's lettering for a 1963 Russian edition of Ovid's love elegies, and it keeps the source's thin strokes and small flared serifs. Stress is vertical, contrast is extreme, and the widths vary from letter to letter the way hand-drawn titling does. Meant for a book cover or a headline, not a paragraph. Latin and Cyrillic.",
       "licenseInfo": {
         "type": "CC BY",
-        "url": "https://www.behance.net/krachkovskaya"
+        "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "publishedAt": "2026-09-19",
       "useCases": [
@@ -41471,7 +41471,7 @@
       "foundry": "Alina Molchanova, HSE School of Design",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://portfolio.hse.ru/Project/127856",
+      "downloadLink": "/fonts/Defectica-Regular.otf",
       "id": "family_defectica_1791480048875",
       "variants": [
         {
@@ -48868,16 +48868,16 @@
             {
               "name": "Rotation in X",
               "tag": "XROT",
-              "min": -45.0,
-              "max": 45.0,
-              "default": 0.0
+              "min": -45,
+              "max": 45,
+              "default": 0
             },
             {
               "name": "Rotation in Y",
               "tag": "YROT",
-              "min": -45.0,
-              "max": 45.0,
-              "default": 0.0
+              "min": -45,
+              "max": 45,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -48938,16 +48938,16 @@
             {
               "name": "Rotation in X",
               "tag": "XROT",
-              "min": -45.0,
-              "max": 45.0,
-              "default": 0.0
+              "min": -45,
+              "max": 45,
+              "default": 0
             },
             {
               "name": "Rotation in Y",
               "tag": "YROT",
-              "min": -45.0,
-              "max": 45.0,
-              "default": 0.0
+              "min": -45,
+              "max": 45,
+              "default": 0
             }
           ],
           "openTypeFeatures": [
@@ -49247,9 +49247,9 @@
             {
               "name": "Weight",
               "tag": "wght",
-              "min": 100.0,
-              "max": 900.0,
-              "default": 100.0
+              "min": 100,
+              "max": 900,
+              "default": 100
             }
           ],
           "openTypeFeatures": [
@@ -49329,7 +49329,1732 @@
           "previewUrl": "/fonts/preview/MixalGX.woff2"
         }
       ]
+    },
+    {
+      "name": "Anton",
+      "collection": "Display",
+      "styleTags": [
+        "Grotesque",
+        "Narrow",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Vernon Adams",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/googlefonts/AntonFont",
+      "id": "family_anton_1794004245000",
+      "createdAt": "2025-09-07T18:49:00.000Z",
+      "updatedAt": "2025-09-07T18:49:00.000Z",
+      "publishedAt": "2011-01-01T00:00:00.000Z",
+      "description": "Anton is Vernon Adams' reworking of the traditional condensed advertising sans, the tall black poster face. The letters were digitised, the counters opened up and the stems tuned for use as a bold display face on screen; later updates extended the character set to African Latin alphabets and revised the spacing and kerning. One weight, made for headlines that have to fit, with small caps and discretionary ligatures.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/googlefonts/AntonFont"
+      },
+      "variants": [
+        {
+          "filename": "Anton-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 1373,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:49:00.000Z",
+          "id": "variant_family_anton_1794004245000_anton_regular",
+          "familyId": "family_anton_1794004245000",
+          "url": "/fonts/Anton-Regular.woff2",
+          "originalUrl": "/fonts/Anton-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Anton-Regular.woff2"
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Gloock",
+      "collection": "Display",
+      "styleTags": [
+        "Modern",
+        "Contrast",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Duarte Pinto",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/duartp/gloock",
+      "id": "family_gloock_1794004255000",
+      "createdAt": "2025-09-07T18:49:15.000Z",
+      "updatedAt": "2025-09-07T18:49:15.000Z",
+      "publishedAt": "2022-08-10T00:00:00.000Z",
+      "description": "Gloock is a high-contrast display serif by Duarte Pinto, a young Portuguese designer, released in 2022. Its whole subject is the relationship between thick and thin: heavy stems and hairline serifs meet in smooth, rounded transitions. One weight, built to be set big, in headlines, covers and posters. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/duartp/gloock"
+      },
+      "variants": [
+        {
+          "filename": "Gloock-Regular.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 524,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:49:15.000Z",
+          "id": "variant_family_gloock_1794004255000_gloock_regular",
+          "familyId": "family_gloock_1794004255000",
+          "url": "/fonts/Gloock-Regular.woff2",
+          "originalUrl": "/fonts/Gloock-Regular.otf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Gloock-Regular.woff2"
+        }
+      ]
+    },
+    {
+      "name": "EB Garamond",
+      "collection": "Text",
+      "styleTags": [
+        "Old Face"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Georg Duffner, Octavio Pardo",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/octaviopardo/EBGaramond12",
+      "id": "family_eb_garamond_1794004265000",
+      "createdAt": "2025-09-07T18:49:30.000Z",
+      "updatedAt": "2025-09-07T18:49:30.000Z",
+      "publishedAt": "2011-01-01T00:00:00.000Z",
+      "description": "EB Garamond is Georg Duffner's revival of Claude Garamont's sixteenth century romans, drawn from the Egenolff-Berner specimen of 1592 that gives it its initials, and later extended by Octavio Pardo into a weight range from Regular to ExtraBold. It is one of the few free Garamonds that behaves like a real book face: small caps, oldstyle and lining figures, historical ligatures, swashes and seven stylistic sets, with Greek and Cyrillic. For long reading, academic texts and anything that should feel printed.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/octaviopardo/EBGaramond12"
+      },
+      "variants": [
+        {
+          "filename": "EBGaramond[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Subscript",
+            "Superscript",
+            "Swash",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 3247,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:49:30.000Z",
+          "id": "variant_family_eb_garamond_1794004265000_ebgaramond_wght",
+          "familyId": "family_eb_garamond_1794004265000",
+          "url": "/fonts/EBGaramond[wght].woff2",
+          "originalUrl": "/fonts/EBGaramond[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Petite caps a–z"
+            },
+            {
+              "tag": "ss02",
+              "title": "Pictograms for ( ) < > and ok"
+            },
+            {
+              "tag": "ss03",
+              "title": "Arrows from -> <- ^"
+            },
+            {
+              "tag": "ss04",
+              "title": "Ornaments for ( ) * < >"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Long-tailed Q"
+            },
+            {
+              "tag": "ss07",
+              "title": "Historical J, j, s and д л"
+            }
+          ],
+          "previewUrl": "/fonts/preview/EBGaramond[wght].woff2"
+        },
+        {
+          "filename": "EBGaramond-Italic[wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 400,
+              "max": 800,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Case-Sensitive Forms",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Small Capitals",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Subscript",
+            "Superscript",
+            "Swash",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 3075,
+          "isDefaultStyle": false,
+          "uploadedAt": "2025-09-07T18:49:30.000Z",
+          "id": "variant_family_eb_garamond_1794004265000_ebgaramond_italic_wght",
+          "familyId": "family_eb_garamond_1794004265000",
+          "url": "/fonts/EBGaramond-Italic[wght].woff2",
+          "originalUrl": "/fonts/EBGaramond-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Petite caps a–z"
+            },
+            {
+              "tag": "ss02",
+              "title": "Pictograms for ( ) < > and ok"
+            },
+            {
+              "tag": "ss03",
+              "title": "Arrows from -> <- ^"
+            },
+            {
+              "tag": "ss04",
+              "title": "Ornaments for ( ) * < >"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Long-tailed Q"
+            },
+            {
+              "tag": "ss07",
+              "title": "Historical J, j, s and д л"
+            }
+          ]
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Be Vietnam Pro",
+      "collection": "Text",
+      "styleTags": [
+        "New Face",
+        "Geometry"
+      ],
+      "languages": [
+        "Latin",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Lam Bao, Tony Le, Vietanh Nguyen",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/bettergui/BeVietnamPro",
+      "id": "family_be_vietnam_pro_1794004275000",
+      "createdAt": "2025-09-07T18:49:45.000Z",
+      "updatedAt": "2025-09-07T18:49:45.000Z",
+      "publishedAt": "2021-08-01T00:00:00.000Z",
+      "description": "Be Vietnam Pro is the reworked version of Be Vietnam, a sans by Lam Bao, Tony Le and Vietanh Nguyen made to fit the Vietnamese language rather than merely tolerate it. The Pro release refined the letterforms and gave the diacritics adaptive forms, so stacked accents keep their rhythm in a line of Tiếng Việt. A clean neo-grotesque with a single-storey a, nine weights from Thin to Black with italics, in one variable file.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/bettergui/BeVietnamPro"
+      },
+      "variants": [
+        {
+          "filename": "BeVietnamPro[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 527,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:49:45.000Z",
+          "id": "variant_family_be_vietnam_pro_1794004275000_bevietnampro_wght",
+          "familyId": "family_be_vietnam_pro_1794004275000",
+          "url": "/fonts/BeVietnamPro[wght].woff2",
+          "originalUrl": "/fonts/BeVietnamPro[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a"
+            }
+          ],
+          "previewUrl": "/fonts/preview/BeVietnamPro[wght].woff2"
+        },
+        {
+          "filename": "BeVietnamPro-Italic[wght].ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Subscript",
+            "Superscript",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 527,
+          "isDefaultStyle": false,
+          "uploadedAt": "2025-09-07T18:49:45.000Z",
+          "id": "variant_family_be_vietnam_pro_1794004275000_bevietnampro_italic_wght",
+          "familyId": "family_be_vietnam_pro_1794004275000",
+          "url": "/fonts/BeVietnamPro-Italic[wght].woff2",
+          "originalUrl": "/fonts/BeVietnamPro-Italic[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraBold Italic",
+              "weight": 800,
+              "isItalic": true
+            },
+            {
+              "name": "Black Italic",
+              "weight": 900,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IBM Plex Mono",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Vietnamese"
+      ],
+      "category": [
+        "Mono"
+      ],
+      "foundry": "Mike Abbink, Bold Monday, IBM",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/IBM/plex",
+      "id": "family_ibm_plex_mono_1794004285000",
+      "createdAt": "2025-09-07T18:50:00.000Z",
+      "updatedAt": "2025-09-07T18:50:00.000Z",
+      "publishedAt": "2017-06-01T00:00:00.000Z",
+      "description": "Plex Mono is the monospaced member of IBM Plex, the corporate family IBM released as open source in 2017. It carries the grotesque's flat terminals and squarish curves into a fixed width, calm enough for long sessions in an editor or a terminal, with true italics rather than slanted romans. Weight from Thin to Bold, a slashed or dotted zero and nine stylistic sets of alternates; Latin and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/IBM/plex"
+      },
+      "variants": [
+        {
+          "filename": "IBMPlexMonoVar-Roman.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 8",
+            "Stylistic Set 9",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1207,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:50:00.000Z",
+          "id": "variant_family_ibm_plex_mono_1794004285000_ibmplexmonovar_roman",
+          "familyId": "family_ibm_plex_mono_1794004285000",
+          "url": "/fonts/IBMPlexMonoVar-Roman.woff2",
+          "originalUrl": "/fonts/IBMPlexMonoVar-Roman.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Text",
+              "weight": 450,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Simple a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Simple g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Plain zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alternate #"
+            },
+            {
+              "tag": "ss07",
+              "title": "Bulgarian Cyrillic forms"
+            },
+            {
+              "tag": "ss08",
+              "title": "Alternate l"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alternate comma and quotes"
+            }
+          ],
+          "previewUrl": "/fonts/preview/IBMPlexMonoVar-Roman.woff2"
+        },
+        {
+          "filename": "IBMPlexMonoVar-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 9",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1187,
+          "isDefaultStyle": false,
+          "uploadedAt": "2025-09-07T18:50:00.000Z",
+          "id": "variant_family_ibm_plex_mono_1794004285000_ibmplexmonovar_italic",
+          "familyId": "family_ibm_plex_mono_1794004285000",
+          "url": "/fonts/IBMPlexMonoVar-Italic.woff2",
+          "originalUrl": "/fonts/IBMPlexMonoVar-Italic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Text Italic",
+              "weight": 450,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alternate g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Plain zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alternate #"
+            },
+            {
+              "tag": "ss07",
+              "title": "Bulgarian Cyrillic forms"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alternate comma and quotes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IBM Plex Serif",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Mike Abbink, Bold Monday, IBM",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/IBM/plex",
+      "id": "family_ibm_plex_serif_1794004295000",
+      "createdAt": "2025-09-07T18:50:15.000Z",
+      "updatedAt": "2025-09-07T18:50:15.000Z",
+      "publishedAt": "2017-06-01T00:00:00.000Z",
+      "description": "The serif of IBM Plex, released with the sans in 2017 as part of IBM's open source corporate family by Mike Abbink and Bold Monday. It is built on the same skeleton and engineered details as Plex Sans, so the two sit side by side without friction, with moderate contrast and firm, bracketed serifs that hold up on screen. Weight from Thin to Bold with true italics, oldstyle and lining figures; Latin, Greek and Cyrillic.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/IBM/plex"
+      },
+      "variants": [
+        {
+          "filename": "IBMPlexSerifVar-Roman.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1055,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:50:15.000Z",
+          "id": "variant_family_ibm_plex_serif_1794004295000_ibmplexserifvar_roman",
+          "familyId": "family_ibm_plex_serif_1794004295000",
+          "url": "/fonts/IBMPlexSerifVar-Roman.woff2",
+          "originalUrl": "/fonts/IBMPlexSerifVar-Roman.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Text",
+              "weight": 450,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Simple a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Simple g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Dotted zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Bulgarian Cyrillic forms"
+            }
+          ],
+          "previewUrl": "/fonts/preview/IBMPlexSerifVar-Roman.woff2"
+        },
+        {
+          "filename": "IBMPlexSerifVar-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1042,
+          "isDefaultStyle": false,
+          "uploadedAt": "2025-09-07T18:50:15.000Z",
+          "id": "variant_family_ibm_plex_serif_1794004295000_ibmplexserifvar_italic",
+          "familyId": "family_ibm_plex_serif_1794004295000",
+          "url": "/fonts/IBMPlexSerifVar-Italic.woff2",
+          "originalUrl": "/fonts/IBMPlexSerifVar-Italic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Text Italic",
+              "weight": 450,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Simple g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Dotted zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Bulgarian Cyrillic forms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IBM Plex Sans",
+      "collection": "Text",
+      "styleTags": [
+        "Grotesque",
+        "Neutral"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Mike Abbink, Bold Monday, IBM",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://github.com/IBM/plex",
+      "id": "family_ibm_plex_sans_1794004305000",
+      "createdAt": "2025-09-07T18:50:30.000Z",
+      "updatedAt": "2025-09-07T18:50:30.000Z",
+      "publishedAt": "2017-06-01T00:00:00.000Z",
+      "description": "IBM Plex is IBM's corporate typeface, drawn by Mike Abbink at IBM with Bold Monday and released as open source in 2017 to replace Helvetica Neue across the company. Plex Sans is a grotesque with an engineered edge: squarish curves where bowls meet stems, flat terminals, a nod to IBM's mechanical past without nostalgia. It was made for interfaces as much as print and covers Latin, Greek and Cyrillic, with separate Plex companions for Arabic, Devanagari, Hebrew, Thai, Japanese, Korean and Chinese. This is the variable version, weight from Thin to Bold and a width axis down to Condensed, with true italics and stylistic sets for alternate letters and a slashed zero.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/IBM/plex"
+      },
+      "variants": [
+        {
+          "filename": "IBMPlexSansVar-Roman.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 85,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1025,
+          "isDefaultStyle": true,
+          "uploadedAt": "2025-09-07T18:50:30.000Z",
+          "id": "variant_family_ibm_plex_sans_1794004305000_ibmplexsansvar_roman",
+          "familyId": "family_ibm_plex_sans_1794004305000",
+          "url": "/fonts/IBMPlexSansVar-Roman.woff2",
+          "originalUrl": "/fonts/IBMPlexSansVar-Roman.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Text",
+              "weight": 450,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Simple a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Simple g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Dotted zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Bulgarian Cyrillic forms"
+            }
+          ],
+          "previewUrl": "/fonts/preview/IBMPlexSansVar-Roman.woff2"
+        },
+        {
+          "filename": "IBMPlexSansVar-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 700,
+              "default": 400
+            },
+            {
+              "name": "Width",
+              "tag": "wdth",
+              "min": 85,
+              "max": 100,
+              "default": 100
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Glyph Composition/Decomposition",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Lining Figures",
+            "Localized Forms",
+            "Numerators",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Stylistic Alternates",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Subscript",
+            "Superscript",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning"
+          ],
+          "glyphCount": 1017,
+          "isDefaultStyle": false,
+          "uploadedAt": "2025-09-07T18:50:30.000Z",
+          "id": "variant_family_ibm_plex_sans_1794004305000_ibmplexsansvar_italic",
+          "familyId": "family_ibm_plex_sans_1794004305000",
+          "url": "/fonts/IBMPlexSansVar-Italic.woff2",
+          "originalUrl": "/fonts/IBMPlexSansVar-Italic.ttf",
+          "format": "woff2",
+          "published": true,
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "weight": 100,
+              "isItalic": true
+            },
+            {
+              "name": "ExtraLight Italic",
+              "weight": 200,
+              "isItalic": true
+            },
+            {
+              "name": "Light Italic",
+              "weight": 300,
+              "isItalic": true
+            },
+            {
+              "name": "Italic",
+              "weight": 400,
+              "isItalic": true
+            },
+            {
+              "name": "Text Italic",
+              "weight": 450,
+              "isItalic": true
+            },
+            {
+              "name": "Medium Italic",
+              "weight": 500,
+              "isItalic": true
+            },
+            {
+              "name": "SemiBold Italic",
+              "weight": 600,
+              "isItalic": true
+            },
+            {
+              "name": "Bold Italic",
+              "weight": 700,
+              "isItalic": true
+            }
+          ],
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Alternate a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Simple g"
+            },
+            {
+              "tag": "ss03",
+              "title": "Slashed zero"
+            },
+            {
+              "tag": "ss04",
+              "title": "Dotted zero"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alternate ß"
+            },
+            {
+              "tag": "ss06",
+              "title": "Bulgarian Cyrillic forms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neuton",
+      "collection": "Text",
+      "styleTags": [
+        "Transitional"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Brian Zick",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/anoxic/neuton",
+      "id": "family_neuton_1794004124000",
+      "createdAt": "2026-11-06T22:28:44.000Z",
+      "updatedAt": "2026-11-06T22:28:44.000Z",
+      "publishedAt": "2010-01-01T00:00:00.000Z",
+      "description": "Neuton is Brian Zick's first typeface, released in 2010 and named after Newton County in Arkansas. It is a clean, Dutch-flavoured text serif in the spirit of Times: a large x-height, short extenders and a compact width that saves space and holds up on screen. Six styles from ExtraLight to ExtraBold with an italic, real small caps, oldstyle and lining figures. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/anoxic/neuton"
+      },
+      "variants": [
+        {
+          "filename": "Neuton-Regular.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 308,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_regular",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-Regular.woff2",
+          "originalUrl": "/fonts/Neuton-Regular.ttf",
+          "format": "woff2",
+          "published": true,
+          "previewUrl": "/fonts/preview/Neuton-Regular.woff2"
+        },
+        {
+          "filename": "Neuton-Italic.ttf",
+          "weight": 400,
+          "styleName": "Italic",
+          "isItalic": true,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 310,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_italic",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-Italic.woff2",
+          "originalUrl": "/fonts/Neuton-Italic.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Neuton-ExtraLight.ttf",
+          "weight": 200,
+          "styleName": "ExtraLight",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 308,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_extralight",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-ExtraLight.woff2",
+          "originalUrl": "/fonts/Neuton-ExtraLight.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Neuton-Light.ttf",
+          "weight": 300,
+          "styleName": "Light",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 308,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_light",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-Light.woff2",
+          "originalUrl": "/fonts/Neuton-Light.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Neuton-Bold.ttf",
+          "weight": 700,
+          "styleName": "Bold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 308,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_bold",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-Bold.woff2",
+          "originalUrl": "/fonts/Neuton-Bold.ttf",
+          "format": "woff2",
+          "published": true
+        },
+        {
+          "filename": "Neuton-ExtraBold.ttf",
+          "weight": 800,
+          "styleName": "ExtraBold",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Small Capitals From Capitals",
+            "Fractions",
+            "Lining Figures",
+            "Oldstyle Figures",
+            "Ordinals",
+            "Small Capitals"
+          ],
+          "glyphCount": 308,
+          "isDefaultStyle": false,
+          "uploadedAt": "2026-11-06T22:28:44.000Z",
+          "id": "variant_family_neuton_1794004124000_neuton_extrabold",
+          "familyId": "family_neuton_1794004124000",
+          "url": "/fonts/Neuton-ExtraBold.woff2",
+          "originalUrl": "/fonts/Neuton-ExtraBold.ttf",
+          "format": "woff2",
+          "published": true
+        }
+      ],
+      "hasSmallCaps": true
+    },
+    {
+      "name": "Trickster",
+      "collection": "Brutal",
+      "styleTags": [
+        "Old Face",
+        "Curly",
+        "Sharp",
+        "Fatface"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Serif"
+      ],
+      "foundry": "Jean-Baptiste Morizot, Velvetyne Type Foundry",
+      "isVariable": false,
+      "published": true,
+      "downloadLink": "https://github.com/velvetyne/Trickster",
+      "id": "family_trickster_1794004127000",
+      "createdAt": "2026-11-06T22:28:47.000Z",
+      "updatedAt": "2026-11-06T22:28:47.000Z",
+      "publishedAt": "2017-11-20T00:00:00.000Z",
+      "description": "Trickster is Jean-Baptiste Morizot's display face for Velvetyne, released in November 2017 and named after the mythological figure who breaks the rules. It grew out of a single hand-drawn, radical a and mixes the Merovingian minuscule of Luxeuil with blackletter and contemporary shapes: heavy, wedge-cut strokes, tight spacing and letters that never quite sit still. One bold weight with six named stylistic sets, from Boring forms to Dripping Blood, plus swashes and oldstyle figures. The release came with a poster show by fourteen designers at La Générale in Paris. Latin.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://github.com/velvetyne/Trickster"
+      },
+      "variants": [
+        {
+          "filename": "Trickster-Reg.otf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": false,
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Oldstyle Figures",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Swash",
+            "Kerning"
+          ],
+          "glyphCount": 408,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-06T22:28:47.000Z",
+          "id": "variant_family_trickster_1794004127000_trickster_reg",
+          "familyId": "family_trickster_1794004127000",
+          "url": "/fonts/Trickster-Reg.woff2",
+          "originalUrl": "/fonts/Trickster-Reg.otf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "Boring forms"
+            },
+            {
+              "tag": "ss02",
+              "title": "Burger s, smoky f"
+            },
+            {
+              "tag": "ss03",
+              "title": "Dripping Blood"
+            },
+            {
+              "tag": "ss04",
+              "title": "Closed a"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alt Ampersand"
+            },
+            {
+              "tag": "ss06",
+              "title": "Horny e"
+            }
+          ],
+          "previewUrl": "/fonts/preview/Trickster-Reg.woff2"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-09T11:04:10.621804Z"
+  "lastUpdated": "2026-11-13T11:20:19.675135Z"
 }

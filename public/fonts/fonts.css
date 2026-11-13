@@ -1439,3 +1439,41 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @font-face{font-family:"Fraunces-a242fb__v_da915f";src:url("/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
 @font-face{font-family:"Mixal-046e9b";src:url("/fonts/preview/MixalGX.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Mixal-046e9b__v_893cf5";src:url("/fonts/preview/MixalGX.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Anton-03c7b9";src:url("/fonts/preview/Anton-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Anton-03c7b9__v_702ed7";src:url("/fonts/preview/Anton-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Gloock-7f4e20";src:url("/fonts/preview/Gloock-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Gloock-7f4e20__v_b717fe";src:url("/fonts/preview/Gloock-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"EB Garamond-47e3b7";src:url("/fonts/preview/EBGaramond[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"EB Garamond-47e3b7__v_fee0e3";src:url("/fonts/preview/EBGaramond[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"EB Garamond-47e3b7";src:url("/fonts/EBGaramond-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"EB Garamond-47e3b7__v_34b0fe";src:url("/fonts/EBGaramond-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Be Vietnam Pro-79931d";src:url("/fonts/preview/BeVietnamPro[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Be Vietnam Pro-79931d__v_fbeec4";src:url("/fonts/preview/BeVietnamPro[wght].woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Be Vietnam Pro-79931d";src:url("/fonts/BeVietnamPro-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Be Vietnam Pro-79931d__v_582cf0";src:url("/fonts/BeVietnamPro-Italic[wght].woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Mono-27058d";src:url("/fonts/preview/IBMPlexMonoVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Mono-27058d__v_17c0f1";src:url("/fonts/preview/IBMPlexMonoVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Mono-27058d";src:url("/fonts/IBMPlexMonoVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Mono-27058d__v_df3cd3";src:url("/fonts/IBMPlexMonoVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Serif-b9fc3f";src:url("/fonts/preview/IBMPlexSerifVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Serif-b9fc3f__v_5248f6";src:url("/fonts/preview/IBMPlexSerifVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Serif-b9fc3f";src:url("/fonts/IBMPlexSerifVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Serif-b9fc3f__v_f5b571";src:url("/fonts/IBMPlexSerifVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Sans-270813";src:url("/fonts/preview/IBMPlexSansVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Sans-270813__v_b00c55";src:url("/fonts/preview/IBMPlexSansVar-Roman.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"IBM Plex Sans-270813";src:url("/fonts/IBMPlexSansVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"IBM Plex Sans-270813__v_505df8";src:url("/fonts/IBMPlexSansVar-Italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/preview/Neuton-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_3c0176";src:url("/fonts/preview/Neuton-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/Neuton-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_b371ce";src:url("/fonts/Neuton-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/Neuton-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_46ea3f";src:url("/fonts/Neuton-ExtraLight.woff2") format("woff2");font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/Neuton-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_069891";src:url("/fonts/Neuton-Light.woff2") format("woff2");font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/Neuton-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_f99fe2";src:url("/fonts/Neuton-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037";src:url("/fonts/Neuton-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Neuton-8ae037__v_905832";src:url("/fonts/Neuton-ExtraBold.woff2") format("woff2");font-weight:800;font-style:normal;font-display:swap;}
+@font-face{font-family:"Trickster-4a3254";src:url("/fonts/preview/Trickster-Reg.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Trickster-4a3254__v_1a4b2f";src:url("/fonts/preview/Trickster-Reg.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
