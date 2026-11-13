@@ -1,0 +1,33 @@
+{
+  "https://radimpesko.com/fonts/a-gothic": {
+    "note": "The site's only pictures are a teaser shared with AA Gothic and Kin; these are Fonts In Use's sample and the Visions zine set in it.",
+    "images": [
+      "https://assets.fontsinuse.com/static/samples/7/6615/880/1/5eb76f31/a-gothic.png",
+      "https://assets.fontsinuse.com/static/use-media-items/113/112469/upto-700xauto/69b55645/@2x/Visions_20_Scan_7.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/113/112463/upto-700xauto/69b55645/@2x/Visions_20_Scan_1.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/113/112464/upto-700xauto/69b55645/@2x/Visions_20_Scan_2.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/113/112465/upto-700xauto/69b55645/@2x/Visions_20_Scan_3.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/113/112467/upto-700xauto/69b55645/@2x/Visions_20_Scan_5.jpeg"
+    ]
+  },
+  "https://radimpesko.com/fonts/aa-gothic": {
+    "note": "Same shared teaser as A Gothic; these are Fonts In Use's sample and TRNSTN Radio's identity set in it.",
+    "images": [
+      "https://assets.fontsinuse.com/static/samples/7/6616/880/1/5eb770cd/aa-gothic.png",
+      "https://assets.fontsinuse.com/static/use-media-items/131/130578/upto-700xauto/69b566cf/@2x/002.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/131/130579/upto-700xauto/69b566cf/@2x/003.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/131/130582/upto-700xauto/69b566cf/@2x/005.jpeg",
+      "https://assets.fontsinuse.com/static/use-media-items/131/130580/upto-700xauto/69b566cf/@2x/004.jpeg"
+    ]
+  },
+  "https://radimpesko.com/fonts/kin": {
+    "note": "Nothing of its own anywhere online, only the teaser shared with the Gothics; hidden until there is.",
+    "images": []
+  },
+  "https://nonfoundry.com/non-cloud-1": {
+    "note": "The page shares its pictures with the DotType plugin; only the animated NF specimen belongs to Non Cloud.",
+    "images": [
+      "https://freight.cargo.site/t/original/i/cdc752bfa81be4ec9a6c6d9ec5abe2c25e30c3e37f7e1450bcb37ccbaf4bbcab/00.gif"
+    ]
+  }
+}

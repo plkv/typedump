@@ -4,11 +4,11 @@ import { imageSize } from '../lib.mjs'
 // Oh No's site is server-rendered (Craft). The fonts index menu lists one page
 // per typeface; a page holding two families (Vulf Sans and Vulf Mono) is one
 // typeface here, as the foundry sells and shows it. A page's pictures are its
-// in-use gallery plus a few feature GIFs, all <img> originals on a DigitalOcean
-// Space with no sized variants. Feature specimens are SVG and are skipped, as
-// are the _transforms thumbnails of collections. Typefaces released since the
-// gallery stopped being filled have no raster pictures at all; for those the
-// pictures come from the "Process of" post the page links to.
+// feature specimens (mostly SVG, set in the face) and then its in-use gallery,
+// all <img> originals on a DigitalOcean Space with no sized variants; the
+// _transforms thumbnails of collections are skipped. Typefaces released since
+// the gallery stopped being filled have no raster in-use pictures; for those
+// the gallery comes from the "Process of" post the page links to.
 //
 // Nothing on a typeface page states a date, and the files' Last-Modified was
 // reset by a 2023 migration. The "Process of" post goes up with the release, so
@@ -17,6 +17,10 @@ import { imageSize } from '../lib.mjs'
 // one. Retail links none and is matched to its post by title.
 const SITE = 'https://ohnotype.co'
 const RASTER = /\.(jpe?g|png|gif|webp)$/i
+
+function specimens(html) {
+  return [...new Set([...html.matchAll(/class="font__feature-image"[^]*?<img\b[^>]*?\s(?:data-)?src="([^"]+)"/g)].map(m => m[1]))]
+}
 
 // The site shuffles a page's gallery on every load, so the pictures are sorted
 // here; otherwise every run would reorder the row and look like a change.
@@ -52,14 +56,11 @@ export default {
       const html = await fetchText(url)
       const linked = (html.match(/class="menu__link" href="(https:\/\/ohnotype\.co\/blog\/[^"]+)">Process/) || [])[1]
       const post = posts.find(p => p.link === linked) || posts.find(p => normName(p.title.slice(15)) === normName(name))
-      let srcs = pictures(html)
-      if (!srcs.length && post) srcs = pictures(await fetchText(post.link))
-      return {
-        name,
-        url,
-        date: post?.date ?? null,
-        images: await mapLimit(srcs.slice(0, maxImages), 4, async src => ({ src, ...(await imageSize(src)) })),
-      }
+      let gallery = pictures(html)
+      if (!gallery.length && post) gallery = pictures(await fetchText(post.link))
+      const srcs = [...new Set([...specimens(html), ...gallery])].slice(0, maxImages)
+      const images = await mapLimit(srcs, 4, async src => ({ src, ...(await imageSize(src)) }))
+      return { name, url, date: post?.date ?? null, images: images.filter(i => i.width) }
     })
   },
 }
