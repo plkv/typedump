@@ -12,9 +12,14 @@ import { fetchText } from '../../discover/lib.mjs'
 // does not list yet takes its own title. Non Natural Grotesk is sold by Type
 // Department and has no page here.
 //
-// Image records carry the original size; Cargo's freight CDN resizes by path
-// (/w/1500/), and GIFs stay original so they keep moving. Only pictures placed
-// in the page count: a duplicated page keeps the source page's records.
+// A typeface page places two pictures in its rows; the rest of it is type
+// testers set live in the webfonts, and the store page beside it in the set
+// holds only shop widgets. Image records carry the original size; Cargo's
+// freight CDN resizes by path (/w/1500/), and GIFs stay original so they keep
+// moving. Only pictures placed in the page count: a duplicated page keeps the
+// source page's records (Non Cloud still carries Non Pliant's). A row that
+// links to another page of the site introduces that page, and its picture is
+// that page's: Non Cloud ends on a row about the DotType plugin.
 //
 // Each typeface page credits "Release: 2023". The upload stamps of its pictures
 // give the day when they fall in that year (pages go up with the release);
@@ -66,7 +71,10 @@ const titled = s => s.replace(/\b\w/g, c => c.toUpperCase())
 function pictures(page) {
   const records = new Map((page.images || []).map(i => [i.hash, i]))
   const seen = new Set()
-  return [...page.content.matchAll(/<img\b[^>]*>/g)]
+  return page.content
+    .split(/(?=<div grid-row)/)
+    .filter(row => !/\srel="history"/.test(row))
+    .flatMap(row => [...row.matchAll(/<img\b[^>]*>/g)])
     .map(m => [m[0], m[0].match(/\s(?:data-)?src="(https:\/\/freight\.cargo\.site\/t\/original\/i\/(\w+)\/([^"]+))"/)])
     .filter(([, src]) => src && /\.(jpe?g|png|gif|webp)$/i.test(src[3]) && !seen.has(src[2]) && seen.add(src[2]))
     .map(([tag, [, src, hash, name]]) => {

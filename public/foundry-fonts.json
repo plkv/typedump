@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:19:29.828Z",
+  "generatedAt": "2026-11-13T10:46:06.228Z",
   "count": 300,
   "fonts": [
     {
@@ -24,7 +24,10 @@
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Niceforo by CSTM Fonts",
@@ -73,7 +76,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Dialogo by Spizh",
@@ -122,7 +128,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "HEX Franklin by HEX",
@@ -171,96 +180,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
-    },
-    {
-      "name": "New Doric",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/987d1b70f2949f49.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5ae374edc4ef0895.webp",
-          "width": 481,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "New Doric Narrow",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric_narrow",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/115b926270823256.webp",
-          "width": 481,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "New Doric Condensed",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric_condensed",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/ea02a28b37bc8265.webp",
-          "width": 481,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "New Doric X Condensed",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric_x_condensed",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/0f838853fc842c8c.webp",
-          "width": 481,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "New Doric Wide",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric_wide",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/761c0ef1226c5be8.webp",
-          "width": 600,
-          "height": 451
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "New Doric Extended",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric_extended",
-      "date": "2026-11-01",
-      "images": [
-        {
-          "src": "/foundry-images/de14b728d13ce333.webp",
-          "width": 600,
-          "height": 451
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Modulate by Sumotype Foundry",
@@ -309,7 +232,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Cure Sans by Spoke",
@@ -358,7 +284,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Substitute",
@@ -397,7 +326,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Pixel"
+      ]
     },
     {
       "name": "Curiously by That's Weirdo Stuff",
@@ -446,7 +378,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Chill Sans",
@@ -485,7 +420,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Transept by Daytona Mess",
@@ -534,7 +472,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Pixel"
+      ]
     },
     {
       "name": "Sirkle",
@@ -583,7 +524,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Urman Sans",
@@ -632,7 +576,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Simulacra by Benjamin Tuttle",
@@ -681,7 +628,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Altera",
@@ -730,7 +680,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Semi Serif"
+      ]
     },
     {
       "name": "Reticolo",
@@ -774,7 +727,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Realm by Approximate Type",
@@ -823,7 +779,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Asura by Abhijit Menon",
@@ -872,7 +831,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Airbag",
@@ -921,7 +883,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Cassette",
@@ -929,13 +894,46 @@
       "date": "2026-09-24",
       "images": [
         {
+          "src": "/foundry-images/9080f25655418dfd.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/23bde7a4532d4ba5.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/811a6ff6aeb470c3.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e1ad697f830b4862.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/770739c8a1fd121b.webp",
+          "width": 1143,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/247f0b1ef14e5acd.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/2bbdae24e4f1960b.webp",
           "width": 1219,
           "height": 640
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Erogenous",
@@ -979,7 +977,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Fulcrum by Spoke",
@@ -1007,7 +1008,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/72e9d44400685a8e.webp",
+          "src": "/foundry-images/f180953c429fd43a.webp",
           "width": 640,
           "height": 640
         },
@@ -1028,7 +1029,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Pacaembu by Naipe Foundry",
@@ -1077,7 +1081,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Kiwari Mono",
@@ -1126,7 +1133,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Cosa",
@@ -1175,7 +1185,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Karbite Black",
@@ -1219,7 +1232,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ABC Areal",
@@ -1268,7 +1284,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Canon Grotesque by Vee Ratchanon",
@@ -1317,7 +1336,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Racquet by Benjamin Tuttle",
@@ -1366,7 +1388,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Se Micro",
@@ -1415,7 +1440,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Epure by Khorash type",
@@ -1464,7 +1492,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Neue Gstaad",
@@ -1513,7 +1544,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Ricalco",
@@ -1562,7 +1596,57 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "GYS Pixels",
+      "url": "https://groteskly.xyz/fonts/gys-pixels",
+      "date": "2026-09-01",
+      "images": [
+        {
+          "src": "/foundry-images/d852f5812cf3a590.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6eaba364f79bb8ff.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/571eb8e76d2077ac.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a5bd9dcd18c68e97.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/abba4e42b1f73a4f.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8aaff0ef7c046c8a.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6733c01eaa99185b.webp",
+          "width": 800,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Pixel"
+      ]
     },
     {
       "name": "Kante by Jakob Fangmeier",
@@ -1611,7 +1695,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Empress by Freds Fonts",
@@ -1660,7 +1747,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "LH Noggle Script",
@@ -1699,7 +1789,11 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans",
+        "Script"
+      ]
     },
     {
       "name": "LH Noggle Sans",
@@ -1738,7 +1832,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Ragequit by GRIM Type Co.",
@@ -1787,7 +1884,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Semi Serif"
+      ]
     },
     {
       "name": "Boiga by Overlap Type",
@@ -1836,7 +1936,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Zerk by Element Type",
@@ -1885,7 +1988,10 @@
         }
       ],
       "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com"
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Regats Display",
@@ -1934,7 +2040,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "NaN Gothic",
@@ -1983,7 +2092,58 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
+    },
+    {
+      "name": "New Doric",
+      "url": "https://commercialtype.com/catalog/new_doric/new_doric",
+      "date": "2026-08-10",
+      "images": [
+        {
+          "src": "/foundry-images/26d6c30a29505d96.webp",
+          "width": 972,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b85713ef86d84bdf.webp",
+          "width": 1587,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3b52fbe18e9d3eab.webp",
+          "width": 1587,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/50ed83bcf459fa36.webp",
+          "width": 1587,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d6687f5017b41848.webp",
+          "width": 1587,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a2f337e31c669397.webp",
+          "width": 1587,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f4d86cfc72ae1845.webp",
+          "width": 1587,
+          "height": 640
+        }
+      ],
+      "foundry": "Commercial Type",
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Serial Mono",
@@ -2032,7 +2192,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Bunkel",
@@ -2081,7 +2244,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "AT Vladmir",
@@ -2115,7 +2281,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "AT Björn",
@@ -2159,7 +2328,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "AT Normish",
@@ -2198,7 +2370,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "OBO Classic",
@@ -2237,7 +2412,63 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif",
+        "Mono"
+      ]
+    },
+    {
+      "name": "Crimp by Font Club Belgica",
+      "url": "https://type.today/en/collection/crimp",
+      "date": "2026-07-16",
+      "images": [
+        {
+          "src": "/foundry-images/f498d55b8ddf6de0.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aad9633411488014.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4b57bd69285b560b.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b0be8866130d234e.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/696917b04f9c4015.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/742460ab141f8585.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/03dc6521cc484ee4.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3bec4a300e7257be.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Terra House",
@@ -2286,7 +2517,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Sinkled Vintage",
@@ -2335,7 +2569,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Prodes",
@@ -2384,7 +2621,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Maple Sunhill",
@@ -2433,7 +2673,10 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Ganttie",
@@ -2482,7 +2725,62 @@
         }
       ],
       "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com"
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Strekka",
+      "url": "https://groteskly.xyz/fonts/strekka",
+      "date": "2026-07-01",
+      "images": [
+        {
+          "src": "/foundry-images/e81062fddde593a0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/de4ab6c74cab3462.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f62c89f57acc4a48.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/95fc5a92753ed9d1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9defc6ad9a8c2cb1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4a760acf26251b0f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7b54dba006b7d14e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10f0d0f7b8b83f3b.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Maria Clara Text",
@@ -2531,7 +2829,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Schema",
@@ -2580,7 +2881,10 @@
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "CC Timeline",
@@ -2629,7 +2933,10 @@
         }
       ],
       "foundry": "CC Type",
-      "foundryUrl": "https://cctype.com"
+      "foundryUrl": "https://cctype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Bronzo",
@@ -2678,7 +2985,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Future",
@@ -2727,7 +3037,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Hawk",
@@ -2776,7 +3089,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "NaN Trek",
@@ -2825,7 +3141,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Post",
@@ -2833,13 +3152,41 @@
       "date": "2026-06-15",
       "images": [
         {
+          "src": "/foundry-images/9ac96b39f8860b6e.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bb465b3a05b0a80a.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dc6434e805bd630e.webp",
+          "width": 1178,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b81c6927dc582ec7.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bf45aff2421d041d.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/1a691db50e6a10a9.webp",
           "width": 1219,
           "height": 640
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Drum",
@@ -2888,7 +3235,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Index",
@@ -2937,7 +3287,11 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Serif",
+        "Mono"
+      ]
     },
     {
       "name": "Se Macro",
@@ -2986,7 +3340,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Golt",
@@ -3015,7 +3372,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Maurizio",
@@ -3054,7 +3414,95 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Baumer Mono",
+      "url": "https://erkinkaramemet.com/baumer-mono/",
+      "date": "2026-06-02",
+      "images": [
+        {
+          "src": "/foundry-images/fb185e08a65b2ab5.webp",
+          "width": 1295,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c53a136879febe06.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f8a664f85551a31f.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a2a4e0951f224b2d.webp",
+          "width": 445,
+          "height": 640
+        }
+      ],
+      "foundry": "Erkin Karamemet",
+      "foundryUrl": "https://erkinkaramemet.com",
+      "category": [
+        "Mono"
+      ]
+    },
+    {
+      "name": "Halvar by TypeMates",
+      "url": "https://type.today/en/collection/halvar",
+      "date": "2026-06-02",
+      "images": [
+        {
+          "src": "/foundry-images/1e873512552c2a64.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/774285417ffff5f1.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/64b9e490ba19a438.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d32aed762f701a5f.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b64176f132116472.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a4866b727878cf2d.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ab3093afc98812e8.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a36f172120b6abe6.webp",
+          "width": 1024,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     },
     {
       "name": "Place Display",
@@ -3062,13 +3510,68 @@
       "date": "2026-06-01",
       "images": [
         {
-          "src": "/foundry-images/eff6c28630d1b721.webp",
-          "width": 600,
-          "height": 451
+          "src": "/foundry-images/ba9d1e68586d5eda.webp",
+          "width": 512,
+          "height": 640
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Fluxetype by Nikita Kanarev",
+      "url": "https://type.today/en/collection/fluxetype_collection",
+      "date": "2026-05-26",
+      "images": [
+        {
+          "src": "/foundry-images/d199478cb05ebe74.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6e1cfee603f903ed.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/496f63a6291d1d47.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/283afc210185f2e6.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4f3e684934ec3080.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0c673906cdcae8af.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/990ed996f7af6291.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f373e25420351b2b.webp",
+          "width": 1138,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Non Cloud",
@@ -3076,13 +3579,16 @@
       "date": "2026-05-21",
       "images": [
         {
-          "src": "/foundry-images/777f9cf3ee45a6ad.webp",
-          "width": 569,
+          "src": "/foundry-images/e4395c4e2f3d1047.webp",
+          "width": 512,
           "height": 640
         }
       ],
       "foundry": "Non Foundry",
-      "foundryUrl": "https://nonfoundry.com"
+      "foundryUrl": "https://nonfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Coolkit",
@@ -3090,13 +3596,26 @@
       "date": "2026-05-14",
       "images": [
         {
+          "src": "/foundry-images/27cb25734572a9d2.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/30133b79d9c41b73.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/79343e651db37495.webp",
           "width": 1219,
           "height": 640
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Reiher",
@@ -3140,7 +3659,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Guyot",
@@ -3189,7 +3711,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Electa",
@@ -3200,10 +3725,48 @@
           "src": "/foundry-images/c363bd5bdb091940.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/6b5042450d57802e.webp",
+          "width": 1309,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6c7b110fa9b4051a.webp",
+          "width": 1284,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ab9198581f3448e8.webp",
+          "width": 1284,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3421ebf1b4696976.webp",
+          "width": 678,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b62823368d05bf47.webp",
+          "width": 1304,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/101b81c48340e383.webp",
+          "width": 432,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c650820197c92ec0.webp",
+          "width": 432,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "ALT Rigatoni",
@@ -3252,7 +3815,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Junction",
@@ -3301,7 +3867,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Action Grotesque",
@@ -3309,13 +3878,80 @@
       "date": "2026-05-01",
       "images": [
         {
-          "src": "/foundry-images/bbe3152fe8973be1.webp",
-          "width": 481,
+          "src": "/foundry-images/f6bede6f07dd5d7a.webp",
+          "width": 969,
           "height": 640
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Baumer Headline",
+      "url": "https://erkinkaramemet.com/baumer-headline/",
+      "date": "2026-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/65844d2739982b01.webp",
+          "width": 1295,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c53a136879febe06.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f8a664f85551a31f.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a2a4e0951f224b2d.webp",
+          "width": 445,
+          "height": 640
+        }
+      ],
+      "foundry": "Erkin Karamemet",
+      "foundryUrl": "https://erkinkaramemet.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Baumer Uniwidth",
+      "url": "https://erkinkaramemet.com/baumer-uniwidth/",
+      "date": "2026-05-01",
+      "images": [
+        {
+          "src": "/foundry-images/bd3bbeaed12f57a9.webp",
+          "width": 1295,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c53a136879febe06.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f8a664f85551a31f.webp",
+          "width": 2235,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a2a4e0951f224b2d.webp",
+          "width": 445,
+          "height": 640
+        }
+      ],
+      "foundry": "Erkin Karamemet",
+      "foundryUrl": "https://erkinkaramemet.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Ashcroft",
@@ -3359,7 +3995,10 @@
         }
       ],
       "foundry": "Peregrin Studio",
-      "foundryUrl": "https://peregrinstudio.com"
+      "foundryUrl": "https://peregrinstudio.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "CoFo Robert Sans",
@@ -3398,7 +4037,10 @@
         }
       ],
       "foundry": "Contrast Foundry",
-      "foundryUrl": "https://contrastfoundry.com"
+      "foundryUrl": "https://contrastfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "GT Mechanik",
@@ -3417,7 +4059,63 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Algorytm by Interval Type",
+      "url": "https://type.today/en/collection/algorytm_collection",
+      "date": "2026-04-09",
+      "images": [
+        {
+          "src": "/foundry-images/fe02e4b27674791f.webp",
+          "width": 2048,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b744c4cc968506e8.webp",
+          "width": 1134,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6a8ce7949b47db49.webp",
+          "width": 2048,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a0dd4e5a4b1cae02.webp",
+          "width": 1134,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fd4b73a34c1e5164.webp",
+          "width": 1134,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0f63a1bd3c22f753.webp",
+          "width": 2048,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bbe776ad55ee9333.webp",
+          "width": 1134,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5a8c00ee124c9ffd.webp",
+          "width": 1134,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     },
     {
       "name": "Loza",
@@ -3466,7 +4164,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Neue York",
@@ -3515,7 +4216,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Valve",
@@ -3554,7 +4258,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Neue Montreal",
@@ -3603,7 +4310,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Panell",
@@ -3611,13 +4321,51 @@
       "date": "2026-03-24",
       "images": [
         {
-          "src": "/foundry-images/4e4ac3fb0e9f5da8.webp",
-          "width": 1219,
+          "src": "/foundry-images/0568ff2b0ff082fa.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/057f3ad028028e5b.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/445573ccbb0f6f13.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7eb3721adf96f9a0.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0194c9be0033f219.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/94b96338e1fa7fb2.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c6f65b15769ee8d6.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1713bec5cd232f5c.webp",
+          "width": 1138,
           "height": 640
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Musikal",
@@ -3666,7 +4414,57 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Semi Serif"
+      ]
+    },
+    {
+      "name": "Nickel Gothic by David Jonathan Ross",
+      "url": "https://type.today/en/nickel-gothic",
+      "date": "2026-03-19",
+      "images": [
+        {
+          "src": "/foundry-images/956046307dbbbe18.webp",
+          "width": 1440,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/02995d6f6e058446.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1744aa49248c2d95.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5770d77a6ebdd5b3.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2d09d59d4dbbdef1.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ae2c78041e58f5d1.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7c271963a7b4a35b.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Sugarspark",
@@ -3705,7 +4503,10 @@
         }
       ],
       "foundry": "Interval Type",
-      "foundryUrl": "https://intervaltype.com"
+      "foundryUrl": "https://intervaltype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Sugarswift",
@@ -3744,7 +4545,10 @@
         }
       ],
       "foundry": "Interval Type",
-      "foundryUrl": "https://intervaltype.com"
+      "foundryUrl": "https://intervaltype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "MD UI",
@@ -3788,7 +4592,52 @@
         }
       ],
       "foundry": "Mass-Driver",
-      "foundryUrl": "https://mass-driver.com"
+      "foundryUrl": "https://mass-driver.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Nekst by Denis Serebryakov",
+      "url": "https://type.today/en/collection/nekst",
+      "date": "2026-03-12",
+      "images": [
+        {
+          "src": "/foundry-images/ff8f5c43850de6f0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9ef78ac15530c9df.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/52c29522caafa83c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ca76dbe554162fc5.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fe261dda0e11cd1c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f45fe3010a47d6b5.webp",
+          "width": 512,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Buckridge",
@@ -3822,7 +4671,116 @@
         }
       ],
       "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
+      "foundryUrl": "https://djr.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Alfold Semi-Mono",
+      "url": "https://groteskly.xyz/fonts/alfold-semi-mono",
+      "date": "2026-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/ff6629451168bcbf.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/307b8c2f26850037.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fc79da7dabec49dd.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7fafff4d07ee0ed2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e04fa2b6f9dd9478.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/68ce8fba0edd1b4e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d9053c7cd7a143a9.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7d5c07c8d89756f4.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Serif",
+        "Mono"
+      ]
+    },
+    {
+      "name": "Alfold Mono",
+      "url": "https://groteskly.xyz/fonts/alfold-mono",
+      "date": "2026-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/ccda71c5b509a2ca.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/40c5a03a3e4c2e47.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d31c5f34b30f3f1a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dca2a960acd186e2.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d54bd6d82d3edaa6.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c7cad9f1d204efa7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad79603727b8ce34.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4be1299326bacf1e.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Serif",
+        "Mono"
+      ]
     },
     {
       "name": "Palma",
@@ -3871,7 +4829,62 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Alfold",
+      "url": "https://groteskly.xyz/fonts/alfold",
+      "date": "2026-03-01",
+      "images": [
+        {
+          "src": "/foundry-images/165f7edbbd5e6c65.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/01e6cd5d07bbc725.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/655d287f2e431af0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9d66de4994cec1de.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7f4ba9fcfc2cc13c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/474b8ff885275434.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4be1299326bacf1e.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2dd4ad631b15f49f.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "ABC Schengen",
@@ -3920,7 +4933,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Riviera Mono",
@@ -3969,7 +4985,62 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Mono"
+      ]
+    },
+    {
+      "name": "Zhivov by CSTM Fonts",
+      "url": "https://type.today/en/zhivov",
+      "date": "2026-01-29",
+      "images": [
+        {
+          "src": "/foundry-images/4d3e673864a2902c.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7a01bf8bbffcfab0.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cdd450e83860b0ec.webp",
+          "width": 1429,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b563130a98171331.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/605af170f8e4312d.webp",
+          "width": 1633,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4b300b4d384580f1.webp",
+          "width": 1102,
+          "height": 493
+        },
+        {
+          "src": "/foundry-images/6a2fc925c22e5f41.webp",
+          "width": 1811,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/63b9bb8b02270ea5.webp",
+          "width": 1049,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Sharf",
@@ -3998,7 +5069,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "ABC Camera Rounded",
@@ -4047,7 +5121,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ABC Publisher",
@@ -4096,7 +5173,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Semi Serif"
+      ]
     },
     {
       "name": "Bizzarri",
@@ -4130,7 +5210,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Silverspoon",
@@ -4164,7 +5247,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Vanilla Mono",
@@ -4203,7 +5289,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "GT Canon",
@@ -4242,7 +5331,10 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Method",
@@ -4291,7 +5383,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Earl",
@@ -4315,7 +5410,10 @@
         }
       ],
       "foundry": "Smuss Type Kiosk",
-      "foundryUrl": "https://typekiosk.smuss.studio"
+      "foundryUrl": "https://typekiosk.smuss.studio",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "Home",
@@ -4326,10 +5424,48 @@
           "src": "/foundry-images/ec223da597909d07.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/420598fa04db30ed.webp",
+          "width": 623,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a0b14469bb83abc9.webp",
+          "width": 1028,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fd35cd03432c03a2.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fdfb7e8ddffc20ab.webp",
+          "width": 482,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/69f49b1dae77f3f6.webp",
+          "width": 2156,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/34a8b6bf022950a5.webp",
+          "width": 1548,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/01999a8211871ee1.webp",
+          "width": 1548,
+          "height": 639
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Unisoft77",
@@ -4340,10 +5476,48 @@
           "src": "/foundry-images/54480b121bad8f64.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/41cca2d73ae4c1d2.webp",
+          "width": 2196,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/35d67bbf0f7a8d94.webp",
+          "width": 654,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6e869ad4dc3711bd.webp",
+          "width": 533,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/29d4ef452ee7360b.webp",
+          "width": 607,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c81fc09c7ec5675c.webp",
+          "width": 586,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/553ed2265d52f788.webp",
+          "width": 854,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/57e1a28e9ac9333f.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Ferro",
@@ -4392,7 +5566,10 @@
         }
       ],
       "foundry": "Plain Form",
-      "foundryUrl": "https://plain-form.com"
+      "foundryUrl": "https://plain-form.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Mori",
@@ -4441,7 +5618,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Dolph YY",
@@ -4460,7 +5640,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Chauffeur",
@@ -4479,7 +5662,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Rondeau",
@@ -4498,7 +5684,10 @@
         }
       ],
       "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com"
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Fonema",
@@ -4532,7 +5721,10 @@
         }
       ],
       "foundry": "Brownfox",
-      "foundryUrl": "https://brownfox.org"
+      "foundryUrl": "https://brownfox.org",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Aguzzo",
@@ -4540,13 +5732,51 @@
       "date": "2025-12-04",
       "images": [
         {
-          "src": "/foundry-images/6532d68a258c3c46.webp",
-          "width": 1219,
+          "src": "/foundry-images/017672b82e524c50.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c67e24d176a7c400.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/49ec70a5d2f7dedf.webp",
+          "width": 1025,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2dafb606cb23be5.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/642fd2f723850191.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bc72b7463855ecfe.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/adb6918f89128772.webp",
+          "width": 1023,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/845656f3c0ada9c0.webp",
+          "width": 1023,
           "height": 640
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Montreuil",
@@ -4595,7 +5825,10 @@
         }
       ],
       "foundry": "Oh No Type Co.",
-      "foundryUrl": "https://ohnotype.co"
+      "foundryUrl": "https://ohnotype.co",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Gumbo",
@@ -4644,31 +5877,115 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
-      "name": "Atlas Typewriter",
-      "url": "https://commercialtype.com/catalog/atlas/atlas_typewriter",
-      "date": "2025-11-01",
+      "name": "Feature by Commercial Type",
+      "url": "https://type.today/en/collection/feature_collection",
+      "date": "2025-11-06",
       "images": [
         {
-          "src": "/foundry-images/468a3b3da53d9376.webp",
-          "width": 481,
+          "src": "/foundry-images/0f527c0c2ad42c6b.webp",
+          "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/837432d20d94ec42.webp",
-          "width": 481,
+          "src": "/foundry-images/84cab134178aaded.webp",
+          "width": 640,
           "height": 640
         },
         {
-          "src": "/foundry-images/0e9a65da561d8459.webp",
-          "width": 481,
+          "src": "/foundry-images/e01a4e10f9756aea.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6070ad9be919b530.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/66d320e8a1a1208e.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c27d2d5c52126b7a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/324e630efab559f6.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c1e504f21a092a05.webp",
+          "width": 1138,
           "height": 640
         }
       ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Yuni by Philipp Neumeyer (TypeMates)",
+      "url": "https://type.today/en/collection/yuni",
+      "date": "2025-10-09",
+      "images": [
+        {
+          "src": "/foundry-images/f51627ea4e43e62f.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3aa1788aabb1d2d8.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dde8111ef486f66a.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/659cd0a35af956bb.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fd970386c29a6b76.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3395ae0c9586d678.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/786ca57c6cffd710.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/182c09a13a29d7a4.webp",
+          "width": 1024,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans",
+        "Serif"
+      ]
     },
     {
       "name": "Die Grotesk",
@@ -4717,7 +6034,10 @@
         }
       ],
       "foundry": "Klim Type Foundry",
-      "foundryUrl": "https://klim.co.nz"
+      "foundryUrl": "https://klim.co.nz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Frama",
@@ -4766,7 +6086,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Neue Corp",
@@ -4815,7 +6138,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Delusse",
@@ -4823,46 +6149,51 @@
       "date": "2025-10-01",
       "images": [
         {
-          "src": "/foundry-images/9ce1f3210088b883.webp",
-          "width": 481,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "Nicola",
-      "url": "https://commercialtype.com/catalog/nicola/nicola",
-      "date": "2025-10-01",
-      "images": [
-        {
-          "src": "/foundry-images/c076fc934ea02ee9.webp",
-          "width": 481,
+          "src": "/foundry-images/ec81dbab4aac2b93.webp",
+          "width": 800,
           "height": 640
         },
         {
-          "src": "/foundry-images/97c75e6d7dcbb459.webp",
-          "width": 481,
+          "src": "/foundry-images/e85b3b9cd1656dd0.webp",
+          "width": 800,
           "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "Nicola Display",
-      "url": "https://commercialtype.com/catalog/nicola/nicola_display",
-      "date": "2025-10-01",
-      "images": [
+        },
         {
-          "src": "/foundry-images/b9985e55577a25e4.webp",
-          "width": 481,
+          "src": "/foundry-images/b5947ba062dda8c0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/56b2a199771f28ef.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/be697722d506432c.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9ccd1bb495c6cee.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/26d7c8dc389ee3b0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8f0e20581a744ef3.webp",
+          "width": 640,
           "height": 640
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Kuhlman",
@@ -4876,7 +6207,10 @@
         }
       ],
       "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
+      "foundryUrl": "https://djr.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "TWK Issey",
@@ -4925,7 +6259,10 @@
         }
       ],
       "foundry": "WELTKERN®",
-      "foundryUrl": "https://weltkern.com"
+      "foundryUrl": "https://weltkern.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Coxx",
@@ -4939,7 +6276,10 @@
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ALT Erogenous",
@@ -4988,7 +6328,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "GT Era",
@@ -5002,7 +6345,10 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Magister",
@@ -5051,7 +6397,10 @@
         }
       ],
       "foundry": "Source Type",
-      "foundryUrl": "https://www.sourcetype.com"
+      "foundryUrl": "https://www.sourcetype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Capital",
@@ -5061,11 +6410,6 @@
         {
           "src": "/foundry-images/5c6b80845c40e506.webp",
           "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9079e9156889bd78.webp",
-          "width": 461,
           "height": 640
         },
         {
@@ -5089,6 +6433,11 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/50b0bdda8de40c9f.webp",
+          "width": 2449,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/2370ad3f88f93c72.webp",
           "width": 461,
           "height": 640
@@ -5100,7 +6449,62 @@
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Bazaine Mono",
+      "url": "https://www.britishstandardtype.xyz/typefaces/bazaine-mono",
+      "date": "2025-08-02",
+      "images": [
+        {
+          "src": "/foundry-images/75f313575795f410.webp",
+          "width": 618,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/0c2e3da823c0c9a1.webp",
+          "width": 1311,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7803525ef790f919.webp",
+          "width": 1600,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9d4414895ed038a4.webp",
+          "width": 1000,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d4f0d125e577e22b.webp",
+          "width": 1183,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4e03f2ac69e55fc3.webp",
+          "width": 922,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b284caa34c47bc60.webp",
+          "width": 1496,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1a973b7f5e96acc2.webp",
+          "width": 1496,
+          "height": 640
+        }
+      ],
+      "foundry": "British Standard Type",
+      "foundryUrl": "https://www.britishstandardtype.xyz/typefaces",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Serrif",
@@ -5114,7 +6518,10 @@
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Focal Maxi",
@@ -5133,7 +6540,10 @@
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Statika",
@@ -5182,7 +6592,10 @@
         }
       ],
       "foundry": "Brownfox",
-      "foundryUrl": "https://brownfox.org"
+      "foundryUrl": "https://brownfox.org",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "DGM Sprinter",
@@ -5231,7 +6644,62 @@
         }
       ],
       "foundry": "Giulia Boggio",
-      "foundryUrl": "https://www.giuliaboggio.xyz"
+      "foundryUrl": "https://www.giuliaboggio.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Gregory by TypeMates",
+      "url": "https://type.today/en/collection/gregory",
+      "date": "2025-07-16",
+      "images": [
+        {
+          "src": "/foundry-images/afc52afe580b9a97.webp",
+          "width": 1129,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7d36b47f9fc50d9f.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0eef955a3ccdc67d.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/99d7ba1670ddc04e.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/87573fdf6a93d118.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a21aabd41f1c092e.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5939f8d4689309ce.webp",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ee27c143e5e284cb.webp",
+          "width": 1024,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Right Serif Mono",
@@ -5280,7 +6748,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Editeur",
@@ -5309,7 +6780,11 @@
         }
       ],
       "foundry": "Nouvelle Noire",
-      "foundryUrl": "https://nouvellenoire.ch"
+      "foundryUrl": "https://nouvellenoire.ch",
+      "category": [
+        "Mono",
+        "Semi Serif"
+      ]
     },
     {
       "name": "Cyan",
@@ -5320,10 +6795,18 @@
           "src": "/foundry-images/bd2d5acfe753f379.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/b5528b822caaa062.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ABC Honeymoon",
@@ -5337,7 +6820,42 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Script"
+      ]
+    },
+    {
+      "name": "Ultimo",
+      "url": "https://erkinkaramemet.com/ultimo/",
+      "date": "2025-06-09",
+      "images": [
+        {
+          "src": "/foundry-images/268501f316b7d3ac.webp",
+          "width": 1365,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e56fc21ea29bda4d.webp",
+          "width": 2228,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fab29fd84dc7d221.webp",
+          "width": 2227,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7d28baec357142fd.webp",
+          "width": 445,
+          "height": 640
+        }
+      ],
+      "foundry": "Erkin Karamemet",
+      "foundryUrl": "https://erkinkaramemet.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Algorytm",
@@ -5386,7 +6904,10 @@
         }
       ],
       "foundry": "Interval Type",
-      "foundryUrl": "https://intervaltype.com"
+      "foundryUrl": "https://intervaltype.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "ALT Picaro",
@@ -5435,7 +6956,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Acma",
@@ -5484,7 +7008,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Monument",
@@ -5533,7 +7060,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Archy",
@@ -5582,7 +7112,62 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Symbol Mono",
+      "url": "https://www.britishstandardtype.xyz/typefaces/symbol-mono",
+      "date": "2025-05-23",
+      "images": [
+        {
+          "src": "/foundry-images/8acd1eb427c2193e.webp",
+          "width": 618,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/8d0d61622a74761f.webp",
+          "width": 1520,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/29305d91f7a31364.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/01269869bec04173.webp",
+          "width": 1492,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/10c1efe7a7f410fd.webp",
+          "width": 2305,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/94d03c7a55282689.webp",
+          "width": 1418,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/170696a3e2d7f55e.webp",
+          "width": 1303,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/91441ae9eaaa5296.webp",
+          "width": 1415,
+          "height": 640
+        }
+      ],
+      "foundry": "British Standard Type",
+      "foundryUrl": "https://www.britishstandardtype.xyz/typefaces",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Only",
@@ -5601,7 +7186,10 @@
         }
       ],
       "foundry": "Swiss Typefaces",
-      "foundryUrl": "https://www.swisstypefaces.com"
+      "foundryUrl": "https://www.swisstypefaces.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Maket",
@@ -5640,7 +7228,10 @@
         }
       ],
       "foundry": "Brownfox",
-      "foundryUrl": "https://brownfox.org"
+      "foundryUrl": "https://brownfox.org",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "CoFo Raffine",
@@ -5684,7 +7275,10 @@
         }
       ],
       "foundry": "Contrast Foundry",
-      "foundryUrl": "https://contrastfoundry.com"
+      "foundryUrl": "https://contrastfoundry.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Mercator",
@@ -5733,7 +7327,10 @@
         }
       ],
       "foundry": "Source Type",
-      "foundryUrl": "https://www.sourcetype.com"
+      "foundryUrl": "https://www.sourcetype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "GT Standard",
@@ -5782,7 +7379,10 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Kyoto",
@@ -5831,7 +7431,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Royal Gothic",
@@ -5839,13 +7442,26 @@
       "date": "2025-05-01",
       "images": [
         {
-          "src": "/foundry-images/c226c8b6ee1b8ba9.webp",
-          "width": 481,
+          "src": "/foundry-images/0980505878a85633.webp",
+          "width": 878,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ae71e0f0c0881dd1.webp",
+          "width": 975,
+          "height": 430
+        },
+        {
+          "src": "/foundry-images/90ef0f00a5f950e5.webp",
+          "width": 963,
           "height": 640
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ABC Stefan",
@@ -5894,7 +7510,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "NaN SuperX",
@@ -5943,7 +7562,11 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans",
+        "Serif"
+      ]
     },
     {
       "name": "ALT Nadrey",
@@ -5992,7 +7615,10 @@
         }
       ],
       "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
+      "foundryUrl": "https://alt-tf.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Bernie",
@@ -6041,7 +7667,10 @@
         }
       ],
       "foundry": "Source Type",
-      "foundryUrl": "https://www.sourcetype.com"
+      "foundryUrl": "https://www.sourcetype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Watch",
@@ -6090,7 +7719,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Perfektta",
@@ -6104,7 +7736,62 @@
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Oceanic by Interval Type",
+      "url": "https://type.today/en/collection/oceanic",
+      "date": "2025-03-18",
+      "images": [
+        {
+          "src": "/foundry-images/8826304c7dfe5707.webp",
+          "width": 2048,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c7265e81ecb3d0bc.webp",
+          "width": 1173,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/40965aed080999e8.webp",
+          "width": 2048,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7e6a69f6f5e7966d.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9df1ca1d4c04dad5.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0626a1addeb56a0e.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2bcb0880a02041a7.webp",
+          "width": 1138,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a9c87465ccf42589.webp",
+          "width": 2048,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Museum",
@@ -6153,7 +7840,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Slight Chance",
@@ -6187,7 +7877,10 @@
         }
       ],
       "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
+      "foundryUrl": "https://djr.com",
+      "category": [
+        "Pixel"
+      ]
     },
     {
       "name": "NaN Serf Sans",
@@ -6236,7 +7929,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Semi Serif"
+      ]
     },
     {
       "name": "Business Blooming",
@@ -6260,7 +7956,10 @@
         }
       ],
       "foundry": "Pizza Typefaces",
-      "foundryUrl": "https://typefaces.pizza"
+      "foundryUrl": "https://typefaces.pizza",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "CoFo Sans Semi-Mono",
@@ -6274,7 +7973,11 @@
         }
       ],
       "foundry": "Contrast Foundry",
-      "foundryUrl": "https://contrastfoundry.com"
+      "foundryUrl": "https://contrastfoundry.com",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     },
     {
       "name": "ABC Solar",
@@ -6323,7 +8026,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Terrane",
@@ -6337,7 +8043,10 @@
         }
       ],
       "foundry": "Production Type",
-      "foundryUrl": "https://productiontype.com"
+      "foundryUrl": "https://productiontype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Miso",
@@ -6376,7 +8085,10 @@
         }
       ],
       "foundry": "Smuss Type Kiosk",
-      "foundryUrl": "https://typekiosk.smuss.studio"
+      "foundryUrl": "https://typekiosk.smuss.studio",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Fazer",
@@ -6425,7 +8137,10 @@
         }
       ],
       "foundry": "Family Type",
-      "foundryUrl": "https://www.familytype.co"
+      "foundryUrl": "https://www.familytype.co",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Micronova",
@@ -6449,7 +8164,10 @@
         }
       ],
       "foundry": "Binnenland",
-      "foundryUrl": "https://binnenland.ch"
+      "foundryUrl": "https://binnenland.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Cyan Mono",
@@ -6460,10 +8178,18 @@
           "src": "/foundry-images/9edb5b8a9a94f59d.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/8edeb31ae88f03e1.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Kristall",
@@ -6476,13 +8202,46 @@
           "height": 640
         },
         {
+          "src": "/foundry-images/9a77ef248635a541.webp",
+          "width": 446,
+          "height": 640
+        },
+        {
           "src": "/foundry-images/f3a7e8259a60e7f4.webp",
           "width": 446,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/22b13904f5ddbaa9.webp",
+          "width": 1494,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/248a0374160fa5fd.webp",
+          "width": 730,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/7aef777ce93a790b.webp",
+          "width": 730,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/13bfcaa69fd9f6a0.webp",
+          "width": 1494,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dff77765d0bf8d74.webp",
+          "width": 730,
+          "height": 639
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Geigy Cond Duplex",
@@ -6493,10 +8252,283 @@
           "src": "/foundry-images/cd403a2a50ba57c5.webp",
           "width": 960,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/effd6a56afe85d9a.webp",
+          "width": 965,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/dc3c26e2927836fd.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Lader Condensed",
+      "url": "https://groteskly.xyz/fonts/lader-condensed",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/8e1520536c724afe.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f53ae077f4b07857.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ae8f098eb7a70e59.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/53045ec3d0da5107.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/911bfcd9090afc70.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4142ae59aa672579.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cabaadce1c1213c0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d23ff8cdf050664.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Lader Compact",
+      "url": "https://groteskly.xyz/fonts/lader-compact",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/acd7591ed4d09db7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/eef3497ee0f9cd63.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3a7608c7b2079bd7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/094dda199e3db1c7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/526f7b2e95f76368.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1654f9f3365a6a8c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/291cf53926c1550e.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bb62bf6bfa914fd5.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Lader Wide",
+      "url": "https://groteskly.xyz/fonts/lader-wide",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/5e96d86a17b57c3c.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6e1a5ba56857e523.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/296ed4b519c0ba92.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/554be2a72b073af8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f5b8377cd9a157c4.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3e43e60c956c656a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e44967069841561f.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/22ec04cc6e8c7f4d.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Lader Extended",
+      "url": "https://groteskly.xyz/fonts/lader-extended",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/5388fb35f115b757.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e8214d896fd1906a.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/24989b5abf8e0047.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/69acb53a4f2c9ec9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2aebb90038f12fa5.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5503c3ce65500607.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0e661c695fb0b9f8.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9ec9917a2be78c09.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Porte Neue",
+      "url": "https://groteskly.xyz/fonts/porte-neue",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/3309b8abdff1f4e9.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8b89b3d24e4be209.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ff22ee23bbdc0605.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bcb3f885966025eb.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8bdf3b836d817d58.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b845e305bdb12121.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9a9edb0acb95b890.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/27db3c87cf2e8fdd.webp",
+          "width": 960,
+          "height": 640
+        }
+      ],
+      "foundry": "Groteskly Yours Studio",
+      "foundryUrl": "https://groteskly.xyz",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Place",
@@ -6504,13 +8536,46 @@
       "date": "2024-12-17",
       "images": [
         {
-          "src": "/foundry-images/324396aa780c656c.webp",
-          "width": 600,
-          "height": 451
+          "src": "/foundry-images/ba9d1e68586d5eda.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/304bcb1cab1c946e.webp",
+          "width": 961,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/1431fe798b7e3954.webp",
+          "width": 961,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2cf2a5aeef9f012c.webp",
+          "width": 961,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/50b18201cacca94b.webp",
+          "width": 961,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/439741802666dec2.webp",
+          "width": 961,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9baf15d1874d92d9.webp",
+          "width": 961,
+          "height": 640
         }
       ],
       "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Arosa",
@@ -6534,7 +8599,37 @@
         }
       ],
       "foundry": "Nouvelle Noire",
-      "foundryUrl": "https://nouvellenoire.ch"
+      "foundryUrl": "https://nouvellenoire.ch",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Maregraphe by CSTM Fonts",
+      "url": "https://type.today/en/collection/maregraphe",
+      "date": "2024-11-14",
+      "images": [
+        {
+          "src": "/foundry-images/2060ec4b80d62a9f.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/775f443f7fc84433.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e8535ebde7afe572.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Model",
@@ -6578,7 +8673,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Lettra Mono",
@@ -6627,7 +8725,10 @@
         }
       ],
       "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://pangrampangram.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Lentiform",
@@ -6666,7 +8767,10 @@
         }
       ],
       "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
+      "foundryUrl": "https://djr.com",
+      "category": [
+        "Script"
+      ]
     },
     {
       "name": "ABC Otto",
@@ -6715,7 +8819,10 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "GT Flaire",
@@ -6759,7 +8866,10 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "ABC Pelikan",
@@ -6808,7 +8918,166 @@
         }
       ],
       "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Struve by Schrift Foundry",
+      "url": "https://type.today/en/struve",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/e5268d32b6068be4.webp",
+          "width": 446,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b705afef6f733a58.webp",
+          "width": 446,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fee6369a4fef6fa7.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/77b1a9f8e5d77ef1.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/88797a9a9d796b47.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0169a6e04e9c482c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/139c554b2ce61338.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/771eefb224a6a232.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Bering Stencil by Schrift Foundry",
+      "url": "https://type.today/en/bering_stencil",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/8c96b0642afcc32c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/01fd7cbb690055dd.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d1232f211df9c6b.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bd7f84acc39eba89.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4259644e28944481.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6cd28284fcc5b1e0.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f1edd50201a905b1.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d8cceee733ddbd5b.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Retros by Schrift Foundry",
+      "url": "https://type.today/en/retros",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/a84fa06390757d1e.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a961c22d9b09ac23.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3c35709d58fe718c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2ddcbc6df382178.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a8b9c8ed69a1df9f.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7da6815d3feea998.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b44fdbeaea0f5858.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/69df2ac6e008df84.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Season",
@@ -6822,7 +9091,10 @@
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Semi Serif"
+      ]
     },
     {
       "name": "Sinaloa",
@@ -6843,10 +9115,18 @@
           "src": "/foundry-images/782db8c77b199bb4.webp",
           "width": 493,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/deeef6fe104ccbe6.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Sonora",
@@ -6867,10 +9147,18 @@
           "src": "/foundry-images/782db8c77b199bb4.webp",
           "width": 493,
           "height": 640
+        },
+        {
+          "src": "/foundry-images/f171b31743473074.webp",
+          "width": 960,
+          "height": 640
         }
       ],
       "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://lineto.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "CoFo Holz",
@@ -6899,7 +9187,10 @@
         }
       ],
       "foundry": "Contrast Foundry",
-      "foundryUrl": "https://contrastfoundry.com"
+      "foundryUrl": "https://contrastfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "GT Pantheon",
@@ -6948,7 +9239,52 @@
         }
       ],
       "foundry": "Grilli Type",
-      "foundryUrl": "https://www.grillitype.com"
+      "foundryUrl": "https://www.grillitype.com",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Taler by Denis Serebryakov",
+      "url": "https://type.today/en/collection/taler",
+      "date": "2024-09-05",
+      "images": [
+        {
+          "src": "/foundry-images/7c6fa86b150d8787.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e48a5b42d926b386.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/290308be293a27b9.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e836f8a8ad1b5066.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/72b9718f7ee55a26.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/50dd19b1332501c2.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Signa Set",
@@ -6977,7 +9313,11 @@
         }
       ],
       "foundry": "Optimo",
-      "foundryUrl": "https://optimo.ch"
+      "foundryUrl": "https://optimo.ch",
+      "category": [
+        "Sans",
+        "Serif"
+      ]
     },
     {
       "name": "Booton",
@@ -6996,7 +9336,10 @@
         }
       ],
       "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://displaay.net",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Camelion",
@@ -7015,7 +9358,62 @@
         }
       ],
       "foundry": "Oh No Type Co.",
-      "foundryUrl": "https://ohnotype.co"
+      "foundryUrl": "https://ohnotype.co",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
+      "name": "Factor A & B by Interval Type",
+      "url": "https://type.today/en/collection/factor",
+      "date": "2024-08-26",
+      "images": [
+        {
+          "src": "/foundry-images/61086d73543a2c17.webp",
+          "width": 1173,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3409bd1f5980e948.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d17068107c7fb57e.webp",
+          "width": 1173,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/18ade57224bf5740.webp",
+          "width": 1173,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bed14582835d8da0.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/aac92a67409a9990.webp",
+          "width": 1173,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/61b0bd6364892cfe.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/86f163ab57415f2d.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NaN Tresor",
@@ -7064,75 +9462,10 @@
         }
       ],
       "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
-    },
-    {
-      "name": "Gatwick",
-      "url": "https://pangrampangram.com/products/gatwick",
-      "date": "2024-08-01",
-      "images": [
-        {
-          "src": "/foundry-images/35bc00dc74646056.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/413825b68452d064.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/21c7b92ab2a500f6.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/95128f4afcb574e9.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4a4cb1404194898d.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/985a2d9d6fcc87de.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/84c17cdff02619fa.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/fc9d3207a077b5cf.webp",
-          "width": 960,
-          "height": 640
-        }
-      ],
-      "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
-    },
-    {
-      "name": "Saans",
-      "url": "https://displaay.net/typeface/saans",
-      "date": "2024-08-01",
-      "images": [
-        {
-          "src": "/foundry-images/ab84fe1be80e1f2f.webp",
-          "width": 1219,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5ed3b8a0a1e9cb09.webp",
-          "width": 1126,
-          "height": 640
-        }
-      ],
-      "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
+      "foundryUrl": "https://www.nan.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Booklet Sans",
@@ -7181,90 +9514,10 @@
         }
       ],
       "foundry": "Brownfox",
-      "foundryUrl": "https://brownfox.org"
-    },
-    {
-      "name": "Successor",
-      "url": "https://commercialtype.com/catalog/successor",
-      "date": "2024-07-17",
-      "images": [
-        {
-          "src": "/foundry-images/2ffbcb63fdff2f63.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/65ae0af975a6f334.webp",
-          "width": 985,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/58c4d8e21d7bc184.webp",
-          "width": 828,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/aa3356ea6816b310.webp",
-          "width": 828,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4ef1798f5b97f0e6.webp",
-          "width": 828,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "NaN Rage",
-      "url": "https://www.nan.xyz/fonts/nan-rage-family/",
-      "date": "2024-07-09",
-      "images": [
-        {
-          "src": "/foundry-images/47af07d5e5cce142.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/98fe10b8fc2ac1cc.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cf03674027352bd0.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f68dfb4d143816ea.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/25c9922a7a2feba7.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0a086509aa05bb29.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8f733ead81a57c59.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/10f47c4ede54f82f.webp",
-          "width": 1067,
-          "height": 640
-        }
-      ],
-      "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://brownfox.org",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Pivot Grotesk",
@@ -7293,109 +9546,10 @@
         }
       ],
       "foundry": "Nouvelle Noire",
-      "foundryUrl": "https://nouvellenoire.ch"
-    },
-    {
-      "name": "ALT Klarinet",
-      "url": "https://alt-tf.com/products/alt-klarinet",
-      "date": "2024-07-08",
-      "images": [
-        {
-          "src": "/foundry-images/9d14bffa7ee216c2.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3e40c68dc213ee58.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a565487b7cc6bc93.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/03277c85a9be0bb8.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/60923d7d6fb51d66.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/46256e89c5981fb0.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/317ef6bb3a0cc5f1.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3512852c7fcf8b9c.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
-    },
-    {
-      "name": "Ottavio",
-      "url": "https://djr.com/notes/ottavio-v-03-font-of-the-month",
-      "date": "2024-07-01",
-      "images": [
-        {
-          "src": "/foundry-images/ba3a6863a4a5766b.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/dcd9e7bc9ace46a0.webp",
-          "width": 489,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7523155df824c884.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
-    },
-    {
-      "name": "Align",
-      "url": "https://commercialtype.com/catalog/align",
-      "date": "2024-06-26",
-      "images": [
-        {
-          "src": "/foundry-images/ec5b595435d4b18f.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/777112b1bd197d9e.webp",
-          "width": 853,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/aa4d69491532e290.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3e5a05fbe8da9d48.webp",
-          "width": 1067,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundryUrl": "https://nouvellenoire.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "MD Lórien",
@@ -7444,46 +9598,10 @@
         }
       ],
       "foundry": "Mass-Driver",
-      "foundryUrl": "https://mass-driver.com"
-    },
-    {
-      "name": "Booklet Serif",
-      "url": "https://brownfox.org/fonts/booklet-serif",
-      "date": "2024-06-17",
-      "images": [
-        {
-          "src": "/foundry-images/153f3ff32bf0c6d3.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f8fc662d8a037403.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8f0b4f41db97c3e7.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cd4ad3d97063e29c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/03e2fd1c9b50fb1d.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/780a51643b7ac0cd.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Brownfox",
-      "foundryUrl": "https://brownfox.org"
+      "foundryUrl": "https://mass-driver.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "TWK Continental",
@@ -7532,100 +9650,10 @@
         }
       ],
       "foundry": "WELTKERN®",
-      "foundryUrl": "https://weltkern.com"
-    },
-    {
-      "name": "ALT Systema",
-      "url": "https://alt-tf.com/products/alt-systema",
-      "date": "2024-06-09",
-      "images": [
-        {
-          "src": "/foundry-images/c12655dd9040b1f6.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a2736907c54d737c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8e521aafa226706a.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7303057f9c768d75.webp",
-          "width": 600,
-          "height": 600
-        },
-        {
-          "src": "/foundry-images/32d279c0ca2957ac.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/bbd36ae0c85721a7.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ffe6b333a2343159.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/891923016bb2cd7d.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
-    },
-    {
-      "name": "Editorial Sans",
-      "url": "https://pangrampangram.com/products/editorial-sans",
-      "date": "2024-06-01",
-      "images": [
-        {
-          "src": "/foundry-images/80e41308b63e9f6c.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5a4a1dfe5e4f4022.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/eb0f7e44448748e5.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/28af1ccff8b5a6a0.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b4a24793940f30ca.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a04a40f4e180cd57.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9275faf07614891e.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
+      "foundryUrl": "https://weltkern.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "American Grotesk",
@@ -7674,7 +9702,10 @@
         }
       ],
       "foundry": "Klim Type Foundry",
-      "foundryUrl": "https://klim.co.nz"
+      "foundryUrl": "https://klim.co.nz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "American Grotesk Condensed",
@@ -7723,7 +9754,10 @@
         }
       ],
       "foundry": "Klim Type Foundry",
-      "foundryUrl": "https://klim.co.nz"
+      "foundryUrl": "https://klim.co.nz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "American Grotesk Compressed",
@@ -7772,105 +9806,10 @@
         }
       ],
       "foundry": "Klim Type Foundry",
-      "foundryUrl": "https://klim.co.nz"
-    },
-    {
-      "name": "ALT Maria Clara",
-      "url": "https://alt-tf.com/products/alt-maria-clara",
-      "date": "2024-05-02",
-      "images": [
-        {
-          "src": "/foundry-images/7c07cab94c2b2b3f.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2eef54712171528b.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d7c023d51b9194ed.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c9bce18dbc3b2b96.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8bb8f6526fdf4f45.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b6c38fd98afca267.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/18cd411f36fd6b83.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c11d48a3aae4a165.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "ALT.tf",
-      "foundryUrl": "https://alt-tf.com"
-    },
-    {
-      "name": "NaN Druid",
-      "url": "https://www.nan.xyz/fonts/nan-druid/",
-      "date": "2024-04-29",
-      "images": [
-        {
-          "src": "/foundry-images/5e10e6a012a451b4.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d9dcf168e534665d.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6b3cb62baa168745.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6a8343cc88f7122a.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/1dd55834aa48bb98.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/68e5a9628a632967.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ea5c96ab2a3e056d.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/84ccee2d372a9b1b.webp",
-          "width": 1067,
-          "height": 640
-        }
-      ],
-      "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundryUrl": "https://klim.co.nz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Polymath",
@@ -7904,237 +9843,62 @@
         }
       ],
       "foundry": "Oh No Type Co.",
-      "foundryUrl": "https://ohnotype.co"
+      "foundryUrl": "https://ohnotype.co",
+      "category": [
+        "Sans"
+      ]
     },
     {
-      "name": "ABC Gramercy",
-      "url": "https://abcdinamo.com/typefaces/gramercy",
-      "date": "2024-04-11",
+      "name": "Spyre Epoch",
+      "url": "https://www.britishstandardtype.xyz/typefaces/spyre-epoch",
+      "date": "2024-04-04",
       "images": [
         {
-          "src": "/foundry-images/f35920146fa104fa.webp",
-          "width": 1200,
-          "height": 525
+          "src": "/foundry-images/62f0e1a7206984a3.webp",
+          "width": 618,
+          "height": 639
         },
         {
-          "src": "/foundry-images/f223a305b0507b38.webp",
-          "width": 640,
+          "src": "/foundry-images/402cad741b4190c1.webp",
+          "width": 1196,
           "height": 640
         },
         {
-          "src": "/foundry-images/a0ac9999fbfc4a27.webp",
-          "width": 640,
+          "src": "/foundry-images/da4a2ffae3044919.webp",
+          "width": 2319,
           "height": 640
         },
         {
-          "src": "/foundry-images/bcc6801aa1614e34.webp",
-          "width": 640,
+          "src": "/foundry-images/1f9ffa6b6d78b64d.webp",
+          "width": 2543,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/44674a883a762e0a.webp",
+          "width": 2006,
           "height": 640
         },
         {
-          "src": "/foundry-images/42bdf1ce2f59793e.webp",
-          "width": 640,
+          "src": "/foundry-images/32a833e04752517e.webp",
+          "width": 1012,
           "height": 640
         },
         {
-          "src": "/foundry-images/84c37a9478164fc1.webp",
-          "width": 640,
+          "src": "/foundry-images/eb63e1e3237f7901.webp",
+          "width": 1854,
           "height": 640
         },
         {
-          "src": "/foundry-images/e97f8f6cc8a3d58d.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7700de3c21f2bee6.webp",
-          "width": 1200,
-          "height": 460
-        }
-      ],
-      "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
-    },
-    {
-      "name": "Unbounded",
-      "url": "https://www.nan.xyz/fonts/unbounded/",
-      "date": "2024-04-08",
-      "images": [
-        {
-          "src": "/foundry-images/a514b29aa676e3c9.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a1c6c855b05a598f.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/bae8671789de3874.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8384cd7d453b2e14.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/988ef7ae1736af9f.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c95135a72b4d460f.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cd1b107156ff64db.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f36bffbc153bfb6d.webp",
-          "width": 1067,
+          "src": "/foundry-images/7efe5a3cdb9d50ae.webp",
+          "width": 1125,
           "height": 640
         }
       ],
-      "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
-    },
-    {
-      "name": "Playground",
-      "url": "https://pangrampangram.com/products/playground",
-      "date": "2024-04-01",
-      "images": [
-        {
-          "src": "/foundry-images/cfe476d959385efd.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/577044bd6608f47a.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e03f79140df4ad05.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/83a28ef5d893ea73.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c4f247ecc989bde5.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cf5c8aa47fbdb6ad.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d3effb05a0597e6a.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8fffdc14fbcc86fd.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Pangram Pangram",
-      "foundryUrl": "https://pangrampangram.com"
-    },
-    {
-      "name": "Indoor Kid",
-      "url": "https://djr.com/notes/indoor-kid-font-of-the-month",
-      "date": "2024-03-31",
-      "images": [
-        {
-          "src": "/foundry-images/b232cbb1d06894bb.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6c72495ec3f7c75a.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8f700adb69f5c533.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cb366abb6c3c4707.webp",
-          "width": 581,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0ca9a4b403734c1b.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
-    },
-    {
-      "name": "Atlas Grotesk",
-      "url": "https://commercialtype.com/catalog/atlas/atlas_grotesk",
-      "date": "2024-03-27",
-      "images": [
-        {
-          "src": "/foundry-images/8b079b491c18a8f5.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/93c605298cefa31e.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c9e5e7c469c9793e.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6b52990308b8731a.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/41694775d0152dca.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/93043c816cce82bc.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/227a1f86c01bbbbd.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/da2c84250aa279e5.webp",
-          "width": 961,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
+      "foundry": "British Standard Type",
+      "foundryUrl": "https://www.britishstandardtype.xyz/typefaces",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Yumex",
@@ -8183,246 +9947,62 @@
         }
       ],
       "foundry": "Oh No Type Co.",
-      "foundryUrl": "https://ohnotype.co"
+      "foundryUrl": "https://ohnotype.co",
+      "category": [
+        "Sans"
+      ]
     },
     {
-      "name": "Forevs",
-      "url": "https://ohnotype.co/fonts/forevs",
-      "date": "2024-03-05",
+      "name": "Spyre",
+      "url": "https://www.britishstandardtype.xyz/typefaces/spyre",
+      "date": "2024-01-15",
       "images": [
         {
-          "src": "/foundry-images/634306433ad88231.webp",
-          "width": 1191,
-          "height": 638
+          "src": "/foundry-images/191eb25964e7d0f5.webp",
+          "width": 618,
+          "height": 639
         },
         {
-          "src": "/foundry-images/4c4224f4385d1fba.webp",
-          "width": 1207,
+          "src": "/foundry-images/31b7b3a7e77379c8.webp",
+          "width": 1222,
           "height": 640
         },
         {
-          "src": "/foundry-images/bc5907027b245e83.webp",
-          "width": 1191,
-          "height": 638
-        },
-        {
-          "src": "/foundry-images/13a1b621776b48a5.webp",
-          "width": 1211,
-          "height": 638
-        },
-        {
-          "src": "/foundry-images/2d6e704d97b7f859.webp",
-          "width": 1221,
+          "src": "/foundry-images/439986e7b2458eda.webp",
+          "width": 2376,
           "height": 640
         },
         {
-          "src": "/foundry-images/81a4000f0541feae.webp",
-          "width": 1221,
+          "src": "/foundry-images/0aec837cea16b418.webp",
+          "width": 2030,
+          "height": 639
+        },
+        {
+          "src": "/foundry-images/1b9e20d8312aa3d7.webp",
+          "width": 1034,
           "height": 640
         },
         {
-          "src": "/foundry-images/9c05982dea96dd3c.webp",
-          "width": 1211,
-          "height": 638
+          "src": "/foundry-images/bbf3c71bd9cbe0c7.webp",
+          "width": 1846,
+          "height": 639
         },
         {
-          "src": "/foundry-images/6d4b6cd03601fbf3.webp",
-          "width": 1221,
+          "src": "/foundry-images/195f4898efdbf9ad.webp",
+          "width": 1162,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bf3be03662f9a1d7.webp",
+          "width": 1057,
           "height": 640
         }
       ],
-      "foundry": "Oh No Type Co.",
-      "foundryUrl": "https://ohnotype.co"
-    },
-    {
-      "name": "Focal",
-      "url": "https://commercialtype.com/catalog/focal/focal",
-      "date": "2024-03-01",
-      "images": [
-        {
-          "src": "/foundry-images/465acfd8c3234ae8.webp",
-          "width": 481,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6b52990308b8731a.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/41694775d0152dca.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/93043c816cce82bc.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/227a1f86c01bbbbd.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/da2c84250aa279e5.webp",
-          "width": 961,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com"
-    },
-    {
-      "name": "ABC Ginto Rounded",
-      "url": "https://abcdinamo.com/typefaces/ginto-rounded",
-      "date": "2024-02-06",
-      "images": [
-        {
-          "src": "/foundry-images/154a0fd174fac07b.webp",
-          "width": 904,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b9bbc8ebab7c5422.webp",
-          "width": 639,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c815b64e5a7cda73.webp",
-          "width": 904,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0cfc0e63c93118af.webp",
-          "width": 904,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7746d05e3d7ea370.webp",
-          "width": 639,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3f651fc6267cdd9a.webp",
-          "width": 904,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/728cd20225f3a65b.webp",
-          "width": 851,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4f9aab645a6b870e.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Dinamo",
-      "foundryUrl": "https://abcdinamo.com"
-    },
-    {
-      "name": "Concrette",
-      "url": "https://displaay.net/typeface/concrette",
-      "date": "2024-02-01",
-      "images": [
-        {
-          "src": "/foundry-images/9fc1d1461b657493.webp",
-          "width": 1219,
-          "height": 640
-        }
-      ],
-      "foundry": "Displaay",
-      "foundryUrl": "https://displaay.net"
-    },
-    {
-      "name": "Daily Special",
-      "url": "https://djr.com/notes/februarys-font-of-the-month-more-daily-special",
-      "date": "2024-02-01",
-      "images": [
-        {
-          "src": "/foundry-images/86f0d47318920bb4.webp",
-          "width": 480,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2e180992df0e6cab.webp",
-          "width": 498,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7b5840a61f64f63d.webp",
-          "width": 947,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e7ecffde0b996628.webp",
-          "width": 495,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f553cddcc8864b18.webp",
-          "width": 480,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/850c33cfbcdf6754.webp",
-          "width": 519,
-          "height": 640
-        }
-      ],
-      "foundry": "DJR",
-      "foundryUrl": "https://djr.com"
-    },
-    {
-      "name": "NaN Spaceland",
-      "url": "https://www.nan.xyz/fonts/nan-spaceland/",
-      "date": "2024-01-10",
-      "images": [
-        {
-          "src": "/foundry-images/cb44a3c03982ce9c.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/33bf79760e71f077.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2aa33eed8bf783f6.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cfd25ef10dc2eeb7.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/04177731f33d5036.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/eef6939e518108ee.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6a931644af8c92ec.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a36cb0c53e51f396.webp",
-          "width": 1067,
-          "height": 640
-        }
-      ],
-      "foundry": "NaN",
-      "foundryUrl": "https://www.nan.xyz"
+      "foundry": "British Standard Type",
+      "foundryUrl": "https://www.britishstandardtype.xyz/typefaces",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "MD Thermochrome",
@@ -8436,7 +10016,10 @@
         }
       ],
       "foundry": "Mass-Driver",
-      "foundryUrl": "https://mass-driver.com"
+      "foundryUrl": "https://mass-driver.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "UN-11",
@@ -8485,7 +10068,10 @@
         }
       ],
       "foundry": "Source Type",
-      "foundryUrl": "https://www.sourcetype.com"
+      "foundryUrl": "https://www.sourcetype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Saga",
@@ -8509,7 +10095,10 @@
         }
       ],
       "foundry": "Smuss Type Kiosk",
-      "foundryUrl": "https://typekiosk.smuss.studio"
+      "foundryUrl": "https://typekiosk.smuss.studio",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Lanterne",
@@ -8538,7 +10127,10 @@
         }
       ],
       "foundry": "Family Type",
-      "foundryUrl": "https://www.familytype.co"
+      "foundryUrl": "https://www.familytype.co",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Michaux",
@@ -8577,88 +10169,10 @@
         }
       ],
       "foundry": "Plain Form",
-      "foundryUrl": "https://plain-form.com"
-    },
-    {
-      "name": "Geigy Duplex",
-      "url": "https://lineto.com/typefaces/geigy-duplex",
-      "date": "2024-01-01",
-      "images": [
-        {
-          "src": "/foundry-images/bcb0ca2187e9bc3d.webp",
-          "width": 960,
-          "height": 640
-        }
-      ],
-      "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
-    },
-    {
-      "name": "Kleisch",
-      "url": "https://lineto.com/typefaces/kleisch",
-      "date": "2024-01-01",
-      "images": [
-        {
-          "src": "/foundry-images/f0670dfda127debf.webp",
-          "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b4939c8b9d7f62fc.webp",
-          "width": 620,
-          "height": 640
-        }
-      ],
-      "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
-    },
-    {
-      "name": "Kleisch Headline",
-      "url": "https://lineto.com/typefaces/kleisch-headline",
-      "date": "2024-01-01",
-      "images": [
-        {
-          "src": "/foundry-images/5cb110d6c60bd169.webp",
-          "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b4939c8b9d7f62fc.webp",
-          "width": 620,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b116b0afb903bbda.webp",
-          "width": 483,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3e39177cb18014e8.webp",
-          "width": 483,
-          "height": 640
-        }
-      ],
-      "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
-    },
-    {
-      "name": "Kleisch Display",
-      "url": "https://lineto.com/typefaces/kleisch-display",
-      "date": "2024-01-01",
-      "images": [
-        {
-          "src": "/foundry-images/ffaaa806e141ce48.webp",
-          "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b4939c8b9d7f62fc.webp",
-          "width": 620,
-          "height": 640
-        }
-      ],
-      "foundry": "Lineto",
-      "foundryUrl": "https://lineto.com"
+      "foundryUrl": "https://plain-form.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Oceanic Gothic",
@@ -8702,7 +10216,10 @@
         }
       ],
       "foundry": "Interval Type",
-      "foundryUrl": "https://intervaltype.com"
+      "foundryUrl": "https://intervaltype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Ease",
@@ -8721,7 +10238,10 @@
         }
       ],
       "foundry": "Studio Feixen",
-      "foundryUrl": "https://www.studiofeixen.ch"
+      "foundryUrl": "https://www.studiofeixen.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "NEXT",
@@ -8750,7 +10270,10 @@
         }
       ],
       "foundry": "Optimo",
-      "foundryUrl": "https://optimo.ch"
+      "foundryUrl": "https://optimo.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Swinton",
@@ -8779,7 +10302,10 @@
         }
       ],
       "foundry": "Nouvelle Noire",
-      "foundryUrl": "https://nouvellenoire.ch"
+      "foundryUrl": "https://nouvellenoire.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Systemia",
@@ -8828,7 +10354,10 @@
         }
       ],
       "foundry": "Peregrin Studio",
-      "foundryUrl": "https://peregrinstudio.com"
+      "foundryUrl": "https://peregrinstudio.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Non Pliant",
@@ -8847,7 +10376,10 @@
         }
       ],
       "foundry": "Non Foundry",
-      "foundryUrl": "https://nonfoundry.com"
+      "foundryUrl": "https://nonfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Dear Sir Madam",
@@ -8881,7 +10413,10 @@
         }
       ],
       "foundry": "Radim Peško",
-      "foundryUrl": "https://radimpesko.com"
+      "foundryUrl": "https://radimpesko.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "B-Mecha",
@@ -8910,7 +10445,10 @@
         }
       ],
       "foundry": "Basement Foundry",
-      "foundryUrl": "https://foundry.basement.studio"
+      "foundryUrl": "https://foundry.basement.studio",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Dozza",
@@ -8949,7 +10487,10 @@
         }
       ],
       "foundry": "Pizza Typefaces",
-      "foundryUrl": "https://typefaces.pizza"
+      "foundryUrl": "https://typefaces.pizza",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "UltraSolar",
@@ -8998,7 +10539,10 @@
         }
       ],
       "foundry": "Pizza Typefaces",
-      "foundryUrl": "https://typefaces.pizza"
+      "foundryUrl": "https://typefaces.pizza",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Pleasure",
@@ -9047,7 +10591,10 @@
         }
       ],
       "foundry": "Pizza Typefaces",
-      "foundryUrl": "https://typefaces.pizza"
+      "foundryUrl": "https://typefaces.pizza",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "TWK Burns",
@@ -9096,7 +10643,10 @@
         }
       ],
       "foundry": "WELTKERN®",
-      "foundryUrl": "https://weltkern.com"
+      "foundryUrl": "https://weltkern.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Non Tempo",
@@ -9110,7 +10660,10 @@
         }
       ],
       "foundry": "Non Foundry",
-      "foundryUrl": "https://nonfoundry.com"
+      "foundryUrl": "https://nonfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Keyframe",
@@ -9159,7 +10712,10 @@
         }
       ],
       "foundry": "Plain Form",
-      "foundryUrl": "https://plain-form.com"
+      "foundryUrl": "https://plain-form.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Carpenter",
@@ -9178,7 +10734,10 @@
         }
       ],
       "foundry": "Basement Foundry",
-      "foundryUrl": "https://foundry.basement.studio"
+      "foundryUrl": "https://foundry.basement.studio",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Curia",
@@ -9202,7 +10761,10 @@
         }
       ],
       "foundry": "Basement Foundry",
-      "foundryUrl": "https://foundry.basement.studio"
+      "foundryUrl": "https://foundry.basement.studio",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Uniforma",
@@ -9216,7 +10778,10 @@
         }
       ],
       "foundry": "Kometa",
-      "foundryUrl": "https://kometatype.com"
+      "foundryUrl": "https://kometatype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Adhesion",
@@ -9240,7 +10805,11 @@
         }
       ],
       "foundry": "Basement Foundry",
-      "foundryUrl": "https://foundry.basement.studio"
+      "foundryUrl": "https://foundry.basement.studio",
+      "category": [
+        "Script",
+        "Pixel"
+      ]
     },
     {
       "name": "Denton",
@@ -9289,7 +10858,10 @@
         }
       ],
       "foundry": "Peregrin Studio",
-      "foundryUrl": "https://peregrinstudio.com"
+      "foundryUrl": "https://peregrinstudio.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "TWK Ghost",
@@ -9338,7 +10910,10 @@
         }
       ],
       "foundry": "WELTKERN®",
-      "foundryUrl": "https://weltkern.com"
+      "foundryUrl": "https://weltkern.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Bureau Serif",
@@ -9387,7 +10962,10 @@
         }
       ],
       "foundry": "Smuss Type Kiosk",
-      "foundryUrl": "https://typekiosk.smuss.studio"
+      "foundryUrl": "https://typekiosk.smuss.studio",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Paraiso",
@@ -9436,7 +11014,10 @@
         }
       ],
       "foundry": "Plain Form",
-      "foundryUrl": "https://plain-form.com"
+      "foundryUrl": "https://plain-form.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Victor Narrow",
@@ -9465,7 +11046,10 @@
         }
       ],
       "foundry": "Kometa",
-      "foundryUrl": "https://kometatype.com"
+      "foundryUrl": "https://kometatype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Suisse",
@@ -9514,7 +11098,11 @@
         }
       ],
       "foundry": "Swiss Typefaces",
-      "foundryUrl": "https://www.swisstypefaces.com"
+      "foundryUrl": "https://www.swisstypefaces.com",
+      "category": [
+        "Sans",
+        "Serif"
+      ]
     },
     {
       "name": "Montagu Slab",
@@ -9528,7 +11116,10 @@
         }
       ],
       "foundry": "Florian Karsten",
-      "foundryUrl": "https://fonts.floriankarsten.com"
+      "foundryUrl": "https://fonts.floriankarsten.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "MD Nichrome",
@@ -9577,7 +11168,10 @@
         }
       ],
       "foundry": "Mass-Driver",
-      "foundryUrl": "https://mass-driver.com"
+      "foundryUrl": "https://mass-driver.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Metodo",
@@ -9616,7 +11210,10 @@
         }
       ],
       "foundry": "Optimo",
-      "foundryUrl": "https://optimo.ch"
+      "foundryUrl": "https://optimo.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Noi Grotesk",
@@ -9630,7 +11227,10 @@
         }
       ],
       "foundry": "Studio Feixen",
-      "foundryUrl": "https://www.studiofeixen.ch"
+      "foundryUrl": "https://www.studiofeixen.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Euclid Mono",
@@ -9649,7 +11249,10 @@
         }
       ],
       "foundry": "Swiss Typefaces",
-      "foundryUrl": "https://www.swisstypefaces.com"
+      "foundryUrl": "https://www.swisstypefaces.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Paabo",
@@ -9673,7 +11276,10 @@
         }
       ],
       "foundry": "Radim Peško",
-      "foundryUrl": "https://radimpesko.com"
+      "foundryUrl": "https://radimpesko.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Bastardo Grotesk",
@@ -9722,7 +11328,10 @@
         }
       ],
       "foundry": "Giulia Boggio",
-      "foundryUrl": "https://www.giuliaboggio.xyz"
+      "foundryUrl": "https://www.giuliaboggio.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Galgo Condensed",
@@ -9771,7 +11380,10 @@
         }
       ],
       "foundry": "Giulia Boggio",
-      "foundryUrl": "https://www.giuliaboggio.xyz"
+      "foundryUrl": "https://www.giuliaboggio.xyz",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Basel",
@@ -9815,7 +11427,10 @@
         }
       ],
       "foundry": "Optimo",
-      "foundryUrl": "https://optimo.ch"
+      "foundryUrl": "https://optimo.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Lexik",
@@ -9854,7 +11469,10 @@
         }
       ],
       "foundry": "Binnenland",
-      "foundryUrl": "https://binnenland.ch"
+      "foundryUrl": "https://binnenland.ch",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "FK Roman Standard",
@@ -9878,7 +11496,10 @@
         }
       ],
       "foundry": "Florian Karsten",
-      "foundryUrl": "https://fonts.floriankarsten.com"
+      "foundryUrl": "https://fonts.floriankarsten.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Eliza",
@@ -9927,7 +11548,10 @@
         }
       ],
       "foundry": "Camelot Typefaces",
-      "foundryUrl": "https://camelot-typefaces.com"
+      "foundryUrl": "https://camelot-typefaces.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Eliza Mono",
@@ -9976,7 +11600,10 @@
         }
       ],
       "foundry": "Camelot Typefaces",
-      "foundryUrl": "https://camelot-typefaces.com"
+      "foundryUrl": "https://camelot-typefaces.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "FK Grotesk Neue",
@@ -10010,7 +11637,10 @@
         }
       ],
       "foundry": "Florian Karsten",
-      "foundryUrl": "https://fonts.floriankarsten.com"
+      "foundryUrl": "https://fonts.floriankarsten.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "A Gothic",
@@ -10049,7 +11679,10 @@
         }
       ],
       "foundry": "Radim Peško",
-      "foundryUrl": "https://radimpesko.com"
+      "foundryUrl": "https://radimpesko.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "AA Gothic",
@@ -10083,7 +11716,10 @@
         }
       ],
       "foundry": "Radim Peško",
-      "foundryUrl": "https://radimpesko.com"
+      "foundryUrl": "https://radimpesko.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Aime",
@@ -10102,7 +11738,10 @@
         }
       ],
       "foundry": "Family Type",
-      "foundryUrl": "https://www.familytype.co"
+      "foundryUrl": "https://www.familytype.co",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "FK Raster Grotesk",
@@ -10121,7 +11760,10 @@
         }
       ],
       "foundry": "Florian Karsten",
-      "foundryUrl": "https://fonts.floriankarsten.com"
+      "foundryUrl": "https://fonts.floriankarsten.com",
+      "category": [
+        "Pixel"
+      ]
     },
     {
       "name": "SangBleu OG",
@@ -10170,7 +11812,10 @@
         }
       ],
       "foundry": "Swiss Typefaces",
-      "foundryUrl": "https://www.swisstypefaces.com"
+      "foundryUrl": "https://www.swisstypefaces.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Studio Feixen Sans",
@@ -10189,7 +11834,10 @@
         }
       ],
       "foundry": "Studio Feixen",
-      "foundryUrl": "https://www.studiofeixen.ch"
+      "foundryUrl": "https://www.studiofeixen.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Victor Serif",
@@ -10213,7 +11861,10 @@
         }
       ],
       "foundry": "Kometa",
-      "foundryUrl": "https://kometatype.com"
+      "foundryUrl": "https://kometatype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Attila",
@@ -10237,7 +11888,10 @@
         }
       ],
       "foundry": "Kometa",
-      "foundryUrl": "https://kometatype.com"
+      "foundryUrl": "https://kometatype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Non Sans",
@@ -10256,7 +11910,10 @@
         }
       ],
       "foundry": "Non Foundry",
-      "foundryUrl": "https://nonfoundry.com"
+      "foundryUrl": "https://nonfoundry.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Formale Grotesque",
@@ -10305,7 +11962,10 @@
         }
       ],
       "foundry": "Binnenland",
-      "foundryUrl": "https://binnenland.ch"
+      "foundryUrl": "https://binnenland.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Athletics",
@@ -10324,7 +11984,10 @@
         }
       ],
       "foundry": "Family Type",
-      "foundryUrl": "https://www.familytype.co"
+      "foundryUrl": "https://www.familytype.co",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Gräbenbach Mono",
@@ -10373,7 +12036,10 @@
         }
       ],
       "foundry": "Camelot Typefaces",
-      "foundryUrl": "https://camelot-typefaces.com"
+      "foundryUrl": "https://camelot-typefaces.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Gräbenbach",
@@ -10422,7 +12088,10 @@
         }
       ],
       "foundry": "Camelot Typefaces",
-      "foundryUrl": "https://camelot-typefaces.com"
+      "foundryUrl": "https://camelot-typefaces.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Korpus",
@@ -10471,7 +12140,10 @@
         }
       ],
       "foundry": "Binnenland",
-      "foundryUrl": "https://binnenland.ch"
+      "foundryUrl": "https://binnenland.ch",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Okima",
@@ -10485,7 +12157,10 @@
         }
       ],
       "foundry": "Rellence",
-      "foundryUrl": "https://rellence.com"
+      "foundryUrl": "https://rellence.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Albra",
@@ -10534,7 +12209,10 @@
         }
       ],
       "foundry": "Rellence",
-      "foundryUrl": "https://rellence.com"
+      "foundryUrl": "https://rellence.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Telka",
@@ -10548,7 +12226,10 @@
         }
       ],
       "foundry": "Rellence",
-      "foundryUrl": "https://rellence.com"
+      "foundryUrl": "https://rellence.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Porteron",
@@ -10567,7 +12248,10 @@
         }
       ],
       "foundry": "Rellence",
-      "foundryUrl": "https://rellence.com"
+      "foundryUrl": "https://rellence.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Cardinal",
@@ -10616,7 +12300,10 @@
         }
       ],
       "foundry": "Production Type",
-      "foundryUrl": "https://productiontype.com"
+      "foundryUrl": "https://productiontype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Enduro",
@@ -10665,7 +12352,10 @@
         }
       ],
       "foundry": "Production Type",
-      "foundryUrl": "https://productiontype.com"
+      "foundryUrl": "https://productiontype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Gamuth",
@@ -10679,7 +12369,10 @@
         }
       ],
       "foundry": "Production Type",
-      "foundryUrl": "https://productiontype.com"
+      "foundryUrl": "https://productiontype.com",
+      "category": [
+        "Decorative"
+      ]
     },
     {
       "name": "Albaro",
@@ -10723,7 +12416,10 @@
         }
       ],
       "foundry": "Luzi Type",
-      "foundryUrl": "https://luzi-type.ch"
+      "foundryUrl": "https://luzi-type.ch",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Beirut",
@@ -10772,7 +12468,10 @@
         }
       ],
       "foundry": "Luzi Type",
-      "foundryUrl": "https://luzi-type.ch"
+      "foundryUrl": "https://luzi-type.ch",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "Buenos Aires",
@@ -10821,7 +12520,10 @@
         }
       ],
       "foundry": "Luzi Type",
-      "foundryUrl": "https://luzi-type.ch"
+      "foundryUrl": "https://luzi-type.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Cádiz",
@@ -10870,7 +12572,10 @@
         }
       ],
       "foundry": "Luzi Type",
-      "foundryUrl": "https://luzi-type.ch"
+      "foundryUrl": "https://luzi-type.ch",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Banana Grotesk",
@@ -10904,7 +12609,10 @@
         }
       ],
       "foundry": "MNKY Type",
-      "foundryUrl": "https://mnkytype.com"
+      "foundryUrl": "https://mnkytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Banana Mono",
@@ -10933,7 +12641,10 @@
         }
       ],
       "foundry": "MNKY Type",
-      "foundryUrl": "https://mnkytype.com"
+      "foundryUrl": "https://mnkytype.com",
+      "category": [
+        "Mono"
+      ]
     },
     {
       "name": "Albert",
@@ -10967,7 +12678,10 @@
         }
       ],
       "foundry": "MNKY Type",
-      "foundryUrl": "https://mnkytype.com"
+      "foundryUrl": "https://mnkytype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Elsa",
@@ -10981,7 +12695,10 @@
         }
       ],
       "foundry": "MNKY Type",
-      "foundryUrl": "https://mnkytype.com"
+      "foundryUrl": "https://mnkytype.com",
+      "category": [
+        "Serif"
+      ]
     },
     {
       "name": "States",
@@ -11025,7 +12742,10 @@
         }
       ],
       "foundry": "Fatype",
-      "foundryUrl": "https://fatype.com"
+      "foundryUrl": "https://fatype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "U8",
@@ -11039,7 +12759,10 @@
         }
       ],
       "foundry": "Fatype",
-      "foundryUrl": "https://fatype.com"
+      "foundryUrl": "https://fatype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Boutique",
@@ -11088,7 +12811,11 @@
         }
       ],
       "foundry": "Milieu Grotesque",
-      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque"
+      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque",
+      "category": [
+        "Serif",
+        "Sans"
+      ]
     },
     {
       "name": "Chapeau",
@@ -11137,7 +12864,11 @@
         }
       ],
       "foundry": "Milieu Grotesque",
-      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque"
+      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     },
     {
       "name": "Maison",
@@ -11186,7 +12917,11 @@
         }
       ],
       "foundry": "Milieu Grotesque",
-      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque"
+      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     },
     {
       "name": "Maison Neue",
@@ -11235,7 +12970,11 @@
         }
       ],
       "foundry": "Milieu Grotesque",
-      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque"
+      "foundryUrl": "https://www.myfonts.com/a/font/premium-font-collections/milieu-grotesque",
+      "category": [
+        "Sans",
+        "Mono"
+      ]
     }
   ]
 }

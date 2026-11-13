@@ -6,10 +6,11 @@ import { fetchText, mapLimit } from '../../discover/lib.mjs'
 // loader lists every retail typeface with its release; custom work lives under
 // /custom and is not in it.
 //
-// A typeface page is set in live text, so its only picture is the share card
-// in its SEO record (2400×1260). The homepage adds an "in use" strip whose
-// captions link the typeface each photo shows. Both come from the CMS with
-// their size; the image host serves originals only.
+// A typeface page is set mostly in live text. Its pictures are the collection's
+// documentation gallery (eight specimen slides for families since the 2025
+// relaunch), then the share card in its SEO record (2400×1260). The homepage
+// adds an "in use" strip whose captions link the typeface each photo shows. All
+// come from the CMS with their size; the image host serves originals only.
 //
 // publishedAt is the release as the foundry entered it: the first of the month
 // for older families, the day for those released since the 2025 relaunch.
@@ -64,7 +65,11 @@ export default {
         name: t.name,
         url,
         date: t.publishedAt ? t.publishedAt.slice(0, 10) : null,
-        images: [page.seo?.image, ...photos.map(p => p.image)]
+        images: [
+          ...(page.typefaceCollections || []).flatMap(c => (c.documentationItems || []).map(d => d.image)),
+          page.seo?.image,
+          ...photos.map(p => p.image),
+        ]
           .map(picture)
           .filter(i => i && !seen.has(i.src) && seen.add(i.src))
           .slice(0, maxImages),

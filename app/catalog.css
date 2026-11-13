@@ -1344,3 +1344,67 @@
     height: 220px;
   }
 }
+
+/* The filter bar: a frosted island at the foot of the screen, the navbar's
+   twin. Three pickers on one line, sharing the width on a phone. */
+.foundries-filters {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  display: flex;
+  gap: 8px;
+  padding: 7px;
+  width: max-content;
+  max-width: calc(100% - 32px);
+}
+
+.foundries-filter {
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+.foundries-filter-select {
+  appearance: none;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  max-width: 220px;
+  padding: 0 36px 0 12px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-cont-prim);
+  text-overflow: ellipsis;
+}
+
+.foundries-filter-chevron {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--gray-cont-tert);
+}
+
+@media (max-width: 767px) {
+  .foundries-filters {
+    width: calc(100% - 32px);
+  }
+
+  .foundries-filter {
+    flex: 1 1 0;
+  }
+
+  .foundries-filter-select {
+    padding-right: 28px;
+  }
+
+  .foundries-filter-chevron {
+    right: 6px;
+  }
+}

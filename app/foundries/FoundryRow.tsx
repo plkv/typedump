@@ -8,6 +8,7 @@ export interface FoundryFont {
   date: string | null
   foundry: string
   foundryUrl: string
+  category: string[]
   images: Array<{ src: string; width?: number; height?: number }>
 }
 

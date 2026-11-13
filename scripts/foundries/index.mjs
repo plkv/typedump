@@ -67,6 +67,10 @@ import kometa from './sources/kometa.mjs'
 import peregrin from './sources/peregrin.mjs'
 import djr from './sources/djr.mjs'
 import commercialtype from './sources/commercial-type.mjs'
+import britishstandardtype from './sources/british-standard-type.mjs'
+import erkinkaramemet from './sources/erkin-karamemet.mjs'
+import typetoday from './sources/type-today.mjs'
+import groteskly from './sources/groteskly.mjs'
 
 const SOURCES = [
   grilli, dinamo, floriankarsten, brownfox, ohno, radimpesko, swisstypefaces, pangrampangram,
@@ -74,7 +78,8 @@ const SOURCES = [
   displaay, pizzatypefaces, futurefonts, cctype, productiontype, sourcetype, typekiosk, alttf,
   typedepartment, contemporarytype, familytype, nonfoundry, luzitype, mnkytype, lineto, klim, fatype,
   optimo, binnenland, plainform, studiofeixen, milieugrotesque, camelot, nouvellenoire, kometa,
-  peregrin, djr, commercialtype,
+  peregrin, djr, commercialtype, britishstandardtype, erkinkaramemet, typetoday,
+  groteskly,
 ]
 // The page is a feed of what is new, so its size is capped and the oldest fall
 // off: copies outside these limits are deleted, which keeps public/foundry-images
@@ -96,6 +101,17 @@ const OUTPUT = join(ROOT, 'public', 'foundry-fonts.json')
 // Hand-picked pictures for a typeface whose own are wrong or missing, keyed by
 // its page URL: { "images": [urls], "note": why }. Empty images hides it.
 const OVERRIDES = join(HERE, 'overrides.json')
+// The catalogue's categories (Sans, Serif, Semi Serif, Script, Mono, Pixel,
+// Decorative), judged by eye from each typeface's pictures and keyed by its page
+// URL. A typeface not judged yet takes what its name says, or none.
+const CATEGORIES = join(HERE, 'categories.json')
+const NAMED = [
+  [/\bmono(spaced?)?\b/i, 'Mono'],
+  [/\b(pixel|bitmap)\b/i, 'Pixel'],
+  [/\bscript\b/i, 'Script'],
+  [/\b(serif|slab|antiqua)\b/i, 'Serif'],
+  [/\b(sans|grotesk|grotesque|grotesca|gothic)\b/i, 'Sans'],
+]
 const HEIGHT = 640 // the carousel is 320px tall; twice that for dense screens
 
 const log = (...a) => console.log('[foundries]', ...a)
@@ -243,6 +259,12 @@ async function main() {
   const fonts = [...(await localCopies(fresh, keptHeld)), ...keptHeld]
     .filter(f => f.images.length)
     .sort(newest)
+
+  const judged = existsSync(CATEGORIES) ? JSON.parse(readFileSync(CATEGORIES, 'utf8')) : {}
+  for (const f of fonts) {
+    const named = NAMED.find(([re]) => re.test(f.name))
+    f.category = judged[f.url] ?? (named ? [named[1]] : [])
+  }
 
   const kept = fonts.reduce((n, f) => n + f.images.length, 0)
   log(`kept ${kept} images with type across ${fonts.length} typefaces`)

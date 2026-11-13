@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Navbar } from '@/components/font-catalog/Navbar'
-import { FoundryRow, type FoundryFont } from './FoundryRow'
+import { type FoundryFont } from './FoundryRow'
+import { FoundryFeed } from './FoundryFeed'
 
 // Written by scripts/foundries/index.mjs, newest first; read at build time.
 // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -16,11 +17,7 @@ export default function FoundriesPage() {
   return (
     <div className="foundries-page">
       <Navbar back />
-      <main className="foundries-list px-2 space-y-2">
-        {data.fonts.map(font => (
-          <FoundryRow key={font.url} font={font} />
-        ))}
-      </main>
+      <FoundryFeed fonts={data.fonts} />
     </div>
   )
 }

@@ -25,9 +25,9 @@
     "images": []
   },
   "https://nonfoundry.com/non-cloud-1": {
-    "note": "The page shares its pictures with the DotType plugin; only the animated NF specimen belongs to Non Cloud.",
+    "note": "Its own animated specimen; the page's other picture introduces the DotType plugin, and the dot glyphs are too sparse for the text check.",
     "images": [
-      "https://freight.cargo.site/t/original/i/cdc752bfa81be4ec9a6c6d9ec5abe2c25e30c3e37f7e1450bcb37ccbaf4bbcab/00.gif"
+      "https://freight.cargo.site/t/original/i/0f17de7599240e0704b94d094641502d924b8a53c6999d6837dca8f9a3abe112/DotType.gif"
     ]
   }
 }

@@ -7,14 +7,22 @@ import { imageSize } from '../lib.mjs'
 // "International" items are bundles of other collections' families and script
 // versions, so script names are skipped and only family pages are kept.
 //
-// The pages set every style in SVG and live text, so the pictures come from two
-// places: the collection page's specimen grid (a 600px cover per PDF, labelled
-// with the family it shows) and the news archive. A news post counts for a
-// family when it links the family's page, or links its collection and names the
-// family in its slug (new_release_canela_condensed → Canela Condensed), or
-// links a collection that holds one family. Posts linking more than three
-// collections are overviews (specimen books, the year in review) and are left
-// out. Posts come oldest first, so the release post leads.
+// The pages set every style in SVG and live text, so the pictures come from the
+// news archive, raster or SVG. The collection page's specimen grid (a 600px
+// cover per PDF, labelled with the family it shows) only dates a family: the
+// covers are pages of small print, not pictures of the type. A news post counts
+// for a family when it links the family's page, or links its collection and
+// names the family in its slug (new_release_canela_condensed → Canela
+// Condensed), or links a collection that holds one family. Posts linking more
+// than three collections are overviews (specimen books, the year in review) and
+// are left out, unless the slug names one of them and the links stay few
+// (our_new_new_doric links the five faces New Doric grew from; 2025_in_review
+// names Review but links eighteen). A post whose slug names a collection
+// belongs to that one alone: the Delusse post links Moulin for comparison, and
+// a_bigger_place shows Place where it mentions Marian. Some release posts link
+// no catalogue page at all (erik_van_bloklands_action_grotesque), so the slug
+// alone, plural or not (royal_gothics_staying_power), ties them to a face. Posts come oldest first,
+// so the release post leads.
 //
 // No page states a release date. A news byline gives month and day, its year
 // comes from the archive page it is listed on; uploads sit under /uploads/MMYY/,
@@ -26,8 +34,9 @@ import { imageSize } from '../lib.mjs'
 // later specimen for some older families.
 const SITE = 'https://commercialtype.com'
 const SCRIPTS = /\b(Arabic|Armenian|Bangla|Cyrillic|Devanagari|Georgian|Greek|Hebrew|Tamil|Thai)\b/
-const RASTER = /\.(jpe?g|png|gif)$/i
+const PICTURE = /\/uploads\/.+\.(jpe?g|png|gif|svg)$/i
 const MAX_COLLECTIONS = 3
+const MAX_NAMED_COLLECTIONS = 8
 const BATCH_UPLOAD = 10
 
 const sleep = ms => new Promise(r => setTimeout(r, ms))
@@ -91,7 +100,7 @@ function specimens(html) {
   }))
 }
 
-async function news() {
+async function news(segs) {
   const years = []
   for (let y = 2009; y <= new Date().getFullYear(); y++) years.push(y)
   const listed = await mapLimit(years, 4, async year => {
@@ -104,15 +113,17 @@ async function news() {
     const byline = (main.match(/class="byline">([A-Z][a-z]+ \d{1,2})/) || [])[1]
     const day = byline && new Date(`${byline} ${year} UTC`)
     const links = new Set([...main.matchAll(/href="(?:https:\/\/commercialtype\.com)?(\/catalog\/[a-z0-9_/]+)"/g)].map(m => m[1]))
+    const collections = new Set([...links].map(collectionOf))
     return {
       slug,
       date: day && !isNaN(day) ? day.toISOString().slice(0, 10) : null,
       links,
-      collections: new Set([...links].map(collectionOf)),
-      images: [...main.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/g)].map(m => new URL(decode(m[1]), SITE).href).filter(s => RASTER.test(s)),
+      collections,
+      named: new Set(segs.filter(c => new RegExp(`(^|_)${c}s?(_|$)`).test(slug))),
+      images: [...main.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/g)].map(m => new URL(decode(m[1]), SITE).href).filter(s => PICTURE.test(s)),
     }
   })
-  return posts.filter(p => p && p.collections.size && p.collections.size <= MAX_COLLECTIONS).sort((a, b) => (a.date || '9').localeCompare(b.date || '9'))
+  return posts.filter(p => p && (p.collections.size || p.named.size) && (p.collections.size <= MAX_COLLECTIONS || (p.collections.size <= MAX_NAMED_COLLECTIONS && p.named.size))).sort((a, b) => (a.date || '9').localeCompare(b.date || '9'))
 }
 
 const names = (slug, family) => `_${slug}_`.includes(`_${lastSeg(family.href)}_`)
@@ -121,8 +132,9 @@ function postsFor(family, all, posts) {
   const seg = collectionOf(family.href)
   const siblings = all.filter(f => collectionOf(f.href) === seg)
   return posts.filter(p => {
+    if (p.named.size && !p.named.has(seg)) return false
     if (p.links.has(family.href)) return true
-    if (!p.collections.has(seg)) return false
+    if (!p.collections.has(seg) && !p.named.has(seg)) return false
     const named = siblings.filter(f => names(p.slug, f))
     const specific = named.filter(f => !named.some(o => o !== f && lastSeg(o.href).includes(lastSeg(f.href))))
     if (specific.length) return specific.includes(family)
@@ -152,9 +164,9 @@ export default {
   label: 'Commercial Type',
   url: SITE,
   async run({ maxImages }) {
-    const [catalog, posts] = await Promise.all([page(`${SITE}/catalog`), news()])
-    const all = families(catalog)
+    const all = families(await page(`${SITE}/catalog`))
     const segs = [...new Set(all.map(f => collectionOf(f.href)))]
+    const posts = await news(segs)
     const pages = new Map(
       (
         await mapLimit(segs, 4, async seg => {
@@ -175,7 +187,7 @@ export default {
       const related = postsFor(family, all, posts)
       const months = own.map(s => uploadMonth(s.src)).filter(m => spread.get(m) < BATCH_UPLOAD)
       const dates = [...months, ...related.map(p => p.date)].filter(Boolean).sort()
-      const srcs = [...new Set([...own.map(s => s.src), ...related.flatMap(p => p.images)])].slice(0, maxImages)
+      const srcs = [...new Set(related.flatMap(p => p.images))].slice(0, maxImages)
       const images = await mapLimit(srcs, 4, async src => ({ src, ...(await imageSize(src)) }))
       return {
         name,
