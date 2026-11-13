@@ -71,6 +71,7 @@ import britishstandardtype from './sources/british-standard-type.mjs'
 import erkinkaramemet from './sources/erkin-karamemet.mjs'
 import typetoday from './sources/type-today.mjs'
 import groteskly from './sources/groteskly.mjs'
+import blazetype from './sources/blaze-type.mjs'
 
 const SOURCES = [
   grilli, dinamo, floriankarsten, brownfox, ohno, radimpesko, swisstypefaces, pangrampangram,
@@ -79,7 +80,7 @@ const SOURCES = [
   typedepartment, contemporarytype, familytype, nonfoundry, luzitype, mnkytype, lineto, klim, fatype,
   optimo, binnenland, plainform, studiofeixen, milieugrotesque, camelot, nouvellenoire, kometa,
   peregrin, djr, commercialtype, britishstandardtype, erkinkaramemet, typetoday,
-  groteskly,
+  groteskly, blazetype,
 ]
 // The page is a feed of what is new, so its size is capped and the oldest fall
 // off: copies outside these limits are deleted, which keeps public/foundry-images
