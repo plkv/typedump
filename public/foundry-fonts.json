@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:20:30.838Z",
+  "generatedAt": "2026-11-14T11:22:12.916Z",
   "count": 300,
   "fonts": [
     {
@@ -1394,6 +1394,58 @@
       ]
     },
     {
+      "name": "Se Micro",
+      "url": "https://contemporarytype.com/fonts/se-micro",
+      "date": "2026-09-02",
+      "images": [
+        {
+          "src": "/foundry-images/fec5d6abd979878d.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a9185e9a962def5d.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f22a7a752b85dadf.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6127a458fed3bd66.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/91c28108b6f99ef6.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ae9e2c44fcac262d.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6f6acd33928b4ae2.webp",
+          "width": 426,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0068ac18365bd8eb.webp",
+          "width": 931,
+          "height": 640
+        }
+      ],
+      "foundry": "Contemporary Type",
+      "foundryUrl": "https://contemporarytype.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
       "name": "Nosferatu",
       "url": "https://blazetype.eu/typefaces/nosferatu",
       "date": "2026-09-02",
@@ -1470,58 +1522,6 @@
       "foundryUrl": "https://www.futurefonts.com",
       "category": [
         "Serif"
-      ]
-    },
-    {
-      "name": "Se Micro",
-      "url": "https://contemporarytype.com/fonts/se-micro",
-      "date": "2026-09-02",
-      "images": [
-        {
-          "src": "/foundry-images/fec5d6abd979878d.webp",
-          "width": 1280,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a9185e9a962def5d.webp",
-          "width": 1280,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f22a7a752b85dadf.webp",
-          "width": 1280,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6127a458fed3bd66.webp",
-          "width": 1280,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/91c28108b6f99ef6.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ae9e2c44fcac262d.webp",
-          "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6f6acd33928b4ae2.webp",
-          "width": 426,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0068ac18365bd8eb.webp",
-          "width": 931,
-          "height": 640
-        }
-      ],
-      "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com",
-      "category": [
-        "Sans"
       ]
     },
     {
@@ -1863,6 +1863,26 @@
       "category": [
         "Sans"
       ]
+    },
+    {
+      "name": "LH Stash",
+      "url": "https://contemporarytype.com/fonts/stash",
+      "date": "2026-08-28",
+      "images": [
+        {
+          "src": "/foundry-images/85ae1ab7a9fcbcec.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/edb887ab0da1a435.webp",
+          "width": 480,
+          "height": 640
+        }
+      ],
+      "foundry": "Contemporary Type",
+      "foundryUrl": "https://contemporarytype.com",
+      "category": []
     },
     {
       "name": "Ragequit by GRIM Type Co.",
@@ -5744,28 +5764,6 @@
       "foundryUrl": "https://contemporarytype.com",
       "category": [
         "Sans"
-      ]
-    },
-    {
-      "name": "Rondeau",
-      "url": "https://contemporarytype.com/fonts/rondeau",
-      "date": "2025-12-12",
-      "images": [
-        {
-          "src": "/foundry-images/175803191f437126.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e4e870fa09c96422.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com",
-      "category": [
-        "Serif"
       ]
     },
     {
