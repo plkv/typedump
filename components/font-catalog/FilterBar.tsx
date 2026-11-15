@@ -1,7 +1,7 @@
 'use client'
 
 import type { ReactNode } from 'react'
-import { IconXMark, IconReset } from '@/components/icons'
+import { IconXMark, IconReset, IconCheck } from '@/components/icons'
 
 /*
   The frosted filter bar at the foot of the catalogue and the foundries feed.
@@ -100,12 +100,39 @@ export function FilterBar({
   )
 }
 
-export function FilterGroup({ title, children }: { title: string; children: ReactNode }) {
+// Chips wrap in rows; a long list of names (the foundries) stacks as checks.
+export function FilterGroup({ title, list = false, children }: { title: string; list?: boolean; children: ReactNode }) {
   return (
     <div>
       <h3 className="text-sidebar-title mb-3">{title}</h3>
-      <div className="flex flex-wrap gap-2">{children}</div>
+      <div className={list ? 'flex flex-col' : 'flex flex-wrap gap-2'}>{children}</div>
     </div>
+  )
+}
+
+// A filter option as a row of a list: the box, the name, and how many
+// typefaces it would show.
+export function FilterCheck({ active, count, onClick, children }: {
+  active: boolean
+  count: number
+  onClick: () => void
+  children: ReactNode
+}) {
+  const disabled = !active && !count
+  return (
+    <button
+      role="checkbox"
+      aria-checked={active}
+      disabled={disabled}
+      onClick={onClick}
+      className={`filter-check${disabled ? ' v2-filter-disabled' : ''}`}
+    >
+      <span className="filter-check-box" data-checked={active}>
+        {active && <IconCheck size={16} />}
+      </span>
+      <span className="flex-1 text-left">{children}</span>
+      <span className="filter-check-count">{count}</span>
+    </button>
   )
 }
 

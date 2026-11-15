@@ -1414,3 +1414,43 @@
 .filter-bar-count {
   opacity: 0.56;
 }
+
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 36px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: var(--gray-cont-prim);
+  cursor: pointer;
+}
+
+.filter-check-box {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--gray-cont-tert);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.filter-check:hover .filter-check-box {
+  border-color: var(--gray-cont-prim);
+}
+
+.filter-check-box[data-checked="true"] {
+  background-color: var(--v2-active-bg);
+  border-color: var(--v2-active-bg);
+  color: var(--v2-active-fg);
+}
+
+.filter-check-count {
+  color: var(--gray-cont-tert);
+  font-variant-numeric: tabular-nums;
+}

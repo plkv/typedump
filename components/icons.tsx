@@ -30,6 +30,14 @@ export function IconReset({ size = 20, style, className }: IconProps) {
   )
 }
 
+export function IconCheck({ size = 20, style, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style={style} className={className}>
+      <path d="M5 10.5L8.25 13.75L15 7" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
+}
+
 export function IconChevronDown({ size = 20, style, className }: IconProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style={style} className={className}>

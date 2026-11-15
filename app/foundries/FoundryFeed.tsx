@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { FilterBar, FilterChip, FilterGroup } from '@/components/font-catalog/FilterBar'
+import { FilterBar, FilterCheck, FilterChip, FilterGroup } from '@/components/font-catalog/FilterBar'
 import { FoundryRow, type FoundryFont } from './FoundryRow'
 
 const newest = (a: FoundryFont, b: FoundryFont) => (b.date || '').localeCompare(a.date || '')
@@ -31,7 +31,8 @@ export function FoundryFeed({ fonts }: { fonts: FoundryFont[] }) {
   const shown = fonts.filter(f => inFoundries(f) && inCategories(f)).sort(SORTS[sort])
   const allFoundries = useMemo(() => sorted(fonts.map(f => f.foundry)), [fonts])
   const allCategories = useMemo(() => sorted(fonts.flatMap(f => f.category)), [fonts])
-  const foundriesLeft = new Set(fonts.filter(inCategories).map(f => f.foundry))
+  const perFoundry = new Map<string, number>()
+  for (const f of fonts.filter(inCategories)) perFoundry.set(f.foundry, (perFoundry.get(f.foundry) || 0) + 1)
   const categoriesLeft = new Set(shown.flatMap(f => f.category))
 
   const reset = () => {
@@ -68,11 +69,11 @@ export function FoundryFeed({ fonts }: { fonts: FoundryFont[] }) {
             </FilterChip>
           ))}
         </FilterGroup>
-        <FilterGroup title="Foundries">
+        <FilterGroup title="Foundries" list>
           {allFoundries.map(f => (
-            <FilterChip key={f} active={foundries.includes(f)} available={foundriesLeft.has(f)} onClick={() => setFoundries(prev => toggle(prev, f))}>
+            <FilterCheck key={f} active={foundries.includes(f)} count={perFoundry.get(f) || 0} onClick={() => setFoundries(prev => toggle(prev, f))}>
               {f}
-            </FilterChip>
+            </FilterCheck>
           ))}
         </FilterGroup>
       </FilterBar>
