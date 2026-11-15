@@ -70,3 +70,12 @@ export function woffDates(woff) {
   }
   return null
 }
+
+// The day a Fontdue record was created, as YYYY-MM-DD. Its ID is base64 of
+// "<Type>:<n>", where n is milliseconds since Fontdue's epoch shifted left 23
+// bits (image upload stamps on Giulia Boggio's shop confirm it).
+const FONTDUE_EPOCH = 1506968000000
+export function fontdueCreated(id) {
+  const ms = BigInt(Buffer.from(id, 'base64').toString().split(':')[1]) >> 23n
+  return new Date(FONTDUE_EPOCH + Number(ms)).toISOString().slice(0, 10)
+}

@@ -1,4 +1,5 @@
 import { normName } from '../../discover/lib.mjs'
+import { fontdueCreated } from '../lib.mjs'
 
 // Giulia Boggio's site is Next.js over Fontdue, whose GraphQL API is public.
 // The shop lists the top-level collections (families and superfamilies); their
@@ -10,14 +11,12 @@ import { normName } from '../../discover/lib.mjs'
 // counts only when it names a family of the shop.
 //
 // Each family states a design year ("2021", or a span whose first year is the
-// release). Fontdue IDs carry the time the record was created (milliseconds
-// since its epoch, shifted left 23 bits, which the image upload stamps confirm),
-// so the creation date counts when it falls in the design year and pins the
-// release to the day; otherwise the family gets 1 January of that year.
+// release). The day its Fontdue record was created counts when it falls in the
+// design year and pins the release to the day; otherwise the family gets
+// 1 January of that year.
 const SITE = 'https://www.giuliaboggio.xyz'
 const FONTDUE = 'https://giulia-b.fontdue.com/graphql'
 const HYGRAPH = 'https://eu-west-2.cdn.hygraph.com/content/cmn1jn5bc01sd07w1xn8cj1af/master'
-const FONTDUE_EPOCH = 1506968000000
 const WIDTH = 1400
 
 const COLLECTIONS = `{ viewer { fontCollections(first: 100) { edges { node {
@@ -62,8 +61,7 @@ function specimen({ url, original, meta }) {
 function releaseDate({ id, designYear }) {
   const year = ((designYear || '').replace(/[^\d-]/g, '').match(/\d{4}/) || [])[0]
   if (!year) return null
-  const ms = BigInt(Buffer.from(id, 'base64').toString().split(':')[1]) >> 23n
-  const created = new Date(FONTDUE_EPOCH + Number(ms)).toISOString().slice(0, 10)
+  const created = fontdueCreated(id)
   return created.startsWith(year) ? created : `${year}-01-01`
 }
 

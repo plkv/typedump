@@ -72,6 +72,7 @@ import erkinkaramemet from './sources/erkin-karamemet.mjs'
 import typetoday from './sources/type-today.mjs'
 import groteskly from './sources/groteskly.mjs'
 import blazetype from './sources/blaze-type.mjs'
+import generaltype from './sources/general-type-studio.mjs'
 
 const SOURCES = [
   grilli, dinamo, floriankarsten, brownfox, ohno, radimpesko, swisstypefaces, pangrampangram,
@@ -80,7 +81,7 @@ const SOURCES = [
   typedepartment, contemporarytype, familytype, nonfoundry, luzitype, mnkytype, lineto, klim, fatype,
   optimo, binnenland, plainform, studiofeixen, milieugrotesque, camelot, nouvellenoire, kometa,
   peregrin, djr, commercialtype, britishstandardtype, erkinkaramemet, typetoday,
-  groteskly, blazetype,
+  groteskly, blazetype, generaltype,
 ]
 // The page is a feed of what is new, so its size is capped and the oldest fall
 // off: copies outside these limits are deleted, which keeps public/foundry-images
@@ -127,8 +128,9 @@ const log = (...a) => console.log('[foundries]', ...a)
 const showsType = ({ line, area }) => area >= 0.05 || (line >= 0.04 && area >= 0.01)
 
 // Vision cannot open SVG, and a vector on a foundry's page is a specimen set
-// in the face, so SVGs skip the text check and are rasterised on copy.
-const isSvg = src => /\.svg(\?|$)/i.test(src)
+// in the face, so SVGs skip the text check and are rasterised on copy. One
+// drawn inline in the page comes as a data URI.
+const isSvg = src => /\.svg(\?|$)/i.test(src) || src.startsWith('data:image/svg+xml')
 
 function measureText(srcs) {
   const cache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'utf8')) : {}
