@@ -50329,7 +50329,189 @@
           "previewUrl": "/fonts/preview/Trickster-Reg.woff2"
         }
       ]
+    },
+    {
+      "name": "Allo",
+      "collection": "Text",
+      "styleTags": [
+        "New Face",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Josh Puckett",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://allo.joshpuckett.me/",
+      "id": "family_allo_1794004290000",
+      "createdAt": "2026-11-16T14:49:24.000Z",
+      "updatedAt": "2026-11-16T14:49:24.000Z",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "description": "Allo is Josh Puckett's friendly sans for screens and interfaces, built partly on the Inter project and released as open source in 2026. Its proportions and curves aim to feel warm without turning cute and clear without going cold. Three axes do the tuning: weight from Thin to Black, a roundness axis from sharp to fully round corners, and an optical size that redraws and respaces the letters for headlines at 32 and opens the spacing below 14. Stylistic sets give a single-storey a, disambiguated I, l, 1 and 0, and open 4, 6 and 9; typed arrows like -> turn into real ones, and punctuation lifts to sit with capitals. Latin for more than fifty languages. The variable file here is upright; the download also has a drawn oblique for every weight.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://allo.joshpuckett.me/"
+      },
+      "variants": [
+        {
+          "filename": "AlloVariable.ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Optical size",
+              "tag": "opsz",
+              "min": 9,
+              "max": 32,
+              "default": 14
+            },
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            },
+            {
+              "name": "Roundness",
+              "tag": "ROND",
+              "min": 0,
+              "max": 100,
+              "default": 50
+            }
+          ],
+          "openTypeFeatures": [
+            "Contextual Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Character Variant 1",
+            "Character Variant 2",
+            "Character Variant 3",
+            "Character Variant 4",
+            "Character Variant 5",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Numerators",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Slashed Zero",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 606,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-16T14:49:24.000Z",
+          "id": "variant_family_allo_1794004290000_allovariable",
+          "familyId": "family_allo_1794004290000",
+          "url": "/fonts/AlloVariable.woff2",
+          "originalUrl": "/fonts/AlloVariable.ttf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "cv01",
+              "title": "Footed 1"
+            },
+            {
+              "tag": "cv02",
+              "title": "Slashed 0"
+            },
+            {
+              "tag": "cv03",
+              "title": "Tailed l"
+            },
+            {
+              "tag": "cv04",
+              "title": "Serifed I"
+            },
+            {
+              "tag": "cv05",
+              "title": "Dotted 0"
+            },
+            {
+              "tag": "ss01",
+              "title": "Single-storey a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Serifed I, tailed l, footed 1, slashed 0"
+            },
+            {
+              "tag": "ss03",
+              "title": "Open 4 6 9"
+            }
+          ],
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/AlloVariable.woff2"
+        }
+      ],
+      "alternativeTo": [
+        {
+          "name": "Inter",
+          "foundry": "Rasmus Andersson",
+          "motive": "overused",
+          "gets": "a roundness axis, optical size 9–32 and a warmer, friendlier tone"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-13T12:26:11.812896Z"
+  "lastUpdated": "2026-11-16T14:40:24.711241Z"
 }
