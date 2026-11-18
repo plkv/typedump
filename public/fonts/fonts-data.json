@@ -50505,13 +50505,208 @@
       ],
       "alternativeTo": [
         {
+          "name": "SF Pro Rounded",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "wght 100–900, a roundness axis, optical size, free to embed"
+        },
+        {
           "name": "Inter",
           "foundry": "Rasmus Andersson",
           "motive": "overused",
           "gets": "a roundness axis, optical size 9–32 and a warmer, friendlier tone"
         }
       ]
+    },
+    {
+      "name": "Geist Rounded",
+      "collection": "Text",
+      "styleTags": [
+        "Neutral",
+        "Rounded"
+      ],
+      "languages": [
+        "Latin",
+        "Cyrillic",
+        "Vietnamese"
+      ],
+      "category": [
+        "Sans"
+      ],
+      "foundry": "Misha Naer, after Geist by Vercel and Basement Studio",
+      "isVariable": true,
+      "published": true,
+      "downloadLink": "https://mishanaer.com/ui/geist-rounded",
+      "id": "family_geist_rounded_1795000386000",
+      "createdAt": "2026-11-18T11:13:06.000Z",
+      "updatedAt": "2026-11-18T11:13:06.000Z",
+      "publishedAt": "2026-01-01T00:00:00.000Z",
+      "description": "Geist Rounded is Misha Naer's rounded version of Geist, the sans Vercel drew with Basement Studio, released in 2026 under the same Open Font License. It keeps Geist's neutral skeleton, proportions and spacing and softens the corners and stroke ends, so the face reads friendlier in app interfaces without losing Geist's precision. Nine weights from Thin to Black in one variable file, with Geist's stylistic sets for alternate a, l, R, I and G, arrows and figures. Latin, Cyrillic and Vietnamese.",
+      "licenseInfo": {
+        "type": "OFL",
+        "url": "https://mishanaer.com/ui/geist-rounded/downloads/OFL.txt"
+      },
+      "variants": [
+        {
+          "filename": "GeistRounded[wght].ttf",
+          "weight": 400,
+          "styleName": "Regular",
+          "isItalic": false,
+          "isVariable": true,
+          "variableAxes": [
+            {
+              "name": "Weight",
+              "tag": "wght",
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          ],
+          "openTypeFeatures": [
+            "Access All Alternates",
+            "Case-Sensitive Forms",
+            "Glyph Composition/Decomposition",
+            "Discretionary Ligatures",
+            "Denominators",
+            "Fractions",
+            "Standard Ligatures",
+            "Localized Forms",
+            "Numerators",
+            "Ordinals",
+            "Proportional Figures",
+            "Scientific Inferiors",
+            "Stylistic Set 1",
+            "Stylistic Set 2",
+            "Stylistic Set 3",
+            "Stylistic Set 4",
+            "Stylistic Set 5",
+            "Stylistic Set 6",
+            "Stylistic Set 7",
+            "Stylistic Set 8",
+            "Stylistic Set 9",
+            "Stylistic Set 10",
+            "Stylistic Set 11",
+            "Subscript",
+            "Superscript",
+            "Tabular Figures",
+            "Kerning",
+            "Mark Positioning",
+            "Mark to Mark Positioning"
+          ],
+          "glyphCount": 975,
+          "isDefaultStyle": true,
+          "uploadedAt": "2026-11-18T11:13:06.000Z",
+          "id": "variant_family_geist_rounded_1795000386000_geistrounded_wght",
+          "familyId": "family_geist_rounded_1795000386000",
+          "url": "/fonts/GeistRounded[wght].woff2",
+          "originalUrl": "/fonts/GeistRounded[wght].ttf",
+          "format": "woff2",
+          "published": true,
+          "openTypeFeatureTags": [
+            {
+              "tag": "ss01",
+              "title": "No tail a"
+            },
+            {
+              "tag": "ss02",
+              "title": "Alt a"
+            },
+            {
+              "tag": "ss03",
+              "title": "Alt l"
+            },
+            {
+              "tag": "ss04",
+              "title": "Alt R"
+            },
+            {
+              "tag": "ss05",
+              "title": "Alt I"
+            },
+            {
+              "tag": "ss06",
+              "title": "Alt G"
+            },
+            {
+              "tag": "ss07",
+              "title": "Alt arrows"
+            },
+            {
+              "tag": "ss08",
+              "title": "Rounded dot"
+            },
+            {
+              "tag": "ss09",
+              "title": "Alt numbers"
+            },
+            {
+              "tag": "ss10",
+              "title": "Alternative enclosing shapes"
+            },
+            {
+              "tag": "ss11",
+              "title": "Contextual brand styles"
+            }
+          ],
+          "namedInstances": [
+            {
+              "name": "Thin",
+              "weight": 100,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraLight",
+              "weight": 200,
+              "isItalic": false
+            },
+            {
+              "name": "Light",
+              "weight": 300,
+              "isItalic": false
+            },
+            {
+              "name": "Regular",
+              "weight": 400,
+              "isItalic": false
+            },
+            {
+              "name": "Medium",
+              "weight": 500,
+              "isItalic": false
+            },
+            {
+              "name": "SemiBold",
+              "weight": 600,
+              "isItalic": false
+            },
+            {
+              "name": "Bold",
+              "weight": 700,
+              "isItalic": false
+            },
+            {
+              "name": "ExtraBold",
+              "weight": 800,
+              "isItalic": false
+            },
+            {
+              "name": "Black",
+              "weight": 900,
+              "isItalic": false
+            }
+          ],
+          "previewUrl": "/fonts/preview/GeistRounded[wght].woff2"
+        }
+      ],
+      "alternativeTo": [
+        {
+          "name": "SF Pro Rounded",
+          "foundry": "Apple",
+          "motive": "unlicensable",
+          "gets": "wght 100–900, Cyrillic, free to embed"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-16T14:40:24.711241Z"
+  "lastUpdated": "2026-11-18T11:18:37.793124Z"
 }
