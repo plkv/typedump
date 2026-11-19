@@ -17970,7 +17970,7 @@
       "foundry": "Sébastien Sanfilippo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://osp.kitchen/foundry/reglo/tree/master/fonts/",
+      "downloadLink": "https://github.com/sebsan/Reglo",
       "id": "family_reglo_1757807918510",
       "variants": [
         {
@@ -31112,14 +31112,14 @@
       "foundry": "OSP (Open Source Publishing)",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://osp.kitchen/foundry/work-avec/",
+      "downloadLink": "https://gitlab.constantvzw.org/osp/foundry.work-avec",
       "id": "family_work_avec_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
       "description": "Work Avec is a schoolbook redraw of Wei Huang's Work Sans, reworked by Pierre Huyghebaert at OSP (Open Source Publishing). It swaps the grotesque's double-storey a and g for the single-storey infant forms used in reading primers, keeping Work Sans' steady, legible rhythm across a Medium and a SemiBold with several stylistic sets. Suited to education, wayfinding and friendly interface text. Libre under the SIL Open Font License, following its Work Sans base.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://osp.kitchen/foundry/work-avec/"
+        "url": "https://gitlab.constantvzw.org/osp/foundry.work-avec"
       },
       "publishedAt": "2015-01-01",
       "useCases": [
@@ -31864,7 +31864,7 @@
       "foundry": "Vølven",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/vivescene/MuternVF",
+      "downloadLink": "/fonts/MuternVF.ttf",
       "id": "family_mutern_1753989400000",
       "variants": [
         {
@@ -32010,7 +32010,7 @@
       "description": "Mutern is a variable grotesque by Vølven, built on Rasmus Andersson’s Inter. It carries weight, width, and optical size axes, so one file spans hairline to black, condensed to expanded, and shifts from a tighter text cut to a more open headline cut. Squared alternates for punctuation, quotes, and select letters give it a cooler, more technical voice when you want one.",
       "licenseInfo": {
         "type": "OFL",
-        "url": "https://github.com/vivescene/MuternVF/blob/main/OFL.txt"
+        "url": "https://openfontlicense.org"
       },
       "publishedAt": "2026-01-01",
       "useCases": [
@@ -39904,7 +39904,7 @@
       "foundry": "Dima Grenev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://grenev.com/work/werkzeug",
+      "downloadLink": "/fonts/Werkzeug.ttf",
       "id": "family_werkzeug_1790075385098",
       "variants": [
         {
