@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:44:00.579Z",
+  "generatedAt": "2026-11-20T12:44:28.199Z",
   "count": 300,
   "fonts": [
     {
@@ -203,6 +203,33 @@
       "foundry": "Future Fonts",
       "foundryUrl": "https://www.futurefonts.com",
       "category": []
+    },
+    {
+      "name": "Schenk",
+      "url": "https://commercialtype.com/catalog/schenk",
+      "date": "2026-11-11",
+      "images": [
+        {
+          "src": "/foundry-images/c5c7054a36d56edb.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/29b080dc037474c4.webp",
+          "width": 1067,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3719f90e5c04f980.webp",
+          "width": 914,
+          "height": 640
+        }
+      ],
+      "foundry": "Commercial Type",
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "Niceforo by CSTM Fonts",
@@ -757,58 +784,6 @@
       ]
     },
     {
-      "name": "Urman Sans",
-      "url": "https://type-department.com/products/urman-sans",
-      "date": "2026-10-06",
-      "images": [
-        {
-          "src": "/foundry-images/1c4a20b80a3c84ad.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2f4f2021b29a3f6f.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d67a087960f855bb.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/91341dd12c371540.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/bd90e01d04285ecd.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c9a7baca4ab117aa.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0d1669c50de4fe4e.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/33cb1ab6ee4a31c1.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Simulacra by Benjamin Tuttle",
       "url": "https://www.futurefonts.com/benjamin-tuttle/simulacra",
       "date": "2026-10-06",
@@ -856,6 +831,58 @@
       ],
       "foundry": "Future Fonts",
       "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Urman Sans",
+      "url": "https://type-department.com/products/urman-sans",
+      "date": "2026-10-06",
+      "images": [
+        {
+          "src": "/foundry-images/1c4a20b80a3c84ad.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/2f4f2021b29a3f6f.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d67a087960f855bb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/91341dd12c371540.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bd90e01d04285ecd.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c9a7baca4ab117aa.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0d1669c50de4fe4e.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/33cb1ab6ee4a31c1.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Type Department",
+      "foundryUrl": "https://type-department.com",
       "category": [
         "Sans"
       ]
@@ -913,53 +940,6 @@
       ]
     },
     {
-      "name": "Reticolo",
-      "url": "https://type-department.com/products/reticolo",
-      "date": "2026-10-01",
-      "images": [
-        {
-          "src": "/foundry-images/c111b4a88b7bc7fb.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7c3ece7cf69182b7.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/80194953331214d1.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5efc1d0ee33db4c8.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ad0e6e1244752039.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7fa5af5386ab0d51.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/555d2ae783c31108.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Realm by Approximate Type",
       "url": "https://www.futurefonts.com/approximate-type/realm",
       "date": "2026-10-01",
@@ -1007,6 +987,53 @@
       ],
       "foundry": "Future Fonts",
       "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Reticolo",
+      "url": "https://type-department.com/products/reticolo",
+      "date": "2026-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/c111b4a88b7bc7fb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7c3ece7cf69182b7.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/80194953331214d1.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5efc1d0ee33db4c8.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad0e6e1244752039.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7fa5af5386ab0d51.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/555d2ae783c31108.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Type Department",
+      "foundryUrl": "https://type-department.com",
       "category": [
         "Sans"
       ]
@@ -1683,8 +1710,8 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/947e46461fc44dc1.webp",
-          "width": 453,
+          "src": "/foundry-images/2bb1fa7ff86cc4a1.webp",
+          "width": 754,
           "height": 640
         },
         {
@@ -6281,58 +6308,6 @@
       ]
     },
     {
-      "name": "Delusse",
-      "url": "https://commercialtype.com/catalog/delusse",
-      "date": "2025-10-01",
-      "images": [
-        {
-          "src": "/foundry-images/ec81dbab4aac2b93.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e85b3b9cd1656dd0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b5947ba062dda8c0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/56b2a199771f28ef.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/be697722d506432c.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f9ccd1bb495c6cee.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/26d7c8dc389ee3b0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8f0e20581a744ef3.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
       "name": "Frama",
       "url": "https://pangrampangram.com/products/frama",
       "date": "2025-10-01",
@@ -6434,6 +6409,58 @@
       "foundryUrl": "https://pangrampangram.com",
       "category": [
         "Sans"
+      ]
+    },
+    {
+      "name": "Delusse",
+      "url": "https://commercialtype.com/catalog/delusse",
+      "date": "2025-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/ec81dbab4aac2b93.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e85b3b9cd1656dd0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b5947ba062dda8c0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/56b2a199771f28ef.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/be697722d506432c.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9ccd1bb495c6cee.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/26d7c8dc389ee3b0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8f0e20581a744ef3.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Commercial Type",
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Serif"
       ]
     },
     {
@@ -9221,28 +9248,6 @@
       ],
       "foundry": "Dinamo",
       "foundryUrl": "https://abcdinamo.com",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
-      "name": "Aman",
-      "url": "https://blazetype.eu/typefaces/aman",
-      "date": "2024-10-24",
-      "images": [
-        {
-          "src": "/foundry-images/3d6636311d380b90.webp",
-          "width": 896,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0ef6e78824450563.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
       "category": [
         "Serif"
       ]
