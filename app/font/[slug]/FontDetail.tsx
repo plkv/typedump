@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import type { FontFamily } from '@/lib/models/FontFamily'
 import { variantCssFamily } from '@/lib/font-face-css'
-import { Navbar } from '@/components/font-catalog/Navbar'
+import { Navbar, type FontSearchItem } from '@/components/font-catalog/Navbar'
 import { IconReset, IconAlignLeft, IconAlignCenter, IconAlignRight, IconChevronDown } from '@/components/icons'
 import { Slider } from '@/components/ui/slider'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
@@ -104,7 +104,6 @@ const SIZE_SAMPLES: Array<{ size: number; text: string }> = [
 // set 80 while the page opened at 40.
 const DEFAULT_FONT_SIZE = 40
 
-interface FontSearchItem { name: string; author: string }
 
 export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?: FontSearchItem[] }) {
   // Pangrams by default: the hero already sets the name, and a stack of rows

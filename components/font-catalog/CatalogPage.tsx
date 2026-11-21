@@ -82,6 +82,9 @@ const getPresetContent = (preset: string, fontName: string) => {
 
 type InitialFilters = Record<string, string | string[] | undefined>
 
+// The query parameters the catalogue reads its filters from and writes them to.
+const URL_FILTER_KEYS = ['collection', 'category', 'style', 'language', 'feature', 'author', 'weight'] as const
+
 
 /**
  * What people actually type into the previews, sent once per finished edit.
@@ -891,9 +894,38 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
     if (all('category').length) setSelectedCategories(all('category'))
     if (all('style').length) setSelectedStyles(all('style'))
     if (all('language').length) setSelectedLanguages(all('language'))
+    if (all('feature').length) setSelectedFeatures(all('feature'))
     const author = q.get('author')
     if (author) setSelectedAuthor(author)
+    const weight = Number(q.get('weight'))
+    if (weight >= 100 && weight <= 900) setPreviewWeight(weight)
   }, [])
+
+  // And back: every filter change is written into the address bar, one
+  // parameter per tag, so the view can be shared as a link and survives a
+  // reload. replaceState, not push: Back should leave the catalogue, not
+  // step through every tag that was clicked. Parameters that are not filters
+  // (utm_*, say) are kept. The first run is skipped, because on mount the
+  // effect above has only just asked for the URL's filters and the state here
+  // is still empty: writing it would wipe the very link being opened.
+  const urlWriteReady = useRef(false)
+  useEffect(() => {
+    if (!urlWriteReady.current) { urlWriteReady.current = true; return }
+    const q = new URLSearchParams(window.location.search)
+    for (const k of URL_FILTER_KEYS) q.delete(k)
+    selectedCollections.forEach(v => q.append('collection', v))
+    selectedCategories.forEach(v => q.append('category', v))
+    selectedStyles.forEach(v => q.append('style', v))
+    selectedLanguages.forEach(v => q.append('language', v))
+    selectedFeatures.forEach(v => q.append('feature', v))
+    if (selectedAuthor) q.set('author', selectedAuthor)
+    if (previewWeight !== 400) q.set('weight', String(previewWeight))
+    const search = q.toString()
+    const next = window.location.pathname + (search ? `?${search}` : '') + window.location.hash
+    if (next !== window.location.pathname + window.location.search + window.location.hash) {
+      window.history.replaceState(window.history.state, '', next)
+    }
+  }, [selectedCollections, selectedCategories, selectedStyles, selectedLanguages, selectedFeatures, selectedAuthor, previewWeight])
 
   // Close expanded cards on click outside
   useEffect(() => {
@@ -1442,7 +1474,7 @@ export default function CatalogPage({ initialFonts, initialFilters }: { initialF
 
   return (
     <div className="h-screen overflow-hidden" style={{ backgroundColor: 'var(--gray-surface-sec)', color: getCurrentTheme().fg }}>
-      <Navbar fonts={fonts.map(f => ({ name: f.name, author: f.author }))} />
+      <Navbar fonts={fonts.map(f => ({ name: f.name, author: f.author, languages: f.languages }))} />
 
       {/* Main font list */}
       <main

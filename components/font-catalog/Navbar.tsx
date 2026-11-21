@@ -6,9 +6,10 @@ import { familyToSlug } from '@/lib/font-slug'
 import { IconSearch, IconXMark, IconChevronLeft } from '@/components/icons'
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
 
-interface FontSearchItem {
+export interface FontSearchItem {
   name: string
   author: string
+  languages?: string[]
 }
 
 interface NavbarProps {
@@ -42,11 +43,15 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
   const logoWidthClosed = back ? 'calc(100% - 180px)' : 'calc(100% - 120px)'
   const searchWidthOpen = back ? 'calc(100% - 120px)' : 'calc(100% - 60px)'
 
-  const results = query.trim().length > 0
-    ? fonts.filter(f =>
-        f.name.toLowerCase().includes(query.toLowerCase()) ||
-        f.author.toLowerCase().includes(query.toLowerCase())
-      ).slice(0, 12)
+  // A language matches too, so "cyrillic" lists the families that draw it;
+  // the matched language is then named under the result.
+  const q = query.trim().toLowerCase()
+  const results = q.length > 0
+    ? fonts.flatMap(f => {
+        const language = f.languages?.find(l => l.toLowerCase().includes(q))
+        const byName = f.name.toLowerCase().includes(q) || f.author.toLowerCase().includes(q)
+        return byName || language ? [{ ...f, matchedLanguage: byName ? undefined : language }] : []
+      }).slice(0, 12)
     : []
 
   useEffect(() => {
@@ -185,11 +190,11 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
           </div>
           <input
             ref={inputRef}
-            aria-label="Search fonts by name, author or foundry"
+            aria-label="Search fonts by name, author, foundry or language"
             value={query}
             onChange={e => setQuery(e.target.value)}
             onKeyDown={e => e.key === 'Escape' && closeSearch()}
-            placeholder="Font name, Author, Foundry…"
+            placeholder="Font, author, language…"
             tabIndex={searchOpen ? 0 : -1}
             style={{
               flex: 1, minWidth: 0, paddingRight: '16px',
@@ -253,7 +258,7 @@ export function Navbar({ fonts = [], back = false }: NavbarProps) {
                   {font.name}
                 </span>
                 <span style={{ fontFamily: 'var(--font-ui)', fontSize: '14px', fontWeight: 400, color: 'var(--gray-cont-tert)' }}>
-                  {font.author}
+                  {font.matchedLanguage ? `${font.author}, ${font.matchedLanguage}` : font.author}
                 </span>
               </a>
             )) : (

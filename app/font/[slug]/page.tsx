@@ -82,7 +82,7 @@ export default async function FontPage({ params }: Props) {
   const family = staticDb.getAllFamilies().find(f => slugMatchesFamily(slug, f.name))
   if (!family) notFound()
   const fontFaceCSS = buildFontFaceCSS(family)
-  const fonts = staticDb.getAllFamilies().map(f => ({ name: f.name, author: f.foundry }))
+  const fonts = staticDb.getAllFamilies().map(f => ({ name: f.name, author: f.foundry, languages: f.languages }))
 
   const url = `https://www.typedump.com/font/${slug}`
   const isVariable = family.isVariable || family.variants.some(v => v.isVariable)
