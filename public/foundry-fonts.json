@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:44:28.199Z",
+  "generatedAt": "2026-11-21T12:21:49.517Z",
   "count": 300,
   "fonts": [
     {
@@ -1710,8 +1710,8 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/2bb1fa7ff86cc4a1.webp",
-          "width": 754,
+          "src": "/foundry-images/4751fd995346f933.webp",
+          "width": 639,
           "height": 640
         },
         {
@@ -6149,28 +6149,6 @@
       ]
     },
     {
-      "name": "Khalos",
-      "url": "https://blazetype.eu/typefaces/khalos",
-      "date": "2025-10-13",
-      "images": [
-        {
-          "src": "/foundry-images/5ad981faab435362.webp",
-          "width": 853,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/492fd198340d7586.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
       "name": "Yuni by Philipp Neumeyer (TypeMates)",
       "url": "https://type.today/en/collection/yuni",
       "date": "2025-10-09",
@@ -6597,58 +6575,6 @@
       ],
       "foundry": "ALT.tf",
       "foundryUrl": "https://alt-tf.com",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
-      "name": "Solae",
-      "url": "https://blazetype.eu/typefaces/solae",
-      "date": "2025-09-16",
-      "images": [
-        {
-          "src": "/foundry-images/99068cf310ad70ef.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ee3a75cc743f42e0.webp",
-          "width": 427,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d4449b3dccfaa169.webp",
-          "width": 427,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0c5965489c14d7c0.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7b1fc50843040cab.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a75144e742f4f1d7.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d88060c431ca8af1.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c9d24c08411c516d.webp",
-          "width": 639,
-          "height": 640
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
       "category": [
         "Serif"
       ]
@@ -8062,38 +7988,6 @@
       ]
     },
     {
-      "name": "Quadro",
-      "url": "https://blazetype.eu/typefaces/quadro",
-      "date": "2025-03-07",
-      "images": [
-        {
-          "src": "/foundry-images/475e825908414ff7.webp",
-          "width": 896,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/363203f5a64c649f.webp",
-          "width": 1137,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f4ac7688d6db598f.webp",
-          "width": 896,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/bcee831836b29961.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Museum",
       "url": "https://pangrampangram.com/products/museum",
       "date": "2025-03-01",
@@ -8232,33 +8126,6 @@
       "foundryUrl": "https://www.nan.xyz",
       "category": [
         "Semi Serif"
-      ]
-    },
-    {
-      "name": "Dean Gothic",
-      "url": "https://blazetype.eu/typefaces/dean-gothic",
-      "date": "2025-01-25",
-      "images": [
-        {
-          "src": "/foundry-images/c2dbc673ba77cbad.webp",
-          "width": 896,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4c87f92011bc2394.webp",
-          "width": 1147,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/c7cbddfe937a3613.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
-      "category": [
-        "Sans"
       ]
     },
     {
@@ -8494,6 +8361,58 @@
       "foundryUrl": "https://binnenland.ch",
       "category": [
         "Sans"
+      ]
+    },
+    {
+      "name": "Solae",
+      "url": "https://blazetype.eu/typefaces/solae",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/99068cf310ad70ef.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ee3a75cc743f42e0.webp",
+          "width": 427,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d4449b3dccfaa169.webp",
+          "width": 427,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0c5965489c14d7c0.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7b1fc50843040cab.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a75144e742f4f1d7.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d88060c431ca8af1.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c9d24c08411c516d.webp",
+          "width": 639,
+          "height": 640
+        }
+      ],
+      "foundry": "Blaze Type",
+      "foundryUrl": "https://blazetype.eu",
+      "category": [
+        "Serif"
       ]
     },
     {
@@ -8858,6 +8777,28 @@
       ]
     },
     {
+      "name": "Khalos",
+      "url": "https://blazetype.eu/typefaces/khalos",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/5ad981faab435362.webp",
+          "width": 853,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/492fd198340d7586.webp",
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "foundry": "Blaze Type",
+      "foundryUrl": "https://blazetype.eu",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
       "name": "Sature Rounded",
       "url": "https://blazetype.eu/typefaces/sature-rounded",
       "date": "2025-01-01",
@@ -8869,6 +8810,65 @@
         },
         {
           "src": "/foundry-images/9de35ea0d8c4cf8e.webp",
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "foundry": "Blaze Type",
+      "foundryUrl": "https://blazetype.eu",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Quadro",
+      "url": "https://blazetype.eu/typefaces/quadro",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/475e825908414ff7.webp",
+          "width": 896,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/363203f5a64c649f.webp",
+          "width": 1137,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e2310d9bfa5f571e.webp",
+          "width": 896,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bcee831836b29961.webp",
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "foundry": "Blaze Type",
+      "foundryUrl": "https://blazetype.eu",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Dean Gothic",
+      "url": "https://blazetype.eu/typefaces/dean-gothic",
+      "date": "2025-01-01",
+      "images": [
+        {
+          "src": "/foundry-images/c2dbc673ba77cbad.webp",
+          "width": 896,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4c87f92011bc2394.webp",
+          "width": 1147,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/c7cbddfe937a3613.webp",
           "width": 1200,
           "height": 630
         }
@@ -8924,33 +8924,6 @@
       "foundryUrl": "https://commercialtype.com",
       "category": [
         "Serif"
-      ]
-    },
-    {
-      "name": "Balete",
-      "url": "https://blazetype.eu/typefaces/balete",
-      "date": "2024-12-13",
-      "images": [
-        {
-          "src": "/foundry-images/c4bbec5383614a59.webp",
-          "width": 1019,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/656fa6ed46d95471.webp",
-          "width": 960,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/75434b94e772e57b.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
-      "category": [
-        "Decorative"
       ]
     },
     {
@@ -9149,58 +9122,6 @@
       ]
     },
     {
-      "name": "Holise",
-      "url": "https://blazetype.eu/typefaces/holise",
-      "date": "2024-10-29",
-      "images": [
-        {
-          "src": "/foundry-images/698abc256c6d963b.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6d3a860e297bcff8.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/00f02244bfadc42b.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5338988175f8ceca.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e6747f970c8cfb05.webp",
-          "width": 1087,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4ad8a528d9df067b.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b7171250de300f31.webp",
-          "width": 958,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/811cfed6176a7095.webp",
-          "width": 959,
-          "height": 640
-        }
-      ],
-      "foundry": "Blaze Type",
-      "foundryUrl": "https://blazetype.eu",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
       "name": "ABC Otto",
       "url": "https://abcdinamo.com/typefaces/otto",
       "date": "2024-10-28",
@@ -9250,6 +9171,110 @@
       "foundryUrl": "https://abcdinamo.com",
       "category": [
         "Serif"
+      ]
+    },
+    {
+      "name": "ABC Pelikan",
+      "url": "https://abcdinamo.com/typefaces/pelikan",
+      "date": "2024-10-11",
+      "images": [
+        {
+          "src": "/foundry-images/1e71f189a3589834.webp",
+          "width": 566,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6c7131c5d650567b.webp",
+          "width": 2069,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e9baef3a823fd08f.webp",
+          "width": 716,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/531aa6229ba965a2.webp",
+          "width": 716,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5886aa7767fa947f.webp",
+          "width": 716,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e6717d6fd10e9dd9.webp",
+          "width": 2067,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/34a7455eea149f87.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f83fa57c6fcb576a.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Dinamo",
+      "foundryUrl": "https://abcdinamo.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Struve by Schrift Foundry",
+      "url": "https://type.today/en/struve",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/e5268d32b6068be4.webp",
+          "width": 446,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b705afef6f733a58.webp",
+          "width": 446,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/fee6369a4fef6fa7.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/77b1a9f8e5d77ef1.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/88797a9a9d796b47.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0169a6e04e9c482c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/139c554b2ce61338.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/771eefb224a6a232.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
       ]
     },
     {
