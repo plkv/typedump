@@ -386,8 +386,6 @@
 @font-face{font-family:"Kobata-8645ae__v_c567b6";src:url("/fonts/preview/KobataGX.woff2") format("woff2");font-weight:100 150;font-style:normal;font-display:swap;}
 @font-face{font-family:"Azabache-40fd4d";src:url("/fonts/preview/Azabache-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Azabache-40fd4d__v_d1f327";src:url("/fonts/preview/Azabache-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Cy Grotesk Grand Dark-126adc";src:url("/fonts/preview/CyGrotesk-GrandDark.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Cy Grotesk Grand Dark-126adc__v_1eb15c";src:url("/fonts/preview/CyGrotesk-GrandDark.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cabinet Grotesk-8a9739";src:url("/fonts/preview/CabinetGrotesk-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Cabinet Grotesk-8a9739__v_3ad855";src:url("/fonts/preview/CabinetGrotesk-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Carattere-64e06f";src:url("/fonts/preview/Carattere-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
@@ -482,8 +480,8 @@
 @font-face{font-family:"Ortica Linear-8886dc__v_be9270";src:url("/fonts/OrticaAngular-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap;}
 @font-face{font-family:"Aujournuit-8b1df7";src:url("/fonts/preview/Aujournuit-VariableVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Aujournuit-8b1df7__v_f6e9ab";src:url("/fonts/preview/Aujournuit-VariableVF.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Micro Grotesk-fcf261";src:url("/fonts/preview/MicroGrotesk[wght].ttf");font-weight:100 900;font-style:normal;font-display:swap;}
-@font-face{font-family:"Micro Grotesk-fcf261__v_aed60d";src:url("/fonts/preview/MicroGrotesk[wght].ttf");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Micro Grotesk-fcf261";src:url("/fonts/preview/MicroGrotesk[wght].ttf") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Micro Grotesk-fcf261__v_51b0be";src:url("/fonts/preview/MicroGrotesk[wght].ttf") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
 @font-face{font-family:"Apfel Grotesk-9ecfa6";src:url("/fonts/preview/ApfelGrotezk-Satt.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Apfel Grotesk-9ecfa6__v_dbbf81";src:url("/fonts/preview/ApfelGrotezk-Satt.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
 @font-face{font-family:"Apfel Grotesk-9ecfa6";src:url("/fonts/ApfelGrotezk-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}

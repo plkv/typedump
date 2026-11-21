@@ -182,6 +182,7 @@ export function transformFamilies(families: FontFamily[]): FontData[] {
       url: rep.blobUrl,
       previewUrl: (rep as any).previewUrl,
       downloadLink: (family as any).downloadLink,
+      gitLink: (family as any).gitLink,
       variableAxes: rep.variableAxes as any,
       openTypeFeatures: rep.openTypeFeatures,
       _familyFonts: variants.map(v => ({

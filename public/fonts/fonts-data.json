@@ -301,7 +301,8 @@
           "motive": "paid",
           "gets": "wght 100–900 in one variable file, Cyrillic, 24 alternate pairs"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/vercel/geist-font"
     },
     {
       "name": "DatDot",
@@ -673,7 +674,8 @@
           "motive": "paid",
           "gets": "wght 100–900, Cyrillic, 24 alternate pairs"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/vercel/geist-font"
     },
     {
       "name": "Host Grotesk",
@@ -961,7 +963,8 @@
           "motive": "overused",
           "gets": "uniform letter width across weights, wght 300–800, italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/Element-Type/HostGrotesk"
     },
     {
       "name": "JetBrains Mono",
@@ -1195,7 +1198,8 @@
           "motive": "paid",
           "gets": "Cyrillic, Greek and Vietnamese, wght 100–800, italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/JetBrains/JetBrainsMono"
     },
     {
       "name": "Open Sauce Sans",
@@ -1213,7 +1217,7 @@
       "foundry": "Alfredo Marco Pradil, Creative Sauce Fz LLC",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/marcologous/Open-Sauce-Fonts",
+      "downloadLink": "/downloads/open-sauce-sans.zip",
       "id": "family_open_sauce_sans_1757807925667",
       "variants": [
         {
@@ -1377,7 +1381,8 @@
         "Interface"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’"
+      "specialChars": "&@#%‰§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’",
+      "gitLink": "https://github.com/marcologous/Open-Sauce-Fonts"
     },
     {
       "name": "Plus Jakarta Sans",
@@ -1396,7 +1401,7 @@
       "foundry": "Gumpita Rahayu, Tokotype",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/tokotype/PlusJakartaSans",
+      "downloadLink": "/downloads/plus-jakarta-sans.zip",
       "id": "family_plus_jakarta_sans_1757807925608",
       "variants": [
         {
@@ -1742,7 +1747,8 @@
           "motive": "paid",
           "gets": "wght 200–800, italics, Vietnamese"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/tokotype/PlusJakartaSans"
     },
     {
       "name": "Switzer",
@@ -2173,7 +2179,7 @@
       "foundry": "Bakken & Bæck, Schibsted ASA",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/schibsted/schibsted-grotesk",
+      "downloadLink": "/downloads/schibsted-grotesk.zip",
       "id": "family_schibsted_grotesk_1757807925434",
       "variants": [
         {
@@ -2356,7 +2362,8 @@
           "motive": "paid",
           "gets": "variable weight with italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/schibsted/schibsted-grotesk"
     },
     {
       "name": "Space Grotesk",
@@ -2585,7 +2592,8 @@
           "motive": "paid",
           "gets": "Vietnamese support and 24 alternate pairs"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/floriankarsten/space-grotesk"
     },
     {
       "name": "Ronzino",
@@ -2925,7 +2933,7 @@
       "foundry": "Rodrigo Fuenzalida, fragTYPE",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Outfitio/Outfit-Fonts",
+      "downloadLink": "/downloads/outfit.zip",
       "id": "family_outfit_1757807925253",
       "variants": [
         {
@@ -3072,7 +3080,8 @@
           "motive": "overused",
           "gets": "wght 100–900 in one file"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/Outfitio/Outfit-Fonts"
     },
     {
       "name": "Satoshi",
@@ -3478,7 +3487,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/rektdeckard/departure-mono"
     },
     {
       "name": "Zodiak",
@@ -3672,7 +3682,7 @@
       "foundry": "URW",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/ArtifexSoftware/urw-base35-fonts",
+      "downloadLink": "/downloads/new-century-schoolbook-c095.zip",
       "id": "family_new_century_schoolbook__c095__1757807924976",
       "variants": [
         {
@@ -3789,7 +3799,8 @@
           "motive": "unlicensable",
           "gets": "Cyrillic, Greek, italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/ArtifexSoftware/urw-base35-fonts"
     },
     {
       "name": "Mona Sans",
@@ -3810,7 +3821,7 @@
       "foundry": "GitHub",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/github/mona-sans",
+      "downloadLink": "/downloads/mona-sans.zip",
       "id": "family_mona_sans_1757807924916",
       "variants": [
         {
@@ -4138,7 +4149,8 @@
           "motive": "paid",
           "gets": "wdth 75–125 and wght 200–900, with italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/github/mona-sans"
     },
     {
       "name": "Overused Grotesk",
@@ -4158,7 +4170,7 @@
       "foundry": "RandomMaerks",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/RandomMaerks/Overused-Grotesk",
+      "downloadLink": "/downloads/overused-grotesk.zip",
       "id": "family_overused_grotesk_1757807924864",
       "variants": [
         {
@@ -4497,7 +4509,8 @@
           "motive": "unlicensable",
           "gets": "a slant axis and wght 300–900 — Helvetica has no variable version"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/RandomMaerks/Overused-Grotesk"
     },
     {
       "name": "FA-1",
@@ -4625,7 +4638,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.760Z",
       "updatedAt": "2025-09-13T23:58:44.809Z",
-      "downloadLink": "https://github.com/vegaprotocol/alpha-lyrae",
+      "downloadLink": "/downloads/alpha-lyrae.zip",
       "description": "Alpha Lyrae is a sans-serif typeface designed by Fontfabric for the Vega Protocol blockchain platform, featuring clean grotesque letterforms as its base with five optional stylistic sets of pixelated alternates. Its built-in 'glitch' behavior — automatically swapping every fourth character for a pixelated version via OpenType — makes it uniquely expressive for tech and crypto branding.",
       "licenseInfo": {
         "type": "OFL",
@@ -4733,7 +4746,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰®™•¡¿€£¥₽¢±×÷≠«»“”‘’…–—"
+      "specialChars": "&@#%‰®™•¡¿€£¥₽¢±×÷≠«»“”‘’…–—",
+      "gitLink": "https://github.com/vegaprotocol/alpha-lyrae"
     },
     {
       "name": "Havana",
@@ -4934,7 +4948,7 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/AntiqueSerie-Regular.otf",
+      "downloadLink": "/downloads/antique-serie.zip",
       "altPairs": [
         [
           "a",
@@ -5073,7 +5087,7 @@
       "useCases": [
         "Brand Headline"
       ],
-      "downloadLink": "/fonts/NouvelleGrotesquerie-Regular.otf",
+      "downloadLink": "/downloads/nouvelle-grotesquerie.zip",
       "altPairs": [
         [
           "M",
@@ -5160,7 +5174,7 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/Excessive-ExtraCondensed.otf",
+      "downloadLink": "/downloads/excessive-extra-condensed.zip",
       "altPairs": [
         [
           "Q",
@@ -5244,8 +5258,8 @@
       "updatedAt": "2025-09-13T23:58:44.395Z",
       "description": "N27 is a contemporary geometric grotesque from the Spanish type studio atipo, blending a forward-looking aesthetic with a neutral, information-driven tone. Its 12-weight range and subtle inktrap details position it as a versatile typeface for branding, editorial, and digital interfaces that want a sophisticated tech edge.",
       "licenseInfo": {
-        "type": "Free for personal use",
-        "url": "https://www.atipofoundry.com/fonts/n27"
+        "type": "Free for commercial use",
+        "url": "https://www.atipofoundry.com/license"
       },
       "publishedAt": "2022-01-01",
       "useCases": [
@@ -5660,7 +5674,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.229Z",
       "updatedAt": "2025-09-13T23:58:44.268Z",
-      "downloadLink": "https://github.com/LCTipografi/LCT-Iptex",
+      "downloadLink": "/downloads/lct-iptex.zip",
       "description": "LCT Iptex is a futuristic monospace typeface from Lokal Container Tipografi, inspired by the modular design principles of Wim Crouwel. Its geometric precision and clean, high-tech letterforms suit coding environments, UI design, and branding that seeks a forward-thinking, structured aesthetic.",
       "licenseInfo": {
         "type": "OFL",
@@ -5692,7 +5706,8 @@
           "ss03"
         ]
       ],
-      "specialChars": "&@#%‰©®™•¡¿€£¥¢°±×÷≠→←↑↓«»“”"
+      "specialChars": "&@#%‰©®™•¡¿€£¥¢°±×÷≠→←↑↓«»“”",
+      "gitLink": "https://github.com/LCTipografi/LCT-Iptex"
     },
     {
       "name": "PicNic",
@@ -5857,7 +5872,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.122Z",
       "updatedAt": "2025-09-13T23:58:44.173Z",
-      "downloadLink": "https://github.com/EthanNakache/Sprat-type",
+      "downloadLink": "/downloads/sprat.zip",
       "description": "Sprat is a variable display serif by Ethan Nakache, featuring long sharp serifs and high stroke contrast inspired by Eric Gill's alphabet. Available across three widths (condensed, regular, extended) and six weights from thin to black, it shines in headlines, posters, and logotypes where typographic drama is welcome.",
       "licenseInfo": {
         "type": "OFL",
@@ -5868,7 +5883,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
+      "specialChars": "&@#%‰©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”",
+      "gitLink": "https://github.com/EthanNakache/Sprat-type"
     },
     {
       "name": "Insolente",
@@ -5974,7 +5990,7 @@
       ],
       "createdAt": "2025-09-13T23:58:44.019Z",
       "updatedAt": "2025-09-13T23:58:44.068Z",
-      "downloadLink": "https://github.com/thaiscy/crozet_te",
+      "downloadLink": "/downloads/crozet.zip",
       "description": "Crozet (also known as Crozet·te) is an experimental typeface inspired by cross-stitch embroidery, designed by Thaïs Cuny. Its pixel-like, grid-based construction gives text the texture of handmade needlework, bridging craft tradition with digital type design in an unusually tactile way.",
       "licenseInfo": {
         "type": "OFL",
@@ -5985,7 +6001,8 @@
         "Tech / Digital"
       ],
       "altPairs": [],
-      "specialChars": "&@#%€¢°×÷«»‘’…"
+      "specialChars": "&@#%€¢°×÷«»‘’…",
+      "gitLink": "https://github.com/thaiscy/crozet_te"
     },
     {
       "name": "DINdong",
@@ -6068,7 +6085,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.967Z",
       "updatedAt": "2025-09-13T23:58:44.015Z",
-      "downloadLink": "https://gitlab.com/Clarasambot/dindong",
+      "downloadLink": "/downloads/dindong.zip",
       "description": "DINdong is a reworking of DIN 1451 Breitschrift after Peter Wiegel's digitization, created by Clara Sambot with inclusive and non-binary glyph features. It retains the functional, industrial character of the classic German standards typeface while expanding its cultural scope for contemporary use.",
       "licenseInfo": {
         "type": "OFL",
@@ -6079,7 +6096,8 @@
         "Culture"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«",
+      "gitLink": "https://gitlab.com/Clarasambot/dindong"
     },
     {
       "name": "Roberte",
@@ -6148,7 +6166,7 @@
       ],
       "createdAt": "2025-09-13T23:58:43.916Z",
       "updatedAt": "2025-09-13T23:58:43.963Z",
-      "downloadLink": "https://gitlab.com/Eugenie-B/roberte",
+      "downloadLink": "/downloads/roberte.zip",
       "description": "Roberte is an italic-only stroke typeface by Eugénie Bidaut, drawn freely from the italic letter forms of Robert Granjon without any upright companion. Its calligraphic origins give it fluid, expressive energy — it exists entirely as a cursive, making it unusual and striking in display contexts.",
       "licenseInfo": {
         "type": "OFL",
@@ -6224,7 +6242,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://gitlab.com/Eugenie-B/roberte"
     },
     {
       "name": "Nudles",
@@ -6389,7 +6408,7 @@
       "foundry": "Kostas Bartsokas",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/kosbarts/Commissioner",
+      "downloadLink": "/downloads/commissioner.zip",
       "id": "family_commissioner_1757807923687",
       "variants": [
         {
@@ -6897,7 +6916,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "gitLink": "https://github.com/kosbarts/Commissioner"
     },
     {
       "name": "Uncut Sans",
@@ -6914,7 +6934,7 @@
       "foundry": "Kasper Nordkvist, Uncut Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/kaspernordkvist/uncut_sans",
+      "downloadLink": "/downloads/uncut-sans.zip",
       "id": "family_uncut_sans_1757807923638",
       "variants": [
         {
@@ -7134,7 +7154,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/kaspernordkvist/uncut_sans"
     },
     {
       "name": "RT Obligat",
@@ -7376,7 +7397,7 @@
       "useCases": [
         "Brand Headline"
       ],
-      "downloadLink": "/fonts/FRANKINITY.otf",
+      "downloadLink": "/downloads/frankinity.zip",
       "altPairs": [],
       "specialChars": "&@#%§×÷«»“”‘’—"
     },
@@ -7442,7 +7463,7 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/P95-CYR-Regular.otf",
+      "downloadLink": "/downloads/p95-cyr.zip",
       "altPairs": [
         [
           "H",
@@ -7560,7 +7581,7 @@
       "foundry": "Colophon Foundry & Benjamin Critton",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/spacemono",
+      "downloadLink": "/downloads/space-mono.zip",
       "id": "family_space_mono_1757807923237",
       "variants": [
         {
@@ -7824,7 +7845,8 @@
           "motive": "paid",
           "gets": "true italics and 24 alternate pairs"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/googlefonts/spacemono"
     },
     {
       "name": "Comico",
@@ -8121,14 +8143,14 @@
       "updatedAt": "2025-09-13T23:58:43.075Z",
       "description": "America XIX is a serif display typeface designed by Roman Gornitsky, drawing on the expressive lettering traditions of 19th-century American printing. Its Cyrillic coverage alongside Latin makes it a distinctive choice for editorial and branding projects that need historical gravitas with a broad script range.",
       "licenseInfo": {
-        "type": "Free for personal use",
-        "url": "https://online-fonts.com/fonts/america-xix"
+        "type": "Free for any use",
+        "url": "http://abstrkt.ru"
       },
       "publishedAt": "2020-01-01",
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/am_xix FREE.otf",
+      "downloadLink": "/downloads/america-xix.zip",
       "altPairs": [],
       "specialChars": "&@#‰§¶†‡•€°±«»“”‘’…–—"
     },
@@ -8241,7 +8263,7 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/ARK-ES-DenseRegular.otf",
+      "downloadLink": "/downloads/ark-es-dense.zip",
       "altPairs": [],
       "specialChars": "&@#%©®™•€£¢÷«»“”‘’–—"
     },
@@ -8354,7 +8376,7 @@
       "useCases": [
         "Tech / Digital"
       ],
-      "downloadLink": "/fonts/ARK-ES-SolidRegular.otf",
+      "downloadLink": "/downloads/ark-es-solid.zip",
       "altPairs": [],
       "specialChars": "&@#%©®™•€£¢÷«»“”‘’–—"
     },
@@ -8437,7 +8459,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.817Z",
       "updatedAt": "2025-09-13T23:58:42.863Z",
-      "downloadLink": "https://github.com/LCTipografi/LCT-Mogi",
+      "downloadLink": "/downloads/lct-mogi-a.zip",
       "description": "LCT Mogi A is a super-fat variable display typeface by Deni Anggara at Lokal Container Tipografi, featuring wide, bouncy letterforms with a friendly yet impactful personality. Its width axis lets designers shift from compact to expansive, making it highly adaptable for headlines, posters, and bold digital interfaces.",
       "licenseInfo": {
         "type": "OFL",
@@ -8453,7 +8475,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/LCTipografi/LCT-Mogi"
     },
     {
       "name": "Biceps Grotesk",
@@ -8525,7 +8548,7 @@
       "foundry": "Lokal Container",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/LCTipografi/BDO-Grotesk",
+      "downloadLink": "/downloads/bdo-grotesk.zip",
       "id": "family_bdo_grotesk_1757807922712",
       "variants": [
         {
@@ -8712,7 +8735,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/LCTipografi/BDO-Grotesk"
     },
     {
       "name": "BD Lifeless Grotesk",
@@ -8732,7 +8756,7 @@
       "foundry": "Harry Dinh",
       "isVariable": true,
       "published": true,
-      "downloadLink": "/fonts/BDLifelessGrotesk_Variable_sm01.ttf",
+      "downloadLink": "/downloads/bd-lifeless-grotesk.zip",
       "id": "family_bd_lifeless_grotesk_1757807922664",
       "variants": [
         {
@@ -9011,7 +9035,7 @@
       "foundry": "Kristian Möller, Dicotype",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Dicotype/Funnel",
+      "downloadLink": "/downloads/funnel-sans.zip",
       "id": "family_funnel_sans_1757807922601",
       "variants": [
         {
@@ -9182,7 +9206,8 @@
         "Interface"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘",
+      "gitLink": "https://github.com/Dicotype/Funnel"
     },
     {
       "name": "Terminal Grotesque",
@@ -9200,7 +9225,7 @@
       "foundry": "Raphaël Bastide",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/StudioTriple/Terminal-Grotesque",
+      "downloadLink": "/downloads/terminal-grotesque.zip",
       "id": "family_terminal_grotesque_1757807922536",
       "variants": [
         {
@@ -9257,7 +9282,8 @@
         "Culture"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’…"
+      "specialChars": "&@#%§©®™¶†•¡¿€£¥¢°±×÷«»“”‘’…",
+      "gitLink": "https://github.com/StudioTriple/Terminal-Grotesque"
     },
     {
       "name": "Compagnon Bold",
@@ -9299,7 +9325,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.488Z",
       "updatedAt": "2025-09-13T23:58:42.532Z",
-      "downloadLink": "https://gitlab.com/velvetyne/compagnon",
+      "downloadLink": "/downloads/compagnon-bold.zip",
       "description": "Compagnon Bold is the cursive weight of the Compagnon typeface family by Chloé Lozano at Velvetyne, a five-style exploration inspired by typewriter database specimens across different eras. Bold's cursive style gives the family's typewriter-meets-transitional heritage an expressive, distinctive voice.",
       "licenseInfo": {
         "type": "OFL",
@@ -9310,7 +9336,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://gitlab.com/velvetyne/compagnon"
     },
     {
       "name": "Anthony",
@@ -9368,7 +9395,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.441Z",
       "updatedAt": "2025-09-13T23:58:42.485Z",
-      "downloadLink": "https://gitlab.com/velvetyne/anthony",
+      "downloadLink": "/downloads/anthony.zip",
       "description": "Anthony is a geometric sans-serif typeface by Sun Young Oh, published by Velvetyne, inspired by the steel sculptures of British artist Anthony Caro. Its letterforms reference the way Caro's steel beams lean and balance against each other, giving the font a structural, sculptural quality with an abstract modernist spirit.",
       "licenseInfo": {
         "type": "OFL",
@@ -9476,7 +9503,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%§¶†‡¡¿€£¥¢°±×÷→←↑↓«»“”‘’"
+      "specialChars": "&@#%§¶†‡¡¿€£¥¢°±×÷→←↑↓«»“”‘’",
+      "gitLink": "https://gitlab.com/velvetyne/anthony"
     },
     {
       "name": "Hubot Sans",
@@ -9714,7 +9742,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.381Z",
       "updatedAt": "2025-09-13T23:58:42.437Z",
-      "downloadLink": "https://github.com/github/hubot-sans",
+      "downloadLink": "/downloads/hubot-sans.zip",
       "description": "Hubot Sans is GitHub's technical companion typeface to Mona Sans, designed with Degarism with more geometric, idiosyncratic accents to convey a robotic, mechanical character. Released in November 2022 as a variable font, it's well-suited for headers, pull-quotes, and contexts where Mona Sans needs a distinctive counterpart.",
       "licenseInfo": {
         "type": "OFL",
@@ -9823,7 +9851,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»",
+      "gitLink": "https://github.com/github/hubot-sans"
     },
     {
       "name": "Sligoil Micro",
@@ -10050,7 +10079,7 @@
       "foundry": "Anton Moglia, Jérémy Landes, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/velvetyne/pilowlava3D",
+      "downloadLink": "/downloads/pilowlava.zip",
       "id": "family_pilowlava_1757807922275",
       "variants": [
         {
@@ -10262,7 +10291,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%•¡¿€£°«»“”‘’…–—"
+      "specialChars": "&@#%•¡¿€£°«»“”‘’…–—",
+      "gitLink": "https://gitlab.com/velvetyne/pilowlava3D"
     },
     {
       "name": "Jost",
@@ -10638,7 +10668,7 @@
       ],
       "createdAt": "2025-09-13T23:58:42.015Z",
       "updatedAt": "2025-09-13T23:58:42.200Z",
-      "downloadLink": "https://github.com/indestructible-type/Jost",
+      "downloadLink": "/downloads/jost.zip",
       "description": "Jost is a variable geometric sans-serif by indestructible type*, created as an ode to the 1920s German sans-serif revolution that gave us typefaces still looking futuristic a century later. Available in nine weights with full variable support, it captures the spirit of Bauhaus geometric design for contemporary digital use.",
       "licenseInfo": {
         "type": "OFL",
@@ -10702,7 +10732,8 @@
           "motive": "paid",
           "gets": "Cyrillic and true italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/indestructible-type/Jost"
     },
     {
       "name": "Basteleur",
@@ -10784,7 +10815,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.953Z",
       "updatedAt": "2025-09-13T23:58:42.012Z",
-      "downloadLink": "https://gitlab.com/velvetyne/basteleur",
+      "downloadLink": "/downloads/basteleur.zip",
       "description": "Basteleur is an eccentric display serif by Keussel, published by Velvetyne, designed with the Tarot de Marseille as its guiding spirit. Its letterforms blend the soft roundness of Cooper Black with the mysticism of medieval woodcut type, producing a uniquely whimsical face available in Moonlight (light) and Black weights.",
       "licenseInfo": {
         "type": "OFL",
@@ -10884,7 +10915,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠«»“”‘’"
+      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠«»“”‘’",
+      "gitLink": "https://gitlab.com/velvetyne/basteleur"
     },
     {
       "name": "LT Crewmate",
@@ -10937,7 +10969,7 @@
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/Crewmate-Regular.otf",
+      "downloadLink": "/downloads/lt-crewmate.zip",
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†•¡¿€£¥¢°±×÷≠«»“”‘"
     },
@@ -11140,7 +11172,7 @@
       "useCases": [
         "Editorial / Ecommerce"
       ],
-      "downloadLink": "/fonts/LTMuseum-Medium.ttf",
+      "downloadLink": "/downloads/lt-museum.zip",
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
     },
@@ -11159,7 +11191,7 @@
       "foundry": "Joao Serafim",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/IntraNetRegular.otf",
+      "downloadLink": "/downloads/intranet.zip",
       "id": "family_intranet_1757807921727",
       "variants": [
         {
@@ -11473,7 +11505,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.611Z",
       "updatedAt": "2025-09-13T23:58:41.674Z",
-      "downloadLink": "https://github.com/alerque/libertinus",
+      "downloadLink": "/downloads/libertinus-sans.zip",
       "description": "Libertinus Sans is part of the Libertinus font family, forked from the Linux Biolinum open fonts project and maintained by Caleb Maclennan. It offers a clean humanist sans-serif companion to the Libertinus Serif family, covering Latin, Cyrillic, and Greek for academic publishing and open-source document preparation.",
       "licenseInfo": {
         "type": "OFL",
@@ -11484,7 +11516,8 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/alerque/libertinus"
     },
     {
       "name": "Cossette Titre",
@@ -11549,7 +11582,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.543Z",
       "updatedAt": "2026-09-22T00:00:00.000Z",
-      "downloadLink": "https://github.com/googlefonts/cossette-fonts",
+      "downloadLink": "/downloads/cossette-titre.zip",
       "description": "Cossette Titre is a condensed grotesque display typeface created by Cossette Communication, featuring a classic grotesque structure with a distinctive subtle inverted contrast. Designed to work as a tight-packed headline companion to Cossette Texte, it maximizes brand impact in constrained spaces.",
       "licenseInfo": {
         "type": "OFL",
@@ -11560,7 +11593,8 @@
         "Culture"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—",
+      "gitLink": "https://github.com/googlefonts/cossette-fonts"
     },
     {
       "name": "Cossette Texte",
@@ -11636,7 +11670,7 @@
       "useCases": [
         "Culture"
       ],
-      "downloadLink": "/fonts/CossetteTexte-Regular.ttf",
+      "downloadLink": "/downloads/cossette-texte.zip",
       "altPairs": [],
       "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
     },
@@ -11662,7 +11696,7 @@
       "foundry": "Unknown",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/kosbarts/Oi",
+      "downloadLink": "/downloads/oi.zip",
       "id": "family_oi_1757807921421",
       "variants": [
         {
@@ -11731,7 +11765,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/kosbarts/Oi"
     },
     {
       "name": "Ultra",
@@ -11751,7 +11786,7 @@
       "foundry": "Astigmatic (AOETI)",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/googlefontdirectory-hg/tree/master/apache/ultra",
+      "downloadLink": "/downloads/ultra.zip",
       "id": "family_ultra_1757807921366",
       "variants": [
         {
@@ -11788,7 +11823,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "gitLink": "https://github.com/googlefonts/googlefontdirectory-hg"
     },
     {
       "name": "Chaumont Script",
@@ -11839,7 +11875,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.309Z",
       "updatedAt": "2025-09-13T23:58:41.362Z",
-      "downloadLink": "/fonts/ChaumontScript-Regular.otf",
+      "downloadLink": "/downloads/chaumont-script.zip",
       "description": "Chaumont Script is a digital typeface based on the handwriting of Chantal Jacquet, a sign painter working in Chaumont, France, in the 1980s. Transcribed by Alexandre Bassi at ANRT Nancy, it contains 2500 glyphs with complex OpenType features that reproduce the fluid rhythm of the original cursive sign painting.",
       "licenseInfo": {
         "type": "OFL",
@@ -12018,7 +12054,7 @@
       ],
       "createdAt": "2025-09-13T23:58:41.243Z",
       "updatedAt": "2026-09-22T00:00:00.000Z",
-      "downloadLink": "https://github.com/anrt-type/ANRT-Baskervville",
+      "downloadLink": "/downloads/baskervville.zip",
       "description": "Baskervville is a revival of a transitional typeface by Jacob, the French punchcutter who distributed it from 1815 as 'Baskerwille' — bridging Baskerville's classical forms with Didot's emerging modernity. Developed by a workshop at ANRT in 2017–18, it's a rare document of French typographic history, now available as an open-source webfont.",
       "licenseInfo": {
         "type": "OFL",
@@ -12038,7 +12074,8 @@
           "gets": "italics, free"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/anrt-type/ANRT-Baskervville"
     },
     {
       "name": "enjoy please 3",
@@ -12090,7 +12127,7 @@
       "useCases": [
         "Poster"
       ],
-      "downloadLink": "/fonts/enjoyplease2-Regular.otf",
+      "downloadLink": "/downloads/enjoy-please-3.zip",
       "altPairs": [],
       "specialChars": "&@#%©¥“”‘’—"
     },
@@ -12319,7 +12356,7 @@
       "foundry": "unfun.de",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/Interstices-/GapSans",
+      "downloadLink": "/downloads/gap-sans.zip",
       "id": "family_gap_sans_1757807920945",
       "variants": [
         {
@@ -12375,7 +12412,8 @@
         "Culture"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”‘"
+      "specialChars": "&@#%‰©®™¶†‡•¡¿€£¥₽¢°±×÷«»“”‘",
+      "gitLink": "https://github.com/Interstices-/GapSans"
     },
     {
       "name": "Handjet",
@@ -12645,7 +12683,8 @@
           "ss08"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/rosettatype/handjet"
     },
     {
       "name": "Bagel Fat One",
@@ -12664,7 +12703,7 @@
       "foundry": "Kyungwon Jang, JAMO",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/JAMO-TYPEFACE/BagelFat",
+      "downloadLink": "/downloads/bagel-fat-one.zip",
       "id": "family_bagel_fat_one_1757807920845",
       "variants": [
         {
@@ -12706,7 +12745,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”",
+      "gitLink": "https://github.com/JAMO-TYPEFACE/BagelFat"
     },
     {
       "name": "Boxing",
@@ -12791,7 +12831,7 @@
       "foundry": "artakana",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/syakuzen/DelaGothic",
+      "downloadLink": "/downloads/dela-gothic-one.zip",
       "id": "family_dela_gothic_one_1757807920744",
       "variants": [
         {
@@ -12842,7 +12882,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/syakuzen/DelaGothic"
     },
     {
       "name": "Chillax",
@@ -13075,7 +13116,7 @@
       "foundry": "Martin Vácha, Displaay",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/displaay/Azeret",
+      "downloadLink": "/downloads/azeret-mono.zip",
       "id": "family_azeret_mono_1757807920641",
       "variants": [
         {
@@ -13362,7 +13403,8 @@
           "ss13"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/displaay/Azeret"
     },
     {
       "name": "Néo-castel",
@@ -13439,7 +13481,7 @@
       "foundry": "Rodrigo Fuenzalida",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/rfuenzalida/Freeman",
+      "downloadLink": "/downloads/freeman.zip",
       "id": "family_freeman_1757807920536",
       "variants": [
         {
@@ -13492,7 +13534,8 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/rfuenzalida/Freeman"
     },
     {
       "name": "Cormorant Unicase",
@@ -13512,7 +13555,7 @@
       "foundry": "Catharsis Fonts",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/CatharsisFonts/Cormorant",
+      "downloadLink": "/downloads/cormorant-unicase.zip",
       "id": "family_cormorant_unicase_1757807920341",
       "variants": [
         {
@@ -14037,7 +14080,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/CatharsisFonts/Cormorant"
     },
     {
       "name": "Tanklager Kompakt",
@@ -14629,7 +14673,7 @@
       "foundry": "Benoît 'Sans Terre' Ferran",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/benoitsansterre/isenheim",
+      "downloadLink": "/downloads/isenheim.zip",
       "id": "family_isenheim_1757807920047",
       "variants": [
         {
@@ -14911,7 +14955,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©™¶†‡•¡¿€¢°±×÷«»“”‘’…–"
+      "specialChars": "&@#%‰§©™¶†‡•¡¿€¢°±×÷«»“”‘’…–",
+      "gitLink": "https://gitlab.com/benoitsansterre/isenheim"
     },
     {
       "name": "Canarina",
@@ -14928,7 +14973,7 @@
       "foundry": "Ariel Martín Pérez",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://codeberg.org/ArielMartinPerez/Canarina",
+      "downloadLink": "/downloads/canarina.zip",
       "id": "family_canarina_1757807919996",
       "variants": [
         {
@@ -15081,7 +15126,8 @@
           "salt"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://codeberg.org/ArielMartinPerez/Canarina"
     },
     {
       "name": "Kobata",
@@ -15099,7 +15145,7 @@
       "foundry": "Ariel Martín Pérez",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://gitlab.com/arielmartinperez/kobata",
+      "downloadLink": "/downloads/kobata.zip",
       "id": "family_kobata_1757807919934",
       "variants": [
         {
@@ -15161,7 +15207,8 @@
         "Tech / Digital"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«»"
+      "specialChars": "&@#%‰§©¶†‡•¡¿€£¥¢°±×÷≠→←↑↓«»",
+      "gitLink": "https://gitlab.com/arielmartinperez/kobata"
     },
     {
       "name": "Azabache",
@@ -15219,191 +15266,6 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%‰•¡¿€£¢°×«»“”‘’…–—"
-    },
-    {
-      "name": "Cy Grotesk Grand Dark",
-      "collection": "Display",
-      "styleTags": [
-        "Wide",
-        "Fatface",
-        "Contrast"
-      ],
-      "languages": [
-        "Latin",
-        "Cyrillic"
-      ],
-      "category": [
-        "Sans"
-      ],
-      "foundry": "Maksym Kobuzan",
-      "isVariable": false,
-      "published": true,
-      "downloadLink": "/fonts/CyGrotesk-GrandDark.otf",
-      "id": "family_cy_grotesk_grand_dark_1757807919836",
-      "variants": [
-        {
-          "filename": "CyGrotesk-GrandDark.otf",
-          "weight": 400,
-          "styleName": "Regular",
-          "isItalic": false,
-          "isVariable": false,
-          "variableAxes": [],
-          "openTypeFeatures": [
-            "Case-Sensitive Forms",
-            "Discretionary Ligatures",
-            "Fractions",
-            "Standard Ligatures",
-            "Ordinals",
-            "Proportional Figures",
-            "Geometric ‘R, G, Q’",
-            "Single Storey ‘a’",
-            "Single Storey ‘g’",
-            "Serif ‘I’",
-            "Subscript",
-            "Superscript",
-            "Tabular Figures",
-            "Kerning"
-          ],
-          "openTypeFeatureTags": [
-            {
-              "tag": "ss01",
-              "title": "Geometric ‘R, G, Q’"
-            },
-            {
-              "tag": "ss02",
-              "title": "Single Storey ‘a’"
-            },
-            {
-              "tag": "ss03",
-              "title": "Single Storey ‘g’"
-            },
-            {
-              "tag": "ss04",
-              "title": "Serif ‘I’"
-            }
-          ],
-          "isDefaultStyle": true,
-          "uploadedAt": "2025-09-11T19:59:03.130Z",
-          "fileSize": 100964,
-          "checksum": "a17f1b18144fc56dc83d704b62516ef90c96fa6e68e73a254a778650c8d07922",
-          "id": "variant_family_cy_grotesk_grand_dark_1757807919836_1757807919875",
-          "familyId": "family_cy_grotesk_grand_dark_1757807919836",
-          "url": "/fonts/CyGrotesk-GrandDark.woff2",
-          "originalUrl": "/fonts/CyGrotesk-GrandDark.otf",
-          "format": "woff2",
-          "previewUrl": "/fonts/preview/CyGrotesk-GrandDark.woff2"
-        }
-      ],
-      "createdAt": "2025-09-13T23:58:39.836Z",
-      "updatedAt": "2025-09-13T23:58:39.879Z",
-      "description": "Cy Grotesk Grand Dark is a display variant of Maksym Kobuzan's Cy Grotesk family — a typeface that fuses the clear rationalism of mid-20th-century European neo-grotesks with the expressive energy of 19th-century grotesques. Its sharp angled spurs, wedge incisions, and smooth curves create an eccentric rhythm with strong visual personality.",
-      "licenseInfo": {
-        "type": "Free for personal use",
-        "url": "https://houseofmockups.com/products/cy-grotesk-grand-dark-free-display-font-download"
-      },
-      "publishedAt": "2022-01-01",
-      "useCases": [
-        "Poster"
-      ],
-      "altPairs": [
-        [
-          "G",
-          "ss01"
-        ],
-        [
-          "I",
-          "ss04"
-        ],
-        [
-          "Q",
-          "ss01"
-        ],
-        [
-          "R",
-          "ss01"
-        ],
-        [
-          "a",
-          "ss02"
-        ],
-        [
-          "g",
-          "ss03"
-        ],
-        [
-          "Ì",
-          "ss04"
-        ],
-        [
-          "Í",
-          "ss04"
-        ],
-        [
-          "Î",
-          "ss04"
-        ],
-        [
-          "Ï",
-          "ss04"
-        ],
-        [
-          "à",
-          "ss02"
-        ],
-        [
-          "á",
-          "ss02"
-        ],
-        [
-          "â",
-          "ss02"
-        ],
-        [
-          "ã",
-          "ss02"
-        ],
-        [
-          "ä",
-          "ss02"
-        ],
-        [
-          "å",
-          "ss02"
-        ],
-        [
-          "ā",
-          "ss02"
-        ],
-        [
-          "ă",
-          "ss02"
-        ],
-        [
-          "ą",
-          "ss02"
-        ],
-        [
-          "Ĝ",
-          "ss01"
-        ],
-        [
-          "ĝ",
-          "ss03"
-        ],
-        [
-          "Ğ",
-          "ss01"
-        ],
-        [
-          "ğ",
-          "ss03"
-        ],
-        [
-          "Ġ",
-          "ss01"
-        ]
-      ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
     },
     {
       "name": "Cabinet Grotesk",
@@ -15641,7 +15503,7 @@
       "foundry": "Robert E. Leuschke",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/carattere",
+      "downloadLink": "/downloads/carattere.zip",
       "id": "family_carattere_1757807919677",
       "variants": [
         {
@@ -15684,7 +15546,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "gitLink": "https://github.com/googlefonts/carattere"
     },
     {
       "name": "Jaro",
@@ -15702,7 +15565,7 @@
       "foundry": "Agyei Archer, Celine Hurka, Mirko Velimirović",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/agyeiarcher/Jaro",
+      "downloadLink": "/downloads/jaro.zip",
       "id": "family_jaro_1757807919622",
       "variants": [
         {
@@ -15774,7 +15637,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/agyeiarcher/Jaro"
     },
     {
       "name": "Instrument Sans",
@@ -15794,7 +15658,7 @@
       "foundry": "Rodrigo Fuenzalida, Jordan Egstad",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Instrument/instrument-sans",
+      "downloadLink": "/downloads/instrument-sans.zip",
       "id": "family_instrument_sans_1757807919561",
       "variants": [
         {
@@ -16186,7 +16050,8 @@
           "motive": "paid",
           "gets": "a width axis (75–100) as well as weight, plus italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/Instrument/instrument-sans"
     },
     {
       "name": "Milkman",
@@ -16378,7 +16243,7 @@
       "foundry": "Jeanne Saliou",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/PhospheneFont-Regular.ttf",
+      "downloadLink": "/downloads/phosphene-font.zip",
       "id": "family_phosph_ne_font_1757807919311",
       "variants": [
         {
@@ -16432,7 +16297,7 @@
       "foundry": "Kanon Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters",
+      "downloadLink": "/downloads/hedvig-letters-serif.zip",
       "id": "family_hedvig_letters_serif_1757807919259",
       "variants": [
         {
@@ -16500,7 +16365,8 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/KanonFoundry/HedvigLetters"
     },
     {
       "name": "Hedvig Letters Sans",
@@ -16517,7 +16383,7 @@
       "foundry": "Kanon Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/KanonFoundry/HedvigLetters",
+      "downloadLink": "/downloads/hedvig-letters-sans.zip",
       "id": "family_hedvig_letters_sans_1757807919204",
       "variants": [
         {
@@ -16567,7 +16433,8 @@
         "Interface"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/KanonFoundry/HedvigLetters"
     },
     {
       "name": "Galgo Condensed",
@@ -16785,7 +16652,7 @@
       "foundry": "Local Remote, Weizhong Zhang",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/localremotetw/TASA-Typeface-Collection",
+      "downloadLink": "/downloads/tasa-explorer.zip",
       "id": "family_tasa_explorer_1757807919034",
       "variants": [
         {
@@ -17076,7 +16943,8 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/localremotetw/TASA-Typeface-Collection"
     },
     {
       "name": "Amiamie",
@@ -17093,7 +16961,7 @@
       "foundry": "Mirat-Masson after Sora Sagano",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface",
+      "downloadLink": "/downloads/amiamie.zip",
       "id": "family_amiamie_1757807918918",
       "variants": [
         {
@@ -17258,7 +17126,8 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "gitLink": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface"
     },
     {
       "name": "Amiamie Round",
@@ -17275,7 +17144,7 @@
       "foundry": "Mirat-Masson after Sora Sagano",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface",
+      "downloadLink": "/downloads/amiamie-round.zip",
       "id": "family_amiamie_round_1757807918830",
       "variants": [
         {
@@ -17391,7 +17260,8 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
+      "gitLink": "https://gitlab.com/Mirat-Masson1/Amiamie-Typeface"
     },
     {
       "name": "Aspekta",
@@ -17408,7 +17278,7 @@
       "foundry": "Ivo Dolenc",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/ivodolenc/aspekta",
+      "downloadLink": "/downloads/aspekta.zip",
       "id": "family_aspekta_1757807918773",
       "variants": [
         {
@@ -17633,7 +17503,8 @@
           "ss04"
         ]
       ],
-      "specialChars": "&@#%‰©®™†‡¡¿€£¥¢°×÷→←↑↓“”‘’…"
+      "specialChars": "&@#%‰©®™†‡¡¿€£¥¢°×÷→←↑↓“”‘’…",
+      "gitLink": "https://github.com/ivodolenc/aspekta"
     },
     {
       "name": "Cooper",
@@ -17952,7 +17823,8 @@
           "motive": "paid",
           "gets": "the full weight range and italics, not just the Black"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/indestructible-type/Cooper"
     },
     {
       "name": "Reglo",
@@ -17970,7 +17842,7 @@
       "foundry": "Sébastien Sanfilippo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/sebsan/Reglo",
+      "downloadLink": "/downloads/reglo.zip",
       "id": "family_reglo_1757807918510",
       "variants": [
         {
@@ -18009,7 +17881,8 @@
         "Poster"
       ],
       "altPairs": [],
-      "specialChars": "&@#“”‘’–—"
+      "specialChars": "&@#“”‘’–—",
+      "gitLink": "https://github.com/sebsan/Reglo"
     },
     {
       "name": "Ortica Linear",
@@ -18279,7 +18152,7 @@
       "foundry": "GTF",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/eliheuer/micro-grotesk",
+      "downloadLink": "/downloads/micro-grotesk.zip",
       "id": "family_micro_grotesk_1757807918302",
       "variants": [
         {
@@ -18316,7 +18189,7 @@
           "checksum": "52609e119e74e02844bb2ad1f9ff2d67c32e21dfa22fc69b1d11932b885da7e2",
           "id": "variant_family_micro_grotesk_1757807918302_1757807918344",
           "familyId": "family_micro_grotesk_1757807918302",
-          "url": "/fonts/MicroGrotesk[wght].ttf",
+          "url": "/fonts/MicroGrotesk[wght].woff2",
           "previewUrl": "/fonts/preview/MicroGrotesk[wght].ttf",
           "namedInstances": [
             {
@@ -18364,7 +18237,9 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/MicroGrotesk[wght].ttf",
+          "format": "woff2"
         }
       ],
       "createdAt": "2025-09-13T23:58:38.302Z",
@@ -18379,7 +18254,8 @@
         "Interface"
       ],
       "altPairs": [],
-      "specialChars": ""
+      "specialChars": "",
+      "gitLink": "https://github.com/eliheuer/micro-grotesk"
     },
     {
       "name": "Apfel Grotesk",
@@ -18397,7 +18273,7 @@
       "foundry": "© 2023, Luigi Gorlero & Collletttivo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/collletttivo/apfel-grotezk",
+      "downloadLink": "/downloads/apfel-grotesk.zip",
       "id": "family_apfel_grotesk_1757807918210",
       "variants": [
         {
@@ -18514,7 +18390,8 @@
         "Editorial / Ecommerce"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/collletttivo/apfel-grotezk"
     },
     {
       "name": "Apfel Grotezk Brukt",
@@ -18532,7 +18409,7 @@
       "foundry": "© 2023, Luigi Gorlero & Collletttivo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/collletttivo/apfel-grotezk",
+      "downloadLink": "/downloads/apfel-grotezk-brukt.zip",
       "id": "family_apfel_grotezk_brukt_1757807918158",
       "variants": [
         {
@@ -18575,7 +18452,8 @@
         "Experimental"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/collletttivo/apfel-grotezk"
     },
     {
       "name": "Sinistre",
@@ -18798,7 +18676,7 @@
       "foundry": "Bryce Wilner",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/brycewilner/Standard",
+      "downloadLink": "/downloads/standard.zip",
       "id": "family_standard_1757807918038",
       "variants": [
         {
@@ -18857,7 +18735,8 @@
         "Editorial"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘’"
+      "specialChars": "&@#%§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘’",
+      "gitLink": "https://github.com/brycewilner/Standard"
     },
     {
       "name": "Redaction",
@@ -20030,7 +19909,7 @@
       "foundry": "Vernon Adams",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/OswaldFont",
+      "downloadLink": "/downloads/oswald.zip",
       "id": "family_oswald_1757807917476",
       "variants": [
         {
@@ -20128,7 +20007,8 @@
           "motive": "paid",
           "gets": "Cyrillic and Vietnamese, wght 200–700"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/googlefonts/OswaldFont"
     },
     {
       "name": "Montagu Slab",
@@ -20261,7 +20141,8 @@
         "Brand Headline"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "gitLink": "https://github.com/floriankarsten/montagu-slab"
     },
     {
       "name": "Vampiro One",
@@ -20278,7 +20159,7 @@
       "foundry": "Riccardo De Franceschi, Sorkin Type Co.",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/SorkinType/Vampiro",
+      "downloadLink": "/downloads/vampiro-one.zip",
       "id": "family_vampiro_one_1757807917376",
       "variants": [
         {
@@ -20317,7 +20198,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷«»“”‘’…–"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷«»“”‘’…–",
+      "gitLink": "https://github.com/SorkinType/Vampiro"
     },
     {
       "name": "Tillana",
@@ -20334,7 +20216,7 @@
       "foundry": "Indian Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/itfoundry/tillana",
+      "downloadLink": "/downloads/tillana.zip",
       "id": "family_tillana_1757807917283",
       "variants": [
         {
@@ -20456,7 +20338,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "gitLink": "https://github.com/itfoundry/tillana"
     },
     {
       "name": "Ranga",
@@ -20473,7 +20356,7 @@
       "foundry": "A&O",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/Ranga",
+      "downloadLink": "/downloads/ranga.zip",
       "id": "family_ranga_1757807917224",
       "variants": [
         {
@@ -20534,7 +20417,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘",
+      "gitLink": "https://github.com/googlefonts/Ranga"
     },
     {
       "name": "Astloch",
@@ -20551,7 +20435,7 @@
       "foundry": "Dan Rhatigan",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/astloch",
+      "downloadLink": "/downloads/astloch.zip",
       "id": "family_astloch_1757807917161",
       "variants": [
         {
@@ -20611,7 +20495,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®¶•¡¿£¥¢°±×÷«»“”‘’–—"
+      "specialChars": "&@#%§©®¶•¡¿£¥¢°±×÷«»“”‘’–—",
+      "gitLink": "https://github.com/googlefonts/astloch"
     },
     {
       "name": "Srisakdi",
@@ -20630,7 +20515,7 @@
       "foundry": "Cadson Demak",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/cadsondemak/Srisakdi",
+      "downloadLink": "/downloads/srisakdi.zip",
       "id": "family_srisakdi_1757807917098",
       "variants": [
         {
@@ -20699,7 +20584,8 @@
         "Handwritten / Script"
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/cadsondemak/Srisakdi"
     },
     {
       "name": "Playpen Sans",
@@ -20719,7 +20605,7 @@
       "foundry": "TypeTogether",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/TypeTogether/Playpen-Sans",
+      "downloadLink": "/downloads/playpen-sans.zip",
       "id": "family_playpen_sans_1757807917046",
       "variants": [
         {
@@ -20926,7 +20812,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠«»“",
+      "gitLink": "https://github.com/TypeTogether/Playpen-Sans"
     },
     {
       "name": "Shantell Sans",
@@ -21269,7 +21156,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/arrowtype/shantell-sans"
     },
     {
       "name": "TikTok Sans",
@@ -21583,7 +21471,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/tiktok/TikTokSans"
     },
     {
       "name": "Sober",
@@ -21781,7 +21670,7 @@
       "foundry": "Nathan Laurent",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/NathanLaurent/Format",
+      "downloadLink": "/downloads/format.zip",
       "id": "family_format_1757807916754",
       "variants": [
         {
@@ -21887,7 +21776,8 @@
         "Interface"
       ],
       "altPairs": [],
-      "specialChars": "&@#£"
+      "specialChars": "&@#£",
+      "gitLink": "https://github.com/NathanLaurent/Format"
     },
     {
       "name": "BBH Bogle",
@@ -21906,7 +21796,7 @@
       "foundry": "Studio DRAMA",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/bbhbogle",
+      "downloadLink": "/downloads/bbh-bogle.zip",
       "id": "family_bbh_bogle_1747180800000",
       "variants": [
         {
@@ -21959,7 +21849,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%©®™•€£¥¢°×÷“”‘’…–—"
+      "specialChars": "&@#%©®™•€£¥¢°×÷“”‘’…–—",
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Google Sans Flex",
@@ -21981,7 +21872,7 @@
       "foundry": "Google, Font Bureau",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/googlesans-flex",
+      "downloadLink": "/downloads/google-sans-flex.zip",
       "id": "family_google_sans_flex_1747180802000",
       "variants": [
         {
@@ -22259,7 +22150,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷≠«»“”‘’…"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷≠«»“”‘’…",
+      "gitLink": "https://github.com/googlefonts/googlesans-flex"
     },
     {
       "name": "Momo Trust Display",
@@ -22278,7 +22170,7 @@
       "foundry": "TYPE Associates",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/typeassociates/MomoTrustDisplay",
+      "downloadLink": "/downloads/momo-trust-display.zip",
       "id": "family_momo_trust_display_1747180803000",
       "variants": [
         {
@@ -22336,7 +22228,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»",
+      "gitLink": "https://github.com/typeassociates/MomoTrustDisplay"
     },
     {
       "name": "Momo Trust Sans",
@@ -22356,7 +22249,7 @@
       "foundry": "TYPE Associates",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/typeassociates/MomoTrustSans",
+      "downloadLink": "/downloads/momo-trust-sans.zip",
       "id": "family_momo_trust_sans_1747180804000",
       "variants": [
         {
@@ -22473,7 +22366,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»"
+      "specialChars": "&@#%‰§©®™¶•¡¿€£¥¢°±×÷≠→←↑↓«»",
+      "gitLink": "https://github.com/typeassociates/MomoTrustSans"
     },
     {
       "name": "SN Pro",
@@ -22810,7 +22704,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/supernotes/sn-pro"
     },
     {
       "name": "Stack Sans Headline",
@@ -22828,7 +22723,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "downloadLink": "/downloads/stack-sans-headline.zip",
       "id": "family_stack_sans_headline_1747180806000",
       "variants": [
         {
@@ -23023,7 +22918,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/DylanYoungKoto/Stack-Sans"
     },
     {
       "name": "Stack Sans Notch",
@@ -23042,7 +22938,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "downloadLink": "/downloads/stack-sans-notch.zip",
       "id": "family_stack_sans_notch_1747180807000",
       "variants": [
         {
@@ -23238,7 +23134,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/DylanYoungKoto/Stack-Sans"
     },
     {
       "name": "Stack Sans Text",
@@ -23256,7 +23153,7 @@
       "foundry": "Koto Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/DylanYoungKoto/Stack-Sans",
+      "downloadLink": "/downloads/stack-sans-text.zip",
       "id": "family_stack_sans_text_1747180808000",
       "variants": [
         {
@@ -23452,7 +23349,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/DylanYoungKoto/Stack-Sans"
     },
     {
       "name": "Figtree",
@@ -23469,7 +23367,7 @@
       "foundry": "Erik D. Kennedy",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/erikdkennedy/figtree",
+      "downloadLink": "/downloads/figtree.zip",
       "sourceUrl": "https://github.com/erikdkennedy/figtree",
       "licenseInfo": {
         "type": "OFL",
@@ -23552,7 +23450,8 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Figtree[wght].ttf"
         },
         {
           "id": "v_1778941055167_07fr1u",
@@ -23624,7 +23523,8 @@
               "weight": 900,
               "isItalic": true
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Figtree-Italic[wght].ttf"
         }
       ],
       "altPairs": [
@@ -23745,7 +23645,8 @@
           "motive": "paid",
           "gets": "wght 300–900 variable with italics"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/erikdkennedy/figtree"
     },
     {
       "name": "Frick",
@@ -23764,7 +23665,7 @@
       "foundry": "Dennis Grauel",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/dennisgrauel/Frick",
+      "downloadLink": "/downloads/frick.zip",
       "sourceUrl": "https://github.com/dennisgrauel/Frick",
       "licenseInfo": {
         "type": "OFL",
@@ -23794,7 +23695,8 @@
           "format": "woff2",
           "url": "/fonts/Frick0.3-Regular.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
-          "previewUrl": "/fonts/preview/Frick0.3-Regular.woff2"
+          "previewUrl": "/fonts/preview/Frick0.3-Regular.woff2",
+          "originalUrl": "/fonts/Frick0.3-Regular.otf"
         },
         {
           "id": "v_1778941055167_4vxr4n",
@@ -23813,7 +23715,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Frick0.3-Condensed.woff2",
-          "uploadedAt": "2026-05-16T14:17:35.166Z"
+          "uploadedAt": "2026-05-16T14:17:35.166Z",
+          "originalUrl": "/fonts/Frick0.3-Condensed.otf"
         }
       ],
       "altPairs": [
@@ -23838,7 +23741,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥₽¢°→←↑↓«»“”‘’"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥₽¢°→←↑↓«»“”‘’",
+      "gitLink": "https://github.com/dennisgrauel/Frick"
     },
     {
       "name": "Lineal",
@@ -23856,7 +23760,7 @@
       "foundry": "Frank Adebiaye, Anton Moglia, Velvetyne Type Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://gitlab.com/velvetyne/lineal",
+      "downloadLink": "/downloads/lineal.zip",
       "sourceUrl": "https://gitlab.com/velvetyne/lineal",
       "licenseInfo": {
         "type": "OFL",
@@ -23935,7 +23839,8 @@
               "weight": 1500,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/LinealVF.ttf"
         }
       ],
       "altPairs": [
@@ -24036,7 +23941,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%•¡¿€£¥°×÷→←↑↓«»“”‘’…–—"
+      "specialChars": "&@#%•¡¿€£¥°×÷→←↑↓«»“”‘’…–—",
+      "gitLink": "https://gitlab.com/velvetyne/lineal"
     },
     {
       "name": "National Park",
@@ -24055,7 +23961,7 @@
       "foundry": "Jeremy Shellhorn",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/benhoepner/National-Park",
+      "downloadLink": "/downloads/national-park.zip",
       "sourceUrl": "https://github.com/nationalparktypeface/NationalPark",
       "licenseInfo": {
         "type": "OFL",
@@ -24144,11 +24050,13 @@
               "weight": 800,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/NationalPark-VariableVF.ttf"
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/benhoepner/National-Park"
     },
     {
       "name": "Whois Mono",
@@ -24166,7 +24074,7 @@
       "foundry": "Raphaël Bastide",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/raphaelbastide/Whois-mono",
+      "downloadLink": "/downloads/whois-mono.zip",
       "sourceUrl": "https://github.com/raphaelbastide/Whois-mono",
       "licenseInfo": {
         "type": "OFL",
@@ -24193,11 +24101,13 @@
           "format": "woff2",
           "url": "/fonts/whois-mono.woff2",
           "uploadedAt": "2026-05-16T14:17:35.166Z",
-          "previewUrl": "/fonts/preview/whois-mono.woff2"
+          "previewUrl": "/fonts/preview/whois-mono.woff2",
+          "originalUrl": "/fonts/whois-mono.ttf"
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®¶¡¿€£¥¢°±×÷«»“”‘’–—"
+      "specialChars": "&@#%§©®¶¡¿€£¥¢°±×÷«»“”‘’–—",
+      "gitLink": "https://github.com/raphaelbastide/Whois-mono"
     },
     {
       "name": "Paragon",
@@ -24319,7 +24229,7 @@
       "foundry": "Omnibus Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Omnibus-Type/MuseoModerno",
+      "downloadLink": "/downloads/museomoderno.zip",
       "sourceUrl": "https://github.com/Omnibus-Type/MuseoModerno",
       "licenseInfo": {
         "type": "OFL",
@@ -24415,7 +24325,8 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/MuseoModerno-VariableFont_wght.ttf"
         },
         {
           "id": "v_1778960003000_4mj2qn",
@@ -24501,7 +24412,8 @@
               "weight": 900,
               "isItalic": true
             }
-          ]
+          ],
+          "originalUrl": "/fonts/MuseoModerno-Italic-VariableFont_wght.ttf"
         }
       ],
       "altPairs": [
@@ -24602,7 +24514,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://github.com/Omnibus-Type/MuseoModerno"
     },
     {
       "name": "DT Dumpling Display",
@@ -24902,7 +24815,7 @@
       "foundry": "Olivia King",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/LivKing/Inclusive-Sans",
+      "downloadLink": "/downloads/inclusive-sans.zip",
       "sourceUrl": "https://github.com/LivingOS/Inclusive-Sans",
       "licenseInfo": {
         "type": "OFL",
@@ -24931,7 +24844,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Light.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-Light.otf"
         },
         {
           "id": "v_inc_yam3q5",
@@ -24952,7 +24866,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-LightItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-LightItalic.otf"
         },
         {
           "id": "v_inc_q9par0",
@@ -24974,7 +24889,8 @@
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/InclusiveSans-Regular.woff2"
+          "previewUrl": "/fonts/preview/InclusiveSans-Regular.woff2",
+          "originalUrl": "/fonts/InclusiveSans-Regular.otf"
         },
         {
           "id": "v_inc_bgf4in",
@@ -24995,7 +24911,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Italic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-Italic.otf"
         },
         {
           "id": "v_inc_tyiyi8",
@@ -25016,7 +24933,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Medium.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-Medium.otf"
         },
         {
           "id": "v_inc_86ihrd",
@@ -25037,7 +24955,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-MediumItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-MediumItalic.otf"
         },
         {
           "id": "v_inc_y6smp7",
@@ -25058,7 +24977,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-Bold.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-Bold.otf"
         },
         {
           "id": "v_inc_9zz8mk",
@@ -25079,7 +24999,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InclusiveSans-BoldItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InclusiveSans-BoldItalic.otf"
         }
       ],
       "altPairs": [
@@ -25141,7 +25062,8 @@
         ]
       ],
       "specialChars": "&@#%§©®™¶•¡¿€£¥¢°±×÷→←↑↓«»“”",
-      "description": "Inclusive Sans is a text sans by Olivia King, drawn for legibility. It gives you a distinct I, l and 1, non-mirrored b, d, p and q, wide open counters, a tall x-height and a little extra default spacing, all aimed at readers who are hard of seeing or neurodiverse. It also carries glyphs for Aboriginal and Torres Strait Islander languages. Free under the Open Font License 1.1."
+      "description": "Inclusive Sans is a text sans by Olivia King, drawn for legibility. It gives you a distinct I, l and 1, non-mirrored b, d, p and q, wide open counters, a tall x-height and a little extra default spacing, all aimed at readers who are hard of seeing or neurodiverse. It also carries glyphs for Aboriginal and Torres Strait Islander languages. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/LivKing/Inclusive-Sans"
     },
     {
       "name": "League Gothic",
@@ -25245,7 +25167,8 @@
       ],
       "altPairs": [],
       "specialChars": "&@#%©®™•¡¿€£¥¢“”‘’…–—",
-      "description": "League Gothic is The League of Moveable Type's revival of Alternate Gothic No.1, the condensed sans Morris Fuller Benton drew for ATF in 1903 and which entered the public domain after the foundry closed. It was redrawn and extended to 324 glyphs across 122 languages, in Regular, Italic and Condensed. Free under the Open Font License."
+      "description": "League Gothic is The League of Moveable Type's revival of Alternate Gothic No.1, the condensed sans Morris Fuller Benton drew for ATF in 1903 and which entered the public domain after the foundry closed. It was redrawn and extended to 324 glyphs across 122 languages, in Regular, Italic and Condensed. Free under the Open Font License.",
+      "gitLink": "https://github.com/theleagueof/league-gothic"
     },
     {
       "name": "League Script No.1",
@@ -25262,7 +25185,7 @@
       "foundry": "The League of Moveable Type",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/theleagueof/league-script-number-one",
+      "downloadLink": "/downloads/league-script-no-1.zip",
       "sourceUrl": "https://github.com/theleagueof/league-script-number-one",
       "licenseInfo": {
         "type": "OFL",
@@ -25290,12 +25213,14 @@
           "format": "woff2",
           "url": "/fonts/LeagueScriptNumberOne.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/LeagueScriptNumberOne.woff2"
+          "previewUrl": "/fonts/preview/LeagueScriptNumberOne.woff2",
+          "originalUrl": "/fonts/LeagueScriptNumberOne.otf"
         }
       ],
       "altPairs": [],
       "specialChars": "&@#%•¡¿€£¢«»“”‘’",
-      "description": "League Script No.1 is a script by Haley Fiege for The League of Moveable Type. It sits somewhere between a handwritten love note and 1920s penmanship, and was built to serve as the base for the League's future script designs. It includes ligatures. Free under the Open Font License."
+      "description": "League Script No.1 is a script by Haley Fiege for The League of Moveable Type. It sits somewhere between a handwritten love note and 1920s penmanship, and was built to serve as the base for the League's future script designs. It includes ligatures. Free under the Open Font License.",
+      "gitLink": "https://github.com/theleagueof/league-script-number-one"
     },
     {
       "name": "Paysage",
@@ -25494,7 +25419,7 @@
       "foundry": "Stefan Peev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/StefanPeev/Perun",
+      "downloadLink": "/downloads/perun.zip",
       "sourceUrl": "https://github.com/StefanPeev/Perun",
       "licenseInfo": {
         "type": "OFL",
@@ -25572,7 +25497,8 @@
               "weight": 700,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Perun-VF.otf"
         },
         {
           "id": "v_per_qshf07",
@@ -25641,12 +25567,14 @@
               "weight": 700,
               "isItalic": true
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Perun-Italic-VF.otf"
         }
       ],
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
-      "description": "Perun is a Cyrillic-first sans by Stefan Peev for Local Fonts. It is built on the modern Bulgarian letterform model and adds local shapes for Bulgarian, Serbian, Macedonian and Ukrainian. It descends from Free Universal and, further back, from SIL Sophia. Free under the Open Font License 1.1."
+      "description": "Perun is a Cyrillic-first sans by Stefan Peev for Local Fonts. It is built on the modern Bulgarian letterform model and adds local shapes for Bulgarian, Serbian, Macedonian and Ukrainian. It descends from Free Universal and, further back, from SIL Sophia. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/StefanPeev/Perun"
     },
     {
       "name": "Spectral",
@@ -25666,7 +25594,7 @@
       "foundry": "Jean-Baptiste Levée",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/productiontype/Spectral",
+      "downloadLink": "/downloads/spectral.zip",
       "sourceUrl": "https://github.com/productiontype/Spectral",
       "licenseInfo": {
         "type": "OFL",
@@ -25711,7 +25639,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraLight.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-ExtraLight.otf"
         },
         {
           "id": "v_spec_nkbxlp",
@@ -25748,7 +25677,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraLightItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-ExtraLightItalic.otf"
         },
         {
           "id": "v_spec_88rsai",
@@ -25785,7 +25715,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Light.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-Light.otf"
         },
         {
           "id": "v_spec_goz96n",
@@ -25822,7 +25753,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-LightItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-LightItalic.otf"
         },
         {
           "id": "v_spec_xovdwj",
@@ -25860,7 +25792,8 @@
           "format": "woff2",
           "url": "/fonts/Spectral-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Spectral-Regular.woff2"
+          "previewUrl": "/fonts/preview/Spectral-Regular.woff2",
+          "originalUrl": "/fonts/Spectral-Regular.otf"
         },
         {
           "id": "v_spec_r294t7",
@@ -25897,7 +25830,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Italic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-Italic.otf"
         },
         {
           "id": "v_spec_2g022z",
@@ -25934,7 +25868,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Medium.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-Medium.otf"
         },
         {
           "id": "v_spec_6pexxo",
@@ -25971,7 +25906,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-MediumItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-MediumItalic.otf"
         },
         {
           "id": "v_spec_7qgrqn",
@@ -26008,7 +25944,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-SemiBold.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-SemiBold.otf"
         },
         {
           "id": "v_spec_wzzub2",
@@ -26045,7 +25982,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-SemiBoldItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-SemiBoldItalic.otf"
         },
         {
           "id": "v_spec_9u2uyw",
@@ -26082,7 +26020,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-Bold.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-Bold.otf"
         },
         {
           "id": "v_spec_aujt5l",
@@ -26119,7 +26058,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-BoldItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-BoldItalic.otf"
         },
         {
           "id": "v_spec_h6zg4p",
@@ -26156,7 +26096,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraBold.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-ExtraBold.otf"
         },
         {
           "id": "v_spec_afef69",
@@ -26193,7 +26134,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/Spectral-ExtraBoldItalic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/Spectral-ExtraBoldItalic.otf"
         }
       ],
       "altPairs": [
@@ -26310,7 +26252,8 @@
           "gets": "italics, 24 alternate pairs"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/productiontype/Spectral"
     },
     {
       "name": "Affigere",
@@ -26520,7 +26463,7 @@
       "foundry": "Beata Kurek",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/warszawskie-kroje/bajaderka",
+      "downloadLink": "/downloads/bajaderka.zip",
       "sourceUrl": "https://github.com/warszawskie-kroje/bajaderka",
       "licenseInfo": {
         "type": "OFL",
@@ -26547,12 +26490,14 @@
           "format": "woff2",
           "url": "/fonts/Bajaderka-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Bajaderka-Regular.woff2"
+          "previewUrl": "/fonts/preview/Bajaderka-Regular.woff2",
+          "originalUrl": "/fonts/Bajaderka-Regular.otf"
         }
       ],
       "altPairs": [],
       "specialChars": "&@#%§©®™†€¢°×÷«»“”‘’–—",
-      "description": "Bajaderka is a signage face by Beata Kurek for Warszawskie Kroje. It is drawn from the hand-painted tablets above small Warsaw shops and keeps the brush strokes and calligraphic details of the city's old sign painters. It was made during the 2016 Warsaw Types heritage project. Free under the Open Font License."
+      "description": "Bajaderka is a signage face by Beata Kurek for Warszawskie Kroje. It is drawn from the hand-painted tablets above small Warsaw shops and keeps the brush strokes and calligraphic details of the city's old sign painters. It was made during the 2016 Warsaw Types heritage project. Free under the Open Font License.",
+      "gitLink": "https://github.com/warszawskie-kroje/bajaderka"
     },
     {
       "name": "Coconat",
@@ -26670,7 +26615,7 @@
       "foundry": "Rodrigo Fuenzalida",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/Instrument/instrument-serif",
+      "downloadLink": "/downloads/instrument-serif.zip",
       "sourceUrl": "https://github.com/Instrument-Type/InstrumentSerif",
       "licenseInfo": {
         "type": "OFL",
@@ -26702,7 +26647,8 @@
           "format": "woff2",
           "url": "/fonts/InstrumentSerif-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/InstrumentSerif-Regular.woff2"
+          "previewUrl": "/fonts/preview/InstrumentSerif-Regular.woff2",
+          "originalUrl": "/fonts/InstrumentSerif-Regular.otf"
         },
         {
           "id": "v_ins_r0jv7o",
@@ -26725,7 +26671,8 @@
           "openTypeFeatureTags": [],
           "format": "woff2",
           "url": "/fonts/InstrumentSerif-Italic.woff2",
-          "uploadedAt": "2026-05-16T20:00:00.000Z"
+          "uploadedAt": "2026-05-16T20:00:00.000Z",
+          "originalUrl": "/fonts/InstrumentSerif-Italic.otf"
         }
       ],
       "altPairs": [
@@ -26841,7 +26788,8 @@
           "motive": "paid",
           "gets": "italics, free to embed"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/Instrument/instrument-serif"
     },
     {
       "name": "Junicode",
@@ -26860,7 +26808,7 @@
       "foundry": "Peter S. Baker",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/psb1558/Junicode-font",
+      "downloadLink": "/downloads/junicode.zip",
       "sourceUrl": "https://github.com/psb1558/Junicode-font",
       "licenseInfo": {
         "type": "OFL",
@@ -27157,7 +27105,8 @@
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠«»“”",
       "description": "Junicode is a serif by Peter S. Baker made for medievalists and linguists. It follows the Medieval Unicode Font Initiative and is packed with small caps, mark positioning and scholarly characters, so it can set old and specialized texts accurately. It comes in five weights and five widths, with Weight, Width and an Enlarge axis. Free under the Open Font License 1.1.",
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/psb1558/Junicode-font"
     },
     {
       "name": "Luperca",
@@ -27542,7 +27491,7 @@
       "foundry": "Opening Hours Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/opening-hours-studio/opening-hours-mono",
+      "downloadLink": "/downloads/opening-hours-mono.zip",
       "sourceUrl": "https://github.com/opening-hours-studio/opening-hours-mono",
       "licenseInfo": {
         "type": "OFL",
@@ -27588,7 +27537,8 @@
           "format": "woff2",
           "url": "/fonts/OpeningHoursMonoVF.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/OpeningHoursMonoVF.woff2"
+          "previewUrl": "/fonts/preview/OpeningHoursMonoVF.woff2",
+          "originalUrl": "/fonts/OpeningHoursMonoVF.ttf"
         }
       ],
       "altPairs": [
@@ -27690,7 +27640,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←↑↓«",
-      "description": "Opening Hours Mono is a monospace by Opening Hours Studio. Its three axes run from a dot-matrix look to a smoother eighties style, so it works for both branding and detailed graphics like 3D ASCII. Free under the Open Font License 1.1."
+      "description": "Opening Hours Mono is a monospace by Opening Hours Studio. Its three axes run from a dot-matrix look to a smoother eighties style, so it works for both branding and detailed graphics like 3D ASCII. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/opening-hours-studio/opening-hours-mono"
     },
     {
       "name": "Opening Hours Sans",
@@ -27707,7 +27658,7 @@
       "foundry": "Kim Andre Ottesen",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/opening-hours-studio/opening-hours-sans",
+      "downloadLink": "/downloads/opening-hours-sans.zip",
       "sourceUrl": "https://github.com/opening-hours-studio/opening-hours-sans",
       "licenseInfo": {
         "type": "OFL",
@@ -27737,7 +27688,8 @@
           "format": "woff2",
           "url": "/fonts/OpeningHoursSans-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/OpeningHoursSans-Regular.woff2"
+          "previewUrl": "/fonts/preview/OpeningHoursSans-Regular.woff2",
+          "originalUrl": "/fonts/OpeningHoursSans-Regular.otf"
         }
       ],
       "altPairs": [
@@ -27803,7 +27755,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
-      "description": "Opening Hours Sans is Opening Hours Studio's own custom sans, drawn in Glyphs and released for anyone to use. Free under the Open Font License 1.1."
+      "description": "Opening Hours Sans is Opening Hours Studio's own custom sans, drawn in Glyphs and released for anyone to use. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/opening-hours-studio/opening-hours-sans"
     },
     {
       "name": "Pretendard",
@@ -27824,7 +27777,7 @@
       "foundry": "Kil Hyung-jin",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/orioncactus/pretendard",
+      "downloadLink": "/downloads/pretendard.zip",
       "sourceUrl": "https://github.com/orioncactus/pretendard",
       "licenseInfo": {
         "type": "OFL",
@@ -27923,7 +27876,8 @@
             }
           ],
           "previewUrl": "/fonts/preview/PretendardVariable.woff2",
-          "previewRange": "U+20-7E,U+A0-148,U+14A-17F,U+300-31E,U+321-341,U+370-377,U+37A-37F,U+384-38A,U+38C,U+38E-3A1,U+3A3-3E1,U+3F0-49D,U+4A0-4FF,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B"
+          "previewRange": "U+20-7E,U+A0-148,U+14A-17F,U+300-31E,U+321-341,U+370-377,U+37A-37F,U+384-38A,U+38C,U+38E-3A1,U+3A3-3E1,U+3F0-49D,U+4A0-4FF,U+1EA0-1EF9,U+2014,U+2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2116,U+226A-226B",
+          "originalUrl": "/fonts/PretendardVariable.ttf"
         }
       ],
       "altPairs": [
@@ -28039,7 +27993,8 @@
           "motive": "unlicensable",
           "gets": "wght 45–930 and full Korean"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/orioncactus/pretendard"
     },
     {
       "name": "Zarathustra",
@@ -28057,7 +28012,7 @@
       "foundry": "Lorene Ceccon",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/lorene-cn/zarathustra-typeface",
+      "downloadLink": "/downloads/zarathustra.zip",
       "sourceUrl": "https://uncut.wtf/serif/zarathustra/",
       "licenseInfo": {
         "type": "OFL",
@@ -28085,12 +28040,14 @@
           "format": "woff2",
           "url": "/fonts/Zarathustra-Regular.woff2",
           "uploadedAt": "2026-05-16T20:00:00.000Z",
-          "previewUrl": "/fonts/preview/Zarathustra-Regular.woff2"
+          "previewUrl": "/fonts/preview/Zarathustra-Regular.woff2",
+          "originalUrl": "/fonts/Zarathustra-Regular.otf"
         }
       ],
       "altPairs": [],
       "specialChars": "§¶†•¡¿«»“”‘’…–—★",
-      "description": "Zarathustra is a revival of a 1908 typeface the Belgian painter Georges Lemmen drew for an Insel Verlag edition of Nietzsche's book. Lorène Picard digitized it at La Cambre in Brussels, starting in 2012 and releasing the first version in 2016, staying faithful to the original Art Nouveau metal type. Free and available on GitHub."
+      "description": "Zarathustra is a revival of a 1908 typeface the Belgian painter Georges Lemmen drew for an Insel Verlag edition of Nietzsche's book. Lorène Picard digitized it at La Cambre in Brussels, starting in 2012 and releasing the first version in 2016, staying faithful to the original Art Nouveau metal type. Free and available on GitHub.",
+      "gitLink": "https://github.com/lorene-cn/zarathustra-typeface"
     },
     {
       "name": "Akt",
@@ -28111,7 +28068,7 @@
       "foundry": "Dmitry Grenev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/dimgrenev/akt",
+      "downloadLink": "/downloads/akt.zip",
       "sourceUrl": "https://github.com/dimgrenev/akt",
       "licenseInfo": {
         "type": "OFL",
@@ -28206,7 +28163,8 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Akt[wght].ttf"
         }
       ],
       "altPairs": [
@@ -28308,7 +28266,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Akt is an interface-first grotesque by Dima Grenev. Every weight from Thin to Black keeps the same glyph widths, and the capitals sit centered in the line so they align with icons. More than 1,800 glyphs cover extended Latin and Cyrillic, Greek and basic IPA, with a weight axis across nine weights. Free under the Open Font License 1.1."
+      "description": "Akt is an interface-first grotesque by Dima Grenev. Every weight from Thin to Black keeps the same glyph widths, and the capitals sit centered in the line so they align with icons. More than 1,800 glyphs cover extended Latin and Cyrillic, Greek and basic IPA, with a weight axis across nine weights. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/dimgrenev/akt"
     },
     {
       "name": "Geomini",
@@ -28325,7 +28284,7 @@
       "foundry": "FontBob",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/fontbob/geomini",
+      "downloadLink": "/downloads/geomini.zip",
       "sourceUrl": "https://fontbob.com/geomini",
       "licenseInfo": {
         "type": "OFL",
@@ -28398,12 +28357,14 @@
               "weight": 800,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Geomini[wght].ttf"
         }
       ],
       "altPairs": [],
       "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—",
-      "description": "Geomini is a compact geometric sans made in FontBob by Carl's Type. It has a very high x-height and is drawn after Swedish road signage (Tratex), aimed at text, branding and interfaces. Free under the Open Font License 1.1."
+      "description": "Geomini is a compact geometric sans made in FontBob by Carl's Type. It has a very high x-height and is drawn after Swedish road signage (Tratex), aimed at text, branding and interfaces. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/fontbob/geomini"
     },
     {
       "name": "Geist Pixel",
@@ -28565,7 +28526,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
-      "description": "Geist Pixel is the pixel member of Vercel's Geist family, built on the same plain, Swiss-minimal logic as Geist Sans and Mono. A single variable font carries five pixel shapes on one axis: square, circle, grid, triangle and line. Free under the Open Font License."
+      "description": "Geist Pixel is the pixel member of Vercel's Geist family, built on the same plain, Swiss-minimal logic as Geist Sans and Mono. A single variable font carries five pixel shapes on one axis: square, circle, grid, triangle and line. Free under the Open Font License.",
+      "gitLink": "https://github.com/vercel/geist-font"
     },
     {
       "name": "Pliant",
@@ -28587,7 +28549,7 @@
       "foundry": "Non Foundry, Jona Saucedo",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/TheJonassss/Pliant",
+      "downloadLink": "/downloads/pliant.zip",
       "sourceUrl": "https://github.com/TheJonassss/Pliant",
       "licenseInfo": {
         "type": "OFL",
@@ -28689,7 +28651,8 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Pliant[wdth,wght].ttf"
         },
         {
           "id": "v_pliant_it_000008",
@@ -28782,7 +28745,8 @@
               "weight": 900,
               "isItalic": true
             }
-          ]
+          ],
+          "originalUrl": "/fonts/Pliant-Italic[wdth,wght].ttf"
         }
       ],
       "altPairs": [
@@ -28844,7 +28808,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Pliant is a variable sans-serif from Non Foundry, the Monterrey studio of Jona Saucedo. It follows the Swiss tradition of neutral, even-colour text, with weight and width axes that run from compact to expanded plus a companion italic. Its character set is wide: Latin, Greek and Cyrillic across more than a thousand glyphs, with fractions, sub/superscripts and alternates, so it holds up in both long reading and interface work. Free under the SIL Open Font License."
+      "description": "Pliant is a variable sans-serif from Non Foundry, the Monterrey studio of Jona Saucedo. It follows the Swiss tradition of neutral, even-colour text, with weight and width axes that run from compact to expanded plus a companion italic. Its character set is wide: Latin, Greek and Cyrillic across more than a thousand glyphs, with fractions, sub/superscripts and alternates, so it holds up in both long reading and interface work. Free under the SIL Open Font License.",
+      "gitLink": "https://github.com/TheJonassss/Pliant"
     },
     {
       "name": "Finlandica Text",
@@ -28863,7 +28828,7 @@
       "foundry": "Helsinki Type Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/HelsinkiTypeStudio/FinlandicaText",
+      "downloadLink": "/downloads/finlandica-text.zip",
       "sourceUrl": "https://github.com/HelsinkiTypeStudio/FinlandicaText",
       "licenseInfo": {
         "type": "OFL",
@@ -28960,7 +28925,8 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/FinlandicaText[wght].ttf"
         },
         {
           "id": "v_finlandicatext_it_000011",
@@ -29048,7 +29014,8 @@
               "weight": 900,
               "isItalic": true
             }
-          ]
+          ],
+          "originalUrl": "/fonts/FinlandicaText-Italic[wght].ttf"
         }
       ],
       "altPairs": [
@@ -29150,7 +29117,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Finlandica Text is the official typeface of Finland, made by Helsinki Type Studio and commissioned by the Prime Minister's Office. It was given freely to everyone in the spirit of the country's right to roam. Open apertures and engineered ink traps keep it steady across sizes and media, and it covers a wide range of Latin and Cyrillic. Free under the Open Font License 1.1."
+      "description": "Finlandica Text is the official typeface of Finland, made by Helsinki Type Studio and commissioned by the Prime Minister's Office. It was given freely to everyone in the spirit of the country's right to roam. Open apertures and engineered ink traps keep it steady across sizes and media, and it covers a wide range of Latin and Cyrillic. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/HelsinkiTypeStudio/FinlandicaText"
     },
     {
       "name": "Strichpunkt Sans",
@@ -29170,7 +29138,7 @@
       "foundry": "René Bieder",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
+      "downloadLink": "/downloads/strichpunkt-sans.zip",
       "sourceUrl": "https://github.com/strichpunkt-design/Strichpunkt_Sans",
       "licenseInfo": {
         "type": "OFL",
@@ -29257,12 +29225,14 @@
               "weight": 900,
               "isItalic": false
             }
-          ]
+          ],
+          "originalUrl": "/fonts/StrichpunktSans[wdth,wght].ttf"
         }
       ],
       "altPairs": [],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "description": "Strichpunkt Sans is a modern grotesque by René Bieder for the agency Strichpunkt Design. It reworks early-grotesque shapes, setting rounded forms against sharp angular cuts on the R leg and the tails of the a and l. It comes in eighteen styles across three widths, Regular to Black, in both static and variable formats. Free under the Open Font License 1.1."
+      "description": "Strichpunkt Sans is a modern grotesque by René Bieder for the agency Strichpunkt Design. It reworks early-grotesque shapes, setting rounded forms against sharp angular cuts on the R leg and the tails of the a and l. It comes in eighteen styles across three widths, Regular to Black, in both static and variable formats. Free under the Open Font License 1.1.",
+      "gitLink": "https://github.com/strichpunkt-design/Strichpunkt_Sans"
     },
     {
       "name": "Pirate Quest",
@@ -29329,7 +29299,7 @@
       "foundry": "Óliver Lalan",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/oliverlalan/Doto",
+      "downloadLink": "/downloads/doto.zip",
       "id": "family_doto_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -29428,7 +29398,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—"
+      "specialChars": "&@#%§©®™¶•¡¿€£¥¢°×÷«»“”‘’…–—",
+      "gitLink": "https://github.com/oliverlalan/Doto"
     },
     {
       "name": "Sono",
@@ -29447,7 +29418,7 @@
       "foundry": "Tyler Finck (Etcetera Type Co.)",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/sursly/sono",
+      "downloadLink": "/downloads/sono.zip",
       "id": "family_sono_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -29672,7 +29643,8 @@
           "ss03"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷≠→←↑↓",
+      "gitLink": "https://github.com/sursly/sono"
     },
     {
       "name": "Bagnard",
@@ -29690,7 +29662,7 @@
       "foundry": "Sébastien Sanfilippo",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/sebsan/Bagnard",
+      "downloadLink": "/downloads/bagnard.zip",
       "id": "family_bagnard_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -29729,7 +29701,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@€«»“”‘’"
+      "specialChars": "&@€«»“”‘’",
+      "gitLink": "https://github.com/sebsan/Bagnard"
     },
     {
       "name": "Libre Caslon Condensed",
@@ -29748,7 +29721,7 @@
       "foundry": "Impallari Type / Ertekin Erdin",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/ertekinno/libre-caslon-condensed",
+      "downloadLink": "/downloads/libre-caslon-condensed.zip",
       "id": "family_libre_caslon_condensed_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -29901,7 +29874,8 @@
           "ss01"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←«»“"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷→←«»“",
+      "gitLink": "https://github.com/ertekinno/libre-caslon-condensed"
     },
     {
       "name": "Anybody",
@@ -29921,7 +29895,7 @@
       "foundry": "Etcetera Type Company",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/etcetera-type-co/anybody",
+      "downloadLink": "/downloads/anybody.zip",
       "id": "family_anybody_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -30232,7 +30206,8 @@
           "motive": "paid",
           "gets": "wdth 50–150 and wght 100–900 — every width in one file"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/Etcetera-Type-Co/Anybody"
     },
     {
       "name": "Open Runde",
@@ -30252,7 +30227,7 @@
       "foundry": "Laurids Kern",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/lauridskern/open-runde",
+      "downloadLink": "/downloads/open-runde.zip",
       "id": "family_open_runde_new",
       "createdAt": "2026-07-15T00:00:00.000Z",
       "updatedAt": "2026-07-15T00:00:00.000Z",
@@ -30382,7 +30357,8 @@
           "motive": "unlicensable",
           "gets": "Cyrillic, Greek and Vietnamese; a licence you can ship"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/lauridskern/open-runde"
     },
     {
       "name": "Newsreader",
@@ -30400,7 +30376,7 @@
       "foundry": "Production Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/productiontype/NewsReader",
+      "downloadLink": "/downloads/newsreader.zip",
       "id": "family_newsreader_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -30596,7 +30572,8 @@
           "motive": "paid",
           "gets": "optical sizing from 6 to 72"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/productiontype/Newsreader"
     },
     {
       "name": "JeanLuc",
@@ -30697,7 +30674,7 @@
       "foundry": "Adrien Midzic",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/velvetyne/lack",
+      "downloadLink": "/downloads/lack.zip",
       "id": "family_lack_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -30886,7 +30863,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://gitlab.com/velvetyne/lack"
     },
     {
       "name": "Lack Line",
@@ -30906,7 +30884,7 @@
       "foundry": "Adrien Midzic",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/velvetyne/lack",
+      "downloadLink": "/downloads/lack-line.zip",
       "id": "family_lack_line_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -31095,7 +31073,8 @@
           "ss02"
         ]
       ],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
+      "gitLink": "https://gitlab.com/velvetyne/lack"
     },
     {
       "name": "Work Avec",
@@ -31112,7 +31091,7 @@
       "foundry": "OSP (Open Source Publishing)",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.constantvzw.org/osp/foundry.work-avec",
+      "downloadLink": "/downloads/work-avec.zip",
       "id": "family_work_avec_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -31294,7 +31273,8 @@
         ]
       ],
       "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥₽¢°±×÷≠→←↑",
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://gitlab.constantvzw.org/osp/foundry.work-avec"
     },
     {
       "name": "Abordage",
@@ -31311,7 +31291,7 @@
       "foundry": "Eugénie Bidaut",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "downloadLink": "/downloads/abordage.zip",
       "id": "family_abordage_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -31351,7 +31331,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷→←↑↓«»“”‘’"
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷→←↑↓«»“”‘’",
+      "gitLink": "https://gitlab.com/Eugenie-B/degheest-types"
     },
     {
       "name": "Equateur",
@@ -31370,7 +31351,7 @@
       "foundry": "Eugénie Bidaut",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "downloadLink": "/downloads/equateur.zip",
       "id": "family_equateur_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -31410,7 +31391,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—"
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—",
+      "gitLink": "https://gitlab.com/Eugenie-B/degheest-types"
     },
     {
       "name": "Latitude",
@@ -31427,7 +31409,7 @@
       "foundry": "Eugénie Bidaut",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/Eugenie-B/degheest-types",
+      "downloadLink": "/downloads/latitude.zip",
       "id": "family_latitude_new",
       "createdAt": "2026-07-16T00:00:00.000Z",
       "updatedAt": "2026-07-16T00:00:00.000Z",
@@ -31467,7 +31449,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—"
+      "specialChars": "&@#%‰§¶†•¡¿€£¥¢°×÷«»“”‘’…–—",
+      "gitLink": "https://gitlab.com/Eugenie-B/degheest-types"
     },
     {
       "name": "Ovo",
@@ -31521,7 +31504,8 @@
         }
       ],
       "altPairs": [],
-      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘"
+      "specialChars": "&@#%‰§©®™¶†‡•¡¿€£¥¢°±×÷«»“”‘",
+      "gitLink": "https://github.com/googlefonts/ovo"
     },
     {
       "name": "Mon Hugo",
@@ -31658,7 +31642,7 @@
       "foundry": "Owen Earl",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/indestructible-type/Besley",
+      "downloadLink": "/downloads/besley.zip",
       "id": "family_besley_1785508111819",
       "createdAt": "2026-07-31T14:28:31.819Z",
       "updatedAt": "2026-07-31T14:28:31.819Z",
@@ -31844,7 +31828,8 @@
           "gets": "a width axis (75–100) and wght 400–900 with italics"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/indestructible-type/Besley"
     },
     {
       "name": "Mutern",
@@ -31864,7 +31849,7 @@
       "foundry": "Vølven",
       "isVariable": true,
       "published": true,
-      "downloadLink": "/fonts/MuternVF.ttf",
+      "downloadLink": "/downloads/mutern.zip",
       "id": "family_mutern_1753989400000",
       "variants": [
         {
@@ -32074,7 +32059,7 @@
       "foundry": "Dominik Jáger",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/domija/Aboreto",
+      "downloadLink": "/downloads/aboreto.zip",
       "id": "family_aboreto_1756400000000",
       "variants": [
         {
@@ -32128,7 +32113,8 @@
         "Poster",
         "Brand Headline"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/domija/Aboreto"
     },
     {
       "name": "Valley Sans",
@@ -32145,7 +32131,7 @@
       "foundry": "Helsinki Type Studio",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/HelsinkiTypeStudio/valley-sans",
+      "downloadLink": "/downloads/valley-sans.zip",
       "id": "family_valley_sans_1756400010000",
       "variants": [
         {
@@ -32397,7 +32383,8 @@
           "k",
           "ss01"
         ]
-      ]
+      ],
+      "gitLink": "https://github.com/HelsinkiTypeStudio/valley-sans"
     },
     {
       "name": "Scoutie Sans",
@@ -32415,7 +32402,7 @@
       "foundry": "Sursly",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/sursly/scoutie",
+      "downloadLink": "/downloads/scoutie-sans.zip",
       "id": "family_scoutie_sans_1756400020000",
       "variants": [
         {
@@ -32717,7 +32704,8 @@
           "a",
           "ss09"
         ]
-      ]
+      ],
+      "gitLink": "https://github.com/sursly/scoutie"
     },
     {
       "name": "Averia Serif Libre",
@@ -32735,7 +32723,7 @@
       "foundry": "Dan Sayers",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/averiaseriflibre",
+      "downloadLink": "/downloads/averia-serif-libre.zip",
       "id": "family_averia_serif_libre_1756700000000",
       "variants": [
         {
@@ -32847,7 +32835,8 @@
         "Editorial / Ecommerce",
         "Brand Headline"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "BBH Sans Bartle",
@@ -32865,7 +32854,7 @@
       "foundry": "Studio DRAMA",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/Studio-DRAMA/BBHSans",
+      "downloadLink": "/downloads/bbh-sans-bartle.zip",
       "id": "family_bbh_sans_bartle_1756700001000",
       "variants": [
         {
@@ -32907,7 +32896,8 @@
         "Brand Headline",
         "Poster"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/Studio-DRAMA/BBH"
     },
     {
       "name": "Bitcount",
@@ -32927,7 +32917,7 @@
       "foundry": "Petr van Blokland (TYPETR)",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/petrvanblokland/TYPETR-Bitcount",
+      "downloadLink": "/downloads/bitcount.zip",
       "id": "family_bitcount_1756700002000",
       "variants": [
         {
@@ -33042,7 +33032,8 @@
         "Experimental"
       ],
       "altPairs": [],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/petrvanblokland/TYPETR-Bitcount"
     },
     {
       "name": "Caudex",
@@ -33061,7 +33052,7 @@
       "foundry": "Hjort Nidudsson",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/caudex",
+      "downloadLink": "/downloads/caudex.zip",
       "id": "family_caudex_1756700004000",
       "variants": [
         {
@@ -33149,7 +33140,8 @@
       "useCases": [
         "Editorial"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Drago",
@@ -33168,7 +33160,7 @@
       "foundry": "Victor Pennetier",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/v-pennetier/drago",
+      "downloadLink": "/downloads/drago.zip",
       "id": "family_drago_1756700005000",
       "variants": [
         {
@@ -33221,7 +33213,8 @@
         "Brand Headline",
         "Editorial"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/vpennetier/drago"
     },
     {
       "name": "Homemade Apple",
@@ -33238,7 +33231,7 @@
       "foundry": "Font Diner",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/apache/homemadeapple",
+      "downloadLink": "/downloads/homemade-apple.zip",
       "id": "family_homemade_apple_1756700006000",
       "variants": [
         {
@@ -33270,7 +33263,8 @@
         "Handwritten / Script",
         "Culture"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "LCT Ciburial",
@@ -33288,7 +33282,7 @@
       "foundry": "Lokal Container",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/LCTipografi/LCT-Ciburial",
+      "downloadLink": "/downloads/lct-ciburial.zip",
       "id": "family_lct_ciburial_1756700007000",
       "variants": [
         {
@@ -33346,7 +33340,8 @@
         "Brand Headline",
         "Tech / Digital"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/LCTipografi/LCT-Ciburial"
     },
     {
       "name": "Lil Grotesk",
@@ -33364,7 +33359,7 @@
       "foundry": "Noir Blanc Rouge",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/noirblancrouge/LilGrotesk",
+      "downloadLink": "/downloads/lil-grotesk.zip",
       "id": "family_lil_grotesk_1756700008000",
       "variants": [
         {
@@ -33487,7 +33482,8 @@
         "Interface",
         "Editorial / Ecommerce"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/noirblancrouge/LilGrotesk"
     },
     {
       "name": "Lilex",
@@ -33508,7 +33504,7 @@
       "foundry": "Mikhael Khrustik",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/mishamyrt/Lilex",
+      "downloadLink": "/downloads/lilex.zip",
       "id": "family_lilex_1756700009000",
       "variants": [
         {
@@ -33868,7 +33864,8 @@
         "Code / Data",
         "Interface"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/mishamyrt/Lilex"
     },
     {
       "name": "LINE Seed Sans",
@@ -34026,7 +34023,7 @@
       "foundry": "mooniak",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/mooniak/maname-font",
+      "downloadLink": "/downloads/maname.zip",
       "id": "family_maname_1756700011000",
       "variants": [
         {
@@ -34074,7 +34071,8 @@
       "useCases": [
         "Editorial"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/mooniak/maname-font"
     },
     {
       "name": "Martí",
@@ -34162,7 +34160,7 @@
       "foundry": "Max Thunberg",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/maxthunberg/miranda-sans",
+      "downloadLink": "/downloads/miranda-sans.zip",
       "id": "family_miranda_sans_1756700013000",
       "variants": [
         {
@@ -34299,7 +34297,8 @@
         "Interface",
         "Editorial / Ecommerce"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/maxthunberg/miranda-sans"
     },
     {
       "name": "Modelo",
@@ -34528,7 +34527,7 @@
       "foundry": "TYPE Associates",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/typeassociates",
+      "downloadLink": "/downloads/momo-signature.zip",
       "id": "family_momo_signature_1756700015000",
       "variants": [
         {
@@ -34589,7 +34588,8 @@
         "Handwritten / Script",
         "Brand Headline"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/typeassociates"
     },
     {
       "name": "Ojuju",
@@ -34609,7 +34609,7 @@
       "foundry": "UDI Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/jobosonchisa/ojuju",
+      "downloadLink": "/downloads/ojuju.zip",
       "id": "family_ojuju_1756700016000",
       "variants": [
         {
@@ -34712,7 +34712,8 @@
         "Brand Headline",
         "Culture"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/jobosonchisa/ojuju"
     },
     {
       "name": "Paper Mono",
@@ -34730,7 +34731,7 @@
       "foundry": "Paper",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/paper-design/paper-mono",
+      "downloadLink": "/downloads/paper-mono.zip",
       "id": "family_paper_mono_1756700017000",
       "variants": [
         {
@@ -34856,7 +34857,8 @@
         "Code / Data",
         "Interface"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/paper-design/paper-mono"
     },
     {
       "name": "Panchi Mono",
@@ -34937,7 +34939,7 @@
       "foundry": "Duong Tran",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/duongtrtype/DTPhudu",
+      "downloadLink": "/downloads/phudu.zip",
       "id": "family_phudu_1756700019000",
       "variants": [
         {
@@ -35031,7 +35033,8 @@
         "Brand Headline",
         "Poster"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/duongtrtype/DTPhudu"
     },
     {
       "name": "Quattrocento",
@@ -35048,7 +35051,7 @@
       "foundry": "Pablo Impallari",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/quattrocento",
+      "downloadLink": "/downloads/quattrocento.zip",
       "id": "family_quattrocento_1756700020000",
       "variants": [
         {
@@ -35112,7 +35115,8 @@
       "useCases": [
         "Editorial"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Special Gothic",
@@ -35132,7 +35136,7 @@
       "foundry": "Alistair McCready",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/AlistairMcCready/Special-Gothic",
+      "downloadLink": "/downloads/special-gothic.zip",
       "id": "family_special_gothic_1756700021000",
       "variants": [
         {
@@ -35230,7 +35234,8 @@
         "Interface",
         "Brand Headline"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/AlistairMcCready/Special-Gothic"
     },
     {
       "name": "Tomorrow",
@@ -35249,7 +35254,7 @@
       "foundry": "Monica Rizzolli & Tony de Marco",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/MonicaRizzolli/Tomorrow",
+      "downloadLink": "/downloads/tomorrow.zip",
       "id": "family_tomorrow_1756700024000",
       "variants": [
         {
@@ -35634,7 +35639,8 @@
         "Interface",
         "Tech / Digital"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/MonicaRizzolli/Tomorrow"
     },
     {
       "name": "Vend Sans",
@@ -35651,7 +35657,7 @@
       "foundry": "Bold Scandinavia",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/ktkm/Vend-Sans",
+      "downloadLink": "/downloads/vend-sans.zip",
       "id": "family_vend_sans_1756700025000",
       "variants": [
         {
@@ -35836,7 +35842,8 @@
         "Interface",
         "Editorial / Ecommerce"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/ktkm/Vend-Sans"
     },
     {
       "name": "Feroniapi",
@@ -35855,7 +35862,7 @@
       "foundry": "Julienne Richard",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://gitlab.com/velvetyne/feroniapi",
+      "downloadLink": "/downloads/feroniapi.zip",
       "id": "family_feroniapi_1756700026000",
       "variants": [
         {
@@ -35899,7 +35906,8 @@
         "Brand Headline",
         "Culture"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://gitlab.com/velvetyne/feroniapi"
     },
     {
       "name": "Sunday Collaborative Alphabet",
@@ -37178,7 +37186,7 @@
       "foundry": "Mathieu Triay",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/ateliertriay/bricolage",
+      "downloadLink": "/downloads/bricolage-grotesque.zip",
       "id": "family_bricolage_grotesque_1756700003000",
       "variants": [
         {
@@ -37256,7 +37264,8 @@
         "Interface",
         "Editorial / Ecommerce"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/ateliertriay/bricolage"
     },
     {
       "name": "Humane",
@@ -37765,7 +37774,7 @@
       "foundry": "Marco Goran Romano",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/marcogoranromano/riottosa",
+      "downloadLink": "/downloads/riottosa.zip",
       "id": "family_riottosa_1758191000003",
       "variants": [
         {
@@ -37831,7 +37840,8 @@
         "Brand Headline",
         "Experimental"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/marcogoranromano/riottosa"
     },
     {
       "name": "Ambidexter",
@@ -37852,7 +37862,7 @@
       "foundry": "Egor Belozerov",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/egaindahouse/Ambidexter",
+      "downloadLink": "/downloads/ambidexter.zip",
       "id": "family_ambidexter_1758290000001",
       "variants": [
         {
@@ -37904,7 +37914,8 @@
         "Brand Headline",
         "Culture"
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/egaindahouse/Ambidexter"
     },
     {
       "name": "Mirra",
@@ -37981,7 +37992,7 @@
       "foundry": "Alena Krachkovskaya",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/Novelist-Regular.otf",
+      "downloadLink": "/downloads/novelist.zip",
       "id": "family_novelist_1758290000003",
       "variants": [
         {
@@ -38805,7 +38816,7 @@
       "foundry": "WORDMARK",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/calcom/sans",
+      "downloadLink": "/downloads/cal-sans.zip",
       "id": "family_cal_sans_1758460000000",
       "variants": [
         {
@@ -39181,7 +39192,8 @@
           "motive": "paid",
           "gets": "a GEOM axis that runs humanist to fully geometric, opsz 8–45, a real italic, Vietnamese"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/calcom/sans"
     },
     {
       "name": "Memoir",
@@ -39276,7 +39288,7 @@
       "foundry": "42dot",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/42dot/Asta-Sans",
+      "downloadLink": "/downloads/asta-sans.zip",
       "id": "family_asta_sans_1790075385023",
       "variants": [
         {
@@ -39366,7 +39378,8 @@
       "useCases": [
         "Interface",
         "Editorial"
-      ]
+      ],
+      "gitLink": "https://github.com/42dot/Asta-Sans"
     },
     {
       "name": "NKDuy Mono",
@@ -39578,7 +39591,7 @@
       "foundry": "Owen Earl, Indestructible Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/indestructible-type/MFEK-Sans",
+      "downloadLink": "/downloads/mfek-sans.zip",
       "id": "family_mfek_sans_1790075385089",
       "variants": [
         {
@@ -39775,7 +39788,8 @@
       "useCases": [
         "Poster",
         "Brand Headline"
-      ]
+      ],
+      "gitLink": "https://github.com/indestructible-type/MFEK-Sans"
     },
     {
       "name": "Mozilla Text",
@@ -39794,7 +39808,7 @@
       "foundry": "Studio DRAMA for Mozilla",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/mozilla/mozilla-text-type",
+      "downloadLink": "/downloads/mozilla-text.zip",
       "id": "family_mozilla_text_1790075385094",
       "variants": [
         {
@@ -39884,7 +39898,8 @@
       "useCases": [
         "Interface",
         "Editorial"
-      ]
+      ],
+      "gitLink": "https://github.com/mozilla/mozilla-text-type"
     },
     {
       "name": "Werkzeug",
@@ -39904,7 +39919,7 @@
       "foundry": "Dima Grenev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "/fonts/Werkzeug.ttf",
+      "downloadLink": "/downloads/werkzeug.zip",
       "id": "family_werkzeug_1790075385098",
       "variants": [
         {
@@ -39967,7 +39982,7 @@
       "foundry": "printer_scanner, Mother Type",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/mother-type/CoasterSans",
+      "downloadLink": "/downloads/coaster-sans.zip",
       "id": "family_coaster_sans_1790075385102",
       "variants": [
         {
@@ -40001,7 +40016,8 @@
         "Poster",
         "Brand Headline",
         "Culture"
-      ]
+      ],
+      "gitLink": "https://github.com/mother-type/CoasterSans"
     },
     {
       "name": "BVLLET",
@@ -40131,7 +40147,7 @@
       "foundry": "isdaT, François Chastanet",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/isdat-type/Mistral-SingleLine",
+      "downloadLink": "/downloads/mistral-singleline.zip",
       "id": "family_mistral_singleline_1790075385124",
       "variants": [
         {
@@ -40224,7 +40240,8 @@
         "Handwritten / Script",
         "Culture",
         "Poster"
-      ]
+      ],
+      "gitLink": "https://github.com/isdat-type/Mistral-SingleLine"
     },
     {
       "name": "Orbit",
@@ -40244,7 +40261,7 @@
       "foundry": "Sooun Cho",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/JAMO-TYPEFACE/Orbit",
+      "downloadLink": "/downloads/orbit.zip",
       "id": "family_orbit_1790075385129",
       "variants": [
         {
@@ -40285,7 +40302,8 @@
         "Poster",
         "Experimental"
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/JAMO-TYPEFACE/Orbit"
     },
     {
       "name": "Gearbox",
@@ -40541,7 +40559,7 @@
       "foundry": "Capitalics, Mateusz Machalski",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/kosmynkab/Bona-Nova",
+      "downloadLink": "/downloads/bona-nova.zip",
       "id": "family_bona_nova_1790075385151",
       "variants": [
         {
@@ -40746,7 +40764,8 @@
         "Culture",
         "Brand Headline"
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/kosmynkab/Bona-Nova"
     },
     {
       "name": "Dispater",
@@ -41016,7 +41035,7 @@
       "foundry": "Pavel Laptev",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/PavelLaptev/Fliege-mono",
+      "downloadLink": "/downloads/fliege-mono.zip",
       "id": "family_fliege_mono_1791480048819",
       "variants": [
         {
@@ -41107,7 +41126,8 @@
         "Code / Data",
         "Interface",
         "Editorial"
-      ]
+      ],
+      "gitLink": "https://github.com/PavelLaptev/Fliege-mono"
     },
     {
       "name": "Cakra",
@@ -41390,7 +41410,7 @@
       "foundry": "Alina Molchanova, HSE School of Design",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/Defectica-Regular.otf",
+      "downloadLink": "/downloads/defectica.zip",
       "id": "family_defectica_1791480048875",
       "variants": [
         {
@@ -41498,7 +41518,7 @@
       "foundry": "Daniel Ripli",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/Mephisto-Regular.otf",
+      "downloadLink": "/downloads/mephisto.zip",
       "id": "family_mephisto_1791480614548",
       "variants": [
         {
@@ -41757,7 +41777,7 @@
       "foundry": "Hani Adnan",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/haniadnansd/Badeen-Display",
+      "downloadLink": "/downloads/badeen-display.zip",
       "id": "family_badeen_display_1791480614603",
       "variants": [
         {
@@ -41801,7 +41821,8 @@
         "Brand Headline",
         "Culture"
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/haniadnansd/Badeen-Display"
     },
     {
       "name": "Ramp",
@@ -42067,7 +42088,7 @@
       "foundry": "Alexander Pravdin",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/ComicHelvetic.zip",
+      "downloadLink": "/downloads/comic-helvetic.zip",
       "id": "family_comic_helvetic_1791549198557",
       "variants": [
         {
@@ -42156,7 +42177,7 @@
       "foundry": "Jerak Durzan",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/Lighthaus-Regular.otf",
+      "downloadLink": "/downloads/lighthaus.zip",
       "id": "family_lighthaus_1791549198568",
       "variants": [
         {
@@ -42425,7 +42446,7 @@
       "foundry": "Vaishnavi Murthy, Juan Luis Blanco",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/vaishnavimurthy/Akaya-Telivigala",
+      "downloadLink": "/downloads/akaya-telivigala.zip",
       "id": "family_akaya_telivigala_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -42481,7 +42502,8 @@
           "&",
           "ss01"
         ]
-      ]
+      ],
+      "gitLink": "https://github.com/vaishnavimurthy/Akaya-Telivigala"
     },
     {
       "name": "Allan",
@@ -42499,7 +42521,7 @@
       "foundry": "Anton Koovit",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/allan",
+      "downloadLink": "/downloads/allan.zip",
       "id": "family_allan_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -42557,7 +42579,8 @@
           "published": true
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Archivo Narrow",
@@ -42576,7 +42599,7 @@
       "foundry": "Omnibus-Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Omnibus-Type/ArchivoNarrow",
+      "downloadLink": "/downloads/archivo-narrow.zip",
       "id": "family_archivo_narrow_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -42725,7 +42748,8 @@
           ]
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/Omnibus-Type/ArchivoNarrow"
     },
     {
       "name": "Asul",
@@ -42744,7 +42768,7 @@
       "foundry": "Mariela Monsalve",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/asul",
+      "downloadLink": "/downloads/asul.zip",
       "id": "family_asul_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -42800,7 +42824,8 @@
           "published": true
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "BBH Hegarty",
@@ -42818,7 +42843,7 @@
       "foundry": "Studio DRAMA",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/Studio-DRAMA/BBH",
+      "downloadLink": "/downloads/bbh-hegarty.zip",
       "id": "family_bbh_hegarty_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -42964,7 +42989,8 @@
           "&",
           "ss04"
         ]
-      ]
+      ],
+      "gitLink": "https://github.com/Studio-DRAMA/BBH"
     },
     {
       "name": "Chivo Mono",
@@ -42983,7 +43009,7 @@
       "foundry": "Omnibus-Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/Omnibus-Type/Chivo",
+      "downloadLink": "/downloads/chivo-mono.zip",
       "id": "family_chivo_mono_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43178,7 +43204,8 @@
           ]
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/Omnibus-Type/Chivo"
     },
     {
       "name": "Comic Neue",
@@ -43196,7 +43223,7 @@
       "foundry": "Craig Rozynski, Hrant Papazian",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/crozynski/comicneue",
+      "downloadLink": "/downloads/comic-neue.zip",
       "id": "family_comic_neue_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43365,7 +43392,8 @@
           "motive": "original",
           "gets": "Light, Regular and Bold with italics, tidier spacing"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/crozynski/comicneue"
     },
     {
       "name": "Crimson Text",
@@ -43383,7 +43411,7 @@
       "foundry": "Sebastian Kosch",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/Crimson",
+      "downloadLink": "/downloads/crimson-text.zip",
       "id": "family_crimson_text_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43582,7 +43610,8 @@
           "published": true
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/googlefonts/Crimson"
     },
     {
       "name": "Fontdiner Swanky",
@@ -43601,7 +43630,7 @@
       "foundry": "Font Diner",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/apache/fontdinerswanky",
+      "downloadLink": "/downloads/fontdiner-swanky.zip",
       "id": "family_fontdiner_swanky_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43636,7 +43665,8 @@
           "previewUrl": "/fonts/preview/FontdinerSwanky-Regular.woff2"
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Libre Baskerville",
@@ -43653,7 +43683,7 @@
       "foundry": "Impallari Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/impallari/Libre-Baskerville",
+      "downloadLink": "/downloads/libre-baskerville.zip",
       "id": "family_libre_baskerville_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43801,7 +43831,8 @@
           "motive": "original",
           "gets": "wght 400–700 with italics, a taller x-height for 16px body text"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/impallari/Libre-Baskerville"
     },
     {
       "name": "Mynerve",
@@ -43820,7 +43851,7 @@
       "foundry": "Carolina Short",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/carolinashort/MyNerve",
+      "downloadLink": "/downloads/mynerve.zip",
       "id": "family_mynerve_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -43867,7 +43898,8 @@
           "previewUrl": "/fonts/preview/Mynerve-Regular.woff2"
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/carolinashort/MyNerve"
     },
     {
       "name": "Old Standard TT",
@@ -43990,7 +44022,8 @@
           "published": true
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Pinyon Script",
@@ -44009,7 +44042,7 @@
       "foundry": "Nicole Fally",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/SorkinType/Pinyon",
+      "downloadLink": "/downloads/pinyon-script.zip",
       "id": "family_pinyon_script_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -44055,7 +44088,8 @@
           "previewUrl": "/fonts/preview/PinyonScript-Regular.woff2"
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/SorkinType/Pinyon"
     },
     {
       "name": "Pixelify Sans",
@@ -44074,7 +44108,7 @@
       "foundry": "Stefie Justprince",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/eifetx/Pixelify-Sans",
+      "downloadLink": "/downloads/pixelify-sans.zip",
       "id": "family_pixelify_sans_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -44150,7 +44184,8 @@
           "previewUrl": "/fonts/preview/PixelifySans[wght].woff2"
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/eifetx/Pixelify-Sans"
     },
     {
       "name": "Send Flowers",
@@ -44168,7 +44203,7 @@
       "foundry": "Robert Leuschke",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/send-flowers",
+      "downloadLink": "/downloads/send-flowers.zip",
       "id": "family_send_flowers_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -44209,7 +44244,8 @@
           "previewUrl": "/fonts/preview/SendFlowers-Regular.woff2"
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/googlefonts/send-flowers"
     },
     {
       "name": "Stardos Stencil",
@@ -44227,7 +44263,7 @@
       "foundry": "Vernon Adams",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/google/fonts/tree/main/ofl/stardosstencil",
+      "downloadLink": "/downloads/stardos-stencil.zip",
       "id": "family_stardos_stencil_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -44280,7 +44316,8 @@
           "published": true
         }
       ],
-      "altPairs": []
+      "altPairs": [],
+      "gitLink": "https://github.com/google/fonts"
     },
     {
       "name": "Young Serif",
@@ -44299,7 +44336,7 @@
       "foundry": "Bastien Sozeau",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/noirblancrouge/YoungSerif",
+      "downloadLink": "/downloads/young-serif.zip",
       "id": "family_young_serif_1792668292000",
       "createdAt": "2026-10-22T11:24:52.000Z",
       "updatedAt": "2026-10-22T11:24:52.000Z",
@@ -44507,7 +44544,8 @@
           "ss01"
         ]
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/noirblancrouge/YoungSerif"
     },
     {
       "name": "Geist Serif",
@@ -44648,7 +44686,8 @@
           "0",
           "ss05"
         ]
-      ]
+      ],
+      "gitLink": "https://github.com/vercel/geist-font"
     },
     {
       "name": "Super Nugget",
@@ -44667,7 +44706,7 @@
       "foundry": "All Super Font",
       "isVariable": false,
       "published": true,
-      "downloadLink": "/fonts/SuperNugget-Regular.ttf",
+      "downloadLink": "/downloads/super-nugget.zip",
       "id": "family_super_nugget_1793803200000",
       "createdAt": "2026-11-04T14:40:00.000Z",
       "updatedAt": "2026-11-04T14:40:00.000Z",
@@ -45062,7 +45101,7 @@
       "foundry": "Tré Seals, Vocal Type, The League of Moveable Type",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/theleagueof/the-neue-black",
+      "downloadLink": "/downloads/the-neue-black.zip",
       "id": "family_the_neue_black_1794002520000",
       "createdAt": "2026-11-06T22:02:00.000Z",
       "updatedAt": "2026-11-06T22:02:00.000Z",
@@ -45139,7 +45178,8 @@
           ],
           "previewUrl": "/fonts/preview/TheNeueBlackVF.woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/theleagueof/the-neue-black"
     },
     {
       "name": "ABC Areal",
@@ -46463,7 +46503,7 @@
       "foundry": "Tim Vanhille, Matthieu Salvaggio, Internet Development Studio",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/internet-development/www-server-mono",
+      "downloadLink": "/downloads/server-mono.zip",
       "id": "family_server_mono_1794003420000",
       "createdAt": "2026-11-06T22:17:00.000Z",
       "updatedAt": "2026-11-06T22:17:00.000Z",
@@ -46560,7 +46600,8 @@
             }
           ]
         }
-      ]
+      ],
+      "gitLink": "https://github.com/internet-development/www-server-mono"
     },
     {
       "name": "Styro",
@@ -46737,7 +46778,7 @@
       "foundry": "Manushi Parikh, Indian Type Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/itfoundry/teko",
+      "downloadLink": "/downloads/teko.zip",
       "id": "family_teko_1794003600000",
       "createdAt": "2026-11-06T22:20:00.000Z",
       "updatedAt": "2026-11-06T22:20:00.000Z",
@@ -46809,7 +46850,8 @@
           ],
           "previewUrl": "/fonts/preview/Teko-Variable.woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/itfoundry/teko"
     },
     {
       "name": "Telma",
@@ -47507,7 +47549,7 @@
       "foundry": "Olivier Dolbeau, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/velvetyne/Daubenton",
+      "downloadLink": "/downloads/daubenton.zip",
       "id": "family_daubenton_1794004080000",
       "createdAt": "2026-11-06T22:28:00.000Z",
       "updatedAt": "2026-11-06T22:28:00.000Z",
@@ -47536,7 +47578,8 @@
           "published": true,
           "previewUrl": "/fonts/preview/Daubenton.woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/velvetyne/Daubenton"
     },
     {
       "name": "Zinzin VF",
@@ -47555,7 +47598,7 @@
       "foundry": "Adam Twardoch, after Natanael Gama",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/twardoch/varfonts-ofl/tree/master/ZinzinVF-OFL",
+      "downloadLink": "/downloads/zinzin-vf.zip",
       "id": "family_zinzin_vf_1794004090000",
       "createdAt": "2026-11-06T22:28:10.000Z",
       "updatedAt": "2026-11-06T22:28:10.000Z",
@@ -47597,7 +47640,8 @@
         }
       ],
       "npmMirror": false,
-      "noSubset": true
+      "noSubset": true,
+      "gitLink": "https://github.com/twardoch/varfonts-ofl"
     },
     {
       "name": "Amstelvar",
@@ -47617,7 +47661,7 @@
       "foundry": "David Berlow, Font Bureau",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/amstelvar-beta",
+      "downloadLink": "/downloads/amstelvar.zip",
       "id": "family_amstelvar_1794004100000",
       "createdAt": "2026-11-06T22:28:20.000Z",
       "updatedAt": "2026-11-06T22:28:20.000Z",
@@ -47824,7 +47868,8 @@
           "format": "woff2",
           "published": true
         }
-      ]
+      ],
+      "gitLink": "https://github.com/googlefonts/amstelvar-beta"
     },
     {
       "name": "Minipax",
@@ -47841,7 +47886,7 @@
       "foundry": "Raphaël Ronot, Velvetyne Type Foundry",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/ronotypo/Minipax",
+      "downloadLink": "/downloads/minipax.zip",
       "id": "family_minipax_1794004120000",
       "createdAt": "2026-11-06T22:28:40.000Z",
       "updatedAt": "2026-11-06T22:28:40.000Z",
@@ -47946,7 +47991,8 @@
           "previewUrl": "/fonts/preview/Minipax-Variable.woff2"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/ronotypo/Minipax"
     },
     {
       "name": "Hepta Slab",
@@ -47964,7 +48010,7 @@
       "foundry": "Michael LaGattuta",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/mjlagattuta/Hepta-Slab",
+      "downloadLink": "/downloads/hepta-slab.zip",
       "id": "family_hepta_slab_1794004130000",
       "createdAt": "2026-11-06T22:28:50.000Z",
       "updatedAt": "2026-11-06T22:28:50.000Z",
@@ -48103,7 +48149,8 @@
           "previewUrl": "/fonts/preview/HeptaSlab-VF.woff2"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/mjlagattuta/Hepta-Slab"
     },
     {
       "name": "Tilt Prism",
@@ -48122,7 +48169,7 @@
       "foundry": "Andy Clymer",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/Tilt-Fonts",
+      "downloadLink": "/downloads/tilt-prism.zip",
       "id": "family_tilt_prism_1794004190000",
       "createdAt": "2026-11-06T22:29:50.000Z",
       "updatedAt": "2026-11-06T22:29:50.000Z",
@@ -48173,7 +48220,8 @@
           "published": true,
           "previewUrl": "/fonts/preview/TiltPrism[XROT,YROT].woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/googlefonts/Tilt-Fonts"
     },
     {
       "name": "Tilt Warp",
@@ -48192,7 +48240,7 @@
       "foundry": "Andy Clymer",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/Tilt-Fonts",
+      "downloadLink": "/downloads/tilt-warp.zip",
       "id": "family_tilt_warp_1794004200000",
       "createdAt": "2026-11-06T22:30:00.000Z",
       "updatedAt": "2026-11-06T22:30:00.000Z",
@@ -48266,7 +48314,8 @@
           ],
           "previewUrl": "/fonts/preview/TiltWarp[XROT,YROT].woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/googlefonts/Tilt-Fonts"
     },
     {
       "name": "Fraunces",
@@ -48501,7 +48550,7 @@
       "foundry": "Adrien Midzic, Ne-Po",
       "isVariable": true,
       "published": true,
-      "downloadLink": "/fonts/MixalGX.ttf",
+      "downloadLink": "/downloads/mixal.zip",
       "id": "family_mixal_1794004230000",
       "createdAt": "2026-11-06T22:30:30.000Z",
       "updatedAt": "2026-11-06T22:30:30.000Z",
@@ -48623,7 +48672,7 @@
       "foundry": "Vernon Adams",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/googlefonts/AntonFont",
+      "downloadLink": "/downloads/anton.zip",
       "id": "family_anton_1794004245000",
       "createdAt": "2025-09-07T18:49:00.000Z",
       "updatedAt": "2025-09-07T18:49:00.000Z",
@@ -48673,7 +48722,8 @@
           "previewUrl": "/fonts/preview/Anton-Regular.woff2"
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/googlefonts/AntonFont"
     },
     {
       "name": "Gloock",
@@ -48692,7 +48742,7 @@
       "foundry": "Duarte Pinto",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/duartp/gloock",
+      "downloadLink": "/downloads/gloock.zip",
       "id": "family_gloock_1794004255000",
       "createdAt": "2025-09-07T18:49:15.000Z",
       "updatedAt": "2025-09-07T18:49:15.000Z",
@@ -48740,7 +48790,8 @@
           "published": true,
           "previewUrl": "/fonts/preview/Gloock-Regular.woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/duartp/gloock"
     },
     {
       "name": "EB Garamond",
@@ -48760,7 +48811,7 @@
       "foundry": "Georg Duffner, Octavio Pardo",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/octaviopardo/EBGaramond12",
+      "downloadLink": "/downloads/eb-garamond.zip",
       "id": "family_eb_garamond_1794004265000",
       "createdAt": "2025-09-07T18:49:30.000Z",
       "updatedAt": "2025-09-07T18:49:30.000Z",
@@ -48998,7 +49049,8 @@
           ]
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/octaviopardo/EBGaramond12"
     },
     {
       "name": "Be Vietnam Pro",
@@ -49017,7 +49069,7 @@
       "foundry": "Lam Bao, Tony Le, Vietanh Nguyen",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/bettergui/BeVietnamPro",
+      "downloadLink": "/downloads/be-vietnam-pro.zip",
       "id": "family_be_vietnam_pro_1794004275000",
       "createdAt": "2025-09-07T18:49:45.000Z",
       "updatedAt": "2025-09-07T18:49:45.000Z",
@@ -49221,7 +49273,8 @@
             }
           ]
         }
-      ]
+      ],
+      "gitLink": "https://github.com/bettergui/BeVietnamPro"
     },
     {
       "name": "IBM Plex Mono",
@@ -49240,7 +49293,7 @@
       "foundry": "Mike Abbink, Bold Monday, IBM",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/IBM/plex",
+      "downloadLink": "/downloads/ibm-plex-mono.zip",
       "id": "family_ibm_plex_mono_1794004285000",
       "createdAt": "2025-09-07T18:50:00.000Z",
       "updatedAt": "2025-09-07T18:50:00.000Z",
@@ -49509,7 +49562,8 @@
             }
           ]
         }
-      ]
+      ],
+      "gitLink": "https://github.com/IBM/plex"
     },
     {
       "name": "IBM Plex Serif",
@@ -49529,7 +49583,7 @@
       "foundry": "Mike Abbink, Bold Monday, IBM",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/IBM/plex",
+      "downloadLink": "/downloads/ibm-plex-serif.zip",
       "id": "family_ibm_plex_serif_1794004295000",
       "createdAt": "2025-09-07T18:50:15.000Z",
       "updatedAt": "2025-09-07T18:50:15.000Z",
@@ -49777,7 +49831,8 @@
             }
           ]
         }
-      ]
+      ],
+      "gitLink": "https://github.com/IBM/plex"
     },
     {
       "name": "IBM Plex Sans",
@@ -49798,7 +49853,7 @@
       "foundry": "Mike Abbink, Bold Monday, IBM",
       "isVariable": true,
       "published": true,
-      "downloadLink": "https://github.com/IBM/plex",
+      "downloadLink": "/downloads/ibm-plex-sans.zip",
       "id": "family_ibm_plex_sans_1794004305000",
       "createdAt": "2025-09-07T18:50:30.000Z",
       "updatedAt": "2025-09-07T18:50:30.000Z",
@@ -50060,7 +50115,8 @@
             }
           ]
         }
-      ]
+      ],
+      "gitLink": "https://github.com/IBM/plex"
     },
     {
       "name": "Neuton",
@@ -50077,7 +50133,7 @@
       "foundry": "Brian Zick",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/anoxic/neuton",
+      "downloadLink": "/downloads/neuton.zip",
       "id": "family_neuton_1794004124000",
       "createdAt": "2026-11-06T22:28:44.000Z",
       "updatedAt": "2026-11-06T22:28:44.000Z",
@@ -50240,7 +50296,8 @@
           "published": true
         }
       ],
-      "hasSmallCaps": true
+      "hasSmallCaps": true,
+      "gitLink": "https://github.com/anoxic/neuton"
     },
     {
       "name": "Trickster",
@@ -50260,7 +50317,7 @@
       "foundry": "Jean-Baptiste Morizot, Velvetyne Type Foundry",
       "isVariable": false,
       "published": true,
-      "downloadLink": "https://github.com/velvetyne/Trickster",
+      "downloadLink": "/downloads/trickster.zip",
       "id": "family_trickster_1794004127000",
       "createdAt": "2026-11-06T22:28:47.000Z",
       "updatedAt": "2026-11-06T22:28:47.000Z",
@@ -50328,7 +50385,8 @@
           ],
           "previewUrl": "/fonts/preview/Trickster-Reg.woff2"
         }
-      ]
+      ],
+      "gitLink": "https://github.com/velvetyne/Trickster"
     },
     {
       "name": "Allo",

@@ -32,6 +32,7 @@ interface FontData {
   /** Cut-down file the card renders at rest; see scripts/build-preview-subsets.py */
   previewUrl?: string
   downloadLink?: string
+  gitLink?: string
   variableAxes?: Array<{
     name: string
     axis: string

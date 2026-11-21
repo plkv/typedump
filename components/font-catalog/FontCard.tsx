@@ -7,6 +7,7 @@ import { familyToSlug } from '@/lib/font-slug'
 import { getFontFeatureSettings, getFontVariationSettings } from '@/lib/font-style-utils'
 import { IconReset, IconChevronDown } from '@/components/icons'
 import type { FontCollection } from '@/lib/types'
+import { GetFontButtons } from '@/components/font-catalog/GetFontButtons'
 
 // Display-only case for the specimen. Small caps asks for the OpenType feature
 // rather than font-variant-caps, which browsers fake by shrinking capitals.
@@ -57,6 +58,7 @@ export interface FontData {
   /** Cut-down file the card renders at rest; see scripts/build-preview-subsets.py */
   previewUrl?: string
   downloadLink?: string
+  gitLink?: string
   variableAxes?: Array<{ name: string; axis: string; min: number; max: number; default: number }>
   openTypeFeatures?: string[]
   _familyFonts?: any[]
@@ -216,6 +218,7 @@ function FontCardImpl({
 
   const downloadLink = font.downloadLink ||
     font._familyFonts?.find(f => f.downloadLink?.trim())?.downloadLink
+  const gitLink = font.gitLink
 
   // A pointer that went down inside this card. Buttons are not focused on
   // click in every browser, so the blur that leaves the preview arrives with a
@@ -322,18 +325,9 @@ function FontCardImpl({
           </div>
 
           {/* Download */}
-          {downloadLink && (
+          {(downloadLink || gitLink) && (
             <div className="flex items-center gap-2">
-              <button
-                className="v2-badge v2-button-active"
-                onClick={() => {
-                  ;(window as any).gtag?.('event', 'get_font', { font_name: font.name })
-                  window.open(downloadLink, '_blank')
-                }}
-                style={{ cursor: 'pointer' }}
-              >
-                Get font
-              </button>
+              <GetFontButtons name={font.name} downloadLink={downloadLink} gitLink={gitLink} />
             </div>
           )}
         </div>

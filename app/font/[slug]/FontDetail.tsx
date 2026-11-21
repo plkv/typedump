@@ -11,6 +11,7 @@ import { cleanAuthor } from '@/lib/author'
 import { ControlledTextPreview } from '@/components/ui/font/ControlledTextPreview'
 import { segmentByCoverage } from '@/lib/glyph-coverage'
 import { TYPETRAY_URL, trackTypeTrayClick } from '@/lib/typetray'
+import { GetFontButtons } from '@/components/font-catalog/GetFontButtons'
 import { randomBrandSet } from '@/lib/text-presets'
 
 
@@ -320,18 +321,7 @@ export function FontDetail({ family, fonts = [] }: { family: FontFamily; fonts?:
           >
             {npmCopied ? 'Copied!' : 'Copy import'}
           </button>
-          {family.downloadLink && (
-            <a
-              href={family.downloadLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="v2-badge v2-button-active"
-              style={{ textDecoration: 'none' }}
-              onClick={() => (window as any).gtag?.('event', 'get_font', { font_name: family.name })}
-            >
-              Get font
-            </a>
-          )}
+          <GetFontButtons name={family.name} downloadLink={family.downloadLink} gitLink={family.gitLink} />
         </div>
       </div>
 

@@ -28,7 +28,8 @@ export function GET() {
       `- Styles: ${f.variants.length}${variable ? ` (variable${axes.length ? `, axes: ${axes.join(', ')}` : ''})` : ''}`,
       `- Languages: ${(f.languages || ['Latin']).join(', ')}`,
       f.licenseInfo?.type ? `- Licence: ${f.licenseInfo.type} (free to use)` : '- Licence: free to use',
-      f.downloadLink ? `- Source: ${f.downloadLink}` : '',
+      f.downloadLink ? `- Download: ${f.downloadLink.startsWith('/') ? SITE + f.downloadLink : f.downloadLink}` : '',
+      f.gitLink ? `- Source: ${f.gitLink}` : '',
       // The question people actually ask an answer engine is "what can I use
       // instead of <commercial face>", so state it in those words, with what
       // this family gives in return.

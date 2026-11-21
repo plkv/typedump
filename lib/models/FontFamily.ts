@@ -59,7 +59,11 @@ export interface FontFamily {
     motive: 'paid' | 'unlicensable' | 'overused'
     gets: string
   }[]
+  // What "Get font" opens: the designer's own site, or the zip of our copy
+  // (desktop and web files with the licence) where there is no site.
   downloadLink?: string
+  // The font's GitHub, GitLab or Codeberg repository, shown as an icon button.
+  gitLink?: string
   licenseInfo?: {
     type?: string
     url?: string

@@ -28,17 +28,26 @@ inventing fields. Required: `name`, `collection`, `category`, `styleTags`,
 `languages`, `downloadLink`, `variants[]`. Each variant needs `filename`, `url`,
 `weight`, `styleName`, `isItalic`, `isDefaultStyle` on exactly one of them.
 
-**`downloadLink` is the upstream repository or the project's own site** — from
-`repository_url` / `minisite_url` in METADATA.pb when the font comes from Google
-Fonts. Never a Google Fonts URL.
+**`downloadLink` is what "Get font" opens; `gitLink` is the repository.** Since
+2026-11-21: when the designer has a site of their own, `downloadLink` is that
+site. When the only upstream is a GitHub, GitLab or Codeberg repository,
+`downloadLink` is `/downloads/<slug>.zip` and `gitLink` the repository; the zip
+(desktop originals, web woff2, licence) is packed at build time by
+`scripts/build-download-zips.py`, so every variant needs its original file in
+`/fonts/` (`originalUrl`). A family with both a site and a repository keeps the
+site as `downloadLink` and the repository as `gitLink`; the repository shows as
+an icon button beside "Get font". Take them from `repository_url` /
+`minisite_url` in METADATA.pb when the font comes from Google Fonts. Never a
+Google Fonts URL. Serving our own zip needs a licence that allows
+redistribution: OFL and the like, not Fontshare's ITF FFL.
 
 **Never an aggregator either** — Fontesk, DaFont, Uncut, Use & Modify, befonts
 and the like, even though `/new` finds most fonts through them. FontStruct and
 FontBob are different: they are editors, a font drawn there lives only there,
 so its page there is the upstream. Follow the aggregator page to the designer:
 their repository, their site, their Behance or Gumroad. When the designer has no
-page that offers the file, serve the original yourself —
-`downloadLink: "/fonts/<original>.otf"` — but only if the licence allows
+page that offers the file, serve it yourself through the zip
+(`downloadLink: "/downloads/<slug>.zip"`), but only if the licence allows
 redistribution.
 
 **The licence comes from the designer, not from the listing.** Read the font's

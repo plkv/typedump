@@ -73,8 +73,11 @@ The vocabulary is not guessable from the tag names — the definitions live in
 enforces the machine-checkable half of them.
 
 Three fields that carry more weight than they look:
-- **`downloadLink`** — the upstream repository or the project's own site, never
-  a Google Fonts URL. It is what the "Get font" button opens.
+- **`downloadLink`** — what "Get font" opens: the project's own site, or
+  `/downloads/<slug>.zip` (our desktop and web files with the licence, packed
+  by `scripts/build-download-zips.py`) when the upstream is only a repository.
+  The repository itself goes in **`gitLink`** and shows as an icon button.
+  Never a Google Fonts URL.
 - **`previewUrl`** — the cut-down file the catalogue cards load at rest, built
   by `scripts/build-preview-subsets.py`. The full file stays for the download
   link and the detail page.

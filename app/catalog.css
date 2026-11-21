@@ -160,6 +160,21 @@
   line-height: 20px;
 }
 
+/* Badge buttons are links too (Get font, the repository icon): no underline,
+   and the content centred so an icon sits in the middle. */
+a.v2-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* A badge holding only an icon is square, the height of its text neighbours. */
+.v2-badge-icon {
+  width: 40px;
+  padding: 0;
+}
+
 .v2-tag {
   display: inline-block;
   padding: 3px 8px;

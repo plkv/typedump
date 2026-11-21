@@ -5,6 +5,7 @@
   "scripts": {
     "prebuild": "node scripts/generate-font-css.mjs",
     "build": "next build",
+    "postbuild": "python3 scripts/build-download-zips.py",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
