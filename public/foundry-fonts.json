@@ -1,7 +1,144 @@
 {
-  "generatedAt": "2026-11-22T12:27:04.486Z",
+  "generatedAt": "2026-11-24T14:45:28.110Z",
   "count": 300,
   "fonts": [
+    {
+      "name": "Zipp by Spoke",
+      "url": "https://www.futurefonts.com/spoke/zipp",
+      "date": "2026-11-24",
+      "images": [
+        {
+          "src": "/foundry-images/bd42ad8e26122f9b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/602cce7cf483dc44.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e5cd265f4ec345fd.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f4dab62d0c101bac.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8c6f00ac436f51ff.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/549b17407248ed09.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b1088c279b8ea6f4.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a40473d1dbedfa0f.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Future Fonts",
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": []
+    },
+    {
+      "name": "Zerk by Element Type",
+      "url": "https://www.futurefonts.com/element-type/zerk",
+      "date": "2026-11-23",
+      "images": [
+        {
+          "src": "/foundry-images/c4d647fc87951962.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/175318002b34e6d8.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0b5e19c3e959d072.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b6df95efef2606a7.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9e6eed9dc99d7e14.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/be69f3986fdc935b.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3aed93a9d99b7565.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3f72200cc6afe15e.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Future Fonts",
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "MD Thermochrome by Mass-Driver",
+      "url": "https://www.futurefonts.com/mass-driver/thermochrome",
+      "date": "2026-11-23",
+      "images": [
+        {
+          "src": "/foundry-images/9708b0b5ac60fb23.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0d09f71a076931d2.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/51c6487960200ce6.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/0553fced20a204f8.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d7cb1ca8eb4d7ed.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Future Fonts",
+      "foundryUrl": "https://www.futurefonts.com",
+      "category": []
+    },
     {
       "name": "CoFo Friend",
       "url": "https://contrastfoundry.com/typeface/cofo-friend",
@@ -584,6 +721,46 @@
       "category": [
         "Serif"
       ]
+    },
+    {
+      "name": "Qwerty",
+      "url": "https://contemporarytype.com/fonts/qwerty",
+      "date": "2026-10-14",
+      "images": [
+        {
+          "src": "/foundry-images/1e23ac3a47f62093.webp",
+          "width": 875,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/13f1d2ca0ffe6893.webp",
+          "width": 629,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ee6fcf988f8b9c18.webp",
+          "width": 876,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/04c87b073674991f.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3ebf496158e86a3c.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/516c527ebaa1d0dd.webp",
+          "width": 853,
+          "height": 640
+        }
+      ],
+      "foundry": "Contemporary Type",
+      "foundryUrl": "https://contemporarytype.com",
+      "category": []
     },
     {
       "name": "Chill Sans",
@@ -1710,8 +1887,8 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/2bb1fa7ff86cc4a1.webp",
-          "width": 754,
+          "src": "/foundry-images/4751fd995346f933.webp",
+          "width": 639,
           "height": 640
         },
         {
@@ -1935,110 +2112,6 @@
       ]
     },
     {
-      "name": "Kante by Jakob Fangmeier",
-      "url": "https://www.futurefonts.com/jakob-fangmeier/kante",
-      "date": "2026-09-01",
-      "images": [
-        {
-          "src": "/foundry-images/cf47883f188ad83f.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/bdc2ce0125ad3841.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a1c89106395eb55f.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4e94fcebde6d7a57.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/920aa4b073de7152.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e0f6f8085150ece5.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9931e32da59e2d05.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/31eb2c913a912a54.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com",
-      "category": [
-        "Serif"
-      ]
-    },
-    {
-      "name": "Empress by Freds Fonts",
-      "url": "https://www.futurefonts.com/fredsfonts/empress",
-      "date": "2026-08-31",
-      "images": [
-        {
-          "src": "/foundry-images/b92cb26dfb7af3e2.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/0576baeff44aa60a.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8bfcc47a174df916.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4ff2a8e676eac960.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/477bf92e096d85cc.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2046478520031d36.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/65d90d03784949c2.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/1306058526dbc83e.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "LH Noggle Script",
       "url": "https://contemporarytype.com/fonts/noggle-script",
       "date": "2026-08-28",
@@ -2143,58 +2216,6 @@
       "foundryUrl": "https://contemporarytype.com",
       "category": [
         "Script"
-      ]
-    },
-    {
-      "name": "Ragequit by GRIM Type Co.",
-      "url": "https://www.futurefonts.com/grim-type/ragequit",
-      "date": "2026-08-25",
-      "images": [
-        {
-          "src": "/foundry-images/127f12024a762f6c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2ad63fcfc8526bc1.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/6af08b26ecd333ff.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/35e1d98abffddb77.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5ff43ddc3674c9a5.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ee73d23133e4efdc.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/1be14bb19d4f5a35.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/942e6b7bb17bf0ae.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com",
-      "category": [
-        "Semi Serif"
       ]
     },
     {
@@ -5850,28 +5871,6 @@
       ]
     },
     {
-      "name": "Chauffeur",
-      "url": "https://contemporarytype.com/fonts/chauffeur",
-      "date": "2025-12-12",
-      "images": [
-        {
-          "src": "/foundry-images/5460e6be3da70c34.webp",
-          "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/436779d991546137.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Contemporary Type",
-      "foundryUrl": "https://contemporarytype.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Fonema",
       "url": "https://brownfox.org/fonts/fonema",
       "date": "2025-12-08",
@@ -8836,7 +8835,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/e2310d9bfa5f571e.webp",
+          "src": "/foundry-images/ca880797565ba254.webp",
           "width": 896,
           "height": 640
         },
