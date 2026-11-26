@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T14:45:28.110Z",
+  "generatedAt": "2026-11-26T13:46:14.983Z",
   "count": 300,
   "fonts": [
     {
@@ -138,6 +138,33 @@
       "foundry": "Future Fonts",
       "foundryUrl": "https://www.futurefonts.com",
       "category": []
+    },
+    {
+      "name": "MD Thermochrome",
+      "url": "https://mass-driver.com/typefaces/md-thermochrome",
+      "date": "2026-11-22",
+      "images": [
+        {
+          "src": "/foundry-images/7494f798bd661f07.webp",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "src": "/foundry-images/1a75473a1a8b4905.webp",
+          "width": 731,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bd6e1fd6f33430d3.webp",
+          "width": 1105,
+          "height": 640
+        }
+      ],
+      "foundry": "Mass-Driver",
+      "foundryUrl": "https://mass-driver.com",
+      "category": [
+        "Sans"
+      ]
     },
     {
       "name": "CoFo Friend",
@@ -8835,7 +8862,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/ca880797565ba254.webp",
+          "src": "/foundry-images/f4ac7688d6db598f.webp",
           "width": 896,
           "height": 640
         },
@@ -9866,23 +9893,6 @@
       "foundryUrl": "https://www.britishstandardtype.xyz/typefaces",
       "category": [
         "Serif"
-      ]
-    },
-    {
-      "name": "MD Thermochrome",
-      "url": "https://mass-driver.com/typefaces/md-thermochrome",
-      "date": "2024-01-01",
-      "images": [
-        {
-          "src": "/foundry-images/7494f798bd661f07.webp",
-          "width": 1200,
-          "height": 630
-        }
-      ],
-      "foundry": "Mass-Driver",
-      "foundryUrl": "https://mass-driver.com",
-      "category": [
-        "Sans"
       ]
     },
     {
