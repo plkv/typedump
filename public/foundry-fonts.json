@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:46:14.983Z",
+  "generatedAt": "2026-11-27T13:49:53.364Z",
   "count": 300,
   "fonts": [
     {
@@ -376,16 +376,6 @@
         {
           "src": "/foundry-images/c5c7054a36d56edb.webp",
           "width": 512,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/29b080dc037474c4.webp",
-          "width": 1067,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3719f90e5c04f980.webp",
-          "width": 914,
           "height": 640
         }
       ],
@@ -988,58 +978,6 @@
       ]
     },
     {
-      "name": "Simulacra by Benjamin Tuttle",
-      "url": "https://www.futurefonts.com/benjamin-tuttle/simulacra",
-      "date": "2026-10-06",
-      "images": [
-        {
-          "src": "/foundry-images/491a40a90d173e91.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/334d791cce5428d3.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/68ddbe137256cd0c.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9bb6f2a74107cebc.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9583456007a3c612.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b956c7817c7117a2.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/4a9ca7fbd2ae0845.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/cb5cc9c6c58d9dd8.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Future Fonts",
-      "foundryUrl": "https://www.futurefonts.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Urman Sans",
       "url": "https://type-department.com/products/urman-sans",
       "date": "2026-10-06",
@@ -1087,6 +1025,58 @@
       ],
       "foundry": "Type Department",
       "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Simulacra by Benjamin Tuttle",
+      "url": "https://www.futurefonts.com/benjamin-tuttle/simulacra",
+      "date": "2026-10-06",
+      "images": [
+        {
+          "src": "/foundry-images/491a40a90d173e91.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/334d791cce5428d3.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/68ddbe137256cd0c.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9bb6f2a74107cebc.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/9583456007a3c612.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b956c7817c7117a2.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4a9ca7fbd2ae0845.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/cb5cc9c6c58d9dd8.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Future Fonts",
+      "foundryUrl": "https://www.futurefonts.com",
       "category": [
         "Sans"
       ]
@@ -1144,6 +1134,53 @@
       ]
     },
     {
+      "name": "Reticolo",
+      "url": "https://type-department.com/products/reticolo",
+      "date": "2026-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/c111b4a88b7bc7fb.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7c3ece7cf69182b7.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/80194953331214d1.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/5efc1d0ee33db4c8.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/ad0e6e1244752039.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7fa5af5386ab0d51.webp",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/555d2ae783c31108.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Type Department",
+      "foundryUrl": "https://type-department.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
       "name": "Realm by Approximate Type",
       "url": "https://www.futurefonts.com/approximate-type/realm",
       "date": "2026-10-01",
@@ -1191,53 +1228,6 @@
       ],
       "foundry": "Future Fonts",
       "foundryUrl": "https://www.futurefonts.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
-      "name": "Reticolo",
-      "url": "https://type-department.com/products/reticolo",
-      "date": "2026-10-01",
-      "images": [
-        {
-          "src": "/foundry-images/c111b4a88b7bc7fb.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7c3ece7cf69182b7.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/80194953331214d1.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/5efc1d0ee33db4c8.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ad0e6e1244752039.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7fa5af5386ab0d51.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/555d2ae783c31108.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Type Department",
-      "foundryUrl": "https://type-department.com",
       "category": [
         "Sans"
       ]
@@ -2348,53 +2338,6 @@
       "category": [
         "Sans",
         "Mono"
-      ]
-    },
-    {
-      "name": "New Doric",
-      "url": "https://commercialtype.com/catalog/new_doric/new_doric",
-      "date": "2026-08-10",
-      "images": [
-        {
-          "src": "/foundry-images/26d6c30a29505d96.webp",
-          "width": 972,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b85713ef86d84bdf.webp",
-          "width": 1587,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/3b52fbe18e9d3eab.webp",
-          "width": 1587,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/50ed83bcf459fa36.webp",
-          "width": 1587,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/d6687f5017b41848.webp",
-          "width": 1587,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/a2f337e31c669397.webp",
-          "width": 1587,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f4d86cfc72ae1845.webp",
-          "width": 1587,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com",
-      "category": [
-        "Sans"
       ]
     },
     {
@@ -3757,23 +3700,6 @@
       ]
     },
     {
-      "name": "Place Display",
-      "url": "https://commercialtype.com/catalog/place/place_display",
-      "date": "2026-06-01",
-      "images": [
-        {
-          "src": "/foundry-images/ba9d1e68586d5eda.webp",
-          "width": 512,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com",
-      "category": [
-        "Sans"
-      ]
-    },
-    {
       "name": "Fluxetype by Nikita Kanarev",
       "url": "https://type.today/en/collection/fluxetype_collection",
       "date": "2026-05-26",
@@ -3809,12 +3735,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/990ed996f7af6291.webp",
-          "width": 1138,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f373e25420351b2b.webp",
+          "src": "/foundry-images/12c0dde75e5b75cf.webp",
           "width": 1138,
           "height": 640
         }
@@ -6312,6 +6233,58 @@
       ]
     },
     {
+      "name": "Delusse",
+      "url": "https://commercialtype.com/catalog/delusse",
+      "date": "2025-10-01",
+      "images": [
+        {
+          "src": "/foundry-images/ec81dbab4aac2b93.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/e85b3b9cd1656dd0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b5947ba062dda8c0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/56b2a199771f28ef.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/be697722d506432c.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f9ccd1bb495c6cee.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/26d7c8dc389ee3b0.webp",
+          "width": 800,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/8f0e20581a744ef3.webp",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "foundry": "Commercial Type",
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Serif"
+      ]
+    },
+    {
       "name": "Frama",
       "url": "https://pangrampangram.com/products/frama",
       "date": "2025-10-01",
@@ -6413,58 +6386,6 @@
       "foundryUrl": "https://pangrampangram.com",
       "category": [
         "Sans"
-      ]
-    },
-    {
-      "name": "Delusse",
-      "url": "https://commercialtype.com/catalog/delusse",
-      "date": "2025-10-01",
-      "images": [
-        {
-          "src": "/foundry-images/ec81dbab4aac2b93.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/e85b3b9cd1656dd0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/b5947ba062dda8c0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/56b2a199771f28ef.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/be697722d506432c.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/f9ccd1bb495c6cee.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/26d7c8dc389ee3b0.webp",
-          "width": 800,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/8f0e20581a744ef3.webp",
-          "width": 640,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com",
-      "category": [
-        "Serif"
       ]
     },
     {
@@ -6779,6 +6700,23 @@
       ]
     },
     {
+      "name": "Focal Maxi",
+      "url": "https://commercialtype.com/catalog/focal/focal_maxi",
+      "date": "2025-08-01",
+      "images": [
+        {
+          "src": "/foundry-images/7050f31d6be0e05a.webp",
+          "width": 791,
+          "height": 640
+        }
+      ],
+      "foundry": "Commercial Type",
+      "foundryUrl": "https://commercialtype.com",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
       "name": "Serrif",
       "url": "https://displaay.net/typeface/serrif",
       "date": "2025-08-01",
@@ -6793,28 +6731,6 @@
       "foundryUrl": "https://displaay.net",
       "category": [
         "Serif"
-      ]
-    },
-    {
-      "name": "Focal Maxi",
-      "url": "https://commercialtype.com/catalog/focal/focal_maxi",
-      "date": "2025-08-01",
-      "images": [
-        {
-          "src": "/foundry-images/725f2c745cbc96dd.webp",
-          "width": 1004,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/7050f31d6be0e05a.webp",
-          "width": 791,
-          "height": 640
-        }
-      ],
-      "foundry": "Commercial Type",
-      "foundryUrl": "https://commercialtype.com",
-      "category": [
-        "Sans"
       ]
     },
     {
@@ -6927,11 +6843,6 @@
       "date": "2025-07-01",
       "images": [
         {
-          "src": "/foundry-images/168ba8a0359b3051.webp",
-          "width": 640,
-          "height": 640
-        },
-        {
           "src": "/foundry-images/78464400c9b09860.webp",
           "width": 512,
           "height": 640
@@ -6963,6 +6874,11 @@
         },
         {
           "src": "/foundry-images/a45aed6519925dde.webp",
+          "width": 512,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/447a5c9e45b20c34.webp",
           "width": 512,
           "height": 640
         }
@@ -7664,16 +7580,6 @@
         {
           "src": "/foundry-images/0980505878a85633.webp",
           "width": 878,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/ae71e0f0c0881dd1.webp",
-          "width": 975,
-          "height": 430
-        },
-        {
-          "src": "/foundry-images/90ef0f00a5f950e5.webp",
-          "width": 963,
           "height": 640
         }
       ],
@@ -8862,7 +8768,7 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/f4ac7688d6db598f.webp",
+          "src": "/foundry-images/ca880797565ba254.webp",
           "width": 896,
           "height": 640
         },
@@ -8917,31 +8823,6 @@
         },
         {
           "src": "/foundry-images/304bcb1cab1c946e.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/1431fe798b7e3954.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/2cf2a5aeef9f012c.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/50b18201cacca94b.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/439741802666dec2.webp",
-          "width": 961,
-          "height": 640
-        },
-        {
-          "src": "/foundry-images/9baf15d1874d92d9.webp",
           "width": 961,
           "height": 640
         }
@@ -9287,12 +9168,12 @@
           "height": 640
         },
         {
-          "src": "/foundry-images/139c554b2ce61338.webp",
+          "src": "/foundry-images/771eefb224a6a232.webp",
           "width": 1280,
           "height": 640
         },
         {
-          "src": "/foundry-images/771eefb224a6a232.webp",
+          "src": "/foundry-images/835189754c144c62.webp",
           "width": 1280,
           "height": 640
         }
@@ -9301,6 +9182,110 @@
       "foundryUrl": "https://type.today",
       "category": [
         "Sans"
+      ]
+    },
+    {
+      "name": "Bering Stencil by Schrift Foundry",
+      "url": "https://type.today/en/bering_stencil",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/8c96b0642afcc32c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/01fd7cbb690055dd.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3d1232f211df9c6b.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/bd7f84acc39eba89.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/4259644e28944481.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/6cd28284fcc5b1e0.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/f1edd50201a905b1.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/d8cceee733ddbd5b.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Sans"
+      ]
+    },
+    {
+      "name": "Retros by Schrift Foundry",
+      "url": "https://type.today/en/retros",
+      "date": "2024-10-08",
+      "images": [
+        {
+          "src": "/foundry-images/a84fa06390757d1e.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a961c22d9b09ac23.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/3c35709d58fe718c.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b2ddcbc6df382178.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/a8b9c8ed69a1df9f.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/7da6815d3feea998.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/b44fdbeaea0f5858.webp",
+          "width": 1280,
+          "height": 640
+        },
+        {
+          "src": "/foundry-images/69df2ac6e008df84.webp",
+          "width": 1280,
+          "height": 640
+        }
+      ],
+      "foundry": "type.today",
+      "foundryUrl": "https://type.today",
+      "category": [
+        "Serif"
       ]
     },
     {
